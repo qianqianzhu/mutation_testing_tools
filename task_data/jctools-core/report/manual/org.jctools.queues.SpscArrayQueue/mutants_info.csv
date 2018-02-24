@@ -1,0 +1,342 @@
+0	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.<init>(I)V:104 - InsertUnaryOp Negation of capacity
+1	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.<init>(I)V:104 - InsertUnaryOp IINC 1 capacity
+2	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.<init>(I)V:104 - InsertUnaryOp IINC -1 capacity
+3	ReplaceConstant	org.jctools.queues.SpscArrayQueue.<init>(I)V:104 - ReplaceConstant - 4 -> 0
+4	ReplaceConstant	org.jctools.queues.SpscArrayQueue.<init>(I)V:104 - ReplaceConstant - 4 -> 1
+5	ReplaceConstant	org.jctools.queues.SpscArrayQueue.<init>(I)V:104 - ReplaceConstant - 4 -> -1
+6	ReplaceConstant	org.jctools.queues.SpscArrayQueue.<init>(I)V:104 - ReplaceConstant - 4 -> 3
+7	ReplaceConstant	org.jctools.queues.SpscArrayQueue.<init>(I)V:104 - ReplaceConstant - 4 -> 5
+8	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:114 - ReplaceComparisonOperator != -> ==
+9	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:119 - InsertUnaryOp Negation
+10	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:120 - InsertUnaryOp Negation
+11	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:122 - InsertUnaryOp Negation of producerIndex
+12	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:122 - InsertUnaryOp Negation
+13	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:122 - ReplaceComparisonOperator < -> -2
+14	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:122 - ReplaceComparisonOperator < -> !=
+15	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:122 - ReplaceComparisonOperator < -> <=
+16	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:122 - InsertUnaryOp Negation of mask
+17	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:122 - InsertUnaryOp Negation of producerIndex
+18	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:123 - ReplaceComparisonOperator != -> -1
+19	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:123 - ReplaceComparisonOperator != -> <
+20	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:123 - ReplaceComparisonOperator != -> >
+21	ReplaceConstant	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:124 - ReplaceConstant - 0 -> 1
+22	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:126 - InsertUnaryOp Negation of producerIndex
+23	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:126 - InsertUnaryOp Negation of mask
+24	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:128 - InsertUnaryOp Negation of offset
+25	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:129 - InsertUnaryOp Negation of producerIndex
+26	ReplaceConstant	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:129 - ReplaceConstant - 1 -> 0
+27	ReplaceConstant	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:129 - ReplaceConstant - 1 -> -1
+28	ReplaceConstant	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:129 - ReplaceConstant - 1 -> 2
+29	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:129 - ReplaceArithmeticOperator + -> %
+30	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:129 - ReplaceArithmeticOperator + -> -
+31	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:129 - ReplaceArithmeticOperator + -> *
+32	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:129 - ReplaceArithmeticOperator + -> /
+33	ReplaceConstant	org.jctools.queues.SpscArrayQueue.offer(Ljava/lang/Object;)Z:130 - ReplaceConstant - 1 -> 0
+34	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:134 - InsertUnaryOp Negation
+35	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:134 - InsertUnaryOp +1
+36	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:134 - InsertUnaryOp -1
+37	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:135 - InsertUnaryOp Negation of producerIndex
+38	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:135 - InsertUnaryOp Negation of lookAheadStep
+39	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:135 - InsertUnaryOp IINC 1 lookAheadStep
+40	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:135 - InsertUnaryOp IINC -1 lookAheadStep
+41	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:135 - ReplaceArithmeticOperator + -> %
+42	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:135 - ReplaceArithmeticOperator + -> -
+43	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:135 - ReplaceArithmeticOperator + -> *
+44	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:135 - ReplaceArithmeticOperator + -> /
+45	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:135 - InsertUnaryOp Negation of mask
+46	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:135 - ReplaceComparisonOperator != -> ==
+47	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:136 - InsertUnaryOp Negation of producerIndex
+48	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:136 - InsertUnaryOp Negation of lookAheadStep
+49	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:136 - InsertUnaryOp IINC 1 lookAheadStep
+50	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:136 - InsertUnaryOp IINC -1 lookAheadStep
+51	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:136 - ReplaceArithmeticOperator + -> %
+52	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:136 - ReplaceArithmeticOperator + -> -
+53	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:136 - ReplaceArithmeticOperator + -> *
+54	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:136 - ReplaceArithmeticOperator + -> /
+55	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:139 - InsertUnaryOp Negation of producerIndex
+56	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:139 - InsertUnaryOp Negation of mask
+57	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:140 - InsertUnaryOp Negation of offset
+58	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:140 - ReplaceComparisonOperator == -> !=
+59	ReplaceConstant	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:141 - ReplaceConstant - 0 -> 1
+60	ReplaceConstant	org.jctools.queues.SpscArrayQueue.offerSlowPath([Ljava/lang/Object;JJ)Z:144 - ReplaceConstant - 1 -> 0
+61	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.poll()Ljava/lang/Object;:154 - InsertUnaryOp Negation
+62	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.poll()Ljava/lang/Object;:155 - InsertUnaryOp Negation of consumerIndex
+63	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.poll()Ljava/lang/Object;:158 - InsertUnaryOp Negation of offset
+64	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.poll()Ljava/lang/Object;:159 - ReplaceComparisonOperator != -> ==
+65	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.poll()Ljava/lang/Object;:162 - InsertUnaryOp Negation of offset
+66	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.poll()Ljava/lang/Object;:163 - InsertUnaryOp Negation of consumerIndex
+67	ReplaceConstant	org.jctools.queues.SpscArrayQueue.poll()Ljava/lang/Object;:163 - ReplaceConstant - 1 -> 0
+68	ReplaceConstant	org.jctools.queues.SpscArrayQueue.poll()Ljava/lang/Object;:163 - ReplaceConstant - 1 -> -1
+69	ReplaceConstant	org.jctools.queues.SpscArrayQueue.poll()Ljava/lang/Object;:163 - ReplaceConstant - 1 -> 2
+70	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.poll()Ljava/lang/Object;:163 - ReplaceArithmeticOperator + -> %
+71	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.poll()Ljava/lang/Object;:163 - ReplaceArithmeticOperator + -> -
+72	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.poll()Ljava/lang/Object;:163 - ReplaceArithmeticOperator + -> *
+73	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.poll()Ljava/lang/Object;:163 - ReplaceArithmeticOperator + -> /
+74	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.peek()Ljava/lang/Object;:174 - InsertUnaryOp Negation
+75	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.soProducerIndex(J)V:178 - InsertUnaryOp Negation
+76	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.soProducerIndex(J)V:178 - InsertUnaryOp Negation of v
+77	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.soConsumerIndex(J)V:182 - InsertUnaryOp Negation
+78	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.soConsumerIndex(J)V:182 - InsertUnaryOp Negation of v
+79	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.lvProducerIndex()J:186 - InsertUnaryOp Negation
+80	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.lvConsumerIndex()J:190 - InsertUnaryOp Negation
+81	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:221 - InsertUnaryOp Negation
+82	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:222 - InsertUnaryOp Negation
+83	ReplaceConstant	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:224 - ReplaceConstant - 0 -> 1
+84	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:224 - InsertUnaryOp Negation of i
+85	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:224 - InsertUnaryOp IINC 1 i
+86	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:224 - InsertUnaryOp IINC -1 i
+87	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:224 - InsertUnaryOp Negation of limit
+88	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:224 - InsertUnaryOp IINC 1 limit
+89	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:224 - InsertUnaryOp IINC -1 limit
+90	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:224 - ReplaceComparisonOperator >= -> -1
+91	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:224 - ReplaceComparisonOperator >= -> >
+92	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:224 - ReplaceComparisonOperator >= -> ==
+93	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:225 - InsertUnaryOp Negation of consumerIndex
+94	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:225 - InsertUnaryOp Negation of i
+95	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:225 - InsertUnaryOp IINC 1 i
+96	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:225 - InsertUnaryOp IINC -1 i
+97	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:225 - ReplaceArithmeticOperator + -> %
+98	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:225 - ReplaceArithmeticOperator + -> -
+99	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:225 - ReplaceArithmeticOperator + -> *
+100	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:225 - ReplaceArithmeticOperator + -> /
+101	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:226 - InsertUnaryOp Negation of index
+102	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:226 - InsertUnaryOp Negation of mask
+103	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:227 - InsertUnaryOp Negation of offset
+104	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:228 - ReplaceComparisonOperator != -> ==
+105	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:229 - InsertUnaryOp Negation of i
+106	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:229 - InsertUnaryOp IINC 1 i
+107	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:229 - InsertUnaryOp IINC -1 i
+108	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:231 - InsertUnaryOp Negation of offset
+109	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:232 - InsertUnaryOp Negation of index
+110	ReplaceConstant	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:232 - ReplaceConstant - 1 -> 0
+111	ReplaceConstant	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:232 - ReplaceConstant - 1 -> -1
+112	ReplaceConstant	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:232 - ReplaceConstant - 1 -> 2
+113	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:232 - ReplaceArithmeticOperator + -> %
+114	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:232 - ReplaceArithmeticOperator + -> -
+115	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:232 - ReplaceArithmeticOperator + -> *
+116	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:232 - ReplaceArithmeticOperator + -> /
+117	ReplaceVariable	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:224 - ReplaceVariable i -> limit
+118	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:235 - InsertUnaryOp Negation of limit
+119	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:235 - InsertUnaryOp IINC 1 limit
+120	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;I)I:235 - InsertUnaryOp IINC -1 limit
+121	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:241 - InsertUnaryOp Negation
+122	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:242 - InsertUnaryOp Negation
+123	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:242 - InsertUnaryOp +1
+124	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:242 - InsertUnaryOp -1
+125	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:243 - InsertUnaryOp Negation
+126	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:245 - ReplaceConstant - 0 -> 1
+127	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:245 - InsertUnaryOp Negation of i
+128	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:245 - InsertUnaryOp IINC 1 i
+129	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:245 - InsertUnaryOp IINC -1 i
+130	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:245 - InsertUnaryOp Negation of limit
+131	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:245 - InsertUnaryOp IINC 1 limit
+132	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:245 - InsertUnaryOp IINC -1 limit
+133	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:245 - ReplaceComparisonOperator >= -> -1
+134	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:245 - ReplaceComparisonOperator >= -> >
+135	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:245 - ReplaceComparisonOperator >= -> ==
+136	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:246 - InsertUnaryOp Negation of producerIndex
+137	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:246 - InsertUnaryOp Negation of i
+138	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:246 - InsertUnaryOp IINC 1 i
+139	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:246 - InsertUnaryOp IINC -1 i
+140	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:246 - ReplaceArithmeticOperator + -> %
+141	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:246 - ReplaceArithmeticOperator + -> -
+142	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:246 - ReplaceArithmeticOperator + -> *
+143	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:246 - ReplaceArithmeticOperator + -> /
+144	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:247 - InsertUnaryOp Negation of index
+145	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:247 - InsertUnaryOp Negation of lookAheadStep
+146	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:247 - InsertUnaryOp IINC 1 lookAheadStep
+147	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:247 - InsertUnaryOp IINC -1 lookAheadStep
+148	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:247 - ReplaceArithmeticOperator + -> %
+149	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:247 - ReplaceArithmeticOperator + -> -
+150	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:247 - ReplaceArithmeticOperator + -> *
+151	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:247 - ReplaceArithmeticOperator + -> /
+152	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:247 - InsertUnaryOp Negation of mask
+153	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:248 - InsertUnaryOp Negation of lookAheadElementOffset
+154	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:248 - ReplaceComparisonOperator != -> ==
+155	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:249 - InsertUnaryOp Negation of lookAheadStep
+156	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:249 - InsertUnaryOp IINC 1 lookAheadStep
+157	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:249 - InsertUnaryOp IINC -1 lookAheadStep
+158	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:249 - InsertUnaryOp Negation of limit
+159	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:249 - InsertUnaryOp IINC 1 limit
+160	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:249 - InsertUnaryOp IINC -1 limit
+161	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:249 - InsertUnaryOp Negation of i
+162	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:249 - InsertUnaryOp IINC 1 i
+163	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:249 - InsertUnaryOp IINC -1 i
+164	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:249 - ReplaceArithmeticOperator - -> +
+165	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:249 - ReplaceArithmeticOperator - -> %
+166	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:249 - ReplaceArithmeticOperator - -> *
+167	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:249 - ReplaceArithmeticOperator - -> /
+168	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:250 - ReplaceConstant - 0 -> 1
+169	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:250 - InsertUnaryOp Negation of j
+170	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:250 - InsertUnaryOp IINC 1 j
+171	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:250 - InsertUnaryOp IINC -1 j
+172	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:250 - InsertUnaryOp Negation of lookAheadLimit
+173	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:250 - InsertUnaryOp IINC 1 lookAheadLimit
+174	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:250 - InsertUnaryOp IINC -1 lookAheadLimit
+175	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:250 - ReplaceComparisonOperator >= -> -1
+176	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:250 - ReplaceComparisonOperator >= -> >
+177	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:250 - ReplaceComparisonOperator >= -> ==
+178	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:251 - InsertUnaryOp Negation of index
+179	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:251 - InsertUnaryOp Negation of j
+180	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:251 - InsertUnaryOp IINC 1 j
+181	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:251 - InsertUnaryOp IINC -1 j
+182	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:251 - ReplaceArithmeticOperator + -> %
+183	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:251 - ReplaceArithmeticOperator + -> -
+184	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:251 - ReplaceArithmeticOperator + -> *
+185	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:251 - ReplaceArithmeticOperator + -> /
+186	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:251 - InsertUnaryOp Negation of mask
+187	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:252 - InsertUnaryOp Negation of offset
+188	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:253 - InsertUnaryOp Negation of index
+189	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:253 - InsertUnaryOp Negation of j
+190	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:253 - InsertUnaryOp IINC 1 j
+191	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:253 - InsertUnaryOp IINC -1 j
+192	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:253 - ReplaceArithmeticOperator + -> %
+193	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:253 - ReplaceArithmeticOperator + -> -
+194	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:253 - ReplaceArithmeticOperator + -> *
+195	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:253 - ReplaceArithmeticOperator + -> /
+196	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:253 - ReplaceConstant - 1 -> 0
+197	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:253 - ReplaceConstant - 1 -> -1
+198	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:253 - ReplaceConstant - 1 -> 2
+199	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:253 - ReplaceArithmeticOperator + -> %
+200	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:253 - ReplaceArithmeticOperator + -> -
+201	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:253 - ReplaceArithmeticOperator + -> *
+202	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:253 - ReplaceArithmeticOperator + -> /
+203	ReplaceVariable	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:250 - ReplaceVariable j -> lookAheadLimit
+204	ReplaceVariable	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:250 - ReplaceVariable j -> limit
+205	ReplaceVariable	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:250 - ReplaceVariable j -> i
+206	ReplaceVariable	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:250 - ReplaceVariable j -> lookAheadStep
+207	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:255 - InsertUnaryOp Negation of i
+208	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:255 - InsertUnaryOp IINC 1 i
+209	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:255 - InsertUnaryOp IINC -1 i
+210	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:255 - InsertUnaryOp Negation of lookAheadLimit
+211	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:255 - InsertUnaryOp IINC 1 lookAheadLimit
+212	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:255 - InsertUnaryOp IINC -1 lookAheadLimit
+213	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:255 - ReplaceConstant - 1 -> 0
+214	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:255 - ReplaceArithmeticOperator - -> +
+215	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:255 - ReplaceArithmeticOperator - -> %
+216	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:255 - ReplaceArithmeticOperator - -> *
+217	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:255 - ReplaceArithmeticOperator - -> /
+218	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:255 - ReplaceArithmeticOperator + -> %
+219	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:255 - ReplaceArithmeticOperator + -> -
+220	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:255 - ReplaceArithmeticOperator + -> *
+221	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:255 - ReplaceArithmeticOperator + -> /
+222	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:258 - InsertUnaryOp Negation of index
+223	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:258 - InsertUnaryOp Negation of mask
+224	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:259 - InsertUnaryOp Negation of offset
+225	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:259 - ReplaceComparisonOperator == -> !=
+226	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:260 - InsertUnaryOp Negation of i
+227	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:260 - InsertUnaryOp IINC 1 i
+228	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:260 - InsertUnaryOp IINC -1 i
+229	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:262 - InsertUnaryOp Negation of offset
+230	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:263 - InsertUnaryOp Negation of index
+231	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:263 - ReplaceConstant - 1 -> 0
+232	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:263 - ReplaceConstant - 1 -> -1
+233	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:263 - ReplaceConstant - 1 -> 2
+234	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:263 - ReplaceArithmeticOperator + -> %
+235	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:263 - ReplaceArithmeticOperator + -> -
+236	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:263 - ReplaceArithmeticOperator + -> *
+237	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:263 - ReplaceArithmeticOperator + -> /
+238	ReplaceVariable	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:245 - ReplaceVariable i -> limit
+239	ReplaceVariable	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:245 - ReplaceVariable i -> lookAheadStep
+240	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:267 - InsertUnaryOp Negation of limit
+241	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:267 - InsertUnaryOp IINC 1 limit
+242	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;I)I:267 - InsertUnaryOp IINC -1 limit
+243	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:273 - InsertUnaryOp Negation
+244	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:274 - InsertUnaryOp Negation
+245	ReplaceConstant	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:276 - ReplaceConstant - 0 -> 1
+246	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:277 - ReplaceComparisonOperator == -> -2
+247	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:277 - ReplaceComparisonOperator == -> >=
+248	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:277 - ReplaceComparisonOperator == -> <=
+249	ReplaceConstant	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:278 - ReplaceConstant - 0 -> 1
+250	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:278 - InsertUnaryOp Negation of i
+251	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:278 - InsertUnaryOp IINC 1 i
+252	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:278 - InsertUnaryOp IINC -1 i
+253	ReplaceConstant	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:278 - ReplaceConstant - 4096 -> 0
+254	ReplaceConstant	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:278 - ReplaceConstant - 4096 -> 1
+255	ReplaceConstant	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:278 - ReplaceConstant - 4096 -> -1
+256	ReplaceConstant	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:278 - ReplaceConstant - 4096 -> 4095
+257	ReplaceConstant	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:278 - ReplaceConstant - 4096 -> 4097
+258	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:278 - ReplaceComparisonOperator >= -> -1
+259	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:278 - ReplaceComparisonOperator >= -> >
+260	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:278 - ReplaceComparisonOperator >= -> ==
+261	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:279 - InsertUnaryOp Negation of consumerIndex
+262	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:279 - InsertUnaryOp Negation of mask
+263	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:280 - InsertUnaryOp Negation of offset
+264	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:281 - ReplaceComparisonOperator != -> ==
+265	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:282 - InsertUnaryOp Negation of counter
+266	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:282 - InsertUnaryOp IINC 1 counter
+267	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:282 - InsertUnaryOp IINC -1 counter
+268	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:285 - InsertUnaryOp Negation of consumerIndex
+269	ReplaceConstant	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:285 - ReplaceConstant - 1 -> 0
+270	ReplaceConstant	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:285 - ReplaceConstant - 1 -> -1
+271	ReplaceConstant	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:285 - ReplaceConstant - 1 -> 2
+272	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:285 - ReplaceArithmeticOperator + -> %
+273	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:285 - ReplaceArithmeticOperator + -> -
+274	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:285 - ReplaceArithmeticOperator + -> *
+275	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:285 - ReplaceArithmeticOperator + -> /
+276	ReplaceConstant	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:286 - ReplaceConstant - 0 -> 1
+277	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:287 - InsertUnaryOp Negation of offset
+278	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:288 - InsertUnaryOp Negation of consumerIndex
+279	ReplaceVariable	org.jctools.queues.SpscArrayQueue.drain(Lorg/jctools/queues/MessagePassingQueue$Consumer;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:278 - ReplaceVariable i -> counter
+280	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:297 - InsertUnaryOp Negation
+281	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:298 - InsertUnaryOp Negation
+282	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:298 - InsertUnaryOp +1
+283	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:298 - InsertUnaryOp -1
+284	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:299 - InsertUnaryOp Negation
+285	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:300 - ReplaceConstant - 0 -> 1
+286	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:301 - ReplaceComparisonOperator == -> -2
+287	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:301 - ReplaceComparisonOperator == -> >=
+288	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:301 - ReplaceComparisonOperator == -> <=
+289	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:302 - InsertUnaryOp Negation of producerIndex
+290	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:302 - InsertUnaryOp Negation of lookAheadStep
+291	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:302 - InsertUnaryOp IINC 1 lookAheadStep
+292	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:302 - InsertUnaryOp IINC -1 lookAheadStep
+293	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:302 - ReplaceArithmeticOperator + -> %
+294	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:302 - ReplaceArithmeticOperator + -> -
+295	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:302 - ReplaceArithmeticOperator + -> *
+296	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:302 - ReplaceArithmeticOperator + -> /
+297	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:302 - InsertUnaryOp Negation of mask
+298	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:303 - InsertUnaryOp Negation of lookAheadElementOffset
+299	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:303 - ReplaceComparisonOperator != -> ==
+300	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:304 - ReplaceConstant - 0 -> 1
+301	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:304 - InsertUnaryOp Negation of j
+302	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:304 - InsertUnaryOp IINC 1 j
+303	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:304 - InsertUnaryOp IINC -1 j
+304	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:304 - InsertUnaryOp Negation of lookAheadStep
+305	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:304 - InsertUnaryOp IINC 1 lookAheadStep
+306	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:304 - InsertUnaryOp IINC -1 lookAheadStep
+307	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:304 - ReplaceComparisonOperator >= -> -1
+308	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:304 - ReplaceComparisonOperator >= -> >
+309	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:304 - ReplaceComparisonOperator >= -> ==
+310	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:305 - InsertUnaryOp Negation of producerIndex
+311	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:305 - InsertUnaryOp Negation of mask
+312	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:306 - InsertUnaryOp Negation of producerIndex
+313	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:306 - ReplaceConstant - 1 -> 0
+314	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:306 - ReplaceConstant - 1 -> -1
+315	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:306 - ReplaceConstant - 1 -> 2
+316	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:306 - ReplaceArithmeticOperator + -> %
+317	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:306 - ReplaceArithmeticOperator + -> -
+318	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:306 - ReplaceArithmeticOperator + -> *
+319	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:306 - ReplaceArithmeticOperator + -> /
+320	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:307 - InsertUnaryOp Negation of offset
+321	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:308 - InsertUnaryOp Negation of producerIndex
+322	ReplaceVariable	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:304 - ReplaceVariable j -> lookAheadStep
+323	ReplaceVariable	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:304 - ReplaceVariable j -> counter
+324	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:312 - InsertUnaryOp Negation of producerIndex
+325	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:312 - InsertUnaryOp Negation of mask
+326	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:313 - InsertUnaryOp Negation of offset
+327	ReplaceComparisonOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:313 - ReplaceComparisonOperator == -> !=
+328	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:314 - InsertUnaryOp Negation of counter
+329	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:314 - InsertUnaryOp IINC 1 counter
+330	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:314 - InsertUnaryOp IINC -1 counter
+331	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:317 - InsertUnaryOp Negation of producerIndex
+332	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:317 - ReplaceConstant - 1 -> 0
+333	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:317 - ReplaceConstant - 1 -> -1
+334	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:317 - ReplaceConstant - 1 -> 2
+335	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:317 - ReplaceArithmeticOperator + -> %
+336	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:317 - ReplaceArithmeticOperator + -> -
+337	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:317 - ReplaceArithmeticOperator + -> *
+338	ReplaceArithmeticOperator	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:317 - ReplaceArithmeticOperator + -> /
+339	ReplaceConstant	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:318 - ReplaceConstant - 0 -> 1
+340	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:319 - InsertUnaryOp Negation of offset
+341	InsertUnaryOp	org.jctools.queues.SpscArrayQueue.fill(Lorg/jctools/queues/MessagePassingQueue$Supplier;Lorg/jctools/queues/MessagePassingQueue$WaitStrategy;Lorg/jctools/queues/MessagePassingQueue$ExitCondition;)V:320 - InsertUnaryOp Negation of producerIndex

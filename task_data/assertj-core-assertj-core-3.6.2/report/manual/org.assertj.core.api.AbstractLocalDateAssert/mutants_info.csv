@@ -1,0 +1,38 @@
+0	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.isBefore(Ljava/time/LocalDate;)Lorg/assertj/core/api/AbstractLocalDateAssert;:64 - ReplaceComparisonOperator != -> -1
+1	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.isBefore(Ljava/time/LocalDate;)Lorg/assertj/core/api/AbstractLocalDateAssert;:64 - ReplaceComparisonOperator != -> <
+2	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.isBefore(Ljava/time/LocalDate;)Lorg/assertj/core/api/AbstractLocalDateAssert;:64 - ReplaceComparisonOperator != -> >
+3	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.isBeforeOrEqualTo(Ljava/time/LocalDate;)Lorg/assertj/core/api/AbstractLocalDateAssert;:106 - ReplaceComparisonOperator == -> -2
+4	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.isBeforeOrEqualTo(Ljava/time/LocalDate;)Lorg/assertj/core/api/AbstractLocalDateAssert;:106 - ReplaceComparisonOperator == -> >=
+5	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.isBeforeOrEqualTo(Ljava/time/LocalDate;)Lorg/assertj/core/api/AbstractLocalDateAssert;:106 - ReplaceComparisonOperator == -> <=
+6	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.isAfterOrEqualTo(Ljava/time/LocalDate;)Lorg/assertj/core/api/AbstractLocalDateAssert;:151 - ReplaceComparisonOperator == -> -2
+7	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.isAfterOrEqualTo(Ljava/time/LocalDate;)Lorg/assertj/core/api/AbstractLocalDateAssert;:151 - ReplaceComparisonOperator == -> >=
+8	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.isAfterOrEqualTo(Ljava/time/LocalDate;)Lorg/assertj/core/api/AbstractLocalDateAssert;:151 - ReplaceComparisonOperator == -> <=
+9	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.isAfter(Ljava/time/LocalDate;)Lorg/assertj/core/api/AbstractLocalDateAssert;:195 - ReplaceComparisonOperator != -> -1
+10	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.isAfter(Ljava/time/LocalDate;)Lorg/assertj/core/api/AbstractLocalDateAssert;:195 - ReplaceComparisonOperator != -> <
+11	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.isAfter(Ljava/time/LocalDate;)Lorg/assertj/core/api/AbstractLocalDateAssert;:195 - ReplaceComparisonOperator != -> >
+12	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.isToday()Lorg/assertj/core/api/AbstractLocalDateAssert;:327 - ReplaceComparisonOperator != -> -1
+13	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.isToday()Lorg/assertj/core/api/AbstractLocalDateAssert;:327 - ReplaceComparisonOperator != -> <
+14	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.isToday()Lorg/assertj/core/api/AbstractLocalDateAssert;:327 - ReplaceComparisonOperator != -> >
+15	ReplaceConstant	org.assertj.core.api.AbstractLocalDateAssert.convertToLocalDateArray([Ljava/lang/String;)[Ljava/lang/Object;:333 - ReplaceConstant - 0 -> 1
+16	InsertUnaryOp	org.assertj.core.api.AbstractLocalDateAssert.convertToLocalDateArray([Ljava/lang/String;)[Ljava/lang/Object;:333 - InsertUnaryOp Negation of i
+17	InsertUnaryOp	org.assertj.core.api.AbstractLocalDateAssert.convertToLocalDateArray([Ljava/lang/String;)[Ljava/lang/Object;:333 - InsertUnaryOp IINC 1 i
+18	InsertUnaryOp	org.assertj.core.api.AbstractLocalDateAssert.convertToLocalDateArray([Ljava/lang/String;)[Ljava/lang/Object;:333 - InsertUnaryOp IINC -1 i
+19	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.convertToLocalDateArray([Ljava/lang/String;)[Ljava/lang/Object;:333 - ReplaceComparisonOperator >= -> -1
+20	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.convertToLocalDateArray([Ljava/lang/String;)[Ljava/lang/Object;:333 - ReplaceComparisonOperator >= -> >
+21	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.convertToLocalDateArray([Ljava/lang/String;)[Ljava/lang/Object;:333 - ReplaceComparisonOperator >= -> ==
+22	InsertUnaryOp	org.assertj.core.api.AbstractLocalDateAssert.convertToLocalDateArray([Ljava/lang/String;)[Ljava/lang/Object;:334 - InsertUnaryOp Negation of i
+23	InsertUnaryOp	org.assertj.core.api.AbstractLocalDateAssert.convertToLocalDateArray([Ljava/lang/String;)[Ljava/lang/Object;:334 - InsertUnaryOp IINC 1 i
+24	InsertUnaryOp	org.assertj.core.api.AbstractLocalDateAssert.convertToLocalDateArray([Ljava/lang/String;)[Ljava/lang/Object;:334 - InsertUnaryOp IINC -1 i
+25	InsertUnaryOp	org.assertj.core.api.AbstractLocalDateAssert.convertToLocalDateArray([Ljava/lang/String;)[Ljava/lang/Object;:334 - InsertUnaryOp Negation of i
+26	InsertUnaryOp	org.assertj.core.api.AbstractLocalDateAssert.convertToLocalDateArray([Ljava/lang/String;)[Ljava/lang/Object;:334 - InsertUnaryOp IINC 1 i
+27	InsertUnaryOp	org.assertj.core.api.AbstractLocalDateAssert.convertToLocalDateArray([Ljava/lang/String;)[Ljava/lang/Object;:334 - InsertUnaryOp IINC -1 i
+28	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.checkIsNotNullAndNotEmpty([Ljava/lang/Object;)V:340 - ReplaceComparisonOperator != null -> = null
+29	ReplaceConstant	org.assertj.core.api.AbstractLocalDateAssert.checkIsNotNullAndNotEmpty([Ljava/lang/Object;)V:340 - ReplaceConstant - The given LocalDate array should not be null -> 
+30	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.checkIsNotNullAndNotEmpty([Ljava/lang/Object;)V:341 - ReplaceComparisonOperator != -> -1
+31	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.checkIsNotNullAndNotEmpty([Ljava/lang/Object;)V:341 - ReplaceComparisonOperator != -> <
+32	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.checkIsNotNullAndNotEmpty([Ljava/lang/Object;)V:341 - ReplaceComparisonOperator != -> >
+33	ReplaceConstant	org.assertj.core.api.AbstractLocalDateAssert.checkIsNotNullAndNotEmpty([Ljava/lang/Object;)V:341 - ReplaceConstant - The given LocalDate array should not be empty -> 
+34	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.assertLocalDateAsStringParameterIsNotNull(Ljava/lang/String;)V:353 - ReplaceComparisonOperator != null -> = null
+35	ReplaceConstant	org.assertj.core.api.AbstractLocalDateAssert.assertLocalDateAsStringParameterIsNotNull(Ljava/lang/String;)V:353 - ReplaceConstant - The String representing the LocalDate to compare actual with should not be null -> 
+36	ReplaceComparisonOperator	org.assertj.core.api.AbstractLocalDateAssert.assertLocalDateParameterIsNotNull(Ljava/time/LocalDate;)V:365 - ReplaceComparisonOperator != null -> = null
+37	ReplaceConstant	org.assertj.core.api.AbstractLocalDateAssert.assertLocalDateParameterIsNotNull(Ljava/time/LocalDate;)V:365 - ReplaceConstant - The LocalDate to compare actual with should not be null -> 

@@ -1,0 +1,46 @@
+0	ReplaceConstant	org.jfree.chart.renderer.category.CategoryItemRendererState.<init>(Lorg/jfree/chart/plot/PlotRenderingInfo;)V:83 - ReplaceConstant - 0.0 -> 1.0
+1	ReplaceConstant	org.jfree.chart.renderer.category.CategoryItemRendererState.<init>(Lorg/jfree/chart/plot/PlotRenderingInfo;)V:83 - ReplaceConstant - 0.0 -> -1.0
+2	ReplaceConstant	org.jfree.chart.renderer.category.CategoryItemRendererState.<init>(Lorg/jfree/chart/plot/PlotRenderingInfo;)V:84 - ReplaceConstant - 0.0 -> 1.0
+3	ReplaceConstant	org.jfree.chart.renderer.category.CategoryItemRendererState.<init>(Lorg/jfree/chart/plot/PlotRenderingInfo;)V:84 - ReplaceConstant - 0.0 -> -1.0
+4	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getBarWidth()D:95 - InsertUnaryOp Negation
+5	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.setBarWidth(D)V:107 - InsertUnaryOp Negation of width
+6	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getSeriesRunningTotal()D:118 - InsertUnaryOp Negation
+7	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.setSeriesRunningTotal(D)V:130 - InsertUnaryOp Negation of total
+8	ReplaceComparisonOperator	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:172 - ReplaceComparisonOperator != null -> = null
+9	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:173 - InsertUnaryOp Negation of rowIndex
+10	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:173 - InsertUnaryOp IINC 1 rowIndex
+11	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:173 - InsertUnaryOp IINC -1 rowIndex
+12	ReplaceConstant	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:175 - ReplaceConstant - -1 -> 0
+13	ReplaceConstant	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:175 - ReplaceConstant - -1 -> 1
+14	ReplaceConstant	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:175 - ReplaceConstant - -1 -> -2
+15	ReplaceConstant	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:176 - ReplaceConstant - 0 -> 1
+16	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:176 - InsertUnaryOp Negation of vRow
+17	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:176 - InsertUnaryOp IINC 1 vRow
+18	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:176 - InsertUnaryOp IINC -1 vRow
+19	ReplaceComparisonOperator	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:176 - ReplaceComparisonOperator >= -> -1
+20	ReplaceComparisonOperator	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:176 - ReplaceComparisonOperator >= -> >
+21	ReplaceComparisonOperator	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:176 - ReplaceComparisonOperator >= -> ==
+22	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:177 - InsertUnaryOp Negation of vRow
+23	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:177 - InsertUnaryOp IINC 1 vRow
+24	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:177 - InsertUnaryOp IINC -1 vRow
+25	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:177 - InsertUnaryOp Negation of rowIndex
+26	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:177 - InsertUnaryOp IINC 1 rowIndex
+27	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:177 - InsertUnaryOp IINC -1 rowIndex
+28	ReplaceComparisonOperator	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:177 - ReplaceComparisonOperator != -> -1
+29	ReplaceComparisonOperator	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:177 - ReplaceComparisonOperator != -> <
+30	ReplaceComparisonOperator	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:177 - ReplaceComparisonOperator != -> >
+31	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:178 - InsertUnaryOp Negation of vRow
+32	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:178 - InsertUnaryOp IINC 1 vRow
+33	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:178 - InsertUnaryOp IINC -1 vRow
+34	ReplaceVariable	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:176 - ReplaceVariable vRow -> index
+35	ReplaceVariable	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:176 - ReplaceVariable vRow -> rowIndex
+36	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:182 - InsertUnaryOp Negation of index
+37	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:182 - InsertUnaryOp IINC 1 index
+38	InsertUnaryOp	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesIndex(I)I:182 - InsertUnaryOp IINC -1 index
+39	ReplaceComparisonOperator	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesCount()I:194 - ReplaceComparisonOperator != null -> = null
+40	ReplaceConstant	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesCount()I:195 - ReplaceConstant - -1 -> 0
+41	ReplaceConstant	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesCount()I:195 - ReplaceConstant - -1 -> 1
+42	ReplaceConstant	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesCount()I:195 - ReplaceConstant - -1 -> -2
+43	ReplaceComparisonOperator	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesArray()[I:208 - ReplaceComparisonOperator != null -> = null
+44	ReplaceConstant	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesArray()[I:212 - ReplaceConstant - 0 -> 1
+45	ReplaceConstant	org.jfree.chart.renderer.category.CategoryItemRendererState.getVisibleSeriesArray()[I:212 - ReplaceConstant - 0 -> 1

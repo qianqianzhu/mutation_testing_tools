@@ -1,0 +1,126 @@
+0	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.toLazyIterable(Ljava/util/Iterator;)Ljava/lang/Iterable;:110 - ReplaceComparisonOperator != null -> = null
+1	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.hasSize(I)Lorg/assertj/core/api/AbstractIterableAssert;:162 - InsertUnaryOp Negation of expected
+2	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.hasSize(I)Lorg/assertj/core/api/AbstractIterableAssert;:162 - InsertUnaryOp IINC 1 expected
+3	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.hasSize(I)Lorg/assertj/core/api/AbstractIterableAssert;:162 - InsertUnaryOp IINC -1 expected
+4	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.hasOnlyOneElementSatisfying(Ljava/util/function/Consumer;)V:217 - ReplaceConstant - 1 -> 0
+5	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.areAtLeastOne(Lorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:416 - ReplaceConstant - 1 -> 0
+6	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.areAtLeast(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:425 - InsertUnaryOp Negation of times
+7	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.areAtLeast(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:425 - InsertUnaryOp IINC 1 times
+8	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.areAtLeast(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:425 - InsertUnaryOp IINC -1 times
+9	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.areAtMost(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:434 - InsertUnaryOp Negation of times
+10	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.areAtMost(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:434 - InsertUnaryOp IINC 1 times
+11	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.areAtMost(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:434 - InsertUnaryOp IINC -1 times
+12	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.areExactly(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:443 - InsertUnaryOp Negation of times
+13	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.areExactly(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:443 - InsertUnaryOp IINC 1 times
+14	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.areExactly(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:443 - InsertUnaryOp IINC -1 times
+15	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.haveAtLeastOne(Lorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:450 - ReplaceConstant - 1 -> 0
+16	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.haveAtLeast(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:458 - InsertUnaryOp Negation of times
+17	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.haveAtLeast(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:458 - InsertUnaryOp IINC 1 times
+18	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.haveAtLeast(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:458 - InsertUnaryOp IINC -1 times
+19	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.haveAtMost(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:467 - InsertUnaryOp Negation of times
+20	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.haveAtMost(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:467 - InsertUnaryOp IINC 1 times
+21	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.haveAtMost(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:467 - InsertUnaryOp IINC -1 times
+22	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.haveExactly(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:476 - InsertUnaryOp Negation of times
+23	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.haveExactly(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:476 - InsertUnaryOp IINC 1 times
+24	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.haveExactly(ILorg/assertj/core/api/Condition;)Lorg/assertj/core/api/AbstractIterableAssert;:476 - InsertUnaryOp IINC -1 times
+25	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Lorg/assertj/core/api/iterable/Extractor;)Lorg/assertj/core/api/AbstractListAssert;:991 - ReplaceComparisonOperator == -> -2
+26	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Lorg/assertj/core/api/iterable/Extractor;)Lorg/assertj/core/api/AbstractListAssert;:991 - ReplaceComparisonOperator == -> >=
+27	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Lorg/assertj/core/api/iterable/Extractor;)Lorg/assertj/core/api/AbstractListAssert;:991 - ReplaceComparisonOperator == -> <=
+28	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.flatExtracting([Lorg/assertj/core/api/iterable/Extractor;)Lorg/assertj/core/api/ListAssert;:1025 - ReplaceConstant - 0 -> 1
+29	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1064 - ReplaceComparisonOperator == -> -2
+30	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1064 - ReplaceComparisonOperator == -> >=
+31	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1064 - ReplaceComparisonOperator == -> <=
+32	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1066 - ReplaceComparisonOperator == -> -2
+33	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1066 - ReplaceComparisonOperator == -> >=
+34	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1066 - ReplaceComparisonOperator == -> <=
+35	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1068 - ReplaceConstant - 0 -> 1
+36	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1068 - InsertUnaryOp Negation of i
+37	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1068 - InsertUnaryOp IINC 1 i
+38	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1068 - InsertUnaryOp IINC -1 i
+39	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1068 - InsertUnaryOp Negation of size
+40	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1068 - InsertUnaryOp IINC 1 size
+41	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1068 - InsertUnaryOp IINC -1 size
+42	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1068 - ReplaceComparisonOperator >= -> -1
+43	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1068 - ReplaceComparisonOperator >= -> >
+44	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1068 - ReplaceComparisonOperator >= -> ==
+45	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1069 - InsertUnaryOp Negation of i
+46	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1069 - InsertUnaryOp IINC 1 i
+47	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1069 - InsertUnaryOp IINC -1 i
+48	ReplaceVariable	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1068 - ReplaceVariable i -> size
+49	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1071 - ReplaceComparisonOperator == -> -2
+50	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1071 - ReplaceComparisonOperator == -> >=
+51	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1071 - ReplaceComparisonOperator == -> <=
+52	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1073 - ReplaceComparisonOperator == -> -2
+53	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1073 - ReplaceComparisonOperator == -> >=
+54	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting(Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1073 - ReplaceComparisonOperator == -> <=
+55	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.extracting([Ljava/util/function/Function;)Lorg/assertj/core/api/ListAssert;:1144 - ReplaceConstant - 0 -> 1
+56	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting([Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1174 - ReplaceComparisonOperator == -> -2
+57	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting([Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1174 - ReplaceComparisonOperator == -> >=
+58	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.flatExtracting([Ljava/lang/String;)Lorg/assertj/core/api/AbstractListAssert;:1174 - ReplaceComparisonOperator == -> <=
+59	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.usingComparatorForElementFieldsWithNames(Ljava/util/Comparator;[Ljava/lang/String;)Lorg/assertj/core/api/AbstractIterableAssert;:1267 - ReplaceConstant - 0 -> 1
+60	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.usingComparatorForElementFieldsWithNames(Ljava/util/Comparator;[Ljava/lang/String;)Lorg/assertj/core/api/AbstractIterableAssert;:1267 - ReplaceComparisonOperator >= -> -1
+61	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.usingComparatorForElementFieldsWithNames(Ljava/util/Comparator;[Ljava/lang/String;)Lorg/assertj/core/api/AbstractIterableAssert;:1267 - ReplaceComparisonOperator >= -> >
+62	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.usingComparatorForElementFieldsWithNames(Ljava/util/Comparator;[Ljava/lang/String;)Lorg/assertj/core/api/AbstractIterableAssert;:1267 - ReplaceComparisonOperator >= -> ==
+63	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.first()Lorg/assertj/core/api/AbstractAssert;:1819 - ReplaceConstant - check first element -> 
+64	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.last()Lorg/assertj/core/api/AbstractAssert;:1865 - ReplaceConstant - check last element -> 
+65	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.lastElement()Ljava/lang/Object;:1869 - ReplaceComparisonOperator == -> -2
+66	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.lastElement()Ljava/lang/Object;:1869 - ReplaceComparisonOperator == -> >=
+67	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.lastElement()Ljava/lang/Object;:1869 - ReplaceComparisonOperator == -> <=
+68	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.lastElement()Ljava/lang/Object;:1871 - ReplaceConstant - 1 -> 0
+69	ReplaceArithmeticOperator	org.assertj.core.api.AbstractIterableAssert.lastElement()Ljava/lang/Object;:1871 - ReplaceArithmeticOperator - -> +
+70	ReplaceArithmeticOperator	org.assertj.core.api.AbstractIterableAssert.lastElement()Ljava/lang/Object;:1871 - ReplaceArithmeticOperator - -> %
+71	ReplaceArithmeticOperator	org.assertj.core.api.AbstractIterableAssert.lastElement()Ljava/lang/Object;:1871 - ReplaceArithmeticOperator - -> *
+72	ReplaceArithmeticOperator	org.assertj.core.api.AbstractIterableAssert.lastElement()Ljava/lang/Object;:1871 - ReplaceArithmeticOperator - -> /
+73	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.lastElement()Ljava/lang/Object;:1875 - ReplaceComparisonOperator == -> -2
+74	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.lastElement()Ljava/lang/Object;:1875 - ReplaceComparisonOperator == -> >=
+75	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.lastElement()Ljava/lang/Object;:1875 - ReplaceComparisonOperator == -> <=
+76	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1924 - InsertUnaryOp Negation of index
+77	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1924 - InsertUnaryOp IINC 1 index
+78	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1924 - InsertUnaryOp IINC -1 index
+79	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1924 - ReplaceConstant - check index validity -> 
+80	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1924 - ReplaceConstant - 0 -> 1
+81	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1924 - ReplaceConstant - 0 -> 1
+82	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1925 - ReplaceConstant - 1 -> 0
+83	ReplaceArithmeticOperator	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1925 - ReplaceArithmeticOperator - -> +
+84	ReplaceArithmeticOperator	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1925 - ReplaceArithmeticOperator - -> %
+85	ReplaceArithmeticOperator	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1925 - ReplaceArithmeticOperator - -> *
+86	ReplaceArithmeticOperator	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1925 - ReplaceArithmeticOperator - -> /
+87	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1927 - ReplaceComparisonOperator == -> -2
+88	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1927 - ReplaceComparisonOperator == -> >=
+89	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1927 - ReplaceComparisonOperator == -> <=
+90	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1929 - InsertUnaryOp Negation of index
+91	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1929 - InsertUnaryOp IINC 1 index
+92	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1929 - InsertUnaryOp IINC -1 index
+93	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1932 - ReplaceConstant - 0 -> 1
+94	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1932 - InsertUnaryOp Negation of i
+95	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1932 - InsertUnaryOp IINC 1 i
+96	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1932 - InsertUnaryOp IINC -1 i
+97	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1932 - InsertUnaryOp Negation of index
+98	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1932 - InsertUnaryOp IINC 1 index
+99	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1932 - InsertUnaryOp IINC -1 index
+100	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1932 - ReplaceComparisonOperator >= -> -1
+101	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1932 - ReplaceComparisonOperator >= -> >
+102	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1932 - ReplaceComparisonOperator >= -> ==
+103	ReplaceVariable	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1932 - ReplaceVariable i -> index
+104	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1938 - ReplaceConstant - element at index  -> 
+105	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1938 - InsertUnaryOp Negation of index
+106	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1938 - InsertUnaryOp IINC 1 index
+107	InsertUnaryOp	org.assertj.core.api.AbstractIterableAssert.element(I)Lorg/assertj/core/api/AbstractAssert;:1938 - InsertUnaryOp IINC -1 index
+108	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.navigationDescription(Ljava/lang/String;)Ljava/lang/String;:1945 - ReplaceComparisonOperator == -> -2
+109	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.navigationDescription(Ljava/lang/String;)Ljava/lang/String;:1945 - ReplaceComparisonOperator == -> >=
+110	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.navigationDescription(Ljava/lang/String;)Ljava/lang/String;:1945 - ReplaceComparisonOperator == -> <=
+111	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.navigationDescription(Ljava/lang/String;)Ljava/lang/String;:1948 - ReplaceConstant -   -> 
+112	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.removeAssert(Ljava/lang/String;)Ljava/lang/String;:1952 - ReplaceConstant - Assert -> 
+113	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.removeAssert(Ljava/lang/String;)Ljava/lang/String;:1952 - ReplaceComparisonOperator == -> -2
+114	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.removeAssert(Ljava/lang/String;)Ljava/lang/String;:1952 - ReplaceComparisonOperator == -> >=
+115	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.removeAssert(Ljava/lang/String;)Ljava/lang/String;:1952 - ReplaceComparisonOperator == -> <=
+116	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.removeAssert(Ljava/lang/String;)Ljava/lang/String;:1952 - ReplaceConstant - 0 -> 1
+117	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.removeAssert(Ljava/lang/String;)Ljava/lang/String;:1952 - ReplaceConstant - Assert -> 
+118	ReplaceArithmeticOperator	org.assertj.core.api.AbstractIterableAssert.removeAssert(Ljava/lang/String;)Ljava/lang/String;:1952 - ReplaceArithmeticOperator - -> +
+119	ReplaceArithmeticOperator	org.assertj.core.api.AbstractIterableAssert.removeAssert(Ljava/lang/String;)Ljava/lang/String;:1952 - ReplaceArithmeticOperator - -> %
+120	ReplaceArithmeticOperator	org.assertj.core.api.AbstractIterableAssert.removeAssert(Ljava/lang/String;)Ljava/lang/String;:1952 - ReplaceArithmeticOperator - -> *
+121	ReplaceArithmeticOperator	org.assertj.core.api.AbstractIterableAssert.removeAssert(Ljava/lang/String;)Ljava/lang/String;:1952 - ReplaceArithmeticOperator - -> /
+122	ReplaceComparisonOperator	org.assertj.core.api.AbstractIterableAssert.filteredOn(Ljava/util/function/Predicate;)Lorg/assertj/core/api/AbstractListAssert;:1974 - ReplaceComparisonOperator != null -> = null
+123	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.filteredOn(Ljava/util/function/Predicate;)Lorg/assertj/core/api/AbstractListAssert;:1974 - ReplaceConstant - The filter predicate should not be null -> 
+124	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.filteredOn(Ljava/util/function/Predicate;)Lorg/assertj/core/api/AbstractListAssert;:1975 - ReplaceConstant - 0 -> 1
+125	ReplaceConstant	org.assertj.core.api.AbstractIterableAssert.size()Lorg/assertj/core/api/AbstractIterableSizeAssert;:2196 - ReplaceConstant - Can not perform assertions on the size of a null iterable. -> 

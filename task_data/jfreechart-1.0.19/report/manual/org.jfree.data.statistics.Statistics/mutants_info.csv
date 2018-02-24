@@ -1,0 +1,808 @@
+0	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;)D:73 - ReplaceConstant - 1 -> 0
+1	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:92 - ReplaceConstant - values -> 
+2	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:93 - ReplaceConstant - 0.0 -> 1.0
+3	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:93 - ReplaceConstant - 0.0 -> -1.0
+4	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:95 - ReplaceConstant - 0 -> 1
+5	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:96 - ReplaceConstant - 0 -> 1
+6	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:96 - InsertUnaryOp Negation of i
+7	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:96 - InsertUnaryOp IINC 1 i
+8	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:96 - InsertUnaryOp IINC -1 i
+9	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:96 - ReplaceComparisonOperator >= -> -1
+10	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:96 - ReplaceComparisonOperator >= -> >
+11	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:96 - ReplaceComparisonOperator >= -> ==
+12	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:98 - InsertUnaryOp Negation of i
+13	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:98 - InsertUnaryOp IINC 1 i
+14	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:98 - InsertUnaryOp IINC -1 i
+15	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:98 - ReplaceComparisonOperator = null -> != null
+16	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:99 - InsertUnaryOp Negation of i
+17	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:99 - InsertUnaryOp IINC 1 i
+18	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:99 - InsertUnaryOp IINC -1 i
+19	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:102 - ReplaceConstant - NaN -> 0.0
+20	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:102 - ReplaceConstant - NaN -> 1.0
+21	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:102 - ReplaceConstant - NaN -> -1.0
+22	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:102 - ReplaceConstant - NaN -> NaN
+23	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:105 - InsertUnaryOp Negation of includeNullAndNaN
+24	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:105 - InsertUnaryOp IINC 1 includeNullAndNaN
+25	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:105 - InsertUnaryOp IINC -1 includeNullAndNaN
+26	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:105 - ReplaceComparisonOperator != -> -1
+27	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:105 - ReplaceComparisonOperator != -> <
+28	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:105 - ReplaceComparisonOperator != -> >
+29	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:105 - InsertUnaryOp Negation of current
+30	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:105 - ReplaceComparisonOperator != -> -1
+31	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:105 - ReplaceComparisonOperator != -> <
+32	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:105 - ReplaceComparisonOperator != -> >
+33	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:106 - InsertUnaryOp Negation of sum
+34	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:106 - InsertUnaryOp Negation of current
+35	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:106 - ReplaceArithmeticOperator + -> %
+36	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:106 - ReplaceArithmeticOperator + -> -
+37	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:106 - ReplaceArithmeticOperator + -> *
+38	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:106 - ReplaceArithmeticOperator + -> /
+39	ReplaceVariable	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:107 - ReplaceVariable counter -> i
+40	ReplaceVariable	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:96 - ReplaceVariable i -> counter
+41	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:110 - InsertUnaryOp Negation of sum
+42	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:110 - InsertUnaryOp Negation of counter
+43	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:110 - InsertUnaryOp IINC 1 counter
+44	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:110 - InsertUnaryOp IINC -1 counter
+45	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:110 - ReplaceArithmeticOperator / -> +
+46	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:110 - ReplaceArithmeticOperator / -> %
+47	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:110 - ReplaceArithmeticOperator / -> -
+48	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:110 - ReplaceArithmeticOperator / -> *
+49	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean([Ljava/lang/Number;Z)D:111 - InsertUnaryOp Negation of result
+50	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;)D:122 - ReplaceConstant - 1 -> 0
+51	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:141 - ReplaceConstant - values -> 
+52	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:142 - ReplaceConstant - 0 -> 1
+53	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:143 - ReplaceConstant - 0.0 -> 1.0
+54	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:143 - ReplaceConstant - 0.0 -> -1.0
+55	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:145 - ReplaceComparisonOperator == -> -2
+56	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:145 - ReplaceComparisonOperator == -> >=
+57	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:145 - ReplaceComparisonOperator == -> <=
+58	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:147 - ReplaceComparisonOperator != null -> = null
+59	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:148 - InsertUnaryOp Negation of includeNullAndNaN
+60	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:148 - InsertUnaryOp IINC 1 includeNullAndNaN
+61	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:148 - InsertUnaryOp IINC -1 includeNullAndNaN
+62	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:148 - ReplaceComparisonOperator == -> -2
+63	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:148 - ReplaceComparisonOperator == -> >=
+64	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:148 - ReplaceComparisonOperator == -> <=
+65	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:149 - ReplaceConstant - NaN -> 0.0
+66	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:149 - ReplaceConstant - NaN -> 1.0
+67	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:149 - ReplaceConstant - NaN -> -1.0
+68	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:149 - ReplaceConstant - NaN -> NaN
+69	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:153 - ReplaceComparisonOperator == -> -2
+70	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:153 - ReplaceComparisonOperator == -> >=
+71	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:153 - ReplaceComparisonOperator == -> <=
+72	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:156 - InsertUnaryOp Negation of value
+73	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:156 - ReplaceComparisonOperator == -> -2
+74	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:156 - ReplaceComparisonOperator == -> >=
+75	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:156 - ReplaceComparisonOperator == -> <=
+76	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:157 - InsertUnaryOp Negation of includeNullAndNaN
+77	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:157 - InsertUnaryOp IINC 1 includeNullAndNaN
+78	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:157 - InsertUnaryOp IINC -1 includeNullAndNaN
+79	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:157 - ReplaceComparisonOperator == -> -2
+80	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:157 - ReplaceComparisonOperator == -> >=
+81	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:157 - ReplaceComparisonOperator == -> <=
+82	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:158 - ReplaceConstant - NaN -> 0.0
+83	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:158 - ReplaceConstant - NaN -> 1.0
+84	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:158 - ReplaceConstant - NaN -> -1.0
+85	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:158 - ReplaceConstant - NaN -> NaN
+86	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:162 - InsertUnaryOp Negation of total
+87	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:162 - ReplaceArithmeticOperator + -> %
+88	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:162 - ReplaceArithmeticOperator + -> -
+89	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:162 - ReplaceArithmeticOperator + -> *
+90	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:162 - ReplaceArithmeticOperator + -> /
+91	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:163 - InsertUnaryOp Negation of count
+92	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:163 - InsertUnaryOp IINC 1 count
+93	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:163 - InsertUnaryOp IINC -1 count
+94	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:163 - ReplaceConstant - 1 -> 0
+95	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:163 - ReplaceArithmeticOperator + -> %
+96	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:163 - ReplaceArithmeticOperator + -> -
+97	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:163 - ReplaceArithmeticOperator + -> *
+98	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:163 - ReplaceArithmeticOperator + -> /
+99	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:168 - InsertUnaryOp Negation of total
+100	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:168 - InsertUnaryOp Negation of count
+101	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:168 - InsertUnaryOp IINC 1 count
+102	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:168 - InsertUnaryOp IINC -1 count
+103	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:168 - ReplaceArithmeticOperator / -> +
+104	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:168 - ReplaceArithmeticOperator / -> %
+105	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:168 - ReplaceArithmeticOperator / -> -
+106	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMean(Ljava/util/Collection;Z)D:168 - ReplaceArithmeticOperator / -> *
+107	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;)D:183 - ReplaceConstant - 1 -> 0
+108	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:199 - ReplaceConstant - NaN -> 0.0
+109	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:199 - ReplaceConstant - NaN -> 1.0
+110	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:199 - ReplaceConstant - NaN -> -1.0
+111	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:199 - ReplaceConstant - NaN -> NaN
+112	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:200 - ReplaceComparisonOperator = null -> != null
+113	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:201 - InsertUnaryOp Negation of copyAndSort
+114	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:201 - InsertUnaryOp IINC 1 copyAndSort
+115	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:201 - InsertUnaryOp IINC -1 copyAndSort
+116	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:201 - ReplaceComparisonOperator == -> -2
+117	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:201 - ReplaceComparisonOperator == -> >=
+118	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:201 - ReplaceComparisonOperator == -> <=
+119	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:203 - InsertUnaryOp Negation of itemCount
+120	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:203 - InsertUnaryOp IINC 1 itemCount
+121	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:203 - InsertUnaryOp IINC -1 itemCount
+122	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:204 - ReplaceConstant - 0 -> 1
+123	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:204 - InsertUnaryOp Negation of i
+124	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:204 - InsertUnaryOp IINC 1 i
+125	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:204 - InsertUnaryOp IINC -1 i
+126	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:204 - InsertUnaryOp Negation of itemCount
+127	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:204 - InsertUnaryOp IINC 1 itemCount
+128	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:204 - InsertUnaryOp IINC -1 itemCount
+129	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:204 - ReplaceComparisonOperator >= -> -1
+130	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:204 - ReplaceComparisonOperator >= -> >
+131	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:204 - ReplaceComparisonOperator >= -> ==
+132	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:205 - InsertUnaryOp Negation of i
+133	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:205 - InsertUnaryOp IINC 1 i
+134	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:205 - InsertUnaryOp IINC -1 i
+135	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:205 - InsertUnaryOp Negation of i
+136	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:205 - InsertUnaryOp IINC 1 i
+137	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:205 - InsertUnaryOp IINC -1 i
+138	ReplaceVariable	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:204 - ReplaceVariable i -> itemCount
+139	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:211 - InsertUnaryOp Negation of count
+140	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:211 - InsertUnaryOp IINC 1 count
+141	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:211 - InsertUnaryOp IINC -1 count
+142	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:211 - ReplaceComparisonOperator <= -> -1
+143	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:211 - ReplaceComparisonOperator <= -> ==
+144	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:211 - ReplaceComparisonOperator <= -> <
+145	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:212 - InsertUnaryOp Negation of count
+146	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:212 - InsertUnaryOp IINC 1 count
+147	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:212 - InsertUnaryOp IINC -1 count
+148	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:212 - ReplaceConstant - 2 -> 0
+149	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:212 - ReplaceConstant - 2 -> 1
+150	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:212 - ReplaceConstant - 2 -> -1
+151	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:212 - ReplaceConstant - 2 -> 3
+152	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:212 - ReplaceArithmeticOperator % -> +
+153	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:212 - ReplaceArithmeticOperator % -> -
+154	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:212 - ReplaceArithmeticOperator % -> *
+155	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:212 - ReplaceArithmeticOperator % -> /
+156	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:212 - ReplaceConstant - 1 -> 0
+157	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:212 - ReplaceComparisonOperator != -> -1
+158	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:212 - ReplaceComparisonOperator != -> <
+159	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:212 - ReplaceComparisonOperator != -> >
+160	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:213 - InsertUnaryOp Negation of count
+161	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:213 - InsertUnaryOp IINC 1 count
+162	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:213 - InsertUnaryOp IINC -1 count
+163	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:213 - ReplaceConstant - 1 -> 0
+164	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:213 - ReplaceComparisonOperator <= -> -1
+165	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:213 - ReplaceComparisonOperator <= -> <
+166	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:213 - ReplaceComparisonOperator <= -> ==
+167	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:214 - InsertUnaryOp Negation of count
+168	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:214 - InsertUnaryOp IINC 1 count
+169	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:214 - InsertUnaryOp IINC -1 count
+170	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:214 - ReplaceConstant - 1 -> 0
+171	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:214 - ReplaceArithmeticOperator - -> +
+172	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:214 - ReplaceArithmeticOperator - -> %
+173	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:214 - ReplaceArithmeticOperator - -> *
+174	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:214 - ReplaceArithmeticOperator - -> /
+175	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:214 - ReplaceConstant - 2 -> 0
+176	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:214 - ReplaceConstant - 2 -> 1
+177	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:214 - ReplaceConstant - 2 -> -1
+178	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:214 - ReplaceConstant - 2 -> 3
+179	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:214 - ReplaceArithmeticOperator / -> +
+180	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:214 - ReplaceArithmeticOperator / -> %
+181	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:214 - ReplaceArithmeticOperator / -> -
+182	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:214 - ReplaceArithmeticOperator / -> *
+183	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:218 - ReplaceConstant - 0 -> 1
+184	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:223 - InsertUnaryOp Negation of count
+185	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:223 - InsertUnaryOp IINC 1 count
+186	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:223 - InsertUnaryOp IINC -1 count
+187	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:223 - ReplaceConstant - 2 -> 0
+188	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:223 - ReplaceConstant - 2 -> 1
+189	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:223 - ReplaceConstant - 2 -> -1
+190	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:223 - ReplaceConstant - 2 -> 3
+191	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:223 - ReplaceArithmeticOperator / -> +
+192	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:223 - ReplaceArithmeticOperator / -> %
+193	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:223 - ReplaceArithmeticOperator / -> -
+194	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:223 - ReplaceArithmeticOperator / -> *
+195	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:223 - ReplaceConstant - 1 -> 0
+196	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:223 - ReplaceArithmeticOperator - -> +
+197	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:223 - ReplaceArithmeticOperator - -> %
+198	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:223 - ReplaceArithmeticOperator - -> *
+199	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:223 - ReplaceArithmeticOperator - -> /
+200	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:224 - InsertUnaryOp Negation of count
+201	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:224 - InsertUnaryOp IINC 1 count
+202	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:224 - InsertUnaryOp IINC -1 count
+203	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:224 - ReplaceConstant - 2 -> 0
+204	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:224 - ReplaceConstant - 2 -> 1
+205	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:224 - ReplaceConstant - 2 -> -1
+206	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:224 - ReplaceConstant - 2 -> 3
+207	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:224 - ReplaceArithmeticOperator / -> +
+208	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:224 - ReplaceArithmeticOperator / -> %
+209	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:224 - ReplaceArithmeticOperator / -> -
+210	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:224 - ReplaceArithmeticOperator / -> *
+211	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:225 - ReplaceArithmeticOperator + -> %
+212	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:225 - ReplaceArithmeticOperator + -> -
+213	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:225 - ReplaceArithmeticOperator + -> *
+214	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:225 - ReplaceArithmeticOperator + -> /
+215	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:225 - ReplaceConstant - 2.0 -> 0.0
+216	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:225 - ReplaceConstant - 2.0 -> 1.0
+217	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:225 - ReplaceConstant - 2.0 -> -1.0
+218	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:225 - ReplaceConstant - 2.0 -> 3.0
+219	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:225 - ReplaceArithmeticOperator / -> +
+220	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:225 - ReplaceArithmeticOperator / -> %
+221	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:225 - ReplaceArithmeticOperator / -> -
+222	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:225 - ReplaceArithmeticOperator / -> *
+223	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;Z)D:230 - InsertUnaryOp Negation of result
+224	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;II)D:244 - InsertUnaryOp Negation of start
+225	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;II)D:244 - InsertUnaryOp IINC 1 start
+226	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;II)D:244 - InsertUnaryOp IINC -1 start
+227	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;II)D:244 - InsertUnaryOp Negation of end
+228	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;II)D:244 - InsertUnaryOp IINC 1 end
+229	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;II)D:244 - InsertUnaryOp IINC -1 end
+230	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;II)D:244 - ReplaceConstant - 1 -> 0
+231	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:263 - ReplaceConstant - NaN -> 0.0
+232	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:263 - ReplaceConstant - NaN -> 1.0
+233	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:263 - ReplaceConstant - NaN -> -1.0
+234	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:263 - ReplaceConstant - NaN -> NaN
+235	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:264 - InsertUnaryOp Negation of copyAndSort
+236	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:264 - InsertUnaryOp IINC 1 copyAndSort
+237	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:264 - InsertUnaryOp IINC -1 copyAndSort
+238	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:264 - ReplaceComparisonOperator == -> -2
+239	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:264 - ReplaceComparisonOperator == -> >=
+240	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:264 - ReplaceComparisonOperator == -> <=
+241	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:265 - InsertUnaryOp Negation of end
+242	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:265 - InsertUnaryOp IINC 1 end
+243	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:265 - InsertUnaryOp IINC -1 end
+244	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:265 - InsertUnaryOp Negation of start
+245	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:265 - InsertUnaryOp IINC 1 start
+246	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:265 - InsertUnaryOp IINC -1 start
+247	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:265 - ReplaceArithmeticOperator - -> +
+248	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:265 - ReplaceArithmeticOperator - -> %
+249	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:265 - ReplaceArithmeticOperator - -> *
+250	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:265 - ReplaceArithmeticOperator - -> /
+251	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:265 - ReplaceConstant - 1 -> 0
+252	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:265 - ReplaceArithmeticOperator + -> %
+253	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:265 - ReplaceArithmeticOperator + -> -
+254	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:265 - ReplaceArithmeticOperator + -> *
+255	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:265 - ReplaceArithmeticOperator + -> /
+256	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:266 - InsertUnaryOp Negation of start
+257	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:266 - InsertUnaryOp IINC 1 start
+258	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:266 - InsertUnaryOp IINC -1 start
+259	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:266 - InsertUnaryOp Negation of i
+260	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:266 - InsertUnaryOp IINC 1 i
+261	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:266 - InsertUnaryOp IINC -1 i
+262	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:266 - InsertUnaryOp Negation of end
+263	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:266 - InsertUnaryOp IINC 1 end
+264	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:266 - InsertUnaryOp IINC -1 end
+265	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:266 - ReplaceComparisonOperator > -> !=
+266	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:266 - ReplaceComparisonOperator > -> -2
+267	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:266 - ReplaceComparisonOperator > -> >=
+268	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:267 - InsertUnaryOp Negation of i
+269	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:267 - InsertUnaryOp IINC 1 i
+270	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:267 - InsertUnaryOp IINC -1 i
+271	ReplaceVariable	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:266 - ReplaceVariable i -> start
+272	ReplaceVariable	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:266 - ReplaceVariable i -> end
+273	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:270 - ReplaceConstant - 0 -> 1
+274	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:273 - InsertUnaryOp Negation of end
+275	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:273 - InsertUnaryOp IINC 1 end
+276	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:273 - InsertUnaryOp IINC -1 end
+277	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:273 - InsertUnaryOp Negation of start
+278	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:273 - InsertUnaryOp IINC 1 start
+279	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:273 - InsertUnaryOp IINC -1 start
+280	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:273 - ReplaceArithmeticOperator - -> +
+281	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:273 - ReplaceArithmeticOperator - -> %
+282	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:273 - ReplaceArithmeticOperator - -> *
+283	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:273 - ReplaceArithmeticOperator - -> /
+284	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:273 - ReplaceConstant - 1 -> 0
+285	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:273 - ReplaceArithmeticOperator + -> %
+286	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:273 - ReplaceArithmeticOperator + -> -
+287	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:273 - ReplaceArithmeticOperator + -> *
+288	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:273 - ReplaceArithmeticOperator + -> /
+289	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:274 - InsertUnaryOp Negation of count
+290	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:274 - InsertUnaryOp IINC 1 count
+291	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:274 - InsertUnaryOp IINC -1 count
+292	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:274 - ReplaceComparisonOperator <= -> -1
+293	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:274 - ReplaceComparisonOperator <= -> ==
+294	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:274 - ReplaceComparisonOperator <= -> <
+295	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:275 - InsertUnaryOp Negation of count
+296	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:275 - InsertUnaryOp IINC 1 count
+297	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:275 - InsertUnaryOp IINC -1 count
+298	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:275 - ReplaceConstant - 2 -> 0
+299	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:275 - ReplaceConstant - 2 -> 1
+300	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:275 - ReplaceConstant - 2 -> -1
+301	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:275 - ReplaceConstant - 2 -> 3
+302	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:275 - ReplaceArithmeticOperator % -> +
+303	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:275 - ReplaceArithmeticOperator % -> -
+304	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:275 - ReplaceArithmeticOperator % -> *
+305	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:275 - ReplaceArithmeticOperator % -> /
+306	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:275 - ReplaceConstant - 1 -> 0
+307	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:275 - ReplaceComparisonOperator != -> -1
+308	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:275 - ReplaceComparisonOperator != -> <
+309	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:275 - ReplaceComparisonOperator != -> >
+310	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:276 - InsertUnaryOp Negation of count
+311	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:276 - InsertUnaryOp IINC 1 count
+312	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:276 - InsertUnaryOp IINC -1 count
+313	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:276 - ReplaceConstant - 1 -> 0
+314	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:276 - ReplaceComparisonOperator <= -> -1
+315	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:276 - ReplaceComparisonOperator <= -> <
+316	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:276 - ReplaceComparisonOperator <= -> ==
+317	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - InsertUnaryOp Negation of start
+318	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - InsertUnaryOp IINC 1 start
+319	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - InsertUnaryOp IINC -1 start
+320	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - InsertUnaryOp Negation of count
+321	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - InsertUnaryOp IINC 1 count
+322	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - InsertUnaryOp IINC -1 count
+323	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - ReplaceConstant - 1 -> 0
+324	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - ReplaceArithmeticOperator - -> +
+325	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - ReplaceArithmeticOperator - -> %
+326	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - ReplaceArithmeticOperator - -> *
+327	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - ReplaceArithmeticOperator - -> /
+328	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - ReplaceConstant - 2 -> 0
+329	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - ReplaceConstant - 2 -> 1
+330	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - ReplaceConstant - 2 -> -1
+331	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - ReplaceConstant - 2 -> 3
+332	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - ReplaceArithmeticOperator / -> +
+333	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - ReplaceArithmeticOperator / -> %
+334	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - ReplaceArithmeticOperator / -> -
+335	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - ReplaceArithmeticOperator / -> *
+336	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - ReplaceArithmeticOperator + -> %
+337	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - ReplaceArithmeticOperator + -> -
+338	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - ReplaceArithmeticOperator + -> *
+339	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:277 - ReplaceArithmeticOperator + -> /
+340	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:282 - InsertUnaryOp Negation of start
+341	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:282 - InsertUnaryOp IINC 1 start
+342	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:282 - InsertUnaryOp IINC -1 start
+343	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - InsertUnaryOp Negation of start
+344	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - InsertUnaryOp IINC 1 start
+345	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - InsertUnaryOp IINC -1 start
+346	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - InsertUnaryOp Negation of count
+347	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - InsertUnaryOp IINC 1 count
+348	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - InsertUnaryOp IINC -1 count
+349	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - ReplaceConstant - 2 -> 0
+350	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - ReplaceConstant - 2 -> 1
+351	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - ReplaceConstant - 2 -> -1
+352	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - ReplaceConstant - 2 -> 3
+353	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - ReplaceArithmeticOperator / -> +
+354	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - ReplaceArithmeticOperator / -> %
+355	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - ReplaceArithmeticOperator / -> -
+356	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - ReplaceArithmeticOperator / -> *
+357	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - ReplaceArithmeticOperator + -> %
+358	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - ReplaceArithmeticOperator + -> -
+359	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - ReplaceArithmeticOperator + -> *
+360	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - ReplaceArithmeticOperator + -> /
+361	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - ReplaceConstant - 1 -> 0
+362	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - ReplaceArithmeticOperator - -> +
+363	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - ReplaceArithmeticOperator - -> %
+364	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - ReplaceArithmeticOperator - -> *
+365	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:287 - ReplaceArithmeticOperator - -> /
+366	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - InsertUnaryOp Negation of start
+367	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - InsertUnaryOp IINC 1 start
+368	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - InsertUnaryOp IINC -1 start
+369	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - InsertUnaryOp Negation of count
+370	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - InsertUnaryOp IINC 1 count
+371	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - InsertUnaryOp IINC -1 count
+372	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - ReplaceConstant - 2 -> 0
+373	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - ReplaceConstant - 2 -> 1
+374	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - ReplaceConstant - 2 -> -1
+375	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - ReplaceConstant - 2 -> 3
+376	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - ReplaceArithmeticOperator / -> +
+377	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - ReplaceArithmeticOperator / -> %
+378	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - ReplaceArithmeticOperator / -> -
+379	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - ReplaceArithmeticOperator / -> *
+380	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - ReplaceArithmeticOperator + -> %
+381	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - ReplaceArithmeticOperator + -> -
+382	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - ReplaceArithmeticOperator + -> *
+383	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:288 - ReplaceArithmeticOperator + -> /
+384	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:290 - ReplaceArithmeticOperator + -> %
+385	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:290 - ReplaceArithmeticOperator + -> -
+386	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:290 - ReplaceArithmeticOperator + -> *
+387	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:290 - ReplaceArithmeticOperator + -> /
+388	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:290 - ReplaceConstant - 2.0 -> 0.0
+389	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:290 - ReplaceConstant - 2.0 -> 1.0
+390	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:290 - ReplaceConstant - 2.0 -> -1.0
+391	ReplaceConstant	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:290 - ReplaceConstant - 2.0 -> 3.0
+392	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:290 - ReplaceArithmeticOperator / -> +
+393	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:290 - ReplaceArithmeticOperator / -> %
+394	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:290 - ReplaceArithmeticOperator / -> -
+395	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:290 - ReplaceArithmeticOperator / -> *
+396	InsertUnaryOp	org.jfree.data.statistics.Statistics.calculateMedian(Ljava/util/List;IIZ)D:294 - InsertUnaryOp Negation of result
+397	ReplaceConstant	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:307 - ReplaceConstant - data -> 
+398	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:308 - ReplaceComparisonOperator != -> -1
+399	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:308 - ReplaceComparisonOperator != -> <
+400	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:308 - ReplaceComparisonOperator != -> >
+401	ReplaceConstant	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:309 - ReplaceConstant - Zero length 'data' array. -> 
+402	ReplaceConstant	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:312 - ReplaceConstant - 0.0 -> 1.0
+403	ReplaceConstant	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:312 - ReplaceConstant - 0.0 -> -1.0
+404	ReplaceConstant	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:314 - ReplaceConstant - 0 -> 1
+405	InsertUnaryOp	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:314 - InsertUnaryOp Negation of counter
+406	InsertUnaryOp	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:314 - InsertUnaryOp IINC 1 counter
+407	InsertUnaryOp	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:314 - InsertUnaryOp IINC -1 counter
+408	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:314 - ReplaceComparisonOperator >= -> -1
+409	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:314 - ReplaceComparisonOperator >= -> >
+410	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:314 - ReplaceComparisonOperator >= -> ==
+411	InsertUnaryOp	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:315 - InsertUnaryOp Negation of counter
+412	InsertUnaryOp	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:315 - InsertUnaryOp IINC 1 counter
+413	InsertUnaryOp	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:315 - InsertUnaryOp IINC -1 counter
+414	InsertUnaryOp	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:315 - InsertUnaryOp Negation of avg
+415	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:315 - ReplaceArithmeticOperator - -> +
+416	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:315 - ReplaceArithmeticOperator - -> %
+417	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:315 - ReplaceArithmeticOperator - -> *
+418	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:315 - ReplaceArithmeticOperator - -> /
+419	InsertUnaryOp	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:316 - InsertUnaryOp Negation of sum
+420	InsertUnaryOp	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:316 - InsertUnaryOp Negation of diff
+421	InsertUnaryOp	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:316 - InsertUnaryOp Negation of diff
+422	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:316 - ReplaceArithmeticOperator * -> +
+423	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:316 - ReplaceArithmeticOperator * -> %
+424	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:316 - ReplaceArithmeticOperator * -> -
+425	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:316 - ReplaceArithmeticOperator * -> /
+426	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:316 - ReplaceArithmeticOperator + -> %
+427	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:316 - ReplaceArithmeticOperator + -> -
+428	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:316 - ReplaceArithmeticOperator + -> *
+429	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:316 - ReplaceArithmeticOperator + -> /
+430	InsertUnaryOp	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:318 - InsertUnaryOp Negation of sum
+431	ReplaceConstant	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:318 - ReplaceConstant - 1 -> 0
+432	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:318 - ReplaceArithmeticOperator - -> +
+433	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:318 - ReplaceArithmeticOperator - -> %
+434	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:318 - ReplaceArithmeticOperator - -> *
+435	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:318 - ReplaceArithmeticOperator - -> /
+436	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:318 - ReplaceArithmeticOperator / -> +
+437	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:318 - ReplaceArithmeticOperator / -> %
+438	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:318 - ReplaceArithmeticOperator / -> -
+439	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getStdDev([Ljava/lang/Number;)D:318 - ReplaceArithmeticOperator / -> *
+440	ReplaceConstant	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:332 - ReplaceConstant - xData -> 
+441	ReplaceConstant	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:333 - ReplaceConstant - yData -> 
+442	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:334 - ReplaceComparisonOperator == -> -2
+443	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:334 - ReplaceComparisonOperator == -> >=
+444	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:334 - ReplaceComparisonOperator == -> <=
+445	ReplaceConstant	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:335 - ReplaceConstant - Statistics.getLinearFit(): array lengths must be equal. -> 
+446	ReplaceConstant	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:339 - ReplaceConstant - 2 -> 0
+447	ReplaceConstant	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:339 - ReplaceConstant - 2 -> 1
+448	ReplaceConstant	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:339 - ReplaceConstant - 2 -> -1
+449	ReplaceConstant	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:339 - ReplaceConstant - 2 -> 3
+450	ReplaceConstant	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:341 - ReplaceConstant - 1 -> 0
+451	ReplaceConstant	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:343 - ReplaceConstant - 0 -> 1
+452	ReplaceConstant	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:343 - ReplaceConstant - 1 -> 0
+453	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:343 - ReplaceArithmeticOperator * -> +
+454	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:343 - ReplaceArithmeticOperator * -> %
+455	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:343 - ReplaceArithmeticOperator * -> -
+456	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:343 - ReplaceArithmeticOperator * -> /
+457	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:343 - ReplaceArithmeticOperator - -> +
+458	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:343 - ReplaceArithmeticOperator - -> %
+459	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:343 - ReplaceArithmeticOperator - -> *
+460	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getLinearFit([Ljava/lang/Number;[Ljava/lang/Number;)[D:343 - ReplaceArithmeticOperator - -> /
+461	ReplaceConstant	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:358 - ReplaceConstant - xData -> 
+462	ReplaceConstant	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:359 - ReplaceConstant - yData -> 
+463	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:360 - ReplaceComparisonOperator == -> -2
+464	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:360 - ReplaceComparisonOperator == -> >=
+465	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:360 - ReplaceComparisonOperator == -> <=
+466	ReplaceConstant	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:361 - ReplaceConstant - Array lengths must be equal. -> 
+467	ReplaceConstant	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:373 - ReplaceConstant - 0.0 -> 1.0
+468	ReplaceConstant	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:373 - ReplaceConstant - 0.0 -> -1.0
+469	ReplaceConstant	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:373 - ReplaceConstant - 0.0 -> 1.0
+470	ReplaceConstant	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:373 - ReplaceConstant - 0.0 -> -1.0
+471	ReplaceConstant	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:373 - ReplaceConstant - 0.0 -> 1.0
+472	ReplaceConstant	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:373 - ReplaceConstant - 0.0 -> -1.0
+473	ReplaceConstant	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:373 - ReplaceConstant - 0.0 -> 1.0
+474	ReplaceConstant	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:373 - ReplaceConstant - 0.0 -> -1.0
+475	ReplaceConstant	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:375 - ReplaceConstant - 0 -> 1
+476	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:375 - InsertUnaryOp Negation of counter
+477	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:375 - InsertUnaryOp IINC 1 counter
+478	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:375 - InsertUnaryOp IINC -1 counter
+479	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:375 - ReplaceComparisonOperator >= -> -1
+480	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:375 - ReplaceComparisonOperator >= -> >
+481	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:375 - ReplaceComparisonOperator >= -> ==
+482	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:376 - InsertUnaryOp Negation of sx
+483	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:376 - InsertUnaryOp Negation of counter
+484	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:376 - InsertUnaryOp IINC 1 counter
+485	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:376 - InsertUnaryOp IINC -1 counter
+486	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:376 - ReplaceArithmeticOperator + -> %
+487	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:376 - ReplaceArithmeticOperator + -> -
+488	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:376 - ReplaceArithmeticOperator + -> *
+489	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:376 - ReplaceArithmeticOperator + -> /
+490	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:377 - InsertUnaryOp Negation of sxx
+491	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:377 - InsertUnaryOp Negation of counter
+492	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:377 - InsertUnaryOp IINC 1 counter
+493	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:377 - InsertUnaryOp IINC -1 counter
+494	ReplaceConstant	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:377 - ReplaceConstant - 2.0 -> 0.0
+495	ReplaceConstant	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:377 - ReplaceConstant - 2.0 -> 1.0
+496	ReplaceConstant	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:377 - ReplaceConstant - 2.0 -> -1.0
+497	ReplaceConstant	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:377 - ReplaceConstant - 2.0 -> 3.0
+498	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:377 - ReplaceArithmeticOperator + -> %
+499	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:377 - ReplaceArithmeticOperator + -> -
+500	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:377 - ReplaceArithmeticOperator + -> *
+501	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:377 - ReplaceArithmeticOperator + -> /
+502	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:378 - InsertUnaryOp Negation of sxy
+503	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:378 - InsertUnaryOp Negation of counter
+504	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:378 - InsertUnaryOp IINC 1 counter
+505	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:378 - InsertUnaryOp IINC -1 counter
+506	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:378 - InsertUnaryOp Negation of counter
+507	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:378 - InsertUnaryOp IINC 1 counter
+508	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:378 - InsertUnaryOp IINC -1 counter
+509	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:379 - ReplaceArithmeticOperator * -> +
+510	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:379 - ReplaceArithmeticOperator * -> %
+511	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:379 - ReplaceArithmeticOperator * -> -
+512	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:379 - ReplaceArithmeticOperator * -> /
+513	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:379 - ReplaceArithmeticOperator + -> %
+514	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:379 - ReplaceArithmeticOperator + -> -
+515	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:379 - ReplaceArithmeticOperator + -> *
+516	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:379 - ReplaceArithmeticOperator + -> /
+517	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:380 - InsertUnaryOp Negation of sy
+518	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:380 - InsertUnaryOp Negation of counter
+519	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:380 - InsertUnaryOp IINC 1 counter
+520	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:380 - InsertUnaryOp IINC -1 counter
+521	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:380 - ReplaceArithmeticOperator + -> %
+522	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:380 - ReplaceArithmeticOperator + -> -
+523	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:380 - ReplaceArithmeticOperator + -> *
+524	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:380 - ReplaceArithmeticOperator + -> /
+525	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - InsertUnaryOp Negation of sxy
+526	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - InsertUnaryOp Negation of sx
+527	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - InsertUnaryOp Negation of sy
+528	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator * -> +
+529	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator * -> %
+530	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator * -> -
+531	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator * -> /
+532	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - InsertUnaryOp Negation of counter
+533	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - InsertUnaryOp IINC 1 counter
+534	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - InsertUnaryOp IINC -1 counter
+535	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator / -> +
+536	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator / -> %
+537	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator / -> -
+538	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator / -> *
+539	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator - -> +
+540	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator - -> %
+541	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator - -> *
+542	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator - -> /
+543	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - InsertUnaryOp Negation of sxx
+544	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - InsertUnaryOp Negation of sx
+545	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - InsertUnaryOp Negation of sx
+546	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator * -> +
+547	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator * -> %
+548	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator * -> -
+549	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator * -> /
+550	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - InsertUnaryOp Negation of counter
+551	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - InsertUnaryOp IINC 1 counter
+552	InsertUnaryOp	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - InsertUnaryOp IINC -1 counter
+553	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator / -> +
+554	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator / -> %
+555	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator / -> -
+556	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator / -> *
+557	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator - -> +
+558	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator - -> %
+559	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator - -> *
+560	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator - -> /
+561	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator / -> +
+562	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator / -> %
+563	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator / -> -
+564	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getSlope([Ljava/lang/Number;[Ljava/lang/Number;)D:382 - ReplaceArithmeticOperator / -> *
+565	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:400 - ReplaceConstant - data1 -> 
+566	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:401 - ReplaceConstant - data2 -> 
+567	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:402 - ReplaceComparisonOperator == -> -2
+568	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:402 - ReplaceComparisonOperator == -> >=
+569	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:402 - ReplaceComparisonOperator == -> <=
+570	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:403 - ReplaceConstant - 'data1' and 'data2' arrays must have same length. -> 
+571	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:408 - ReplaceConstant - 0.0 -> 1.0
+572	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:408 - ReplaceConstant - 0.0 -> -1.0
+573	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:409 - ReplaceConstant - 0.0 -> 1.0
+574	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:409 - ReplaceConstant - 0.0 -> -1.0
+575	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:410 - ReplaceConstant - 0.0 -> 1.0
+576	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:410 - ReplaceConstant - 0.0 -> -1.0
+577	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:411 - ReplaceConstant - 0.0 -> 1.0
+578	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:411 - ReplaceConstant - 0.0 -> -1.0
+579	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:412 - ReplaceConstant - 0.0 -> 1.0
+580	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:412 - ReplaceConstant - 0.0 -> -1.0
+581	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:413 - ReplaceConstant - 0 -> 1
+582	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:413 - InsertUnaryOp Negation of i
+583	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:413 - InsertUnaryOp IINC 1 i
+584	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:413 - InsertUnaryOp IINC -1 i
+585	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:413 - InsertUnaryOp Negation of n
+586	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:413 - InsertUnaryOp IINC 1 n
+587	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:413 - InsertUnaryOp IINC -1 n
+588	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:413 - ReplaceComparisonOperator >= -> -1
+589	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:413 - ReplaceComparisonOperator >= -> >
+590	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:413 - ReplaceComparisonOperator >= -> ==
+591	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:414 - ReplaceConstant - 0.0 -> 1.0
+592	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:414 - ReplaceConstant - 0.0 -> -1.0
+593	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:415 - InsertUnaryOp Negation of i
+594	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:415 - InsertUnaryOp IINC 1 i
+595	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:415 - InsertUnaryOp IINC -1 i
+596	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:415 - ReplaceComparisonOperator = null -> != null
+597	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:416 - InsertUnaryOp Negation of i
+598	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:416 - InsertUnaryOp IINC 1 i
+599	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:416 - InsertUnaryOp IINC -1 i
+600	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:418 - ReplaceConstant - 0.0 -> 1.0
+601	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:418 - ReplaceConstant - 0.0 -> -1.0
+602	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:419 - InsertUnaryOp Negation of i
+603	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:419 - InsertUnaryOp IINC 1 i
+604	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:419 - InsertUnaryOp IINC -1 i
+605	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:419 - ReplaceComparisonOperator = null -> != null
+606	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:420 - InsertUnaryOp Negation of i
+607	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:420 - InsertUnaryOp IINC 1 i
+608	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:420 - InsertUnaryOp IINC -1 i
+609	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:422 - InsertUnaryOp Negation of sumX
+610	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:422 - InsertUnaryOp Negation of x
+611	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:422 - ReplaceArithmeticOperator + -> %
+612	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:422 - ReplaceArithmeticOperator + -> -
+613	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:422 - ReplaceArithmeticOperator + -> *
+614	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:422 - ReplaceArithmeticOperator + -> /
+615	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:423 - InsertUnaryOp Negation of sumY
+616	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:423 - InsertUnaryOp Negation of y
+617	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:423 - ReplaceArithmeticOperator + -> %
+618	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:423 - ReplaceArithmeticOperator + -> -
+619	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:423 - ReplaceArithmeticOperator + -> *
+620	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:423 - ReplaceArithmeticOperator + -> /
+621	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:424 - InsertUnaryOp Negation of sumXY
+622	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:424 - InsertUnaryOp Negation of x
+623	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:424 - InsertUnaryOp Negation of y
+624	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:424 - ReplaceArithmeticOperator * -> +
+625	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:424 - ReplaceArithmeticOperator * -> %
+626	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:424 - ReplaceArithmeticOperator * -> -
+627	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:424 - ReplaceArithmeticOperator * -> /
+628	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:424 - ReplaceArithmeticOperator + -> %
+629	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:424 - ReplaceArithmeticOperator + -> -
+630	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:424 - ReplaceArithmeticOperator + -> *
+631	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:424 - ReplaceArithmeticOperator + -> /
+632	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:425 - InsertUnaryOp Negation of sumX2
+633	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:425 - InsertUnaryOp Negation of x
+634	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:425 - InsertUnaryOp Negation of x
+635	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:425 - ReplaceArithmeticOperator * -> +
+636	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:425 - ReplaceArithmeticOperator * -> %
+637	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:425 - ReplaceArithmeticOperator * -> -
+638	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:425 - ReplaceArithmeticOperator * -> /
+639	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:425 - ReplaceArithmeticOperator + -> %
+640	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:425 - ReplaceArithmeticOperator + -> -
+641	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:425 - ReplaceArithmeticOperator + -> *
+642	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:425 - ReplaceArithmeticOperator + -> /
+643	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:426 - InsertUnaryOp Negation of sumY2
+644	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:426 - InsertUnaryOp Negation of y
+645	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:426 - InsertUnaryOp Negation of y
+646	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:426 - ReplaceArithmeticOperator * -> +
+647	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:426 - ReplaceArithmeticOperator * -> %
+648	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:426 - ReplaceArithmeticOperator * -> -
+649	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:426 - ReplaceArithmeticOperator * -> /
+650	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:426 - ReplaceArithmeticOperator + -> %
+651	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:426 - ReplaceArithmeticOperator + -> -
+652	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:426 - ReplaceArithmeticOperator + -> *
+653	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:426 - ReplaceArithmeticOperator + -> /
+654	ReplaceVariable	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:413 - ReplaceVariable i -> n
+655	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp Negation of n
+656	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp IINC 1 n
+657	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp IINC -1 n
+658	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp Negation of sumXY
+659	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> +
+660	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> %
+661	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> -
+662	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> /
+663	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp Negation of sumX
+664	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp Negation of sumY
+665	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> +
+666	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> %
+667	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> -
+668	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> /
+669	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator - -> +
+670	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator - -> %
+671	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator - -> *
+672	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator - -> /
+673	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp Negation of n
+674	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp IINC 1 n
+675	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp IINC -1 n
+676	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp Negation of sumX2
+677	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> +
+678	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> %
+679	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> -
+680	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> /
+681	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp Negation of sumX
+682	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp Negation of sumX
+683	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> +
+684	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> %
+685	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> -
+686	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> /
+687	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator - -> +
+688	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator - -> %
+689	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator - -> *
+690	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator - -> /
+691	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp Negation of n
+692	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp IINC 1 n
+693	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp IINC -1 n
+694	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp Negation of sumY2
+695	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> +
+696	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> %
+697	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> -
+698	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> /
+699	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp Negation of sumY
+700	InsertUnaryOp	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - InsertUnaryOp Negation of sumY
+701	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> +
+702	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> %
+703	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> -
+704	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> /
+705	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator - -> +
+706	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator - -> %
+707	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator - -> *
+708	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator - -> /
+709	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> +
+710	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> %
+711	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> -
+712	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator * -> /
+713	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceConstant - 0.5 -> 0.0
+714	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceConstant - 0.5 -> 1.0
+715	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceConstant - 0.5 -> -1.0
+716	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceConstant - 0.5 -> -0.5
+717	ReplaceConstant	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceConstant - 0.5 -> 1.5
+718	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator / -> +
+719	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator / -> %
+720	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator / -> -
+721	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getCorrelation([Ljava/lang/Number;[Ljava/lang/Number;)D:428 - ReplaceArithmeticOperator / -> *
+722	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:446 - ReplaceComparisonOperator == -> -2
+723	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:446 - ReplaceComparisonOperator == -> >=
+724	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:446 - ReplaceComparisonOperator == -> <=
+725	ReplaceConstant	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:447 - ReplaceConstant - Array lengths must be equal. -> 
+726	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:450 - InsertUnaryOp Negation of period
+727	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:450 - InsertUnaryOp IINC 1 period
+728	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:450 - InsertUnaryOp IINC -1 period
+729	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:450 - ReplaceComparisonOperator <= -> -1
+730	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:450 - ReplaceComparisonOperator <= -> <
+731	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:450 - ReplaceComparisonOperator <= -> ==
+732	ReplaceConstant	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:451 - ReplaceConstant - Period can't be longer than dataset. -> 
+733	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:455 - InsertUnaryOp Negation of period
+734	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:455 - InsertUnaryOp IINC 1 period
+735	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:455 - InsertUnaryOp IINC -1 period
+736	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:455 - ReplaceArithmeticOperator - -> +
+737	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:455 - ReplaceArithmeticOperator - -> %
+738	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:455 - ReplaceArithmeticOperator - -> *
+739	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:455 - ReplaceArithmeticOperator - -> /
+740	ReplaceConstant	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:455 - ReplaceConstant - 2 -> 0
+741	ReplaceConstant	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:455 - ReplaceConstant - 2 -> 1
+742	ReplaceConstant	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:455 - ReplaceConstant - 2 -> -1
+743	ReplaceConstant	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:455 - ReplaceConstant - 2 -> 3
+744	ReplaceConstant	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:456 - ReplaceConstant - 0 -> 1
+745	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:456 - InsertUnaryOp Negation of i
+746	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:456 - InsertUnaryOp IINC 1 i
+747	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:456 - InsertUnaryOp IINC -1 i
+748	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:456 - ReplaceComparisonOperator >= -> -1
+749	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:456 - ReplaceComparisonOperator >= -> >
+750	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:456 - ReplaceComparisonOperator >= -> ==
+751	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:457 - InsertUnaryOp Negation of i
+752	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:457 - InsertUnaryOp IINC 1 i
+753	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:457 - InsertUnaryOp IINC -1 i
+754	ReplaceConstant	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:457 - ReplaceConstant - 0 -> 1
+755	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:457 - InsertUnaryOp Negation of i
+756	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:457 - InsertUnaryOp IINC 1 i
+757	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:457 - InsertUnaryOp IINC -1 i
+758	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:457 - InsertUnaryOp Negation of period
+759	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:457 - InsertUnaryOp IINC 1 period
+760	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:457 - InsertUnaryOp IINC -1 period
+761	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:457 - ReplaceArithmeticOperator + -> %
+762	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:457 - ReplaceArithmeticOperator + -> -
+763	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:457 - ReplaceArithmeticOperator + -> *
+764	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:457 - ReplaceArithmeticOperator + -> /
+765	ReplaceConstant	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:459 - ReplaceConstant - 0.0 -> 1.0
+766	ReplaceConstant	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:459 - ReplaceConstant - 0.0 -> -1.0
+767	ReplaceConstant	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:460 - ReplaceConstant - 0 -> 1
+768	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:460 - InsertUnaryOp Negation of j
+769	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:460 - InsertUnaryOp IINC 1 j
+770	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:460 - InsertUnaryOp IINC -1 j
+771	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:460 - InsertUnaryOp Negation of period
+772	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:460 - InsertUnaryOp IINC 1 period
+773	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:460 - InsertUnaryOp IINC -1 period
+774	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:460 - ReplaceComparisonOperator >= -> -1
+775	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:460 - ReplaceComparisonOperator >= -> >
+776	ReplaceComparisonOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:460 - ReplaceComparisonOperator >= -> ==
+777	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:461 - InsertUnaryOp Negation of sum
+778	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:461 - InsertUnaryOp Negation of i
+779	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:461 - InsertUnaryOp IINC 1 i
+780	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:461 - InsertUnaryOp IINC -1 i
+781	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:461 - InsertUnaryOp Negation of j
+782	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:461 - InsertUnaryOp IINC 1 j
+783	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:461 - InsertUnaryOp IINC -1 j
+784	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:461 - ReplaceArithmeticOperator + -> %
+785	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:461 - ReplaceArithmeticOperator + -> -
+786	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:461 - ReplaceArithmeticOperator + -> *
+787	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:461 - ReplaceArithmeticOperator + -> /
+788	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:461 - ReplaceArithmeticOperator + -> %
+789	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:461 - ReplaceArithmeticOperator + -> -
+790	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:461 - ReplaceArithmeticOperator + -> *
+791	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:461 - ReplaceArithmeticOperator + -> /
+792	ReplaceVariable	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:460 - ReplaceVariable j -> i
+793	ReplaceVariable	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:460 - ReplaceVariable j -> period
+794	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:463 - InsertUnaryOp Negation of sum
+795	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:463 - InsertUnaryOp Negation of period
+796	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:463 - InsertUnaryOp IINC 1 period
+797	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:463 - InsertUnaryOp IINC -1 period
+798	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:463 - ReplaceArithmeticOperator / -> +
+799	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:463 - ReplaceArithmeticOperator / -> %
+800	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:463 - ReplaceArithmeticOperator / -> -
+801	ReplaceArithmeticOperator	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:463 - ReplaceArithmeticOperator / -> *
+802	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:464 - InsertUnaryOp Negation of i
+803	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:464 - InsertUnaryOp IINC 1 i
+804	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:464 - InsertUnaryOp IINC -1 i
+805	ReplaceConstant	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:464 - ReplaceConstant - 1 -> 0
+806	InsertUnaryOp	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:464 - InsertUnaryOp Negation of sum
+807	ReplaceVariable	org.jfree.data.statistics.Statistics.getMovingAverage([Ljava/lang/Number;[Ljava/lang/Number;I)[[D:456 - ReplaceVariable i -> period

@@ -1,0 +1,48 @@
+0	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:97 - ReplaceComparisonOperator == -> -2
+1	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:97 - ReplaceComparisonOperator == -> >=
+2	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:97 - ReplaceComparisonOperator == -> <=
+3	ReplaceConstant	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:107 - ReplaceConstant - Could not modify content -> 
+4	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:110 - ReplaceComparisonOperator != null -> = null
+5	ReplaceConstant	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:111 - ReplaceConstant - FeatureWriter has been closed -> 
+6	ReplaceConstant	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:119 - ReplaceConstant - new -> 
+7	InsertUnaryOp	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:119 - InsertUnaryOp Negation
+8	InsertUnaryOp	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:119 - InsertUnaryOp +1
+9	InsertUnaryOp	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:119 - InsertUnaryOp -1
+10	InsertUnaryOp	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:121 - InsertUnaryOp Negation
+11	InsertUnaryOp	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:121 - InsertUnaryOp +1
+12	InsertUnaryOp	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:121 - InsertUnaryOp -1
+13	ReplaceConstant	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:121 - ReplaceConstant - 1 -> 0
+14	ReplaceArithmeticOperator	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:121 - ReplaceArithmeticOperator + -> %
+15	ReplaceArithmeticOperator	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:121 - ReplaceArithmeticOperator + -> -
+16	ReplaceArithmeticOperator	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:121 - ReplaceArithmeticOperator + -> *
+17	ReplaceArithmeticOperator	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:121 - ReplaceArithmeticOperator + -> /
+18	ReplaceConstant	org.geotools.data.DiffFeatureWriter.next()Lorg/opengis/feature/simple/SimpleFeature;:124 - ReplaceConstant - Could not create new content -> 
+19	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.remove()V:133 - ReplaceComparisonOperator = null -> != null
+20	ReplaceConstant	org.geotools.data.DiffFeatureWriter.remove()V:136 - ReplaceConstant - -1 -> 0
+21	ReplaceConstant	org.geotools.data.DiffFeatureWriter.remove()V:136 - ReplaceConstant - -1 -> 1
+22	ReplaceConstant	org.geotools.data.DiffFeatureWriter.remove()V:136 - ReplaceConstant - -1 -> -2
+23	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.remove()V:139 - ReplaceComparisonOperator = null -> != null
+24	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.write()V:157 - ReplaceComparisonOperator = null -> != null
+25	ReplaceConstant	org.geotools.data.DiffFeatureWriter.write()V:167 - ReplaceConstant - 0 -> 1
+26	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.write()V:170 - ReplaceComparisonOperator != null -> = null
+27	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.write()V:170 - ReplaceComparisonOperator = null -> != null
+28	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.write()V:174 - ReplaceComparisonOperator == -> -2
+29	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.write()V:174 - ReplaceComparisonOperator == -> >=
+30	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.write()V:174 - ReplaceComparisonOperator == -> <=
+31	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.write()V:175 - ReplaceComparisonOperator == -> -2
+32	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.write()V:175 - ReplaceComparisonOperator == -> >=
+33	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.write()V:175 - ReplaceComparisonOperator == -> <=
+34	ReplaceConstant	org.geotools.data.DiffFeatureWriter.write()V:183 - ReplaceConstant - 1 -> 0
+35	ReplaceConstant	org.geotools.data.DiffFeatureWriter.write()V:186 - ReplaceConstant - No feature available to write -> 
+36	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.hasNext()Z:196 - ReplaceComparisonOperator = null -> != null
+37	ReplaceConstant	org.geotools.data.DiffFeatureWriter.hasNext()Z:198 - ReplaceConstant - 1 -> 0
+38	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.hasNext()Z:204 - ReplaceComparisonOperator != null -> = null
+39	ReplaceConstant	org.geotools.data.DiffFeatureWriter.hasNext()Z:205 - ReplaceConstant - FeatureWriter has been closed -> 
+40	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.hasNext()Z:208 - ReplaceComparisonOperator == -> -2
+41	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.hasNext()Z:208 - ReplaceComparisonOperator == -> >=
+42	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.hasNext()Z:208 - ReplaceComparisonOperator == -> <=
+43	ReplaceConstant	org.geotools.data.DiffFeatureWriter.hasNext()Z:212 - ReplaceConstant - No more content -> 
+44	ReplaceConstant	org.geotools.data.DiffFeatureWriter.hasNext()Z:214 - ReplaceConstant - No more content -> 
+45	ReplaceConstant	org.geotools.data.DiffFeatureWriter.hasNext()Z:217 - ReplaceConstant - 1 -> 0
+46	ReplaceConstant	org.geotools.data.DiffFeatureWriter.hasNext()Z:220 - ReplaceConstant - 0 -> 1
+47	ReplaceComparisonOperator	org.geotools.data.DiffFeatureWriter.close()V:234 - ReplaceComparisonOperator = null -> != null

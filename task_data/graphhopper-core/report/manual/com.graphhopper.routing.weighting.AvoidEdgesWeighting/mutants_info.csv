@@ -1,0 +1,27 @@
+0	ReplaceConstant	com.graphhopper.routing.weighting.AvoidEdgesWeighting.<init>(Lcom/graphhopper/routing/weighting/Weighting;)V:35 - ReplaceConstant - 5.0 -> 0.0
+1	ReplaceConstant	com.graphhopper.routing.weighting.AvoidEdgesWeighting.<init>(Lcom/graphhopper/routing/weighting/Weighting;)V:35 - ReplaceConstant - 5.0 -> 1.0
+2	ReplaceConstant	com.graphhopper.routing.weighting.AvoidEdgesWeighting.<init>(Lcom/graphhopper/routing/weighting/Weighting;)V:35 - ReplaceConstant - 5.0 -> -1.0
+3	ReplaceConstant	com.graphhopper.routing.weighting.AvoidEdgesWeighting.<init>(Lcom/graphhopper/routing/weighting/Weighting;)V:35 - ReplaceConstant - 5.0 -> 4.0
+4	ReplaceConstant	com.graphhopper.routing.weighting.AvoidEdgesWeighting.<init>(Lcom/graphhopper/routing/weighting/Weighting;)V:35 - ReplaceConstant - 5.0 -> 6.0
+5	InsertUnaryOp	com.graphhopper.routing.weighting.AvoidEdgesWeighting.setEdgePenaltyFactor(D)Lcom/graphhopper/routing/weighting/AvoidEdgesWeighting;:42 - InsertUnaryOp Negation of edgePenaltyFactor
+6	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AvoidEdgesWeighting.addEdges(Ljava/util/Collection;)V:51 - ReplaceComparisonOperator == -> -2
+7	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AvoidEdgesWeighting.addEdges(Ljava/util/Collection;)V:51 - ReplaceComparisonOperator == -> >=
+8	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AvoidEdgesWeighting.addEdges(Ljava/util/Collection;)V:51 - ReplaceComparisonOperator == -> <=
+9	InsertUnaryOp	com.graphhopper.routing.weighting.AvoidEdgesWeighting.getMinWeight(D)D:58 - InsertUnaryOp Negation of distance
+10	InsertUnaryOp	com.graphhopper.routing.weighting.AvoidEdgesWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:63 - InsertUnaryOp Negation of reverse
+11	InsertUnaryOp	com.graphhopper.routing.weighting.AvoidEdgesWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:63 - InsertUnaryOp IINC 1 reverse
+12	InsertUnaryOp	com.graphhopper.routing.weighting.AvoidEdgesWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:63 - InsertUnaryOp IINC -1 reverse
+13	InsertUnaryOp	com.graphhopper.routing.weighting.AvoidEdgesWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:63 - InsertUnaryOp Negation of prevOrNextEdgeId
+14	InsertUnaryOp	com.graphhopper.routing.weighting.AvoidEdgesWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:63 - InsertUnaryOp IINC 1 prevOrNextEdgeId
+15	InsertUnaryOp	com.graphhopper.routing.weighting.AvoidEdgesWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:63 - InsertUnaryOp IINC -1 prevOrNextEdgeId
+16	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AvoidEdgesWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:64 - ReplaceComparisonOperator == -> -2
+17	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AvoidEdgesWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:64 - ReplaceComparisonOperator == -> >=
+18	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AvoidEdgesWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:64 - ReplaceComparisonOperator == -> <=
+19	InsertUnaryOp	com.graphhopper.routing.weighting.AvoidEdgesWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:65 - InsertUnaryOp Negation of weight
+20	InsertUnaryOp	com.graphhopper.routing.weighting.AvoidEdgesWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:65 - InsertUnaryOp Negation
+21	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AvoidEdgesWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:65 - ReplaceArithmeticOperator * -> +
+22	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AvoidEdgesWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:65 - ReplaceArithmeticOperator * -> %
+23	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AvoidEdgesWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:65 - ReplaceArithmeticOperator * -> -
+24	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AvoidEdgesWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:65 - ReplaceArithmeticOperator * -> /
+25	InsertUnaryOp	com.graphhopper.routing.weighting.AvoidEdgesWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:67 - InsertUnaryOp Negation of weight
+26	ReplaceConstant	com.graphhopper.routing.weighting.AvoidEdgesWeighting.getName()Ljava/lang/String;:72 - ReplaceConstant - avoid_edges -> 

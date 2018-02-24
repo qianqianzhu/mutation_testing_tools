@@ -1,0 +1,60 @@
+0	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.<init>(Ljava/lang/Object;)V:334 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.<init>(Ljava/lang/Object;Z)V:334 - ReplaceConstant - 0 -> 1
+2	InsertUnaryOp	org.geotools.feature.visitor.AverageVisitor$AverageResult.<init>(Ljava/lang/Object;Z)V:342 - InsertUnaryOp Negation of isOptimized
+3	InsertUnaryOp	org.geotools.feature.visitor.AverageVisitor$AverageResult.<init>(Ljava/lang/Object;Z)V:342 - InsertUnaryOp IINC 1 isOptimized
+4	InsertUnaryOp	org.geotools.feature.visitor.AverageVisitor$AverageResult.<init>(Ljava/lang/Object;Z)V:342 - InsertUnaryOp IINC -1 isOptimized
+5	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.<init>(ILjava/lang/Object;)V:334 - ReplaceConstant - 0 -> 1
+6	InsertUnaryOp	org.geotools.feature.visitor.AverageVisitor$AverageResult.<init>(ILjava/lang/Object;)V:347 - InsertUnaryOp Negation of newCount
+7	InsertUnaryOp	org.geotools.feature.visitor.AverageVisitor$AverageResult.<init>(ILjava/lang/Object;)V:347 - InsertUnaryOp IINC 1 newCount
+8	InsertUnaryOp	org.geotools.feature.visitor.AverageVisitor$AverageResult.<init>(ILjava/lang/Object;)V:347 - InsertUnaryOp IINC -1 newCount
+9	InsertUnaryOp	org.geotools.feature.visitor.AverageVisitor$AverageResult.getCount()I:364 - InsertUnaryOp Negation
+10	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.getCount()I:364 - ReplaceComparisonOperator == -> -2
+11	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.getCount()I:364 - ReplaceComparisonOperator == -> >=
+12	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.getCount()I:364 - ReplaceComparisonOperator == -> <=
+13	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.getCount()I:365 - ReplaceConstant - -1 -> 0
+14	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.getCount()I:365 - ReplaceConstant - -1 -> 1
+15	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.getCount()I:365 - ReplaceConstant - -1 -> -2
+16	InsertUnaryOp	org.geotools.feature.visitor.AverageVisitor$AverageResult.getSum()Ljava/lang/Object;:376 - InsertUnaryOp Negation
+17	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.getSum()Ljava/lang/Object;:376 - ReplaceComparisonOperator == -> -2
+18	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.getSum()Ljava/lang/Object;:376 - ReplaceComparisonOperator == -> >=
+19	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.getSum()Ljava/lang/Object;:376 - ReplaceComparisonOperator == -> <=
+20	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:392 - ReplaceComparisonOperator != -> -1
+21	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:392 - ReplaceComparisonOperator != -> <
+22	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:392 - ReplaceComparisonOperator != -> >
+23	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:392 - ReplaceComparisonOperator != -> ==
+24	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:393 - ReplaceConstant - 1 -> 0
+25	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:395 - ReplaceConstant - 0 -> 1
+26	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:412 - ReplaceComparisonOperator != -> -1
+27	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:412 - ReplaceComparisonOperator != -> <
+28	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:412 - ReplaceComparisonOperator != -> >
+29	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:413 - ReplaceConstant - Parameter is not a compatible type -> 
+30	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:417 - ReplaceComparisonOperator != -> ==
+31	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:421 - ReplaceComparisonOperator == -> -2
+32	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:421 - ReplaceComparisonOperator == -> >=
+33	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:421 - ReplaceComparisonOperator == -> <=
+34	InsertUnaryOp	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:425 - InsertUnaryOp Negation
+35	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:425 - ReplaceComparisonOperator != -> -1
+36	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:425 - ReplaceComparisonOperator != -> <
+37	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:425 - ReplaceComparisonOperator != -> >
+38	InsertUnaryOp	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:425 - InsertUnaryOp Negation
+39	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:425 - ReplaceComparisonOperator == -> -2
+40	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:425 - ReplaceComparisonOperator == -> >=
+41	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:425 - ReplaceComparisonOperator == -> <=
+42	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:426 - ReplaceConstant - Optimized average results cannot be merged. -> 
+43	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:430 - ReplaceConstant - 2 -> 0
+44	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:430 - ReplaceConstant - 2 -> 1
+45	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:430 - ReplaceConstant - 2 -> -1
+46	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:430 - ReplaceConstant - 2 -> 3
+47	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:430 - ReplaceConstant - 0 -> 1
+48	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:431 - ReplaceConstant - 1 -> 0
+49	ReplaceArithmeticOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:436 - ReplaceArithmeticOperator + -> %
+50	ReplaceArithmeticOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:436 - ReplaceArithmeticOperator + -> -
+51	ReplaceArithmeticOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:436 - ReplaceArithmeticOperator + -> *
+52	ReplaceArithmeticOperator	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:436 - ReplaceArithmeticOperator + -> /
+53	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:437 - ReplaceConstant - 2 -> 0
+54	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:437 - ReplaceConstant - 2 -> 1
+55	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:437 - ReplaceConstant - 2 -> -1
+56	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:437 - ReplaceConstant - 2 -> 3
+57	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:437 - ReplaceConstant - 0 -> 1
+58	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:437 - ReplaceConstant - 1 -> 0
+59	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor$AverageResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:445 - ReplaceConstant - The CalcResults claim to be compatible, but the appropriate merge method has not been implemented. -> 

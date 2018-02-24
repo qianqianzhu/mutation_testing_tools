@@ -1,0 +1,377 @@
+0	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.<init>(Lorg/assertj/core/util/diff/myers/Equalizer;)V:64 - ReplaceComparisonOperator != null -> = null
+1	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.<init>(Lorg/assertj/core/util/diff/myers/Equalizer;)V:65 - ReplaceConstant - equalizer must not be null -> 
+2	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.diff(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:85 - ReplaceComparisonOperator != null -> = null
+3	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.diff(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:86 - ReplaceConstant - original list must not be null -> 
+4	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.diff(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:88 - ReplaceComparisonOperator != null -> = null
+5	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.diff(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:89 - ReplaceConstant - revised list must not be null -> 
+6	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:112 - ReplaceComparisonOperator != null -> = null
+7	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:113 - ReplaceConstant - original sequence is null -> 
+8	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:114 - ReplaceComparisonOperator != null -> = null
+9	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:115 - ReplaceConstant - revised sequence is null -> 
+10	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:121 - InsertUnaryOp Negation of N
+11	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:121 - InsertUnaryOp IINC 1 N
+12	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:121 - InsertUnaryOp IINC -1 N
+13	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:121 - InsertUnaryOp Negation of M
+14	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:121 - InsertUnaryOp IINC 1 M
+15	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:121 - InsertUnaryOp IINC -1 M
+16	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:121 - ReplaceArithmeticOperator + -> %
+17	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:121 - ReplaceArithmeticOperator + -> -
+18	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:121 - ReplaceArithmeticOperator + -> *
+19	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:121 - ReplaceArithmeticOperator + -> /
+20	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:121 - ReplaceConstant - 1 -> 0
+21	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:121 - ReplaceArithmeticOperator + -> %
+22	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:121 - ReplaceArithmeticOperator + -> -
+23	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:121 - ReplaceArithmeticOperator + -> *
+24	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:121 - ReplaceArithmeticOperator + -> /
+25	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:122 - ReplaceConstant - 1 -> 0
+26	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:122 - ReplaceConstant - 2 -> 0
+27	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:122 - ReplaceConstant - 2 -> 1
+28	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:122 - ReplaceConstant - 2 -> -1
+29	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:122 - ReplaceConstant - 2 -> 3
+30	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:122 - InsertUnaryOp Negation of MAX
+31	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:122 - InsertUnaryOp IINC 1 MAX
+32	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:122 - InsertUnaryOp IINC -1 MAX
+33	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:122 - ReplaceArithmeticOperator * -> +
+34	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:122 - ReplaceArithmeticOperator * -> %
+35	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:122 - ReplaceArithmeticOperator * -> -
+36	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:122 - ReplaceArithmeticOperator * -> /
+37	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:122 - ReplaceArithmeticOperator + -> %
+38	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:122 - ReplaceArithmeticOperator + -> -
+39	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:122 - ReplaceArithmeticOperator + -> *
+40	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:122 - ReplaceArithmeticOperator + -> /
+41	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:123 - InsertUnaryOp Negation of size
+42	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:123 - InsertUnaryOp IINC 1 size
+43	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:123 - InsertUnaryOp IINC -1 size
+44	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:123 - ReplaceConstant - 2 -> 0
+45	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:123 - ReplaceConstant - 2 -> 1
+46	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:123 - ReplaceConstant - 2 -> -1
+47	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:123 - ReplaceConstant - 2 -> 3
+48	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:123 - ReplaceArithmeticOperator / -> +
+49	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:123 - ReplaceArithmeticOperator / -> %
+50	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:123 - ReplaceArithmeticOperator / -> -
+51	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:123 - ReplaceArithmeticOperator / -> *
+52	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:124 - InsertUnaryOp Negation of size
+53	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:124 - InsertUnaryOp IINC 1 size
+54	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:124 - InsertUnaryOp IINC -1 size
+55	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:126 - InsertUnaryOp Negation of middle
+56	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:126 - InsertUnaryOp IINC 1 middle
+57	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:126 - InsertUnaryOp IINC -1 middle
+58	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:126 - ReplaceConstant - 1 -> 0
+59	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:126 - ReplaceArithmeticOperator + -> %
+60	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:126 - ReplaceArithmeticOperator + -> -
+61	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:126 - ReplaceArithmeticOperator + -> *
+62	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:126 - ReplaceArithmeticOperator + -> /
+63	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:126 - ReplaceConstant - 0 -> 1
+64	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:126 - ReplaceConstant - -1 -> 0
+65	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:126 - ReplaceConstant - -1 -> 1
+66	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:126 - ReplaceConstant - -1 -> -2
+67	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:127 - ReplaceConstant - 0 -> 1
+68	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:127 - InsertUnaryOp Negation of d
+69	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:127 - InsertUnaryOp IINC 1 d
+70	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:127 - InsertUnaryOp IINC -1 d
+71	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:127 - InsertUnaryOp Negation of MAX
+72	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:127 - InsertUnaryOp IINC 1 MAX
+73	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:127 - InsertUnaryOp IINC -1 MAX
+74	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:127 - ReplaceComparisonOperator >= -> -1
+75	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:127 - ReplaceComparisonOperator >= -> >
+76	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:127 - ReplaceComparisonOperator >= -> ==
+77	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - InsertUnaryOp Negation of d
+78	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - InsertUnaryOp IINC 1 d
+79	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - InsertUnaryOp IINC -1 d
+80	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - InsertUnaryOp Negation of k
+81	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - InsertUnaryOp IINC 1 k
+82	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - InsertUnaryOp IINC -1 k
+83	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - InsertUnaryOp Negation of d
+84	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - InsertUnaryOp IINC 1 d
+85	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - InsertUnaryOp IINC -1 d
+86	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - ReplaceComparisonOperator > -> !=
+87	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - ReplaceComparisonOperator > -> -2
+88	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - ReplaceComparisonOperator > -> >=
+89	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:129 - InsertUnaryOp Negation of middle
+90	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:129 - InsertUnaryOp IINC 1 middle
+91	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:129 - InsertUnaryOp IINC -1 middle
+92	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:129 - InsertUnaryOp Negation of k
+93	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:129 - InsertUnaryOp IINC 1 k
+94	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:129 - InsertUnaryOp IINC -1 k
+95	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:129 - ReplaceArithmeticOperator + -> %
+96	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:129 - ReplaceArithmeticOperator + -> -
+97	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:129 - ReplaceArithmeticOperator + -> *
+98	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:129 - ReplaceArithmeticOperator + -> /
+99	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:130 - InsertUnaryOp Negation of kmiddle
+100	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:130 - InsertUnaryOp IINC 1 kmiddle
+101	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:130 - InsertUnaryOp IINC -1 kmiddle
+102	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:130 - ReplaceConstant - 1 -> 0
+103	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:130 - ReplaceArithmeticOperator + -> %
+104	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:130 - ReplaceArithmeticOperator + -> -
+105	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:130 - ReplaceArithmeticOperator + -> *
+106	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:130 - ReplaceArithmeticOperator + -> /
+107	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:131 - InsertUnaryOp Negation of kmiddle
+108	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:131 - InsertUnaryOp IINC 1 kmiddle
+109	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:131 - InsertUnaryOp IINC -1 kmiddle
+110	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:131 - ReplaceConstant - 1 -> 0
+111	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:131 - ReplaceArithmeticOperator - -> +
+112	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:131 - ReplaceArithmeticOperator - -> %
+113	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:131 - ReplaceArithmeticOperator - -> *
+114	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:131 - ReplaceArithmeticOperator - -> /
+115	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp Negation of k
+116	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp IINC 1 k
+117	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp IINC -1 k
+118	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp Negation of d
+119	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp IINC 1 d
+120	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp IINC -1 d
+121	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - ReplaceComparisonOperator == -> -2
+122	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - ReplaceComparisonOperator == -> >=
+123	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - ReplaceComparisonOperator == -> <=
+124	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp Negation of k
+125	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp IINC 1 k
+126	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp IINC -1 k
+127	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp Negation of d
+128	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp IINC 1 d
+129	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp IINC -1 d
+130	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - ReplaceComparisonOperator == -> -2
+131	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - ReplaceComparisonOperator == -> >=
+132	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - ReplaceComparisonOperator == -> <=
+133	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp Negation of kminus
+134	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp IINC 1 kminus
+135	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp IINC -1 kminus
+136	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp Negation
+137	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp +1
+138	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp -1
+139	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp Negation of kplus
+140	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp IINC 1 kplus
+141	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp IINC -1 kplus
+142	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp Negation
+143	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp +1
+144	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - InsertUnaryOp -1
+145	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - ReplaceComparisonOperator >= -> -1
+146	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - ReplaceComparisonOperator >= -> >
+147	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:135 - ReplaceComparisonOperator >= -> ==
+148	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:136 - InsertUnaryOp Negation of kplus
+149	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:136 - InsertUnaryOp IINC 1 kplus
+150	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:136 - InsertUnaryOp IINC -1 kplus
+151	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:136 - InsertUnaryOp Negation
+152	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:136 - InsertUnaryOp +1
+153	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:136 - InsertUnaryOp -1
+154	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:137 - InsertUnaryOp Negation of kplus
+155	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:137 - InsertUnaryOp IINC 1 kplus
+156	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:137 - InsertUnaryOp IINC -1 kplus
+157	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:139 - InsertUnaryOp Negation of kminus
+158	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:139 - InsertUnaryOp IINC 1 kminus
+159	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:139 - InsertUnaryOp IINC -1 kminus
+160	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:139 - InsertUnaryOp Negation
+161	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:139 - InsertUnaryOp +1
+162	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:139 - InsertUnaryOp -1
+163	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:139 - ReplaceConstant - 1 -> 0
+164	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:139 - ReplaceArithmeticOperator + -> %
+165	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:139 - ReplaceArithmeticOperator + -> -
+166	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:139 - ReplaceArithmeticOperator + -> *
+167	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:139 - ReplaceArithmeticOperator + -> /
+168	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:140 - InsertUnaryOp Negation of kminus
+169	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:140 - InsertUnaryOp IINC 1 kminus
+170	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:140 - InsertUnaryOp IINC -1 kminus
+171	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:143 - InsertUnaryOp Negation of kminus
+172	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:143 - InsertUnaryOp IINC 1 kminus
+173	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:143 - InsertUnaryOp IINC -1 kminus
+174	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:145 - InsertUnaryOp Negation of i
+175	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:145 - InsertUnaryOp IINC 1 i
+176	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:145 - InsertUnaryOp IINC -1 i
+177	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:145 - InsertUnaryOp Negation of k
+178	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:145 - InsertUnaryOp IINC 1 k
+179	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:145 - InsertUnaryOp IINC -1 k
+180	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:145 - ReplaceArithmeticOperator - -> +
+181	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:145 - ReplaceArithmeticOperator - -> %
+182	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:145 - ReplaceArithmeticOperator - -> *
+183	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:145 - ReplaceArithmeticOperator - -> /
+184	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:147 - InsertUnaryOp Negation of i
+185	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:147 - InsertUnaryOp IINC 1 i
+186	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:147 - InsertUnaryOp IINC -1 i
+187	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:147 - InsertUnaryOp Negation of j
+188	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:147 - InsertUnaryOp IINC 1 j
+189	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:147 - InsertUnaryOp IINC -1 j
+190	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp Negation of i
+191	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp IINC 1 i
+192	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp IINC -1 i
+193	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp Negation of N
+194	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp IINC 1 N
+195	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp IINC -1 N
+196	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - ReplaceComparisonOperator >= -> -1
+197	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - ReplaceComparisonOperator >= -> >
+198	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - ReplaceComparisonOperator >= -> ==
+199	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp Negation of j
+200	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp IINC 1 j
+201	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp IINC -1 j
+202	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp Negation of M
+203	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp IINC 1 M
+204	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp IINC -1 M
+205	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - ReplaceComparisonOperator >= -> -1
+206	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - ReplaceComparisonOperator >= -> >
+207	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - ReplaceComparisonOperator >= -> ==
+208	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp Negation of i
+209	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp IINC 1 i
+210	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp IINC -1 i
+211	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp Negation of j
+212	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp IINC 1 j
+213	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - InsertUnaryOp IINC -1 j
+214	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - ReplaceComparisonOperator == -> -2
+215	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - ReplaceComparisonOperator == -> >=
+216	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:152 - ReplaceComparisonOperator == -> <=
+217	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:153 - ReplaceVariable i -> kmiddle
+218	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:153 - ReplaceVariable i -> kminus
+219	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:153 - ReplaceVariable i -> middle
+220	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:153 - ReplaceVariable i -> d
+221	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:153 - ReplaceVariable i -> size
+222	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:153 - ReplaceVariable i -> MAX
+223	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:153 - ReplaceVariable i -> j
+224	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:153 - ReplaceVariable i -> k
+225	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:153 - ReplaceVariable i -> kplus
+226	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:153 - ReplaceVariable i -> M
+227	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:153 - ReplaceVariable i -> N
+228	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:154 - ReplaceVariable j -> kmiddle
+229	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:154 - ReplaceVariable j -> kminus
+230	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:154 - ReplaceVariable j -> middle
+231	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:154 - ReplaceVariable j -> d
+232	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:154 - ReplaceVariable j -> size
+233	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:154 - ReplaceVariable j -> MAX
+234	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:154 - ReplaceVariable j -> i
+235	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:154 - ReplaceVariable j -> k
+236	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:154 - ReplaceVariable j -> kplus
+237	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:154 - ReplaceVariable j -> M
+238	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:154 - ReplaceVariable j -> N
+239	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:156 - InsertUnaryOp Negation of i
+240	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:156 - InsertUnaryOp IINC 1 i
+241	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:156 - InsertUnaryOp IINC -1 i
+242	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:156 - InsertUnaryOp Negation
+243	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:156 - InsertUnaryOp +1
+244	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:156 - InsertUnaryOp -1
+245	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:156 - ReplaceComparisonOperator <= -> -1
+246	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:156 - ReplaceComparisonOperator <= -> <
+247	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:156 - ReplaceComparisonOperator <= -> ==
+248	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:156 - InsertUnaryOp Negation of i
+249	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:156 - InsertUnaryOp IINC 1 i
+250	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:156 - InsertUnaryOp IINC -1 i
+251	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:156 - InsertUnaryOp Negation of j
+252	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:156 - InsertUnaryOp IINC 1 j
+253	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:156 - InsertUnaryOp IINC -1 j
+254	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:158 - InsertUnaryOp Negation of kmiddle
+255	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:158 - InsertUnaryOp IINC 1 kmiddle
+256	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:158 - InsertUnaryOp IINC -1 kmiddle
+257	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - InsertUnaryOp Negation of i
+258	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - InsertUnaryOp IINC 1 i
+259	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - InsertUnaryOp IINC -1 i
+260	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - InsertUnaryOp Negation of N
+261	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - InsertUnaryOp IINC 1 N
+262	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - InsertUnaryOp IINC -1 N
+263	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - ReplaceComparisonOperator < -> !=
+264	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - ReplaceComparisonOperator < -> -2
+265	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - ReplaceComparisonOperator < -> <=
+266	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - InsertUnaryOp Negation of j
+267	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - InsertUnaryOp IINC 1 j
+268	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - InsertUnaryOp IINC -1 j
+269	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - InsertUnaryOp Negation of M
+270	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - InsertUnaryOp IINC 1 M
+271	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - InsertUnaryOp IINC -1 M
+272	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - ReplaceComparisonOperator < -> !=
+273	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - ReplaceComparisonOperator < -> -2
+274	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - ReplaceComparisonOperator < -> <=
+275	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - InsertUnaryOp Negation of kmiddle
+276	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - InsertUnaryOp IINC 1 kmiddle
+277	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:160 - InsertUnaryOp IINC -1 kmiddle
+278	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - ReplaceVariable k -> middle
+279	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - ReplaceVariable k -> d
+280	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - ReplaceVariable k -> size
+281	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - ReplaceVariable k -> MAX
+282	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - ReplaceVariable k -> M
+283	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:128 - ReplaceVariable k -> N
+284	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:162 - InsertUnaryOp Negation of middle
+285	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:162 - InsertUnaryOp IINC 1 middle
+286	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:162 - InsertUnaryOp IINC -1 middle
+287	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:162 - InsertUnaryOp Negation of d
+288	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:162 - InsertUnaryOp IINC 1 d
+289	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:162 - InsertUnaryOp IINC -1 d
+290	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:162 - ReplaceArithmeticOperator + -> %
+291	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:162 - ReplaceArithmeticOperator + -> -
+292	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:162 - ReplaceArithmeticOperator + -> *
+293	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:162 - ReplaceArithmeticOperator + -> /
+294	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:162 - ReplaceConstant - 1 -> 0
+295	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:162 - ReplaceArithmeticOperator - -> +
+296	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:162 - ReplaceArithmeticOperator - -> %
+297	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:162 - ReplaceArithmeticOperator - -> *
+298	ReplaceArithmeticOperator	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:162 - ReplaceArithmeticOperator - -> /
+299	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:127 - ReplaceVariable d -> middle
+300	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:127 - ReplaceVariable d -> size
+301	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:127 - ReplaceVariable d -> MAX
+302	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:127 - ReplaceVariable d -> M
+303	ReplaceVariable	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:127 - ReplaceVariable d -> N
+304	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildPath(Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/myers/PathNode;:166 - ReplaceConstant - could not find a diff path -> 
+305	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:182 - ReplaceComparisonOperator != null -> = null
+306	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:182 - ReplaceConstant - path is null -> 
+307	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:183 - ReplaceComparisonOperator != null -> = null
+308	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:183 - ReplaceConstant - original sequence is null -> 
+309	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:184 - ReplaceComparisonOperator != null -> = null
+310	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:184 - ReplaceConstant - revised sequence is null -> 
+311	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:187 - ReplaceComparisonOperator == -> -2
+312	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:187 - ReplaceComparisonOperator == -> >=
+313	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:187 - ReplaceComparisonOperator == -> <=
+314	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:189 - ReplaceComparisonOperator = null -> != null
+315	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:189 - ReplaceComparisonOperator = null -> != null
+316	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:189 - InsertUnaryOp Negation
+317	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:189 - InsertUnaryOp +1
+318	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:189 - InsertUnaryOp -1
+319	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:189 - ReplaceComparisonOperator < -> -2
+320	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:189 - ReplaceComparisonOperator < -> !=
+321	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:189 - ReplaceComparisonOperator < -> <=
+322	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:190 - ReplaceComparisonOperator == -> -2
+323	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:190 - ReplaceComparisonOperator == -> >=
+324	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:190 - ReplaceComparisonOperator == -> <=
+325	ReplaceConstant	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:191 - ReplaceConstant - bad diffpath: found snake when looking for diff -> 
+326	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:192 - InsertUnaryOp Negation
+327	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:192 - InsertUnaryOp +1
+328	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:192 - InsertUnaryOp -1
+329	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:193 - InsertUnaryOp Negation
+330	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:193 - InsertUnaryOp +1
+331	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:193 - InsertUnaryOp -1
+332	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:196 - InsertUnaryOp Negation
+333	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:196 - InsertUnaryOp +1
+334	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:196 - InsertUnaryOp -1
+335	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:197 - InsertUnaryOp Negation
+336	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:197 - InsertUnaryOp +1
+337	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:197 - InsertUnaryOp -1
+338	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:199 - InsertUnaryOp Negation of ianchor
+339	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:199 - InsertUnaryOp IINC 1 ianchor
+340	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:199 - InsertUnaryOp IINC -1 ianchor
+341	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:199 - InsertUnaryOp Negation of ianchor
+342	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:199 - InsertUnaryOp IINC 1 ianchor
+343	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:199 - InsertUnaryOp IINC -1 ianchor
+344	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:199 - InsertUnaryOp Negation of i
+345	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:199 - InsertUnaryOp IINC 1 i
+346	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:199 - InsertUnaryOp IINC -1 i
+347	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:200 - InsertUnaryOp Negation of janchor
+348	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:200 - InsertUnaryOp IINC 1 janchor
+349	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:200 - InsertUnaryOp IINC -1 janchor
+350	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:200 - InsertUnaryOp Negation of janchor
+351	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:200 - InsertUnaryOp IINC 1 janchor
+352	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:200 - InsertUnaryOp IINC -1 janchor
+353	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:200 - InsertUnaryOp Negation of j
+354	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:200 - InsertUnaryOp IINC 1 j
+355	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:200 - InsertUnaryOp IINC -1 j
+356	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:202 - ReplaceComparisonOperator != -> -1
+357	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:202 - ReplaceComparisonOperator != -> <
+358	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:202 - ReplaceComparisonOperator != -> >
+359	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:202 - ReplaceComparisonOperator == -> -2
+360	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:202 - ReplaceComparisonOperator == -> >=
+361	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:202 - ReplaceComparisonOperator == -> <=
+362	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:204 - ReplaceComparisonOperator <= -> -1
+363	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:204 - ReplaceComparisonOperator <= -> ==
+364	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:204 - ReplaceComparisonOperator <= -> <
+365	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:204 - ReplaceComparisonOperator != -> -1
+366	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:204 - ReplaceComparisonOperator != -> <
+367	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:204 - ReplaceComparisonOperator != -> >
+368	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:211 - ReplaceComparisonOperator == -> -2
+369	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:211 - ReplaceComparisonOperator == -> >=
+370	ReplaceComparisonOperator	org.assertj.core.util.diff.myers.MyersDiff.buildRevision(Lorg/assertj/core/util/diff/myers/PathNode;Ljava/util/List;Ljava/util/List;)Lorg/assertj/core/util/diff/Patch;:211 - ReplaceComparisonOperator == -> <=
+371	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.copyOfRange(Ljava/util/List;II)Ljava/util/List;:225 - InsertUnaryOp Negation of fromIndex
+372	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.copyOfRange(Ljava/util/List;II)Ljava/util/List;:225 - InsertUnaryOp IINC 1 fromIndex
+373	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.copyOfRange(Ljava/util/List;II)Ljava/util/List;:225 - InsertUnaryOp IINC -1 fromIndex
+374	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.copyOfRange(Ljava/util/List;II)Ljava/util/List;:225 - InsertUnaryOp Negation of to
+375	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.copyOfRange(Ljava/util/List;II)Ljava/util/List;:225 - InsertUnaryOp IINC 1 to
+376	InsertUnaryOp	org.assertj.core.util.diff.myers.MyersDiff.copyOfRange(Ljava/util/List;II)Ljava/util/List;:225 - InsertUnaryOp IINC -1 to

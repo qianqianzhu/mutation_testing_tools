@@ -1,0 +1,56 @@
+0	ReplaceConstant	org.dynjs.ir.IRJSFunction.isConstructor()Z:56 - ReplaceConstant - 0 -> 1
+1	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.hasInstance(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Z:84 - ReplaceComparisonOperator != -> -1
+2	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.hasInstance(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Z:84 - ReplaceComparisonOperator != -> <
+3	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.hasInstance(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Z:84 - ReplaceComparisonOperator != -> >
+4	ReplaceConstant	org.dynjs.ir.IRJSFunction.hasInstance(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Z:85 - ReplaceConstant - 0 -> 1
+5	ReplaceConstant	org.dynjs.ir.IRJSFunction.hasInstance(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Z:88 - ReplaceConstant - prototype -> 
+6	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.hasInstance(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Z:89 - ReplaceComparisonOperator != -> -1
+7	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.hasInstance(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Z:89 - ReplaceComparisonOperator != -> <
+8	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.hasInstance(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Z:89 - ReplaceComparisonOperator != -> >
+9	ReplaceConstant	org.dynjs.ir.IRJSFunction.hasInstance(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Z:91 - ReplaceConstant - prototype must be an object -> 
+10	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.hasInstance(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Z:96 - ReplaceComparisonOperator = null -> != null
+11	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.hasInstance(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Z:96 - ReplaceComparisonOperator != -> ==
+12	ReplaceConstant	org.dynjs.ir.IRJSFunction.hasInstance(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Z:97 - ReplaceConstant - 0 -> 1
+13	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.hasInstance(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator = null -> != null
+14	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.hasInstance(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator != -> ==
+15	ReplaceConstant	org.dynjs.ir.IRJSFunction.hasInstance(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Z:103 - ReplaceConstant - 0 -> 1
+16	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.hasInstance(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Z:105 - ReplaceComparisonOperator != -> ==
+17	ReplaceConstant	org.dynjs.ir.IRJSFunction.hasInstance(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Z:106 - ReplaceConstant - 1 -> 0
+18	InsertUnaryOp	org.dynjs.ir.IRJSFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:116 - InsertUnaryOp Negation
+19	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:116 - ReplaceComparisonOperator != -> -1
+20	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:116 - ReplaceComparisonOperator != -> <
+21	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:116 - ReplaceComparisonOperator != -> >
+22	InsertUnaryOp	org.dynjs.ir.IRJSFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:116 - InsertUnaryOp Negation
+23	InsertUnaryOp	org.dynjs.ir.IRJSFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:116 - InsertUnaryOp +1
+24	InsertUnaryOp	org.dynjs.ir.IRJSFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:116 - InsertUnaryOp -1
+25	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:116 - ReplaceComparisonOperator < -> -2
+26	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:116 - ReplaceComparisonOperator < -> !=
+27	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:116 - ReplaceComparisonOperator < -> <=
+28	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:117 - ReplaceComparisonOperator == -> -2
+29	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:117 - ReplaceComparisonOperator == -> >=
+30	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:117 - ReplaceComparisonOperator == -> <=
+31	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:130 - ReplaceComparisonOperator = null -> != null
+32	ReplaceConstant	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:131 - ReplaceConstant - 1 -> 0
+33	InsertUnaryOp	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:134 - InsertUnaryOp Negation
+34	InsertUnaryOp	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:134 - InsertUnaryOp +1
+35	InsertUnaryOp	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:134 - InsertUnaryOp -1
+36	ReplaceConstant	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:134 - ReplaceConstant - 1 -> 0
+37	ReplaceArithmeticOperator	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:134 - ReplaceArithmeticOperator + -> %
+38	ReplaceArithmeticOperator	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:134 - ReplaceArithmeticOperator + -> -
+39	ReplaceArithmeticOperator	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:134 - ReplaceArithmeticOperator + -> *
+40	ReplaceArithmeticOperator	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:134 - ReplaceArithmeticOperator + -> /
+41	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:134 - ReplaceComparisonOperator < -> !=
+42	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:134 - ReplaceComparisonOperator < -> -2
+43	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:134 - ReplaceComparisonOperator < -> <=
+44	ReplaceConstant	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:135 - ReplaceConstant - -1 -> 0
+45	ReplaceConstant	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:135 - ReplaceConstant - -1 -> 1
+46	ReplaceConstant	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:135 - ReplaceConstant - -1 -> -2
+47	InsertUnaryOp	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:136 - InsertUnaryOp Negation
+48	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:136 - ReplaceComparisonOperator != -> -1
+49	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:136 - ReplaceComparisonOperator != -> <
+50	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:136 - ReplaceComparisonOperator != -> >
+51	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:137 - ReplaceComparisonOperator == -> -2
+52	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:137 - ReplaceComparisonOperator == -> >=
+53	ReplaceComparisonOperator	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:137 - ReplaceComparisonOperator == -> <=
+54	ReplaceConstant	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:139 - ReplaceConstant - 1 -> 0
+55	ReplaceConstant	org.dynjs.ir.IRJSFunction.tryCompile(Lorg/dynjs/runtime/ExecutionContext;)Z:151 - ReplaceConstant - 0 -> 1

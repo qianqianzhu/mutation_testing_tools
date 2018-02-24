@@ -1,0 +1,133 @@
+0	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:83 - ReplaceConstant - 2.0 -> 0.0
+1	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:83 - ReplaceConstant - 2.0 -> 1.0
+2	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:83 - ReplaceConstant - 2.0 -> -1.0
+3	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:83 - ReplaceConstant - 2.0 -> 3.0
+4	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:92 - ReplaceConstant - 5 -> 0
+5	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:92 - ReplaceConstant - 5 -> 1
+6	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:92 - ReplaceConstant - 5 -> -1
+7	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:92 - ReplaceConstant - 5 -> 4
+8	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:92 - ReplaceConstant - 5 -> 6
+9	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:95 - ReplaceConstant - 0.5 -> 0.0
+10	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:95 - ReplaceConstant - 0.5 -> 1.0
+11	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:95 - ReplaceConstant - 0.5 -> -1.0
+12	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:95 - ReplaceConstant - 0.5 -> -0.5
+13	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:95 - ReplaceConstant - 0.5 -> 1.5
+14	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:98 - ReplaceConstant - 0.5 -> 0.0
+15	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:98 - ReplaceConstant - 0.5 -> 1.0
+16	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:98 - ReplaceConstant - 0.5 -> -1.0
+17	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:98 - ReplaceConstant - 0.5 -> -0.5
+18	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.<init>(Ljava/awt/Paint;Ljava/awt/Paint;Ljava/awt/Paint;)V:98 - ReplaceConstant - 0.5 -> 1.5
+19	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.setOutlinePaint(Ljava/awt/Paint;)V:138 - ReplaceComparisonOperator = null -> != null
+20	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.setOutlineStroke(Ljava/awt/Stroke;)V:158 - ReplaceComparisonOperator = null -> != null
+21	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.setFillPaint(Ljava/awt/Paint;)V:178 - ReplaceComparisonOperator = null -> != null
+22	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.setHighlightPaint(Ljava/awt/Paint;)V:198 - ReplaceComparisonOperator = null -> != null
+23	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.getRotateX()D:209 - InsertUnaryOp Negation
+24	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.setRotateX(D)V:218 - InsertUnaryOp Negation of x
+25	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.setRotateY(D)V:227 - InsertUnaryOp Negation of y
+26	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.getRotateY()D:236 - InsertUnaryOp Negation
+27	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V:246 - ReplaceConstant - 0.0 -> 1.0
+28	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V:246 - ReplaceConstant - 0.0 -> -1.0
+29	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:260 - InsertUnaryOp Negation
+30	ReplaceArithmeticOperator	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:260 - ReplaceArithmeticOperator * -> +
+31	ReplaceArithmeticOperator	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:260 - ReplaceArithmeticOperator * -> %
+32	ReplaceArithmeticOperator	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:260 - ReplaceArithmeticOperator * -> -
+33	ReplaceArithmeticOperator	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:260 - ReplaceArithmeticOperator * -> /
+34	ReplaceArithmeticOperator	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:260 - ReplaceArithmeticOperator + -> %
+35	ReplaceArithmeticOperator	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:260 - ReplaceArithmeticOperator + -> -
+36	ReplaceArithmeticOperator	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:260 - ReplaceArithmeticOperator + -> *
+37	ReplaceArithmeticOperator	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:260 - ReplaceArithmeticOperator + -> /
+38	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:261 - InsertUnaryOp Negation
+39	ReplaceArithmeticOperator	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:261 - ReplaceArithmeticOperator * -> +
+40	ReplaceArithmeticOperator	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:261 - ReplaceArithmeticOperator * -> %
+41	ReplaceArithmeticOperator	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:261 - ReplaceArithmeticOperator * -> -
+42	ReplaceArithmeticOperator	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:261 - ReplaceArithmeticOperator * -> /
+43	ReplaceArithmeticOperator	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:261 - ReplaceArithmeticOperator + -> %
+44	ReplaceArithmeticOperator	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:261 - ReplaceArithmeticOperator + -> -
+45	ReplaceArithmeticOperator	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:261 - ReplaceArithmeticOperator + -> *
+46	ReplaceArithmeticOperator	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:261 - ReplaceArithmeticOperator + -> /
+47	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;D)V:263 - InsertUnaryOp Negation of angle
+48	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:281 - InsertUnaryOp Negation of angle
+49	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.defaultDisplay(Ljava/awt/Graphics2D;Ljava/awt/Shape;)V:308 - ReplaceComparisonOperator = null -> != null
+50	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.defaultDisplay(Ljava/awt/Graphics2D;Ljava/awt/Shape;)V:313 - ReplaceComparisonOperator = null -> != null
+51	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.getSize()I:327 - InsertUnaryOp Negation
+52	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.getSize()I:327 - InsertUnaryOp +1
+53	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.getSize()I:327 - InsertUnaryOp -1
+54	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.setSize(I)V:336 - InsertUnaryOp Negation of pixels
+55	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.setSize(I)V:336 - InsertUnaryOp IINC 1 pixels
+56	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.setSize(I)V:336 - InsertUnaryOp IINC -1 pixels
+57	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:357 - ReplaceComparisonOperator != -> ==
+58	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:358 - ReplaceConstant - 1 -> 0
+59	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:360 - ReplaceComparisonOperator != -> -1
+60	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:360 - ReplaceComparisonOperator != -> <
+61	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:360 - ReplaceComparisonOperator != -> >
+62	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:361 - ReplaceConstant - 0 -> 1
+63	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:364 - ReplaceComparisonOperator != -> -1
+64	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:364 - ReplaceComparisonOperator != -> <
+65	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:364 - ReplaceComparisonOperator != -> >
+66	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:365 - ReplaceConstant - 0 -> 1
+67	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:367 - ReplaceComparisonOperator != -> -1
+68	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:367 - ReplaceComparisonOperator != -> <
+69	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:367 - ReplaceComparisonOperator != -> >
+70	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:368 - ReplaceConstant - 0 -> 1
+71	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:370 - ReplaceComparisonOperator != -> -1
+72	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:370 - ReplaceComparisonOperator != -> <
+73	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:370 - ReplaceComparisonOperator != -> >
+74	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:371 - ReplaceConstant - 0 -> 1
+75	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:373 - ReplaceComparisonOperator != -> -1
+76	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:373 - ReplaceComparisonOperator != -> <
+77	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:373 - ReplaceComparisonOperator != -> >
+78	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:374 - ReplaceConstant - 0 -> 1
+79	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:376 - InsertUnaryOp Negation
+80	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:376 - InsertUnaryOp +1
+81	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:376 - InsertUnaryOp -1
+82	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:376 - InsertUnaryOp Negation
+83	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:376 - InsertUnaryOp +1
+84	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:376 - InsertUnaryOp -1
+85	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:376 - ReplaceComparisonOperator == -> -2
+86	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:376 - ReplaceComparisonOperator == -> >=
+87	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:376 - ReplaceComparisonOperator == -> <=
+88	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:377 - ReplaceConstant - 0 -> 1
+89	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:379 - InsertUnaryOp Negation
+90	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:379 - InsertUnaryOp Negation
+91	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:379 - ReplaceComparisonOperator == -> -2
+92	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:379 - ReplaceComparisonOperator == -> >=
+93	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:379 - ReplaceComparisonOperator == -> <=
+94	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:380 - ReplaceConstant - 0 -> 1
+95	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:382 - InsertUnaryOp Negation
+96	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:382 - InsertUnaryOp Negation
+97	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:382 - ReplaceComparisonOperator == -> -2
+98	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:382 - ReplaceComparisonOperator == -> >=
+99	ReplaceComparisonOperator	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:382 - ReplaceComparisonOperator == -> <=
+100	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:383 - ReplaceConstant - 0 -> 1
+101	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.equals(Ljava/lang/Object;)Z:385 - ReplaceConstant - 1 -> 0
+102	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.hashCode()I:395 - ReplaceConstant - 193 -> 0
+103	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.hashCode()I:395 - ReplaceConstant - 193 -> 1
+104	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.hashCode()I:395 - ReplaceConstant - 193 -> -1
+105	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.hashCode()I:395 - ReplaceConstant - 193 -> 192
+106	ReplaceConstant	org.jfree.chart.needle.MeterNeedle.hashCode()I:395 - ReplaceConstant - 193 -> 194
+107	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:396 - InsertUnaryOp Negation of result
+108	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:396 - InsertUnaryOp IINC 1 result
+109	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:396 - InsertUnaryOp IINC -1 result
+110	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:397 - InsertUnaryOp Negation of result
+111	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:397 - InsertUnaryOp IINC 1 result
+112	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:397 - InsertUnaryOp IINC -1 result
+113	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:398 - InsertUnaryOp Negation of result
+114	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:398 - InsertUnaryOp IINC 1 result
+115	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:398 - InsertUnaryOp IINC -1 result
+116	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:399 - InsertUnaryOp Negation of result
+117	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:399 - InsertUnaryOp IINC 1 result
+118	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:399 - InsertUnaryOp IINC -1 result
+119	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:399 - InsertUnaryOp Negation
+120	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:400 - InsertUnaryOp Negation of result
+121	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:400 - InsertUnaryOp IINC 1 result
+122	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:400 - InsertUnaryOp IINC -1 result
+123	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:400 - InsertUnaryOp Negation
+124	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:401 - InsertUnaryOp Negation of result
+125	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:401 - InsertUnaryOp IINC 1 result
+126	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:401 - InsertUnaryOp IINC -1 result
+127	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:401 - InsertUnaryOp Negation
+128	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:401 - InsertUnaryOp +1
+129	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:401 - InsertUnaryOp -1
+130	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:402 - InsertUnaryOp Negation of result
+131	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:402 - InsertUnaryOp IINC 1 result
+132	InsertUnaryOp	org.jfree.chart.needle.MeterNeedle.hashCode()I:402 - InsertUnaryOp IINC -1 result

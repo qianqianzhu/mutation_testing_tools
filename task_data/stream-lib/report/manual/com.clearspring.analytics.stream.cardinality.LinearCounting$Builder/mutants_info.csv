@@ -1,0 +1,469 @@
+0	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.<init>()V:223 - ReplaceConstant - 65536 -> 0
+1	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.<init>()V:223 - ReplaceConstant - 65536 -> 1
+2	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.<init>()V:223 - ReplaceConstant - 65536 -> -1
+3	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.<init>()V:223 - ReplaceConstant - 65536 -> 65535
+4	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.<init>()V:223 - ReplaceConstant - 65536 -> 65537
+5	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.<init>(I)V:227 - InsertUnaryOp Negation of size
+6	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.<init>(I)V:227 - InsertUnaryOp IINC 1 size
+7	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.<init>(I)V:227 - InsertUnaryOp IINC -1 size
+8	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.build()Lcom/clearspring/analytics/stream/cardinality/LinearCounting;:232 - InsertUnaryOp Negation
+9	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.build()Lcom/clearspring/analytics/stream/cardinality/LinearCounting;:232 - InsertUnaryOp +1
+10	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.build()Lcom/clearspring/analytics/stream/cardinality/LinearCounting;:232 - InsertUnaryOp -1
+11	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.sizeof()I:237 - InsertUnaryOp Negation
+12	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.sizeof()I:237 - InsertUnaryOp +1
+13	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.sizeof()I:237 - InsertUnaryOp -1
+14	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:251 - InsertUnaryOp Negation of maxCardinality
+15	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:251 - InsertUnaryOp IINC 1 maxCardinality
+16	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:251 - InsertUnaryOp IINC -1 maxCardinality
+17	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:251 - ReplaceComparisonOperator > -> -2
+18	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:251 - ReplaceComparisonOperator > -> !=
+19	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:251 - ReplaceComparisonOperator > -> >=
+20	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:252 - ReplaceConstant - maxCardinality ( -> 
+21	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:252 - InsertUnaryOp Negation of maxCardinality
+22	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:252 - InsertUnaryOp IINC 1 maxCardinality
+23	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:252 - InsertUnaryOp IINC -1 maxCardinality
+24	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:252 - ReplaceConstant - ) must be a positive integer -> 
+25	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:255 - ReplaceConstant - -1 -> 0
+26	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:255 - ReplaceConstant - -1 -> 1
+27	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:255 - ReplaceConstant - -1 -> -2
+28	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:256 - InsertUnaryOp Negation of maxCardinality
+29	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:256 - InsertUnaryOp IINC 1 maxCardinality
+30	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:256 - InsertUnaryOp IINC -1 maxCardinality
+31	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:256 - ReplaceConstant - 100 -> 0
+32	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:256 - ReplaceConstant - 100 -> 1
+33	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:256 - ReplaceConstant - 100 -> -1
+34	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:256 - ReplaceConstant - 100 -> 99
+35	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:256 - ReplaceConstant - 100 -> 101
+36	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:256 - ReplaceComparisonOperator >= -> -1
+37	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:256 - ReplaceComparisonOperator >= -> >
+38	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:256 - ReplaceComparisonOperator >= -> ==
+39	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:257 - ReplaceConstant - 0 -> 1
+40	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:258 - InsertUnaryOp Negation of maxCardinality
+41	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:258 - InsertUnaryOp IINC 1 maxCardinality
+42	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:258 - InsertUnaryOp IINC -1 maxCardinality
+43	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:258 - ReplaceConstant - 10000000 -> 0
+44	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:258 - ReplaceConstant - 10000000 -> 1
+45	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:258 - ReplaceConstant - 10000000 -> -1
+46	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:258 - ReplaceConstant - 10000000 -> 9999999
+47	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:258 - ReplaceConstant - 10000000 -> 10000001
+48	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:258 - ReplaceComparisonOperator >= -> -1
+49	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:258 - ReplaceComparisonOperator >= -> >
+50	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:258 - ReplaceComparisonOperator >= -> ==
+51	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:259 - InsertUnaryOp Negation of maxCardinality
+52	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:259 - InsertUnaryOp IINC 1 maxCardinality
+53	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:259 - InsertUnaryOp IINC -1 maxCardinality
+54	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:260 - ReplaceConstant - 10.0 -> 0.0
+55	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:260 - ReplaceConstant - 10.0 -> 1.0
+56	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:260 - ReplaceConstant - 10.0 -> -1.0
+57	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:260 - ReplaceConstant - 10.0 -> 9.0
+58	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:260 - ReplaceConstant - 10.0 -> 11.0
+59	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:260 - InsertUnaryOp Negation of logscale
+60	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:260 - InsertUnaryOp IINC 1 logscale
+61	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:260 - InsertUnaryOp IINC -1 logscale
+62	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:261 - InsertUnaryOp Negation of maxCardinality
+63	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:261 - InsertUnaryOp IINC 1 maxCardinality
+64	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:261 - InsertUnaryOp IINC -1 maxCardinality
+65	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:261 - InsertUnaryOp Negation of scaleValue
+66	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:261 - InsertUnaryOp IINC 1 scaleValue
+67	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:261 - InsertUnaryOp IINC -1 scaleValue
+68	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:261 - ReplaceArithmeticOperator / -> +
+69	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:261 - ReplaceArithmeticOperator / -> %
+70	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:261 - ReplaceArithmeticOperator / -> -
+71	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:261 - ReplaceArithmeticOperator / -> *
+72	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceConstant - 9 -> 0
+73	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceConstant - 9 -> 1
+74	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceConstant - 9 -> -1
+75	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceConstant - 9 -> 8
+76	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceConstant - 9 -> 10
+77	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - InsertUnaryOp Negation of logscale
+78	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - InsertUnaryOp IINC 1 logscale
+79	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - InsertUnaryOp IINC -1 logscale
+80	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceConstant - 2 -> 0
+81	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceConstant - 2 -> 1
+82	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceConstant - 2 -> -1
+83	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceConstant - 2 -> 3
+84	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceArithmeticOperator - -> +
+85	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceArithmeticOperator - -> %
+86	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceArithmeticOperator - -> *
+87	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceArithmeticOperator - -> /
+88	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceArithmeticOperator * -> +
+89	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceArithmeticOperator * -> %
+90	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceArithmeticOperator * -> -
+91	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceArithmeticOperator * -> /
+92	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - InsertUnaryOp Negation of scaleIndex
+93	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - InsertUnaryOp IINC 1 scaleIndex
+94	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - InsertUnaryOp IINC -1 scaleIndex
+95	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceConstant - 1 -> 0
+96	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceArithmeticOperator - -> +
+97	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceArithmeticOperator - -> %
+98	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceArithmeticOperator - -> *
+99	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceArithmeticOperator - -> /
+100	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceArithmeticOperator + -> %
+101	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceArithmeticOperator + -> -
+102	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceArithmeticOperator + -> *
+103	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:262 - ReplaceArithmeticOperator + -> /
+104	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:263 - InsertUnaryOp Negation of scaleValue
+105	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:263 - InsertUnaryOp IINC 1 scaleValue
+106	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:263 - InsertUnaryOp IINC -1 scaleValue
+107	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:263 - InsertUnaryOp Negation of scaleIndex
+108	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:263 - InsertUnaryOp IINC 1 scaleIndex
+109	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:263 - InsertUnaryOp IINC -1 scaleIndex
+110	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:263 - ReplaceArithmeticOperator * -> +
+111	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:263 - ReplaceArithmeticOperator * -> %
+112	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:263 - ReplaceArithmeticOperator * -> -
+113	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:263 - ReplaceArithmeticOperator * -> /
+114	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp Negation of lowerBound
+115	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp IINC 1 lowerBound
+116	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp IINC -1 lowerBound
+117	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp Negation of index
+118	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp IINC 1 index
+119	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp IINC -1 index
+120	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp Negation of lowerBound
+121	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp IINC 1 lowerBound
+122	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp IINC -1 lowerBound
+123	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp Negation of scaleValue
+124	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp IINC 1 scaleValue
+125	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp IINC -1 scaleValue
+126	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - ReplaceArithmeticOperator + -> %
+127	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - ReplaceArithmeticOperator + -> -
+128	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - ReplaceArithmeticOperator + -> *
+129	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - ReplaceArithmeticOperator + -> /
+130	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp Negation of index
+131	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp IINC 1 index
+132	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp IINC -1 index
+133	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - ReplaceConstant - 1 -> 0
+134	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - ReplaceArithmeticOperator + -> %
+135	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - ReplaceArithmeticOperator + -> -
+136	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - ReplaceArithmeticOperator + -> *
+137	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - ReplaceArithmeticOperator + -> /
+138	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp Negation of maxCardinality
+139	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp IINC 1 maxCardinality
+140	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:264 - InsertUnaryOp IINC -1 maxCardinality
+141	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:268 - InsertUnaryOp Negation of maxCardinality
+142	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:268 - InsertUnaryOp IINC 1 maxCardinality
+143	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:268 - InsertUnaryOp IINC -1 maxCardinality
+144	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:268 - ReplaceConstant - 50000000 -> 0
+145	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:268 - ReplaceConstant - 50000000 -> 1
+146	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:268 - ReplaceConstant - 50000000 -> -1
+147	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:268 - ReplaceConstant - 50000000 -> 49999999
+148	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:268 - ReplaceConstant - 50000000 -> 50000001
+149	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:268 - ReplaceComparisonOperator >= -> -1
+150	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:268 - ReplaceComparisonOperator >= -> >
+151	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:268 - ReplaceComparisonOperator >= -> ==
+152	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 10000000 -> 0
+153	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 10000000 -> 1
+154	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 10000000 -> -1
+155	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 10000000 -> 9999999
+156	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 10000000 -> 10000001
+157	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 1096582 -> 0
+158	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 1096582 -> 1
+159	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 1096582 -> -1
+160	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 1096582 -> 1096581
+161	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 1096582 -> 1096583
+162	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 50000000 -> 0
+163	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 50000000 -> 1
+164	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 50000000 -> -1
+165	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 50000000 -> 49999999
+166	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 50000000 -> 50000001
+167	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 4584297 -> 0
+168	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 4584297 -> 1
+169	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 4584297 -> -1
+170	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 4584297 -> 4584296
+171	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - ReplaceConstant - 4584297 -> 4584298
+172	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - InsertUnaryOp Negation of maxCardinality
+173	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - InsertUnaryOp IINC 1 maxCardinality
+174	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:269 - InsertUnaryOp IINC -1 maxCardinality
+175	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:270 - InsertUnaryOp Negation of maxCardinality
+176	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:270 - InsertUnaryOp IINC 1 maxCardinality
+177	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:270 - InsertUnaryOp IINC -1 maxCardinality
+178	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:270 - ReplaceConstant - 100000000 -> 0
+179	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:270 - ReplaceConstant - 100000000 -> 1
+180	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:270 - ReplaceConstant - 100000000 -> -1
+181	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:270 - ReplaceConstant - 100000000 -> 99999999
+182	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:270 - ReplaceConstant - 100000000 -> 100000001
+183	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:270 - ReplaceComparisonOperator >= -> -1
+184	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:270 - ReplaceComparisonOperator >= -> >
+185	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:270 - ReplaceComparisonOperator >= -> ==
+186	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 50000000 -> 0
+187	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 50000000 -> 1
+188	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 50000000 -> -1
+189	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 50000000 -> 49999999
+190	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 50000000 -> 50000001
+191	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 4584297 -> 0
+192	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 4584297 -> 1
+193	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 4584297 -> -1
+194	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 4584297 -> 4584296
+195	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 4584297 -> 4584298
+196	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 100000000 -> 0
+197	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 100000000 -> 1
+198	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 100000000 -> -1
+199	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 100000000 -> 99999999
+200	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 100000000 -> 100000001
+201	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 8571013 -> 0
+202	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 8571013 -> 1
+203	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 8571013 -> -1
+204	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 8571013 -> 8571012
+205	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - ReplaceConstant - 8571013 -> 8571014
+206	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - InsertUnaryOp Negation of maxCardinality
+207	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - InsertUnaryOp IINC 1 maxCardinality
+208	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:271 - InsertUnaryOp IINC -1 maxCardinality
+209	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:272 - InsertUnaryOp Negation of maxCardinality
+210	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:272 - InsertUnaryOp IINC 1 maxCardinality
+211	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:272 - InsertUnaryOp IINC -1 maxCardinality
+212	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:272 - ReplaceConstant - 120000000 -> 0
+213	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:272 - ReplaceConstant - 120000000 -> 1
+214	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:272 - ReplaceConstant - 120000000 -> -1
+215	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:272 - ReplaceConstant - 120000000 -> 119999999
+216	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:272 - ReplaceConstant - 120000000 -> 120000001
+217	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:272 - ReplaceComparisonOperator > -> !=
+218	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:272 - ReplaceComparisonOperator > -> -2
+219	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:272 - ReplaceComparisonOperator > -> >=
+220	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 100000000 -> 0
+221	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 100000000 -> 1
+222	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 100000000 -> -1
+223	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 100000000 -> 99999999
+224	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 100000000 -> 100000001
+225	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 8571013 -> 0
+226	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 8571013 -> 1
+227	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 8571013 -> -1
+228	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 8571013 -> 8571012
+229	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 8571013 -> 8571014
+230	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 120000000 -> 0
+231	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 120000000 -> 1
+232	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 120000000 -> -1
+233	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 120000000 -> 119999999
+234	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 120000000 -> 120000001
+235	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 10112529 -> 0
+236	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 10112529 -> 1
+237	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 10112529 -> -1
+238	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 10112529 -> 10112528
+239	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - ReplaceConstant - 10112529 -> 10112530
+240	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - InsertUnaryOp Negation of maxCardinality
+241	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - InsertUnaryOp IINC 1 maxCardinality
+242	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:273 - InsertUnaryOp IINC -1 maxCardinality
+243	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:275 - InsertUnaryOp Negation of maxCardinality
+244	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:275 - InsertUnaryOp IINC 1 maxCardinality
+245	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:275 - InsertUnaryOp IINC -1 maxCardinality
+246	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:275 - ReplaceConstant - 12 -> 0
+247	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:275 - ReplaceConstant - 12 -> 1
+248	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:275 - ReplaceConstant - 12 -> -1
+249	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:275 - ReplaceConstant - 12 -> 11
+250	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:275 - ReplaceConstant - 12 -> 13
+251	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:275 - ReplaceArithmeticOperator / -> +
+252	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:275 - ReplaceArithmeticOperator / -> %
+253	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:275 - ReplaceArithmeticOperator / -> -
+254	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:275 - ReplaceArithmeticOperator / -> *
+255	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:278 - InsertUnaryOp Negation of length
+256	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:278 - InsertUnaryOp IINC 1 length
+257	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:278 - InsertUnaryOp IINC -1 length
+258	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:278 - ReplaceConstant - 8.0 -> 0.0
+259	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:278 - ReplaceConstant - 8.0 -> 1.0
+260	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:278 - ReplaceConstant - 8.0 -> -1.0
+261	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:278 - ReplaceConstant - 8.0 -> 7.0
+262	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:278 - ReplaceConstant - 8.0 -> 9.0
+263	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:278 - ReplaceArithmeticOperator / -> +
+264	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:278 - ReplaceArithmeticOperator / -> %
+265	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:278 - ReplaceArithmeticOperator / -> -
+266	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:278 - ReplaceArithmeticOperator / -> *
+267	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:282 - InsertUnaryOp Negation of sz
+268	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:282 - InsertUnaryOp IINC 1 sz
+269	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.onePercentError(I)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:282 - InsertUnaryOp IINC -1 sz
+270	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.withError(DI)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:296 - InsertUnaryOp Negation of maxCardinality
+271	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.withError(DI)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:296 - InsertUnaryOp IINC 1 maxCardinality
+272	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.withError(DI)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:296 - InsertUnaryOp IINC -1 maxCardinality
+273	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.withError(DI)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:296 - InsertUnaryOp Negation of eps
+274	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.withError(DI)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:297 - InsertUnaryOp Negation of sz
+275	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.withError(DI)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:297 - InsertUnaryOp IINC 1 sz
+276	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.withError(DI)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:297 - InsertUnaryOp IINC -1 sz
+277	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.withError(DI)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:297 - ReplaceConstant - 8.0 -> 0.0
+278	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.withError(DI)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:297 - ReplaceConstant - 8.0 -> 1.0
+279	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.withError(DI)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:297 - ReplaceConstant - 8.0 -> -1.0
+280	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.withError(DI)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:297 - ReplaceConstant - 8.0 -> 7.0
+281	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.withError(DI)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:297 - ReplaceConstant - 8.0 -> 9.0
+282	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.withError(DI)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:297 - ReplaceArithmeticOperator / -> +
+283	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.withError(DI)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:297 - ReplaceArithmeticOperator / -> %
+284	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.withError(DI)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:297 - ReplaceArithmeticOperator / -> -
+285	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.withError(DI)Lcom/clearspring/analytics/stream/cardinality/LinearCounting$Builder;:297 - ReplaceArithmeticOperator / -> *
+286	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:308 - InsertUnaryOp Negation of eps
+287	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:308 - ReplaceConstant - 1.0 -> 0.0
+288	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:308 - ReplaceConstant - 1.0 -> -1.0
+289	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:308 - ReplaceConstant - 1.0 -> 2.0
+290	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:308 - ReplaceComparisonOperator >= -> -1
+291	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:308 - ReplaceComparisonOperator >= -> ==
+292	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:308 - ReplaceComparisonOperator >= -> >
+293	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:308 - InsertUnaryOp Negation of eps
+294	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:308 - ReplaceConstant - 0.0 -> 1.0
+295	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:308 - ReplaceConstant - 0.0 -> -1.0
+296	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:308 - ReplaceComparisonOperator > -> -2
+297	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:308 - ReplaceComparisonOperator > -> !=
+298	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:308 - ReplaceComparisonOperator > -> >=
+299	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:309 - ReplaceConstant - Epsilon should be in (0, 1) range -> 
+300	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:311 - InsertUnaryOp Negation of n
+301	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:311 - ReplaceConstant - 0.0 -> 1.0
+302	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:311 - ReplaceConstant - 0.0 -> -1.0
+303	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:311 - ReplaceComparisonOperator > -> -2
+304	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:311 - ReplaceComparisonOperator > -> !=
+305	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:311 - ReplaceComparisonOperator > -> >=
+306	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:312 - ReplaceConstant - Cardinality should be positive -> 
+307	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:314 - ReplaceConstant - 1 -> 0
+308	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:315 - ReplaceConstant - 100000000 -> 0
+309	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:315 - ReplaceConstant - 100000000 -> 1
+310	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:315 - ReplaceConstant - 100000000 -> -1
+311	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:315 - ReplaceConstant - 100000000 -> 99999999
+312	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:315 - ReplaceConstant - 100000000 -> 100000001
+313	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - InsertUnaryOp Negation of toM
+314	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - InsertUnaryOp IINC 1 toM
+315	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - InsertUnaryOp IINC -1 toM
+316	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - InsertUnaryOp Negation of fromM
+317	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - InsertUnaryOp IINC 1 fromM
+318	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - InsertUnaryOp IINC -1 fromM
+319	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - ReplaceArithmeticOperator + -> %
+320	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - ReplaceArithmeticOperator + -> -
+321	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - ReplaceArithmeticOperator + -> *
+322	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - ReplaceArithmeticOperator + -> /
+323	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - ReplaceConstant - 2 -> 0
+324	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - ReplaceConstant - 2 -> 1
+325	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - ReplaceConstant - 2 -> -1
+326	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - ReplaceConstant - 2 -> 3
+327	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - ReplaceArithmeticOperator / -> +
+328	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - ReplaceArithmeticOperator / -> %
+329	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - ReplaceArithmeticOperator / -> -
+330	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:319 - ReplaceArithmeticOperator / -> *
+331	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:320 - InsertUnaryOp Negation of n
+332	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:320 - InsertUnaryOp Negation of m
+333	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:320 - InsertUnaryOp IINC 1 m
+334	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:320 - InsertUnaryOp IINC -1 m
+335	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:320 - ReplaceArithmeticOperator / -> +
+336	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:320 - ReplaceArithmeticOperator / -> %
+337	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:320 - ReplaceArithmeticOperator / -> -
+338	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:320 - ReplaceArithmeticOperator / -> *
+339	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:320 - InsertUnaryOp Negation of eps
+340	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:321 - InsertUnaryOp Negation of m
+341	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:321 - InsertUnaryOp IINC 1 m
+342	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:321 - InsertUnaryOp IINC -1 m
+343	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:321 - InsertUnaryOp Negation of eq
+344	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:321 - ReplaceComparisonOperator <= -> -1
+345	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:321 - ReplaceComparisonOperator <= -> ==
+346	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:321 - ReplaceComparisonOperator <= -> <
+347	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:322 - InsertUnaryOp Negation of m
+348	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:322 - InsertUnaryOp IINC 1 m
+349	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:322 - InsertUnaryOp IINC -1 m
+350	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:324 - InsertUnaryOp Negation of m
+351	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:324 - InsertUnaryOp IINC 1 m
+352	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:324 - InsertUnaryOp IINC -1 m
+353	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:324 - ReplaceConstant - 1 -> 0
+354	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:324 - ReplaceArithmeticOperator + -> %
+355	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:324 - ReplaceArithmeticOperator + -> -
+356	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:324 - ReplaceArithmeticOperator + -> *
+357	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:324 - ReplaceArithmeticOperator + -> /
+358	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:326 - InsertUnaryOp Negation of toM
+359	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:326 - InsertUnaryOp IINC 1 toM
+360	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:326 - InsertUnaryOp IINC -1 toM
+361	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:326 - InsertUnaryOp Negation of fromM
+362	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:326 - InsertUnaryOp IINC 1 fromM
+363	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:326 - InsertUnaryOp IINC -1 fromM
+364	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:326 - ReplaceComparisonOperator > -> !=
+365	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:326 - ReplaceComparisonOperator > -> -2
+366	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:326 - ReplaceComparisonOperator > -> >=
+367	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - InsertUnaryOp Negation of m
+368	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - InsertUnaryOp IINC 1 m
+369	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - InsertUnaryOp IINC -1 m
+370	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - InsertUnaryOp Negation of eq
+371	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - ReplaceComparisonOperator <= -> -1
+372	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - ReplaceComparisonOperator <= -> ==
+373	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - ReplaceComparisonOperator <= -> <
+374	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - InsertUnaryOp Negation of m
+375	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - InsertUnaryOp IINC 1 m
+376	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - InsertUnaryOp IINC -1 m
+377	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - InsertUnaryOp Negation of m
+378	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - InsertUnaryOp IINC 1 m
+379	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - InsertUnaryOp IINC -1 m
+380	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - ReplaceConstant - 1 -> 0
+381	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - ReplaceArithmeticOperator + -> %
+382	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - ReplaceArithmeticOperator + -> -
+383	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - ReplaceArithmeticOperator + -> *
+384	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.computeRequiredBitMaskLength(DD)I:327 - ReplaceArithmeticOperator + -> /
+385	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceConstant - 1.0 -> 0.0
+386	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceConstant - 1.0 -> -1.0
+387	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceConstant - 1.0 -> 2.0
+388	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - InsertUnaryOp Negation of eps
+389	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - InsertUnaryOp Negation of t
+390	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator * -> +
+391	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator * -> %
+392	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator * -> -
+393	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator * -> /
+394	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceConstant - 2.0 -> 0.0
+395	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceConstant - 2.0 -> 1.0
+396	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceConstant - 2.0 -> -1.0
+397	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceConstant - 2.0 -> 3.0
+398	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator / -> +
+399	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator / -> %
+400	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator / -> -
+401	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator / -> *
+402	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceConstant - 5.0 -> 0.0
+403	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceConstant - 5.0 -> 1.0
+404	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceConstant - 5.0 -> -1.0
+405	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceConstant - 5.0 -> 4.0
+406	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceConstant - 5.0 -> 6.0
+407	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - InsertUnaryOp Negation of t
+408	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - InsertUnaryOp Negation of t
+409	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator - -> +
+410	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator - -> %
+411	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator - -> *
+412	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator - -> /
+413	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceConstant - 1.0 -> 0.0
+414	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceConstant - 1.0 -> -1.0
+415	ReplaceConstant	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceConstant - 1.0 -> 2.0
+416	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator - -> +
+417	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator - -> %
+418	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator - -> *
+419	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator - -> /
+420	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator * -> +
+421	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator * -> %
+422	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator * -> -
+423	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.precisionInequalityRV(DD)D:335 - ReplaceArithmeticOperator * -> /
+424	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp Negation of y0
+425	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp IINC 1 y0
+426	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp IINC -1 y0
+427	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp Negation of x
+428	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp IINC 1 x
+429	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp IINC -1 x
+430	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp Negation of x0
+431	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp IINC 1 x0
+432	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp IINC -1 x0
+433	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator - -> +
+434	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator - -> %
+435	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator - -> *
+436	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator - -> /
+437	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp Negation of y1
+438	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp IINC 1 y1
+439	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp IINC -1 y1
+440	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp Negation of y0
+441	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp IINC 1 y0
+442	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp IINC -1 y0
+443	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator - -> +
+444	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator - -> %
+445	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator - -> *
+446	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator - -> /
+447	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator * -> +
+448	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator * -> %
+449	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator * -> -
+450	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator * -> /
+451	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp Negation of x1
+452	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp IINC 1 x1
+453	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp IINC -1 x1
+454	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp Negation of x0
+455	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp IINC 1 x0
+456	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - InsertUnaryOp IINC -1 x0
+457	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator - -> +
+458	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator - -> %
+459	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator - -> *
+460	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator - -> /
+461	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator / -> +
+462	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator / -> %
+463	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator / -> -
+464	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator / -> *
+465	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator + -> %
+466	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator + -> -
+467	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator + -> *
+468	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.LinearCounting$Builder.lerp(IIIII)I:347 - ReplaceArithmeticOperator + -> /

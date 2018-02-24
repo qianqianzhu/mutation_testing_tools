@@ -1,0 +1,12 @@
+0	ReplaceComparisonOperator	org.assertj.core.util.xml.XmlStringPrettyFormatter.xmlPrettyFormat(Ljava/lang/String;)Ljava/lang/String;:41 - ReplaceComparisonOperator != null -> = null
+1	ReplaceConstant	org.assertj.core.util.xml.XmlStringPrettyFormatter.xmlPrettyFormat(Ljava/lang/String;)Ljava/lang/String;:42 - ReplaceConstant - Expecting XML String not to be null -> 
+2	ReplaceConstant	org.assertj.core.util.xml.XmlStringPrettyFormatter.xmlPrettyFormat(Ljava/lang/String;)Ljava/lang/String;:44 - ReplaceConstant - <?xml -> 
+3	ReplaceConstant	org.assertj.core.util.xml.XmlStringPrettyFormatter.prettyFormat(Lorg/w3c/dom/Document;Z)Ljava/lang/String;:51 - ReplaceConstant - LS -> 
+4	ReplaceConstant	org.assertj.core.util.xml.XmlStringPrettyFormatter.prettyFormat(Lorg/w3c/dom/Document;Z)Ljava/lang/String;:56 - ReplaceConstant - format-pretty-print -> 
+5	ReplaceConstant	org.assertj.core.util.xml.XmlStringPrettyFormatter.prettyFormat(Lorg/w3c/dom/Document;Z)Ljava/lang/String;:56 - ReplaceConstant - 1 -> 0
+6	ReplaceConstant	org.assertj.core.util.xml.XmlStringPrettyFormatter.prettyFormat(Lorg/w3c/dom/Document;Z)Ljava/lang/String;:58 - ReplaceConstant - xml-declaration -> 
+7	InsertUnaryOp	org.assertj.core.util.xml.XmlStringPrettyFormatter.prettyFormat(Lorg/w3c/dom/Document;Z)Ljava/lang/String;:58 - InsertUnaryOp Negation of keepXmlDeclaration
+8	InsertUnaryOp	org.assertj.core.util.xml.XmlStringPrettyFormatter.prettyFormat(Lorg/w3c/dom/Document;Z)Ljava/lang/String;:58 - InsertUnaryOp IINC 1 keepXmlDeclaration
+9	InsertUnaryOp	org.assertj.core.util.xml.XmlStringPrettyFormatter.prettyFormat(Lorg/w3c/dom/Document;Z)Ljava/lang/String;:58 - InsertUnaryOp IINC -1 keepXmlDeclaration
+10	ReplaceConstant	org.assertj.core.util.xml.XmlStringPrettyFormatter.prettyFormat(Lorg/w3c/dom/Document;Z)Ljava/lang/String;:62 - ReplaceConstant - Unable to format XML string -> 
+11	ReplaceConstant	org.assertj.core.util.xml.XmlStringPrettyFormatter.toXmlDocument(Ljava/lang/String;)Lorg/w3c/dom/Document;:72 - ReplaceConstant - Unable to format XML string -> 

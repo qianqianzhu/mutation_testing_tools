@@ -1,0 +1,24 @@
+0	ReplaceArithmeticOperator	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:43 - ReplaceArithmeticOperator - -> +
+1	ReplaceArithmeticOperator	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:43 - ReplaceArithmeticOperator - -> %
+2	ReplaceArithmeticOperator	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:43 - ReplaceArithmeticOperator - -> *
+3	ReplaceArithmeticOperator	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:43 - ReplaceArithmeticOperator - -> /
+4	InsertUnaryOp	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:43 - InsertUnaryOp Negation
+5	ReplaceComparisonOperator	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:43 - ReplaceComparisonOperator >= -> -1
+6	ReplaceComparisonOperator	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:43 - ReplaceComparisonOperator >= -> ==
+7	ReplaceComparisonOperator	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:43 - ReplaceComparisonOperator >= -> >
+8	ReplaceConstant	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:43 - ReplaceConstant - 0 -> 1
+9	ReplaceArithmeticOperator	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:44 - ReplaceArithmeticOperator - -> +
+10	ReplaceArithmeticOperator	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:44 - ReplaceArithmeticOperator - -> %
+11	ReplaceArithmeticOperator	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:44 - ReplaceArithmeticOperator - -> *
+12	ReplaceArithmeticOperator	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:44 - ReplaceArithmeticOperator - -> /
+13	ReplaceConstant	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:44 - ReplaceConstant - 0.0 -> 1.0
+14	ReplaceConstant	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:44 - ReplaceConstant - 0.0 -> -1.0
+15	ReplaceComparisonOperator	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:44 - ReplaceComparisonOperator <= -> -1
+16	ReplaceComparisonOperator	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:44 - ReplaceComparisonOperator <= -> ==
+17	ReplaceComparisonOperator	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:44 - ReplaceComparisonOperator <= -> <
+18	ReplaceConstant	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:44 - ReplaceConstant - 1 -> 0
+19	ReplaceConstant	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:44 - ReplaceConstant - -1 -> 0
+20	ReplaceConstant	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:44 - ReplaceConstant - -1 -> 1
+21	ReplaceConstant	org.assertj.core.api.ComparatorFactory$2.compare(Ljava/lang/Float;Ljava/lang/Float;)I:44 - ReplaceConstant - -1 -> -2
+22	ReplaceConstant	org.assertj.core.api.ComparatorFactory$2.toString()Ljava/lang/String;:49 - ReplaceConstant - float comparator at precision  -> 
+23	InsertUnaryOp	org.assertj.core.api.ComparatorFactory$2.toString()Ljava/lang/String;:49 - InsertUnaryOp Negation

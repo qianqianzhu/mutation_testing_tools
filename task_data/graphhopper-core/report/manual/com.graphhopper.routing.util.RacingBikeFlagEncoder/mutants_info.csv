@@ -1,0 +1,400 @@
+0	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>()V:36 - ReplaceConstant - 4 -> 0
+1	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>()V:36 - ReplaceConstant - 4 -> 1
+2	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>()V:36 - ReplaceConstant - 4 -> -1
+3	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>()V:36 - ReplaceConstant - 4 -> 3
+4	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>()V:36 - ReplaceConstant - 4 -> 5
+5	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>()V:36 - ReplaceConstant - 2.0 -> 0.0
+6	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>()V:36 - ReplaceConstant - 2.0 -> 1.0
+7	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>()V:36 - ReplaceConstant - 2.0 -> -1.0
+8	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>()V:36 - ReplaceConstant - 2.0 -> 3.0
+9	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>()V:36 - ReplaceConstant - 0 -> 1
+10	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:40 - ReplaceConstant - speed_bits -> 
+11	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:40 - ReplaceConstant - 4 -> 0
+12	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:40 - ReplaceConstant - 4 -> 1
+13	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:40 - ReplaceConstant - 4 -> -1
+14	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:40 - ReplaceConstant - 4 -> 3
+15	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:40 - ReplaceConstant - 4 -> 5
+16	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:41 - ReplaceConstant - speed_factor -> 
+17	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:41 - ReplaceConstant - 2.0 -> 0.0
+18	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:41 - ReplaceConstant - 2.0 -> 1.0
+19	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:41 - ReplaceConstant - 2.0 -> -1.0
+20	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:41 - ReplaceConstant - 2.0 -> 3.0
+21	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:42 - ReplaceConstant - turn_costs -> 
+22	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:42 - ReplaceConstant - 0 -> 1
+23	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:43 - ReplaceComparisonOperator == -> -2
+24	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:43 - ReplaceComparisonOperator == -> >=
+25	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:43 - ReplaceComparisonOperator == -> <=
+26	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:43 - ReplaceConstant - 1 -> 0
+27	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:43 - ReplaceConstant - 0 -> 1
+28	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:46 - ReplaceConstant - block_fords -> 
+29	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(Lcom/graphhopper/util/PMap;)V:46 - ReplaceConstant - 1 -> 0
+30	InsertUnaryOp	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:54 - InsertUnaryOp Negation of speedBits
+31	InsertUnaryOp	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:54 - InsertUnaryOp IINC 1 speedBits
+32	InsertUnaryOp	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:54 - InsertUnaryOp IINC -1 speedBits
+33	InsertUnaryOp	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:54 - InsertUnaryOp Negation of speedFactor
+34	InsertUnaryOp	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:54 - InsertUnaryOp Negation of maxTurnCosts
+35	InsertUnaryOp	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:54 - InsertUnaryOp IINC 1 maxTurnCosts
+36	InsertUnaryOp	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:54 - InsertUnaryOp IINC -1 maxTurnCosts
+37	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:55 - ReplaceConstant - road -> 
+38	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:56 - ReplaceConstant - secondary -> 
+39	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:57 - ReplaceConstant - secondary_link -> 
+40	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:58 - ReplaceConstant - tertiary -> 
+41	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:59 - ReplaceConstant - tertiary_link -> 
+42	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:60 - ReplaceConstant - residential -> 
+43	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:62 - ReplaceConstant - grade1 -> 
+44	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:62 - ReplaceConstant - 20 -> 0
+45	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:62 - ReplaceConstant - 20 -> 1
+46	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:62 - ReplaceConstant - 20 -> -1
+47	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:62 - ReplaceConstant - 20 -> 19
+48	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:62 - ReplaceConstant - 20 -> 21
+49	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:63 - ReplaceConstant - grade2 -> 
+50	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:63 - ReplaceConstant - 10 -> 0
+51	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:63 - ReplaceConstant - 10 -> 1
+52	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:63 - ReplaceConstant - 10 -> -1
+53	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:63 - ReplaceConstant - 10 -> 9
+54	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:63 - ReplaceConstant - 10 -> 11
+55	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:64 - ReplaceConstant - grade3 -> 
+56	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:64 - ReplaceConstant - 4 -> 0
+57	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:64 - ReplaceConstant - 4 -> 1
+58	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:64 - ReplaceConstant - 4 -> -1
+59	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:64 - ReplaceConstant - 4 -> 3
+60	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:64 - ReplaceConstant - 4 -> 5
+61	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:65 - ReplaceConstant - grade4 -> 
+62	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:65 - ReplaceConstant - 4 -> 0
+63	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:65 - ReplaceConstant - 4 -> 1
+64	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:65 - ReplaceConstant - 4 -> -1
+65	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:65 - ReplaceConstant - 4 -> 3
+66	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:65 - ReplaceConstant - 4 -> 5
+67	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:66 - ReplaceConstant - grade5 -> 
+68	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:66 - ReplaceConstant - 4 -> 0
+69	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:66 - ReplaceConstant - 4 -> 1
+70	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:66 - ReplaceConstant - 4 -> -1
+71	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:66 - ReplaceConstant - 4 -> 3
+72	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:66 - ReplaceConstant - 4 -> 5
+73	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:68 - ReplaceConstant - paved -> 
+74	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:68 - ReplaceConstant - 20 -> 0
+75	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:68 - ReplaceConstant - 20 -> 1
+76	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:68 - ReplaceConstant - 20 -> -1
+77	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:68 - ReplaceConstant - 20 -> 19
+78	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:68 - ReplaceConstant - 20 -> 21
+79	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:69 - ReplaceConstant - asphalt -> 
+80	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:69 - ReplaceConstant - 20 -> 0
+81	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:69 - ReplaceConstant - 20 -> 1
+82	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:69 - ReplaceConstant - 20 -> -1
+83	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:69 - ReplaceConstant - 20 -> 19
+84	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:69 - ReplaceConstant - 20 -> 21
+85	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:70 - ReplaceConstant - cobblestone -> 
+86	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:70 - ReplaceConstant - 10 -> 0
+87	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:70 - ReplaceConstant - 10 -> 1
+88	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:70 - ReplaceConstant - 10 -> -1
+89	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:70 - ReplaceConstant - 10 -> 9
+90	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:70 - ReplaceConstant - 10 -> 11
+91	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:71 - ReplaceConstant - cobblestone:flattened -> 
+92	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:71 - ReplaceConstant - 10 -> 0
+93	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:71 - ReplaceConstant - 10 -> 1
+94	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:71 - ReplaceConstant - 10 -> -1
+95	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:71 - ReplaceConstant - 10 -> 9
+96	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:71 - ReplaceConstant - 10 -> 11
+97	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:72 - ReplaceConstant - sett -> 
+98	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:72 - ReplaceConstant - 10 -> 0
+99	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:72 - ReplaceConstant - 10 -> 1
+100	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:72 - ReplaceConstant - 10 -> -1
+101	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:72 - ReplaceConstant - 10 -> 9
+102	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:72 - ReplaceConstant - 10 -> 11
+103	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:73 - ReplaceConstant - concrete -> 
+104	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:73 - ReplaceConstant - 20 -> 0
+105	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:73 - ReplaceConstant - 20 -> 1
+106	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:73 - ReplaceConstant - 20 -> -1
+107	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:73 - ReplaceConstant - 20 -> 19
+108	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:73 - ReplaceConstant - 20 -> 21
+109	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:74 - ReplaceConstant - concrete:lanes -> 
+110	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:74 - ReplaceConstant - 16 -> 0
+111	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:74 - ReplaceConstant - 16 -> 1
+112	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:74 - ReplaceConstant - 16 -> -1
+113	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:74 - ReplaceConstant - 16 -> 15
+114	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:74 - ReplaceConstant - 16 -> 17
+115	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:75 - ReplaceConstant - concrete:plates -> 
+116	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:75 - ReplaceConstant - 16 -> 0
+117	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:75 - ReplaceConstant - 16 -> 1
+118	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:75 - ReplaceConstant - 16 -> -1
+119	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:75 - ReplaceConstant - 16 -> 15
+120	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:75 - ReplaceConstant - 16 -> 17
+121	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:76 - ReplaceConstant - paving_stones -> 
+122	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:76 - ReplaceConstant - 10 -> 0
+123	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:76 - ReplaceConstant - 10 -> 1
+124	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:76 - ReplaceConstant - 10 -> -1
+125	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:76 - ReplaceConstant - 10 -> 9
+126	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:76 - ReplaceConstant - 10 -> 11
+127	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:77 - ReplaceConstant - paving_stones:30 -> 
+128	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:77 - ReplaceConstant - 10 -> 0
+129	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:77 - ReplaceConstant - 10 -> 1
+130	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:77 - ReplaceConstant - 10 -> -1
+131	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:77 - ReplaceConstant - 10 -> 9
+132	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:77 - ReplaceConstant - 10 -> 11
+133	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:78 - ReplaceConstant - unpaved -> 
+134	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:78 - ReplaceConstant - 2 -> 0
+135	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:78 - ReplaceConstant - 2 -> 1
+136	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:78 - ReplaceConstant - 2 -> -1
+137	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:78 - ReplaceConstant - 2 -> 3
+138	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:79 - ReplaceConstant - compacted -> 
+139	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:79 - ReplaceConstant - 2 -> 0
+140	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:79 - ReplaceConstant - 2 -> 1
+141	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:79 - ReplaceConstant - 2 -> -1
+142	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:79 - ReplaceConstant - 2 -> 3
+143	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:80 - ReplaceConstant - dirt -> 
+144	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:80 - ReplaceConstant - 2 -> 0
+145	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:80 - ReplaceConstant - 2 -> 1
+146	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:80 - ReplaceConstant - 2 -> -1
+147	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:80 - ReplaceConstant - 2 -> 3
+148	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:81 - ReplaceConstant - earth -> 
+149	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:81 - ReplaceConstant - 2 -> 0
+150	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:81 - ReplaceConstant - 2 -> 1
+151	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:81 - ReplaceConstant - 2 -> -1
+152	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:81 - ReplaceConstant - 2 -> 3
+153	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:82 - ReplaceConstant - fine_gravel -> 
+154	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:82 - ReplaceConstant - 4 -> 0
+155	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:82 - ReplaceConstant - 4 -> 1
+156	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:82 - ReplaceConstant - 4 -> -1
+157	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:82 - ReplaceConstant - 4 -> 3
+158	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:82 - ReplaceConstant - 4 -> 5
+159	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:83 - ReplaceConstant - grass -> 
+160	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:83 - ReplaceConstant - 2 -> 0
+161	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:83 - ReplaceConstant - 2 -> 1
+162	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:83 - ReplaceConstant - 2 -> -1
+163	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:83 - ReplaceConstant - 2 -> 3
+164	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:84 - ReplaceConstant - grass_paver -> 
+165	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:84 - ReplaceConstant - 2 -> 0
+166	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:84 - ReplaceConstant - 2 -> 1
+167	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:84 - ReplaceConstant - 2 -> -1
+168	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:84 - ReplaceConstant - 2 -> 3
+169	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:85 - ReplaceConstant - gravel -> 
+170	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:85 - ReplaceConstant - 2 -> 0
+171	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:85 - ReplaceConstant - 2 -> 1
+172	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:85 - ReplaceConstant - 2 -> -1
+173	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:85 - ReplaceConstant - 2 -> 3
+174	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:86 - ReplaceConstant - ground -> 
+175	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:86 - ReplaceConstant - 2 -> 0
+176	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:86 - ReplaceConstant - 2 -> 1
+177	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:86 - ReplaceConstant - 2 -> -1
+178	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:86 - ReplaceConstant - 2 -> 3
+179	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:87 - ReplaceConstant - ice -> 
+180	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:87 - ReplaceConstant - 2 -> 0
+181	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:87 - ReplaceConstant - 2 -> 1
+182	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:87 - ReplaceConstant - 2 -> -1
+183	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:87 - ReplaceConstant - 2 -> 3
+184	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:88 - ReplaceConstant - metal -> 
+185	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:88 - ReplaceConstant - 2 -> 0
+186	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:88 - ReplaceConstant - 2 -> 1
+187	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:88 - ReplaceConstant - 2 -> -1
+188	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:88 - ReplaceConstant - 2 -> 3
+189	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:89 - ReplaceConstant - mud -> 
+190	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:89 - ReplaceConstant - 2 -> 0
+191	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:89 - ReplaceConstant - 2 -> 1
+192	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:89 - ReplaceConstant - 2 -> -1
+193	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:89 - ReplaceConstant - 2 -> 3
+194	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:90 - ReplaceConstant - pebblestone -> 
+195	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:90 - ReplaceConstant - 4 -> 0
+196	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:90 - ReplaceConstant - 4 -> 1
+197	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:90 - ReplaceConstant - 4 -> -1
+198	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:90 - ReplaceConstant - 4 -> 3
+199	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:90 - ReplaceConstant - 4 -> 5
+200	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:91 - ReplaceConstant - salt -> 
+201	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:91 - ReplaceConstant - 2 -> 0
+202	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:91 - ReplaceConstant - 2 -> 1
+203	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:91 - ReplaceConstant - 2 -> -1
+204	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:91 - ReplaceConstant - 2 -> 3
+205	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:92 - ReplaceConstant - sand -> 
+206	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:92 - ReplaceConstant - 2 -> 0
+207	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:92 - ReplaceConstant - 2 -> 1
+208	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:92 - ReplaceConstant - 2 -> -1
+209	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:92 - ReplaceConstant - 2 -> 3
+210	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:93 - ReplaceConstant - wood -> 
+211	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:93 - ReplaceConstant - 2 -> 0
+212	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:93 - ReplaceConstant - 2 -> 1
+213	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:93 - ReplaceConstant - 2 -> -1
+214	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:93 - ReplaceConstant - 2 -> 3
+215	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:95 - ReplaceConstant - cycleway -> 
+216	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:95 - ReplaceConstant - 18 -> 0
+217	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:95 - ReplaceConstant - 18 -> 1
+218	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:95 - ReplaceConstant - 18 -> -1
+219	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:95 - ReplaceConstant - 18 -> 17
+220	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:95 - ReplaceConstant - 18 -> 19
+221	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:96 - ReplaceConstant - path -> 
+222	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:96 - ReplaceConstant - 8 -> 0
+223	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:96 - ReplaceConstant - 8 -> 1
+224	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:96 - ReplaceConstant - 8 -> -1
+225	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:96 - ReplaceConstant - 8 -> 7
+226	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:96 - ReplaceConstant - 8 -> 9
+227	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:97 - ReplaceConstant - footway -> 
+228	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:97 - ReplaceConstant - 6 -> 0
+229	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:97 - ReplaceConstant - 6 -> 1
+230	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:97 - ReplaceConstant - 6 -> -1
+231	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:97 - ReplaceConstant - 6 -> 5
+232	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:97 - ReplaceConstant - 6 -> 7
+233	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:98 - ReplaceConstant - pedestrian -> 
+234	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:98 - ReplaceConstant - 6 -> 0
+235	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:98 - ReplaceConstant - 6 -> 1
+236	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:98 - ReplaceConstant - 6 -> -1
+237	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:98 - ReplaceConstant - 6 -> 5
+238	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:98 - ReplaceConstant - 6 -> 7
+239	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:99 - ReplaceConstant - road -> 
+240	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:99 - ReplaceConstant - 12 -> 0
+241	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:99 - ReplaceConstant - 12 -> 1
+242	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:99 - ReplaceConstant - 12 -> -1
+243	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:99 - ReplaceConstant - 12 -> 11
+244	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:99 - ReplaceConstant - 12 -> 13
+245	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:100 - ReplaceConstant - track -> 
+246	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:100 - ReplaceConstant - 2 -> 0
+247	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:100 - ReplaceConstant - 2 -> 1
+248	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:100 - ReplaceConstant - 2 -> -1
+249	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:100 - ReplaceConstant - 2 -> 3
+250	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:101 - ReplaceConstant - service -> 
+251	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:101 - ReplaceConstant - 12 -> 0
+252	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:101 - ReplaceConstant - 12 -> 1
+253	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:101 - ReplaceConstant - 12 -> -1
+254	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:101 - ReplaceConstant - 12 -> 11
+255	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:101 - ReplaceConstant - 12 -> 13
+256	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:102 - ReplaceConstant - unclassified -> 
+257	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:102 - ReplaceConstant - 16 -> 0
+258	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:102 - ReplaceConstant - 16 -> 1
+259	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:102 - ReplaceConstant - 16 -> -1
+260	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:102 - ReplaceConstant - 16 -> 15
+261	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:102 - ReplaceConstant - 16 -> 17
+262	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:103 - ReplaceConstant - residential -> 
+263	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:103 - ReplaceConstant - 16 -> 0
+264	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:103 - ReplaceConstant - 16 -> 1
+265	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:103 - ReplaceConstant - 16 -> -1
+266	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:103 - ReplaceConstant - 16 -> 15
+267	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:103 - ReplaceConstant - 16 -> 17
+268	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:105 - ReplaceConstant - trunk -> 
+269	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:105 - ReplaceConstant - 20 -> 0
+270	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:105 - ReplaceConstant - 20 -> 1
+271	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:105 - ReplaceConstant - 20 -> -1
+272	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:105 - ReplaceConstant - 20 -> 19
+273	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:105 - ReplaceConstant - 20 -> 21
+274	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:106 - ReplaceConstant - trunk_link -> 
+275	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:106 - ReplaceConstant - 20 -> 0
+276	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:106 - ReplaceConstant - 20 -> 1
+277	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:106 - ReplaceConstant - 20 -> -1
+278	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:106 - ReplaceConstant - 20 -> 19
+279	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:106 - ReplaceConstant - 20 -> 21
+280	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:107 - ReplaceConstant - primary -> 
+281	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:107 - ReplaceConstant - 20 -> 0
+282	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:107 - ReplaceConstant - 20 -> 1
+283	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:107 - ReplaceConstant - 20 -> -1
+284	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:107 - ReplaceConstant - 20 -> 19
+285	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:107 - ReplaceConstant - 20 -> 21
+286	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:108 - ReplaceConstant - primary_link -> 
+287	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:108 - ReplaceConstant - 20 -> 0
+288	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:108 - ReplaceConstant - 20 -> 1
+289	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:108 - ReplaceConstant - 20 -> -1
+290	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:108 - ReplaceConstant - 20 -> 19
+291	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:108 - ReplaceConstant - 20 -> 21
+292	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:109 - ReplaceConstant - secondary -> 
+293	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:109 - ReplaceConstant - 20 -> 0
+294	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:109 - ReplaceConstant - 20 -> 1
+295	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:109 - ReplaceConstant - 20 -> -1
+296	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:109 - ReplaceConstant - 20 -> 19
+297	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:109 - ReplaceConstant - 20 -> 21
+298	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:110 - ReplaceConstant - secondary_link -> 
+299	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:110 - ReplaceConstant - 20 -> 0
+300	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:110 - ReplaceConstant - 20 -> 1
+301	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:110 - ReplaceConstant - 20 -> -1
+302	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:110 - ReplaceConstant - 20 -> 19
+303	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:110 - ReplaceConstant - 20 -> 21
+304	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:111 - ReplaceConstant - tertiary -> 
+305	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:111 - ReplaceConstant - 20 -> 0
+306	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:111 - ReplaceConstant - 20 -> 1
+307	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:111 - ReplaceConstant - 20 -> -1
+308	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:111 - ReplaceConstant - 20 -> 19
+309	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:111 - ReplaceConstant - 20 -> 21
+310	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:112 - ReplaceConstant - tertiary_link -> 
+311	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:112 - ReplaceConstant - 20 -> 0
+312	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:112 - ReplaceConstant - 20 -> 1
+313	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:112 - ReplaceConstant - 20 -> -1
+314	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:112 - ReplaceConstant - 20 -> 19
+315	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:112 - ReplaceConstant - 20 -> 21
+316	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:114 - ReplaceConstant - path -> 
+317	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:115 - ReplaceConstant - footway -> 
+318	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:116 - ReplaceConstant - pedestrian -> 
+319	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:117 - ReplaceConstant - steps -> 
+320	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:119 - ReplaceConstant - icn -> 
+321	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:120 - ReplaceConstant - ncn -> 
+322	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:121 - ReplaceConstant - rcn -> 
+323	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:122 - ReplaceConstant - lcn -> 
+324	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:123 - ReplaceConstant - mtb -> 
+325	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:125 - ReplaceConstant - kissing_gate -> 
+326	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:127 - ReplaceConstant - 81 -> 0
+327	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:127 - ReplaceConstant - 81 -> 1
+328	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:127 - ReplaceConstant - 81 -> -1
+329	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:127 - ReplaceConstant - 81 -> 80
+330	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:127 - ReplaceConstant - 81 -> 82
+331	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.<init>(IDI)V:128 - ReplaceConstant - roadcycling -> 
+332	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.getVersion()I:135 - ReplaceConstant - 2 -> 0
+333	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.getVersion()I:135 - ReplaceConstant - 2 -> 1
+334	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.getVersion()I:135 - ReplaceConstant - 2 -> -1
+335	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.getVersion()I:135 - ReplaceConstant - 2 -> 3
+336	InsertUnaryOp	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:140 - InsertUnaryOp Negation of wayTypeSpeed
+337	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:142 - ReplaceConstant - highway -> 
+338	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:143 - ReplaceConstant - service -> 
+339	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:143 - ReplaceComparisonOperator == -> -2
+340	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:143 - ReplaceComparisonOperator == -> >=
+341	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:143 - ReplaceComparisonOperator == -> <=
+342	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:144 - ReplaceConstant - 40.0 -> 0.0
+343	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:144 - ReplaceConstant - 40.0 -> 1.0
+344	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:144 - ReplaceConstant - 40.0 -> -1.0
+345	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:144 - ReplaceConstant - 40.0 -> 39.0
+346	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:144 - ReplaceConstant - 40.0 -> 41.0
+347	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:145 - ReplaceConstant - track -> 
+348	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:145 - ReplaceComparisonOperator == -> -2
+349	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:145 - ReplaceComparisonOperator == -> >=
+350	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:145 - ReplaceComparisonOperator == -> <=
+351	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:146 - ReplaceConstant - tracktype -> 
+352	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:147 - ReplaceConstant - grade1 -> 
+353	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:147 - ReplaceComparisonOperator == -> -2
+354	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:147 - ReplaceComparisonOperator == -> >=
+355	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:147 - ReplaceComparisonOperator == -> <=
+356	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:148 - ReplaceConstant - 110.0 -> 0.0
+357	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:148 - ReplaceConstant - 110.0 -> 1.0
+358	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:148 - ReplaceConstant - 110.0 -> -1.0
+359	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:148 - ReplaceConstant - 110.0 -> 109.0
+360	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:148 - ReplaceConstant - 110.0 -> 111.0
+361	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:149 - ReplaceComparisonOperator = null -> != null
+362	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:149 - ReplaceConstant - grade -> 
+363	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:149 - ReplaceComparisonOperator == -> -2
+364	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:149 - ReplaceComparisonOperator == -> >=
+365	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:149 - ReplaceComparisonOperator == -> <=
+366	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:150 - ReplaceConstant - 110.0 -> 0.0
+367	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:150 - ReplaceConstant - 110.0 -> 1.0
+368	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:150 - ReplaceConstant - 110.0 -> -1.0
+369	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:150 - ReplaceConstant - 110.0 -> 109.0
+370	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.collect(Lcom/graphhopper/reader/ReaderWay;DLjava/util/TreeMap;)V:150 - ReplaceConstant - 110.0 -> 111.0
+371	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:156 - ReplaceConstant - highway -> 
+372	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:157 - ReplaceConstant - tracktype -> 
+373	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:158 - ReplaceConstant - highway -> 
+374	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:158 - ReplaceComparisonOperator != -> -1
+375	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:158 - ReplaceComparisonOperator != -> <
+376	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:158 - ReplaceComparisonOperator != -> >
+377	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:158 - ReplaceConstant - railway -> 
+378	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:158 - ReplaceConstant - platform -> 
+379	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:159 - ReplaceComparisonOperator != -> -1
+380	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:159 - ReplaceComparisonOperator != -> <
+381	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:159 - ReplaceComparisonOperator != -> >
+382	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:159 - ReplaceConstant - bicycle -> 
+383	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:159 - ReplaceConstant - dismount -> 
+384	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:160 - ReplaceComparisonOperator != -> -1
+385	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:160 - ReplaceComparisonOperator != -> <
+386	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:160 - ReplaceComparisonOperator != -> >
+387	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:160 - ReplaceConstant - track -> 
+388	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:161 - ReplaceComparisonOperator == -> -2
+389	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:161 - ReplaceComparisonOperator == -> >=
+390	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:161 - ReplaceComparisonOperator == -> <=
+391	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:161 - ReplaceComparisonOperator = null -> != null
+392	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:161 - ReplaceConstant - grade1 -> 
+393	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:161 - ReplaceComparisonOperator != -> -1
+394	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:161 - ReplaceComparisonOperator != -> <
+395	ReplaceComparisonOperator	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:161 - ReplaceComparisonOperator != -> >
+396	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:161 - ReplaceConstant - 1 -> 0
+397	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.isPushingSection(Lcom/graphhopper/reader/ReaderWay;)Z:161 - ReplaceConstant - 0 -> 1
+398	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.isSacScaleAllowed(Ljava/lang/String;)Z:167 - ReplaceConstant - 0 -> 1
+399	ReplaceConstant	com.graphhopper.routing.util.RacingBikeFlagEncoder.toString()Ljava/lang/String;:172 - ReplaceConstant - racingbike -> 

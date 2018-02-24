@@ -1,0 +1,80 @@
+0	ReplaceComparisonOperator	org.geotools.temporal.object.DefaultTemporalPosition.getFrame()Lorg/opengis/temporal/TemporalReferenceSystem;:74 - ReplaceComparisonOperator != null -> = null
+1	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.getFrame()Lorg/opengis/temporal/TemporalReferenceSystem;:75 - ReplaceConstant - Gregorian calendar -> 
+2	ReplaceComparisonOperator	org.geotools.temporal.object.DefaultTemporalPosition.equals(Ljava/lang/Object;)Z:91 - ReplaceComparisonOperator != -> ==
+3	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.equals(Ljava/lang/Object;)Z:92 - ReplaceConstant - 1 -> 0
+4	ReplaceComparisonOperator	org.geotools.temporal.object.DefaultTemporalPosition.equals(Ljava/lang/Object;)Z:94 - ReplaceComparisonOperator == -> -2
+5	ReplaceComparisonOperator	org.geotools.temporal.object.DefaultTemporalPosition.equals(Ljava/lang/Object;)Z:94 - ReplaceComparisonOperator == -> >=
+6	ReplaceComparisonOperator	org.geotools.temporal.object.DefaultTemporalPosition.equals(Ljava/lang/Object;)Z:94 - ReplaceComparisonOperator == -> <=
+7	ReplaceComparisonOperator	org.geotools.temporal.object.DefaultTemporalPosition.equals(Ljava/lang/Object;)Z:97 - ReplaceComparisonOperator == -> -2
+8	ReplaceComparisonOperator	org.geotools.temporal.object.DefaultTemporalPosition.equals(Ljava/lang/Object;)Z:97 - ReplaceComparisonOperator == -> >=
+9	ReplaceComparisonOperator	org.geotools.temporal.object.DefaultTemporalPosition.equals(Ljava/lang/Object;)Z:97 - ReplaceComparisonOperator == -> <=
+10	ReplaceComparisonOperator	org.geotools.temporal.object.DefaultTemporalPosition.equals(Ljava/lang/Object;)Z:98 - ReplaceComparisonOperator == -> -2
+11	ReplaceComparisonOperator	org.geotools.temporal.object.DefaultTemporalPosition.equals(Ljava/lang/Object;)Z:98 - ReplaceComparisonOperator == -> >=
+12	ReplaceComparisonOperator	org.geotools.temporal.object.DefaultTemporalPosition.equals(Ljava/lang/Object;)Z:98 - ReplaceComparisonOperator == -> <=
+13	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.equals(Ljava/lang/Object;)Z:98 - ReplaceConstant - 1 -> 0
+14	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.equals(Ljava/lang/Object;)Z:98 - ReplaceConstant - 0 -> 1
+15	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.equals(Ljava/lang/Object;)Z:100 - ReplaceConstant - 0 -> 1
+16	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:105 - ReplaceConstant - 5 -> 0
+17	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:105 - ReplaceConstant - 5 -> 1
+18	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:105 - ReplaceConstant - 5 -> -1
+19	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:105 - ReplaceConstant - 5 -> 4
+20	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:105 - ReplaceConstant - 5 -> 6
+21	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - ReplaceConstant - 37 -> 0
+22	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - ReplaceConstant - 37 -> 1
+23	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - ReplaceConstant - 37 -> -1
+24	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - ReplaceConstant - 37 -> 36
+25	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - ReplaceConstant - 37 -> 38
+26	InsertUnaryOp	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - InsertUnaryOp Negation of hash
+27	InsertUnaryOp	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - InsertUnaryOp IINC 1 hash
+28	InsertUnaryOp	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - InsertUnaryOp IINC -1 hash
+29	ReplaceArithmeticOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - ReplaceArithmeticOperator * -> +
+30	ReplaceArithmeticOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - ReplaceArithmeticOperator * -> %
+31	ReplaceArithmeticOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - ReplaceArithmeticOperator * -> -
+32	ReplaceArithmeticOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - ReplaceArithmeticOperator * -> /
+33	ReplaceComparisonOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - ReplaceComparisonOperator = null -> != null
+34	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - ReplaceConstant - 0 -> 1
+35	ReplaceArithmeticOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - ReplaceArithmeticOperator + -> %
+36	ReplaceArithmeticOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - ReplaceArithmeticOperator + -> -
+37	ReplaceArithmeticOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - ReplaceArithmeticOperator + -> *
+38	ReplaceArithmeticOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:106 - ReplaceArithmeticOperator + -> /
+39	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - ReplaceConstant - 37 -> 0
+40	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - ReplaceConstant - 37 -> 1
+41	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - ReplaceConstant - 37 -> -1
+42	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - ReplaceConstant - 37 -> 36
+43	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - ReplaceConstant - 37 -> 38
+44	InsertUnaryOp	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - InsertUnaryOp Negation of hash
+45	InsertUnaryOp	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - InsertUnaryOp IINC 1 hash
+46	InsertUnaryOp	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - InsertUnaryOp IINC -1 hash
+47	ReplaceArithmeticOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - ReplaceArithmeticOperator * -> +
+48	ReplaceArithmeticOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - ReplaceArithmeticOperator * -> %
+49	ReplaceArithmeticOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - ReplaceArithmeticOperator * -> -
+50	ReplaceArithmeticOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - ReplaceArithmeticOperator * -> /
+51	ReplaceComparisonOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - ReplaceComparisonOperator = null -> != null
+52	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - ReplaceConstant - 0 -> 1
+53	ReplaceArithmeticOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - ReplaceArithmeticOperator + -> %
+54	ReplaceArithmeticOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - ReplaceArithmeticOperator + -> -
+55	ReplaceArithmeticOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - ReplaceArithmeticOperator + -> *
+56	ReplaceArithmeticOperator	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:107 - ReplaceArithmeticOperator + -> /
+57	InsertUnaryOp	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:108 - InsertUnaryOp Negation of hash
+58	InsertUnaryOp	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:108 - InsertUnaryOp IINC 1 hash
+59	InsertUnaryOp	org.geotools.temporal.object.DefaultTemporalPosition.hashCode()I:108 - InsertUnaryOp IINC -1 hash
+60	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:113 - ReplaceConstant - TemporalPosition: -> 
+61	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:113 - ReplaceConstant - 10 -> 0
+62	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:113 - ReplaceConstant - 10 -> 1
+63	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:113 - ReplaceConstant - 10 -> -1
+64	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:113 - ReplaceConstant - 10 -> 9
+65	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:113 - ReplaceConstant - 10 -> 11
+66	ReplaceComparisonOperator	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:114 - ReplaceComparisonOperator = null -> != null
+67	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:115 - ReplaceConstant - frame: -> 
+68	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:115 - ReplaceConstant - 10 -> 0
+69	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:115 - ReplaceConstant - 10 -> 1
+70	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:115 - ReplaceConstant - 10 -> -1
+71	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:115 - ReplaceConstant - 10 -> 9
+72	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:115 - ReplaceConstant - 10 -> 11
+73	ReplaceComparisonOperator	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:117 - ReplaceComparisonOperator = null -> != null
+74	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:118 - ReplaceConstant - indeterminatePosition: -> 
+75	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:118 - ReplaceConstant - 10 -> 0
+76	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:118 - ReplaceConstant - 10 -> 1
+77	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:118 - ReplaceConstant - 10 -> -1
+78	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:118 - ReplaceConstant - 10 -> 9
+79	ReplaceConstant	org.geotools.temporal.object.DefaultTemporalPosition.toString()Ljava/lang/String;:118 - ReplaceConstant - 10 -> 11

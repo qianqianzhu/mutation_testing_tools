@@ -1,0 +1,20 @@
+0	ReplaceComparisonOperator	org.dynjs.parser.ast.ReturnStatement.<init>(Lorg/dynjs/parser/js/Position;Lorg/dynjs/parser/ast/Expression;)V:35 - ReplaceComparisonOperator = null -> != null
+1	ReplaceComparisonOperator	org.dynjs.parser.ast.ReturnStatement.getSizeMetric()I:47 - ReplaceComparisonOperator != null -> = null
+2	ReplaceConstant	org.dynjs.parser.ast.ReturnStatement.getSizeMetric()I:48 - ReplaceConstant - 1 -> 0
+3	ReplaceConstant	org.dynjs.parser.ast.ReturnStatement.getSizeMetric()I:51 - ReplaceConstant - 1 -> 0
+4	ReplaceArithmeticOperator	org.dynjs.parser.ast.ReturnStatement.getSizeMetric()I:51 - ReplaceArithmeticOperator + -> %
+5	ReplaceArithmeticOperator	org.dynjs.parser.ast.ReturnStatement.getSizeMetric()I:51 - ReplaceArithmeticOperator + -> -
+6	ReplaceArithmeticOperator	org.dynjs.parser.ast.ReturnStatement.getSizeMetric()I:51 - ReplaceArithmeticOperator + -> *
+7	ReplaceArithmeticOperator	org.dynjs.parser.ast.ReturnStatement.getSizeMetric()I:51 - ReplaceArithmeticOperator + -> /
+8	ReplaceComparisonOperator	org.dynjs.parser.ast.ReturnStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:56 - ReplaceComparisonOperator = null -> != null
+9	InsertUnaryOp	org.dynjs.parser.ast.ReturnStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:57 - InsertUnaryOp Negation of debug
+10	InsertUnaryOp	org.dynjs.parser.ast.ReturnStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:57 - InsertUnaryOp IINC 1 debug
+11	InsertUnaryOp	org.dynjs.parser.ast.ReturnStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:57 - InsertUnaryOp IINC -1 debug
+12	ReplaceConstant	org.dynjs.parser.ast.ReturnStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:65 - ReplaceConstant - return -> 
+13	ReplaceComparisonOperator	org.dynjs.parser.ast.ReturnStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:65 - ReplaceComparisonOperator != null -> = null
+14	ReplaceConstant	org.dynjs.parser.ast.ReturnStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:65 - ReplaceConstant -   -> 
+15	InsertUnaryOp	org.dynjs.parser.ast.ReturnStatement.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:70 - InsertUnaryOp Negation of strict
+16	InsertUnaryOp	org.dynjs.parser.ast.ReturnStatement.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:70 - InsertUnaryOp IINC 1 strict
+17	InsertUnaryOp	org.dynjs.parser.ast.ReturnStatement.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:70 - InsertUnaryOp IINC -1 strict
+18	ReplaceComparisonOperator	org.dynjs.parser.ast.ReturnStatement.dump(Ljava/lang/String;)Ljava/lang/String;:75 - ReplaceComparisonOperator != null -> = null
+19	ReplaceConstant	org.dynjs.parser.ast.ReturnStatement.dump(Ljava/lang/String;)Ljava/lang/String;:75 - ReplaceConstant -    -> 

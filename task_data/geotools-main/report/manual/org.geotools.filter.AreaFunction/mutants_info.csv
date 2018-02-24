@@ -1,0 +1,561 @@
+0	ReplaceConstant	org.geotools.filter.AreaFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:55 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:69 - ReplaceConstant - 0.0 -> 1.0
+2	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:69 - ReplaceConstant - 0.0 -> -1.0
+3	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:73 - ReplaceConstant - 0 -> 1
+4	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:73 - InsertUnaryOp Negation of i
+5	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:73 - InsertUnaryOp IINC 1 i
+6	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:73 - InsertUnaryOp IINC -1 i
+7	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:73 - InsertUnaryOp Negation of numberOfGeometries1
+8	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:73 - InsertUnaryOp IINC 1 numberOfGeometries1
+9	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:73 - InsertUnaryOp IINC -1 numberOfGeometries1
+10	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:73 - ReplaceComparisonOperator >= -> -1
+11	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:73 - ReplaceComparisonOperator >= -> >
+12	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:73 - ReplaceComparisonOperator >= -> ==
+13	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:74 - InsertUnaryOp Negation of area
+14	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:74 - InsertUnaryOp Negation of i
+15	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:74 - InsertUnaryOp IINC 1 i
+16	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:74 - InsertUnaryOp IINC -1 i
+17	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:74 - ReplaceArithmeticOperator + -> %
+18	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:74 - ReplaceArithmeticOperator + -> -
+19	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:74 - ReplaceArithmeticOperator + -> *
+20	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:74 - ReplaceArithmeticOperator + -> /
+21	ReplaceVariable	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:73 - ReplaceVariable i -> numberOfGeometries1
+22	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:76 - InsertUnaryOp Negation of area
+23	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:86 - ReplaceConstant - 0.0 -> 1.0
+24	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:86 - ReplaceConstant - 0.0 -> -1.0
+25	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:90 - ReplaceConstant - 0 -> 1
+26	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:90 - InsertUnaryOp Negation of i
+27	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:90 - InsertUnaryOp IINC 1 i
+28	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:90 - InsertUnaryOp IINC -1 i
+29	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:90 - InsertUnaryOp Negation of numberOfGeometries
+30	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:90 - InsertUnaryOp IINC 1 numberOfGeometries
+31	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:90 - InsertUnaryOp IINC -1 numberOfGeometries
+32	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:90 - ReplaceComparisonOperator >= -> -1
+33	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:90 - ReplaceComparisonOperator >= -> >
+34	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:90 - ReplaceComparisonOperator >= -> ==
+35	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:91 - InsertUnaryOp Negation of perimeter
+36	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:91 - InsertUnaryOp Negation of i
+37	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:91 - InsertUnaryOp IINC 1 i
+38	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:91 - InsertUnaryOp IINC -1 i
+39	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:91 - ReplaceArithmeticOperator + -> %
+40	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:91 - ReplaceArithmeticOperator + -> -
+41	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:91 - ReplaceArithmeticOperator + -> *
+42	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:91 - ReplaceArithmeticOperator + -> /
+43	ReplaceVariable	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:90 - ReplaceVariable i -> numberOfGeometries
+44	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/GeometryCollection;)D:93 - InsertUnaryOp Negation of perimeter
+45	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:108 - ReplaceConstant - 0.0 -> 1.0
+46	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:108 - ReplaceConstant - 0.0 -> -1.0
+47	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:109 - ReplaceComparisonOperator == -> -2
+48	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:109 - ReplaceComparisonOperator == -> >=
+49	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:109 - ReplaceComparisonOperator == -> <=
+50	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:110 - InsertUnaryOp Negation of area
+51	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:110 - ReplaceArithmeticOperator + -> %
+52	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:110 - ReplaceArithmeticOperator + -> -
+53	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:110 - ReplaceArithmeticOperator + -> *
+54	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:110 - ReplaceArithmeticOperator + -> /
+55	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:111 - ReplaceComparisonOperator == -> -2
+56	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:111 - ReplaceComparisonOperator == -> >=
+57	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:111 - ReplaceComparisonOperator == -> <=
+58	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:112 - InsertUnaryOp Negation of area
+59	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:112 - ReplaceArithmeticOperator + -> %
+60	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:112 - ReplaceArithmeticOperator + -> -
+61	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:112 - ReplaceArithmeticOperator + -> *
+62	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:112 - ReplaceArithmeticOperator + -> /
+63	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:113 - ReplaceComparisonOperator == -> -2
+64	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:113 - ReplaceComparisonOperator == -> >=
+65	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:113 - ReplaceComparisonOperator == -> <=
+66	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:114 - InsertUnaryOp Negation of area
+67	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:114 - ReplaceArithmeticOperator + -> %
+68	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:114 - ReplaceArithmeticOperator + -> -
+69	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:114 - ReplaceArithmeticOperator + -> *
+70	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:114 - ReplaceArithmeticOperator + -> /
+71	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:116 - InsertUnaryOp Negation of area
+72	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:116 - ReplaceConstant - 0.0 -> 1.0
+73	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:116 - ReplaceConstant - 0.0 -> -1.0
+74	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:116 - ReplaceArithmeticOperator + -> %
+75	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:116 - ReplaceArithmeticOperator + -> -
+76	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:116 - ReplaceArithmeticOperator + -> *
+77	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:116 - ReplaceArithmeticOperator + -> /
+78	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Geometry;)D:118 - InsertUnaryOp Negation of area
+79	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:133 - ReplaceConstant - 0.0 -> 1.0
+80	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:133 - ReplaceConstant - 0.0 -> -1.0
+81	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:134 - ReplaceComparisonOperator == -> -2
+82	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:134 - ReplaceComparisonOperator == -> >=
+83	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:134 - ReplaceComparisonOperator == -> <=
+84	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:135 - InsertUnaryOp Negation of perimeter
+85	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:135 - ReplaceArithmeticOperator + -> %
+86	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:135 - ReplaceArithmeticOperator + -> -
+87	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:135 - ReplaceArithmeticOperator + -> *
+88	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:135 - ReplaceArithmeticOperator + -> /
+89	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:136 - ReplaceComparisonOperator == -> -2
+90	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:136 - ReplaceComparisonOperator == -> >=
+91	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:136 - ReplaceComparisonOperator == -> <=
+92	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:137 - InsertUnaryOp Negation of perimeter
+93	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:137 - ReplaceArithmeticOperator + -> %
+94	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:137 - ReplaceArithmeticOperator + -> -
+95	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:137 - ReplaceArithmeticOperator + -> *
+96	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:137 - ReplaceArithmeticOperator + -> /
+97	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:138 - ReplaceComparisonOperator == -> -2
+98	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:138 - ReplaceComparisonOperator == -> >=
+99	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:138 - ReplaceComparisonOperator == -> <=
+100	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:139 - InsertUnaryOp Negation of perimeter
+101	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:139 - ReplaceArithmeticOperator + -> %
+102	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:139 - ReplaceArithmeticOperator + -> -
+103	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:139 - ReplaceArithmeticOperator + -> *
+104	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:139 - ReplaceArithmeticOperator + -> /
+105	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:140 - ReplaceComparisonOperator == -> -2
+106	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:140 - ReplaceComparisonOperator == -> >=
+107	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:140 - ReplaceComparisonOperator == -> <=
+108	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:141 - InsertUnaryOp Negation of perimeter
+109	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:141 - ReplaceArithmeticOperator + -> %
+110	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:141 - ReplaceArithmeticOperator + -> -
+111	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:141 - ReplaceArithmeticOperator + -> *
+112	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:141 - ReplaceArithmeticOperator + -> /
+113	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:142 - ReplaceComparisonOperator == -> -2
+114	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:142 - ReplaceComparisonOperator == -> >=
+115	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:142 - ReplaceComparisonOperator == -> <=
+116	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:143 - InsertUnaryOp Negation of perimeter
+117	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:143 - ReplaceArithmeticOperator + -> %
+118	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:143 - ReplaceArithmeticOperator + -> -
+119	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:143 - ReplaceArithmeticOperator + -> *
+120	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:143 - ReplaceArithmeticOperator + -> /
+121	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:145 - InsertUnaryOp Negation of perimeter
+122	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:145 - ReplaceConstant - 0.0 -> 1.0
+123	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:145 - ReplaceConstant - 0.0 -> -1.0
+124	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:145 - ReplaceArithmeticOperator + -> %
+125	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:145 - ReplaceArithmeticOperator + -> -
+126	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:145 - ReplaceArithmeticOperator + -> *
+127	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:145 - ReplaceArithmeticOperator + -> /
+128	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Geometry;)D:147 - InsertUnaryOp Negation of perimeter
+129	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:156 - ReplaceConstant - 0.0 -> 1.0
+130	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:156 - ReplaceConstant - 0.0 -> -1.0
+131	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:158 - ReplaceConstant - 0 -> 1
+132	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:158 - InsertUnaryOp Negation of i
+133	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:158 - InsertUnaryOp IINC 1 i
+134	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:158 - InsertUnaryOp IINC -1 i
+135	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:158 - InsertUnaryOp Negation of numberOfGeometries
+136	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:158 - InsertUnaryOp IINC 1 numberOfGeometries
+137	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:158 - InsertUnaryOp IINC -1 numberOfGeometries
+138	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:158 - ReplaceComparisonOperator >= -> -1
+139	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:158 - ReplaceComparisonOperator >= -> >
+140	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:158 - ReplaceComparisonOperator >= -> ==
+141	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:159 - InsertUnaryOp Negation of area
+142	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:159 - InsertUnaryOp Negation of i
+143	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:159 - InsertUnaryOp IINC 1 i
+144	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:159 - InsertUnaryOp IINC -1 i
+145	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:159 - ReplaceArithmeticOperator + -> %
+146	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:159 - ReplaceArithmeticOperator + -> -
+147	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:159 - ReplaceArithmeticOperator + -> *
+148	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:159 - ReplaceArithmeticOperator + -> /
+149	ReplaceVariable	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:158 - ReplaceVariable i -> numberOfGeometries
+150	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:161 - InsertUnaryOp Negation of area
+151	ReplaceConstant	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:171 - ReplaceConstant - 0.0 -> 1.0
+152	ReplaceConstant	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:171 - ReplaceConstant - 0.0 -> -1.0
+153	ReplaceConstant	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:173 - ReplaceConstant - 0 -> 1
+154	InsertUnaryOp	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:173 - InsertUnaryOp Negation of i
+155	InsertUnaryOp	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:173 - InsertUnaryOp IINC 1 i
+156	InsertUnaryOp	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:173 - InsertUnaryOp IINC -1 i
+157	InsertUnaryOp	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:173 - InsertUnaryOp Negation of numberOfGeometries
+158	InsertUnaryOp	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:173 - InsertUnaryOp IINC 1 numberOfGeometries
+159	InsertUnaryOp	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:173 - InsertUnaryOp IINC -1 numberOfGeometries
+160	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:173 - ReplaceComparisonOperator >= -> -1
+161	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:173 - ReplaceComparisonOperator >= -> >
+162	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:173 - ReplaceComparisonOperator >= -> ==
+163	InsertUnaryOp	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:174 - InsertUnaryOp Negation of perimeter
+164	InsertUnaryOp	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:174 - InsertUnaryOp Negation of i
+165	InsertUnaryOp	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:174 - InsertUnaryOp IINC 1 i
+166	InsertUnaryOp	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:174 - InsertUnaryOp IINC -1 i
+167	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:174 - ReplaceArithmeticOperator + -> %
+168	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:174 - ReplaceArithmeticOperator + -> -
+169	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:174 - ReplaceArithmeticOperator + -> *
+170	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:174 - ReplaceArithmeticOperator + -> /
+171	ReplaceVariable	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:173 - ReplaceVariable i -> numberOfGeometries
+172	InsertUnaryOp	org.geotools.filter.AreaFunction.getperimeter(Lcom/vividsolutions/jts/geom/MultiPolygon;)D:176 - InsertUnaryOp Negation of perimeter
+173	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:185 - ReplaceConstant - 0.0 -> 1.0
+174	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:185 - ReplaceConstant - 0.0 -> -1.0
+175	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:186 - ReplaceConstant - 0.0 -> 1.0
+176	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:186 - ReplaceConstant - 0.0 -> -1.0
+177	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:190 - ReplaceConstant - Infinity -> 0.0
+178	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:190 - ReplaceConstant - Infinity -> 1.0
+179	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:190 - ReplaceConstant - Infinity -> -1.0
+180	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:190 - ReplaceConstant - Infinity -> Infinity
+181	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:191 - ReplaceConstant - -Infinity -> 0.0
+182	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:191 - ReplaceConstant - -Infinity -> 1.0
+183	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:191 - ReplaceConstant - -Infinity -> -1.0
+184	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:191 - ReplaceConstant - -Infinity -> -Infinity
+185	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:192 - ReplaceConstant - Infinity -> 0.0
+186	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:192 - ReplaceConstant - Infinity -> 1.0
+187	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:192 - ReplaceConstant - Infinity -> -1.0
+188	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:192 - ReplaceConstant - Infinity -> Infinity
+189	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:193 - ReplaceConstant - -Infinity -> 0.0
+190	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:193 - ReplaceConstant - -Infinity -> 1.0
+191	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:193 - ReplaceConstant - -Infinity -> -1.0
+192	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:193 - ReplaceConstant - -Infinity -> -Infinity
+193	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:194 - ReplaceConstant - 0 -> 1
+194	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:194 - InsertUnaryOp Negation of i
+195	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:194 - InsertUnaryOp IINC 1 i
+196	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:194 - InsertUnaryOp IINC -1 i
+197	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:194 - InsertUnaryOp Negation of numberOfExteriorRingCoordinates
+198	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:194 - InsertUnaryOp IINC 1 numberOfExteriorRingCoordinates
+199	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:194 - InsertUnaryOp IINC -1 numberOfExteriorRingCoordinates
+200	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:194 - ReplaceComparisonOperator >= -> -1
+201	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:194 - ReplaceComparisonOperator >= -> >
+202	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:194 - ReplaceComparisonOperator >= -> ==
+203	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:195 - InsertUnaryOp Negation of minx
+204	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:195 - InsertUnaryOp Negation of i
+205	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:195 - InsertUnaryOp IINC 1 i
+206	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:195 - InsertUnaryOp IINC -1 i
+207	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:195 - InsertUnaryOp Negation
+208	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:196 - InsertUnaryOp Negation of maxx
+209	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:196 - InsertUnaryOp Negation of i
+210	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:196 - InsertUnaryOp IINC 1 i
+211	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:196 - InsertUnaryOp IINC -1 i
+212	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:196 - InsertUnaryOp Negation
+213	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:197 - InsertUnaryOp Negation of miny
+214	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:197 - InsertUnaryOp Negation of i
+215	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:197 - InsertUnaryOp IINC 1 i
+216	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:197 - InsertUnaryOp IINC -1 i
+217	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:197 - InsertUnaryOp Negation
+218	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:198 - InsertUnaryOp Negation of maxy
+219	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:198 - InsertUnaryOp Negation of i
+220	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:198 - InsertUnaryOp IINC 1 i
+221	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:198 - InsertUnaryOp IINC -1 i
+222	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:198 - InsertUnaryOp Negation
+223	ReplaceVariable	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:194 - ReplaceVariable i -> numberOfExteriorRingCoordinates
+224	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:203 - ReplaceConstant - 0 -> 1
+225	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:203 - InsertUnaryOp Negation of i
+226	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:203 - InsertUnaryOp IINC 1 i
+227	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:203 - InsertUnaryOp IINC -1 i
+228	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:203 - InsertUnaryOp Negation of numberOfExteriorRingCoordinates
+229	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:203 - InsertUnaryOp IINC 1 numberOfExteriorRingCoordinates
+230	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:203 - InsertUnaryOp IINC -1 numberOfExteriorRingCoordinates
+231	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:203 - ReplaceConstant - 1 -> 0
+232	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:203 - ReplaceArithmeticOperator - -> +
+233	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:203 - ReplaceArithmeticOperator - -> %
+234	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:203 - ReplaceArithmeticOperator - -> *
+235	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:203 - ReplaceArithmeticOperator - -> /
+236	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:203 - ReplaceComparisonOperator >= -> -1
+237	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:203 - ReplaceComparisonOperator >= -> >
+238	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:203 - ReplaceComparisonOperator >= -> ==
+239	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp Negation of area
+240	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp Negation of i
+241	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp IINC 1 i
+242	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp IINC -1 i
+243	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceConstant - 1 -> 0
+244	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator + -> %
+245	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator + -> -
+246	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator + -> *
+247	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator + -> /
+248	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp Negation
+249	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp Negation of minx
+250	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> +
+251	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> %
+252	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> *
+253	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> /
+254	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp Negation of i
+255	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp IINC 1 i
+256	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp IINC -1 i
+257	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp Negation
+258	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp Negation of minx
+259	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> +
+260	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> %
+261	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> *
+262	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> /
+263	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> +
+264	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> %
+265	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> *
+266	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> /
+267	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp Negation of i
+268	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp IINC 1 i
+269	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp IINC -1 i
+270	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceConstant - 1 -> 0
+271	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator + -> %
+272	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator + -> -
+273	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator + -> *
+274	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator + -> /
+275	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp Negation
+276	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp Negation of miny
+277	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> +
+278	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> %
+279	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> *
+280	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> /
+281	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp Negation of i
+282	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp IINC 1 i
+283	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp IINC -1 i
+284	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp Negation
+285	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - InsertUnaryOp Negation of miny
+286	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> +
+287	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> %
+288	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> *
+289	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator - -> /
+290	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator + -> %
+291	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator + -> -
+292	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator + -> *
+293	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator + -> /
+294	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceConstant - 2.0 -> 0.0
+295	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceConstant - 2.0 -> 1.0
+296	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceConstant - 2.0 -> -1.0
+297	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceConstant - 2.0 -> 3.0
+298	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator / -> +
+299	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator / -> %
+300	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator / -> -
+301	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator / -> *
+302	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator * -> +
+303	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator * -> %
+304	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator * -> -
+305	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator * -> /
+306	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator + -> %
+307	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator + -> -
+308	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator + -> *
+309	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:204 - ReplaceArithmeticOperator + -> /
+310	ReplaceVariable	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:203 - ReplaceVariable i -> numberOfExteriorRingCoordinates
+311	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:209 - InsertUnaryOp Negation of area
+312	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:215 - ReplaceConstant - 0 -> 1
+313	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:215 - InsertUnaryOp Negation of i
+314	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:215 - InsertUnaryOp IINC 1 i
+315	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:215 - InsertUnaryOp IINC -1 i
+316	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:215 - InsertUnaryOp Negation of numberOfInteriorRings
+317	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:215 - InsertUnaryOp IINC 1 numberOfInteriorRings
+318	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:215 - InsertUnaryOp IINC -1 numberOfInteriorRings
+319	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:215 - ReplaceComparisonOperator >= -> -1
+320	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:215 - ReplaceComparisonOperator >= -> >
+321	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:215 - ReplaceComparisonOperator >= -> ==
+322	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:216 - ReplaceConstant - 0.0 -> 1.0
+323	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:216 - ReplaceConstant - 0.0 -> -1.0
+324	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:217 - InsertUnaryOp Negation of i
+325	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:217 - InsertUnaryOp IINC 1 i
+326	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:217 - InsertUnaryOp IINC -1 i
+327	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:219 - ReplaceConstant - Infinity -> 0.0
+328	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:219 - ReplaceConstant - Infinity -> 1.0
+329	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:219 - ReplaceConstant - Infinity -> -1.0
+330	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:219 - ReplaceConstant - Infinity -> Infinity
+331	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:220 - ReplaceConstant - -Infinity -> 0.0
+332	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:220 - ReplaceConstant - -Infinity -> 1.0
+333	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:220 - ReplaceConstant - -Infinity -> -1.0
+334	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:220 - ReplaceConstant - -Infinity -> -Infinity
+335	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:221 - ReplaceConstant - Infinity -> 0.0
+336	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:221 - ReplaceConstant - Infinity -> 1.0
+337	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:221 - ReplaceConstant - Infinity -> -1.0
+338	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:221 - ReplaceConstant - Infinity -> Infinity
+339	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:222 - ReplaceConstant - -Infinity -> 0.0
+340	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:222 - ReplaceConstant - -Infinity -> 1.0
+341	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:222 - ReplaceConstant - -Infinity -> -1.0
+342	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:222 - ReplaceConstant - -Infinity -> -Infinity
+343	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:223 - ReplaceConstant - 0 -> 1
+344	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:223 - InsertUnaryOp Negation of j
+345	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:223 - InsertUnaryOp IINC 1 j
+346	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:223 - InsertUnaryOp IINC -1 j
+347	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:223 - InsertUnaryOp Negation of numberOfInteriorRingCoordinates
+348	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:223 - InsertUnaryOp IINC 1 numberOfInteriorRingCoordinates
+349	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:223 - InsertUnaryOp IINC -1 numberOfInteriorRingCoordinates
+350	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:223 - ReplaceComparisonOperator >= -> -1
+351	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:223 - ReplaceComparisonOperator >= -> >
+352	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:223 - ReplaceComparisonOperator >= -> ==
+353	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:224 - InsertUnaryOp Negation of minx
+354	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:224 - InsertUnaryOp Negation of j
+355	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:224 - InsertUnaryOp IINC 1 j
+356	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:224 - InsertUnaryOp IINC -1 j
+357	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:224 - InsertUnaryOp Negation
+358	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:225 - InsertUnaryOp Negation of maxx
+359	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:225 - InsertUnaryOp Negation of j
+360	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:225 - InsertUnaryOp IINC 1 j
+361	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:225 - InsertUnaryOp IINC -1 j
+362	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:225 - InsertUnaryOp Negation
+363	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:226 - InsertUnaryOp Negation of miny
+364	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:226 - InsertUnaryOp Negation of j
+365	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:226 - InsertUnaryOp IINC 1 j
+366	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:226 - InsertUnaryOp IINC -1 j
+367	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:226 - InsertUnaryOp Negation
+368	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:227 - InsertUnaryOp Negation of maxy
+369	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:227 - InsertUnaryOp Negation of j
+370	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:227 - InsertUnaryOp IINC 1 j
+371	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:227 - InsertUnaryOp IINC -1 j
+372	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:227 - InsertUnaryOp Negation
+373	ReplaceVariable	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:223 - ReplaceVariable j -> numberOfExteriorRingCoordinates
+374	ReplaceVariable	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:223 - ReplaceVariable j -> numberOfInteriorRingCoordinates
+375	ReplaceVariable	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:223 - ReplaceVariable j -> i
+376	ReplaceVariable	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:223 - ReplaceVariable j -> numberOfInteriorRings
+377	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - ReplaceConstant - 0 -> 1
+378	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - InsertUnaryOp Negation of j
+379	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - InsertUnaryOp IINC 1 j
+380	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - InsertUnaryOp IINC -1 j
+381	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - InsertUnaryOp Negation of numberOfInteriorRingCoordinates
+382	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - InsertUnaryOp IINC 1 numberOfInteriorRingCoordinates
+383	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - InsertUnaryOp IINC -1 numberOfInteriorRingCoordinates
+384	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - ReplaceConstant - 1 -> 0
+385	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - ReplaceArithmeticOperator - -> +
+386	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - ReplaceArithmeticOperator - -> %
+387	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - ReplaceArithmeticOperator - -> *
+388	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - ReplaceArithmeticOperator - -> /
+389	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - ReplaceComparisonOperator >= -> -1
+390	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - ReplaceComparisonOperator >= -> >
+391	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - ReplaceComparisonOperator >= -> ==
+392	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp Negation of interiorArea
+393	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp Negation of j
+394	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp IINC 1 j
+395	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp IINC -1 j
+396	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceConstant - 1 -> 0
+397	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator + -> %
+398	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator + -> -
+399	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator + -> *
+400	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator + -> /
+401	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp Negation
+402	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp Negation of minx
+403	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> +
+404	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> %
+405	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> *
+406	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> /
+407	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp Negation of j
+408	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp IINC 1 j
+409	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp IINC -1 j
+410	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp Negation
+411	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp Negation of minx
+412	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> +
+413	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> %
+414	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> *
+415	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> /
+416	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> +
+417	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> %
+418	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> *
+419	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> /
+420	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp Negation of j
+421	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp IINC 1 j
+422	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp IINC -1 j
+423	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceConstant - 1 -> 0
+424	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator + -> %
+425	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator + -> -
+426	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator + -> *
+427	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator + -> /
+428	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp Negation
+429	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp Negation of miny
+430	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> +
+431	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> %
+432	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> *
+433	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> /
+434	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp Negation of j
+435	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp IINC 1 j
+436	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp IINC -1 j
+437	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp Negation
+438	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - InsertUnaryOp Negation of miny
+439	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> +
+440	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> %
+441	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> *
+442	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator - -> /
+443	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator + -> %
+444	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator + -> -
+445	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator + -> *
+446	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator + -> /
+447	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceConstant - 2.0 -> 0.0
+448	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceConstant - 2.0 -> 1.0
+449	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceConstant - 2.0 -> -1.0
+450	ReplaceConstant	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceConstant - 2.0 -> 3.0
+451	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator / -> +
+452	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator / -> %
+453	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator / -> -
+454	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator / -> *
+455	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator * -> +
+456	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator * -> %
+457	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator * -> -
+458	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator * -> /
+459	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator + -> %
+460	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator + -> -
+461	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator + -> *
+462	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:230 - ReplaceArithmeticOperator + -> /
+463	ReplaceVariable	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - ReplaceVariable j -> numberOfExteriorRingCoordinates
+464	ReplaceVariable	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - ReplaceVariable j -> numberOfInteriorRingCoordinates
+465	ReplaceVariable	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - ReplaceVariable j -> i
+466	ReplaceVariable	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:229 - ReplaceVariable j -> numberOfInteriorRings
+467	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:235 - InsertUnaryOp Negation of area
+468	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:235 - InsertUnaryOp Negation of interiorArea
+469	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:235 - ReplaceArithmeticOperator - -> +
+470	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:235 - ReplaceArithmeticOperator - -> %
+471	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:235 - ReplaceArithmeticOperator - -> *
+472	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:235 - ReplaceArithmeticOperator - -> /
+473	ReplaceVariable	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:215 - ReplaceVariable i -> numberOfExteriorRingCoordinates
+474	ReplaceVariable	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:215 - ReplaceVariable i -> numberOfInteriorRingCoordinates
+475	ReplaceVariable	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:215 - ReplaceVariable i -> numberOfInteriorRings
+476	InsertUnaryOp	org.geotools.filter.AreaFunction.getArea(Lcom/vividsolutions/jts/geom/Polygon;)D:237 - InsertUnaryOp Negation of area
+477	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:246 - ReplaceConstant - 0.0 -> 1.0
+478	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:246 - ReplaceConstant - 0.0 -> -1.0
+479	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:248 - InsertUnaryOp Negation of perimeter
+480	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:248 - ReplaceArithmeticOperator + -> %
+481	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:248 - ReplaceArithmeticOperator + -> -
+482	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:248 - ReplaceArithmeticOperator + -> *
+483	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:248 - ReplaceArithmeticOperator + -> /
+484	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:250 - ReplaceConstant - 0 -> 1
+485	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:250 - InsertUnaryOp Negation of i
+486	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:250 - InsertUnaryOp IINC 1 i
+487	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:250 - InsertUnaryOp IINC -1 i
+488	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:250 - InsertUnaryOp Negation of numberOfHoles
+489	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:250 - InsertUnaryOp IINC 1 numberOfHoles
+490	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:250 - InsertUnaryOp IINC -1 numberOfHoles
+491	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:250 - ReplaceComparisonOperator >= -> -1
+492	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:250 - ReplaceComparisonOperator >= -> >
+493	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:250 - ReplaceComparisonOperator >= -> ==
+494	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:251 - InsertUnaryOp Negation of perimeter
+495	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:251 - InsertUnaryOp Negation of i
+496	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:251 - InsertUnaryOp IINC 1 i
+497	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:251 - InsertUnaryOp IINC -1 i
+498	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:251 - ReplaceArithmeticOperator + -> %
+499	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:251 - ReplaceArithmeticOperator + -> -
+500	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:251 - ReplaceArithmeticOperator + -> *
+501	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:251 - ReplaceArithmeticOperator + -> /
+502	ReplaceVariable	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:250 - ReplaceVariable i -> numberOfHoles
+503	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/Polygon;)D:253 - InsertUnaryOp Negation of perimeter
+504	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:263 - ReplaceConstant - 0.0 -> 1.0
+505	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:263 - ReplaceConstant - 0.0 -> -1.0
+506	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:265 - ReplaceConstant - 0 -> 1
+507	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:265 - InsertUnaryOp Negation of i
+508	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:265 - InsertUnaryOp IINC 1 i
+509	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:265 - InsertUnaryOp IINC -1 i
+510	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:265 - InsertUnaryOp Negation of numberOfGeometries
+511	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:265 - InsertUnaryOp IINC 1 numberOfGeometries
+512	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:265 - InsertUnaryOp IINC -1 numberOfGeometries
+513	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:265 - ReplaceComparisonOperator >= -> -1
+514	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:265 - ReplaceComparisonOperator >= -> >
+515	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:265 - ReplaceComparisonOperator >= -> ==
+516	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:266 - InsertUnaryOp Negation of perimeter
+517	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:266 - InsertUnaryOp Negation of i
+518	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:266 - InsertUnaryOp IINC 1 i
+519	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:266 - InsertUnaryOp IINC -1 i
+520	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:266 - ReplaceArithmeticOperator + -> %
+521	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:266 - ReplaceArithmeticOperator + -> -
+522	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:266 - ReplaceArithmeticOperator + -> *
+523	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:266 - ReplaceArithmeticOperator + -> /
+524	ReplaceVariable	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:265 - ReplaceVariable i -> numberOfGeometries
+525	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/MultiLineString;)D:268 - InsertUnaryOp Negation of perimeter
+526	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:277 - ReplaceConstant - 0.0 -> 1.0
+527	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:277 - ReplaceConstant - 0.0 -> -1.0
+528	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:280 - ReplaceConstant - 0 -> 1
+529	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:280 - InsertUnaryOp Negation of i
+530	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:280 - InsertUnaryOp IINC 1 i
+531	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:280 - InsertUnaryOp IINC -1 i
+532	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:280 - InsertUnaryOp Negation of numberOfPoints
+533	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:280 - InsertUnaryOp IINC 1 numberOfPoints
+534	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:280 - InsertUnaryOp IINC -1 numberOfPoints
+535	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:280 - ReplaceConstant - 1 -> 0
+536	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:280 - ReplaceArithmeticOperator - -> +
+537	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:280 - ReplaceArithmeticOperator - -> %
+538	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:280 - ReplaceArithmeticOperator - -> *
+539	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:280 - ReplaceArithmeticOperator - -> /
+540	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:280 - ReplaceComparisonOperator >= -> -1
+541	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:280 - ReplaceComparisonOperator >= -> >
+542	ReplaceComparisonOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:280 - ReplaceComparisonOperator >= -> ==
+543	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:281 - InsertUnaryOp Negation of perimeter
+544	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:281 - InsertUnaryOp Negation of i
+545	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:281 - InsertUnaryOp IINC 1 i
+546	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:281 - InsertUnaryOp IINC -1 i
+547	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:281 - InsertUnaryOp Negation of i
+548	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:281 - InsertUnaryOp IINC 1 i
+549	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:281 - InsertUnaryOp IINC -1 i
+550	ReplaceConstant	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:281 - ReplaceConstant - 1 -> 0
+551	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:281 - ReplaceArithmeticOperator + -> %
+552	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:281 - ReplaceArithmeticOperator + -> -
+553	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:281 - ReplaceArithmeticOperator + -> *
+554	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:281 - ReplaceArithmeticOperator + -> /
+555	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:281 - ReplaceArithmeticOperator + -> %
+556	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:281 - ReplaceArithmeticOperator + -> -
+557	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:281 - ReplaceArithmeticOperator + -> *
+558	ReplaceArithmeticOperator	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:281 - ReplaceArithmeticOperator + -> /
+559	ReplaceVariable	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:280 - ReplaceVariable i -> numberOfPoints
+560	InsertUnaryOp	org.geotools.filter.AreaFunction.getPerimeter(Lcom/vividsolutions/jts/geom/LineString;)D:283 - InsertUnaryOp Negation of perimeter

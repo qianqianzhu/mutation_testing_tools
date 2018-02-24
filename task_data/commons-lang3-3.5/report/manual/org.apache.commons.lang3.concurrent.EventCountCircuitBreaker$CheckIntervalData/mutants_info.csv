@@ -1,0 +1,21 @@
+0	InsertUnaryOp	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.<init>(IJ)V:444 - InsertUnaryOp Negation of count
+1	InsertUnaryOp	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.<init>(IJ)V:444 - InsertUnaryOp IINC 1 count
+2	InsertUnaryOp	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.<init>(IJ)V:444 - InsertUnaryOp IINC -1 count
+3	InsertUnaryOp	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.<init>(IJ)V:445 - InsertUnaryOp Negation of intervalStart
+4	InsertUnaryOp	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.getEventCount()I:454 - InsertUnaryOp Negation
+5	InsertUnaryOp	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.getEventCount()I:454 - InsertUnaryOp +1
+6	InsertUnaryOp	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.getEventCount()I:454 - InsertUnaryOp -1
+7	InsertUnaryOp	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.getCheckIntervalStart()J:463 - InsertUnaryOp Negation
+8	InsertUnaryOp	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.increment(I)Lorg/apache/commons/lang3/concurrent/EventCountCircuitBreaker$CheckIntervalData;:474 - InsertUnaryOp Negation of delta
+9	InsertUnaryOp	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.increment(I)Lorg/apache/commons/lang3/concurrent/EventCountCircuitBreaker$CheckIntervalData;:474 - InsertUnaryOp IINC 1 delta
+10	InsertUnaryOp	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.increment(I)Lorg/apache/commons/lang3/concurrent/EventCountCircuitBreaker$CheckIntervalData;:474 - InsertUnaryOp IINC -1 delta
+11	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.increment(I)Lorg/apache/commons/lang3/concurrent/EventCountCircuitBreaker$CheckIntervalData;:474 - ReplaceComparisonOperator == -> -2
+12	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.increment(I)Lorg/apache/commons/lang3/concurrent/EventCountCircuitBreaker$CheckIntervalData;:474 - ReplaceComparisonOperator == -> >=
+13	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.increment(I)Lorg/apache/commons/lang3/concurrent/EventCountCircuitBreaker$CheckIntervalData;:474 - ReplaceComparisonOperator == -> <=
+14	InsertUnaryOp	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.increment(I)Lorg/apache/commons/lang3/concurrent/EventCountCircuitBreaker$CheckIntervalData;:474 - InsertUnaryOp Negation of delta
+15	InsertUnaryOp	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.increment(I)Lorg/apache/commons/lang3/concurrent/EventCountCircuitBreaker$CheckIntervalData;:474 - InsertUnaryOp IINC 1 delta
+16	InsertUnaryOp	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.increment(I)Lorg/apache/commons/lang3/concurrent/EventCountCircuitBreaker$CheckIntervalData;:474 - InsertUnaryOp IINC -1 delta
+17	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.increment(I)Lorg/apache/commons/lang3/concurrent/EventCountCircuitBreaker$CheckIntervalData;:474 - ReplaceArithmeticOperator + -> %
+18	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.increment(I)Lorg/apache/commons/lang3/concurrent/EventCountCircuitBreaker$CheckIntervalData;:474 - ReplaceArithmeticOperator + -> -
+19	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.increment(I)Lorg/apache/commons/lang3/concurrent/EventCountCircuitBreaker$CheckIntervalData;:474 - ReplaceArithmeticOperator + -> *
+20	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.EventCountCircuitBreaker$CheckIntervalData.increment(I)Lorg/apache/commons/lang3/concurrent/EventCountCircuitBreaker$CheckIntervalData;:474 - ReplaceArithmeticOperator + -> /

@@ -1,0 +1,73 @@
+0	ReplaceConstant	com.graphhopper.storage.index.Location2IDFullIndex.<init>(Lcom/graphhopper/storage/Graph;)V:38 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	com.graphhopper.storage.index.Location2IDFullIndex.loadExisting()Z:47 - ReplaceConstant - 1 -> 0
+2	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.setApproximation(Z)Lcom/graphhopper/storage/index/LocationIndex;:52 - InsertUnaryOp Negation of approxDist
+3	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.setApproximation(Z)Lcom/graphhopper/storage/index/LocationIndex;:52 - InsertUnaryOp IINC 1 approxDist
+4	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.setApproximation(Z)Lcom/graphhopper/storage/index/LocationIndex;:52 - InsertUnaryOp IINC -1 approxDist
+5	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.setApproximation(Z)Lcom/graphhopper/storage/index/LocationIndex;:52 - ReplaceComparisonOperator == -> -2
+6	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.setApproximation(Z)Lcom/graphhopper/storage/index/LocationIndex;:52 - ReplaceComparisonOperator == -> >=
+7	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.setApproximation(Z)Lcom/graphhopper/storage/index/LocationIndex;:52 - ReplaceComparisonOperator == -> <=
+8	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:72 - ReplaceComparisonOperator == -> -2
+9	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:72 - ReplaceComparisonOperator == -> >=
+10	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:72 - ReplaceComparisonOperator == -> <=
+11	ReplaceConstant	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:73 - ReplaceConstant - You need to create a new LocationIndex instance as it is already closed -> 
+12	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:75 - InsertUnaryOp Negation of queryLat
+13	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:75 - InsertUnaryOp Negation of queryLon
+14	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:78 - ReplaceComparisonOperator == -> -2
+15	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:78 - ReplaceComparisonOperator == -> >=
+16	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:78 - ReplaceComparisonOperator == -> <=
+17	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:79 - ReplaceComparisonOperator != -> -1
+18	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:79 - ReplaceComparisonOperator != -> <
+19	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:79 - ReplaceComparisonOperator != -> >
+20	ReplaceConstant	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:82 - ReplaceConstant - 0 -> 1
+21	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:82 - InsertUnaryOp Negation of i
+22	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:82 - InsertUnaryOp IINC 1 i
+23	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:82 - InsertUnaryOp IINC -1 i
+24	ReplaceConstant	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:82 - ReplaceConstant - 2 -> 0
+25	ReplaceConstant	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:82 - ReplaceConstant - 2 -> 1
+26	ReplaceConstant	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:82 - ReplaceConstant - 2 -> -1
+27	ReplaceConstant	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:82 - ReplaceConstant - 2 -> 3
+28	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:82 - ReplaceComparisonOperator >= -> -1
+29	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:82 - ReplaceComparisonOperator >= -> >
+30	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:82 - ReplaceComparisonOperator >= -> ==
+31	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:83 - InsertUnaryOp Negation of i
+32	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:83 - InsertUnaryOp IINC 1 i
+33	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:83 - InsertUnaryOp IINC -1 i
+34	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:83 - ReplaceComparisonOperator != -> -1
+35	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:83 - ReplaceComparisonOperator != -> <
+36	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:83 - ReplaceComparisonOperator != -> >
+37	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:88 - InsertUnaryOp Negation of node
+38	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:88 - InsertUnaryOp IINC 1 node
+39	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:88 - InsertUnaryOp IINC -1 node
+40	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:89 - InsertUnaryOp Negation of node
+41	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:89 - InsertUnaryOp IINC 1 node
+42	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:89 - InsertUnaryOp IINC -1 node
+43	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:90 - InsertUnaryOp Negation of tmpLat
+44	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:90 - InsertUnaryOp Negation of tmpLon
+45	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:90 - InsertUnaryOp Negation of queryLat
+46	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:90 - InsertUnaryOp Negation of queryLon
+47	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:91 - ReplaceComparisonOperator = null -> != null
+48	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:91 - InsertUnaryOp Negation of dist
+49	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:91 - InsertUnaryOp Negation of queryLat
+50	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:91 - InsertUnaryOp Negation of queryLon
+51	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:91 - ReplaceComparisonOperator >= -> -1
+52	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:91 - ReplaceComparisonOperator >= -> ==
+53	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:91 - ReplaceComparisonOperator >= -> >
+54	ReplaceConstant	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:92 - ReplaceConstant - 0 -> 1
+55	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:93 - InsertUnaryOp Negation of node
+56	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:93 - InsertUnaryOp IINC 1 node
+57	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:93 - InsertUnaryOp IINC -1 node
+58	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:94 - InsertUnaryOp Negation of dist
+59	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:95 - InsertUnaryOp Negation of dist
+60	ReplaceConstant	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:95 - ReplaceConstant - 0.0 -> 1.0
+61	ReplaceConstant	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:95 - ReplaceConstant - 0.0 -> -1.0
+62	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:95 - ReplaceComparisonOperator > -> -2
+63	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:95 - ReplaceComparisonOperator > -> !=
+64	ReplaceComparisonOperator	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:95 - ReplaceComparisonOperator > -> >=
+65	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:98 - InsertUnaryOp Negation of tmpLat
+66	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:98 - InsertUnaryOp Negation of tmpLon
+67	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:98 - InsertUnaryOp Negation of dist
+68	ReplaceVariable	com.graphhopper.storage.index.Location2IDFullIndex.findClosest(DDLcom/graphhopper/routing/util/EdgeFilter;)Lcom/graphhopper/storage/index/QueryResult;:82 - ReplaceVariable i -> node
+69	ReplaceConstant	com.graphhopper.storage.index.Location2IDFullIndex.close()V:116 - ReplaceConstant - 1 -> 0
+70	InsertUnaryOp	com.graphhopper.storage.index.Location2IDFullIndex.isClosed()Z:121 - InsertUnaryOp Negation
+71	ReplaceConstant	com.graphhopper.storage.index.Location2IDFullIndex.getCapacity()J:126 - ReplaceConstant - 0 -> 1
+72	ReplaceConstant	com.graphhopper.storage.index.Location2IDFullIndex.getCapacity()J:126 - ReplaceConstant - 0 -> -1

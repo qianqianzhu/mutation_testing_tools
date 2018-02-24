@@ -1,0 +1,39 @@
+0	ReplaceConstant	com.twitter.distributedlog.util.SimplePermitLimiter.<init>(ZILorg/apache/bookkeeper/stats/StatsLogger;ZLorg/apache/bookkeeper/feature/Feature;)V:53 - ReplaceConstant - 0 -> 1
+1	InsertUnaryOp	com.twitter.distributedlog.util.SimplePermitLimiter.<init>(ZILorg/apache/bookkeeper/stats/StatsLogger;ZLorg/apache/bookkeeper/feature/Feature;)V:54 - InsertUnaryOp Negation of permitsMax
+2	InsertUnaryOp	com.twitter.distributedlog.util.SimplePermitLimiter.<init>(ZILorg/apache/bookkeeper/stats/StatsLogger;ZLorg/apache/bookkeeper/feature/Feature;)V:54 - InsertUnaryOp IINC 1 permitsMax
+3	InsertUnaryOp	com.twitter.distributedlog.util.SimplePermitLimiter.<init>(ZILorg/apache/bookkeeper/stats/StatsLogger;ZLorg/apache/bookkeeper/feature/Feature;)V:54 - InsertUnaryOp IINC -1 permitsMax
+4	InsertUnaryOp	com.twitter.distributedlog.util.SimplePermitLimiter.<init>(ZILorg/apache/bookkeeper/stats/StatsLogger;ZLorg/apache/bookkeeper/feature/Feature;)V:55 - InsertUnaryOp Negation of darkmode
+5	InsertUnaryOp	com.twitter.distributedlog.util.SimplePermitLimiter.<init>(ZILorg/apache/bookkeeper/stats/StatsLogger;ZLorg/apache/bookkeeper/feature/Feature;)V:55 - InsertUnaryOp IINC 1 darkmode
+6	InsertUnaryOp	com.twitter.distributedlog.util.SimplePermitLimiter.<init>(ZILorg/apache/bookkeeper/stats/StatsLogger;ZLorg/apache/bookkeeper/feature/Feature;)V:55 - InsertUnaryOp IINC -1 darkmode
+7	InsertUnaryOp	com.twitter.distributedlog.util.SimplePermitLimiter.<init>(ZILorg/apache/bookkeeper/stats/StatsLogger;ZLorg/apache/bookkeeper/feature/Feature;)V:59 - InsertUnaryOp Negation of singleton
+8	InsertUnaryOp	com.twitter.distributedlog.util.SimplePermitLimiter.<init>(ZILorg/apache/bookkeeper/stats/StatsLogger;ZLorg/apache/bookkeeper/feature/Feature;)V:59 - InsertUnaryOp IINC 1 singleton
+9	InsertUnaryOp	com.twitter.distributedlog.util.SimplePermitLimiter.<init>(ZILorg/apache/bookkeeper/stats/StatsLogger;ZLorg/apache/bookkeeper/feature/Feature;)V:59 - InsertUnaryOp IINC -1 singleton
+10	ReplaceComparisonOperator	com.twitter.distributedlog.util.SimplePermitLimiter.<init>(ZILorg/apache/bookkeeper/stats/StatsLogger;ZLorg/apache/bookkeeper/feature/Feature;)V:59 - ReplaceComparisonOperator == -> -2
+11	ReplaceComparisonOperator	com.twitter.distributedlog.util.SimplePermitLimiter.<init>(ZILorg/apache/bookkeeper/stats/StatsLogger;ZLorg/apache/bookkeeper/feature/Feature;)V:59 - ReplaceComparisonOperator == -> >=
+12	ReplaceComparisonOperator	com.twitter.distributedlog.util.SimplePermitLimiter.<init>(ZILorg/apache/bookkeeper/stats/StatsLogger;ZLorg/apache/bookkeeper/feature/Feature;)V:59 - ReplaceComparisonOperator == -> <=
+13	ReplaceConstant	com.twitter.distributedlog.util.SimplePermitLimiter.<init>(ZILorg/apache/bookkeeper/stats/StatsLogger;ZLorg/apache/bookkeeper/feature/Feature;)V:60 - ReplaceConstant - num_permits -> 
+14	ReplaceConstant	com.twitter.distributedlog.util.SimplePermitLimiter.<init>(ZILorg/apache/bookkeeper/stats/StatsLogger;ZLorg/apache/bookkeeper/feature/Feature;)V:71 - ReplaceConstant - acquireFailure -> 
+15	ReplaceConstant	com.twitter.distributedlog.util.SimplePermitLimiter.<init>(ZILorg/apache/bookkeeper/stats/StatsLogger;ZLorg/apache/bookkeeper/feature/Feature;)V:72 - ReplaceConstant - permits -> 
+16	InsertUnaryOp	com.twitter.distributedlog.util.SimplePermitLimiter.isDarkmode()Z:76 - InsertUnaryOp Negation
+17	ReplaceComparisonOperator	com.twitter.distributedlog.util.SimplePermitLimiter.isDarkmode()Z:76 - ReplaceComparisonOperator != -> -1
+18	ReplaceComparisonOperator	com.twitter.distributedlog.util.SimplePermitLimiter.isDarkmode()Z:76 - ReplaceComparisonOperator != -> <
+19	ReplaceComparisonOperator	com.twitter.distributedlog.util.SimplePermitLimiter.isDarkmode()Z:76 - ReplaceComparisonOperator != -> >
+20	ReplaceComparisonOperator	com.twitter.distributedlog.util.SimplePermitLimiter.isDarkmode()Z:76 - ReplaceComparisonOperator == -> -2
+21	ReplaceComparisonOperator	com.twitter.distributedlog.util.SimplePermitLimiter.isDarkmode()Z:76 - ReplaceComparisonOperator == -> >=
+22	ReplaceComparisonOperator	com.twitter.distributedlog.util.SimplePermitLimiter.isDarkmode()Z:76 - ReplaceComparisonOperator == -> <=
+23	ReplaceConstant	com.twitter.distributedlog.util.SimplePermitLimiter.isDarkmode()Z:76 - ReplaceConstant - 1 -> 0
+24	ReplaceConstant	com.twitter.distributedlog.util.SimplePermitLimiter.isDarkmode()Z:76 - ReplaceConstant - 0 -> 1
+25	InsertUnaryOp	com.twitter.distributedlog.util.SimplePermitLimiter.acquire()Z:82 - InsertUnaryOp Negation
+26	InsertUnaryOp	com.twitter.distributedlog.util.SimplePermitLimiter.acquire()Z:82 - InsertUnaryOp +1
+27	InsertUnaryOp	com.twitter.distributedlog.util.SimplePermitLimiter.acquire()Z:82 - InsertUnaryOp -1
+28	ReplaceComparisonOperator	com.twitter.distributedlog.util.SimplePermitLimiter.acquire()Z:82 - ReplaceComparisonOperator <= -> -1
+29	ReplaceComparisonOperator	com.twitter.distributedlog.util.SimplePermitLimiter.acquire()Z:82 - ReplaceComparisonOperator <= -> <
+30	ReplaceComparisonOperator	com.twitter.distributedlog.util.SimplePermitLimiter.acquire()Z:82 - ReplaceComparisonOperator <= -> ==
+31	ReplaceComparisonOperator	com.twitter.distributedlog.util.SimplePermitLimiter.acquire()Z:82 - ReplaceComparisonOperator == -> -2
+32	ReplaceComparisonOperator	com.twitter.distributedlog.util.SimplePermitLimiter.acquire()Z:82 - ReplaceComparisonOperator == -> >=
+33	ReplaceComparisonOperator	com.twitter.distributedlog.util.SimplePermitLimiter.acquire()Z:82 - ReplaceComparisonOperator == -> <=
+34	ReplaceConstant	com.twitter.distributedlog.util.SimplePermitLimiter.acquire()Z:83 - ReplaceConstant - 1 -> 0
+35	ReplaceConstant	com.twitter.distributedlog.util.SimplePermitLimiter.acquire()Z:87 - ReplaceConstant - 0 -> 1
+36	InsertUnaryOp	com.twitter.distributedlog.util.SimplePermitLimiter.release(I)V:93 - InsertUnaryOp Negation of permitsToRelease
+37	InsertUnaryOp	com.twitter.distributedlog.util.SimplePermitLimiter.release(I)V:93 - InsertUnaryOp IINC 1 permitsToRelease
+38	InsertUnaryOp	com.twitter.distributedlog.util.SimplePermitLimiter.release(I)V:93 - InsertUnaryOp IINC -1 permitsToRelease

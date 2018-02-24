@@ -1,0 +1,11 @@
+0	InsertUnaryOp	com.twitter.distributedlog.selector.FirstRecordSelector.<init>(Z)V:31 - InsertUnaryOp Negation of includeControl
+1	InsertUnaryOp	com.twitter.distributedlog.selector.FirstRecordSelector.<init>(Z)V:31 - InsertUnaryOp IINC 1 includeControl
+2	InsertUnaryOp	com.twitter.distributedlog.selector.FirstRecordSelector.<init>(Z)V:31 - InsertUnaryOp IINC -1 includeControl
+3	ReplaceComparisonOperator	com.twitter.distributedlog.selector.FirstRecordSelector.process(Lcom/twitter/distributedlog/LogRecordWithDLSN;)V:36 - ReplaceComparisonOperator != -> ==
+4	InsertUnaryOp	com.twitter.distributedlog.selector.FirstRecordSelector.process(Lcom/twitter/distributedlog/LogRecordWithDLSN;)V:36 - InsertUnaryOp Negation
+5	ReplaceComparisonOperator	com.twitter.distributedlog.selector.FirstRecordSelector.process(Lcom/twitter/distributedlog/LogRecordWithDLSN;)V:36 - ReplaceComparisonOperator != -> -1
+6	ReplaceComparisonOperator	com.twitter.distributedlog.selector.FirstRecordSelector.process(Lcom/twitter/distributedlog/LogRecordWithDLSN;)V:36 - ReplaceComparisonOperator != -> <
+7	ReplaceComparisonOperator	com.twitter.distributedlog.selector.FirstRecordSelector.process(Lcom/twitter/distributedlog/LogRecordWithDLSN;)V:36 - ReplaceComparisonOperator != -> >
+8	ReplaceComparisonOperator	com.twitter.distributedlog.selector.FirstRecordSelector.process(Lcom/twitter/distributedlog/LogRecordWithDLSN;)V:37 - ReplaceComparisonOperator != -> -1
+9	ReplaceComparisonOperator	com.twitter.distributedlog.selector.FirstRecordSelector.process(Lcom/twitter/distributedlog/LogRecordWithDLSN;)V:37 - ReplaceComparisonOperator != -> <
+10	ReplaceComparisonOperator	com.twitter.distributedlog.selector.FirstRecordSelector.process(Lcom/twitter/distributedlog/LogRecordWithDLSN;)V:37 - ReplaceComparisonOperator != -> >

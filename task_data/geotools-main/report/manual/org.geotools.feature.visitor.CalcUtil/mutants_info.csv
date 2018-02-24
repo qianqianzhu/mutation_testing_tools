@@ -1,0 +1,260 @@
+0	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:38 - ReplaceComparisonOperator != null -> = null
+1	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:43 - ReplaceComparisonOperator == -> -2
+2	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:43 - ReplaceComparisonOperator == -> >=
+3	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:43 - ReplaceComparisonOperator == -> <=
+4	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:44 - ReplaceConstant - 0 -> 1
+5	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:47 - ReplaceConstant - 0 -> 1
+6	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:47 - InsertUnaryOp Negation of i
+7	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:47 - InsertUnaryOp IINC 1 i
+8	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:47 - InsertUnaryOp IINC -1 i
+9	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:47 - ReplaceComparisonOperator >= -> -1
+10	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:47 - ReplaceComparisonOperator >= -> >
+11	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:47 - ReplaceComparisonOperator >= -> ==
+12	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:48 - InsertUnaryOp Negation of i
+13	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:48 - InsertUnaryOp IINC 1 i
+14	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:48 - InsertUnaryOp IINC -1 i
+15	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:49 - InsertUnaryOp Negation of sum
+16	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:49 - InsertUnaryOp IINC 1 sum
+17	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:49 - InsertUnaryOp IINC -1 sum
+18	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:49 - InsertUnaryOp Negation of nextValue
+19	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:49 - InsertUnaryOp IINC 1 nextValue
+20	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:49 - InsertUnaryOp IINC -1 nextValue
+21	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:49 - ReplaceArithmeticOperator + -> %
+22	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:49 - ReplaceArithmeticOperator + -> -
+23	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:49 - ReplaceArithmeticOperator + -> *
+24	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:49 - ReplaceArithmeticOperator + -> /
+25	ReplaceVariable	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:47 - ReplaceVariable i -> sum
+26	ReplaceVariable	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:47 - ReplaceVariable i -> nextValue
+27	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:52 - InsertUnaryOp Negation of sum
+28	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:52 - InsertUnaryOp IINC 1 sum
+29	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:52 - InsertUnaryOp IINC -1 sum
+30	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:53 - ReplaceComparisonOperator == -> -2
+31	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:53 - ReplaceComparisonOperator == -> >=
+32	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:53 - ReplaceComparisonOperator == -> <=
+33	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:54 - ReplaceConstant - 0 -> 1
+34	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:54 - ReplaceConstant - 0 -> -1
+35	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:57 - ReplaceConstant - 0 -> 1
+36	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:57 - InsertUnaryOp Negation of i
+37	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:57 - InsertUnaryOp IINC 1 i
+38	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:57 - InsertUnaryOp IINC -1 i
+39	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:57 - ReplaceComparisonOperator >= -> -1
+40	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:57 - ReplaceComparisonOperator >= -> >
+41	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:57 - ReplaceComparisonOperator >= -> ==
+42	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:58 - InsertUnaryOp Negation of i
+43	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:58 - InsertUnaryOp IINC 1 i
+44	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:58 - InsertUnaryOp IINC -1 i
+45	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:59 - InsertUnaryOp Negation of sum
+46	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:59 - InsertUnaryOp Negation of nextValue
+47	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:59 - ReplaceArithmeticOperator + -> %
+48	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:59 - ReplaceArithmeticOperator + -> -
+49	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:59 - ReplaceArithmeticOperator + -> *
+50	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:59 - ReplaceArithmeticOperator + -> /
+51	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:62 - InsertUnaryOp Negation of sum
+52	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:63 - ReplaceComparisonOperator == -> -2
+53	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:63 - ReplaceComparisonOperator == -> >=
+54	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:63 - ReplaceComparisonOperator == -> <=
+55	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:64 - ReplaceConstant - 0.0 -> 1.0
+56	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:64 - ReplaceConstant - 0.0 -> -1.0
+57	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:67 - ReplaceConstant - 0 -> 1
+58	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:67 - InsertUnaryOp Negation of i
+59	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:67 - InsertUnaryOp IINC 1 i
+60	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:67 - InsertUnaryOp IINC -1 i
+61	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:67 - ReplaceComparisonOperator >= -> -1
+62	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:67 - ReplaceComparisonOperator >= -> >
+63	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:67 - ReplaceComparisonOperator >= -> ==
+64	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:68 - InsertUnaryOp Negation of i
+65	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:68 - InsertUnaryOp IINC 1 i
+66	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:68 - InsertUnaryOp IINC -1 i
+67	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:69 - InsertUnaryOp Negation of sum
+68	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:69 - InsertUnaryOp Negation of nextValue
+69	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:69 - ReplaceArithmeticOperator + -> %
+70	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:69 - ReplaceArithmeticOperator + -> -
+71	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:69 - ReplaceArithmeticOperator + -> *
+72	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:69 - ReplaceArithmeticOperator + -> /
+73	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:72 - InsertUnaryOp Negation of sum
+74	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:73 - ReplaceComparisonOperator == -> -2
+75	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:73 - ReplaceComparisonOperator == -> >=
+76	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:73 - ReplaceComparisonOperator == -> <=
+77	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:74 - ReplaceConstant - 0.0 -> 1.0
+78	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:74 - ReplaceConstant - 0.0 -> -1.0
+79	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:77 - ReplaceConstant - 0 -> 1
+80	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:77 - InsertUnaryOp Negation of i
+81	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:77 - InsertUnaryOp IINC 1 i
+82	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:77 - InsertUnaryOp IINC -1 i
+83	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:77 - ReplaceComparisonOperator >= -> -1
+84	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:77 - ReplaceComparisonOperator >= -> >
+85	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:77 - ReplaceComparisonOperator >= -> ==
+86	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:78 - InsertUnaryOp Negation of i
+87	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:78 - InsertUnaryOp IINC 1 i
+88	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:78 - InsertUnaryOp IINC -1 i
+89	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:79 - InsertUnaryOp Negation of sum
+90	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:79 - InsertUnaryOp Negation of nextValue
+91	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:79 - ReplaceArithmeticOperator + -> %
+92	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:79 - ReplaceArithmeticOperator + -> -
+93	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:79 - ReplaceArithmeticOperator + -> *
+94	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:79 - ReplaceArithmeticOperator + -> /
+95	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.sum([Ljava/lang/Number;)Ljava/lang/Number;:82 - InsertUnaryOp Negation of sum
+96	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:98 - ReplaceConstant - 2 -> 0
+97	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:98 - ReplaceConstant - 2 -> 1
+98	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:98 - ReplaceConstant - 2 -> -1
+99	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:98 - ReplaceConstant - 2 -> 3
+100	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:99 - ReplaceConstant - 0 -> 1
+101	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:100 - ReplaceConstant - 1 -> 0
+102	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:104 - ReplaceComparisonOperator != null -> = null
+103	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:109 - ReplaceComparisonOperator == -> -2
+104	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:109 - ReplaceComparisonOperator == -> >=
+105	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:109 - ReplaceComparisonOperator == -> <=
+106	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:111 - ReplaceArithmeticOperator / -> +
+107	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:111 - ReplaceArithmeticOperator / -> %
+108	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:111 - ReplaceArithmeticOperator / -> -
+109	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:111 - ReplaceArithmeticOperator / -> *
+110	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:112 - ReplaceComparisonOperator == -> -2
+111	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:112 - ReplaceComparisonOperator == -> >=
+112	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:112 - ReplaceComparisonOperator == -> <=
+113	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:113 - ReplaceArithmeticOperator / -> +
+114	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:113 - ReplaceArithmeticOperator / -> %
+115	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:113 - ReplaceArithmeticOperator / -> -
+116	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:113 - ReplaceArithmeticOperator / -> *
+117	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:114 - ReplaceComparisonOperator == -> -2
+118	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:114 - ReplaceComparisonOperator == -> >=
+119	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:114 - ReplaceComparisonOperator == -> <=
+120	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:115 - ReplaceArithmeticOperator / -> +
+121	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:115 - ReplaceArithmeticOperator / -> %
+122	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:115 - ReplaceArithmeticOperator / -> -
+123	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:115 - ReplaceArithmeticOperator / -> *
+124	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:116 - ReplaceComparisonOperator == -> -2
+125	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:116 - ReplaceComparisonOperator == -> >=
+126	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:116 - ReplaceComparisonOperator == -> <=
+127	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:117 - ReplaceArithmeticOperator / -> +
+128	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:117 - ReplaceArithmeticOperator / -> %
+129	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:117 - ReplaceArithmeticOperator / -> -
+130	ReplaceArithmeticOperator	org.geotools.feature.visitor.CalcUtil.divide(Ljava/lang/Number;Ljava/lang/Number;)Ljava/lang/Number;:117 - ReplaceArithmeticOperator / -> *
+131	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:139 - ReplaceConstant - 0 -> 1
+132	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:140 - ReplaceConstant - 0 -> 1
+133	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:141 - ReplaceConstant - 0 -> 1
+134	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:142 - ReplaceConstant - 0 -> 1
+135	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:143 - ReplaceConstant - 0 -> 1
+136	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:145 - ReplaceConstant - 0 -> 1
+137	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:145 - InsertUnaryOp Negation of i
+138	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:145 - InsertUnaryOp IINC 1 i
+139	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:145 - InsertUnaryOp IINC -1 i
+140	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:145 - ReplaceComparisonOperator >= -> -1
+141	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:145 - ReplaceComparisonOperator >= -> >
+142	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:145 - ReplaceComparisonOperator >= -> ==
+143	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:146 - InsertUnaryOp Negation of i
+144	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:146 - InsertUnaryOp IINC 1 i
+145	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:146 - InsertUnaryOp IINC -1 i
+146	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:146 - ReplaceComparisonOperator == -> -2
+147	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:146 - ReplaceComparisonOperator == -> >=
+148	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:146 - ReplaceComparisonOperator == -> <=
+149	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:147 - ReplaceConstant - 1 -> 0
+150	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:148 - InsertUnaryOp Negation of i
+151	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:148 - InsertUnaryOp IINC 1 i
+152	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:148 - InsertUnaryOp IINC -1 i
+153	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:148 - ReplaceComparisonOperator == -> -2
+154	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:148 - ReplaceComparisonOperator == -> >=
+155	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:148 - ReplaceComparisonOperator == -> <=
+156	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:149 - ReplaceConstant - 1 -> 0
+157	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:150 - InsertUnaryOp Negation of i
+158	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:150 - InsertUnaryOp IINC 1 i
+159	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:150 - InsertUnaryOp IINC -1 i
+160	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:150 - ReplaceComparisonOperator == -> -2
+161	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:150 - ReplaceComparisonOperator == -> >=
+162	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:150 - ReplaceComparisonOperator == -> <=
+163	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:151 - ReplaceConstant - 1 -> 0
+164	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:152 - InsertUnaryOp Negation of i
+165	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:152 - InsertUnaryOp IINC 1 i
+166	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:152 - InsertUnaryOp IINC -1 i
+167	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:152 - ReplaceComparisonOperator == -> -2
+168	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:152 - ReplaceComparisonOperator == -> >=
+169	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:152 - ReplaceComparisonOperator == -> <=
+170	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:153 - ReplaceConstant - 1 -> 0
+171	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:154 - InsertUnaryOp Negation of i
+172	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:154 - InsertUnaryOp IINC 1 i
+173	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:154 - InsertUnaryOp IINC -1 i
+174	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:154 - ReplaceComparisonOperator == -> -2
+175	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:154 - ReplaceComparisonOperator == -> >=
+176	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:154 - ReplaceComparisonOperator == -> <=
+177	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:155 - ReplaceConstant - 1 -> 0
+178	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:159 - InsertUnaryOp Negation of hasString
+179	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:159 - InsertUnaryOp IINC 1 hasString
+180	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:159 - InsertUnaryOp IINC -1 hasString
+181	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:159 - ReplaceComparisonOperator == -> -2
+182	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:159 - ReplaceComparisonOperator == -> >=
+183	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:159 - ReplaceComparisonOperator == -> <=
+184	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:161 - InsertUnaryOp Negation of hasDouble
+185	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:161 - InsertUnaryOp IINC 1 hasDouble
+186	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:161 - InsertUnaryOp IINC -1 hasDouble
+187	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:161 - ReplaceComparisonOperator == -> -2
+188	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:161 - ReplaceComparisonOperator == -> >=
+189	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:161 - ReplaceComparisonOperator == -> <=
+190	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:163 - InsertUnaryOp Negation of hasFloat
+191	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:163 - InsertUnaryOp IINC 1 hasFloat
+192	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:163 - InsertUnaryOp IINC -1 hasFloat
+193	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:163 - ReplaceComparisonOperator == -> -2
+194	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:163 - ReplaceComparisonOperator == -> >=
+195	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:163 - ReplaceComparisonOperator == -> <=
+196	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:165 - InsertUnaryOp Negation of hasLong
+197	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:165 - InsertUnaryOp IINC 1 hasLong
+198	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:165 - InsertUnaryOp IINC -1 hasLong
+199	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:165 - ReplaceComparisonOperator == -> -2
+200	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:165 - ReplaceComparisonOperator == -> >=
+201	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:165 - ReplaceComparisonOperator == -> <=
+202	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:167 - InsertUnaryOp Negation of hasInt
+203	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:167 - InsertUnaryOp IINC 1 hasInt
+204	InsertUnaryOp	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:167 - InsertUnaryOp IINC -1 hasInt
+205	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:167 - ReplaceComparisonOperator == -> -2
+206	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:167 - ReplaceComparisonOperator == -> >=
+207	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.bestClass([Ljava/lang/Object;)Ljava/lang/Class;:167 - ReplaceComparisonOperator == -> <=
+208	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:183 - ReplaceComparisonOperator == -> -2
+209	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:183 - ReplaceComparisonOperator == -> >=
+210	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:183 - ReplaceComparisonOperator == -> <=
+211	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:187 - ReplaceComparisonOperator != -> ==
+212	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:189 - ReplaceComparisonOperator != -> ==
+213	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:191 - ReplaceComparisonOperator != -> ==
+214	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:193 - ReplaceComparisonOperator != -> ==
+215	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:195 - ReplaceComparisonOperator != -> ==
+216	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:200 - ReplaceComparisonOperator != -> ==
+217	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:202 - ReplaceComparisonOperator != -> ==
+218	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:204 - ReplaceComparisonOperator != -> ==
+219	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:206 - ReplaceComparisonOperator != -> ==
+220	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:208 - ReplaceComparisonOperator != -> ==
+221	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:219 - ReplaceComparisonOperator == -> -2
+222	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:219 - ReplaceComparisonOperator == -> >=
+223	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:219 - ReplaceComparisonOperator == -> <=
+224	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:222 - ReplaceComparisonOperator == -> -2
+225	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:222 - ReplaceComparisonOperator == -> >=
+226	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:222 - ReplaceComparisonOperator == -> <=
+227	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:224 - ReplaceComparisonOperator == -> -2
+228	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:224 - ReplaceComparisonOperator == -> >=
+229	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:224 - ReplaceComparisonOperator == -> <=
+230	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:226 - ReplaceComparisonOperator == -> -2
+231	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:226 - ReplaceComparisonOperator == -> >=
+232	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:226 - ReplaceComparisonOperator == -> <=
+233	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:228 - ReplaceComparisonOperator == -> -2
+234	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:228 - ReplaceComparisonOperator == -> >=
+235	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:228 - ReplaceComparisonOperator == -> <=
+236	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:233 - ReplaceComparisonOperator == -> -2
+237	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:233 - ReplaceComparisonOperator == -> >=
+238	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.convert([Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:233 - ReplaceComparisonOperator == -> <=
+239	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.getObject([Ljava/lang/Object;)Ljava/lang/Object;:252 - ReplaceComparisonOperator != -> ==
+240	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.getObject([Ljava/lang/Object;)Ljava/lang/Object;:254 - ReplaceComparisonOperator != -> ==
+241	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.getObject([Ljava/lang/Object;)Ljava/lang/Object;:255 - ReplaceConstant - 0.0 -> 1.0
+242	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.getObject([Ljava/lang/Object;)Ljava/lang/Object;:255 - ReplaceConstant - 0.0 -> -1.0
+243	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.getObject([Ljava/lang/Object;)Ljava/lang/Object;:256 - ReplaceComparisonOperator != -> ==
+244	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.getObject([Ljava/lang/Object;)Ljava/lang/Object;:257 - ReplaceConstant - 0.0 -> 1.0
+245	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.getObject([Ljava/lang/Object;)Ljava/lang/Object;:257 - ReplaceConstant - 0.0 -> -1.0
+246	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.getObject([Ljava/lang/Object;)Ljava/lang/Object;:258 - ReplaceComparisonOperator != -> ==
+247	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.getObject([Ljava/lang/Object;)Ljava/lang/Object;:259 - ReplaceConstant - 0 -> 1
+248	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.getObject([Ljava/lang/Object;)Ljava/lang/Object;:259 - ReplaceConstant - 0 -> -1
+249	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.getObject([Ljava/lang/Object;)Ljava/lang/Object;:260 - ReplaceComparisonOperator != -> ==
+250	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.getObject([Ljava/lang/Object;)Ljava/lang/Object;:261 - ReplaceConstant - 0 -> 1
+251	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;)I:276 - ReplaceComparisonOperator != -> ==
+252	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;)I:282 - ReplaceConstant - 2 -> 0
+253	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;)I:282 - ReplaceConstant - 2 -> 1
+254	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;)I:282 - ReplaceConstant - 2 -> -1
+255	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;)I:282 - ReplaceConstant - 2 -> 3
+256	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;)I:282 - ReplaceConstant - 0 -> 1
+257	ReplaceConstant	org.geotools.feature.visitor.CalcUtil.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;)I:282 - ReplaceConstant - 1 -> 0
+258	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;)I:285 - ReplaceComparisonOperator == -> !=
+259	ReplaceComparisonOperator	org.geotools.feature.visitor.CalcUtil.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;)I:289 - ReplaceComparisonOperator == -> !=

@@ -1,0 +1,118 @@
+0	InsertUnaryOp	org.assertj.core.util.FloatComparator.<init>(F)V:22 - InsertUnaryOp Negation of epsilon
+1	InsertUnaryOp	org.assertj.core.util.FloatComparator.getEpsilon()F:26 - InsertUnaryOp Negation
+2	InsertUnaryOp	org.assertj.core.util.FloatComparator.compare(Ljava/lang/Float;Ljava/lang/Float;)I:31 - InsertUnaryOp Negation
+3	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.compare(Ljava/lang/Float;Ljava/lang/Float;)I:31 - ReplaceComparisonOperator == -> -2
+4	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.compare(Ljava/lang/Float;Ljava/lang/Float;)I:31 - ReplaceComparisonOperator == -> >=
+5	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.compare(Ljava/lang/Float;Ljava/lang/Float;)I:31 - ReplaceComparisonOperator == -> <=
+6	ReplaceConstant	org.assertj.core.util.FloatComparator.compare(Ljava/lang/Float;Ljava/lang/Float;)I:31 - ReplaceConstant - 0 -> 1
+7	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.compare(Ljava/lang/Float;Ljava/lang/Float;)I:32 - ReplaceComparisonOperator >= -> -1
+8	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.compare(Ljava/lang/Float;Ljava/lang/Float;)I:32 - ReplaceComparisonOperator >= -> ==
+9	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.compare(Ljava/lang/Float;Ljava/lang/Float;)I:32 - ReplaceComparisonOperator >= -> >
+10	ReplaceConstant	org.assertj.core.util.FloatComparator.compare(Ljava/lang/Float;Ljava/lang/Float;)I:32 - ReplaceConstant - -1 -> 0
+11	ReplaceConstant	org.assertj.core.util.FloatComparator.compare(Ljava/lang/Float;Ljava/lang/Float;)I:32 - ReplaceConstant - -1 -> 1
+12	ReplaceConstant	org.assertj.core.util.FloatComparator.compare(Ljava/lang/Float;Ljava/lang/Float;)I:32 - ReplaceConstant - -1 -> -2
+13	ReplaceConstant	org.assertj.core.util.FloatComparator.compare(Ljava/lang/Float;Ljava/lang/Float;)I:32 - ReplaceConstant - 1 -> 0
+14	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.closeEnough(Ljava/lang/Float;Ljava/lang/Float;F)Z:37 - ReplaceComparisonOperator == -> !=
+15	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.closeEnough(Ljava/lang/Float;Ljava/lang/Float;F)Z:37 - ReplaceArithmeticOperator - -> +
+16	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.closeEnough(Ljava/lang/Float;Ljava/lang/Float;F)Z:37 - ReplaceArithmeticOperator - -> %
+17	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.closeEnough(Ljava/lang/Float;Ljava/lang/Float;F)Z:37 - ReplaceArithmeticOperator - -> *
+18	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.closeEnough(Ljava/lang/Float;Ljava/lang/Float;F)Z:37 - ReplaceArithmeticOperator - -> /
+19	InsertUnaryOp	org.assertj.core.util.FloatComparator.closeEnough(Ljava/lang/Float;Ljava/lang/Float;F)Z:37 - InsertUnaryOp Negation of epsilon
+20	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.closeEnough(Ljava/lang/Float;Ljava/lang/Float;F)Z:37 - ReplaceComparisonOperator >= -> -1
+21	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.closeEnough(Ljava/lang/Float;Ljava/lang/Float;F)Z:37 - ReplaceComparisonOperator >= -> ==
+22	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.closeEnough(Ljava/lang/Float;Ljava/lang/Float;F)Z:37 - ReplaceComparisonOperator >= -> >
+23	ReplaceConstant	org.assertj.core.util.FloatComparator.closeEnough(Ljava/lang/Float;Ljava/lang/Float;F)Z:37 - ReplaceConstant - 1 -> 0
+24	ReplaceConstant	org.assertj.core.util.FloatComparator.closeEnough(Ljava/lang/Float;Ljava/lang/Float;F)Z:37 - ReplaceConstant - 0 -> 1
+25	InsertUnaryOp	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:45 - InsertUnaryOp Negation of a
+26	InsertUnaryOp	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:46 - InsertUnaryOp Negation of b
+27	InsertUnaryOp	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:47 - InsertUnaryOp Negation of a
+28	InsertUnaryOp	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:47 - InsertUnaryOp Negation of b
+29	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:47 - ReplaceArithmeticOperator - -> +
+30	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:47 - ReplaceArithmeticOperator - -> %
+31	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:47 - ReplaceArithmeticOperator - -> *
+32	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:47 - ReplaceArithmeticOperator - -> /
+33	InsertUnaryOp	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:49 - InsertUnaryOp Negation of a
+34	InsertUnaryOp	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:49 - InsertUnaryOp Negation of b
+35	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:49 - ReplaceComparisonOperator != -> -1
+36	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:49 - ReplaceComparisonOperator != -> <
+37	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:49 - ReplaceComparisonOperator != -> >
+38	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:51 - ReplaceConstant - 1 -> 0
+39	InsertUnaryOp	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - InsertUnaryOp Negation of a
+40	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - ReplaceConstant - 0.0 -> 1.0
+41	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - ReplaceConstant - 0.0 -> -1.0
+42	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - ReplaceComparisonOperator == -> -2
+43	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - ReplaceComparisonOperator == -> >=
+44	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - ReplaceComparisonOperator == -> <=
+45	InsertUnaryOp	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - InsertUnaryOp Negation of b
+46	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - ReplaceConstant - 0.0 -> 1.0
+47	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - ReplaceConstant - 0.0 -> -1.0
+48	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - ReplaceComparisonOperator == -> -2
+49	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - ReplaceComparisonOperator == -> >=
+50	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - ReplaceComparisonOperator == -> <=
+51	InsertUnaryOp	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - InsertUnaryOp Negation of diff
+52	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - ReplaceConstant - 1.17549435E-38 -> 0.0
+53	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - ReplaceConstant - 1.17549435E-38 -> 1.0
+54	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - ReplaceConstant - 1.17549435E-38 -> -1.0
+55	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - ReplaceComparisonOperator >= -> -1
+56	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - ReplaceComparisonOperator >= -> ==
+57	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:52 - ReplaceComparisonOperator >= -> >
+58	InsertUnaryOp	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:55 - InsertUnaryOp Negation of diff
+59	InsertUnaryOp	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:55 - InsertUnaryOp Negation of epsilon
+60	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:55 - ReplaceConstant - 1.17549435E-38 -> 0.0
+61	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:55 - ReplaceConstant - 1.17549435E-38 -> 1.0
+62	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:55 - ReplaceConstant - 1.17549435E-38 -> -1.0
+63	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:55 - ReplaceArithmeticOperator * -> +
+64	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:55 - ReplaceArithmeticOperator * -> %
+65	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:55 - ReplaceArithmeticOperator * -> -
+66	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:55 - ReplaceArithmeticOperator * -> /
+67	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:55 - ReplaceComparisonOperator >= -> -1
+68	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:55 - ReplaceComparisonOperator >= -> ==
+69	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:55 - ReplaceComparisonOperator >= -> >
+70	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:55 - ReplaceConstant - 1 -> 0
+71	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:55 - ReplaceConstant - 0 -> 1
+72	InsertUnaryOp	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - InsertUnaryOp Negation of diff
+73	InsertUnaryOp	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - InsertUnaryOp Negation of absA
+74	InsertUnaryOp	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - InsertUnaryOp Negation of absB
+75	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - ReplaceArithmeticOperator + -> %
+76	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - ReplaceArithmeticOperator + -> -
+77	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - ReplaceArithmeticOperator + -> *
+78	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - ReplaceArithmeticOperator + -> /
+79	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - ReplaceConstant - 3.4028235E38 -> 0.0
+80	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - ReplaceConstant - 3.4028235E38 -> 1.0
+81	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - ReplaceConstant - 3.4028235E38 -> -1.0
+82	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - ReplaceConstant - 3.4028235E38 -> 3.4028235E38
+83	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - ReplaceArithmeticOperator / -> +
+84	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - ReplaceArithmeticOperator / -> %
+85	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - ReplaceArithmeticOperator / -> -
+86	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - ReplaceArithmeticOperator / -> *
+87	InsertUnaryOp	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - InsertUnaryOp Negation of epsilon
+88	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - ReplaceComparisonOperator >= -> -1
+89	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - ReplaceComparisonOperator >= -> ==
+90	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - ReplaceComparisonOperator >= -> >
+91	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - ReplaceConstant - 1 -> 0
+92	ReplaceConstant	org.assertj.core.util.FloatComparator.complexCloseEnough(FFF)Z:57 - ReplaceConstant - 0 -> 1
+93	ReplaceConstant	org.assertj.core.util.FloatComparator.hashCode()I:63 - ReplaceConstant - 31 -> 0
+94	ReplaceConstant	org.assertj.core.util.FloatComparator.hashCode()I:63 - ReplaceConstant - 31 -> 1
+95	ReplaceConstant	org.assertj.core.util.FloatComparator.hashCode()I:63 - ReplaceConstant - 31 -> -1
+96	ReplaceConstant	org.assertj.core.util.FloatComparator.hashCode()I:63 - ReplaceConstant - 31 -> 30
+97	ReplaceConstant	org.assertj.core.util.FloatComparator.hashCode()I:63 - ReplaceConstant - 31 -> 32
+98	InsertUnaryOp	org.assertj.core.util.FloatComparator.hashCode()I:63 - InsertUnaryOp Negation
+99	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.hashCode()I:63 - ReplaceArithmeticOperator + -> %
+100	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.hashCode()I:63 - ReplaceArithmeticOperator + -> -
+101	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.hashCode()I:63 - ReplaceArithmeticOperator + -> *
+102	ReplaceArithmeticOperator	org.assertj.core.util.FloatComparator.hashCode()I:63 - ReplaceArithmeticOperator + -> /
+103	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.equals(Ljava/lang/Object;)Z:68 - ReplaceComparisonOperator != -> ==
+104	ReplaceConstant	org.assertj.core.util.FloatComparator.equals(Ljava/lang/Object;)Z:68 - ReplaceConstant - 1 -> 0
+105	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.equals(Ljava/lang/Object;)Z:69 - ReplaceComparisonOperator != null -> = null
+106	ReplaceConstant	org.assertj.core.util.FloatComparator.equals(Ljava/lang/Object;)Z:69 - ReplaceConstant - 0 -> 1
+107	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.equals(Ljava/lang/Object;)Z:70 - ReplaceComparisonOperator != -> -1
+108	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.equals(Ljava/lang/Object;)Z:70 - ReplaceComparisonOperator != -> <
+109	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.equals(Ljava/lang/Object;)Z:70 - ReplaceComparisonOperator != -> >
+110	ReplaceConstant	org.assertj.core.util.FloatComparator.equals(Ljava/lang/Object;)Z:70 - ReplaceConstant - 0 -> 1
+111	InsertUnaryOp	org.assertj.core.util.FloatComparator.equals(Ljava/lang/Object;)Z:72 - InsertUnaryOp Negation
+112	InsertUnaryOp	org.assertj.core.util.FloatComparator.equals(Ljava/lang/Object;)Z:72 - InsertUnaryOp Negation
+113	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.equals(Ljava/lang/Object;)Z:72 - ReplaceComparisonOperator != -> -1
+114	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.equals(Ljava/lang/Object;)Z:72 - ReplaceComparisonOperator != -> <
+115	ReplaceComparisonOperator	org.assertj.core.util.FloatComparator.equals(Ljava/lang/Object;)Z:72 - ReplaceComparisonOperator != -> >
+116	ReplaceConstant	org.assertj.core.util.FloatComparator.equals(Ljava/lang/Object;)Z:72 - ReplaceConstant - 1 -> 0
+117	ReplaceConstant	org.assertj.core.util.FloatComparator.equals(Ljava/lang/Object;)Z:72 - ReplaceConstant - 0 -> 1

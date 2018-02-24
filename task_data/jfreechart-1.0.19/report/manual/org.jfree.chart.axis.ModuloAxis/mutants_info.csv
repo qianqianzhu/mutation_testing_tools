@@ -1,0 +1,564 @@
+0	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.<init>(Ljava/lang/String;Lorg/jfree/data/Range;)V:82 - ReplaceConstant - 270.0 -> 0.0
+1	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.<init>(Ljava/lang/String;Lorg/jfree/data/Range;)V:82 - ReplaceConstant - 270.0 -> 1.0
+2	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.<init>(Ljava/lang/String;Lorg/jfree/data/Range;)V:82 - ReplaceConstant - 270.0 -> -1.0
+3	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.<init>(Ljava/lang/String;Lorg/jfree/data/Range;)V:82 - ReplaceConstant - 270.0 -> 269.0
+4	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.<init>(Ljava/lang/String;Lorg/jfree/data/Range;)V:82 - ReplaceConstant - 270.0 -> 271.0
+5	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.<init>(Ljava/lang/String;Lorg/jfree/data/Range;)V:83 - ReplaceConstant - 90.0 -> 0.0
+6	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.<init>(Ljava/lang/String;Lorg/jfree/data/Range;)V:83 - ReplaceConstant - 90.0 -> 1.0
+7	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.<init>(Ljava/lang/String;Lorg/jfree/data/Range;)V:83 - ReplaceConstant - 90.0 -> -1.0
+8	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.<init>(Ljava/lang/String;Lorg/jfree/data/Range;)V:83 - ReplaceConstant - 90.0 -> 89.0
+9	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.<init>(Ljava/lang/String;Lorg/jfree/data/Range;)V:83 - ReplaceConstant - 90.0 -> 91.0
+10	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.getDisplayStart()D:92 - InsertUnaryOp Negation
+11	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.getDisplayEnd()D:101 - InsertUnaryOp Negation
+12	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:112 - InsertUnaryOp Negation of start
+13	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:113 - InsertUnaryOp Negation of end
+14	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:114 - InsertUnaryOp Negation
+15	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:114 - InsertUnaryOp Negation
+16	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:114 - ReplaceComparisonOperator >= -> -1
+17	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:114 - ReplaceComparisonOperator >= -> ==
+18	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:114 - ReplaceComparisonOperator >= -> >
+19	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:115 - InsertUnaryOp Negation
+20	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:115 - InsertUnaryOp Negation
+21	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:118 - InsertUnaryOp Negation
+22	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:118 - InsertUnaryOp Negation
+23	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:119 - ReplaceArithmeticOperator - -> +
+24	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:119 - ReplaceArithmeticOperator - -> %
+25	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:119 - ReplaceArithmeticOperator - -> *
+26	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:119 - ReplaceArithmeticOperator - -> /
+27	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:119 - ReplaceArithmeticOperator + -> %
+28	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:119 - ReplaceArithmeticOperator + -> -
+29	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:119 - ReplaceArithmeticOperator + -> *
+30	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.setDisplayRange(DD)V:119 - ReplaceArithmeticOperator + -> /
+31	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.autoAdjustRange()V:130 - ReplaceConstant - 0 -> 1
+32	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.autoAdjustRange()V:130 - ReplaceConstant - 0 -> 1
+33	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:146 - InsertUnaryOp Negation of value
+34	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:147 - InsertUnaryOp Negation
+35	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:147 - InsertUnaryOp Negation
+36	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:147 - ReplaceComparisonOperator >= -> -1
+37	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:147 - ReplaceComparisonOperator >= -> ==
+38	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:147 - ReplaceComparisonOperator >= -> >
+39	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:148 - InsertUnaryOp Negation of v
+40	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:151 - InsertUnaryOp Negation
+41	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:151 - InsertUnaryOp Negation
+42	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:151 - ReplaceArithmeticOperator + -> %
+43	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:151 - ReplaceArithmeticOperator + -> -
+44	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:151 - ReplaceArithmeticOperator + -> *
+45	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:151 - ReplaceArithmeticOperator + -> /
+46	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:151 - ReplaceConstant - 2.0 -> 0.0
+47	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:151 - ReplaceConstant - 2.0 -> 1.0
+48	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:151 - ReplaceConstant - 2.0 -> -1.0
+49	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:151 - ReplaceConstant - 2.0 -> 3.0
+50	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:151 - ReplaceArithmeticOperator / -> +
+51	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:151 - ReplaceArithmeticOperator / -> %
+52	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:151 - ReplaceArithmeticOperator / -> -
+53	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:151 - ReplaceArithmeticOperator / -> *
+54	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:152 - InsertUnaryOp Negation
+55	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:152 - ReplaceArithmeticOperator - -> +
+56	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:152 - ReplaceArithmeticOperator - -> %
+57	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:152 - ReplaceArithmeticOperator - -> *
+58	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:152 - ReplaceArithmeticOperator - -> /
+59	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:154 - InsertUnaryOp Negation
+60	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:154 - ReplaceArithmeticOperator - -> +
+61	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:154 - ReplaceArithmeticOperator - -> %
+62	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:154 - ReplaceArithmeticOperator - -> *
+63	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:154 - ReplaceArithmeticOperator - -> /
+64	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:155 - InsertUnaryOp Negation of v
+65	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:155 - InsertUnaryOp Negation of cutoff
+66	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:155 - ReplaceComparisonOperator <= -> -1
+67	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:155 - ReplaceComparisonOperator <= -> ==
+68	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:155 - ReplaceComparisonOperator <= -> <
+69	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:156 - InsertUnaryOp Negation of v
+70	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:156 - InsertUnaryOp Negation of length1
+71	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:156 - InsertUnaryOp Negation of length2
+72	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:159 - InsertUnaryOp Negation of v
+73	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:159 - InsertUnaryOp Negation of length1
+74	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:159 - InsertUnaryOp Negation of length2
+75	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.valueToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:162 - InsertUnaryOp Negation of result
+76	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:175 - ReplaceConstant - 0.0 -> 1.0
+77	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:175 - ReplaceConstant - 0.0 -> -1.0
+78	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:176 - ReplaceConstant - 0.0 -> 1.0
+79	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:176 - ReplaceConstant - 0.0 -> -1.0
+80	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:177 - ReplaceComparisonOperator == -> -2
+81	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:177 - ReplaceComparisonOperator == -> >=
+82	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:177 - ReplaceComparisonOperator == -> <=
+83	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:179 - ReplaceArithmeticOperator + -> %
+84	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:179 - ReplaceArithmeticOperator + -> -
+85	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:179 - ReplaceArithmeticOperator + -> *
+86	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:179 - ReplaceArithmeticOperator + -> /
+87	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:181 - ReplaceComparisonOperator == -> -2
+88	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:181 - ReplaceComparisonOperator == -> >=
+89	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:181 - ReplaceComparisonOperator == -> <=
+90	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:183 - ReplaceArithmeticOperator - -> +
+91	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:183 - ReplaceArithmeticOperator - -> %
+92	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:183 - ReplaceArithmeticOperator - -> *
+93	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:183 - ReplaceArithmeticOperator - -> /
+94	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:185 - ReplaceComparisonOperator == -> -2
+95	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:185 - ReplaceComparisonOperator == -> >=
+96	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:185 - ReplaceComparisonOperator == -> <=
+97	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - InsertUnaryOp Negation of max
+98	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - InsertUnaryOp Negation of value
+99	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - InsertUnaryOp Negation
+100	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator - -> +
+101	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator - -> %
+102	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator - -> *
+103	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator - -> /
+104	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - InsertUnaryOp Negation
+105	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - InsertUnaryOp Negation
+106	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator - -> +
+107	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator - -> %
+108	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator - -> *
+109	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator - -> /
+110	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator / -> +
+111	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator / -> %
+112	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator / -> -
+113	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator / -> *
+114	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - InsertUnaryOp Negation of max
+115	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - InsertUnaryOp Negation of min
+116	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator - -> +
+117	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator - -> %
+118	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator - -> *
+119	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator - -> /
+120	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator * -> +
+121	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator * -> %
+122	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator * -> -
+123	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator * -> /
+124	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator - -> +
+125	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator - -> %
+126	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator - -> *
+127	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:186 - ReplaceArithmeticOperator - -> /
+128	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - InsertUnaryOp Negation of min
+129	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - InsertUnaryOp Negation of value
+130	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - InsertUnaryOp Negation
+131	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator - -> +
+132	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator - -> %
+133	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator - -> *
+134	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator - -> /
+135	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - InsertUnaryOp Negation
+136	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - InsertUnaryOp Negation
+137	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator - -> +
+138	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator - -> %
+139	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator - -> *
+140	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator - -> /
+141	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator / -> +
+142	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator / -> %
+143	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator / -> -
+144	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator / -> *
+145	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - InsertUnaryOp Negation of max
+146	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - InsertUnaryOp Negation of min
+147	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator - -> +
+148	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator - -> %
+149	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator - -> *
+150	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator - -> /
+151	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator * -> +
+152	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator * -> %
+153	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator * -> -
+154	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator * -> /
+155	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator + -> %
+156	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator + -> -
+157	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator + -> *
+158	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.trans(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:190 - ReplaceArithmeticOperator + -> /
+159	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:211 - ReplaceConstant - 0.0 -> 1.0
+160	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:211 - ReplaceConstant - 0.0 -> -1.0
+161	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:212 - ReplaceConstant - 0.0 -> 1.0
+162	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:212 - ReplaceConstant - 0.0 -> -1.0
+163	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:213 - ReplaceComparisonOperator == -> -2
+164	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:213 - ReplaceComparisonOperator == -> >=
+165	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:213 - ReplaceComparisonOperator == -> <=
+166	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - InsertUnaryOp Negation of length1
+167	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - ReplaceArithmeticOperator * -> +
+168	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - ReplaceArithmeticOperator * -> %
+169	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - ReplaceArithmeticOperator * -> -
+170	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - ReplaceArithmeticOperator * -> /
+171	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - InsertUnaryOp Negation of length1
+172	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - InsertUnaryOp Negation of length2
+173	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - ReplaceArithmeticOperator + -> %
+174	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - ReplaceArithmeticOperator + -> -
+175	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - ReplaceArithmeticOperator + -> *
+176	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - ReplaceArithmeticOperator + -> /
+177	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - ReplaceArithmeticOperator / -> +
+178	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - ReplaceArithmeticOperator / -> %
+179	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - ReplaceArithmeticOperator / -> -
+180	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - ReplaceArithmeticOperator / -> *
+181	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - ReplaceArithmeticOperator + -> %
+182	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - ReplaceArithmeticOperator + -> -
+183	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - ReplaceArithmeticOperator + -> *
+184	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:215 - ReplaceArithmeticOperator + -> /
+185	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:217 - ReplaceComparisonOperator == -> -2
+186	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:217 - ReplaceComparisonOperator == -> >=
+187	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:217 - ReplaceComparisonOperator == -> <=
+188	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - InsertUnaryOp Negation of length1
+189	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - ReplaceArithmeticOperator * -> +
+190	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - ReplaceArithmeticOperator * -> %
+191	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - ReplaceArithmeticOperator * -> -
+192	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - ReplaceArithmeticOperator * -> /
+193	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - InsertUnaryOp Negation of length1
+194	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - InsertUnaryOp Negation of length2
+195	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - ReplaceArithmeticOperator + -> %
+196	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - ReplaceArithmeticOperator + -> -
+197	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - ReplaceArithmeticOperator + -> *
+198	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - ReplaceArithmeticOperator + -> /
+199	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - ReplaceArithmeticOperator / -> +
+200	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - ReplaceArithmeticOperator / -> %
+201	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - ReplaceArithmeticOperator / -> -
+202	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - ReplaceArithmeticOperator / -> *
+203	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - ReplaceArithmeticOperator - -> +
+204	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - ReplaceArithmeticOperator - -> %
+205	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - ReplaceArithmeticOperator - -> *
+206	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:219 - ReplaceArithmeticOperator - -> /
+207	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:222 - ReplaceComparisonOperator == -> -2
+208	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:222 - ReplaceComparisonOperator == -> >=
+209	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:222 - ReplaceComparisonOperator == -> <=
+210	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:223 - InsertUnaryOp Negation of max
+211	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:223 - InsertUnaryOp Negation of value
+212	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:223 - InsertUnaryOp Negation
+213	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:223 - ReplaceArithmeticOperator - -> +
+214	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:223 - ReplaceArithmeticOperator - -> %
+215	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:223 - ReplaceArithmeticOperator - -> *
+216	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:223 - ReplaceArithmeticOperator - -> /
+217	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - InsertUnaryOp Negation
+218	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator - -> +
+219	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator - -> %
+220	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator - -> *
+221	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator - -> /
+222	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator / -> +
+223	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator / -> %
+224	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator / -> -
+225	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator / -> *
+226	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - InsertUnaryOp Negation of max
+227	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - InsertUnaryOp Negation of min
+228	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator - -> +
+229	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator - -> %
+230	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator - -> *
+231	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator - -> /
+232	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator * -> +
+233	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator * -> %
+234	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator * -> -
+235	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator * -> /
+236	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator - -> +
+237	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator - -> %
+238	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator - -> *
+239	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:224 - ReplaceArithmeticOperator - -> /
+240	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:228 - InsertUnaryOp Negation of min
+241	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:228 - InsertUnaryOp Negation of value
+242	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:228 - InsertUnaryOp Negation
+243	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:228 - ReplaceArithmeticOperator - -> +
+244	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:228 - ReplaceArithmeticOperator - -> %
+245	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:228 - ReplaceArithmeticOperator - -> *
+246	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:228 - ReplaceArithmeticOperator - -> /
+247	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - InsertUnaryOp Negation
+248	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator - -> +
+249	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator - -> %
+250	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator - -> *
+251	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator - -> /
+252	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator / -> +
+253	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator / -> %
+254	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator / -> -
+255	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator / -> *
+256	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - InsertUnaryOp Negation of max
+257	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - InsertUnaryOp Negation of min
+258	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator - -> +
+259	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator - -> %
+260	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator - -> *
+261	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator - -> /
+262	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator * -> +
+263	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator * -> %
+264	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator * -> -
+265	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator * -> /
+266	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator + -> %
+267	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator + -> -
+268	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator + -> *
+269	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transStart(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:229 - ReplaceArithmeticOperator + -> /
+270	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:249 - ReplaceConstant - 0.0 -> 1.0
+271	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:249 - ReplaceConstant - 0.0 -> -1.0
+272	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:250 - ReplaceConstant - 0.0 -> 1.0
+273	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:250 - ReplaceConstant - 0.0 -> -1.0
+274	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:251 - ReplaceComparisonOperator == -> -2
+275	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:251 - ReplaceComparisonOperator == -> >=
+276	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:251 - ReplaceComparisonOperator == -> <=
+277	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - InsertUnaryOp Negation of length2
+278	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - ReplaceArithmeticOperator * -> +
+279	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - ReplaceArithmeticOperator * -> %
+280	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - ReplaceArithmeticOperator * -> -
+281	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - ReplaceArithmeticOperator * -> /
+282	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - InsertUnaryOp Negation of length1
+283	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - InsertUnaryOp Negation of length2
+284	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - ReplaceArithmeticOperator + -> %
+285	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - ReplaceArithmeticOperator + -> -
+286	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - ReplaceArithmeticOperator + -> *
+287	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - ReplaceArithmeticOperator + -> /
+288	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - ReplaceArithmeticOperator / -> +
+289	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - ReplaceArithmeticOperator / -> %
+290	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - ReplaceArithmeticOperator / -> -
+291	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - ReplaceArithmeticOperator / -> *
+292	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - ReplaceArithmeticOperator - -> +
+293	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - ReplaceArithmeticOperator - -> %
+294	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - ReplaceArithmeticOperator - -> *
+295	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:253 - ReplaceArithmeticOperator - -> /
+296	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:256 - ReplaceComparisonOperator == -> -2
+297	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:256 - ReplaceComparisonOperator == -> >=
+298	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:256 - ReplaceComparisonOperator == -> <=
+299	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - InsertUnaryOp Negation of length2
+300	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - ReplaceArithmeticOperator * -> +
+301	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - ReplaceArithmeticOperator * -> %
+302	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - ReplaceArithmeticOperator * -> -
+303	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - ReplaceArithmeticOperator * -> /
+304	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - InsertUnaryOp Negation of length1
+305	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - InsertUnaryOp Negation of length2
+306	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - ReplaceArithmeticOperator + -> %
+307	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - ReplaceArithmeticOperator + -> -
+308	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - ReplaceArithmeticOperator + -> *
+309	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - ReplaceArithmeticOperator + -> /
+310	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - ReplaceArithmeticOperator / -> +
+311	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - ReplaceArithmeticOperator / -> %
+312	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - ReplaceArithmeticOperator / -> -
+313	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - ReplaceArithmeticOperator / -> *
+314	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - ReplaceArithmeticOperator + -> %
+315	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - ReplaceArithmeticOperator + -> -
+316	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - ReplaceArithmeticOperator + -> *
+317	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:258 - ReplaceArithmeticOperator + -> /
+318	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:261 - ReplaceComparisonOperator == -> -2
+319	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:261 - ReplaceComparisonOperator == -> >=
+320	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:261 - ReplaceComparisonOperator == -> <=
+321	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:262 - InsertUnaryOp Negation of max
+322	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:262 - InsertUnaryOp Negation of value
+323	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:262 - ReplaceArithmeticOperator - -> +
+324	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:262 - ReplaceArithmeticOperator - -> %
+325	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:262 - ReplaceArithmeticOperator - -> *
+326	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:262 - ReplaceArithmeticOperator - -> /
+327	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:262 - InsertUnaryOp Negation
+328	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator - -> +
+329	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator - -> %
+330	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator - -> *
+331	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator - -> /
+332	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator / -> +
+333	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator / -> %
+334	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator / -> -
+335	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator / -> *
+336	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - InsertUnaryOp Negation of max
+337	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - InsertUnaryOp Negation of min
+338	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator - -> +
+339	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator - -> %
+340	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator - -> *
+341	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator - -> /
+342	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator * -> +
+343	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator * -> %
+344	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator * -> -
+345	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator * -> /
+346	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator - -> +
+347	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator - -> %
+348	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator - -> *
+349	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:263 - ReplaceArithmeticOperator - -> /
+350	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:267 - InsertUnaryOp Negation of min
+351	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:267 - InsertUnaryOp Negation of value
+352	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:267 - ReplaceArithmeticOperator - -> +
+353	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:267 - ReplaceArithmeticOperator - -> %
+354	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:267 - ReplaceArithmeticOperator - -> *
+355	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:267 - ReplaceArithmeticOperator - -> /
+356	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:267 - InsertUnaryOp Negation
+357	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator - -> +
+358	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator - -> %
+359	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator - -> *
+360	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator - -> /
+361	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator / -> +
+362	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator / -> %
+363	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator / -> -
+364	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator / -> *
+365	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - InsertUnaryOp Negation of max
+366	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - InsertUnaryOp Negation of min
+367	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator - -> +
+368	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator - -> %
+369	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator - -> *
+370	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator - -> /
+371	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator * -> +
+372	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator * -> %
+373	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator * -> -
+374	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator * -> /
+375	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator + -> %
+376	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator + -> -
+377	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator + -> *
+378	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.transEnd(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;DD)D:268 - ReplaceArithmeticOperator + -> /
+379	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:284 - InsertUnaryOp Negation of value
+380	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:284 - InsertUnaryOp Negation of lower
+381	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:284 - ReplaceComparisonOperator >= -> -1
+382	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:284 - ReplaceComparisonOperator >= -> ==
+383	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:284 - ReplaceComparisonOperator >= -> >
+384	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - InsertUnaryOp Negation of lower
+385	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - InsertUnaryOp Negation of length
+386	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - ReplaceArithmeticOperator + -> %
+387	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - ReplaceArithmeticOperator + -> -
+388	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - ReplaceArithmeticOperator + -> *
+389	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - ReplaceArithmeticOperator + -> /
+390	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - InsertUnaryOp Negation of value
+391	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - InsertUnaryOp Negation of lower
+392	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - ReplaceArithmeticOperator - -> +
+393	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - ReplaceArithmeticOperator - -> %
+394	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - ReplaceArithmeticOperator - -> *
+395	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - ReplaceArithmeticOperator - -> /
+396	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - InsertUnaryOp Negation of length
+397	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - ReplaceArithmeticOperator % -> +
+398	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - ReplaceArithmeticOperator % -> -
+399	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - ReplaceArithmeticOperator % -> *
+400	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - ReplaceArithmeticOperator % -> /
+401	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - ReplaceArithmeticOperator + -> %
+402	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - ReplaceArithmeticOperator + -> -
+403	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - ReplaceArithmeticOperator + -> *
+404	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:285 - ReplaceArithmeticOperator + -> /
+405	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:288 - InsertUnaryOp Negation of lower
+406	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:288 - InsertUnaryOp Negation of value
+407	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:288 - InsertUnaryOp Negation of lower
+408	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:288 - ReplaceArithmeticOperator - -> +
+409	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:288 - ReplaceArithmeticOperator - -> %
+410	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:288 - ReplaceArithmeticOperator - -> *
+411	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:288 - ReplaceArithmeticOperator - -> /
+412	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:288 - InsertUnaryOp Negation of length
+413	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:288 - ReplaceArithmeticOperator % -> +
+414	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:288 - ReplaceArithmeticOperator % -> -
+415	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:288 - ReplaceArithmeticOperator % -> *
+416	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:288 - ReplaceArithmeticOperator % -> /
+417	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:288 - ReplaceArithmeticOperator + -> %
+418	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:288 - ReplaceArithmeticOperator + -> -
+419	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:288 - ReplaceArithmeticOperator + -> *
+420	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.mapValueToFixedRange(D)D:288 - ReplaceArithmeticOperator + -> /
+421	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.java2DToValue(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:304 - ReplaceConstant - 0.0 -> 1.0
+422	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.java2DToValue(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:304 - ReplaceConstant - 0.0 -> -1.0
+423	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.java2DToValue(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:305 - InsertUnaryOp Negation
+424	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.java2DToValue(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:305 - InsertUnaryOp Negation
+425	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.java2DToValue(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:305 - ReplaceComparisonOperator >= -> -1
+426	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.java2DToValue(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:305 - ReplaceComparisonOperator >= -> ==
+427	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.java2DToValue(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:305 - ReplaceComparisonOperator >= -> >
+428	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.java2DToValue(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:306 - InsertUnaryOp Negation of java2DValue
+429	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.java2DToValue(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:311 - InsertUnaryOp Negation of result
+430	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:320 - InsertUnaryOp Negation
+431	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:320 - InsertUnaryOp Negation
+432	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:320 - ReplaceComparisonOperator >= -> -1
+433	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:320 - ReplaceComparisonOperator >= -> ==
+434	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:320 - ReplaceComparisonOperator >= -> >
+435	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:321 - InsertUnaryOp Negation
+436	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:321 - InsertUnaryOp Negation
+437	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:321 - ReplaceArithmeticOperator - -> +
+438	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:321 - ReplaceArithmeticOperator - -> %
+439	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:321 - ReplaceArithmeticOperator - -> *
+440	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:321 - ReplaceArithmeticOperator - -> /
+441	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:324 - InsertUnaryOp Negation
+442	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:324 - ReplaceArithmeticOperator - -> +
+443	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:324 - ReplaceArithmeticOperator - -> %
+444	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:324 - ReplaceArithmeticOperator - -> *
+445	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:324 - ReplaceArithmeticOperator - -> /
+446	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:324 - InsertUnaryOp Negation
+447	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:325 - ReplaceArithmeticOperator - -> +
+448	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:325 - ReplaceArithmeticOperator - -> %
+449	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:325 - ReplaceArithmeticOperator - -> *
+450	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:325 - ReplaceArithmeticOperator - -> /
+451	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:325 - ReplaceArithmeticOperator + -> %
+452	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:325 - ReplaceArithmeticOperator + -> -
+453	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:325 - ReplaceArithmeticOperator + -> *
+454	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayLength()D:325 - ReplaceArithmeticOperator + -> /
+455	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.getDisplayCentralValue()D:335 - InsertUnaryOp Negation
+456	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.getDisplayCentralValue()D:336 - ReplaceConstant - 2.0 -> 0.0
+457	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.getDisplayCentralValue()D:336 - ReplaceConstant - 2.0 -> 1.0
+458	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.getDisplayCentralValue()D:336 - ReplaceConstant - 2.0 -> -1.0
+459	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.getDisplayCentralValue()D:336 - ReplaceConstant - 2.0 -> 3.0
+460	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayCentralValue()D:336 - ReplaceArithmeticOperator / -> +
+461	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayCentralValue()D:336 - ReplaceArithmeticOperator / -> %
+462	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayCentralValue()D:336 - ReplaceArithmeticOperator / -> -
+463	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayCentralValue()D:336 - ReplaceArithmeticOperator / -> *
+464	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayCentralValue()D:336 - ReplaceArithmeticOperator + -> %
+465	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayCentralValue()D:336 - ReplaceArithmeticOperator + -> -
+466	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayCentralValue()D:336 - ReplaceArithmeticOperator + -> *
+467	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.getDisplayCentralValue()D:336 - ReplaceArithmeticOperator + -> /
+468	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.resizeRange(D)V:351 - InsertUnaryOp Negation of percent
+469	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:368 - InsertUnaryOp Negation of percent
+470	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:368 - ReplaceConstant - 0.0 -> 1.0
+471	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:368 - ReplaceConstant - 0.0 -> -1.0
+472	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:368 - ReplaceComparisonOperator <= -> -1
+473	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:368 - ReplaceComparisonOperator <= -> ==
+474	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:368 - ReplaceComparisonOperator <= -> <
+475	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:369 - InsertUnaryOp Negation of percent
+476	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:369 - ReplaceArithmeticOperator * -> +
+477	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:369 - ReplaceArithmeticOperator * -> %
+478	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:369 - ReplaceArithmeticOperator * -> -
+479	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:369 - ReplaceArithmeticOperator * -> /
+480	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:369 - ReplaceConstant - 2.0 -> 0.0
+481	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:369 - ReplaceConstant - 2.0 -> 1.0
+482	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:369 - ReplaceConstant - 2.0 -> -1.0
+483	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:369 - ReplaceConstant - 2.0 -> 3.0
+484	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:369 - ReplaceArithmeticOperator / -> +
+485	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:369 - ReplaceArithmeticOperator / -> %
+486	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:369 - ReplaceArithmeticOperator / -> -
+487	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:369 - ReplaceArithmeticOperator / -> *
+488	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:370 - InsertUnaryOp Negation of anchorValue
+489	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:370 - InsertUnaryOp Negation of halfLength
+490	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:370 - ReplaceArithmeticOperator - -> +
+491	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:370 - ReplaceArithmeticOperator - -> %
+492	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:370 - ReplaceArithmeticOperator - -> *
+493	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:370 - ReplaceArithmeticOperator - -> /
+494	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:370 - InsertUnaryOp Negation of anchorValue
+495	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:370 - InsertUnaryOp Negation of halfLength
+496	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:370 - ReplaceArithmeticOperator + -> %
+497	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:370 - ReplaceArithmeticOperator + -> -
+498	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:370 - ReplaceArithmeticOperator + -> *
+499	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:370 - ReplaceArithmeticOperator + -> /
+500	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.resizeRange(DD)V:373 - ReplaceConstant - 1 -> 0
+501	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:391 - ReplaceConstant - 0.0 -> 1.0
+502	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:391 - ReplaceConstant - 0.0 -> -1.0
+503	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:392 - InsertUnaryOp Negation
+504	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:392 - InsertUnaryOp Negation
+505	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:392 - ReplaceComparisonOperator <= -> -1
+506	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:392 - ReplaceComparisonOperator <= -> ==
+507	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:392 - ReplaceComparisonOperator <= -> <
+508	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:393 - InsertUnaryOp Negation
+509	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:393 - InsertUnaryOp Negation
+510	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:393 - ReplaceArithmeticOperator - -> +
+511	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:393 - ReplaceArithmeticOperator - -> %
+512	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:393 - ReplaceArithmeticOperator - -> *
+513	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:393 - ReplaceArithmeticOperator - -> /
+514	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:396 - InsertUnaryOp Negation
+515	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:396 - ReplaceArithmeticOperator - -> +
+516	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:396 - ReplaceArithmeticOperator - -> %
+517	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:396 - ReplaceArithmeticOperator - -> *
+518	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:396 - ReplaceArithmeticOperator - -> /
+519	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:396 - InsertUnaryOp Negation
+520	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:397 - ReplaceArithmeticOperator - -> +
+521	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:397 - ReplaceArithmeticOperator - -> %
+522	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:397 - ReplaceArithmeticOperator - -> *
+523	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:397 - ReplaceArithmeticOperator - -> /
+524	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:397 - ReplaceArithmeticOperator + -> %
+525	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:397 - ReplaceArithmeticOperator + -> -
+526	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:397 - ReplaceArithmeticOperator + -> *
+527	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:397 - ReplaceArithmeticOperator + -> /
+528	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:400 - ReplaceComparisonOperator == -> -2
+529	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:400 - ReplaceComparisonOperator == -> >=
+530	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:400 - ReplaceComparisonOperator == -> <=
+531	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:406 - InsertUnaryOp Negation of length
+532	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:406 - InsertUnaryOp Negation of axisLength
+533	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:406 - ReplaceArithmeticOperator / -> +
+534	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:406 - ReplaceArithmeticOperator / -> %
+535	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:406 - ReplaceArithmeticOperator / -> -
+536	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:406 - ReplaceArithmeticOperator / -> *
+537	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:406 - InsertUnaryOp Negation of areaLength
+538	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:406 - ReplaceArithmeticOperator * -> +
+539	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:406 - ReplaceArithmeticOperator * -> %
+540	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:406 - ReplaceArithmeticOperator * -> -
+541	ReplaceArithmeticOperator	org.jfree.chart.axis.ModuloAxis.lengthToJava2D(DLjava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:406 - ReplaceArithmeticOperator * -> /
+542	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:418 - ReplaceComparisonOperator != -> ==
+543	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:419 - ReplaceConstant - 1 -> 0
+544	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:421 - ReplaceComparisonOperator != -> -1
+545	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:421 - ReplaceComparisonOperator != -> <
+546	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:421 - ReplaceComparisonOperator != -> >
+547	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:422 - ReplaceConstant - 0 -> 1
+548	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:425 - InsertUnaryOp Negation
+549	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:425 - InsertUnaryOp Negation
+550	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:425 - ReplaceComparisonOperator == -> -2
+551	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:425 - ReplaceComparisonOperator == -> >=
+552	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:425 - ReplaceComparisonOperator == -> <=
+553	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:426 - ReplaceConstant - 0 -> 1
+554	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:428 - InsertUnaryOp Negation
+555	InsertUnaryOp	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:428 - InsertUnaryOp Negation
+556	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:428 - ReplaceComparisonOperator == -> -2
+557	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:428 - ReplaceComparisonOperator == -> >=
+558	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:428 - ReplaceComparisonOperator == -> <=
+559	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:429 - ReplaceConstant - 0 -> 1
+560	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:431 - ReplaceComparisonOperator != -> -1
+561	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:431 - ReplaceComparisonOperator != -> <
+562	ReplaceComparisonOperator	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:431 - ReplaceComparisonOperator != -> >
+563	ReplaceConstant	org.jfree.chart.axis.ModuloAxis.equals(Ljava/lang/Object;)Z:432 - ReplaceConstant - 0 -> 1

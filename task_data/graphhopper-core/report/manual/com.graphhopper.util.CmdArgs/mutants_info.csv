@@ -1,0 +1,55 @@
+0	ReplaceConstant	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:49 - ReplaceConstant - -D -> 
+1	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:49 - ReplaceComparisonOperator == -> -2
+2	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:49 - ReplaceComparisonOperator == -> >=
+3	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:49 - ReplaceComparisonOperator == -> <=
+4	ReplaceConstant	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:50 - ReplaceConstant - 2 -> 0
+5	ReplaceConstant	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:50 - ReplaceConstant - 2 -> 1
+6	ReplaceConstant	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:50 - ReplaceConstant - 2 -> -1
+7	ReplaceConstant	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:50 - ReplaceConstant - 2 -> 3
+8	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:53 - ReplaceComparisonOperator == -> -2
+9	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:53 - ReplaceComparisonOperator == -> >=
+10	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:53 - ReplaceComparisonOperator == -> <=
+11	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:64 - ReplaceComparisonOperator == -> -2
+12	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:64 - ReplaceComparisonOperator == -> >=
+13	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:64 - ReplaceComparisonOperator == -> <=
+14	ReplaceConstant	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:67 - ReplaceConstant - graphhopper. -> 
+15	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:67 - ReplaceComparisonOperator == -> -2
+16	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:67 - ReplaceComparisonOperator == -> >=
+17	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:67 - ReplaceComparisonOperator == -> <=
+18	ReplaceConstant	com.graphhopper.util.CmdArgs.readFromConfig(Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:68 - ReplaceConstant - graphhopper. -> 
+19	ReplaceConstant	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:77 - ReplaceConstant - 0 -> 1
+20	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:77 - ReplaceComparisonOperator >= -> -1
+21	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:77 - ReplaceComparisonOperator >= -> >
+22	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:77 - ReplaceComparisonOperator >= -> ==
+23	ReplaceConstant	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:78 - ReplaceConstant - = -> 
+24	InsertUnaryOp	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:79 - InsertUnaryOp Negation of index
+25	InsertUnaryOp	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:79 - InsertUnaryOp IINC 1 index
+26	InsertUnaryOp	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:79 - InsertUnaryOp IINC -1 index
+27	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:79 - ReplaceComparisonOperator > -> -2
+28	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:79 - ReplaceComparisonOperator > -> !=
+29	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:79 - ReplaceComparisonOperator > -> >=
+30	ReplaceConstant	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:83 - ReplaceConstant - 0 -> 1
+31	InsertUnaryOp	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:83 - InsertUnaryOp Negation of index
+32	InsertUnaryOp	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:83 - InsertUnaryOp IINC 1 index
+33	InsertUnaryOp	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:83 - InsertUnaryOp IINC -1 index
+34	ReplaceConstant	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:84 - ReplaceConstant - - -> 
+35	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:84 - ReplaceComparisonOperator == -> -2
+36	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:84 - ReplaceComparisonOperator == -> >=
+37	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:84 - ReplaceComparisonOperator == -> <=
+38	ReplaceConstant	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:85 - ReplaceConstant - 1 -> 0
+39	ReplaceConstant	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:88 - ReplaceConstant - - -> 
+40	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:88 - ReplaceComparisonOperator == -> -2
+41	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:88 - ReplaceComparisonOperator == -> >=
+42	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:88 - ReplaceComparisonOperator == -> <=
+43	ReplaceConstant	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:89 - ReplaceConstant - 1 -> 0
+44	InsertUnaryOp	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:92 - InsertUnaryOp Negation of index
+45	InsertUnaryOp	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:92 - InsertUnaryOp IINC 1 index
+46	InsertUnaryOp	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:92 - InsertUnaryOp IINC -1 index
+47	ReplaceConstant	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:92 - ReplaceConstant - 1 -> 0
+48	ReplaceArithmeticOperator	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:92 - ReplaceArithmeticOperator + -> %
+49	ReplaceArithmeticOperator	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:92 - ReplaceArithmeticOperator + -> -
+50	ReplaceArithmeticOperator	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:92 - ReplaceArithmeticOperator + -> *
+51	ReplaceArithmeticOperator	com.graphhopper.util.CmdArgs.read([Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:92 - ReplaceArithmeticOperator + -> /
+52	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.readFromConfigAndMerge(Lcom/graphhopper/util/CmdArgs;Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:107 - ReplaceComparisonOperator != -> -1
+53	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.readFromConfigAndMerge(Lcom/graphhopper/util/CmdArgs;Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:107 - ReplaceComparisonOperator != -> <
+54	ReplaceComparisonOperator	com.graphhopper.util.CmdArgs.readFromConfigAndMerge(Lcom/graphhopper/util/CmdArgs;Ljava/lang/String;Ljava/lang/String;)Lcom/graphhopper/util/CmdArgs;:107 - ReplaceComparisonOperator != -> >

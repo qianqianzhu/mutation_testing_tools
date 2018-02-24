@@ -1,0 +1,100 @@
+0	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.<init>(Lorg/opengis/feature/type/Name;Ljava/lang/Class;ZLjava/util/List;Lorg/opengis/feature/type/PropertyType;Lorg/opengis/util/InternationalString;)V:52 - ReplaceComparisonOperator != null -> = null
+1	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.<init>(Lorg/opengis/feature/type/Name;Ljava/lang/Class;ZLjava/util/List;Lorg/opengis/feature/type/PropertyType;Lorg/opengis/util/InternationalString;)V:53 - ReplaceConstant - Name is required for PropertyType -> 
+2	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.<init>(Lorg/opengis/feature/type/Name;Ljava/lang/Class;ZLjava/util/List;Lorg/opengis/feature/type/PropertyType;Lorg/opengis/util/InternationalString;)V:55 - ReplaceComparisonOperator != null -> = null
+3	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.<init>(Lorg/opengis/feature/type/Name;Ljava/lang/Class;ZLjava/util/List;Lorg/opengis/feature/type/PropertyType;Lorg/opengis/util/InternationalString;)V:56 - ReplaceComparisonOperator = null -> != null
+4	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.<init>(Lorg/opengis/feature/type/Name;Ljava/lang/Class;ZLjava/util/List;Lorg/opengis/feature/type/PropertyType;Lorg/opengis/util/InternationalString;)V:56 - ReplaceComparisonOperator = null -> != null
+5	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.<init>(Lorg/opengis/feature/type/Name;Ljava/lang/Class;ZLjava/util/List;Lorg/opengis/feature/type/PropertyType;Lorg/opengis/util/InternationalString;)V:58 - ReplaceConstant - Binding to a Java class, did you mean to bind to  -> 
+6	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.<init>(Lorg/opengis/feature/type/Name;Ljava/lang/Class;ZLjava/util/List;Lorg/opengis/feature/type/PropertyType;Lorg/opengis/util/InternationalString;)V:60 - ReplaceConstant - Binding to a Java class is required -> 
+7	InsertUnaryOp	org.geotools.feature.type.PropertyTypeImpl.<init>(Lorg/opengis/feature/type/Name;Ljava/lang/Class;ZLjava/util/List;Lorg/opengis/feature/type/PropertyType;Lorg/opengis/util/InternationalString;)V:64 - InsertUnaryOp Negation of isAbstract
+8	InsertUnaryOp	org.geotools.feature.type.PropertyTypeImpl.<init>(Lorg/opengis/feature/type/Name;Ljava/lang/Class;ZLjava/util/List;Lorg/opengis/feature/type/PropertyType;Lorg/opengis/util/InternationalString;)V:64 - InsertUnaryOp IINC 1 isAbstract
+9	InsertUnaryOp	org.geotools.feature.type.PropertyTypeImpl.<init>(Lorg/opengis/feature/type/Name;Ljava/lang/Class;ZLjava/util/List;Lorg/opengis/feature/type/PropertyType;Lorg/opengis/util/InternationalString;)V:64 - InsertUnaryOp IINC -1 isAbstract
+10	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.<init>(Lorg/opengis/feature/type/Name;Ljava/lang/Class;ZLjava/util/List;Lorg/opengis/feature/type/PropertyType;Lorg/opengis/util/InternationalString;)V:66 - ReplaceComparisonOperator != null -> = null
+11	InsertUnaryOp	org.geotools.feature.type.PropertyTypeImpl.isAbstract()Z:86 - InsertUnaryOp Negation
+12	ReplaceBitwiseOperator	org.geotools.feature.type.PropertyTypeImpl.hashCode()I:102 - ReplaceBitwiseOperator ^ -> |
+13	ReplaceBitwiseOperator	org.geotools.feature.type.PropertyTypeImpl.hashCode()I:102 - ReplaceBitwiseOperator ^ -> &
+14	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.hashCode()I:103 - ReplaceComparisonOperator = null -> != null
+15	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.hashCode()I:103 - ReplaceConstant - 17 -> 0
+16	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.hashCode()I:103 - ReplaceConstant - 17 -> 1
+17	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.hashCode()I:103 - ReplaceConstant - 17 -> -1
+18	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.hashCode()I:103 - ReplaceConstant - 17 -> 16
+19	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.hashCode()I:103 - ReplaceConstant - 17 -> 18
+20	ReplaceBitwiseOperator	org.geotools.feature.type.PropertyTypeImpl.hashCode()I:103 - ReplaceBitwiseOperator ^ -> |
+21	ReplaceBitwiseOperator	org.geotools.feature.type.PropertyTypeImpl.hashCode()I:103 - ReplaceBitwiseOperator ^ -> &
+22	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:108 - ReplaceComparisonOperator != -> ==
+23	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:109 - ReplaceConstant - 1 -> 0
+24	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:111 - ReplaceComparisonOperator != -> -1
+25	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:111 - ReplaceComparisonOperator != -> <
+26	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:111 - ReplaceComparisonOperator != -> >
+27	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:112 - ReplaceConstant - 0 -> 1
+28	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:117 - ReplaceComparisonOperator != -> -1
+29	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:117 - ReplaceComparisonOperator != -> <
+30	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:117 - ReplaceComparisonOperator != -> >
+31	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:118 - ReplaceConstant - 0 -> 1
+32	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:121 - ReplaceComparisonOperator != -> -1
+33	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:121 - ReplaceComparisonOperator != -> <
+34	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:121 - ReplaceComparisonOperator != -> >
+35	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:122 - ReplaceConstant - 0 -> 1
+36	InsertUnaryOp	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:125 - InsertUnaryOp Negation
+37	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:125 - ReplaceComparisonOperator == -> -2
+38	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:125 - ReplaceComparisonOperator == -> >=
+39	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:125 - ReplaceComparisonOperator == -> <=
+40	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:126 - ReplaceConstant - 0 -> 1
+41	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:129 - ReplaceComparisonOperator != -> -1
+42	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:129 - ReplaceComparisonOperator != -> <
+43	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:129 - ReplaceComparisonOperator != -> >
+44	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:130 - ReplaceConstant - 0 -> 1
+45	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:133 - ReplaceComparisonOperator != -> -1
+46	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:133 - ReplaceComparisonOperator != -> <
+47	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:133 - ReplaceComparisonOperator != -> >
+48	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:134 - ReplaceConstant - 0 -> 1
+49	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:137 - ReplaceComparisonOperator != -> -1
+50	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:137 - ReplaceComparisonOperator != -> <
+51	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:137 - ReplaceComparisonOperator != -> >
+52	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:138 - ReplaceConstant - 0 -> 1
+53	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/lang/Object;)Z:141 - ReplaceConstant - 1 -> 0
+54	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/util/List;Ljava/util/List;)Z:149 - ReplaceComparisonOperator == -> !=
+55	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/util/List;Ljava/util/List;)Z:149 - ReplaceComparisonOperator = null -> != null
+56	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/util/List;Ljava/util/List;)Z:149 - ReplaceComparisonOperator == -> -2
+57	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/util/List;Ljava/util/List;)Z:149 - ReplaceComparisonOperator == -> >=
+58	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/util/List;Ljava/util/List;)Z:149 - ReplaceComparisonOperator == -> <=
+59	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/util/List;Ljava/util/List;)Z:150 - ReplaceConstant - 1 -> 0
+60	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/util/List;Ljava/util/List;)Z:151 - ReplaceComparisonOperator != null -> = null
+61	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/util/List;Ljava/util/List;)Z:151 - ReplaceComparisonOperator != -> -1
+62	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/util/List;Ljava/util/List;)Z:151 - ReplaceComparisonOperator != -> <
+63	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/util/List;Ljava/util/List;)Z:151 - ReplaceComparisonOperator != -> >
+64	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/util/List;Ljava/util/List;)Z:152 - ReplaceConstant - 1 -> 0
+65	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/util/List;Ljava/util/List;)Z:153 - ReplaceComparisonOperator != null -> = null
+66	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/util/List;Ljava/util/List;)Z:153 - ReplaceComparisonOperator != -> -1
+67	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/util/List;Ljava/util/List;)Z:153 - ReplaceComparisonOperator != -> <
+68	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/util/List;Ljava/util/List;)Z:153 - ReplaceComparisonOperator != -> >
+69	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/util/List;Ljava/util/List;)Z:154 - ReplaceConstant - 1 -> 0
+70	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.equals(Ljava/util/List;Ljava/util/List;)Z:155 - ReplaceConstant - 0 -> 1
+71	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:164 - ReplaceConstant -   -> 
+72	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:166 - ReplaceComparisonOperator == -> -2
+73	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:166 - ReplaceComparisonOperator == -> >=
+74	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:166 - ReplaceComparisonOperator == -> <=
+75	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:167 - ReplaceConstant -  abstract -> 
+76	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:169 - ReplaceComparisonOperator = null -> != null
+77	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:170 - ReplaceConstant -  extends  -> 
+78	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:173 - ReplaceComparisonOperator = null -> != null
+79	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:174 - ReplaceConstant - < -> 
+80	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:176 - ReplaceConstant - > -> 
+81	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:178 - ReplaceComparisonOperator = null -> != null
+82	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:179 - ReplaceConstant - description= -> 
+83	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:182 - ReplaceComparisonOperator = null -> != null
+84	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:182 - ReplaceComparisonOperator != -> -1
+85	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:182 - ReplaceComparisonOperator != -> <
+86	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:182 - ReplaceComparisonOperator != -> >
+87	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:183 - ReplaceConstant - restrictions= -> 
+88	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:184 - ReplaceConstant - 1 -> 0
+89	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:185 - ReplaceComparisonOperator == -> -2
+90	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:185 - ReplaceComparisonOperator == -> >=
+91	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:185 - ReplaceComparisonOperator == -> <=
+92	InsertUnaryOp	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:186 - InsertUnaryOp Negation of first
+93	InsertUnaryOp	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:186 - InsertUnaryOp IINC 1 first
+94	InsertUnaryOp	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:186 - InsertUnaryOp IINC -1 first
+95	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:186 - ReplaceComparisonOperator == -> -2
+96	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:186 - ReplaceComparisonOperator == -> >=
+97	ReplaceComparisonOperator	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:186 - ReplaceComparisonOperator == -> <=
+98	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:187 - ReplaceConstant - 0 -> 1
+99	ReplaceConstant	org.geotools.feature.type.PropertyTypeImpl.toString()Ljava/lang/String;:190 - ReplaceConstant -  AND  -> 

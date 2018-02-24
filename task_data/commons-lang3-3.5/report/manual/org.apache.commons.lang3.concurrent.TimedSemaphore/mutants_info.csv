@@ -1,0 +1,123 @@
+0	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(JLjava/util/concurrent/TimeUnit;I)V:197 - InsertUnaryOp Negation of timePeriod
+1	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(JLjava/util/concurrent/TimeUnit;I)V:197 - InsertUnaryOp Negation of limit
+2	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(JLjava/util/concurrent/TimeUnit;I)V:197 - InsertUnaryOp IINC 1 limit
+3	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(JLjava/util/concurrent/TimeUnit;I)V:197 - InsertUnaryOp IINC -1 limit
+4	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:214 - ReplaceConstant - 1 -> 0
+5	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:214 - ReplaceConstant - 1 -> -1
+6	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:214 - ReplaceConstant - 1 -> 2
+7	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:214 - ReplaceConstant - 9223372036854775807 -> 0
+8	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:214 - ReplaceConstant - 9223372036854775807 -> 1
+9	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:214 - ReplaceConstant - 9223372036854775807 -> -1
+10	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:214 - ReplaceConstant - 9223372036854775807 -> 9223372036854775806
+11	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:214 - ReplaceConstant - 9223372036854775807 -> -9223372036854775808
+12	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:214 - InsertUnaryOp Negation of timePeriod
+13	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:214 - ReplaceConstant - Time period must be greater than 0! -> 
+14	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:216 - InsertUnaryOp Negation of timePeriod
+15	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:219 - ReplaceComparisonOperator = null -> != null
+16	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:221 - ReplaceConstant - 0 -> 1
+17	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:223 - ReplaceConstant - 1 -> 0
+18	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:225 - ReplaceConstant - 0 -> 1
+19	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:226 - ReplaceConstant - 0 -> 1
+20	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:228 - ReplaceConstant - 1 -> 0
+21	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:231 - InsertUnaryOp Negation of limit
+22	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:231 - InsertUnaryOp IINC 1 limit
+23	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.<init>(Ljava/util/concurrent/ScheduledExecutorService;JLjava/util/concurrent/TimeUnit;I)V:231 - InsertUnaryOp IINC -1 limit
+24	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.getLimit()I:242 - InsertUnaryOp Negation
+25	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.getLimit()I:242 - InsertUnaryOp +1
+26	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.getLimit()I:242 - InsertUnaryOp -1
+27	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.setLimit(I)V:256 - InsertUnaryOp Negation of limit
+28	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.setLimit(I)V:256 - InsertUnaryOp IINC 1 limit
+29	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.setLimit(I)V:256 - InsertUnaryOp IINC -1 limit
+30	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.shutdown()V:265 - InsertUnaryOp Negation
+31	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.shutdown()V:265 - ReplaceComparisonOperator != -> -1
+32	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.shutdown()V:265 - ReplaceComparisonOperator != -> <
+33	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.shutdown()V:265 - ReplaceComparisonOperator != -> >
+34	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.shutdown()V:267 - InsertUnaryOp Negation
+35	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.shutdown()V:267 - ReplaceComparisonOperator == -> -2
+36	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.shutdown()V:267 - ReplaceComparisonOperator == -> >=
+37	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.shutdown()V:267 - ReplaceComparisonOperator == -> <=
+38	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.shutdown()V:272 - ReplaceComparisonOperator = null -> != null
+39	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.shutdown()V:273 - ReplaceConstant - 0 -> 1
+40	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.shutdown()V:276 - ReplaceConstant - 1 -> 0
+41	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.isShutdown()Z:288 - InsertUnaryOp Negation
+42	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.acquire()V:308 - InsertUnaryOp Negation of canPass
+43	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.acquire()V:308 - InsertUnaryOp IINC 1 canPass
+44	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.acquire()V:308 - InsertUnaryOp IINC -1 canPass
+45	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.acquire()V:308 - ReplaceComparisonOperator != -> -1
+46	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.acquire()V:308 - ReplaceComparisonOperator != -> <
+47	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.acquire()V:308 - ReplaceComparisonOperator != -> >
+48	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.acquire()V:311 - InsertUnaryOp Negation of canPass
+49	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.acquire()V:311 - InsertUnaryOp IINC 1 canPass
+50	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.acquire()V:311 - InsertUnaryOp IINC -1 canPass
+51	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.acquire()V:311 - ReplaceComparisonOperator == -> -2
+52	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.acquire()V:311 - ReplaceComparisonOperator == -> >=
+53	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.acquire()V:311 - ReplaceComparisonOperator == -> <=
+54	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.getLastAcquiresPerPeriod()I:341 - InsertUnaryOp Negation
+55	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.getLastAcquiresPerPeriod()I:341 - InsertUnaryOp +1
+56	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.getLastAcquiresPerPeriod()I:341 - InsertUnaryOp -1
+57	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.getAcquireCount()I:351 - InsertUnaryOp Negation
+58	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.getAcquireCount()I:351 - InsertUnaryOp +1
+59	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.getAcquireCount()I:351 - InsertUnaryOp -1
+60	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.getAvailablePermits()I:366 - ReplaceArithmeticOperator - -> +
+61	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.getAvailablePermits()I:366 - ReplaceArithmeticOperator - -> %
+62	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.getAvailablePermits()I:366 - ReplaceArithmeticOperator - -> *
+63	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.getAvailablePermits()I:366 - ReplaceArithmeticOperator - -> /
+64	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.getAverageCallsPerPeriod()D:379 - InsertUnaryOp Negation
+65	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.getAverageCallsPerPeriod()D:379 - ReplaceConstant - 0 -> 1
+66	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.getAverageCallsPerPeriod()D:379 - ReplaceConstant - 0 -> -1
+67	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.getAverageCallsPerPeriod()D:379 - ReplaceComparisonOperator != -> -1
+68	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.getAverageCallsPerPeriod()D:379 - ReplaceComparisonOperator != -> <
+69	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.getAverageCallsPerPeriod()D:379 - ReplaceComparisonOperator != -> >
+70	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.getAverageCallsPerPeriod()D:379 - ReplaceConstant - 0.0 -> 1.0
+71	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.getAverageCallsPerPeriod()D:379 - ReplaceConstant - 0.0 -> -1.0
+72	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.getAverageCallsPerPeriod()D:379 - InsertUnaryOp Negation
+73	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.getAverageCallsPerPeriod()D:379 - InsertUnaryOp Negation
+74	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.getAverageCallsPerPeriod()D:379 - ReplaceArithmeticOperator / -> +
+75	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.getAverageCallsPerPeriod()D:379 - ReplaceArithmeticOperator / -> %
+76	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.getAverageCallsPerPeriod()D:379 - ReplaceArithmeticOperator / -> -
+77	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.getAverageCallsPerPeriod()D:379 - ReplaceArithmeticOperator / -> *
+78	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.getPeriod()J:391 - InsertUnaryOp Negation
+79	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:434 - InsertUnaryOp Negation
+80	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:434 - InsertUnaryOp +1
+81	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:434 - InsertUnaryOp -1
+82	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:435 - InsertUnaryOp Negation
+83	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:435 - InsertUnaryOp Negation
+84	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:435 - InsertUnaryOp +1
+85	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:435 - InsertUnaryOp -1
+86	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:435 - ReplaceArithmeticOperator + -> %
+87	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:435 - ReplaceArithmeticOperator + -> -
+88	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:435 - ReplaceArithmeticOperator + -> *
+89	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:435 - ReplaceArithmeticOperator + -> /
+90	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:436 - InsertUnaryOp Negation
+91	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:436 - ReplaceConstant - 1 -> 0
+92	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:436 - ReplaceConstant - 1 -> -1
+93	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:436 - ReplaceConstant - 1 -> 2
+94	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:436 - ReplaceArithmeticOperator + -> %
+95	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:436 - ReplaceArithmeticOperator + -> -
+96	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:436 - ReplaceArithmeticOperator + -> *
+97	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:436 - ReplaceArithmeticOperator + -> /
+98	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.endOfPeriod()V:437 - ReplaceConstant - 0 -> 1
+99	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.prepareAcquire()V:446 - ReplaceComparisonOperator == -> -2
+100	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.prepareAcquire()V:446 - ReplaceComparisonOperator == -> >=
+101	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.prepareAcquire()V:446 - ReplaceComparisonOperator == -> <=
+102	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.prepareAcquire()V:447 - ReplaceConstant - TimedSemaphore is shut down! -> 
+103	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.prepareAcquire()V:450 - ReplaceComparisonOperator != null -> = null
+104	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:464 - ReplaceComparisonOperator <= -> -1
+105	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:464 - ReplaceComparisonOperator <= -> ==
+106	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:464 - ReplaceComparisonOperator <= -> <
+107	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:464 - InsertUnaryOp Negation
+108	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:464 - InsertUnaryOp +1
+109	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:464 - InsertUnaryOp -1
+110	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:464 - ReplaceComparisonOperator >= -> -1
+111	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:464 - ReplaceComparisonOperator >= -> >
+112	ReplaceComparisonOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:464 - ReplaceComparisonOperator >= -> ==
+113	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:465 - InsertUnaryOp Negation
+114	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:465 - InsertUnaryOp +1
+115	InsertUnaryOp	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:465 - InsertUnaryOp -1
+116	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:465 - ReplaceConstant - 1 -> 0
+117	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:465 - ReplaceArithmeticOperator + -> %
+118	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:465 - ReplaceArithmeticOperator + -> -
+119	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:465 - ReplaceArithmeticOperator + -> *
+120	ReplaceArithmeticOperator	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:465 - ReplaceArithmeticOperator + -> /
+121	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:466 - ReplaceConstant - 1 -> 0
+122	ReplaceConstant	org.apache.commons.lang3.concurrent.TimedSemaphore.acquirePermit()Z:468 - ReplaceConstant - 0 -> 1

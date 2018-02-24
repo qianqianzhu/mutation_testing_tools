@@ -1,0 +1,81 @@
+0	InsertUnaryOp	org.dynjs.parser.ast.PreOpExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:43 - InsertUnaryOp Negation of strict
+1	InsertUnaryOp	org.dynjs.parser.ast.PreOpExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:43 - InsertUnaryOp IINC 1 strict
+2	InsertUnaryOp	org.dynjs.parser.ast.PreOpExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:43 - InsertUnaryOp IINC -1 strict
+3	InsertUnaryOp	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:48 - InsertUnaryOp Negation of debug
+4	InsertUnaryOp	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:48 - InsertUnaryOp IINC 1 debug
+5	InsertUnaryOp	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:48 - InsertUnaryOp IINC -1 debug
+6	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:50 - ReplaceComparisonOperator == -> -2
+7	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:50 - ReplaceComparisonOperator == -> >=
+8	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:50 - ReplaceComparisonOperator == -> <=
+9	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:51 - ReplaceComparisonOperator == -> -2
+10	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:51 - ReplaceComparisonOperator == -> >=
+11	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:51 - ReplaceComparisonOperator == -> <=
+12	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:52 - ReplaceComparisonOperator == -> -2
+13	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:52 - ReplaceComparisonOperator == -> >=
+14	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:52 - ReplaceComparisonOperator == -> <=
+15	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:53 - ReplaceConstant - arguments -> 
+16	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:53 - ReplaceComparisonOperator != -> -1
+17	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:53 - ReplaceComparisonOperator != -> <
+18	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:53 - ReplaceComparisonOperator != -> >
+19	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:53 - ReplaceConstant - eval -> 
+20	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:53 - ReplaceComparisonOperator == -> -2
+21	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:53 - ReplaceComparisonOperator == -> >=
+22	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:53 - ReplaceComparisonOperator == -> <=
+23	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:54 - ReplaceConstant - invalid assignment:  -> 
+24	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:62 - ReplaceComparisonOperator == -> -2
+25	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:62 - ReplaceComparisonOperator == -> >=
+26	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:62 - ReplaceComparisonOperator == -> <=
+27	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:63 - ReplaceConstant - -1 -> 0
+28	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:63 - ReplaceConstant - -1 -> 1
+29	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:63 - ReplaceConstant - -1 -> -2
+30	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:63 - ReplaceConstant - ++ -> 
+31	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:63 - ReplaceComparisonOperator == -> -2
+32	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:63 - ReplaceComparisonOperator == -> >=
+33	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:63 - ReplaceComparisonOperator == -> <=
+34	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:63 - ReplaceConstant - 0 -> 1
+35	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:63 - ReplaceConstant - -- -> 
+36	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:63 - ReplaceComparisonOperator == -> -2
+37	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:63 - ReplaceComparisonOperator == -> >=
+38	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:63 - ReplaceComparisonOperator == -> <=
+39	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:63 - ReplaceConstant - 1 -> 0
+40	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:65 - ReplaceConstant - 1.0 -> 0.0
+41	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:65 - ReplaceConstant - 1.0 -> -1.0
+42	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:65 - ReplaceConstant - 1.0 -> 2.0
+43	ReplaceArithmeticOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:65 - ReplaceArithmeticOperator + -> %
+44	ReplaceArithmeticOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:65 - ReplaceArithmeticOperator + -> -
+45	ReplaceArithmeticOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:65 - ReplaceArithmeticOperator + -> *
+46	ReplaceArithmeticOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:65 - ReplaceArithmeticOperator + -> /
+47	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:68 - ReplaceConstant - 1.0 -> 0.0
+48	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:68 - ReplaceConstant - 1.0 -> -1.0
+49	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:68 - ReplaceConstant - 1.0 -> 2.0
+50	ReplaceArithmeticOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:68 - ReplaceArithmeticOperator - -> +
+51	ReplaceArithmeticOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:68 - ReplaceArithmeticOperator - -> %
+52	ReplaceArithmeticOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:68 - ReplaceArithmeticOperator - -> *
+53	ReplaceArithmeticOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:68 - ReplaceArithmeticOperator - -> /
+54	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:72 - ReplaceConstant - -1 -> 0
+55	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:72 - ReplaceConstant - -1 -> 1
+56	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:72 - ReplaceConstant - -1 -> -2
+57	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:72 - ReplaceConstant - ++ -> 
+58	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:72 - ReplaceComparisonOperator == -> -2
+59	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:72 - ReplaceComparisonOperator == -> >=
+60	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:72 - ReplaceComparisonOperator == -> <=
+61	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:72 - ReplaceConstant - 0 -> 1
+62	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:72 - ReplaceConstant - -- -> 
+63	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:72 - ReplaceComparisonOperator == -> -2
+64	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:72 - ReplaceComparisonOperator == -> >=
+65	ReplaceComparisonOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:72 - ReplaceComparisonOperator == -> <=
+66	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:72 - ReplaceConstant - 1 -> 0
+67	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:74 - ReplaceConstant - 1 -> 0
+68	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:74 - ReplaceConstant - 1 -> -1
+69	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:74 - ReplaceConstant - 1 -> 2
+70	ReplaceArithmeticOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:74 - ReplaceArithmeticOperator + -> %
+71	ReplaceArithmeticOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:74 - ReplaceArithmeticOperator + -> -
+72	ReplaceArithmeticOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:74 - ReplaceArithmeticOperator + -> *
+73	ReplaceArithmeticOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:74 - ReplaceArithmeticOperator + -> /
+74	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:77 - ReplaceConstant - 1 -> 0
+75	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:77 - ReplaceConstant - 1 -> -1
+76	ReplaceConstant	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:77 - ReplaceConstant - 1 -> 2
+77	ReplaceArithmeticOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:77 - ReplaceArithmeticOperator - -> +
+78	ReplaceArithmeticOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:77 - ReplaceArithmeticOperator - -> %
+79	ReplaceArithmeticOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:77 - ReplaceArithmeticOperator - -> *
+80	ReplaceArithmeticOperator	org.dynjs.parser.ast.PreOpExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:77 - ReplaceArithmeticOperator - -> /

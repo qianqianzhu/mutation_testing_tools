@@ -1,0 +1,28 @@
+0	ReplaceConstant	com.graphhopper.util.ConfigMap.<init>()V:35 - ReplaceConstant - 5 -> 0
+1	ReplaceConstant	com.graphhopper.util.ConfigMap.<init>()V:35 - ReplaceConstant - 5 -> 1
+2	ReplaceConstant	com.graphhopper.util.ConfigMap.<init>()V:35 - ReplaceConstant - 5 -> -1
+3	ReplaceConstant	com.graphhopper.util.ConfigMap.<init>()V:35 - ReplaceConstant - 5 -> 4
+4	ReplaceConstant	com.graphhopper.util.ConfigMap.<init>()V:35 - ReplaceConstant - 5 -> 6
+5	InsertUnaryOp	com.graphhopper.util.ConfigMap.<init>(I)V:39 - InsertUnaryOp Negation of capacity
+6	InsertUnaryOp	com.graphhopper.util.ConfigMap.<init>(I)V:39 - InsertUnaryOp IINC 1 capacity
+7	InsertUnaryOp	com.graphhopper.util.ConfigMap.<init>(I)V:39 - InsertUnaryOp IINC -1 capacity
+8	ReplaceComparisonOperator	com.graphhopper.util.ConfigMap.checkKey(Ljava/lang/String;)Ljava/lang/String;:52 - ReplaceComparisonOperator != -> -1
+9	ReplaceComparisonOperator	com.graphhopper.util.ConfigMap.checkKey(Ljava/lang/String;)Ljava/lang/String;:52 - ReplaceComparisonOperator != -> <
+10	ReplaceComparisonOperator	com.graphhopper.util.ConfigMap.checkKey(Ljava/lang/String;)Ljava/lang/String;:52 - ReplaceComparisonOperator != -> >
+11	ReplaceConstant	com.graphhopper.util.ConfigMap.checkKey(Ljava/lang/String;)Ljava/lang/String;:53 - ReplaceConstant - keys have to be lower case but wasn't:  -> 
+12	ReplaceComparisonOperator	com.graphhopper.util.ConfigMap.put(Ljava/lang/String;Ljava/lang/Object;)Lcom/graphhopper/util/ConfigMap;:58 - ReplaceComparisonOperator != null -> = null
+13	ReplaceConstant	com.graphhopper.util.ConfigMap.put(Ljava/lang/String;Ljava/lang/Object;)Lcom/graphhopper/util/ConfigMap;:59 - ReplaceConstant - Value cannot be null for key  -> 
+14	ReplaceConstant	com.graphhopper.util.ConfigMap.put(Ljava/lang/String;Ljava/lang/Object;)Lcom/graphhopper/util/ConfigMap;:59 - ReplaceConstant - . Use remove instead. -> 
+15	ReplaceComparisonOperator	com.graphhopper.util.ConfigMap.getLong(Ljava/lang/String;J)J:76 - ReplaceComparisonOperator != null -> = null
+16	InsertUnaryOp	com.graphhopper.util.ConfigMap.getLong(Ljava/lang/String;J)J:77 - InsertUnaryOp Negation of _default
+17	ReplaceComparisonOperator	com.graphhopper.util.ConfigMap.getInt(Ljava/lang/String;I)I:83 - ReplaceComparisonOperator != null -> = null
+18	InsertUnaryOp	com.graphhopper.util.ConfigMap.getInt(Ljava/lang/String;I)I:84 - InsertUnaryOp Negation of _default
+19	InsertUnaryOp	com.graphhopper.util.ConfigMap.getInt(Ljava/lang/String;I)I:84 - InsertUnaryOp IINC 1 _default
+20	InsertUnaryOp	com.graphhopper.util.ConfigMap.getInt(Ljava/lang/String;I)I:84 - InsertUnaryOp IINC -1 _default
+21	ReplaceComparisonOperator	com.graphhopper.util.ConfigMap.getBool(Ljava/lang/String;Z)Z:90 - ReplaceComparisonOperator != null -> = null
+22	InsertUnaryOp	com.graphhopper.util.ConfigMap.getBool(Ljava/lang/String;Z)Z:91 - InsertUnaryOp Negation of _default
+23	InsertUnaryOp	com.graphhopper.util.ConfigMap.getBool(Ljava/lang/String;Z)Z:91 - InsertUnaryOp IINC 1 _default
+24	InsertUnaryOp	com.graphhopper.util.ConfigMap.getBool(Ljava/lang/String;Z)Z:91 - InsertUnaryOp IINC -1 _default
+25	ReplaceComparisonOperator	com.graphhopper.util.ConfigMap.getDouble(Ljava/lang/String;D)D:97 - ReplaceComparisonOperator != null -> = null
+26	InsertUnaryOp	com.graphhopper.util.ConfigMap.getDouble(Ljava/lang/String;D)D:98 - InsertUnaryOp Negation of _default
+27	ReplaceComparisonOperator	com.graphhopper.util.ConfigMap.get(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;:104 - ReplaceComparisonOperator != null -> = null

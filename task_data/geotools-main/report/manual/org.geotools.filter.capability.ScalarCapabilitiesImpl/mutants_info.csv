@@ -1,0 +1,128 @@
+0	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.<init>()V:41 - ReplaceConstant - 0 -> 1
+1	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.<init>(Lorg/opengis/filter/capability/ComparisonOperators;Lorg/opengis/filter/capability/ArithmeticOperators;Z)V:48 - InsertUnaryOp Negation of logicalOperators
+2	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.<init>(Lorg/opengis/filter/capability/ComparisonOperators;Lorg/opengis/filter/capability/ArithmeticOperators;Z)V:48 - InsertUnaryOp IINC 1 logicalOperators
+3	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.<init>(Lorg/opengis/filter/capability/ComparisonOperators;Lorg/opengis/filter/capability/ArithmeticOperators;Z)V:48 - InsertUnaryOp IINC -1 logicalOperators
+4	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.<init>(Lorg/opengis/filter/capability/ScalarCapabilities;)V:52 - ReplaceComparisonOperator != null -> = null
+5	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.<init>(Lorg/opengis/filter/capability/ScalarCapabilities;)V:56 - ReplaceComparisonOperator != null -> = null
+6	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.setLogicalOperators(Z)V:79 - InsertUnaryOp Negation of logicalOperators
+7	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.setLogicalOperators(Z)V:79 - InsertUnaryOp IINC 1 logicalOperators
+8	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.setLogicalOperators(Z)V:79 - InsertUnaryOp IINC -1 logicalOperators
+9	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.hasLogicalOperators()Z:82 - InsertUnaryOp Negation
+10	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.toComparisonOperatorsImpl(Lorg/opengis/filter/capability/ComparisonOperators;)Lorg/geotools/filter/capability/ComparisonOperatorsImpl;:87 - ReplaceComparisonOperator != null -> = null
+11	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.toComparisonOperatorsImpl(Lorg/opengis/filter/capability/ComparisonOperators;)Lorg/geotools/filter/capability/ComparisonOperatorsImpl;:90 - ReplaceComparisonOperator == -> -2
+12	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.toComparisonOperatorsImpl(Lorg/opengis/filter/capability/ComparisonOperators;)Lorg/geotools/filter/capability/ComparisonOperatorsImpl;:90 - ReplaceComparisonOperator == -> >=
+13	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.toComparisonOperatorsImpl(Lorg/opengis/filter/capability/ComparisonOperators;)Lorg/geotools/filter/capability/ComparisonOperatorsImpl;:90 - ReplaceComparisonOperator == -> <=
+14	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.toArithmeticOperatorsImpl(Lorg/opengis/filter/capability/ArithmeticOperators;)Lorg/geotools/filter/capability/ArithmeticOperatorsImpl;:98 - ReplaceComparisonOperator != null -> = null
+15	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.toArithmeticOperatorsImpl(Lorg/opengis/filter/capability/ArithmeticOperators;)Lorg/geotools/filter/capability/ArithmeticOperatorsImpl;:100 - ReplaceComparisonOperator == -> -2
+16	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.toArithmeticOperatorsImpl(Lorg/opengis/filter/capability/ArithmeticOperators;)Lorg/geotools/filter/capability/ArithmeticOperatorsImpl;:100 - ReplaceComparisonOperator == -> >=
+17	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.toArithmeticOperatorsImpl(Lorg/opengis/filter/capability/ArithmeticOperators;)Lorg/geotools/filter/capability/ArithmeticOperatorsImpl;:100 - ReplaceComparisonOperator == -> <=
+18	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.addAll(Lorg/opengis/filter/capability/ScalarCapabilities;)V:107 - ReplaceComparisonOperator != null -> = null
+19	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.addAll(Lorg/opengis/filter/capability/ScalarCapabilities;)V:108 - ReplaceComparisonOperator = null -> != null
+20	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.addAll(Lorg/opengis/filter/capability/ScalarCapabilities;)V:111 - ReplaceComparisonOperator = null -> != null
+21	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.addAll(Lorg/opengis/filter/capability/ScalarCapabilities;)V:114 - ReplaceConstant - 1 -> 0
+22	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.addAll(Lorg/opengis/filter/capability/ScalarCapabilities;)V:114 - ReplaceComparisonOperator != -> -1
+23	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.addAll(Lorg/opengis/filter/capability/ScalarCapabilities;)V:114 - ReplaceComparisonOperator != -> <
+24	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.addAll(Lorg/opengis/filter/capability/ScalarCapabilities;)V:114 - ReplaceComparisonOperator != -> >
+25	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.addAll(Lorg/opengis/filter/capability/ScalarCapabilities;)V:115 - ReplaceConstant - 1 -> 0
+26	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:121 - ReplaceConstant - 31 -> 0
+27	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:121 - ReplaceConstant - 31 -> 1
+28	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:121 - ReplaceConstant - 31 -> -1
+29	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:121 - ReplaceConstant - 31 -> 30
+30	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:121 - ReplaceConstant - 31 -> 32
+31	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:122 - ReplaceConstant - 1 -> 0
+32	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:123 - ReplaceConstant - 31 -> 0
+33	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:123 - ReplaceConstant - 31 -> 1
+34	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:123 - ReplaceConstant - 31 -> -1
+35	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:123 - ReplaceConstant - 31 -> 30
+36	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:123 - ReplaceConstant - 31 -> 32
+37	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:123 - InsertUnaryOp Negation of result
+38	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:123 - InsertUnaryOp IINC 1 result
+39	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:123 - InsertUnaryOp IINC -1 result
+40	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:123 - ReplaceArithmeticOperator * -> +
+41	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:123 - ReplaceArithmeticOperator * -> %
+42	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:123 - ReplaceArithmeticOperator * -> -
+43	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:123 - ReplaceArithmeticOperator * -> /
+44	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:123 - ReplaceComparisonOperator != null -> = null
+45	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:123 - ReplaceConstant - 0 -> 1
+46	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:124 - ReplaceArithmeticOperator + -> %
+47	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:124 - ReplaceArithmeticOperator + -> -
+48	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:124 - ReplaceArithmeticOperator + -> *
+49	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:124 - ReplaceArithmeticOperator + -> /
+50	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:125 - ReplaceConstant - 31 -> 0
+51	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:125 - ReplaceConstant - 31 -> 1
+52	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:125 - ReplaceConstant - 31 -> -1
+53	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:125 - ReplaceConstant - 31 -> 30
+54	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:125 - ReplaceConstant - 31 -> 32
+55	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:125 - InsertUnaryOp Negation of result
+56	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:125 - InsertUnaryOp IINC 1 result
+57	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:125 - InsertUnaryOp IINC -1 result
+58	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:125 - ReplaceArithmeticOperator * -> +
+59	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:125 - ReplaceArithmeticOperator * -> %
+60	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:125 - ReplaceArithmeticOperator * -> -
+61	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:125 - ReplaceArithmeticOperator * -> /
+62	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:125 - ReplaceComparisonOperator != null -> = null
+63	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:125 - ReplaceConstant - 0 -> 1
+64	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:126 - ReplaceArithmeticOperator + -> %
+65	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:126 - ReplaceArithmeticOperator + -> -
+66	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:126 - ReplaceArithmeticOperator + -> *
+67	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:126 - ReplaceArithmeticOperator + -> /
+68	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceConstant - 31 -> 0
+69	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceConstant - 31 -> 1
+70	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceConstant - 31 -> -1
+71	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceConstant - 31 -> 30
+72	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceConstant - 31 -> 32
+73	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - InsertUnaryOp Negation of result
+74	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - InsertUnaryOp IINC 1 result
+75	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - InsertUnaryOp IINC -1 result
+76	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceArithmeticOperator * -> +
+77	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceArithmeticOperator * -> %
+78	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceArithmeticOperator * -> -
+79	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceArithmeticOperator * -> /
+80	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - InsertUnaryOp Negation
+81	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceComparisonOperator == -> -2
+82	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceComparisonOperator == -> >=
+83	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceComparisonOperator == -> <=
+84	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceConstant - 1231 -> 0
+85	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceConstant - 1231 -> 1
+86	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceConstant - 1231 -> -1
+87	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceConstant - 1231 -> 1230
+88	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceConstant - 1231 -> 1232
+89	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceConstant - 1237 -> 0
+90	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceConstant - 1237 -> 1
+91	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceConstant - 1237 -> -1
+92	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceConstant - 1237 -> 1236
+93	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceConstant - 1237 -> 1238
+94	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceArithmeticOperator + -> %
+95	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceArithmeticOperator + -> -
+96	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceArithmeticOperator + -> *
+97	ReplaceArithmeticOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:127 - ReplaceArithmeticOperator + -> /
+98	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:128 - InsertUnaryOp Negation of result
+99	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:128 - InsertUnaryOp IINC 1 result
+100	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.hashCode()I:128 - InsertUnaryOp IINC -1 result
+101	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:133 - ReplaceComparisonOperator != -> ==
+102	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:134 - ReplaceConstant - 1 -> 0
+103	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:135 - ReplaceComparisonOperator != null -> = null
+104	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:136 - ReplaceConstant - 0 -> 1
+105	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:137 - ReplaceComparisonOperator == -> !=
+106	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:138 - ReplaceConstant - 0 -> 1
+107	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:140 - ReplaceComparisonOperator != null -> = null
+108	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:141 - ReplaceComparisonOperator = null -> != null
+109	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:142 - ReplaceConstant - 0 -> 1
+110	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:143 - ReplaceComparisonOperator != -> -1
+111	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:143 - ReplaceComparisonOperator != -> <
+112	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:143 - ReplaceComparisonOperator != -> >
+113	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:144 - ReplaceConstant - 0 -> 1
+114	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:145 - ReplaceComparisonOperator != null -> = null
+115	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:146 - ReplaceComparisonOperator = null -> != null
+116	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:147 - ReplaceConstant - 0 -> 1
+117	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:148 - ReplaceComparisonOperator != -> -1
+118	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:148 - ReplaceComparisonOperator != -> <
+119	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:148 - ReplaceComparisonOperator != -> >
+120	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:149 - ReplaceConstant - 0 -> 1
+121	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:150 - InsertUnaryOp Negation
+122	InsertUnaryOp	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:150 - InsertUnaryOp Negation
+123	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:150 - ReplaceComparisonOperator == -> -2
+124	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:150 - ReplaceComparisonOperator == -> >=
+125	ReplaceComparisonOperator	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:150 - ReplaceComparisonOperator == -> <=
+126	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:151 - ReplaceConstant - 0 -> 1
+127	ReplaceConstant	org.geotools.filter.capability.ScalarCapabilitiesImpl.equals(Ljava/lang/Object;)Z:152 - ReplaceConstant - 1 -> 0

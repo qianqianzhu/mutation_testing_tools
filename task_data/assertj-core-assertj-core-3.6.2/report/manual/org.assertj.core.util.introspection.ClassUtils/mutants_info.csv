@@ -1,0 +1,11 @@
+0	ReplaceComparisonOperator	org.assertj.core.util.introspection.ClassUtils.getAllSuperclasses(Ljava/lang/Class;)Ljava/util/List;:30 - ReplaceComparisonOperator != null -> = null
+1	ReplaceComparisonOperator	org.assertj.core.util.introspection.ClassUtils.getAllSuperclasses(Ljava/lang/Class;)Ljava/util/List;:35 - ReplaceComparisonOperator = null -> != null
+2	ReplaceComparisonOperator	org.assertj.core.util.introspection.ClassUtils.getAllInterfaces(Ljava/lang/Class;)Ljava/util/List;:57 - ReplaceComparisonOperator != null -> = null
+3	ReplaceComparisonOperator	org.assertj.core.util.introspection.ClassUtils.getAllInterfaces(Ljava/lang/Class;Ljava/util/HashSet;)V:72 - ReplaceComparisonOperator = null -> != null
+4	ReplaceConstant	org.assertj.core.util.introspection.ClassUtils.getAllInterfaces(Ljava/lang/Class;Ljava/util/HashSet;)V:75 - ReplaceConstant - 0 -> 1
+5	ReplaceComparisonOperator	org.assertj.core.util.introspection.ClassUtils.getAllInterfaces(Ljava/lang/Class;Ljava/util/HashSet;)V:75 - ReplaceComparisonOperator >= -> -1
+6	ReplaceComparisonOperator	org.assertj.core.util.introspection.ClassUtils.getAllInterfaces(Ljava/lang/Class;Ljava/util/HashSet;)V:75 - ReplaceComparisonOperator >= -> >
+7	ReplaceComparisonOperator	org.assertj.core.util.introspection.ClassUtils.getAllInterfaces(Ljava/lang/Class;Ljava/util/HashSet;)V:75 - ReplaceComparisonOperator >= -> ==
+8	ReplaceComparisonOperator	org.assertj.core.util.introspection.ClassUtils.getAllInterfaces(Ljava/lang/Class;Ljava/util/HashSet;)V:76 - ReplaceComparisonOperator == -> -2
+9	ReplaceComparisonOperator	org.assertj.core.util.introspection.ClassUtils.getAllInterfaces(Ljava/lang/Class;Ljava/util/HashSet;)V:76 - ReplaceComparisonOperator == -> >=
+10	ReplaceComparisonOperator	org.assertj.core.util.introspection.ClassUtils.getAllInterfaces(Ljava/lang/Class;Ljava/util/HashSet;)V:76 - ReplaceComparisonOperator == -> <=

@@ -1,0 +1,96 @@
+0	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.initializeRandomness(Lcom/pholser/junit/quickcheck/internal/PropertyParameterContext;Lcom/pholser/junit/quickcheck/random/SourceOfRandomness;)Lcom/pholser/junit/quickcheck/random/SourceOfRandomness;:65 - ReplaceComparisonOperator == -> -2
+1	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.initializeRandomness(Lcom/pholser/junit/quickcheck/internal/PropertyParameterContext;Lcom/pholser/junit/quickcheck/random/SourceOfRandomness;)Lcom/pholser/junit/quickcheck/random/SourceOfRandomness;:65 - ReplaceComparisonOperator == -> >=
+2	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.initializeRandomness(Lcom/pholser/junit/quickcheck/internal/PropertyParameterContext;Lcom/pholser/junit/quickcheck/random/SourceOfRandomness;)Lcom/pholser/junit/quickcheck/random/SourceOfRandomness;:65 - ReplaceComparisonOperator == -> <=
+3	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.generate()Ljava/lang/Object;:75 - ReplaceComparisonOperator != -> -1
+4	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.generate()Ljava/lang/Object;:75 - ReplaceComparisonOperator != -> <
+5	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.generate()Ljava/lang/Object;:75 - ReplaceComparisonOperator != -> >
+6	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.shrink(Ljava/lang/Object;)Ljava/util/List;:82 - ReplaceComparisonOperator == -> -2
+7	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.shrink(Ljava/lang/Object;)Ljava/util/List;:82 - ReplaceComparisonOperator == -> >=
+8	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.shrink(Ljava/lang/Object;)Ljava/util/List;:82 - ReplaceComparisonOperator == -> <=
+9	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:91 - InsertUnaryOp Negation of result
+10	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:91 - InsertUnaryOp IINC 1 result
+11	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:91 - InsertUnaryOp IINC -1 result
+12	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:91 - ReplaceComparisonOperator == -> -2
+13	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:91 - ReplaceComparisonOperator == -> >=
+14	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:91 - ReplaceComparisonOperator == -> <=
+15	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:92 - InsertUnaryOp Negation
+16	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:92 - InsertUnaryOp +1
+17	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:92 - InsertUnaryOp -1
+18	ReplaceConstant	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:92 - ReplaceConstant - 1 -> 0
+19	ReplaceArithmeticOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:92 - ReplaceArithmeticOperator + -> %
+20	ReplaceArithmeticOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:92 - ReplaceArithmeticOperator + -> -
+21	ReplaceArithmeticOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:92 - ReplaceArithmeticOperator + -> *
+22	ReplaceArithmeticOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:92 - ReplaceArithmeticOperator + -> /
+23	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:94 - InsertUnaryOp Negation
+24	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:94 - InsertUnaryOp +1
+25	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:94 - InsertUnaryOp -1
+26	ReplaceConstant	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:94 - ReplaceConstant - 1 -> 0
+27	ReplaceArithmeticOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:94 - ReplaceArithmeticOperator + -> %
+28	ReplaceArithmeticOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:94 - ReplaceArithmeticOperator + -> -
+29	ReplaceArithmeticOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:94 - ReplaceArithmeticOperator + -> *
+30	ReplaceArithmeticOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:94 - ReplaceArithmeticOperator + -> /
+31	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:96 - ReplaceComparisonOperator == -> -2
+32	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:96 - ReplaceComparisonOperator == -> >=
+33	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:96 - ReplaceComparisonOperator == -> <=
+34	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:97 - InsertUnaryOp Negation
+35	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:97 - InsertUnaryOp +1
+36	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:97 - InsertUnaryOp -1
+37	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:97 - InsertUnaryOp Negation
+38	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:97 - InsertUnaryOp +1
+39	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:97 - InsertUnaryOp -1
+40	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:99 - InsertUnaryOp Negation of result
+41	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:99 - InsertUnaryOp IINC 1 result
+42	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.evaluate(Ljava/lang/Object;)Z:99 - InsertUnaryOp IINC -1 result
+43	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:103 - ReplaceComparisonOperator != -> -1
+44	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:103 - ReplaceComparisonOperator != -> <
+45	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:103 - ReplaceComparisonOperator != -> >
+46	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:104 - InsertUnaryOp Negation
+47	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:104 - InsertUnaryOp +1
+48	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:104 - InsertUnaryOp -1
+49	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:104 - ReplaceComparisonOperator <= -> -1
+50	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:104 - ReplaceComparisonOperator <= -> <
+51	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:104 - ReplaceComparisonOperator <= -> ==
+52	ReplaceConstant	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:104 - ReplaceConstant - 1 -> 0
+53	ReplaceConstant	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:104 - ReplaceConstant - 0 -> 1
+54	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:106 - InsertUnaryOp Negation
+55	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:106 - InsertUnaryOp +1
+56	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:106 - InsertUnaryOp -1
+57	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:106 - ReplaceComparisonOperator != -> -1
+58	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:106 - ReplaceComparisonOperator != -> <
+59	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:106 - ReplaceComparisonOperator != -> >
+60	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:106 - InsertUnaryOp Negation
+61	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:106 - InsertUnaryOp +1
+62	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:106 - InsertUnaryOp -1
+63	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:107 - ReplaceComparisonOperator <= -> -1
+64	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:107 - ReplaceComparisonOperator <= -> <
+65	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:107 - ReplaceComparisonOperator <= -> ==
+66	ReplaceConstant	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:107 - ReplaceConstant - 1 -> 0
+67	ReplaceConstant	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:107 - ReplaceConstant - 0 -> 1
+68	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:107 - InsertUnaryOp Negation
+69	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:107 - InsertUnaryOp +1
+70	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:107 - InsertUnaryOp -1
+71	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:107 - InsertUnaryOp Negation
+72	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:107 - InsertUnaryOp +1
+73	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:107 - InsertUnaryOp -1
+74	ReplaceArithmeticOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:107 - ReplaceArithmeticOperator / -> +
+75	ReplaceArithmeticOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:107 - ReplaceArithmeticOperator / -> %
+76	ReplaceArithmeticOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:107 - ReplaceArithmeticOperator / -> -
+77	ReplaceArithmeticOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:107 - ReplaceArithmeticOperator / -> *
+78	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:108 - ReplaceComparisonOperator < -> !=
+79	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:108 - ReplaceComparisonOperator < -> -2
+80	ReplaceComparisonOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:108 - ReplaceComparisonOperator < -> <=
+81	ReplaceConstant	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:108 - ReplaceConstant - 1 -> 0
+82	ReplaceConstant	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.tooManyDiscards()Z:108 - ReplaceConstant - 0 -> 1
+83	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.size()I:113 - InsertUnaryOp Negation of sample
+84	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.size()I:113 - InsertUnaryOp IINC 1 sample
+85	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.size()I:113 - InsertUnaryOp IINC -1 sample
+86	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.attempts()I:117 - InsertUnaryOp Negation
+87	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.attempts()I:117 - InsertUnaryOp +1
+88	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.attempts()I:117 - InsertUnaryOp -1
+89	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.attempts()I:117 - InsertUnaryOp Negation
+90	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.attempts()I:117 - InsertUnaryOp +1
+91	InsertUnaryOp	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.attempts()I:117 - InsertUnaryOp -1
+92	ReplaceArithmeticOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.attempts()I:117 - ReplaceArithmeticOperator + -> %
+93	ReplaceArithmeticOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.attempts()I:117 - ReplaceArithmeticOperator + -> -
+94	ReplaceArithmeticOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.attempts()I:117 - ReplaceArithmeticOperator + -> *
+95	ReplaceArithmeticOperator	com.pholser.junit.quickcheck.internal.generator.PropertyParameterGenerationContext.attempts()I:117 - ReplaceArithmeticOperator + -> /

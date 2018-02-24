@@ -1,0 +1,7 @@
+0	ReplaceConstant	org.geotools.util.NullProgressListener.<init>()V:45 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.geotools.util.NullProgressListener.getProgress()F:70 - ReplaceConstant - 0.0 -> 1.0
+2	ReplaceConstant	org.geotools.util.NullProgressListener.getProgress()F:70 - ReplaceConstant - 0.0 -> -1.0
+3	InsertUnaryOp	org.geotools.util.NullProgressListener.setCanceled(Z)V:82 - InsertUnaryOp Negation of cancel
+4	InsertUnaryOp	org.geotools.util.NullProgressListener.setCanceled(Z)V:82 - InsertUnaryOp IINC 1 cancel
+5	InsertUnaryOp	org.geotools.util.NullProgressListener.setCanceled(Z)V:82 - InsertUnaryOp IINC -1 cancel
+6	InsertUnaryOp	org.geotools.util.NullProgressListener.isCanceled()Z:86 - InsertUnaryOp Negation

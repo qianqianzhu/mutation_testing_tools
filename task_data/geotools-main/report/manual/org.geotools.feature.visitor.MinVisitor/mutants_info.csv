@@ -1,0 +1,30 @@
+0	ReplaceConstant	org.geotools.feature.visitor.MinVisitor.<init>(Ljava/lang/String;)V:44 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.geotools.feature.visitor.MinVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:44 - ReplaceConstant - 0 -> 1
+2	InsertUnaryOp	org.geotools.feature.visitor.MinVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:54 - InsertUnaryOp Negation of attributeTypeIndex
+3	InsertUnaryOp	org.geotools.feature.visitor.MinVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:54 - InsertUnaryOp IINC 1 attributeTypeIndex
+4	InsertUnaryOp	org.geotools.feature.visitor.MinVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:54 - InsertUnaryOp IINC -1 attributeTypeIndex
+5	ReplaceConstant	org.geotools.feature.visitor.MinVisitor.<init>(Ljava/lang/String;Lorg/opengis/feature/simple/SimpleFeatureType;)V:44 - ReplaceConstant - 0 -> 1
+6	ReplaceConstant	org.geotools.feature.visitor.MinVisitor.<init>(Lorg/opengis/filter/expression/Expression;)V:44 - ReplaceConstant - 0 -> 1
+7	ReplaceConstant	org.geotools.feature.visitor.MinVisitor.getExpressions()Ljava/util/List;:73 - ReplaceConstant - 1 -> 0
+8	ReplaceConstant	org.geotools.feature.visitor.MinVisitor.getExpressions()Ljava/util/List;:73 - ReplaceConstant - 0 -> 1
+9	ReplaceComparisonOperator	org.geotools.feature.visitor.MinVisitor.visit(Lorg/opengis/feature/Feature;)V:87 - ReplaceComparisonOperator != null -> = null
+10	InsertUnaryOp	org.geotools.feature.visitor.MinVisitor.visit(Lorg/opengis/feature/Feature;)V:92 - InsertUnaryOp Negation
+11	ReplaceComparisonOperator	org.geotools.feature.visitor.MinVisitor.visit(Lorg/opengis/feature/Feature;)V:92 - ReplaceComparisonOperator == -> -2
+12	ReplaceComparisonOperator	org.geotools.feature.visitor.MinVisitor.visit(Lorg/opengis/feature/Feature;)V:92 - ReplaceComparisonOperator == -> >=
+13	ReplaceComparisonOperator	org.geotools.feature.visitor.MinVisitor.visit(Lorg/opengis/feature/Feature;)V:92 - ReplaceComparisonOperator == -> <=
+14	ReplaceComparisonOperator	org.geotools.feature.visitor.MinVisitor.visit(Lorg/opengis/feature/Feature;)V:92 - ReplaceComparisonOperator >= -> -1
+15	ReplaceComparisonOperator	org.geotools.feature.visitor.MinVisitor.visit(Lorg/opengis/feature/Feature;)V:92 - ReplaceComparisonOperator >= -> ==
+16	ReplaceComparisonOperator	org.geotools.feature.visitor.MinVisitor.visit(Lorg/opengis/feature/Feature;)V:92 - ReplaceComparisonOperator >= -> >
+17	ReplaceConstant	org.geotools.feature.visitor.MinVisitor.visit(Lorg/opengis/feature/Feature;)V:94 - ReplaceConstant - 1 -> 0
+18	InsertUnaryOp	org.geotools.feature.visitor.MinVisitor.getMin()Ljava/lang/Comparable;:109 - InsertUnaryOp Negation
+19	ReplaceComparisonOperator	org.geotools.feature.visitor.MinVisitor.getMin()Ljava/lang/Comparable;:109 - ReplaceComparisonOperator != -> -1
+20	ReplaceComparisonOperator	org.geotools.feature.visitor.MinVisitor.getMin()Ljava/lang/Comparable;:109 - ReplaceComparisonOperator != -> <
+21	ReplaceComparisonOperator	org.geotools.feature.visitor.MinVisitor.getMin()Ljava/lang/Comparable;:109 - ReplaceComparisonOperator != -> >
+22	ReplaceConstant	org.geotools.feature.visitor.MinVisitor.getMin()Ljava/lang/Comparable;:110 - ReplaceConstant - Must visit before min value is ready! -> 
+23	ReplaceConstant	org.geotools.feature.visitor.MinVisitor.reset()V:121 - ReplaceConstant - 0 -> 1
+24	ReplaceConstant	org.geotools.feature.visitor.MinVisitor.reset()V:122 - ReplaceConstant - 0 -> 1
+25	InsertUnaryOp	org.geotools.feature.visitor.MinVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:126 - InsertUnaryOp Negation
+26	ReplaceComparisonOperator	org.geotools.feature.visitor.MinVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:126 - ReplaceComparisonOperator != -> -1
+27	ReplaceComparisonOperator	org.geotools.feature.visitor.MinVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:126 - ReplaceComparisonOperator != -> <
+28	ReplaceComparisonOperator	org.geotools.feature.visitor.MinVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:126 - ReplaceComparisonOperator != -> >
+29	ReplaceConstant	org.geotools.feature.visitor.MinVisitor.setValue(Ljava/lang/Object;)V:148 - ReplaceConstant - 1 -> 0

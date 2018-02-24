@@ -1,0 +1,24 @@
+0	ReplaceArithmeticOperator	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:27 - ReplaceArithmeticOperator - -> +
+1	ReplaceArithmeticOperator	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:27 - ReplaceArithmeticOperator - -> %
+2	ReplaceArithmeticOperator	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:27 - ReplaceArithmeticOperator - -> *
+3	ReplaceArithmeticOperator	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:27 - ReplaceArithmeticOperator - -> /
+4	InsertUnaryOp	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:27 - InsertUnaryOp Negation
+5	ReplaceComparisonOperator	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:27 - ReplaceComparisonOperator >= -> -1
+6	ReplaceComparisonOperator	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:27 - ReplaceComparisonOperator >= -> ==
+7	ReplaceComparisonOperator	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:27 - ReplaceComparisonOperator >= -> >
+8	ReplaceConstant	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:27 - ReplaceConstant - 0 -> 1
+9	ReplaceArithmeticOperator	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceArithmeticOperator - -> +
+10	ReplaceArithmeticOperator	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceArithmeticOperator - -> %
+11	ReplaceArithmeticOperator	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceArithmeticOperator - -> *
+12	ReplaceArithmeticOperator	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceArithmeticOperator - -> /
+13	ReplaceConstant	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceConstant - 0.0 -> 1.0
+14	ReplaceConstant	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceConstant - 0.0 -> -1.0
+15	ReplaceComparisonOperator	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceComparisonOperator <= -> -1
+16	ReplaceComparisonOperator	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceComparisonOperator <= -> ==
+17	ReplaceComparisonOperator	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceComparisonOperator <= -> <
+18	ReplaceConstant	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceConstant - 1 -> 0
+19	ReplaceConstant	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceConstant - -1 -> 0
+20	ReplaceConstant	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceConstant - -1 -> 1
+21	ReplaceConstant	org.assertj.core.api.ComparatorFactory$1.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceConstant - -1 -> -2
+22	ReplaceConstant	org.assertj.core.api.ComparatorFactory$1.toString()Ljava/lang/String;:33 - ReplaceConstant - double comparator at precision  -> 
+23	InsertUnaryOp	org.assertj.core.api.ComparatorFactory$1.toString()Ljava/lang/String;:33 - InsertUnaryOp Negation

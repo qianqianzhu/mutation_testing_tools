@@ -1,0 +1,39 @@
+0	ReplaceConstant	org.assertj.core.data.Offset.offset(Ljava/lang/Number;)Lorg/assertj/core/data/Offset;:39 - ReplaceConstant - 0.0 -> 1.0
+1	ReplaceConstant	org.assertj.core.data.Offset.offset(Ljava/lang/Number;)Lorg/assertj/core/data/Offset;:39 - ReplaceConstant - 0.0 -> -1.0
+2	ReplaceComparisonOperator	org.assertj.core.data.Offset.offset(Ljava/lang/Number;)Lorg/assertj/core/data/Offset;:39 - ReplaceComparisonOperator >= -> -1
+3	ReplaceComparisonOperator	org.assertj.core.data.Offset.offset(Ljava/lang/Number;)Lorg/assertj/core/data/Offset;:39 - ReplaceComparisonOperator >= -> ==
+4	ReplaceComparisonOperator	org.assertj.core.data.Offset.offset(Ljava/lang/Number;)Lorg/assertj/core/data/Offset;:39 - ReplaceComparisonOperator >= -> >
+5	ReplaceConstant	org.assertj.core.data.Offset.valueNotPositive()Ljava/lang/IllegalArgumentException;:46 - ReplaceConstant - The value of the offset should be greater than zero -> 
+6	ReplaceComparisonOperator	org.assertj.core.data.Offset.equals(Ljava/lang/Object;)Z:55 - ReplaceComparisonOperator != -> ==
+7	ReplaceConstant	org.assertj.core.data.Offset.equals(Ljava/lang/Object;)Z:56 - ReplaceConstant - 1 -> 0
+8	ReplaceComparisonOperator	org.assertj.core.data.Offset.equals(Ljava/lang/Object;)Z:58 - ReplaceComparisonOperator != null -> = null
+9	ReplaceConstant	org.assertj.core.data.Offset.equals(Ljava/lang/Object;)Z:59 - ReplaceConstant - 0 -> 1
+10	ReplaceComparisonOperator	org.assertj.core.data.Offset.equals(Ljava/lang/Object;)Z:61 - ReplaceComparisonOperator == -> !=
+11	ReplaceConstant	org.assertj.core.data.Offset.equals(Ljava/lang/Object;)Z:62 - ReplaceConstant - 0 -> 1
+12	ReplaceConstant	org.assertj.core.data.Offset.hashCode()I:70 - ReplaceConstant - 1 -> 0
+13	ReplaceConstant	org.assertj.core.data.Offset.hashCode()I:71 - ReplaceConstant - 31 -> 0
+14	ReplaceConstant	org.assertj.core.data.Offset.hashCode()I:71 - ReplaceConstant - 31 -> 1
+15	ReplaceConstant	org.assertj.core.data.Offset.hashCode()I:71 - ReplaceConstant - 31 -> -1
+16	ReplaceConstant	org.assertj.core.data.Offset.hashCode()I:71 - ReplaceConstant - 31 -> 30
+17	ReplaceConstant	org.assertj.core.data.Offset.hashCode()I:71 - ReplaceConstant - 31 -> 32
+18	InsertUnaryOp	org.assertj.core.data.Offset.hashCode()I:71 - InsertUnaryOp Negation of result
+19	InsertUnaryOp	org.assertj.core.data.Offset.hashCode()I:71 - InsertUnaryOp IINC 1 result
+20	InsertUnaryOp	org.assertj.core.data.Offset.hashCode()I:71 - InsertUnaryOp IINC -1 result
+21	ReplaceArithmeticOperator	org.assertj.core.data.Offset.hashCode()I:71 - ReplaceArithmeticOperator * -> +
+22	ReplaceArithmeticOperator	org.assertj.core.data.Offset.hashCode()I:71 - ReplaceArithmeticOperator * -> %
+23	ReplaceArithmeticOperator	org.assertj.core.data.Offset.hashCode()I:71 - ReplaceArithmeticOperator * -> -
+24	ReplaceArithmeticOperator	org.assertj.core.data.Offset.hashCode()I:71 - ReplaceArithmeticOperator * -> /
+25	ReplaceArithmeticOperator	org.assertj.core.data.Offset.hashCode()I:71 - ReplaceArithmeticOperator + -> %
+26	ReplaceArithmeticOperator	org.assertj.core.data.Offset.hashCode()I:71 - ReplaceArithmeticOperator + -> -
+27	ReplaceArithmeticOperator	org.assertj.core.data.Offset.hashCode()I:71 - ReplaceArithmeticOperator + -> *
+28	ReplaceArithmeticOperator	org.assertj.core.data.Offset.hashCode()I:71 - ReplaceArithmeticOperator + -> /
+29	InsertUnaryOp	org.assertj.core.data.Offset.hashCode()I:72 - InsertUnaryOp Negation of result
+30	InsertUnaryOp	org.assertj.core.data.Offset.hashCode()I:72 - InsertUnaryOp IINC 1 result
+31	InsertUnaryOp	org.assertj.core.data.Offset.hashCode()I:72 - InsertUnaryOp IINC -1 result
+32	ReplaceConstant	org.assertj.core.data.Offset.toString()Ljava/lang/String;:77 - ReplaceConstant - %s[value=%s] -> 
+33	ReplaceConstant	org.assertj.core.data.Offset.toString()Ljava/lang/String;:77 - ReplaceConstant - 2 -> 0
+34	ReplaceConstant	org.assertj.core.data.Offset.toString()Ljava/lang/String;:77 - ReplaceConstant - 2 -> 1
+35	ReplaceConstant	org.assertj.core.data.Offset.toString()Ljava/lang/String;:77 - ReplaceConstant - 2 -> -1
+36	ReplaceConstant	org.assertj.core.data.Offset.toString()Ljava/lang/String;:77 - ReplaceConstant - 2 -> 3
+37	ReplaceConstant	org.assertj.core.data.Offset.toString()Ljava/lang/String;:77 - ReplaceConstant - 0 -> 1
+38	ReplaceConstant	org.assertj.core.data.Offset.toString()Ljava/lang/String;:77 - ReplaceConstant - 1 -> 0

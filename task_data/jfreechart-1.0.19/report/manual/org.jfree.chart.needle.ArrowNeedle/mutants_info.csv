@@ -1,0 +1,107 @@
+0	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.<init>(Z)V:71 - ReplaceConstant - 1 -> 0
+1	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.<init>(Z)V:80 - InsertUnaryOp Negation of isArrowAtTop
+2	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.<init>(Z)V:80 - InsertUnaryOp IINC 1 isArrowAtTop
+3	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.<init>(Z)V:80 - InsertUnaryOp IINC -1 isArrowAtTop
+4	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:98 - ReplaceConstant - 2.0 -> 0.0
+5	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:98 - ReplaceConstant - 2.0 -> 1.0
+6	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:98 - ReplaceConstant - 2.0 -> -1.0
+7	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:98 - ReplaceConstant - 2.0 -> 3.0
+8	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:98 - ReplaceArithmeticOperator / -> +
+9	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:98 - ReplaceArithmeticOperator / -> %
+10	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:98 - ReplaceArithmeticOperator / -> -
+11	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:98 - ReplaceArithmeticOperator / -> *
+12	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:98 - ReplaceArithmeticOperator + -> %
+13	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:98 - ReplaceArithmeticOperator + -> -
+14	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:98 - ReplaceArithmeticOperator + -> *
+15	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:98 - ReplaceArithmeticOperator + -> /
+16	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:101 - InsertUnaryOp Negation of x
+17	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:101 - InsertUnaryOp Negation of minY
+18	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:101 - InsertUnaryOp Negation of x
+19	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:101 - InsertUnaryOp Negation of maxY
+20	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:104 - InsertUnaryOp Negation
+21	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:104 - ReplaceComparisonOperator == -> -2
+22	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:104 - ReplaceComparisonOperator == -> >=
+23	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:104 - ReplaceComparisonOperator == -> <=
+24	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:105 - InsertUnaryOp Negation of x
+25	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:105 - InsertUnaryOp Negation of minY
+26	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:106 - InsertUnaryOp Negation of minY
+27	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:106 - ReplaceConstant - 4 -> 0
+28	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:106 - ReplaceConstant - 4 -> 1
+29	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:106 - ReplaceConstant - 4 -> -1
+30	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:106 - ReplaceConstant - 4 -> 3
+31	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:106 - ReplaceConstant - 4 -> 5
+32	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:106 - ReplaceArithmeticOperator * -> +
+33	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:106 - ReplaceArithmeticOperator * -> %
+34	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:106 - ReplaceArithmeticOperator * -> -
+35	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:106 - ReplaceArithmeticOperator * -> /
+36	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:106 - ReplaceArithmeticOperator + -> %
+37	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:106 - ReplaceArithmeticOperator + -> -
+38	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:106 - ReplaceArithmeticOperator + -> *
+39	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:106 - ReplaceArithmeticOperator + -> /
+40	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:109 - InsertUnaryOp Negation of x
+41	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:109 - InsertUnaryOp Negation of maxY
+42	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:110 - InsertUnaryOp Negation of maxY
+43	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:110 - ReplaceConstant - 4 -> 0
+44	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:110 - ReplaceConstant - 4 -> 1
+45	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:110 - ReplaceConstant - 4 -> -1
+46	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:110 - ReplaceConstant - 4 -> 3
+47	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:110 - ReplaceConstant - 4 -> 5
+48	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:110 - ReplaceArithmeticOperator * -> +
+49	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:110 - ReplaceArithmeticOperator * -> %
+50	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:110 - ReplaceArithmeticOperator * -> -
+51	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:110 - ReplaceArithmeticOperator * -> /
+52	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:110 - ReplaceArithmeticOperator - -> +
+53	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:110 - ReplaceArithmeticOperator - -> %
+54	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:110 - ReplaceArithmeticOperator - -> *
+55	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:110 - ReplaceArithmeticOperator - -> /
+56	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:112 - InsertUnaryOp Negation of x
+57	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:112 - ReplaceArithmeticOperator + -> %
+58	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:112 - ReplaceArithmeticOperator + -> -
+59	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:112 - ReplaceArithmeticOperator + -> *
+60	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:112 - ReplaceArithmeticOperator + -> /
+61	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:112 - InsertUnaryOp Negation of minY
+62	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:113 - InsertUnaryOp Negation of x
+63	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:113 - ReplaceArithmeticOperator - -> +
+64	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:113 - ReplaceArithmeticOperator - -> %
+65	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:113 - ReplaceArithmeticOperator - -> *
+66	ReplaceArithmeticOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:113 - ReplaceArithmeticOperator - -> /
+67	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:113 - InsertUnaryOp Negation of minY
+68	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:116 - ReplaceComparisonOperator = null -> != null
+69	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:116 - InsertUnaryOp Negation of angle
+70	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:116 - ReplaceConstant - 0.0 -> 1.0
+71	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:116 - ReplaceConstant - 0.0 -> -1.0
+72	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:116 - ReplaceComparisonOperator == -> -2
+73	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:116 - ReplaceComparisonOperator == -> >=
+74	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:116 - ReplaceComparisonOperator == -> <=
+75	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:117 - InsertUnaryOp Negation of angle
+76	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:125 - ReplaceComparisonOperator = null -> != null
+77	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:125 - InsertUnaryOp Negation of angle
+78	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:125 - ReplaceConstant - 0.0 -> 1.0
+79	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:125 - ReplaceConstant - 0.0 -> -1.0
+80	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:125 - ReplaceComparisonOperator == -> -2
+81	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:125 - ReplaceComparisonOperator == -> >=
+82	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.drawNeedle(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;D)V:125 - ReplaceComparisonOperator == -> <=
+83	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.equals(Ljava/lang/Object;)Z:144 - ReplaceComparisonOperator != -> ==
+84	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.equals(Ljava/lang/Object;)Z:145 - ReplaceConstant - 1 -> 0
+85	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.equals(Ljava/lang/Object;)Z:147 - ReplaceComparisonOperator != -> -1
+86	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.equals(Ljava/lang/Object;)Z:147 - ReplaceComparisonOperator != -> <
+87	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.equals(Ljava/lang/Object;)Z:147 - ReplaceComparisonOperator != -> >
+88	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.equals(Ljava/lang/Object;)Z:148 - ReplaceConstant - 0 -> 1
+89	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.equals(Ljava/lang/Object;)Z:150 - ReplaceComparisonOperator != -> -1
+90	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.equals(Ljava/lang/Object;)Z:150 - ReplaceComparisonOperator != -> <
+91	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.equals(Ljava/lang/Object;)Z:150 - ReplaceComparisonOperator != -> >
+92	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.equals(Ljava/lang/Object;)Z:151 - ReplaceConstant - 0 -> 1
+93	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.equals(Ljava/lang/Object;)Z:154 - InsertUnaryOp Negation
+94	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.equals(Ljava/lang/Object;)Z:154 - InsertUnaryOp Negation
+95	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.equals(Ljava/lang/Object;)Z:154 - ReplaceComparisonOperator == -> -2
+96	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.equals(Ljava/lang/Object;)Z:154 - ReplaceComparisonOperator == -> >=
+97	ReplaceComparisonOperator	org.jfree.chart.needle.ArrowNeedle.equals(Ljava/lang/Object;)Z:154 - ReplaceComparisonOperator == -> <=
+98	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.equals(Ljava/lang/Object;)Z:155 - ReplaceConstant - 0 -> 1
+99	ReplaceConstant	org.jfree.chart.needle.ArrowNeedle.equals(Ljava/lang/Object;)Z:157 - ReplaceConstant - 1 -> 0
+100	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.hashCode()I:168 - InsertUnaryOp Negation of result
+101	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.hashCode()I:168 - InsertUnaryOp IINC 1 result
+102	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.hashCode()I:168 - InsertUnaryOp IINC -1 result
+103	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.hashCode()I:168 - InsertUnaryOp Negation
+104	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.hashCode()I:169 - InsertUnaryOp Negation of result
+105	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.hashCode()I:169 - InsertUnaryOp IINC 1 result
+106	InsertUnaryOp	org.jfree.chart.needle.ArrowNeedle.hashCode()I:169 - InsertUnaryOp IINC -1 result

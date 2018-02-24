@@ -1,0 +1,31 @@
+0|ReplaceComparisonOperator|br.com.caelum.vraptor.proxy.JavassistProxifier.proxify(Ljava/lang/Class;Lbr/com/caelum/vraptor/proxy/MethodInvocation;)Ljava/lang/Object;:58 - ReplaceComparisonOperator == -> -2
+1|ReplaceComparisonOperator|br.com.caelum.vraptor.proxy.JavassistProxifier.proxify(Ljava/lang/Class;Lbr/com/caelum/vraptor/proxy/MethodInvocation;)Ljava/lang/Object;:58 - ReplaceComparisonOperator == -> >=
+2|ReplaceComparisonOperator|br.com.caelum.vraptor.proxy.JavassistProxifier.proxify(Ljava/lang/Class;Lbr/com/caelum/vraptor/proxy/MethodInvocation;)Ljava/lang/Object;:58 - ReplaceComparisonOperator == -> <=
+3|ReplaceConstant|br.com.caelum.vraptor.proxy.JavassistProxifier.proxify(Ljava/lang/Class;Lbr/com/caelum/vraptor/proxy/MethodInvocation;)Ljava/lang/Object;:59 - ReplaceConstant - 1 -> 0
+4|ReplaceConstant|br.com.caelum.vraptor.proxy.JavassistProxifier.proxify(Ljava/lang/Class;Lbr/com/caelum/vraptor/proxy/MethodInvocation;)Ljava/lang/Object;:59 - ReplaceConstant - 0 -> 1
+5|ReplaceConstant|br.com.caelum.vraptor.proxy.JavassistProxifier.proxify(Ljava/lang/Class;Lbr/com/caelum/vraptor/proxy/MethodInvocation;)Ljava/lang/Object;:65 - ReplaceConstant - a proxy for {} was created as {} -> 
+6|ReplaceConstant|br.com.caelum.vraptor.proxy.JavassistProxifier.createInstance(Ljava/lang/Class;Lbr/com/caelum/vraptor/proxy/MethodInvocation;Ljavassist/util/proxy/ProxyFactory;)Ljava/lang/Object;:74 - ReplaceConstant - An error occurs when create a proxy for type  -> 
+7|ReplaceComparisonOperator|br.com.caelum.vraptor.proxy.JavassistProxifier.extractRawType(Ljava/lang/Class;)Ljava/lang/Class;:80 - ReplaceComparisonOperator == -> -2
+8|ReplaceComparisonOperator|br.com.caelum.vraptor.proxy.JavassistProxifier.extractRawType(Ljava/lang/Class;)Ljava/lang/Class;:80 - ReplaceComparisonOperator == -> >=
+9|ReplaceComparisonOperator|br.com.caelum.vraptor.proxy.JavassistProxifier.extractRawType(Ljava/lang/Class;)Ljava/lang/Class;:80 - ReplaceComparisonOperator == -> <=
+10|ReplaceComparisonOperator|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxy(Ljava/lang/Object;)Z:85 - ReplaceComparisonOperator = null -> != null
+11|ReplaceComparisonOperator|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxy(Ljava/lang/Object;)Z:85 - ReplaceComparisonOperator == -> -2
+12|ReplaceComparisonOperator|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxy(Ljava/lang/Object;)Z:85 - ReplaceComparisonOperator == -> >=
+13|ReplaceComparisonOperator|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxy(Ljava/lang/Object;)Z:85 - ReplaceComparisonOperator == -> <=
+14|ReplaceConstant|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxy(Ljava/lang/Object;)Z:85 - ReplaceConstant - 1 -> 0
+15|ReplaceConstant|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxy(Ljava/lang/Object;)Z:85 - ReplaceConstant - 0 -> 1
+16|ReplaceComparisonOperator|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxyType(Ljava/lang/Class;)Z:90 - ReplaceComparisonOperator != -> -1
+17|ReplaceComparisonOperator|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxyType(Ljava/lang/Class;)Z:90 - ReplaceComparisonOperator != -> <
+18|ReplaceComparisonOperator|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxyType(Ljava/lang/Class;)Z:90 - ReplaceComparisonOperator != -> >
+19|ReplaceComparisonOperator|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxyType(Ljava/lang/Class;)Z:90 - ReplaceComparisonOperator != -> -1
+20|ReplaceComparisonOperator|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxyType(Ljava/lang/Class;)Z:90 - ReplaceComparisonOperator != -> <
+21|ReplaceComparisonOperator|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxyType(Ljava/lang/Class;)Z:90 - ReplaceComparisonOperator != -> >
+22|ReplaceConstant|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxyType(Ljava/lang/Class;)Z:90 - ReplaceConstant - 0 -> 1
+23|ReplaceConstant|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxyType(Ljava/lang/Class;)Z:90 - ReplaceConstant - 1 -> 0
+24|ReplaceConstant|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxyType(Ljava/lang/Class;)Z:91 - ReplaceConstant - Class {} is proxy: {} -> 
+25|InsertUnaryOp|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxyType(Ljava/lang/Class;)Z:91 - InsertUnaryOp Negation of proxy
+26|InsertUnaryOp|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxyType(Ljava/lang/Class;)Z:91 - InsertUnaryOp IINC 1 proxy
+27|InsertUnaryOp|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxyType(Ljava/lang/Class;)Z:91 - InsertUnaryOp IINC -1 proxy
+28|InsertUnaryOp|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxyType(Ljava/lang/Class;)Z:93 - InsertUnaryOp Negation of proxy
+29|InsertUnaryOp|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxyType(Ljava/lang/Class;)Z:93 - InsertUnaryOp IINC 1 proxy
+30|InsertUnaryOp|br.com.caelum.vraptor.proxy.JavassistProxifier.isProxyType(Ljava/lang/Class;)Z:93 - InsertUnaryOp IINC -1 proxy

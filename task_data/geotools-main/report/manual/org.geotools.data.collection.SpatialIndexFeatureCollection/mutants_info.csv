@@ -1,0 +1,157 @@
+0	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.addListener(Lorg/geotools/feature/CollectionListener;)V:89 - ReplaceComparisonOperator != null -> = null
+1	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.removeListener(Lorg/geotools/feature/CollectionListener;)V:97 - ReplaceComparisonOperator != null -> = null
+2	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.fire([Lorg/opengis/feature/simple/SimpleFeature;I)V:104 - ReplaceComparisonOperator = null -> != null
+3	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.fire([Lorg/opengis/feature/simple/SimpleFeature;I)V:104 - ReplaceComparisonOperator == -> -2
+4	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.fire([Lorg/opengis/feature/simple/SimpleFeature;I)V:104 - ReplaceComparisonOperator == -> >=
+5	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.fire([Lorg/opengis/feature/simple/SimpleFeature;I)V:104 - ReplaceComparisonOperator == -> <=
+6	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.fire([Lorg/opengis/feature/simple/SimpleFeature;I)V:107 - InsertUnaryOp Negation of eventType
+7	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.fire([Lorg/opengis/feature/simple/SimpleFeature;I)V:107 - InsertUnaryOp IINC 1 eventType
+8	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.fire([Lorg/opengis/feature/simple/SimpleFeature;I)V:107 - InsertUnaryOp IINC -1 eventType
+9	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.fire([Lorg/opengis/feature/simple/SimpleFeature;I)V:110 - ReplaceConstant - 0 -> 1
+10	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.fire([Lorg/opengis/feature/simple/SimpleFeature;I)V:110 - ReplaceComparisonOperator >= -> -1
+11	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.fire([Lorg/opengis/feature/simple/SimpleFeature;I)V:110 - ReplaceComparisonOperator >= -> >
+12	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.fire([Lorg/opengis/feature/simple/SimpleFeature;I)V:110 - ReplaceComparisonOperator >= -> ==
+13	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.fire([Lorg/opengis/feature/simple/SimpleFeature;I)V:114 - ReplaceConstant - Problem encountered during notification of  -> 
+14	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.features()Lorg/geotools/data/simple/SimpleFeatureIterator;:121 - ReplaceConstant - -Infinity -> 0.0
+15	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.features()Lorg/geotools/data/simple/SimpleFeatureIterator;:121 - ReplaceConstant - -Infinity -> 1.0
+16	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.features()Lorg/geotools/data/simple/SimpleFeatureIterator;:121 - ReplaceConstant - -Infinity -> -1.0
+17	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.features()Lorg/geotools/data/simple/SimpleFeatureIterator;:121 - ReplaceConstant - -Infinity -> -Infinity
+18	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.features()Lorg/geotools/data/simple/SimpleFeatureIterator;:121 - ReplaceConstant - Infinity -> 0.0
+19	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.features()Lorg/geotools/data/simple/SimpleFeatureIterator;:121 - ReplaceConstant - Infinity -> 1.0
+20	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.features()Lorg/geotools/data/simple/SimpleFeatureIterator;:121 - ReplaceConstant - Infinity -> -1.0
+21	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.features()Lorg/geotools/data/simple/SimpleFeatureIterator;:121 - ReplaceConstant - Infinity -> Infinity
+22	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.features()Lorg/geotools/data/simple/SimpleFeatureIterator;:121 - ReplaceConstant - -Infinity -> 0.0
+23	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.features()Lorg/geotools/data/simple/SimpleFeatureIterator;:121 - ReplaceConstant - -Infinity -> 1.0
+24	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.features()Lorg/geotools/data/simple/SimpleFeatureIterator;:121 - ReplaceConstant - -Infinity -> -1.0
+25	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.features()Lorg/geotools/data/simple/SimpleFeatureIterator;:121 - ReplaceConstant - -Infinity -> -Infinity
+26	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.features()Lorg/geotools/data/simple/SimpleFeatureIterator;:121 - ReplaceConstant - Infinity -> 0.0
+27	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.features()Lorg/geotools/data/simple/SimpleFeatureIterator;:121 - ReplaceConstant - Infinity -> 1.0
+28	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.features()Lorg/geotools/data/simple/SimpleFeatureIterator;:121 - ReplaceConstant - Infinity -> -1.0
+29	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.features()Lorg/geotools/data/simple/SimpleFeatureIterator;:121 - ReplaceConstant - Infinity -> Infinity
+30	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:149 - ReplaceComparisonOperator == -> -2
+31	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:149 - ReplaceComparisonOperator == -> >=
+32	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:149 - ReplaceComparisonOperator == -> <=
+33	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:149 - ReplaceComparisonOperator == -> -2
+34	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:149 - ReplaceComparisonOperator == -> >=
+35	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:149 - ReplaceComparisonOperator == -> <=
+36	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:150 - ReplaceConstant - Found no spatial element in  -> 
+37	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:151 - ReplaceConstant - Just going to iterate -> 
+38	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:154 - ReplaceComparisonOperator == -> -2
+39	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:154 - ReplaceComparisonOperator == -> >=
+40	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:154 - ReplaceComparisonOperator == -> <=
+41	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:158 - ReplaceComparisonOperator == -> -2
+42	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:158 - ReplaceComparisonOperator == -> >=
+43	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:158 - ReplaceComparisonOperator == -> <=
+44	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:159 - ReplaceConstant - Looking at  -> 
+45	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:161 - ReplaceComparisonOperator == -> -2
+46	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:161 - ReplaceComparisonOperator == -> >=
+47	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:161 - ReplaceComparisonOperator == -> <=
+48	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:163 - ReplaceComparisonOperator == -> -2
+49	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:163 - ReplaceComparisonOperator == -> >=
+50	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:163 - ReplaceComparisonOperator == -> <=
+51	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:164 - ReplaceConstant - accepting  -> 
+52	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:177 - ReplaceConstant - -Infinity -> 0.0
+53	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:177 - ReplaceConstant - -Infinity -> 1.0
+54	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:177 - ReplaceConstant - -Infinity -> -1.0
+55	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:177 - ReplaceConstant - -Infinity -> -Infinity
+56	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:177 - ReplaceConstant - Infinity -> 0.0
+57	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:177 - ReplaceConstant - Infinity -> 1.0
+58	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:177 - ReplaceConstant - Infinity -> -1.0
+59	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:177 - ReplaceConstant - Infinity -> Infinity
+60	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:177 - ReplaceConstant - -Infinity -> 0.0
+61	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:177 - ReplaceConstant - -Infinity -> 1.0
+62	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:177 - ReplaceConstant - -Infinity -> -1.0
+63	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:177 - ReplaceConstant - -Infinity -> -Infinity
+64	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:177 - ReplaceConstant - Infinity -> 0.0
+65	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:177 - ReplaceConstant - Infinity -> 1.0
+66	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:177 - ReplaceConstant - Infinity -> -1.0
+67	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:177 - ReplaceConstant - Infinity -> Infinity
+68	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:179 - ReplaceComparisonOperator = null -> != null
+69	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:182 - ReplaceConstant - 1 -> 0
+70	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:183 - InsertUnaryOp Negation of size
+71	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:200 - ReplaceConstant - 0 -> 1
+72	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:200 - ReplaceComparisonOperator = null -> != null
+73	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.accepts(Lorg/opengis/feature/FeatureVisitor;Lorg/opengis/util/ProgressListener;)V:201 - ReplaceConstant - 0 -> 1
+74	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.add(Lorg/opengis/feature/simple/SimpleFeature;)Z:210 - ReplaceConstant - 0 -> 1
+75	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.addAll(Ljava/util/Collection;)Z:214 - ReplaceComparisonOperator == -> -2
+76	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.addAll(Ljava/util/Collection;)Z:214 - ReplaceComparisonOperator == -> >=
+77	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.addAll(Ljava/util/Collection;)Z:214 - ReplaceComparisonOperator == -> <=
+78	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.addAll(Ljava/util/Collection;)Z:221 - ReplaceConstant - 0 -> 1
+79	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:228 - ReplaceComparisonOperator == -> -2
+80	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:228 - ReplaceComparisonOperator == -> >=
+81	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:228 - ReplaceComparisonOperator == -> <=
+82	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:239 - ReplaceConstant - 0 -> 1
+83	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.contains(Ljava/lang/Object;)Z:257 - ReplaceComparisonOperator == -> -2
+84	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.contains(Ljava/lang/Object;)Z:257 - ReplaceComparisonOperator == -> >=
+85	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.contains(Ljava/lang/Object;)Z:257 - ReplaceComparisonOperator == -> <=
+86	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.contains(Ljava/lang/Object;)Z:261 - ReplaceComparisonOperator == -> -2
+87	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.contains(Ljava/lang/Object;)Z:261 - ReplaceComparisonOperator == -> >=
+88	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.contains(Ljava/lang/Object;)Z:261 - ReplaceComparisonOperator == -> <=
+89	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.contains(Ljava/lang/Object;)Z:263 - ReplaceComparisonOperator != -> ==
+90	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.contains(Ljava/lang/Object;)Z:264 - ReplaceConstant - 1 -> 0
+91	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.contains(Ljava/lang/Object;)Z:269 - ReplaceConstant - 0 -> 1
+92	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.containsAll(Ljava/util/Collection;)Z:273 - ReplaceConstant - 1 -> 0
+93	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.containsAll(Ljava/util/Collection;)Z:274 - ReplaceComparisonOperator == -> -2
+94	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.containsAll(Ljava/util/Collection;)Z:274 - ReplaceComparisonOperator == -> >=
+95	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.containsAll(Ljava/util/Collection;)Z:274 - ReplaceComparisonOperator == -> <=
+96	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.containsAll(Ljava/util/Collection;)Z:276 - InsertUnaryOp Negation of contains
+97	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.containsAll(Ljava/util/Collection;)Z:276 - InsertUnaryOp IINC 1 contains
+98	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.containsAll(Ljava/util/Collection;)Z:276 - InsertUnaryOp IINC -1 contains
+99	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.containsAll(Ljava/util/Collection;)Z:276 - ReplaceComparisonOperator != -> -1
+100	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.containsAll(Ljava/util/Collection;)Z:276 - ReplaceComparisonOperator != -> <
+101	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.containsAll(Ljava/util/Collection;)Z:276 - ReplaceComparisonOperator != -> >
+102	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.containsAll(Ljava/util/Collection;)Z:277 - ReplaceConstant - 0 -> 1
+103	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.containsAll(Ljava/util/Collection;)Z:281 - InsertUnaryOp Negation of containsAll
+104	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.containsAll(Ljava/util/Collection;)Z:281 - InsertUnaryOp IINC 1 containsAll
+105	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.containsAll(Ljava/util/Collection;)Z:281 - InsertUnaryOp IINC -1 containsAll
+106	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.iterator()Ljava/util/Iterator;:304 - ReplaceConstant - -Infinity -> 0.0
+107	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.iterator()Ljava/util/Iterator;:304 - ReplaceConstant - -Infinity -> 1.0
+108	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.iterator()Ljava/util/Iterator;:304 - ReplaceConstant - -Infinity -> -1.0
+109	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.iterator()Ljava/util/Iterator;:304 - ReplaceConstant - -Infinity -> -Infinity
+110	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.iterator()Ljava/util/Iterator;:304 - ReplaceConstant - Infinity -> 0.0
+111	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.iterator()Ljava/util/Iterator;:304 - ReplaceConstant - Infinity -> 1.0
+112	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.iterator()Ljava/util/Iterator;:304 - ReplaceConstant - Infinity -> -1.0
+113	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.iterator()Ljava/util/Iterator;:304 - ReplaceConstant - Infinity -> Infinity
+114	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.iterator()Ljava/util/Iterator;:304 - ReplaceConstant - -Infinity -> 0.0
+115	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.iterator()Ljava/util/Iterator;:304 - ReplaceConstant - -Infinity -> 1.0
+116	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.iterator()Ljava/util/Iterator;:304 - ReplaceConstant - -Infinity -> -1.0
+117	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.iterator()Ljava/util/Iterator;:304 - ReplaceConstant - -Infinity -> -Infinity
+118	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.iterator()Ljava/util/Iterator;:304 - ReplaceConstant - Infinity -> 0.0
+119	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.iterator()Ljava/util/Iterator;:304 - ReplaceConstant - Infinity -> 1.0
+120	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.iterator()Ljava/util/Iterator;:304 - ReplaceConstant - Infinity -> -1.0
+121	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.iterator()Ljava/util/Iterator;:304 - ReplaceConstant - Infinity -> Infinity
+122	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.remove(Ljava/lang/Object;)Z:314 - ReplaceConstant - Cannot remove items from STRtree -> 
+123	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.removeAll(Ljava/util/Collection;)Z:318 - ReplaceConstant - Cannot remove items from STRtree -> 
+124	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.retainAll(Ljava/util/Collection;)Z:323 - ReplaceConstant - Cannot remove items from STRtree -> 
+125	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:340 - InsertUnaryOp Negation of size
+126	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:340 - InsertUnaryOp IINC 1 size
+127	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:340 - InsertUnaryOp IINC -1 size
+128	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:340 - ReplaceComparisonOperator >= -> -1
+129	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:340 - ReplaceComparisonOperator >= -> >
+130	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:340 - ReplaceComparisonOperator >= -> ==
+131	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:341 - InsertUnaryOp Negation of size
+132	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:341 - InsertUnaryOp IINC 1 size
+133	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:341 - InsertUnaryOp IINC -1 size
+134	ReplaceConstant	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:347 - ReplaceConstant - 0 -> 1
+135	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:347 - InsertUnaryOp Negation of i
+136	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:347 - InsertUnaryOp IINC 1 i
+137	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:347 - InsertUnaryOp IINC -1 i
+138	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:347 - InsertUnaryOp Negation of size
+139	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:347 - InsertUnaryOp IINC 1 size
+140	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:347 - InsertUnaryOp IINC -1 size
+141	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:347 - ReplaceComparisonOperator >= -> -1
+142	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:347 - ReplaceComparisonOperator >= -> >
+143	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:347 - ReplaceComparisonOperator >= -> ==
+144	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:348 - InsertUnaryOp Negation of i
+145	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:348 - InsertUnaryOp IINC 1 i
+146	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:348 - InsertUnaryOp IINC -1 i
+147	ReplaceVariable	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:347 - ReplaceVariable i -> size
+148	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:350 - InsertUnaryOp Negation of size
+149	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:350 - InsertUnaryOp IINC 1 size
+150	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:350 - InsertUnaryOp IINC -1 size
+151	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:350 - ReplaceComparisonOperator <= -> -1
+152	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:350 - ReplaceComparisonOperator <= -> <
+153	ReplaceComparisonOperator	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:350 - ReplaceComparisonOperator <= -> ==
+154	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:351 - InsertUnaryOp Negation of size
+155	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:351 - InsertUnaryOp IINC 1 size
+156	InsertUnaryOp	org.geotools.data.collection.SpatialIndexFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:351 - InsertUnaryOp IINC -1 size

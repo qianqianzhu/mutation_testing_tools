@@ -1,0 +1,199 @@
+0	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.register(Ljava/lang/Class;)V:69 - ReplaceConstant -  doesn't implement ZipExtraField -> 
+1	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.register(Ljava/lang/Class;)V:72 - ReplaceConstant -  is not a concrete class -> 
+2	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.register(Ljava/lang/Class;)V:75 - ReplaceConstant - 's no-arg constructor is not public -> 
+3	ReplaceComparisonOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.createExtraField(Lorg/zeroturnaround/zip/extra/ZipShort;)Lorg/zeroturnaround/zip/extra/ZipExtraField;:91 - ReplaceComparisonOperator = null -> != null
+4	ReplaceComparisonOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:116 - ReplaceComparisonOperator != null -> = null
+5	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:119 - ReplaceConstant - 0 -> 1
+6	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:120 - InsertUnaryOp Negation of start
+7	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:120 - InsertUnaryOp IINC 1 start
+8	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:120 - InsertUnaryOp IINC -1 start
+9	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:120 - ReplaceConstant - 4 -> 0
+10	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:120 - ReplaceConstant - 4 -> 1
+11	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:120 - ReplaceConstant - 4 -> -1
+12	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:120 - ReplaceConstant - 4 -> 3
+13	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:120 - ReplaceConstant - 4 -> 5
+14	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:120 - ReplaceArithmeticOperator - -> +
+15	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:120 - ReplaceArithmeticOperator - -> %
+16	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:120 - ReplaceArithmeticOperator - -> *
+17	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:120 - ReplaceArithmeticOperator - -> /
+18	ReplaceComparisonOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:120 - ReplaceComparisonOperator > -> !=
+19	ReplaceComparisonOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:120 - ReplaceComparisonOperator > -> -2
+20	ReplaceComparisonOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:120 - ReplaceComparisonOperator > -> >=
+21	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:121 - InsertUnaryOp Negation of start
+22	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:121 - InsertUnaryOp IINC 1 start
+23	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:121 - InsertUnaryOp IINC -1 start
+24	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:122 - InsertUnaryOp Negation of start
+25	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:122 - InsertUnaryOp IINC 1 start
+26	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:122 - InsertUnaryOp IINC -1 start
+27	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:122 - ReplaceConstant - 2 -> 0
+28	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:122 - ReplaceConstant - 2 -> 1
+29	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:122 - ReplaceConstant - 2 -> -1
+30	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:122 - ReplaceConstant - 2 -> 3
+31	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:122 - ReplaceArithmeticOperator + -> %
+32	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:122 - ReplaceArithmeticOperator + -> -
+33	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:122 - ReplaceArithmeticOperator + -> *
+34	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:122 - ReplaceArithmeticOperator + -> /
+35	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - InsertUnaryOp Negation of start
+36	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - InsertUnaryOp IINC 1 start
+37	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - InsertUnaryOp IINC -1 start
+38	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - ReplaceConstant - 4 -> 0
+39	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - ReplaceConstant - 4 -> 1
+40	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - ReplaceConstant - 4 -> -1
+41	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - ReplaceConstant - 4 -> 3
+42	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - ReplaceConstant - 4 -> 5
+43	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - ReplaceArithmeticOperator + -> %
+44	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - ReplaceArithmeticOperator + -> -
+45	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - ReplaceArithmeticOperator + -> *
+46	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - ReplaceArithmeticOperator + -> /
+47	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - InsertUnaryOp Negation of length
+48	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - InsertUnaryOp IINC 1 length
+49	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - InsertUnaryOp IINC -1 length
+50	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - ReplaceArithmeticOperator + -> %
+51	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - ReplaceArithmeticOperator + -> -
+52	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - ReplaceArithmeticOperator + -> *
+53	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - ReplaceArithmeticOperator + -> /
+54	ReplaceComparisonOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - ReplaceComparisonOperator <= -> -1
+55	ReplaceComparisonOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - ReplaceComparisonOperator <= -> <
+56	ReplaceComparisonOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:123 - ReplaceComparisonOperator <= -> ==
+57	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - ReplaceConstant - bad extra field starting at  -> 
+58	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - InsertUnaryOp Negation of start
+59	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - InsertUnaryOp IINC 1 start
+60	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - InsertUnaryOp IINC -1 start
+61	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - ReplaceConstant - .  Block length of  -> 
+62	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - InsertUnaryOp Negation of length
+63	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - InsertUnaryOp IINC 1 length
+64	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - InsertUnaryOp IINC -1 length
+65	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - ReplaceConstant -  bytes exceeds remaining data of  -> 
+66	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - InsertUnaryOp Negation of start
+67	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - InsertUnaryOp IINC 1 start
+68	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - InsertUnaryOp IINC -1 start
+69	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - ReplaceArithmeticOperator - -> +
+70	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - ReplaceArithmeticOperator - -> %
+71	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - ReplaceArithmeticOperator - -> *
+72	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - ReplaceArithmeticOperator - -> /
+73	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - ReplaceConstant - 4 -> 0
+74	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - ReplaceConstant - 4 -> 1
+75	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - ReplaceConstant - 4 -> -1
+76	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - ReplaceConstant - 4 -> 3
+77	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - ReplaceConstant - 4 -> 5
+78	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - ReplaceArithmeticOperator - -> +
+79	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - ReplaceArithmeticOperator - -> %
+80	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - ReplaceArithmeticOperator - -> *
+81	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - ReplaceArithmeticOperator - -> /
+82	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:124 - ReplaceConstant -  bytes. -> 
+83	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:133 - InsertUnaryOp Negation of start
+84	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:133 - InsertUnaryOp IINC 1 start
+85	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:133 - InsertUnaryOp IINC -1 start
+86	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:133 - ReplaceConstant - 4 -> 0
+87	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:133 - ReplaceConstant - 4 -> 1
+88	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:133 - ReplaceConstant - 4 -> -1
+89	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:133 - ReplaceConstant - 4 -> 3
+90	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:133 - ReplaceConstant - 4 -> 5
+91	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:133 - ReplaceArithmeticOperator + -> %
+92	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:133 - ReplaceArithmeticOperator + -> -
+93	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:133 - ReplaceArithmeticOperator + -> *
+94	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:133 - ReplaceArithmeticOperator + -> /
+95	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:133 - InsertUnaryOp Negation of length
+96	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:133 - InsertUnaryOp IINC 1 length
+97	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:133 - InsertUnaryOp IINC -1 length
+98	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - InsertUnaryOp Negation of start
+99	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - InsertUnaryOp IINC 1 start
+100	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - InsertUnaryOp IINC -1 start
+101	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - InsertUnaryOp Negation of length
+102	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - InsertUnaryOp IINC 1 length
+103	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - InsertUnaryOp IINC -1 length
+104	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - ReplaceConstant - 4 -> 0
+105	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - ReplaceConstant - 4 -> 1
+106	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - ReplaceConstant - 4 -> -1
+107	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - ReplaceConstant - 4 -> 3
+108	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - ReplaceConstant - 4 -> 5
+109	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - ReplaceArithmeticOperator + -> %
+110	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - ReplaceArithmeticOperator + -> -
+111	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - ReplaceArithmeticOperator + -> *
+112	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - ReplaceArithmeticOperator + -> /
+113	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - ReplaceArithmeticOperator + -> %
+114	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - ReplaceArithmeticOperator + -> -
+115	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - ReplaceArithmeticOperator + -> *
+116	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.parse([B)Ljava/util/List;:142 - ReplaceArithmeticOperator + -> /
+117	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:157 - ReplaceConstant - 4 -> 0
+118	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:157 - ReplaceConstant - 4 -> 1
+119	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:157 - ReplaceConstant - 4 -> -1
+120	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:157 - ReplaceConstant - 4 -> 3
+121	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:157 - ReplaceConstant - 4 -> 5
+122	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:157 - InsertUnaryOp Negation of regularExtraFieldCount
+123	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:157 - InsertUnaryOp IINC 1 regularExtraFieldCount
+124	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:157 - InsertUnaryOp IINC -1 regularExtraFieldCount
+125	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:157 - ReplaceArithmeticOperator * -> +
+126	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:157 - ReplaceArithmeticOperator * -> %
+127	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:157 - ReplaceArithmeticOperator * -> -
+128	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:157 - ReplaceArithmeticOperator * -> /
+129	ReplaceComparisonOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:158 - ReplaceComparisonOperator == -> -2
+130	ReplaceComparisonOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:158 - ReplaceComparisonOperator == -> >=
+131	ReplaceComparisonOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:158 - ReplaceComparisonOperator == -> <=
+132	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:159 - InsertUnaryOp Negation of sum
+133	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:159 - InsertUnaryOp IINC 1 sum
+134	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:159 - InsertUnaryOp IINC -1 sum
+135	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:159 - ReplaceArithmeticOperator + -> %
+136	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:159 - ReplaceArithmeticOperator + -> -
+137	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:159 - ReplaceArithmeticOperator + -> *
+138	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:159 - ReplaceArithmeticOperator + -> /
+139	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:162 - InsertUnaryOp Negation of sum
+140	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:162 - InsertUnaryOp IINC 1 sum
+141	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:162 - InsertUnaryOp IINC -1 sum
+142	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:163 - ReplaceConstant - 0 -> 1
+143	ReplaceComparisonOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:164 - ReplaceComparisonOperator == -> -2
+144	ReplaceComparisonOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:164 - ReplaceComparisonOperator == -> >=
+145	ReplaceComparisonOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:164 - ReplaceComparisonOperator == -> <=
+146	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:165 - ReplaceConstant - 0 -> 1
+147	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:165 - InsertUnaryOp Negation of start
+148	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:165 - InsertUnaryOp IINC 1 start
+149	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:165 - InsertUnaryOp IINC -1 start
+150	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:165 - ReplaceConstant - 2 -> 0
+151	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:165 - ReplaceConstant - 2 -> 1
+152	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:165 - ReplaceConstant - 2 -> -1
+153	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:165 - ReplaceConstant - 2 -> 3
+154	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:167 - ReplaceConstant - 0 -> 1
+155	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:167 - InsertUnaryOp Negation of start
+156	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:167 - InsertUnaryOp IINC 1 start
+157	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:167 - InsertUnaryOp IINC -1 start
+158	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:167 - ReplaceConstant - 2 -> 0
+159	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:167 - ReplaceConstant - 2 -> 1
+160	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:167 - ReplaceConstant - 2 -> -1
+161	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:167 - ReplaceConstant - 2 -> 3
+162	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:167 - ReplaceArithmeticOperator + -> %
+163	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:167 - ReplaceArithmeticOperator + -> -
+164	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:167 - ReplaceArithmeticOperator + -> *
+165	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:167 - ReplaceArithmeticOperator + -> /
+166	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:167 - ReplaceConstant - 2 -> 0
+167	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:167 - ReplaceConstant - 2 -> 1
+168	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:167 - ReplaceConstant - 2 -> -1
+169	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:167 - ReplaceConstant - 2 -> 3
+170	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:170 - ReplaceConstant - 0 -> 1
+171	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:170 - InsertUnaryOp Negation of start
+172	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:170 - InsertUnaryOp IINC 1 start
+173	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:170 - InsertUnaryOp IINC -1 start
+174	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:170 - ReplaceConstant - 4 -> 0
+175	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:170 - ReplaceConstant - 4 -> 1
+176	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:170 - ReplaceConstant - 4 -> -1
+177	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:170 - ReplaceConstant - 4 -> 3
+178	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:170 - ReplaceConstant - 4 -> 5
+179	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:170 - ReplaceArithmeticOperator + -> %
+180	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:170 - ReplaceArithmeticOperator + -> -
+181	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:170 - ReplaceArithmeticOperator + -> *
+182	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:170 - ReplaceArithmeticOperator + -> /
+183	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:171 - InsertUnaryOp Negation of start
+184	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:171 - InsertUnaryOp IINC 1 start
+185	InsertUnaryOp	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:171 - InsertUnaryOp IINC -1 start
+186	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:171 - ReplaceConstant - 4 -> 0
+187	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:171 - ReplaceConstant - 4 -> 1
+188	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:171 - ReplaceConstant - 4 -> -1
+189	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:171 - ReplaceConstant - 4 -> 3
+190	ReplaceConstant	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:171 - ReplaceConstant - 4 -> 5
+191	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:171 - ReplaceArithmeticOperator + -> %
+192	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:171 - ReplaceArithmeticOperator + -> -
+193	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:171 - ReplaceArithmeticOperator + -> *
+194	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:171 - ReplaceArithmeticOperator + -> /
+195	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:171 - ReplaceArithmeticOperator + -> %
+196	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:171 - ReplaceArithmeticOperator + -> -
+197	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:171 - ReplaceArithmeticOperator + -> *
+198	ReplaceArithmeticOperator	org.zeroturnaround.zip.extra.ExtraFieldUtils.mergeLocalFileDataData(Ljava/util/List;)[B:171 - ReplaceArithmeticOperator + -> /

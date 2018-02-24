@@ -1,0 +1,9 @@
+0	ReplaceConstant	org.dynjs.parser.ast.ThisExpression.toString()Ljava/lang/String;:23 - ReplaceConstant - this -> 
+1	ReplaceConstant	org.dynjs.parser.ast.ThisExpression.getSizeMetric()I:27 - ReplaceConstant - 3 -> 0
+2	ReplaceConstant	org.dynjs.parser.ast.ThisExpression.getSizeMetric()I:27 - ReplaceConstant - 3 -> 1
+3	ReplaceConstant	org.dynjs.parser.ast.ThisExpression.getSizeMetric()I:27 - ReplaceConstant - 3 -> -1
+4	ReplaceConstant	org.dynjs.parser.ast.ThisExpression.getSizeMetric()I:27 - ReplaceConstant - 3 -> 2
+5	ReplaceConstant	org.dynjs.parser.ast.ThisExpression.getSizeMetric()I:27 - ReplaceConstant - 3 -> 4
+6	InsertUnaryOp	org.dynjs.parser.ast.ThisExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:32 - InsertUnaryOp Negation of strict
+7	InsertUnaryOp	org.dynjs.parser.ast.ThisExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:32 - InsertUnaryOp IINC 1 strict
+8	InsertUnaryOp	org.dynjs.parser.ast.ThisExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:32 - InsertUnaryOp IINC -1 strict

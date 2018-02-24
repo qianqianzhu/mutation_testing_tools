@@ -1,0 +1,8 @@
+0	ReplaceConstant	org.dynjs.runtime.linker.js.shadow.ShadowObjectLinker.getShadowObject(Ljava/lang/Object;)Lorg/dynjs/runtime/JSObject;:22 - ReplaceConstant - 1 -> 0
+1	ReplaceComparisonOperator	org.dynjs.runtime.linker.js.shadow.ShadowObjectLinker.getShadowObject(Ljava/lang/Object;Z)Lorg/dynjs/runtime/JSObject;:27 - ReplaceComparisonOperator != null -> = null
+2	InsertUnaryOp	org.dynjs.runtime.linker.js.shadow.ShadowObjectLinker.getShadowObject(Ljava/lang/Object;Z)Lorg/dynjs/runtime/JSObject;:27 - InsertUnaryOp Negation of create
+3	InsertUnaryOp	org.dynjs.runtime.linker.js.shadow.ShadowObjectLinker.getShadowObject(Ljava/lang/Object;Z)Lorg/dynjs/runtime/JSObject;:27 - InsertUnaryOp IINC 1 create
+4	InsertUnaryOp	org.dynjs.runtime.linker.js.shadow.ShadowObjectLinker.getShadowObject(Ljava/lang/Object;Z)Lorg/dynjs/runtime/JSObject;:27 - InsertUnaryOp IINC -1 create
+5	ReplaceComparisonOperator	org.dynjs.runtime.linker.js.shadow.ShadowObjectLinker.getShadowObject(Ljava/lang/Object;Z)Lorg/dynjs/runtime/JSObject;:27 - ReplaceComparisonOperator == -> -2
+6	ReplaceComparisonOperator	org.dynjs.runtime.linker.js.shadow.ShadowObjectLinker.getShadowObject(Ljava/lang/Object;Z)Lorg/dynjs/runtime/JSObject;:27 - ReplaceComparisonOperator == -> >=
+7	ReplaceComparisonOperator	org.dynjs.runtime.linker.js.shadow.ShadowObjectLinker.getShadowObject(Ljava/lang/Object;Z)Lorg/dynjs/runtime/JSObject;:27 - ReplaceComparisonOperator == -> <=

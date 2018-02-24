@@ -1,0 +1,149 @@
+0	ReplaceConstant	org.pac4j.core.client.IndirectClient.<init>()V:31 - ReplaceConstant - 1 -> 0
+1	ReplaceConstant	org.pac4j.core.client.IndirectClient.internalInit(Lorg/pac4j/core/context/WebContext;)V:44 - ReplaceConstant - callbackUrl -> 
+2	ReplaceConstant	org.pac4j.core.client.IndirectClient.internalInit(Lorg/pac4j/core/context/WebContext;)V:45 - ReplaceConstant - urlResolver -> 
+3	ReplaceConstant	org.pac4j.core.client.IndirectClient.internalInit(Lorg/pac4j/core/context/WebContext;)V:46 - ReplaceConstant - ajaxRequestResolver -> 
+4	ReplaceConstant	org.pac4j.core.client.IndirectClient.internalInit(Lorg/pac4j/core/context/WebContext;)V:51 - ReplaceConstant - redirectActionBuilder -> 
+5	ReplaceConstant	org.pac4j.core.client.IndirectClient.internalInit(Lorg/pac4j/core/context/WebContext;)V:52 - ReplaceConstant - credentialsExtractor -> 
+6	ReplaceConstant	org.pac4j.core.client.IndirectClient.internalInit(Lorg/pac4j/core/context/WebContext;)V:53 - ReplaceConstant - authenticator -> 
+7	ReplaceConstant	org.pac4j.core.client.IndirectClient.internalInit(Lorg/pac4j/core/context/WebContext;)V:54 - ReplaceConstant - profileCreator -> 
+8	ReplaceConstant	org.pac4j.core.client.IndirectClient.internalInit(Lorg/pac4j/core/context/WebContext;)V:55 - ReplaceConstant - logoutActionBuilder -> 
+9	ReplaceComparisonOperator	org.pac4j.core.client.IndirectClient.getRedirectAction(Lorg/pac4j/core/context/WebContext;)Lorg/pac4j/core/redirect/RedirectAction;:84 - ReplaceComparisonOperator == -> -2
+10	ReplaceComparisonOperator	org.pac4j.core.client.IndirectClient.getRedirectAction(Lorg/pac4j/core/context/WebContext;)Lorg/pac4j/core/redirect/RedirectAction;:84 - ReplaceComparisonOperator == -> >=
+11	ReplaceComparisonOperator	org.pac4j.core.client.IndirectClient.getRedirectAction(Lorg/pac4j/core/context/WebContext;)Lorg/pac4j/core/redirect/RedirectAction;:84 - ReplaceComparisonOperator == -> <=
+12	ReplaceConstant	org.pac4j.core.client.IndirectClient.getRedirectAction(Lorg/pac4j/core/context/WebContext;)Lorg/pac4j/core/redirect/RedirectAction;:85 - ReplaceConstant - AJAX request detected -> returning 401 -> 
+13	ReplaceConstant	org.pac4j.core.client.IndirectClient.getRedirectAction(Lorg/pac4j/core/context/WebContext;)Lorg/pac4j/core/redirect/RedirectAction;:87 - ReplaceConstant - AJAX request -> 401 -> 
+14	ReplaceConstant	org.pac4j.core.client.IndirectClient.getRedirectAction(Lorg/pac4j/core/context/WebContext;)Lorg/pac4j/core/redirect/RedirectAction;:90 - ReplaceConstant - $attemptedAuthentication -> 
+15	ReplaceComparisonOperator	org.pac4j.core.client.IndirectClient.getRedirectAction(Lorg/pac4j/core/context/WebContext;)Lorg/pac4j/core/redirect/RedirectAction;:91 - ReplaceComparisonOperator == -> -2
+16	ReplaceComparisonOperator	org.pac4j.core.client.IndirectClient.getRedirectAction(Lorg/pac4j/core/context/WebContext;)Lorg/pac4j/core/redirect/RedirectAction;:91 - ReplaceComparisonOperator == -> >=
+17	ReplaceComparisonOperator	org.pac4j.core.client.IndirectClient.getRedirectAction(Lorg/pac4j/core/context/WebContext;)Lorg/pac4j/core/redirect/RedirectAction;:91 - ReplaceComparisonOperator == -> <=
+18	ReplaceConstant	org.pac4j.core.client.IndirectClient.getRedirectAction(Lorg/pac4j/core/context/WebContext;)Lorg/pac4j/core/redirect/RedirectAction;:94 - ReplaceConstant - authentication already tried -> forbidden -> 
+19	ReplaceConstant	org.pac4j.core.client.IndirectClient.cleanRequestedUrl(Lorg/pac4j/core/context/WebContext;)V:101 - ReplaceConstant - pac4jRequestedUrl -> 
+20	ReplaceConstant	org.pac4j.core.client.IndirectClient.cleanAttemptedAuthentication(Lorg/pac4j/core/context/WebContext;)V:105 - ReplaceConstant - $attemptedAuthentication -> 
+21	ReplaceComparisonOperator	org.pac4j.core.client.IndirectClient.getCredentials(Lorg/pac4j/core/context/WebContext;)Lorg/pac4j/core/credentials/Credentials;:125 - ReplaceComparisonOperator != null -> = null
+22	ReplaceConstant	org.pac4j.core.client.IndirectClient.getCredentials(Lorg/pac4j/core/context/WebContext;)Lorg/pac4j/core/credentials/Credentials;:126 - ReplaceConstant - $attemptedAuthentication -> 
+23	ReplaceConstant	org.pac4j.core.client.IndirectClient.getCredentials(Lorg/pac4j/core/context/WebContext;)Lorg/pac4j/core/credentials/Credentials;:126 - ReplaceConstant - true -> 
+24	InsertUnaryOp	org.pac4j.core.client.IndirectClient.isIncludeClientNameInCallbackUrl()Z:144 - InsertUnaryOp Negation
+25	InsertUnaryOp	org.pac4j.core.client.IndirectClient.setIncludeClientNameInCallbackUrl(Z)V:148 - InsertUnaryOp Negation of includeClientNameInCallbackUrl
+26	InsertUnaryOp	org.pac4j.core.client.IndirectClient.setIncludeClientNameInCallbackUrl(Z)V:148 - InsertUnaryOp IINC 1 includeClientNameInCallbackUrl
+27	InsertUnaryOp	org.pac4j.core.client.IndirectClient.setIncludeClientNameInCallbackUrl(Z)V:148 - InsertUnaryOp IINC -1 includeClientNameInCallbackUrl
+28	ReplaceComparisonOperator	org.pac4j.core.client.IndirectClient.defaultRedirectActionBuilder(Lorg/pac4j/core/redirect/RedirectActionBuilder;)V:198 - ReplaceComparisonOperator != null -> = null
+29	ReplaceComparisonOperator	org.pac4j.core.client.IndirectClient.defaultLogoutActionBuilder(Lorg/pac4j/core/logout/LogoutActionBuilder;)V:208 - ReplaceComparisonOperator = null -> != null
+30	ReplaceComparisonOperator	org.pac4j.core.client.IndirectClient.defaultLogoutActionBuilder(Lorg/pac4j/core/logout/LogoutActionBuilder;)V:208 - ReplaceComparisonOperator != -> ==
+31	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 22 -> 0
+32	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 22 -> 1
+33	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 22 -> -1
+34	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 22 -> 21
+35	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 22 -> 23
+36	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 0 -> 1
+37	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - name -> 
+38	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 1 -> 0
+39	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 2 -> 0
+40	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 2 -> 1
+41	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 2 -> -1
+42	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 2 -> 3
+43	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - callbackUrl -> 
+44	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 3 -> 0
+45	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 3 -> 1
+46	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 3 -> -1
+47	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 3 -> 2
+48	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 3 -> 4
+49	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 4 -> 0
+50	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 4 -> 1
+51	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 4 -> -1
+52	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 4 -> 3
+53	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 4 -> 5
+54	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - urlResolver -> 
+55	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 5 -> 0
+56	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 5 -> 1
+57	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 5 -> -1
+58	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 5 -> 4
+59	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 5 -> 6
+60	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 6 -> 0
+61	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 6 -> 1
+62	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 6 -> -1
+63	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 6 -> 5
+64	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 6 -> 7
+65	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - ajaxRequestResolver -> 
+66	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 7 -> 0
+67	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 7 -> 1
+68	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 7 -> -1
+69	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 7 -> 6
+70	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 7 -> 8
+71	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 8 -> 0
+72	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 8 -> 1
+73	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 8 -> -1
+74	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 8 -> 7
+75	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 8 -> 9
+76	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - includeClientNameInCallbackUrl -> 
+77	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 9 -> 0
+78	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 9 -> 1
+79	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 9 -> -1
+80	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 9 -> 8
+81	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - ReplaceConstant - 9 -> 10
+82	InsertUnaryOp	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:223 - InsertUnaryOp Negation
+83	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 10 -> 0
+84	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 10 -> 1
+85	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 10 -> -1
+86	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 10 -> 9
+87	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 10 -> 11
+88	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - redirectActionBuilder -> 
+89	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 11 -> 0
+90	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 11 -> 1
+91	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 11 -> -1
+92	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 11 -> 10
+93	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 11 -> 12
+94	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 12 -> 0
+95	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 12 -> 1
+96	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 12 -> -1
+97	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 12 -> 11
+98	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 12 -> 13
+99	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - credentialsExtractor -> 
+100	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 13 -> 0
+101	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 13 -> 1
+102	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 13 -> -1
+103	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 13 -> 12
+104	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:225 - ReplaceConstant - 13 -> 14
+105	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:226 - ReplaceConstant - 14 -> 0
+106	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:226 - ReplaceConstant - 14 -> 1
+107	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:226 - ReplaceConstant - 14 -> -1
+108	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:226 - ReplaceConstant - 14 -> 13
+109	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:226 - ReplaceConstant - 14 -> 15
+110	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:226 - ReplaceConstant - authenticator -> 
+111	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:226 - ReplaceConstant - 15 -> 0
+112	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:226 - ReplaceConstant - 15 -> 1
+113	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:226 - ReplaceConstant - 15 -> -1
+114	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:226 - ReplaceConstant - 15 -> 14
+115	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:226 - ReplaceConstant - 15 -> 16
+116	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 16 -> 0
+117	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 16 -> 1
+118	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 16 -> -1
+119	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 16 -> 15
+120	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 16 -> 17
+121	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - profileCreator -> 
+122	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 17 -> 0
+123	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 17 -> 1
+124	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 17 -> -1
+125	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 17 -> 16
+126	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 17 -> 18
+127	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 18 -> 0
+128	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 18 -> 1
+129	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 18 -> -1
+130	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 18 -> 17
+131	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 18 -> 19
+132	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - logoutActionBuilder -> 
+133	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 19 -> 0
+134	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 19 -> 1
+135	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 19 -> -1
+136	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 19 -> 18
+137	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 19 -> 20
+138	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 20 -> 0
+139	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 20 -> 1
+140	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 20 -> -1
+141	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 20 -> 19
+142	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 20 -> 21
+143	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - authorizationGenerators -> 
+144	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 21 -> 0
+145	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 21 -> 1
+146	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 21 -> -1
+147	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 21 -> 20
+148	ReplaceConstant	org.pac4j.core.client.IndirectClient.toString()Ljava/lang/String;:227 - ReplaceConstant - 21 -> 22

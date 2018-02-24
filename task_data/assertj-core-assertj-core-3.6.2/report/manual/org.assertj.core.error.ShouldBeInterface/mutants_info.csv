@@ -1,0 +1,13 @@
+0	ReplaceConstant	org.assertj.core.error.ShouldBeInterface.shouldBeInterface(Ljava/lang/Class;)Lorg/assertj/core/error/ErrorMessageFactory;:29 - ReplaceConstant - 1 -> 0
+1	ReplaceConstant	org.assertj.core.error.ShouldBeInterface.shouldNotBeInterface(Ljava/lang/Class;)Lorg/assertj/core/error/ErrorMessageFactory;:39 - ReplaceConstant - 0 -> 1
+2	ReplaceConstant	org.assertj.core.error.ShouldBeInterface.<init>(Ljava/lang/Class;Z)V:43 - ReplaceConstant - %nExpecting%n  <%s>%n -> 
+3	InsertUnaryOp	org.assertj.core.error.ShouldBeInterface.<init>(Ljava/lang/Class;Z)V:43 - InsertUnaryOp Negation of toBeOrNotToBe
+4	InsertUnaryOp	org.assertj.core.error.ShouldBeInterface.<init>(Ljava/lang/Class;Z)V:43 - InsertUnaryOp IINC 1 toBeOrNotToBe
+5	InsertUnaryOp	org.assertj.core.error.ShouldBeInterface.<init>(Ljava/lang/Class;Z)V:43 - InsertUnaryOp IINC -1 toBeOrNotToBe
+6	ReplaceComparisonOperator	org.assertj.core.error.ShouldBeInterface.<init>(Ljava/lang/Class;Z)V:43 - ReplaceComparisonOperator == -> -2
+7	ReplaceComparisonOperator	org.assertj.core.error.ShouldBeInterface.<init>(Ljava/lang/Class;Z)V:43 - ReplaceComparisonOperator == -> >=
+8	ReplaceComparisonOperator	org.assertj.core.error.ShouldBeInterface.<init>(Ljava/lang/Class;Z)V:43 - ReplaceComparisonOperator == -> <=
+9	ReplaceConstant	org.assertj.core.error.ShouldBeInterface.<init>(Ljava/lang/Class;Z)V:43 - ReplaceConstant -  not  -> 
+10	ReplaceConstant	org.assertj.core.error.ShouldBeInterface.<init>(Ljava/lang/Class;Z)V:43 - ReplaceConstant - to be an interface -> 
+11	ReplaceConstant	org.assertj.core.error.ShouldBeInterface.<init>(Ljava/lang/Class;Z)V:43 - ReplaceConstant - 1 -> 0
+12	ReplaceConstant	org.assertj.core.error.ShouldBeInterface.<init>(Ljava/lang/Class;Z)V:43 - ReplaceConstant - 0 -> 1

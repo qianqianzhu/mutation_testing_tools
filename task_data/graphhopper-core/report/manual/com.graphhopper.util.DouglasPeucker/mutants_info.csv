@@ -1,0 +1,373 @@
+0	ReplaceConstant	com.graphhopper.util.DouglasPeucker.<init>()V:35 - ReplaceConstant - 1 -> 0
+1	ReplaceConstant	com.graphhopper.util.DouglasPeucker.<init>()V:37 - ReplaceConstant - 1.0 -> 0.0
+2	ReplaceConstant	com.graphhopper.util.DouglasPeucker.<init>()V:37 - ReplaceConstant - 1.0 -> -1.0
+3	ReplaceConstant	com.graphhopper.util.DouglasPeucker.<init>()V:37 - ReplaceConstant - 1.0 -> 2.0
+4	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.setApproximation(Z)V:41 - InsertUnaryOp Negation of a
+5	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.setApproximation(Z)V:41 - InsertUnaryOp IINC 1 a
+6	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.setApproximation(Z)V:41 - InsertUnaryOp IINC -1 a
+7	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.setApproximation(Z)V:42 - InsertUnaryOp Negation
+8	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.setApproximation(Z)V:42 - ReplaceComparisonOperator == -> -2
+9	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.setApproximation(Z)V:42 - ReplaceComparisonOperator == -> >=
+10	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.setApproximation(Z)V:42 - ReplaceComparisonOperator == -> <=
+11	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.setMaxDistance(D)Lcom/graphhopper/util/DouglasPeucker;:52 - InsertUnaryOp Negation of dist
+12	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:63 - ReplaceConstant - 0 -> 1
+13	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:65 - InsertUnaryOp Negation
+14	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:65 - ReplaceComparisonOperator == -> -2
+15	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:65 - ReplaceComparisonOperator == -> >=
+16	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:65 - ReplaceComparisonOperator == -> <=
+17	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:66 - ReplaceConstant - 500 -> 0
+18	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:66 - ReplaceConstant - 500 -> 1
+19	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:66 - ReplaceConstant - 500 -> -1
+20	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:66 - ReplaceConstant - 500 -> 499
+21	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:66 - ReplaceConstant - 500 -> 501
+22	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:67 - InsertUnaryOp Negation of size
+23	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:67 - InsertUnaryOp IINC 1 size
+24	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:67 - InsertUnaryOp IINC -1 size
+25	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:67 - InsertUnaryOp Negation of delta
+26	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:67 - InsertUnaryOp IINC 1 delta
+27	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:67 - InsertUnaryOp IINC -1 delta
+28	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:67 - ReplaceArithmeticOperator / -> +
+29	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:67 - ReplaceArithmeticOperator / -> %
+30	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:67 - ReplaceArithmeticOperator / -> -
+31	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:67 - ReplaceArithmeticOperator / -> *
+32	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:67 - ReplaceConstant - 1 -> 0
+33	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:67 - ReplaceArithmeticOperator + -> %
+34	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:67 - ReplaceArithmeticOperator + -> -
+35	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:67 - ReplaceArithmeticOperator + -> *
+36	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:67 - ReplaceArithmeticOperator + -> /
+37	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:68 - ReplaceConstant - 0 -> 1
+38	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:69 - ReplaceConstant - 0 -> 1
+39	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:69 - InsertUnaryOp Negation of i
+40	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:69 - InsertUnaryOp IINC 1 i
+41	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:69 - InsertUnaryOp IINC -1 i
+42	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:69 - InsertUnaryOp Negation of segments
+43	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:69 - InsertUnaryOp IINC 1 segments
+44	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:69 - InsertUnaryOp IINC -1 segments
+45	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:69 - ReplaceComparisonOperator >= -> -1
+46	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:69 - ReplaceComparisonOperator >= -> >
+47	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:69 - ReplaceComparisonOperator >= -> ==
+48	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - InsertUnaryOp Negation of removed
+49	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - InsertUnaryOp IINC 1 removed
+50	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - InsertUnaryOp IINC -1 removed
+51	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - InsertUnaryOp Negation of start
+52	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - InsertUnaryOp IINC 1 start
+53	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - InsertUnaryOp IINC -1 start
+54	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - InsertUnaryOp Negation of size
+55	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - InsertUnaryOp IINC 1 size
+56	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - InsertUnaryOp IINC -1 size
+57	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - ReplaceConstant - 1 -> 0
+58	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - ReplaceArithmeticOperator - -> +
+59	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - ReplaceArithmeticOperator - -> %
+60	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - ReplaceArithmeticOperator - -> *
+61	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - ReplaceArithmeticOperator - -> /
+62	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - InsertUnaryOp Negation of start
+63	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - InsertUnaryOp IINC 1 start
+64	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - InsertUnaryOp IINC -1 start
+65	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - InsertUnaryOp Negation of delta
+66	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - InsertUnaryOp IINC 1 delta
+67	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - InsertUnaryOp IINC -1 delta
+68	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - ReplaceArithmeticOperator + -> %
+69	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - ReplaceArithmeticOperator + -> -
+70	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - ReplaceArithmeticOperator + -> *
+71	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - ReplaceArithmeticOperator + -> /
+72	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - ReplaceArithmeticOperator + -> %
+73	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - ReplaceArithmeticOperator + -> -
+74	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - ReplaceArithmeticOperator + -> *
+75	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:71 - ReplaceArithmeticOperator + -> /
+76	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:72 - InsertUnaryOp Negation of start
+77	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:72 - InsertUnaryOp IINC 1 start
+78	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:72 - InsertUnaryOp IINC -1 start
+79	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:72 - InsertUnaryOp Negation of delta
+80	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:72 - InsertUnaryOp IINC 1 delta
+81	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:72 - InsertUnaryOp IINC -1 delta
+82	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:72 - ReplaceArithmeticOperator + -> %
+83	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:72 - ReplaceArithmeticOperator + -> -
+84	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:72 - ReplaceArithmeticOperator + -> *
+85	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:72 - ReplaceArithmeticOperator + -> /
+86	ReplaceVariable	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:69 - ReplaceVariable i -> delta
+87	ReplaceVariable	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:69 - ReplaceVariable i -> start
+88	ReplaceVariable	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:69 - ReplaceVariable i -> removed
+89	ReplaceVariable	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:69 - ReplaceVariable i -> size
+90	ReplaceVariable	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:69 - ReplaceVariable i -> segments
+91	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:75 - ReplaceConstant - 0 -> 1
+92	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:75 - InsertUnaryOp Negation of size
+93	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:75 - InsertUnaryOp IINC 1 size
+94	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:75 - InsertUnaryOp IINC -1 size
+95	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:75 - ReplaceConstant - 1 -> 0
+96	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:75 - ReplaceArithmeticOperator - -> +
+97	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:75 - ReplaceArithmeticOperator - -> %
+98	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:75 - ReplaceArithmeticOperator - -> *
+99	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:75 - ReplaceArithmeticOperator - -> /
+100	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:78 - InsertUnaryOp Negation of removed
+101	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:78 - InsertUnaryOp IINC 1 removed
+102	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:78 - InsertUnaryOp IINC -1 removed
+103	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:79 - InsertUnaryOp Negation of removed
+104	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:79 - InsertUnaryOp IINC 1 removed
+105	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;)I:79 - InsertUnaryOp IINC -1 removed
+106	ReplaceConstant	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:86 - ReplaceConstant - -1 -> 0
+107	ReplaceConstant	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:86 - ReplaceConstant - -1 -> 1
+108	ReplaceConstant	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:86 - ReplaceConstant - -1 -> -2
+109	ReplaceConstant	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:87 - ReplaceConstant - 0 -> 1
+110	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:87 - InsertUnaryOp Negation of currentIndex
+111	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:87 - InsertUnaryOp IINC 1 currentIndex
+112	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:87 - InsertUnaryOp IINC -1 currentIndex
+113	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:87 - ReplaceComparisonOperator >= -> -1
+114	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:87 - ReplaceComparisonOperator >= -> >
+115	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:87 - ReplaceComparisonOperator >= -> ==
+116	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:88 - InsertUnaryOp Negation of currentIndex
+117	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:88 - InsertUnaryOp IINC 1 currentIndex
+118	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:88 - InsertUnaryOp IINC -1 currentIndex
+119	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:88 - ReplaceComparisonOperator == -> -2
+120	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:88 - ReplaceComparisonOperator == -> >=
+121	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:88 - ReplaceComparisonOperator == -> <=
+122	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:89 - InsertUnaryOp Negation of freeIndex
+123	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:89 - InsertUnaryOp IINC 1 freeIndex
+124	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:89 - InsertUnaryOp IINC -1 freeIndex
+125	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:89 - ReplaceComparisonOperator >= -> -1
+126	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:89 - ReplaceComparisonOperator >= -> ==
+127	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:89 - ReplaceComparisonOperator >= -> >
+128	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:90 - InsertUnaryOp Negation of currentIndex
+129	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:90 - InsertUnaryOp IINC 1 currentIndex
+130	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:90 - InsertUnaryOp IINC -1 currentIndex
+131	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:93 - InsertUnaryOp Negation of freeIndex
+132	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:93 - InsertUnaryOp IINC 1 freeIndex
+133	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:93 - InsertUnaryOp IINC -1 freeIndex
+134	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:93 - ReplaceComparisonOperator >= -> -1
+135	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:93 - ReplaceComparisonOperator >= -> ==
+136	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:93 - ReplaceComparisonOperator >= -> >
+137	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:97 - InsertUnaryOp Negation of freeIndex
+138	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:97 - InsertUnaryOp IINC 1 freeIndex
+139	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:97 - InsertUnaryOp IINC -1 freeIndex
+140	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:97 - InsertUnaryOp Negation of currentIndex
+141	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:97 - InsertUnaryOp IINC 1 currentIndex
+142	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:97 - InsertUnaryOp IINC -1 currentIndex
+143	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:97 - InsertUnaryOp Negation of currentIndex
+144	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:97 - InsertUnaryOp IINC 1 currentIndex
+145	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:97 - InsertUnaryOp IINC -1 currentIndex
+146	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:97 - InsertUnaryOp Negation of currentIndex
+147	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:97 - InsertUnaryOp IINC 1 currentIndex
+148	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:97 - InsertUnaryOp IINC -1 currentIndex
+149	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:98 - InsertUnaryOp Negation of currentIndex
+150	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:98 - InsertUnaryOp IINC 1 currentIndex
+151	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:98 - InsertUnaryOp IINC -1 currentIndex
+152	ReplaceConstant	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:98 - ReplaceConstant - NaN -> 0.0
+153	ReplaceConstant	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:98 - ReplaceConstant - NaN -> 1.0
+154	ReplaceConstant	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:98 - ReplaceConstant - NaN -> -1.0
+155	ReplaceConstant	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:98 - ReplaceConstant - NaN -> NaN
+156	ReplaceConstant	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:98 - ReplaceConstant - NaN -> 0.0
+157	ReplaceConstant	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:98 - ReplaceConstant - NaN -> 1.0
+158	ReplaceConstant	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:98 - ReplaceConstant - NaN -> -1.0
+159	ReplaceConstant	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:98 - ReplaceConstant - NaN -> NaN
+160	ReplaceConstant	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:98 - ReplaceConstant - NaN -> 0.0
+161	ReplaceConstant	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:98 - ReplaceConstant - NaN -> 1.0
+162	ReplaceConstant	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:98 - ReplaceConstant - NaN -> -1.0
+163	ReplaceConstant	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:98 - ReplaceConstant - NaN -> NaN
+164	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:100 - InsertUnaryOp Negation of currentIndex
+165	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:100 - InsertUnaryOp IINC 1 currentIndex
+166	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:100 - InsertUnaryOp IINC -1 currentIndex
+167	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:101 - InsertUnaryOp Negation of freeIndex
+168	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:101 - InsertUnaryOp IINC 1 freeIndex
+169	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:101 - InsertUnaryOp IINC -1 freeIndex
+170	ReplaceConstant	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:101 - ReplaceConstant - 1 -> 0
+171	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:101 - ReplaceArithmeticOperator + -> %
+172	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:101 - ReplaceArithmeticOperator + -> -
+173	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:101 - ReplaceArithmeticOperator + -> *
+174	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:101 - ReplaceArithmeticOperator + -> /
+175	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:102 - InsertUnaryOp Negation of currentIndex
+176	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:102 - InsertUnaryOp IINC 1 currentIndex
+177	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:102 - InsertUnaryOp IINC -1 currentIndex
+178	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:103 - InsertUnaryOp Negation of searchIndex
+179	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:103 - InsertUnaryOp IINC 1 searchIndex
+180	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:103 - InsertUnaryOp IINC -1 searchIndex
+181	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:103 - InsertUnaryOp Negation of max
+182	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:103 - InsertUnaryOp IINC 1 max
+183	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:103 - InsertUnaryOp IINC -1 max
+184	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:103 - ReplaceComparisonOperator >= -> -1
+185	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:103 - ReplaceComparisonOperator >= -> >
+186	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:103 - ReplaceComparisonOperator >= -> ==
+187	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:104 - InsertUnaryOp Negation of searchIndex
+188	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:104 - InsertUnaryOp IINC 1 searchIndex
+189	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:104 - InsertUnaryOp IINC -1 searchIndex
+190	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:104 - ReplaceComparisonOperator == -> -2
+191	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:104 - ReplaceComparisonOperator == -> >=
+192	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:104 - ReplaceComparisonOperator == -> <=
+193	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:105 - InsertUnaryOp Negation of searchIndex
+194	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:105 - InsertUnaryOp IINC 1 searchIndex
+195	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:105 - InsertUnaryOp IINC -1 searchIndex
+196	ReplaceVariable	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:103 - ReplaceVariable searchIndex -> removed
+197	ReplaceVariable	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:103 - ReplaceVariable searchIndex -> max
+198	ReplaceVariable	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:103 - ReplaceVariable searchIndex -> currentIndex
+199	ReplaceVariable	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:103 - ReplaceVariable searchIndex -> freeIndex
+200	ReplaceVariable	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:87 - ReplaceVariable currentIndex -> removed
+201	ReplaceVariable	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:87 - ReplaceVariable currentIndex -> freeIndex
+202	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:110 - InsertUnaryOp Negation of removed
+203	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:110 - InsertUnaryOp IINC 1 removed
+204	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:110 - InsertUnaryOp IINC -1 removed
+205	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:110 - ReplaceArithmeticOperator - -> +
+206	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:110 - ReplaceArithmeticOperator - -> %
+207	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:110 - ReplaceArithmeticOperator - -> *
+208	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.compressNew(Lcom/graphhopper/util/PointList;I)V:110 - ReplaceArithmeticOperator - -> /
+209	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:115 - InsertUnaryOp Negation of lastIndex
+210	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:115 - InsertUnaryOp IINC 1 lastIndex
+211	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:115 - InsertUnaryOp IINC -1 lastIndex
+212	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:115 - InsertUnaryOp Negation of fromIndex
+213	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:115 - InsertUnaryOp IINC 1 fromIndex
+214	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:115 - InsertUnaryOp IINC -1 fromIndex
+215	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:115 - ReplaceArithmeticOperator - -> +
+216	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:115 - ReplaceArithmeticOperator - -> %
+217	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:115 - ReplaceArithmeticOperator - -> *
+218	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:115 - ReplaceArithmeticOperator - -> /
+219	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:115 - ReplaceConstant - 2 -> 0
+220	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:115 - ReplaceConstant - 2 -> 1
+221	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:115 - ReplaceConstant - 2 -> -1
+222	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:115 - ReplaceConstant - 2 -> 3
+223	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:115 - ReplaceComparisonOperator >= -> -1
+224	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:115 - ReplaceComparisonOperator >= -> >
+225	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:115 - ReplaceComparisonOperator >= -> ==
+226	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:116 - ReplaceConstant - 0 -> 1
+227	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:118 - ReplaceConstant - -1 -> 0
+228	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:118 - ReplaceConstant - -1 -> 1
+229	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:118 - ReplaceConstant - -1 -> -2
+230	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:119 - ReplaceConstant - -1.0 -> 0.0
+231	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:119 - ReplaceConstant - -1.0 -> 1.0
+232	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:119 - ReplaceConstant - -1.0 -> -2.0
+233	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:120 - InsertUnaryOp Negation of fromIndex
+234	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:120 - InsertUnaryOp IINC 1 fromIndex
+235	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:120 - InsertUnaryOp IINC -1 fromIndex
+236	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:121 - InsertUnaryOp Negation of fromIndex
+237	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:121 - InsertUnaryOp IINC 1 fromIndex
+238	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:121 - InsertUnaryOp IINC -1 fromIndex
+239	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:122 - InsertUnaryOp Negation of lastIndex
+240	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:122 - InsertUnaryOp IINC 1 lastIndex
+241	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:122 - InsertUnaryOp IINC -1 lastIndex
+242	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:123 - InsertUnaryOp Negation of lastIndex
+243	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:123 - InsertUnaryOp IINC 1 lastIndex
+244	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:123 - InsertUnaryOp IINC -1 lastIndex
+245	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - InsertUnaryOp Negation of fromIndex
+246	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - InsertUnaryOp IINC 1 fromIndex
+247	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - InsertUnaryOp IINC -1 fromIndex
+248	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - ReplaceConstant - 1 -> 0
+249	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - ReplaceArithmeticOperator + -> %
+250	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - ReplaceArithmeticOperator + -> -
+251	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - ReplaceArithmeticOperator + -> *
+252	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - ReplaceArithmeticOperator + -> /
+253	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - InsertUnaryOp Negation of i
+254	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - InsertUnaryOp IINC 1 i
+255	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - InsertUnaryOp IINC -1 i
+256	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - InsertUnaryOp Negation of lastIndex
+257	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - InsertUnaryOp IINC 1 lastIndex
+258	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - InsertUnaryOp IINC -1 lastIndex
+259	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - ReplaceComparisonOperator >= -> -1
+260	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - ReplaceComparisonOperator >= -> >
+261	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - ReplaceComparisonOperator >= -> ==
+262	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:125 - InsertUnaryOp Negation of i
+263	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:125 - InsertUnaryOp IINC 1 i
+264	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:125 - InsertUnaryOp IINC -1 i
+265	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:126 - InsertUnaryOp Negation of lat
+266	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:126 - ReplaceComparisonOperator == -> -2
+267	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:126 - ReplaceComparisonOperator == -> >=
+268	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:126 - ReplaceComparisonOperator == -> <=
+269	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:129 - InsertUnaryOp Negation of i
+270	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:129 - InsertUnaryOp IINC 1 i
+271	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:129 - InsertUnaryOp IINC -1 i
+272	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:130 - InsertUnaryOp Negation of lat
+273	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:130 - InsertUnaryOp Negation of lon
+274	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:130 - InsertUnaryOp Negation of firstLat
+275	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:130 - InsertUnaryOp Negation of firstLon
+276	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:130 - InsertUnaryOp Negation of lastLat
+277	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:130 - InsertUnaryOp Negation of lastLon
+278	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:131 - InsertUnaryOp Negation of maxDist
+279	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:131 - InsertUnaryOp Negation of dist
+280	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:131 - ReplaceComparisonOperator >= -> -1
+281	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:131 - ReplaceComparisonOperator >= -> ==
+282	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:131 - ReplaceComparisonOperator >= -> >
+283	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:132 - InsertUnaryOp Negation of i
+284	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:132 - InsertUnaryOp IINC 1 i
+285	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:132 - InsertUnaryOp IINC -1 i
+286	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:133 - InsertUnaryOp Negation of dist
+287	ReplaceVariable	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - ReplaceVariable i -> indexWithMaxDist
+288	ReplaceVariable	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - ReplaceVariable i -> lastIndex
+289	ReplaceVariable	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:124 - ReplaceVariable i -> fromIndex
+290	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:137 - InsertUnaryOp Negation of indexWithMaxDist
+291	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:137 - InsertUnaryOp IINC 1 indexWithMaxDist
+292	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:137 - InsertUnaryOp IINC -1 indexWithMaxDist
+293	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:137 - ReplaceComparisonOperator >= -> -1
+294	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:137 - ReplaceComparisonOperator >= -> ==
+295	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:137 - ReplaceComparisonOperator >= -> >
+296	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:138 - ReplaceConstant - maximum not found in [ -> 
+297	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:138 - InsertUnaryOp Negation of fromIndex
+298	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:138 - InsertUnaryOp IINC 1 fromIndex
+299	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:138 - InsertUnaryOp IINC -1 fromIndex
+300	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:138 - ReplaceConstant - , -> 
+301	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:138 - InsertUnaryOp Negation of lastIndex
+302	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:138 - InsertUnaryOp IINC 1 lastIndex
+303	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:138 - InsertUnaryOp IINC -1 lastIndex
+304	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:138 - ReplaceConstant - ] -> 
+305	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:141 - ReplaceConstant - 0 -> 1
+306	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:142 - InsertUnaryOp Negation of maxDist
+307	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:142 - InsertUnaryOp Negation
+308	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:142 - ReplaceComparisonOperator >= -> -1
+309	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:142 - ReplaceComparisonOperator >= -> ==
+310	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:142 - ReplaceComparisonOperator >= -> >
+311	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - InsertUnaryOp Negation of fromIndex
+312	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - InsertUnaryOp IINC 1 fromIndex
+313	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - InsertUnaryOp IINC -1 fromIndex
+314	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - ReplaceConstant - 1 -> 0
+315	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - ReplaceArithmeticOperator + -> %
+316	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - ReplaceArithmeticOperator + -> -
+317	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - ReplaceArithmeticOperator + -> *
+318	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - ReplaceArithmeticOperator + -> /
+319	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - InsertUnaryOp Negation of i
+320	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - InsertUnaryOp IINC 1 i
+321	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - InsertUnaryOp IINC -1 i
+322	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - InsertUnaryOp Negation of lastIndex
+323	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - InsertUnaryOp IINC 1 lastIndex
+324	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - InsertUnaryOp IINC -1 lastIndex
+325	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - ReplaceComparisonOperator >= -> -1
+326	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - ReplaceComparisonOperator >= -> >
+327	ReplaceComparisonOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - ReplaceComparisonOperator >= -> ==
+328	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:144 - InsertUnaryOp Negation of i
+329	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:144 - InsertUnaryOp IINC 1 i
+330	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:144 - InsertUnaryOp IINC -1 i
+331	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:144 - ReplaceConstant - NaN -> 0.0
+332	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:144 - ReplaceConstant - NaN -> 1.0
+333	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:144 - ReplaceConstant - NaN -> -1.0
+334	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:144 - ReplaceConstant - NaN -> NaN
+335	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:144 - ReplaceConstant - NaN -> 0.0
+336	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:144 - ReplaceConstant - NaN -> 1.0
+337	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:144 - ReplaceConstant - NaN -> -1.0
+338	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:144 - ReplaceConstant - NaN -> NaN
+339	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:144 - ReplaceConstant - NaN -> 0.0
+340	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:144 - ReplaceConstant - NaN -> 1.0
+341	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:144 - ReplaceConstant - NaN -> -1.0
+342	ReplaceConstant	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:144 - ReplaceConstant - NaN -> NaN
+343	ReplaceVariable	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:145 - ReplaceVariable counter -> i
+344	ReplaceVariable	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:145 - ReplaceVariable counter -> indexWithMaxDist
+345	ReplaceVariable	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:145 - ReplaceVariable counter -> lastIndex
+346	ReplaceVariable	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:145 - ReplaceVariable counter -> fromIndex
+347	ReplaceVariable	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - ReplaceVariable i -> indexWithMaxDist
+348	ReplaceVariable	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - ReplaceVariable i -> lastIndex
+349	ReplaceVariable	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - ReplaceVariable i -> counter
+350	ReplaceVariable	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:143 - ReplaceVariable i -> fromIndex
+351	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:148 - InsertUnaryOp Negation of fromIndex
+352	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:148 - InsertUnaryOp IINC 1 fromIndex
+353	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:148 - InsertUnaryOp IINC -1 fromIndex
+354	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:148 - InsertUnaryOp Negation of indexWithMaxDist
+355	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:148 - InsertUnaryOp IINC 1 indexWithMaxDist
+356	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:148 - InsertUnaryOp IINC -1 indexWithMaxDist
+357	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:149 - InsertUnaryOp Negation of counter
+358	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:149 - InsertUnaryOp IINC 1 counter
+359	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:149 - InsertUnaryOp IINC -1 counter
+360	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:149 - InsertUnaryOp Negation of indexWithMaxDist
+361	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:149 - InsertUnaryOp IINC 1 indexWithMaxDist
+362	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:149 - InsertUnaryOp IINC -1 indexWithMaxDist
+363	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:149 - InsertUnaryOp Negation of lastIndex
+364	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:149 - InsertUnaryOp IINC 1 lastIndex
+365	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:149 - InsertUnaryOp IINC -1 lastIndex
+366	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:149 - ReplaceArithmeticOperator + -> %
+367	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:149 - ReplaceArithmeticOperator + -> -
+368	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:149 - ReplaceArithmeticOperator + -> *
+369	ReplaceArithmeticOperator	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:149 - ReplaceArithmeticOperator + -> /
+370	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:151 - InsertUnaryOp Negation of counter
+371	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:151 - InsertUnaryOp IINC 1 counter
+372	InsertUnaryOp	com.graphhopper.util.DouglasPeucker.simplify(Lcom/graphhopper/util/PointList;II)I:151 - InsertUnaryOp IINC -1 counter

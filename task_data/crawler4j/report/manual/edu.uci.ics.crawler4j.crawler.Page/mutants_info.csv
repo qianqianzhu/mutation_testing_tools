@@ -1,0 +1,93 @@
+0	ReplaceConstant	edu.uci.ics.crawler4j.crawler.Page.<init>(Ledu/uci/ics/crawler4j/url/WebURL;)V:100 - ReplaceConstant - 0 -> 1
+1	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.load(Lorg/apache/http/HttpEntity;I)V:117 - ReplaceComparisonOperator = null -> != null
+2	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.load(Lorg/apache/http/HttpEntity;I)V:123 - ReplaceComparisonOperator = null -> != null
+3	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.load(Lorg/apache/http/HttpEntity;I)V:128 - ReplaceComparisonOperator = null -> != null
+4	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.load(Lorg/apache/http/HttpEntity;I)V:132 - InsertUnaryOp Negation of maxBytes
+5	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.load(Lorg/apache/http/HttpEntity;I)V:132 - InsertUnaryOp IINC 1 maxBytes
+6	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.load(Lorg/apache/http/HttpEntity;I)V:132 - InsertUnaryOp IINC -1 maxBytes
+7	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:146 - ReplaceComparisonOperator != null -> = null
+8	ReplaceConstant	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:147 - ReplaceConstant - 0 -> 1
+9	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:151 - InsertUnaryOp Negation of size
+10	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:151 - InsertUnaryOp IINC 1 size
+11	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:151 - InsertUnaryOp IINC -1 size
+12	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:153 - InsertUnaryOp Negation of readBufferLength
+13	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:153 - InsertUnaryOp IINC 1 readBufferLength
+14	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:153 - InsertUnaryOp IINC -1 readBufferLength
+15	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:153 - ReplaceComparisonOperator > -> -2
+16	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:153 - ReplaceComparisonOperator > -> !=
+17	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:153 - ReplaceComparisonOperator > -> >=
+18	ReplaceConstant	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:154 - ReplaceConstant - 4096 -> 0
+19	ReplaceConstant	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:154 - ReplaceConstant - 4096 -> 1
+20	ReplaceConstant	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:154 - ReplaceConstant - 4096 -> -1
+21	ReplaceConstant	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:154 - ReplaceConstant - 4096 -> 4095
+22	ReplaceConstant	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:154 - ReplaceConstant - 4096 -> 4097
+23	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:157 - InsertUnaryOp Negation of readBufferLength
+24	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:157 - InsertUnaryOp IINC 1 readBufferLength
+25	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:157 - InsertUnaryOp IINC -1 readBufferLength
+26	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:157 - InsertUnaryOp Negation of maxBytes
+27	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:157 - InsertUnaryOp IINC 1 maxBytes
+28	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:157 - InsertUnaryOp IINC -1 maxBytes
+29	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:162 - InsertUnaryOp Negation of readBufferLength
+30	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:162 - InsertUnaryOp IINC 1 readBufferLength
+31	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:162 - InsertUnaryOp IINC -1 readBufferLength
+32	ReplaceConstant	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:164 - ReplaceConstant - 4096 -> 0
+33	ReplaceConstant	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:164 - ReplaceConstant - 4096 -> 1
+34	ReplaceConstant	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:164 - ReplaceConstant - 4096 -> -1
+35	ReplaceConstant	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:164 - ReplaceConstant - 4096 -> 4095
+36	ReplaceConstant	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:164 - ReplaceConstant - 4096 -> 4097
+37	ReplaceConstant	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:167 - ReplaceConstant - -1 -> 0
+38	ReplaceConstant	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:167 - ReplaceConstant - -1 -> 1
+39	ReplaceConstant	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:167 - ReplaceConstant - -1 -> -2
+40	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:167 - ReplaceComparisonOperator == -> -2
+41	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:167 - ReplaceComparisonOperator == -> >=
+42	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:167 - ReplaceComparisonOperator == -> <=
+43	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - InsertUnaryOp Negation of maxBytes
+44	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - InsertUnaryOp IINC 1 maxBytes
+45	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - InsertUnaryOp IINC -1 maxBytes
+46	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - ReplaceComparisonOperator <= -> -1
+47	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - ReplaceComparisonOperator <= -> ==
+48	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - ReplaceComparisonOperator <= -> <
+49	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - InsertUnaryOp Negation of dataLength
+50	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - InsertUnaryOp IINC 1 dataLength
+51	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - InsertUnaryOp IINC -1 dataLength
+52	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - ReplaceArithmeticOperator + -> %
+53	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - ReplaceArithmeticOperator + -> -
+54	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - ReplaceArithmeticOperator + -> *
+55	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - ReplaceArithmeticOperator + -> /
+56	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - InsertUnaryOp Negation of maxBytes
+57	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - InsertUnaryOp IINC 1 maxBytes
+58	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - InsertUnaryOp IINC -1 maxBytes
+59	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - ReplaceComparisonOperator <= -> -1
+60	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - ReplaceComparisonOperator <= -> <
+61	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:168 - ReplaceComparisonOperator <= -> ==
+62	ReplaceConstant	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:169 - ReplaceConstant - 1 -> 0
+63	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:170 - InsertUnaryOp Negation of maxBytes
+64	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:170 - InsertUnaryOp IINC 1 maxBytes
+65	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:170 - InsertUnaryOp IINC -1 maxBytes
+66	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:170 - ReplaceArithmeticOperator - -> +
+67	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:170 - ReplaceArithmeticOperator - -> %
+68	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:170 - ReplaceArithmeticOperator - -> *
+69	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:170 - ReplaceArithmeticOperator - -> /
+70	ReplaceConstant	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:172 - ReplaceConstant - 0 -> 1
+71	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:172 - InsertUnaryOp Negation of dataLength
+72	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:172 - InsertUnaryOp IINC 1 dataLength
+73	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:172 - InsertUnaryOp IINC -1 dataLength
+74	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:173 - InsertUnaryOp Negation
+75	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:173 - ReplaceComparisonOperator == -> -2
+76	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:173 - ReplaceComparisonOperator == -> >=
+77	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:173 - ReplaceComparisonOperator == -> <=
+78	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:178 - ReplaceComparisonOperator = null -> != null
+79	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:178 - ReplaceComparisonOperator = null -> != null
+80	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:178 - ReplaceComparisonOperator = null -> != null
+81	ReplaceComparisonOperator	edu.uci.ics.crawler4j.crawler.Page.toByteArray(Lorg/apache/http/HttpEntity;I)[B:178 - ReplaceComparisonOperator = null -> != null
+82	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.isRedirect()Z:190 - InsertUnaryOp Negation
+83	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.setRedirect(Z)V:194 - InsertUnaryOp Negation of redirect
+84	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.setRedirect(Z)V:194 - InsertUnaryOp IINC 1 redirect
+85	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.setRedirect(Z)V:194 - InsertUnaryOp IINC -1 redirect
+86	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.getStatusCode()I:206 - InsertUnaryOp Negation
+87	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.getStatusCode()I:206 - InsertUnaryOp +1
+88	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.getStatusCode()I:206 - InsertUnaryOp -1
+89	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.setStatusCode(I)V:210 - InsertUnaryOp Negation of statusCode
+90	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.setStatusCode(I)V:210 - InsertUnaryOp IINC 1 statusCode
+91	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.setStatusCode(I)V:210 - InsertUnaryOp IINC -1 statusCode
+92	InsertUnaryOp	edu.uci.ics.crawler4j.crawler.Page.isTruncated()Z:296 - InsertUnaryOp Negation

@@ -1,0 +1,125 @@
+0	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.<init>()V:37 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.<init>()V:37 - ReplaceConstant - 0 -> 1
+2	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.<init>(ZZ)V:40 - InsertUnaryOp Negation of eid
+3	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.<init>(ZZ)V:40 - InsertUnaryOp IINC 1 eid
+4	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.<init>(ZZ)V:40 - InsertUnaryOp IINC -1 eid
+5	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.<init>(ZZ)V:41 - InsertUnaryOp Negation of fid
+6	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.<init>(ZZ)V:41 - InsertUnaryOp IINC 1 fid
+7	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.<init>(ZZ)V:41 - InsertUnaryOp IINC -1 fid
+8	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.hasEID()Z:48 - InsertUnaryOp Negation
+9	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.setEid(Z)V:51 - InsertUnaryOp Negation of eid
+10	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.setEid(Z)V:51 - InsertUnaryOp IINC 1 eid
+11	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.setEid(Z)V:51 - InsertUnaryOp IINC -1 eid
+12	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.hasFID()Z:54 - InsertUnaryOp Negation
+13	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.setFID(Z)V:57 - InsertUnaryOp Negation of fid
+14	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.setFID(Z)V:57 - InsertUnaryOp IINC 1 fid
+15	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.setFID(Z)V:57 - InsertUnaryOp IINC -1 fid
+16	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.addAll(Lorg/opengis/filter/capability/IdCapabilities;)V:60 - ReplaceComparisonOperator != null -> = null
+17	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.addAll(Lorg/opengis/filter/capability/IdCapabilities;)V:61 - ReplaceComparisonOperator == -> -2
+18	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.addAll(Lorg/opengis/filter/capability/IdCapabilities;)V:61 - ReplaceComparisonOperator == -> >=
+19	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.addAll(Lorg/opengis/filter/capability/IdCapabilities;)V:61 - ReplaceComparisonOperator == -> <=
+20	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.addAll(Lorg/opengis/filter/capability/IdCapabilities;)V:62 - ReplaceConstant - 1 -> 0
+21	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.addAll(Lorg/opengis/filter/capability/IdCapabilities;)V:64 - ReplaceComparisonOperator == -> -2
+22	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.addAll(Lorg/opengis/filter/capability/IdCapabilities;)V:64 - ReplaceComparisonOperator == -> >=
+23	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.addAll(Lorg/opengis/filter/capability/IdCapabilities;)V:64 - ReplaceComparisonOperator == -> <=
+24	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.addAll(Lorg/opengis/filter/capability/IdCapabilities;)V:65 - ReplaceConstant - 1 -> 0
+25	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.toString()Ljava/lang/String;:71 - ReplaceConstant - IdCapabilitiesImpl[ -> 
+26	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.toString()Ljava/lang/String;:72 - InsertUnaryOp Negation
+27	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.toString()Ljava/lang/String;:72 - ReplaceComparisonOperator == -> -2
+28	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.toString()Ljava/lang/String;:72 - ReplaceComparisonOperator == -> >=
+29	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.toString()Ljava/lang/String;:72 - ReplaceComparisonOperator == -> <=
+30	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.toString()Ljava/lang/String;:73 - ReplaceConstant -  FeatureId -> 
+31	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.toString()Ljava/lang/String;:75 - InsertUnaryOp Negation
+32	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.toString()Ljava/lang/String;:75 - ReplaceComparisonOperator == -> -2
+33	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.toString()Ljava/lang/String;:75 - ReplaceComparisonOperator == -> >=
+34	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.toString()Ljava/lang/String;:75 - ReplaceComparisonOperator == -> <=
+35	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.toString()Ljava/lang/String;:76 - ReplaceConstant -  GMLObjectId -> 
+36	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.toString()Ljava/lang/String;:78 - ReplaceConstant -  ] -> 
+37	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:83 - ReplaceConstant - 31 -> 0
+38	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:83 - ReplaceConstant - 31 -> 1
+39	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:83 - ReplaceConstant - 31 -> -1
+40	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:83 - ReplaceConstant - 31 -> 30
+41	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:83 - ReplaceConstant - 31 -> 32
+42	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:84 - ReplaceConstant - 1 -> 0
+43	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceConstant - 31 -> 0
+44	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceConstant - 31 -> 1
+45	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceConstant - 31 -> -1
+46	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceConstant - 31 -> 30
+47	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceConstant - 31 -> 32
+48	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - InsertUnaryOp Negation of result
+49	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - InsertUnaryOp IINC 1 result
+50	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - InsertUnaryOp IINC -1 result
+51	ReplaceArithmeticOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceArithmeticOperator * -> +
+52	ReplaceArithmeticOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceArithmeticOperator * -> %
+53	ReplaceArithmeticOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceArithmeticOperator * -> -
+54	ReplaceArithmeticOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceArithmeticOperator * -> /
+55	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - InsertUnaryOp Negation
+56	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceComparisonOperator == -> -2
+57	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceComparisonOperator == -> >=
+58	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceComparisonOperator == -> <=
+59	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceConstant - 1231 -> 0
+60	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceConstant - 1231 -> 1
+61	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceConstant - 1231 -> -1
+62	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceConstant - 1231 -> 1230
+63	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceConstant - 1231 -> 1232
+64	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceConstant - 1237 -> 0
+65	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceConstant - 1237 -> 1
+66	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceConstant - 1237 -> -1
+67	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceConstant - 1237 -> 1236
+68	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceConstant - 1237 -> 1238
+69	ReplaceArithmeticOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceArithmeticOperator + -> %
+70	ReplaceArithmeticOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceArithmeticOperator + -> -
+71	ReplaceArithmeticOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceArithmeticOperator + -> *
+72	ReplaceArithmeticOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:85 - ReplaceArithmeticOperator + -> /
+73	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceConstant - 31 -> 0
+74	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceConstant - 31 -> 1
+75	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceConstant - 31 -> -1
+76	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceConstant - 31 -> 30
+77	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceConstant - 31 -> 32
+78	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - InsertUnaryOp Negation of result
+79	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - InsertUnaryOp IINC 1 result
+80	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - InsertUnaryOp IINC -1 result
+81	ReplaceArithmeticOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceArithmeticOperator * -> +
+82	ReplaceArithmeticOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceArithmeticOperator * -> %
+83	ReplaceArithmeticOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceArithmeticOperator * -> -
+84	ReplaceArithmeticOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceArithmeticOperator * -> /
+85	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - InsertUnaryOp Negation
+86	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceComparisonOperator == -> -2
+87	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceComparisonOperator == -> >=
+88	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceComparisonOperator == -> <=
+89	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceConstant - 1231 -> 0
+90	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceConstant - 1231 -> 1
+91	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceConstant - 1231 -> -1
+92	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceConstant - 1231 -> 1230
+93	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceConstant - 1231 -> 1232
+94	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceConstant - 1237 -> 0
+95	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceConstant - 1237 -> 1
+96	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceConstant - 1237 -> -1
+97	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceConstant - 1237 -> 1236
+98	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceConstant - 1237 -> 1238
+99	ReplaceArithmeticOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceArithmeticOperator + -> %
+100	ReplaceArithmeticOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceArithmeticOperator + -> -
+101	ReplaceArithmeticOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceArithmeticOperator + -> *
+102	ReplaceArithmeticOperator	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:86 - ReplaceArithmeticOperator + -> /
+103	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:87 - InsertUnaryOp Negation of result
+104	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:87 - InsertUnaryOp IINC 1 result
+105	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.hashCode()I:87 - InsertUnaryOp IINC -1 result
+106	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:91 - ReplaceComparisonOperator != -> ==
+107	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:92 - ReplaceConstant - 1 -> 0
+108	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:93 - ReplaceComparisonOperator != null -> = null
+109	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:94 - ReplaceConstant - 0 -> 1
+110	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:95 - ReplaceComparisonOperator == -> !=
+111	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:96 - ReplaceConstant - 0 -> 1
+112	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:98 - InsertUnaryOp Negation
+113	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:98 - InsertUnaryOp Negation
+114	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:98 - ReplaceComparisonOperator == -> -2
+115	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:98 - ReplaceComparisonOperator == -> >=
+116	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:98 - ReplaceComparisonOperator == -> <=
+117	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:99 - ReplaceConstant - 0 -> 1
+118	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:100 - InsertUnaryOp Negation
+119	InsertUnaryOp	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:100 - InsertUnaryOp Negation
+120	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:100 - ReplaceComparisonOperator == -> -2
+121	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:100 - ReplaceComparisonOperator == -> >=
+122	ReplaceComparisonOperator	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:100 - ReplaceComparisonOperator == -> <=
+123	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:101 - ReplaceConstant - 0 -> 1
+124	ReplaceConstant	org.geotools.filter.capability.IdCapabilitiesImpl.equals(Ljava/lang/Object;)Z:102 - ReplaceConstant - 1 -> 0

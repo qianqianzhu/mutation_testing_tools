@@ -1,0 +1,727 @@
+0	ReplaceComparisonOperator	org.geotools.styling.SLD.lineColor(Lorg/geotools/styling/LineSymbolizer;)Ljava/awt/Color;:82 - ReplaceComparisonOperator != null -> = null
+1	ReplaceComparisonOperator	org.geotools.styling.SLD.color(Lorg/geotools/styling/Stroke;)Ljava/awt/Color;:97 - ReplaceComparisonOperator != null -> = null
+2	ReplaceComparisonOperator	org.geotools.styling.SLD.color(Lorg/geotools/styling/Fill;)Ljava/awt/Color;:109 - ReplaceComparisonOperator != null -> = null
+3	ReplaceComparisonOperator	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:126 - ReplaceComparisonOperator != null -> = null
+4	ReplaceComparisonOperator	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:129 - ReplaceComparisonOperator == -> -2
+5	ReplaceComparisonOperator	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:129 - ReplaceComparisonOperator == -> >=
+6	ReplaceComparisonOperator	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:129 - ReplaceComparisonOperator == -> <=
+7	ReplaceConstant	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:130 - ReplaceConstant - 0 -> 1
+8	InsertUnaryOp	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:130 - InsertUnaryOp Negation of i
+9	InsertUnaryOp	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:130 - InsertUnaryOp IINC 1 i
+10	InsertUnaryOp	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:130 - InsertUnaryOp IINC -1 i
+11	ReplaceComparisonOperator	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:130 - ReplaceComparisonOperator >= -> -1
+12	ReplaceComparisonOperator	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:130 - ReplaceComparisonOperator >= -> >
+13	ReplaceComparisonOperator	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:130 - ReplaceComparisonOperator >= -> ==
+14	InsertUnaryOp	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:131 - InsertUnaryOp Negation of i
+15	InsertUnaryOp	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:131 - InsertUnaryOp IINC 1 i
+16	InsertUnaryOp	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:131 - InsertUnaryOp IINC -1 i
+17	InsertUnaryOp	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:157 - InsertUnaryOp Negation of i
+18	InsertUnaryOp	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:157 - InsertUnaryOp IINC 1 i
+19	InsertUnaryOp	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:157 - InsertUnaryOp IINC -1 i
+20	ReplaceComparisonOperator	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/LineSymbolizer;Ljava/awt/Color;)V:169 - ReplaceComparisonOperator = null -> != null
+21	ReplaceComparisonOperator	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/LineSymbolizer;Ljava/awt/Color;)V:169 - ReplaceComparisonOperator != null -> = null
+22	ReplaceComparisonOperator	org.geotools.styling.SLD.setLineColour(Lorg/geotools/styling/LineSymbolizer;Ljava/awt/Color;)V:175 - ReplaceComparisonOperator != null -> = null
+23	ReplaceComparisonOperator	org.geotools.styling.SLD.lineWidth(Lorg/geotools/styling/LineSymbolizer;)I:203 - ReplaceComparisonOperator != null -> = null
+24	ReplaceConstant	org.geotools.styling.SLD.lineWidth(Lorg/geotools/styling/LineSymbolizer;)I:204 - ReplaceConstant - -1 -> 0
+25	ReplaceConstant	org.geotools.styling.SLD.lineWidth(Lorg/geotools/styling/LineSymbolizer;)I:204 - ReplaceConstant - -1 -> 1
+26	ReplaceConstant	org.geotools.styling.SLD.lineWidth(Lorg/geotools/styling/LineSymbolizer;)I:204 - ReplaceConstant - -1 -> -2
+27	ReplaceComparisonOperator	org.geotools.styling.SLD.width(Lorg/geotools/styling/Stroke;)I:220 - ReplaceComparisonOperator != null -> = null
+28	ReplaceConstant	org.geotools.styling.SLD.width(Lorg/geotools/styling/Stroke;)I:221 - ReplaceConstant - -1 -> 0
+29	ReplaceConstant	org.geotools.styling.SLD.width(Lorg/geotools/styling/Stroke;)I:221 - ReplaceConstant - -1 -> 1
+30	ReplaceConstant	org.geotools.styling.SLD.width(Lorg/geotools/styling/Stroke;)I:221 - ReplaceConstant - -1 -> -2
+31	ReplaceConstant	org.geotools.styling.SLD.size(Lorg/geotools/styling/Mark;)I:234 - ReplaceConstant - -1 -> 0
+32	ReplaceConstant	org.geotools.styling.SLD.size(Lorg/geotools/styling/Mark;)I:234 - ReplaceConstant - -1 -> 1
+33	ReplaceConstant	org.geotools.styling.SLD.size(Lorg/geotools/styling/Mark;)I:234 - ReplaceConstant - -1 -> -2
+34	ReplaceComparisonOperator	org.geotools.styling.SLD.lineOpacity(Lorg/geotools/styling/LineSymbolizer;)D:256 - ReplaceComparisonOperator != null -> = null
+35	ReplaceConstant	org.geotools.styling.SLD.lineOpacity(Lorg/geotools/styling/LineSymbolizer;)D:257 - ReplaceConstant - NaN -> 0.0
+36	ReplaceConstant	org.geotools.styling.SLD.lineOpacity(Lorg/geotools/styling/LineSymbolizer;)D:257 - ReplaceConstant - NaN -> 1.0
+37	ReplaceConstant	org.geotools.styling.SLD.lineOpacity(Lorg/geotools/styling/LineSymbolizer;)D:257 - ReplaceConstant - NaN -> -1.0
+38	ReplaceConstant	org.geotools.styling.SLD.lineOpacity(Lorg/geotools/styling/LineSymbolizer;)D:257 - ReplaceConstant - NaN -> NaN
+39	ReplaceComparisonOperator	org.geotools.styling.SLD.opacity(Lorg/geotools/styling/Stroke;)D:273 - ReplaceComparisonOperator != null -> = null
+40	ReplaceConstant	org.geotools.styling.SLD.opacity(Lorg/geotools/styling/Stroke;)D:274 - ReplaceConstant - NaN -> 0.0
+41	ReplaceConstant	org.geotools.styling.SLD.opacity(Lorg/geotools/styling/Stroke;)D:274 - ReplaceConstant - NaN -> 1.0
+42	ReplaceConstant	org.geotools.styling.SLD.opacity(Lorg/geotools/styling/Stroke;)D:274 - ReplaceConstant - NaN -> -1.0
+43	ReplaceConstant	org.geotools.styling.SLD.opacity(Lorg/geotools/styling/Stroke;)D:274 - ReplaceConstant - NaN -> NaN
+44	ReplaceComparisonOperator	org.geotools.styling.SLD.opacity(Lorg/geotools/styling/RasterSymbolizer;)D:287 - ReplaceComparisonOperator != null -> = null
+45	ReplaceConstant	org.geotools.styling.SLD.opacity(Lorg/geotools/styling/RasterSymbolizer;)D:288 - ReplaceConstant - 1.0 -> 0.0
+46	ReplaceConstant	org.geotools.styling.SLD.opacity(Lorg/geotools/styling/RasterSymbolizer;)D:288 - ReplaceConstant - 1.0 -> -1.0
+47	ReplaceConstant	org.geotools.styling.SLD.opacity(Lorg/geotools/styling/RasterSymbolizer;)D:288 - ReplaceConstant - 1.0 -> 2.0
+48	ReplaceComparisonOperator	org.geotools.styling.SLD.opacity(Lorg/opengis/filter/expression/Expression;)D:301 - ReplaceComparisonOperator != null -> = null
+49	ReplaceConstant	org.geotools.styling.SLD.opacity(Lorg/opengis/filter/expression/Expression;)D:302 - ReplaceConstant - 1.0 -> 0.0
+50	ReplaceConstant	org.geotools.styling.SLD.opacity(Lorg/opengis/filter/expression/Expression;)D:302 - ReplaceConstant - 1.0 -> -1.0
+51	ReplaceConstant	org.geotools.styling.SLD.opacity(Lorg/opengis/filter/expression/Expression;)D:302 - ReplaceConstant - 1.0 -> 2.0
+52	InsertUnaryOp	org.geotools.styling.SLD.opacity(Lorg/opengis/filter/expression/Expression;)D:305 - InsertUnaryOp Negation of value
+53	ReplaceComparisonOperator	org.geotools.styling.SLD.opacity(Lorg/opengis/filter/expression/Expression;)D:305 - ReplaceComparisonOperator == -> -2
+54	ReplaceComparisonOperator	org.geotools.styling.SLD.opacity(Lorg/opengis/filter/expression/Expression;)D:305 - ReplaceComparisonOperator == -> >=
+55	ReplaceComparisonOperator	org.geotools.styling.SLD.opacity(Lorg/opengis/filter/expression/Expression;)D:305 - ReplaceComparisonOperator == -> <=
+56	ReplaceConstant	org.geotools.styling.SLD.opacity(Lorg/opengis/filter/expression/Expression;)D:305 - ReplaceConstant - 1.0 -> 0.0
+57	ReplaceConstant	org.geotools.styling.SLD.opacity(Lorg/opengis/filter/expression/Expression;)D:305 - ReplaceConstant - 1.0 -> -1.0
+58	ReplaceConstant	org.geotools.styling.SLD.opacity(Lorg/opengis/filter/expression/Expression;)D:305 - ReplaceConstant - 1.0 -> 2.0
+59	InsertUnaryOp	org.geotools.styling.SLD.opacity(Lorg/opengis/filter/expression/Expression;)D:305 - InsertUnaryOp Negation of value
+60	ReplaceComparisonOperator	org.geotools.styling.SLD.lineLinejoin(Lorg/geotools/styling/LineSymbolizer;)Ljava/lang/String;:316 - ReplaceComparisonOperator != null -> = null
+61	ReplaceComparisonOperator	org.geotools.styling.SLD.lineLinejoin(Lorg/geotools/styling/LineSymbolizer;)Ljava/lang/String;:322 - ReplaceComparisonOperator != null -> = null
+62	ReplaceComparisonOperator	org.geotools.styling.SLD.lineLinecap(Lorg/geotools/styling/LineSymbolizer;)Ljava/lang/String;:339 - ReplaceComparisonOperator != null -> = null
+63	ReplaceComparisonOperator	org.geotools.styling.SLD.lineLinecap(Lorg/geotools/styling/LineSymbolizer;)Ljava/lang/String;:345 - ReplaceComparisonOperator != null -> = null
+64	ReplaceComparisonOperator	org.geotools.styling.SLD.lineDash(Lorg/geotools/styling/LineSymbolizer;)[F:362 - ReplaceComparisonOperator != null -> = null
+65	ReplaceComparisonOperator	org.geotools.styling.SLD.lineDash(Lorg/geotools/styling/LineSymbolizer;)[F:368 - ReplaceComparisonOperator != null -> = null
+66	ReplaceComparisonOperator	org.geotools.styling.SLD.pointGraphic(Lorg/geotools/styling/Style;)Ljava/net/URL;:388 - ReplaceComparisonOperator != null -> = null
+67	ReplaceComparisonOperator	org.geotools.styling.SLD.pointGraphic(Lorg/geotools/styling/Style;)Ljava/net/URL;:394 - ReplaceComparisonOperator != null -> = null
+68	ReplaceComparisonOperator	org.geotools.styling.SLD.pointGraphic(Lorg/geotools/styling/Style;)Ljava/net/URL;:398 - ReplaceComparisonOperator == -> -2
+69	ReplaceComparisonOperator	org.geotools.styling.SLD.pointGraphic(Lorg/geotools/styling/Style;)Ljava/net/URL;:398 - ReplaceComparisonOperator == -> >=
+70	ReplaceComparisonOperator	org.geotools.styling.SLD.pointGraphic(Lorg/geotools/styling/Style;)Ljava/net/URL;:398 - ReplaceComparisonOperator == -> <=
+71	ReplaceComparisonOperator	org.geotools.styling.SLD.pointGraphic(Lorg/geotools/styling/Style;)Ljava/net/URL;:399 - ReplaceComparisonOperator = null -> != null
+72	ReplaceComparisonOperator	org.geotools.styling.SLD.pointGraphic(Lorg/geotools/styling/Style;)Ljava/net/URL;:399 - ReplaceComparisonOperator == -> -2
+73	ReplaceComparisonOperator	org.geotools.styling.SLD.pointGraphic(Lorg/geotools/styling/Style;)Ljava/net/URL;:399 - ReplaceComparisonOperator == -> >=
+74	ReplaceComparisonOperator	org.geotools.styling.SLD.pointGraphic(Lorg/geotools/styling/Style;)Ljava/net/URL;:399 - ReplaceComparisonOperator == -> <=
+75	ReplaceComparisonOperator	org.geotools.styling.SLD.pointGraphic(Lorg/geotools/styling/Style;)Ljava/net/URL;:403 - ReplaceComparisonOperator = null -> != null
+76	ReplaceComparisonOperator	org.geotools.styling.SLD.pointMark(Lorg/geotools/styling/Style;)Lorg/geotools/styling/Mark;:423 - ReplaceComparisonOperator != null -> = null
+77	ReplaceComparisonOperator	org.geotools.styling.SLD.mark(Lorg/geotools/styling/Graphic;)Lorg/geotools/styling/Mark;:449 - ReplaceComparisonOperator != null -> = null
+78	ReplaceComparisonOperator	org.geotools.styling.SLD.mark(Lorg/geotools/styling/Graphic;)Lorg/geotools/styling/Mark;:453 - ReplaceComparisonOperator == -> -2
+79	ReplaceComparisonOperator	org.geotools.styling.SLD.mark(Lorg/geotools/styling/Graphic;)Lorg/geotools/styling/Mark;:453 - ReplaceComparisonOperator == -> >=
+80	ReplaceComparisonOperator	org.geotools.styling.SLD.mark(Lorg/geotools/styling/Graphic;)Lorg/geotools/styling/Mark;:453 - ReplaceComparisonOperator == -> <=
+81	ReplaceComparisonOperator	org.geotools.styling.SLD.mark(Lorg/geotools/styling/Graphic;)Lorg/geotools/styling/Mark;:454 - ReplaceComparisonOperator = null -> != null
+82	ReplaceComparisonOperator	org.geotools.styling.SLD.mark(Lorg/geotools/styling/Graphic;)Lorg/geotools/styling/Mark;:454 - ReplaceComparisonOperator == -> -2
+83	ReplaceComparisonOperator	org.geotools.styling.SLD.mark(Lorg/geotools/styling/Graphic;)Lorg/geotools/styling/Mark;:454 - ReplaceComparisonOperator == -> >=
+84	ReplaceComparisonOperator	org.geotools.styling.SLD.mark(Lorg/geotools/styling/Graphic;)Lorg/geotools/styling/Mark;:454 - ReplaceComparisonOperator == -> <=
+85	ReplaceComparisonOperator	org.geotools.styling.SLD.graphic(Lorg/geotools/styling/PointSymbolizer;)Lorg/geotools/styling/Graphic;:463 - ReplaceComparisonOperator != null -> = null
+86	ReplaceComparisonOperator	org.geotools.styling.SLD.pointSize(Lorg/geotools/styling/PointSymbolizer;)I:481 - ReplaceComparisonOperator != null -> = null
+87	ReplaceConstant	org.geotools.styling.SLD.pointSize(Lorg/geotools/styling/PointSymbolizer;)I:482 - ReplaceConstant - -1 -> 0
+88	ReplaceConstant	org.geotools.styling.SLD.pointSize(Lorg/geotools/styling/PointSymbolizer;)I:482 - ReplaceConstant - -1 -> 1
+89	ReplaceConstant	org.geotools.styling.SLD.pointSize(Lorg/geotools/styling/PointSymbolizer;)I:482 - ReplaceConstant - -1 -> -2
+90	ReplaceComparisonOperator	org.geotools.styling.SLD.pointSize(Lorg/geotools/styling/PointSymbolizer;)I:487 - ReplaceComparisonOperator != null -> = null
+91	ReplaceConstant	org.geotools.styling.SLD.pointSize(Lorg/geotools/styling/PointSymbolizer;)I:488 - ReplaceConstant - -1 -> 0
+92	ReplaceConstant	org.geotools.styling.SLD.pointSize(Lorg/geotools/styling/PointSymbolizer;)I:488 - ReplaceConstant - -1 -> 1
+93	ReplaceConstant	org.geotools.styling.SLD.pointSize(Lorg/geotools/styling/PointSymbolizer;)I:488 - ReplaceConstant - -1 -> -2
+94	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWellKnownName(Lorg/geotools/styling/PointSymbolizer;)Ljava/lang/String;:507 - ReplaceComparisonOperator != null -> = null
+95	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWellKnownName(Lorg/geotools/styling/PointSymbolizer;)Ljava/lang/String;:513 - ReplaceComparisonOperator != null -> = null
+96	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWellKnownName(Lorg/geotools/styling/PointSymbolizer;)Ljava/lang/String;:517 - ReplaceComparisonOperator == -> -2
+97	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWellKnownName(Lorg/geotools/styling/PointSymbolizer;)Ljava/lang/String;:517 - ReplaceComparisonOperator == -> >=
+98	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWellKnownName(Lorg/geotools/styling/PointSymbolizer;)Ljava/lang/String;:517 - ReplaceComparisonOperator == -> <=
+99	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWellKnownName(Lorg/geotools/styling/PointSymbolizer;)Ljava/lang/String;:518 - ReplaceComparisonOperator = null -> != null
+100	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWellKnownName(Lorg/geotools/styling/PointSymbolizer;)Ljava/lang/String;:518 - ReplaceComparisonOperator == -> -2
+101	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWellKnownName(Lorg/geotools/styling/PointSymbolizer;)Ljava/lang/String;:518 - ReplaceComparisonOperator == -> >=
+102	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWellKnownName(Lorg/geotools/styling/PointSymbolizer;)Ljava/lang/String;:518 - ReplaceComparisonOperator == -> <=
+103	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWellKnownName(Lorg/geotools/styling/PointSymbolizer;)Ljava/lang/String;:521 - ReplaceComparisonOperator = null -> != null
+104	ReplaceComparisonOperator	org.geotools.styling.SLD.wellKnownName(Lorg/geotools/styling/Mark;)Ljava/lang/String;:538 - ReplaceComparisonOperator != null -> = null
+105	ReplaceComparisonOperator	org.geotools.styling.SLD.wellKnownName(Lorg/geotools/styling/Mark;)Ljava/lang/String;:544 - ReplaceComparisonOperator != null -> = null
+106	ReplaceComparisonOperator	org.geotools.styling.SLD.setPointColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:573 - ReplaceComparisonOperator != null -> = null
+107	ReplaceComparisonOperator	org.geotools.styling.SLD.setPointColour(Lorg/geotools/styling/PointSymbolizer;Ljava/awt/Color;)V:588 - ReplaceComparisonOperator = null -> != null
+108	ReplaceComparisonOperator	org.geotools.styling.SLD.setPointColour(Lorg/geotools/styling/PointSymbolizer;Ljava/awt/Color;)V:588 - ReplaceComparisonOperator != null -> = null
+109	ReplaceComparisonOperator	org.geotools.styling.SLD.setPointColour(Lorg/geotools/styling/PointSymbolizer;Ljava/awt/Color;)V:594 - ReplaceComparisonOperator != null -> = null
+110	ReplaceComparisonOperator	org.geotools.styling.SLD.setPointColour(Lorg/geotools/styling/PointSymbolizer;Ljava/awt/Color;)V:598 - ReplaceComparisonOperator == -> -2
+111	ReplaceComparisonOperator	org.geotools.styling.SLD.setPointColour(Lorg/geotools/styling/PointSymbolizer;Ljava/awt/Color;)V:598 - ReplaceComparisonOperator == -> >=
+112	ReplaceComparisonOperator	org.geotools.styling.SLD.setPointColour(Lorg/geotools/styling/PointSymbolizer;Ljava/awt/Color;)V:598 - ReplaceComparisonOperator == -> <=
+113	ReplaceComparisonOperator	org.geotools.styling.SLD.setPointColour(Lorg/geotools/styling/PointSymbolizer;Ljava/awt/Color;)V:599 - ReplaceComparisonOperator = null -> != null
+114	ReplaceComparisonOperator	org.geotools.styling.SLD.setPointColour(Lorg/geotools/styling/PointSymbolizer;Ljava/awt/Color;)V:599 - ReplaceComparisonOperator == -> -2
+115	ReplaceComparisonOperator	org.geotools.styling.SLD.setPointColour(Lorg/geotools/styling/PointSymbolizer;Ljava/awt/Color;)V:599 - ReplaceComparisonOperator == -> >=
+116	ReplaceComparisonOperator	org.geotools.styling.SLD.setPointColour(Lorg/geotools/styling/PointSymbolizer;Ljava/awt/Color;)V:599 - ReplaceComparisonOperator == -> <=
+117	ReplaceComparisonOperator	org.geotools.styling.SLD.setPointColour(Lorg/geotools/styling/PointSymbolizer;Ljava/awt/Color;)V:603 - ReplaceComparisonOperator != null -> = null
+118	ReplaceComparisonOperator	org.geotools.styling.SLD.setPointColour(Lorg/geotools/styling/PointSymbolizer;Ljava/awt/Color;)V:609 - ReplaceComparisonOperator = null -> != null
+119	ReplaceComparisonOperator	org.geotools.styling.SLD.color(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:627 - ReplaceComparisonOperator != null -> = null
+120	ReplaceComparisonOperator	org.geotools.styling.SLD.color(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:633 - ReplaceComparisonOperator != null -> = null
+121	ReplaceComparisonOperator	org.geotools.styling.SLD.color(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:637 - ReplaceComparisonOperator == -> -2
+122	ReplaceComparisonOperator	org.geotools.styling.SLD.color(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:637 - ReplaceComparisonOperator == -> >=
+123	ReplaceComparisonOperator	org.geotools.styling.SLD.color(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:637 - ReplaceComparisonOperator == -> <=
+124	ReplaceComparisonOperator	org.geotools.styling.SLD.color(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:638 - ReplaceComparisonOperator = null -> != null
+125	ReplaceComparisonOperator	org.geotools.styling.SLD.color(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:638 - ReplaceComparisonOperator == -> -2
+126	ReplaceComparisonOperator	org.geotools.styling.SLD.color(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:638 - ReplaceComparisonOperator == -> >=
+127	ReplaceComparisonOperator	org.geotools.styling.SLD.color(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:638 - ReplaceComparisonOperator == -> <=
+128	ReplaceComparisonOperator	org.geotools.styling.SLD.color(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:641 - ReplaceComparisonOperator = null -> != null
+129	ReplaceComparisonOperator	org.geotools.styling.SLD.color(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:643 - ReplaceComparisonOperator = null -> != null
+130	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:665 - ReplaceComparisonOperator != null -> = null
+131	ReplaceConstant	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:666 - ReplaceConstant - -1 -> 0
+132	ReplaceConstant	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:666 - ReplaceConstant - -1 -> 1
+133	ReplaceConstant	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:666 - ReplaceConstant - -1 -> -2
+134	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:671 - ReplaceComparisonOperator != null -> = null
+135	ReplaceConstant	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:672 - ReplaceConstant - -1 -> 0
+136	ReplaceConstant	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:672 - ReplaceConstant - -1 -> 1
+137	ReplaceConstant	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:672 - ReplaceConstant - -1 -> -2
+138	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:675 - ReplaceComparisonOperator == -> -2
+139	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:675 - ReplaceComparisonOperator == -> >=
+140	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:675 - ReplaceComparisonOperator == -> <=
+141	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:676 - ReplaceComparisonOperator = null -> != null
+142	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:676 - ReplaceComparisonOperator == -> -2
+143	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:676 - ReplaceComparisonOperator == -> >=
+144	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:676 - ReplaceComparisonOperator == -> <=
+145	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:679 - ReplaceComparisonOperator = null -> != null
+146	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:681 - ReplaceComparisonOperator = null -> != null
+147	InsertUnaryOp	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:683 - InsertUnaryOp Negation of width
+148	InsertUnaryOp	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:683 - InsertUnaryOp IINC 1 width
+149	InsertUnaryOp	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:683 - InsertUnaryOp IINC -1 width
+150	ReplaceConstant	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:683 - ReplaceConstant - -1 -> 0
+151	ReplaceConstant	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:683 - ReplaceConstant - -1 -> 1
+152	ReplaceConstant	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:683 - ReplaceConstant - -1 -> -2
+153	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:683 - ReplaceComparisonOperator == -> -2
+154	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:683 - ReplaceComparisonOperator == -> >=
+155	ReplaceComparisonOperator	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:683 - ReplaceComparisonOperator == -> <=
+156	InsertUnaryOp	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:684 - InsertUnaryOp Negation of width
+157	InsertUnaryOp	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:684 - InsertUnaryOp IINC 1 width
+158	InsertUnaryOp	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:684 - InsertUnaryOp IINC -1 width
+159	ReplaceConstant	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:691 - ReplaceConstant - -1 -> 0
+160	ReplaceConstant	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:691 - ReplaceConstant - -1 -> 1
+161	ReplaceConstant	org.geotools.styling.SLD.pointWidth(Lorg/geotools/styling/PointSymbolizer;)I:691 - ReplaceConstant - -1 -> -2
+162	ReplaceComparisonOperator	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:705 - ReplaceComparisonOperator != null -> = null
+163	ReplaceConstant	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:706 - ReplaceConstant - NaN -> 0.0
+164	ReplaceConstant	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:706 - ReplaceConstant - NaN -> 1.0
+165	ReplaceConstant	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:706 - ReplaceConstant - NaN -> -1.0
+166	ReplaceConstant	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:706 - ReplaceConstant - NaN -> NaN
+167	ReplaceComparisonOperator	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:711 - ReplaceComparisonOperator != null -> = null
+168	ReplaceConstant	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:712 - ReplaceConstant - NaN -> 0.0
+169	ReplaceConstant	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:712 - ReplaceConstant - NaN -> 1.0
+170	ReplaceConstant	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:712 - ReplaceConstant - NaN -> -1.0
+171	ReplaceConstant	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:712 - ReplaceConstant - NaN -> NaN
+172	ReplaceComparisonOperator	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:715 - ReplaceComparisonOperator == -> -2
+173	ReplaceComparisonOperator	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:715 - ReplaceComparisonOperator == -> >=
+174	ReplaceComparisonOperator	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:715 - ReplaceComparisonOperator == -> <=
+175	ReplaceComparisonOperator	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:716 - ReplaceComparisonOperator = null -> != null
+176	ReplaceComparisonOperator	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:716 - ReplaceComparisonOperator == -> -2
+177	ReplaceComparisonOperator	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:716 - ReplaceComparisonOperator == -> >=
+178	ReplaceComparisonOperator	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:716 - ReplaceComparisonOperator == -> <=
+179	ReplaceComparisonOperator	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:719 - ReplaceComparisonOperator = null -> != null
+180	ReplaceConstant	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:726 - ReplaceConstant - NaN -> 0.0
+181	ReplaceConstant	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:726 - ReplaceConstant - NaN -> 1.0
+182	ReplaceConstant	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:726 - ReplaceConstant - NaN -> -1.0
+183	ReplaceConstant	org.geotools.styling.SLD.pointBorderOpacity(Lorg/geotools/styling/PointSymbolizer;)D:726 - ReplaceConstant - NaN -> NaN
+184	ReplaceComparisonOperator	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:740 - ReplaceComparisonOperator != null -> = null
+185	ReplaceConstant	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:741 - ReplaceConstant - NaN -> 0.0
+186	ReplaceConstant	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:741 - ReplaceConstant - NaN -> 1.0
+187	ReplaceConstant	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:741 - ReplaceConstant - NaN -> -1.0
+188	ReplaceConstant	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:741 - ReplaceConstant - NaN -> NaN
+189	ReplaceComparisonOperator	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:746 - ReplaceComparisonOperator != null -> = null
+190	ReplaceConstant	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:747 - ReplaceConstant - NaN -> 0.0
+191	ReplaceConstant	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:747 - ReplaceConstant - NaN -> 1.0
+192	ReplaceConstant	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:747 - ReplaceConstant - NaN -> -1.0
+193	ReplaceConstant	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:747 - ReplaceConstant - NaN -> NaN
+194	ReplaceComparisonOperator	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:750 - ReplaceComparisonOperator == -> -2
+195	ReplaceComparisonOperator	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:750 - ReplaceComparisonOperator == -> >=
+196	ReplaceComparisonOperator	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:750 - ReplaceComparisonOperator == -> <=
+197	ReplaceComparisonOperator	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:751 - ReplaceComparisonOperator = null -> != null
+198	ReplaceComparisonOperator	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:751 - ReplaceComparisonOperator == -> -2
+199	ReplaceComparisonOperator	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:751 - ReplaceComparisonOperator == -> >=
+200	ReplaceComparisonOperator	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:751 - ReplaceComparisonOperator == -> <=
+201	ReplaceComparisonOperator	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:754 - ReplaceComparisonOperator = null -> != null
+202	ReplaceComparisonOperator	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:756 - ReplaceComparisonOperator = null -> != null
+203	ReplaceConstant	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:763 - ReplaceConstant - NaN -> 0.0
+204	ReplaceConstant	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:763 - ReplaceConstant - NaN -> 1.0
+205	ReplaceConstant	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:763 - ReplaceConstant - NaN -> -1.0
+206	ReplaceConstant	org.geotools.styling.SLD.pointOpacity(Lorg/geotools/styling/PointSymbolizer;)D:763 - ReplaceConstant - NaN -> NaN
+207	ReplaceComparisonOperator	org.geotools.styling.SLD.pointFill(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:777 - ReplaceComparisonOperator != null -> = null
+208	ReplaceComparisonOperator	org.geotools.styling.SLD.pointFill(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:783 - ReplaceComparisonOperator != null -> = null
+209	ReplaceComparisonOperator	org.geotools.styling.SLD.pointFill(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:787 - ReplaceComparisonOperator == -> -2
+210	ReplaceComparisonOperator	org.geotools.styling.SLD.pointFill(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:787 - ReplaceComparisonOperator == -> >=
+211	ReplaceComparisonOperator	org.geotools.styling.SLD.pointFill(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:787 - ReplaceComparisonOperator == -> <=
+212	ReplaceComparisonOperator	org.geotools.styling.SLD.pointFill(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:788 - ReplaceComparisonOperator = null -> != null
+213	ReplaceComparisonOperator	org.geotools.styling.SLD.pointFill(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:788 - ReplaceComparisonOperator == -> -2
+214	ReplaceComparisonOperator	org.geotools.styling.SLD.pointFill(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:788 - ReplaceComparisonOperator == -> >=
+215	ReplaceComparisonOperator	org.geotools.styling.SLD.pointFill(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:788 - ReplaceComparisonOperator == -> <=
+216	ReplaceComparisonOperator	org.geotools.styling.SLD.pointFill(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:791 - ReplaceComparisonOperator = null -> != null
+217	ReplaceComparisonOperator	org.geotools.styling.SLD.pointFill(Lorg/geotools/styling/PointSymbolizer;)Ljava/awt/Color;:793 - ReplaceComparisonOperator = null -> != null
+218	ReplaceComparisonOperator	org.geotools.styling.SLD.polyWidth(Lorg/geotools/styling/PolygonSymbolizer;)I:814 - ReplaceComparisonOperator != null -> = null
+219	ReplaceConstant	org.geotools.styling.SLD.polyWidth(Lorg/geotools/styling/PolygonSymbolizer;)I:815 - ReplaceConstant - -1 -> 0
+220	ReplaceConstant	org.geotools.styling.SLD.polyWidth(Lorg/geotools/styling/PolygonSymbolizer;)I:815 - ReplaceConstant - -1 -> 1
+221	ReplaceConstant	org.geotools.styling.SLD.polyWidth(Lorg/geotools/styling/PolygonSymbolizer;)I:815 - ReplaceConstant - -1 -> -2
+222	ReplaceComparisonOperator	org.geotools.styling.SLD.polyWidth(Lorg/geotools/styling/PolygonSymbolizer;)I:819 - ReplaceComparisonOperator = null -> != null
+223	ReplaceConstant	org.geotools.styling.SLD.polyWidth(Lorg/geotools/styling/PolygonSymbolizer;)I:823 - ReplaceConstant - -1 -> 0
+224	ReplaceConstant	org.geotools.styling.SLD.polyWidth(Lorg/geotools/styling/PolygonSymbolizer;)I:823 - ReplaceConstant - -1 -> 1
+225	ReplaceConstant	org.geotools.styling.SLD.polyWidth(Lorg/geotools/styling/PolygonSymbolizer;)I:823 - ReplaceConstant - -1 -> -2
+226	ReplaceComparisonOperator	org.geotools.styling.SLD.polyColor(Lorg/geotools/styling/PolygonSymbolizer;)Ljava/awt/Color;:837 - ReplaceComparisonOperator != null -> = null
+227	ReplaceComparisonOperator	org.geotools.styling.SLD.polyColor(Lorg/geotools/styling/PolygonSymbolizer;)Ljava/awt/Color;:843 - ReplaceComparisonOperator != null -> = null
+228	ReplaceComparisonOperator	org.geotools.styling.SLD.polyColor(Lorg/geotools/styling/PolygonSymbolizer;)Ljava/awt/Color;:849 - ReplaceComparisonOperator = null -> != null
+229	ReplaceComparisonOperator	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:867 - ReplaceComparisonOperator != null -> = null
+230	ReplaceComparisonOperator	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:870 - ReplaceComparisonOperator == -> -2
+231	ReplaceComparisonOperator	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:870 - ReplaceComparisonOperator == -> >=
+232	ReplaceComparisonOperator	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:870 - ReplaceComparisonOperator == -> <=
+233	ReplaceConstant	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:871 - ReplaceConstant - 0 -> 1
+234	InsertUnaryOp	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:871 - InsertUnaryOp Negation of i
+235	InsertUnaryOp	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:871 - InsertUnaryOp IINC 1 i
+236	InsertUnaryOp	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:871 - InsertUnaryOp IINC -1 i
+237	ReplaceComparisonOperator	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:871 - ReplaceComparisonOperator >= -> -1
+238	ReplaceComparisonOperator	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:871 - ReplaceComparisonOperator >= -> >
+239	ReplaceComparisonOperator	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:871 - ReplaceComparisonOperator >= -> ==
+240	InsertUnaryOp	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:872 - InsertUnaryOp Negation of i
+241	InsertUnaryOp	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:872 - InsertUnaryOp IINC 1 i
+242	InsertUnaryOp	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:872 - InsertUnaryOp IINC -1 i
+243	InsertUnaryOp	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:874 - InsertUnaryOp Negation of opacity
+244	InsertUnaryOp	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:900 - InsertUnaryOp Negation of i
+245	InsertUnaryOp	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:900 - InsertUnaryOp IINC 1 i
+246	InsertUnaryOp	org.geotools.styling.SLD.setRasterOpacity(Lorg/geotools/styling/Style;D)V:900 - InsertUnaryOp IINC -1 i
+247	ReplaceComparisonOperator	org.geotools.styling.SLD.setChannelSelection(Lorg/geotools/styling/Style;[Lorg/geotools/styling/SelectedChannelType;Lorg/geotools/styling/SelectedChannelType;)V:917 - ReplaceComparisonOperator != null -> = null
+248	ReplaceComparisonOperator	org.geotools.styling.SLD.setChannelSelection(Lorg/geotools/styling/Style;[Lorg/geotools/styling/SelectedChannelType;Lorg/geotools/styling/SelectedChannelType;)V:920 - ReplaceComparisonOperator == -> -2
+249	ReplaceComparisonOperator	org.geotools.styling.SLD.setChannelSelection(Lorg/geotools/styling/Style;[Lorg/geotools/styling/SelectedChannelType;Lorg/geotools/styling/SelectedChannelType;)V:920 - ReplaceComparisonOperator == -> >=
+250	ReplaceComparisonOperator	org.geotools.styling.SLD.setChannelSelection(Lorg/geotools/styling/Style;[Lorg/geotools/styling/SelectedChannelType;Lorg/geotools/styling/SelectedChannelType;)V:920 - ReplaceComparisonOperator == -> <=
+251	ReplaceConstant	org.geotools.styling.SLD.setChannelSelection(Lorg/geotools/styling/Style;[Lorg/geotools/styling/SelectedChannelType;Lorg/geotools/styling/SelectedChannelType;)V:921 - ReplaceConstant - 0 -> 1
+252	InsertUnaryOp	org.geotools.styling.SLD.setChannelSelection(Lorg/geotools/styling/Style;[Lorg/geotools/styling/SelectedChannelType;Lorg/geotools/styling/SelectedChannelType;)V:921 - InsertUnaryOp Negation of i
+253	InsertUnaryOp	org.geotools.styling.SLD.setChannelSelection(Lorg/geotools/styling/Style;[Lorg/geotools/styling/SelectedChannelType;Lorg/geotools/styling/SelectedChannelType;)V:921 - InsertUnaryOp IINC 1 i
+254	InsertUnaryOp	org.geotools.styling.SLD.setChannelSelection(Lorg/geotools/styling/Style;[Lorg/geotools/styling/SelectedChannelType;Lorg/geotools/styling/SelectedChannelType;)V:921 - InsertUnaryOp IINC -1 i
+255	ReplaceComparisonOperator	org.geotools.styling.SLD.setChannelSelection(Lorg/geotools/styling/Style;[Lorg/geotools/styling/SelectedChannelType;Lorg/geotools/styling/SelectedChannelType;)V:921 - ReplaceComparisonOperator >= -> -1
+256	ReplaceComparisonOperator	org.geotools.styling.SLD.setChannelSelection(Lorg/geotools/styling/Style;[Lorg/geotools/styling/SelectedChannelType;Lorg/geotools/styling/SelectedChannelType;)V:921 - ReplaceComparisonOperator >= -> >
+257	ReplaceComparisonOperator	org.geotools.styling.SLD.setChannelSelection(Lorg/geotools/styling/Style;[Lorg/geotools/styling/SelectedChannelType;Lorg/geotools/styling/SelectedChannelType;)V:921 - ReplaceComparisonOperator >= -> ==
+258	InsertUnaryOp	org.geotools.styling.SLD.setChannelSelection(Lorg/geotools/styling/Style;[Lorg/geotools/styling/SelectedChannelType;Lorg/geotools/styling/SelectedChannelType;)V:922 - InsertUnaryOp Negation of i
+259	InsertUnaryOp	org.geotools.styling.SLD.setChannelSelection(Lorg/geotools/styling/Style;[Lorg/geotools/styling/SelectedChannelType;Lorg/geotools/styling/SelectedChannelType;)V:922 - InsertUnaryOp IINC 1 i
+260	InsertUnaryOp	org.geotools.styling.SLD.setChannelSelection(Lorg/geotools/styling/Style;[Lorg/geotools/styling/SelectedChannelType;Lorg/geotools/styling/SelectedChannelType;)V:922 - InsertUnaryOp IINC -1 i
+261	InsertUnaryOp	org.geotools.styling.SLD.setChannelSelection(Lorg/geotools/styling/Style;[Lorg/geotools/styling/SelectedChannelType;Lorg/geotools/styling/SelectedChannelType;)V:960 - InsertUnaryOp Negation of i
+262	InsertUnaryOp	org.geotools.styling.SLD.setChannelSelection(Lorg/geotools/styling/Style;[Lorg/geotools/styling/SelectedChannelType;Lorg/geotools/styling/SelectedChannelType;)V:960 - InsertUnaryOp IINC 1 i
+263	InsertUnaryOp	org.geotools.styling.SLD.setChannelSelection(Lorg/geotools/styling/Style;[Lorg/geotools/styling/SelectedChannelType;Lorg/geotools/styling/SelectedChannelType;)V:960 - InsertUnaryOp IINC -1 i
+264	ReplaceComparisonOperator	org.geotools.styling.SLD.setPolyColour(Lorg/geotools/styling/Style;Ljava/awt/Color;)V:973 - ReplaceComparisonOperator != null -> = null
+265	ReplaceComparisonOperator	org.geotools.styling.SLD.setPolyColour(Lorg/geotools/styling/PolygonSymbolizer;Ljava/awt/Color;)V:986 - ReplaceComparisonOperator = null -> != null
+266	ReplaceComparisonOperator	org.geotools.styling.SLD.setPolyColour(Lorg/geotools/styling/PolygonSymbolizer;Ljava/awt/Color;)V:986 - ReplaceComparisonOperator != null -> = null
+267	ReplaceComparisonOperator	org.geotools.styling.SLD.setPolyColour(Lorg/geotools/styling/PolygonSymbolizer;Ljava/awt/Color;)V:992 - ReplaceComparisonOperator != null -> = null
+268	ReplaceComparisonOperator	org.geotools.styling.SLD.setPolyColour(Lorg/geotools/styling/PolygonSymbolizer;Ljava/awt/Color;)V:1000 - ReplaceComparisonOperator = null -> != null
+269	ReplaceComparisonOperator	org.geotools.styling.SLD.polyFill(Lorg/geotools/styling/PolygonSymbolizer;)Ljava/awt/Color;:1016 - ReplaceComparisonOperator != null -> = null
+270	ReplaceComparisonOperator	org.geotools.styling.SLD.polyFill(Lorg/geotools/styling/PolygonSymbolizer;)Ljava/awt/Color;:1022 - ReplaceComparisonOperator != null -> = null
+271	ReplaceComparisonOperator	org.geotools.styling.SLD.polyBorderOpacity(Lorg/geotools/styling/PolygonSymbolizer;)D:1040 - ReplaceComparisonOperator != null -> = null
+272	ReplaceConstant	org.geotools.styling.SLD.polyBorderOpacity(Lorg/geotools/styling/PolygonSymbolizer;)D:1041 - ReplaceConstant - NaN -> 0.0
+273	ReplaceConstant	org.geotools.styling.SLD.polyBorderOpacity(Lorg/geotools/styling/PolygonSymbolizer;)D:1041 - ReplaceConstant - NaN -> 1.0
+274	ReplaceConstant	org.geotools.styling.SLD.polyBorderOpacity(Lorg/geotools/styling/PolygonSymbolizer;)D:1041 - ReplaceConstant - NaN -> -1.0
+275	ReplaceConstant	org.geotools.styling.SLD.polyBorderOpacity(Lorg/geotools/styling/PolygonSymbolizer;)D:1041 - ReplaceConstant - NaN -> NaN
+276	ReplaceComparisonOperator	org.geotools.styling.SLD.polyBorderOpacity(Lorg/geotools/styling/PolygonSymbolizer;)D:1045 - ReplaceComparisonOperator != null -> = null
+277	ReplaceConstant	org.geotools.styling.SLD.polyBorderOpacity(Lorg/geotools/styling/PolygonSymbolizer;)D:1046 - ReplaceConstant - NaN -> 0.0
+278	ReplaceConstant	org.geotools.styling.SLD.polyBorderOpacity(Lorg/geotools/styling/PolygonSymbolizer;)D:1046 - ReplaceConstant - NaN -> 1.0
+279	ReplaceConstant	org.geotools.styling.SLD.polyBorderOpacity(Lorg/geotools/styling/PolygonSymbolizer;)D:1046 - ReplaceConstant - NaN -> -1.0
+280	ReplaceConstant	org.geotools.styling.SLD.polyBorderOpacity(Lorg/geotools/styling/PolygonSymbolizer;)D:1046 - ReplaceConstant - NaN -> NaN
+281	ReplaceComparisonOperator	org.geotools.styling.SLD.polyFillOpacity(Lorg/geotools/styling/PolygonSymbolizer;)D:1063 - ReplaceComparisonOperator != null -> = null
+282	ReplaceConstant	org.geotools.styling.SLD.polyFillOpacity(Lorg/geotools/styling/PolygonSymbolizer;)D:1064 - ReplaceConstant - NaN -> 0.0
+283	ReplaceConstant	org.geotools.styling.SLD.polyFillOpacity(Lorg/geotools/styling/PolygonSymbolizer;)D:1064 - ReplaceConstant - NaN -> 1.0
+284	ReplaceConstant	org.geotools.styling.SLD.polyFillOpacity(Lorg/geotools/styling/PolygonSymbolizer;)D:1064 - ReplaceConstant - NaN -> -1.0
+285	ReplaceConstant	org.geotools.styling.SLD.polyFillOpacity(Lorg/geotools/styling/PolygonSymbolizer;)D:1064 - ReplaceConstant - NaN -> NaN
+286	ReplaceComparisonOperator	org.geotools.styling.SLD.opacity(Lorg/geotools/styling/Fill;)D:1078 - ReplaceComparisonOperator != null -> = null
+287	ReplaceComparisonOperator	org.geotools.styling.SLD.opacity(Lorg/geotools/styling/Fill;)D:1083 - ReplaceComparisonOperator != null -> = null
+288	ReplaceComparisonOperator	org.geotools.styling.SLD.rasterOpacity(Lorg/geotools/styling/RasterSymbolizer;)D:1101 - ReplaceComparisonOperator != null -> = null
+289	ReplaceConstant	org.geotools.styling.SLD.rasterOpacity(Lorg/geotools/styling/RasterSymbolizer;)D:1102 - ReplaceConstant - NaN -> 0.0
+290	ReplaceConstant	org.geotools.styling.SLD.rasterOpacity(Lorg/geotools/styling/RasterSymbolizer;)D:1102 - ReplaceConstant - NaN -> 1.0
+291	ReplaceConstant	org.geotools.styling.SLD.rasterOpacity(Lorg/geotools/styling/RasterSymbolizer;)D:1102 - ReplaceConstant - NaN -> -1.0
+292	ReplaceConstant	org.geotools.styling.SLD.rasterOpacity(Lorg/geotools/styling/RasterSymbolizer;)D:1102 - ReplaceConstant - NaN -> NaN
+293	ReplaceComparisonOperator	org.geotools.styling.SLD.font(Lorg/geotools/styling/TextSymbolizer;)Lorg/geotools/styling/Font;:1151 - ReplaceComparisonOperator != null -> = null
+294	ReplaceComparisonOperator	org.geotools.styling.SLD.textLabel(Lorg/geotools/styling/TextSymbolizer;)Lorg/opengis/filter/expression/Expression;:1165 - ReplaceComparisonOperator != null -> = null
+295	ReplaceComparisonOperator	org.geotools.styling.SLD.textLabel(Lorg/geotools/styling/TextSymbolizer;)Lorg/opengis/filter/expression/Expression;:1171 - ReplaceComparisonOperator != null -> = null
+296	ReplaceComparisonOperator	org.geotools.styling.SLD.textLabelString(Lorg/geotools/styling/TextSymbolizer;)Ljava/lang/String;:1188 - ReplaceComparisonOperator != null -> = null
+297	ReplaceComparisonOperator	org.geotools.styling.SLD.textFontFill(Lorg/geotools/styling/TextSymbolizer;)Ljava/awt/Color;:1199 - ReplaceComparisonOperator != null -> = null
+298	ReplaceComparisonOperator	org.geotools.styling.SLD.textFontFill(Lorg/geotools/styling/TextSymbolizer;)Ljava/awt/Color;:1205 - ReplaceComparisonOperator != null -> = null
+299	ReplaceComparisonOperator	org.geotools.styling.SLD.textHaloFill(Lorg/geotools/styling/TextSymbolizer;)Ljava/awt/Color;:1222 - ReplaceComparisonOperator != null -> = null
+300	ReplaceComparisonOperator	org.geotools.styling.SLD.textHaloFill(Lorg/geotools/styling/TextSymbolizer;)Ljava/awt/Color;:1228 - ReplaceComparisonOperator != null -> = null
+301	ReplaceComparisonOperator	org.geotools.styling.SLD.textHaloWidth(Lorg/geotools/styling/TextSymbolizer;)I:1245 - ReplaceComparisonOperator != null -> = null
+302	ReplaceConstant	org.geotools.styling.SLD.textHaloWidth(Lorg/geotools/styling/TextSymbolizer;)I:1246 - ReplaceConstant - 0 -> 1
+303	ReplaceComparisonOperator	org.geotools.styling.SLD.textHaloWidth(Lorg/geotools/styling/TextSymbolizer;)I:1251 - ReplaceComparisonOperator != null -> = null
+304	ReplaceConstant	org.geotools.styling.SLD.textHaloWidth(Lorg/geotools/styling/TextSymbolizer;)I:1252 - ReplaceConstant - 0 -> 1
+305	InsertUnaryOp	org.geotools.styling.SLD.textHaloWidth(Lorg/geotools/styling/TextSymbolizer;)I:1257 - InsertUnaryOp Negation of width
+306	InsertUnaryOp	org.geotools.styling.SLD.textHaloWidth(Lorg/geotools/styling/TextSymbolizer;)I:1257 - InsertUnaryOp IINC 1 width
+307	InsertUnaryOp	org.geotools.styling.SLD.textHaloWidth(Lorg/geotools/styling/TextSymbolizer;)I:1257 - InsertUnaryOp IINC -1 width
+308	ReplaceComparisonOperator	org.geotools.styling.SLD.textHaloWidth(Lorg/geotools/styling/TextSymbolizer;)I:1257 - ReplaceComparisonOperator == -> -2
+309	ReplaceComparisonOperator	org.geotools.styling.SLD.textHaloWidth(Lorg/geotools/styling/TextSymbolizer;)I:1257 - ReplaceComparisonOperator == -> >=
+310	ReplaceComparisonOperator	org.geotools.styling.SLD.textHaloWidth(Lorg/geotools/styling/TextSymbolizer;)I:1257 - ReplaceComparisonOperator == -> <=
+311	InsertUnaryOp	org.geotools.styling.SLD.textHaloWidth(Lorg/geotools/styling/TextSymbolizer;)I:1258 - InsertUnaryOp Negation of width
+312	InsertUnaryOp	org.geotools.styling.SLD.textHaloWidth(Lorg/geotools/styling/TextSymbolizer;)I:1258 - InsertUnaryOp IINC 1 width
+313	InsertUnaryOp	org.geotools.styling.SLD.textHaloWidth(Lorg/geotools/styling/TextSymbolizer;)I:1258 - InsertUnaryOp IINC -1 width
+314	ReplaceConstant	org.geotools.styling.SLD.textHaloWidth(Lorg/geotools/styling/TextSymbolizer;)I:1261 - ReplaceConstant - 0 -> 1
+315	ReplaceComparisonOperator	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1272 - ReplaceComparisonOperator != null -> = null
+316	ReplaceConstant	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1273 - ReplaceConstant - NaN -> 0.0
+317	ReplaceConstant	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1273 - ReplaceConstant - NaN -> 1.0
+318	ReplaceConstant	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1273 - ReplaceConstant - NaN -> -1.0
+319	ReplaceConstant	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1273 - ReplaceConstant - NaN -> NaN
+320	ReplaceComparisonOperator	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1278 - ReplaceComparisonOperator != null -> = null
+321	ReplaceConstant	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1279 - ReplaceConstant - NaN -> 0.0
+322	ReplaceConstant	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1279 - ReplaceConstant - NaN -> 1.0
+323	ReplaceConstant	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1279 - ReplaceConstant - NaN -> -1.0
+324	ReplaceConstant	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1279 - ReplaceConstant - NaN -> NaN
+325	ReplaceComparisonOperator	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1284 - ReplaceComparisonOperator != null -> = null
+326	ReplaceConstant	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1285 - ReplaceConstant - NaN -> 0.0
+327	ReplaceConstant	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1285 - ReplaceConstant - NaN -> 1.0
+328	ReplaceConstant	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1285 - ReplaceConstant - NaN -> -1.0
+329	ReplaceConstant	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1285 - ReplaceConstant - NaN -> NaN
+330	ReplaceComparisonOperator	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1289 - ReplaceComparisonOperator != null -> = null
+331	ReplaceConstant	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1290 - ReplaceConstant - NaN -> 0.0
+332	ReplaceConstant	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1290 - ReplaceConstant - NaN -> 1.0
+333	ReplaceConstant	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1290 - ReplaceConstant - NaN -> -1.0
+334	ReplaceConstant	org.geotools.styling.SLD.textHaloOpacity(Lorg/geotools/styling/TextSymbolizer;)D:1290 - ReplaceConstant - NaN -> NaN
+335	ReplaceComparisonOperator	org.geotools.styling.SLD.color(Lorg/opengis/filter/expression/Expression;)Ljava/awt/Color;:1310 - ReplaceComparisonOperator != null -> = null
+336	ReplaceComparisonOperator	org.geotools.styling.SLD.stroke(Lorg/geotools/styling/LineSymbolizer;)Lorg/geotools/styling/Stroke;:1366 - ReplaceComparisonOperator != null -> = null
+337	ReplaceComparisonOperator	org.geotools.styling.SLD.stroke(Lorg/geotools/styling/PolygonSymbolizer;)Lorg/geotools/styling/Stroke;:1379 - ReplaceComparisonOperator != null -> = null
+338	ReplaceComparisonOperator	org.geotools.styling.SLD.stroke(Lorg/geotools/styling/PointSymbolizer;)Lorg/geotools/styling/Stroke;:1394 - ReplaceComparisonOperator != null -> = null
+339	ReplaceComparisonOperator	org.geotools.styling.SLD.fill(Lorg/geotools/styling/PolygonSymbolizer;)Lorg/geotools/styling/Fill;:1403 - ReplaceComparisonOperator != null -> = null
+340	ReplaceComparisonOperator	org.geotools.styling.SLD.fill(Lorg/geotools/styling/PointSymbolizer;)Lorg/geotools/styling/Fill;:1418 - ReplaceComparisonOperator != null -> = null
+341	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1475 - ReplaceComparisonOperator != null -> = null
+342	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1479 - ReplaceComparisonOperator = null -> != null
+343	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1479 - ReplaceComparisonOperator != null -> = null
+344	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1483 - ReplaceComparisonOperator == -> -2
+345	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1483 - ReplaceComparisonOperator == -> >=
+346	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1483 - ReplaceComparisonOperator == -> <=
+347	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1484 - ReplaceComparisonOperator == -> -2
+348	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1484 - ReplaceComparisonOperator == -> >=
+349	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1484 - ReplaceComparisonOperator == -> <=
+350	ReplaceComparisonOperator	org.geotools.styling.SLD.matchingStyle([Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/Style;:1502 - ReplaceComparisonOperator = null -> != null
+351	ReplaceComparisonOperator	org.geotools.styling.SLD.matchingStyle([Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/Style;:1502 - ReplaceComparisonOperator != -> -1
+352	ReplaceComparisonOperator	org.geotools.styling.SLD.matchingStyle([Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/Style;:1502 - ReplaceComparisonOperator != -> <
+353	ReplaceComparisonOperator	org.geotools.styling.SLD.matchingStyle([Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/Style;:1502 - ReplaceComparisonOperator != -> >
+354	ReplaceConstant	org.geotools.styling.SLD.matchingStyle([Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/Style;:1506 - ReplaceConstant - 0 -> 1
+355	InsertUnaryOp	org.geotools.styling.SLD.matchingStyle([Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/Style;:1506 - InsertUnaryOp Negation of i
+356	InsertUnaryOp	org.geotools.styling.SLD.matchingStyle([Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/Style;:1506 - InsertUnaryOp IINC 1 i
+357	InsertUnaryOp	org.geotools.styling.SLD.matchingStyle([Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/Style;:1506 - InsertUnaryOp IINC -1 i
+358	ReplaceComparisonOperator	org.geotools.styling.SLD.matchingStyle([Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/Style;:1506 - ReplaceComparisonOperator >= -> -1
+359	ReplaceComparisonOperator	org.geotools.styling.SLD.matchingStyle([Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/Style;:1506 - ReplaceComparisonOperator >= -> >
+360	ReplaceComparisonOperator	org.geotools.styling.SLD.matchingStyle([Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/Style;:1506 - ReplaceComparisonOperator >= -> ==
+361	InsertUnaryOp	org.geotools.styling.SLD.matchingStyle([Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/Style;:1507 - InsertUnaryOp Negation of i
+362	InsertUnaryOp	org.geotools.styling.SLD.matchingStyle([Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/Style;:1507 - InsertUnaryOp IINC 1 i
+363	InsertUnaryOp	org.geotools.styling.SLD.matchingStyle([Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/Style;:1507 - InsertUnaryOp IINC -1 i
+364	ReplaceComparisonOperator	org.geotools.styling.SLD.matchingStyle([Lorg/geotools/styling/Style;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/Style;:1509 - ReplaceComparisonOperator = null -> != null
+365	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizer(Lorg/geotools/styling/Style;Ljava/lang/Class;)Lorg/geotools/styling/Symbolizer;:1527 - ReplaceComparisonOperator != null -> = null
+366	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizer(Lorg/geotools/styling/Style;Ljava/lang/Class;)Lorg/geotools/styling/Symbolizer;:1531 - ReplaceComparisonOperator == -> -2
+367	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizer(Lorg/geotools/styling/Style;Ljava/lang/Class;)Lorg/geotools/styling/Symbolizer;:1531 - ReplaceComparisonOperator == -> >=
+368	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizer(Lorg/geotools/styling/Style;Ljava/lang/Class;)Lorg/geotools/styling/Symbolizer;:1531 - ReplaceComparisonOperator == -> <=
+369	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizer(Lorg/geotools/styling/Style;Ljava/lang/Class;)Lorg/geotools/styling/Symbolizer;:1533 - ReplaceComparisonOperator = null -> != null
+370	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizer(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/Class;)Lorg/geotools/styling/Symbolizer;:1552 - ReplaceComparisonOperator != null -> = null
+371	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizer(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/Class;)Lorg/geotools/styling/Symbolizer;:1556 - ReplaceComparisonOperator == -> -2
+372	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizer(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/Class;)Lorg/geotools/styling/Symbolizer;:1556 - ReplaceComparisonOperator == -> >=
+373	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizer(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/Class;)Lorg/geotools/styling/Symbolizer;:1556 - ReplaceComparisonOperator == -> <=
+374	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizer(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/Class;)Lorg/geotools/styling/Symbolizer;:1557 - ReplaceComparisonOperator == -> -2
+375	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizer(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/Class;)Lorg/geotools/styling/Symbolizer;:1557 - ReplaceComparisonOperator == -> >=
+376	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizer(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/Class;)Lorg/geotools/styling/Symbolizer;:1557 - ReplaceComparisonOperator == -> <=
+377	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizer(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/Class;)Lorg/geotools/styling/Symbolizer;:1558 - ReplaceComparisonOperator == -> -2
+378	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizer(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/Class;)Lorg/geotools/styling/Symbolizer;:1558 - ReplaceComparisonOperator == -> >=
+379	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizer(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/Class;)Lorg/geotools/styling/Symbolizer;:1558 - ReplaceComparisonOperator == -> <=
+380	ReplaceConstant	org.geotools.styling.SLD.colorToHex(Ljava/awt/Color;)Ljava/lang/String;:1573 - ReplaceConstant - # -> 
+381	ReplaceConstant	org.geotools.styling.SLD.colorToHex(Ljava/awt/Color;)Ljava/lang/String;:1573 - ReplaceConstant - 16777215 -> 0
+382	ReplaceConstant	org.geotools.styling.SLD.colorToHex(Ljava/awt/Color;)Ljava/lang/String;:1573 - ReplaceConstant - 16777215 -> 1
+383	ReplaceConstant	org.geotools.styling.SLD.colorToHex(Ljava/awt/Color;)Ljava/lang/String;:1573 - ReplaceConstant - 16777215 -> -1
+384	ReplaceConstant	org.geotools.styling.SLD.colorToHex(Ljava/awt/Color;)Ljava/lang/String;:1573 - ReplaceConstant - 16777215 -> 16777214
+385	ReplaceConstant	org.geotools.styling.SLD.colorToHex(Ljava/awt/Color;)Ljava/lang/String;:1573 - ReplaceConstant - 16777215 -> 16777216
+386	ReplaceBitwiseOperator	org.geotools.styling.SLD.colorToHex(Ljava/awt/Color;)Ljava/lang/String;:1573 - ReplaceBitwiseOperator & -> |
+387	ReplaceBitwiseOperator	org.geotools.styling.SLD.colorToHex(Ljava/awt/Color;)Ljava/lang/String;:1573 - ReplaceBitwiseOperator & -> ^
+388	ReplaceConstant	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1585 - ReplaceConstant - 0 -> 1
+389	InsertUnaryOp	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1585 - InsertUnaryOp Negation of i
+390	InsertUnaryOp	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1585 - InsertUnaryOp IINC 1 i
+391	InsertUnaryOp	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1585 - InsertUnaryOp IINC -1 i
+392	ReplaceComparisonOperator	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1585 - ReplaceComparisonOperator >= -> -1
+393	ReplaceComparisonOperator	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1585 - ReplaceComparisonOperator >= -> >
+394	ReplaceComparisonOperator	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1585 - ReplaceComparisonOperator >= -> ==
+395	InsertUnaryOp	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1586 - InsertUnaryOp Negation of i
+396	InsertUnaryOp	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1586 - InsertUnaryOp IINC 1 i
+397	InsertUnaryOp	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1586 - InsertUnaryOp IINC -1 i
+398	ReplaceComparisonOperator	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1586 - ReplaceComparisonOperator == -> -2
+399	ReplaceComparisonOperator	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1586 - ReplaceComparisonOperator == -> >=
+400	ReplaceComparisonOperator	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1586 - ReplaceComparisonOperator == -> <=
+401	InsertUnaryOp	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1587 - InsertUnaryOp Negation of i
+402	InsertUnaryOp	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1587 - InsertUnaryOp IINC 1 i
+403	InsertUnaryOp	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1587 - InsertUnaryOp IINC -1 i
+404	InsertUnaryOp	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1590 - InsertUnaryOp Negation of i
+405	InsertUnaryOp	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1590 - InsertUnaryOp IINC 1 i
+406	InsertUnaryOp	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1590 - InsertUnaryOp IINC -1 i
+407	ReplaceComparisonOperator	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1590 - ReplaceComparisonOperator == -> -2
+408	ReplaceComparisonOperator	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1590 - ReplaceComparisonOperator == -> >=
+409	ReplaceComparisonOperator	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1590 - ReplaceComparisonOperator == -> <=
+410	InsertUnaryOp	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1591 - InsertUnaryOp Negation of i
+411	InsertUnaryOp	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1591 - InsertUnaryOp IINC 1 i
+412	InsertUnaryOp	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1591 - InsertUnaryOp IINC -1 i
+413	ReplaceConstant	org.geotools.styling.SLD.styles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/Style;:1596 - ReplaceConstant - 0 -> 1
+414	ReplaceConstant	org.geotools.styling.SLD.featureTypeStyles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/FeatureTypeStyle;:1607 - ReplaceConstant - 0 -> 1
+415	InsertUnaryOp	org.geotools.styling.SLD.featureTypeStyles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/FeatureTypeStyle;:1607 - InsertUnaryOp Negation of i
+416	InsertUnaryOp	org.geotools.styling.SLD.featureTypeStyles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/FeatureTypeStyle;:1607 - InsertUnaryOp IINC 1 i
+417	InsertUnaryOp	org.geotools.styling.SLD.featureTypeStyles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/FeatureTypeStyle;:1607 - InsertUnaryOp IINC -1 i
+418	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/FeatureTypeStyle;:1607 - ReplaceComparisonOperator >= -> -1
+419	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/FeatureTypeStyle;:1607 - ReplaceComparisonOperator >= -> >
+420	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/FeatureTypeStyle;:1607 - ReplaceComparisonOperator >= -> ==
+421	InsertUnaryOp	org.geotools.styling.SLD.featureTypeStyles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/FeatureTypeStyle;:1608 - InsertUnaryOp Negation of i
+422	InsertUnaryOp	org.geotools.styling.SLD.featureTypeStyles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/FeatureTypeStyle;:1608 - InsertUnaryOp IINC 1 i
+423	InsertUnaryOp	org.geotools.styling.SLD.featureTypeStyles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/FeatureTypeStyle;:1608 - InsertUnaryOp IINC -1 i
+424	ReplaceConstant	org.geotools.styling.SLD.featureTypeStyles(Lorg/geotools/styling/StyledLayerDescriptor;)[Lorg/geotools/styling/FeatureTypeStyle;:1610 - ReplaceConstant - 0 -> 1
+425	ReplaceConstant	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/StyledLayerDescriptor;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1624 - ReplaceConstant - 0 -> 1
+426	InsertUnaryOp	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/StyledLayerDescriptor;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1624 - InsertUnaryOp Negation of i
+427	InsertUnaryOp	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/StyledLayerDescriptor;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1624 - InsertUnaryOp IINC 1 i
+428	InsertUnaryOp	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/StyledLayerDescriptor;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1624 - InsertUnaryOp IINC -1 i
+429	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/StyledLayerDescriptor;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1624 - ReplaceComparisonOperator >= -> -1
+430	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/StyledLayerDescriptor;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1624 - ReplaceComparisonOperator >= -> >
+431	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/StyledLayerDescriptor;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1624 - ReplaceComparisonOperator >= -> ==
+432	InsertUnaryOp	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/StyledLayerDescriptor;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1625 - InsertUnaryOp Negation of i
+433	InsertUnaryOp	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/StyledLayerDescriptor;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1625 - InsertUnaryOp IINC 1 i
+434	InsertUnaryOp	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/StyledLayerDescriptor;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1625 - InsertUnaryOp IINC -1 i
+435	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/StyledLayerDescriptor;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1625 - ReplaceComparisonOperator == -> -2
+436	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/StyledLayerDescriptor;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1625 - ReplaceComparisonOperator == -> >=
+437	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/StyledLayerDescriptor;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1625 - ReplaceComparisonOperator == -> <=
+438	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/StyledLayerDescriptor;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1626 - ReplaceComparisonOperator == -> -2
+439	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/StyledLayerDescriptor;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1626 - ReplaceComparisonOperator == -> >=
+440	ReplaceComparisonOperator	org.geotools.styling.SLD.featureTypeStyle(Lorg/geotools/styling/StyledLayerDescriptor;Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/geotools/styling/FeatureTypeStyle;:1626 - ReplaceComparisonOperator == -> <=
+441	ReplaceConstant	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1644 - ReplaceConstant - 0 -> 1
+442	InsertUnaryOp	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1644 - InsertUnaryOp Negation of i
+443	InsertUnaryOp	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1644 - InsertUnaryOp IINC 1 i
+444	InsertUnaryOp	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1644 - InsertUnaryOp IINC -1 i
+445	ReplaceComparisonOperator	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1644 - ReplaceComparisonOperator >= -> -1
+446	ReplaceComparisonOperator	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1644 - ReplaceComparisonOperator >= -> >
+447	ReplaceComparisonOperator	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1644 - ReplaceComparisonOperator >= -> ==
+448	InsertUnaryOp	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1645 - InsertUnaryOp Negation of i
+449	InsertUnaryOp	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1645 - InsertUnaryOp IINC 1 i
+450	InsertUnaryOp	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1645 - InsertUnaryOp IINC -1 i
+451	ReplaceComparisonOperator	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1645 - ReplaceComparisonOperator == -> -2
+452	ReplaceComparisonOperator	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1645 - ReplaceComparisonOperator == -> >=
+453	ReplaceComparisonOperator	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1645 - ReplaceComparisonOperator == -> <=
+454	InsertUnaryOp	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1646 - InsertUnaryOp Negation of i
+455	InsertUnaryOp	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1646 - InsertUnaryOp IINC 1 i
+456	InsertUnaryOp	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1646 - InsertUnaryOp IINC -1 i
+457	ReplaceComparisonOperator	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1650 - ReplaceComparisonOperator != -> -1
+458	ReplaceComparisonOperator	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1650 - ReplaceComparisonOperator != -> <
+459	ReplaceComparisonOperator	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1650 - ReplaceComparisonOperator != -> >
+460	ReplaceConstant	org.geotools.styling.SLD.defaultStyle(Lorg/geotools/styling/StyledLayerDescriptor;)Lorg/geotools/styling/Style;:1653 - ReplaceConstant - 0 -> 1
+461	ReplaceConstant	org.geotools.styling.SLD.filters([Lorg/geotools/styling/Rule;)[Lorg/opengis/filter/Filter;:1665 - ReplaceConstant - 0 -> 1
+462	InsertUnaryOp	org.geotools.styling.SLD.filters([Lorg/geotools/styling/Rule;)[Lorg/opengis/filter/Filter;:1665 - InsertUnaryOp Negation of i
+463	InsertUnaryOp	org.geotools.styling.SLD.filters([Lorg/geotools/styling/Rule;)[Lorg/opengis/filter/Filter;:1665 - InsertUnaryOp IINC 1 i
+464	InsertUnaryOp	org.geotools.styling.SLD.filters([Lorg/geotools/styling/Rule;)[Lorg/opengis/filter/Filter;:1665 - InsertUnaryOp IINC -1 i
+465	ReplaceComparisonOperator	org.geotools.styling.SLD.filters([Lorg/geotools/styling/Rule;)[Lorg/opengis/filter/Filter;:1665 - ReplaceComparisonOperator >= -> -1
+466	ReplaceComparisonOperator	org.geotools.styling.SLD.filters([Lorg/geotools/styling/Rule;)[Lorg/opengis/filter/Filter;:1665 - ReplaceComparisonOperator >= -> >
+467	ReplaceComparisonOperator	org.geotools.styling.SLD.filters([Lorg/geotools/styling/Rule;)[Lorg/opengis/filter/Filter;:1665 - ReplaceComparisonOperator >= -> ==
+468	InsertUnaryOp	org.geotools.styling.SLD.filters([Lorg/geotools/styling/Rule;)[Lorg/opengis/filter/Filter;:1666 - InsertUnaryOp Negation of i
+469	InsertUnaryOp	org.geotools.styling.SLD.filters([Lorg/geotools/styling/Rule;)[Lorg/opengis/filter/Filter;:1666 - InsertUnaryOp IINC 1 i
+470	InsertUnaryOp	org.geotools.styling.SLD.filters([Lorg/geotools/styling/Rule;)[Lorg/opengis/filter/Filter;:1666 - InsertUnaryOp IINC -1 i
+471	ReplaceConstant	org.geotools.styling.SLD.filters([Lorg/geotools/styling/Rule;)[Lorg/opengis/filter/Filter;:1666 - ReplaceConstant - 0 -> 1
+472	ReplaceComparisonOperator	org.geotools.styling.SLD.rules(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Rule;:1692 - ReplaceComparisonOperator == -> -2
+473	ReplaceComparisonOperator	org.geotools.styling.SLD.rules(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Rule;:1692 - ReplaceComparisonOperator == -> >=
+474	ReplaceComparisonOperator	org.geotools.styling.SLD.rules(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Rule;:1692 - ReplaceComparisonOperator == -> <=
+475	ReplaceComparisonOperator	org.geotools.styling.SLD.rules(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Rule;:1696 - ReplaceComparisonOperator <= -> -1
+476	ReplaceComparisonOperator	org.geotools.styling.SLD.rules(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Rule;:1696 - ReplaceComparisonOperator <= -> ==
+477	ReplaceComparisonOperator	org.geotools.styling.SLD.rules(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Rule;:1696 - ReplaceComparisonOperator <= -> <
+478	ReplaceConstant	org.geotools.styling.SLD.rules(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Rule;:1697 - ReplaceConstant - 0 -> 1
+479	ReplaceConstant	org.geotools.styling.SLD.rules(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Rule;:1699 - ReplaceConstant - 0 -> 1
+480	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizers(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Symbolizer;:1712 - ReplaceComparisonOperator == -> -2
+481	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizers(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Symbolizer;:1712 - ReplaceComparisonOperator == -> >=
+482	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizers(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Symbolizer;:1712 - ReplaceComparisonOperator == -> <=
+483	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizers(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Symbolizer;:1713 - ReplaceComparisonOperator == -> -2
+484	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizers(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Symbolizer;:1713 - ReplaceComparisonOperator == -> >=
+485	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizers(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Symbolizer;:1713 - ReplaceComparisonOperator == -> <=
+486	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizers(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Symbolizer;:1718 - ReplaceComparisonOperator <= -> -1
+487	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizers(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Symbolizer;:1718 - ReplaceComparisonOperator <= -> ==
+488	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizers(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Symbolizer;:1718 - ReplaceComparisonOperator <= -> <
+489	ReplaceConstant	org.geotools.styling.SLD.symbolizers(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Symbolizer;:1719 - ReplaceConstant - 0 -> 1
+490	ReplaceConstant	org.geotools.styling.SLD.symbolizers(Lorg/geotools/styling/Style;)[Lorg/geotools/styling/Symbolizer;:1721 - ReplaceConstant - 0 -> 1
+491	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizers(Lorg/geotools/styling/Rule;)[Lorg/geotools/styling/Symbolizer;:1736 - ReplaceComparisonOperator <= -> -1
+492	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizers(Lorg/geotools/styling/Rule;)[Lorg/geotools/styling/Symbolizer;:1736 - ReplaceComparisonOperator <= -> ==
+493	ReplaceComparisonOperator	org.geotools.styling.SLD.symbolizers(Lorg/geotools/styling/Rule;)[Lorg/geotools/styling/Symbolizer;:1736 - ReplaceComparisonOperator <= -> <
+494	ReplaceConstant	org.geotools.styling.SLD.symbolizers(Lorg/geotools/styling/Rule;)[Lorg/geotools/styling/Symbolizer;:1737 - ReplaceConstant - 0 -> 1
+495	ReplaceConstant	org.geotools.styling.SLD.symbolizers(Lorg/geotools/styling/Rule;)[Lorg/geotools/styling/Symbolizer;:1739 - ReplaceConstant - 0 -> 1
+496	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1751 - ReplaceComparisonOperator == -> -2
+497	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1751 - ReplaceComparisonOperator == -> >=
+498	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1751 - ReplaceComparisonOperator == -> <=
+499	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1752 - ReplaceComparisonOperator == -> -2
+500	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1752 - ReplaceComparisonOperator == -> >=
+501	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1752 - ReplaceComparisonOperator == -> <=
+502	ReplaceConstant	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1754 - ReplaceConstant - 0 -> 1
+503	InsertUnaryOp	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1754 - InsertUnaryOp Negation of j
+504	InsertUnaryOp	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1754 - InsertUnaryOp IINC 1 j
+505	InsertUnaryOp	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1754 - InsertUnaryOp IINC -1 j
+506	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1754 - ReplaceComparisonOperator >= -> -1
+507	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1754 - ReplaceComparisonOperator >= -> >
+508	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1754 - ReplaceComparisonOperator >= -> ==
+509	InsertUnaryOp	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1755 - InsertUnaryOp Negation of j
+510	InsertUnaryOp	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1755 - InsertUnaryOp IINC 1 j
+511	InsertUnaryOp	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1755 - InsertUnaryOp IINC -1 j
+512	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1760 - ReplaceComparisonOperator <= -> -1
+513	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1760 - ReplaceComparisonOperator <= -> ==
+514	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1760 - ReplaceComparisonOperator <= -> <
+515	ReplaceConstant	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1761 - ReplaceConstant - 0 -> 1
+516	ReplaceConstant	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Style;)[Ljava/lang/String;:1763 - ReplaceConstant - 0 -> 1
+517	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1776 - ReplaceComparisonOperator == -> -2
+518	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1776 - ReplaceComparisonOperator == -> >=
+519	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1776 - ReplaceComparisonOperator == -> <=
+520	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1777 - ReplaceComparisonOperator == -> -2
+521	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1777 - ReplaceComparisonOperator == -> >=
+522	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1777 - ReplaceComparisonOperator == -> <=
+523	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1781 - ReplaceComparisonOperator == -> -2
+524	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1781 - ReplaceComparisonOperator == -> >=
+525	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1781 - ReplaceComparisonOperator == -> <=
+526	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1785 - ReplaceComparisonOperator == -> -2
+527	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1785 - ReplaceComparisonOperator == -> >=
+528	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1785 - ReplaceComparisonOperator == -> <=
+529	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1790 - ReplaceComparisonOperator = null -> != null
+530	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1795 - ReplaceComparisonOperator <= -> -1
+531	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1795 - ReplaceComparisonOperator <= -> ==
+532	ReplaceComparisonOperator	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1795 - ReplaceComparisonOperator <= -> <
+533	ReplaceConstant	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1796 - ReplaceConstant - 0 -> 1
+534	ReplaceConstant	org.geotools.styling.SLD.colors(Lorg/geotools/styling/Rule;)[Ljava/lang/String;:1798 - ReplaceConstant - 0 -> 1
+535	ReplaceComparisonOperator	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1810 - ReplaceComparisonOperator != null -> = null
+536	ReplaceConstant	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1814 - ReplaceConstant - 0 -> 
+537	ReplaceConstant	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1815 - ReplaceConstant - 2 -> 0
+538	ReplaceConstant	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1815 - ReplaceConstant - 2 -> 1
+539	ReplaceConstant	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1815 - ReplaceConstant - 2 -> -1
+540	ReplaceConstant	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1815 - ReplaceConstant - 2 -> 3
+541	ReplaceArithmeticOperator	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1815 - ReplaceArithmeticOperator - -> +
+542	ReplaceArithmeticOperator	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1815 - ReplaceArithmeticOperator - -> %
+543	ReplaceArithmeticOperator	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1815 - ReplaceArithmeticOperator - -> *
+544	ReplaceArithmeticOperator	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1815 - ReplaceArithmeticOperator - -> /
+545	ReplaceConstant	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1817 - ReplaceConstant - 0 -> 
+546	ReplaceConstant	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1818 - ReplaceConstant - 2 -> 0
+547	ReplaceConstant	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1818 - ReplaceConstant - 2 -> 1
+548	ReplaceConstant	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1818 - ReplaceConstant - 2 -> -1
+549	ReplaceConstant	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1818 - ReplaceConstant - 2 -> 3
+550	ReplaceArithmeticOperator	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1818 - ReplaceArithmeticOperator - -> +
+551	ReplaceArithmeticOperator	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1818 - ReplaceArithmeticOperator - -> %
+552	ReplaceArithmeticOperator	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1818 - ReplaceArithmeticOperator - -> *
+553	ReplaceArithmeticOperator	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1818 - ReplaceArithmeticOperator - -> /
+554	ReplaceConstant	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1820 - ReplaceConstant - 0 -> 
+555	ReplaceConstant	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1821 - ReplaceConstant - 2 -> 0
+556	ReplaceConstant	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1821 - ReplaceConstant - 2 -> 1
+557	ReplaceConstant	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1821 - ReplaceConstant - 2 -> -1
+558	ReplaceConstant	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1821 - ReplaceConstant - 2 -> 3
+559	ReplaceArithmeticOperator	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1821 - ReplaceArithmeticOperator - -> +
+560	ReplaceArithmeticOperator	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1821 - ReplaceArithmeticOperator - -> %
+561	ReplaceArithmeticOperator	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1821 - ReplaceArithmeticOperator - -> *
+562	ReplaceArithmeticOperator	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1821 - ReplaceArithmeticOperator - -> /
+563	ReplaceConstant	org.geotools.styling.SLD.toHTMLColor(Ljava/awt/Color;)Ljava/lang/String;:1823 - ReplaceConstant - # -> 
+564	ReplaceConstant	org.geotools.styling.SLD.toColor(Ljava/lang/String;)Ljava/awt/Color;:1834 - ReplaceConstant - 1 -> 0
+565	ReplaceConstant	org.geotools.styling.SLD.toColor(Ljava/lang/String;)Ljava/awt/Color;:1834 - ReplaceConstant - 16 -> 0
+566	ReplaceConstant	org.geotools.styling.SLD.toColor(Ljava/lang/String;)Ljava/awt/Color;:1834 - ReplaceConstant - 16 -> 1
+567	ReplaceConstant	org.geotools.styling.SLD.toColor(Ljava/lang/String;)Ljava/awt/Color;:1834 - ReplaceConstant - 16 -> -1
+568	ReplaceConstant	org.geotools.styling.SLD.toColor(Ljava/lang/String;)Ljava/awt/Color;:1834 - ReplaceConstant - 16 -> 15
+569	ReplaceConstant	org.geotools.styling.SLD.toColor(Ljava/lang/String;)Ljava/awt/Color;:1834 - ReplaceConstant - 16 -> 17
+570	ReplaceComparisonOperator	org.geotools.styling.SLD.isSemanticTypeMatch(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/String;)Z:1844 - ReplaceComparisonOperator == -> -2
+571	ReplaceComparisonOperator	org.geotools.styling.SLD.isSemanticTypeMatch(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/String;)Z:1844 - ReplaceComparisonOperator == -> >=
+572	ReplaceComparisonOperator	org.geotools.styling.SLD.isSemanticTypeMatch(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/String;)Z:1844 - ReplaceComparisonOperator == -> <=
+573	ReplaceComparisonOperator	org.geotools.styling.SLD.isSemanticTypeMatch(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/String;)Z:1845 - ReplaceComparisonOperator == -> -2
+574	ReplaceComparisonOperator	org.geotools.styling.SLD.isSemanticTypeMatch(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/String;)Z:1845 - ReplaceComparisonOperator == -> >=
+575	ReplaceComparisonOperator	org.geotools.styling.SLD.isSemanticTypeMatch(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/String;)Z:1845 - ReplaceComparisonOperator == -> <=
+576	ReplaceConstant	org.geotools.styling.SLD.isSemanticTypeMatch(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/String;)Z:1846 - ReplaceConstant - 1 -> 0
+577	ReplaceConstant	org.geotools.styling.SLD.isSemanticTypeMatch(Lorg/geotools/styling/FeatureTypeStyle;Ljava/lang/String;)Z:1850 - ReplaceConstant - 0 -> 1
+578	ReplaceComparisonOperator	org.geotools.styling.SLD.minScale(Lorg/geotools/styling/FeatureTypeStyle;)D:1861 - ReplaceComparisonOperator = null -> != null
+579	ReplaceComparisonOperator	org.geotools.styling.SLD.minScale(Lorg/geotools/styling/FeatureTypeStyle;)D:1861 - ReplaceComparisonOperator == -> -2
+580	ReplaceComparisonOperator	org.geotools.styling.SLD.minScale(Lorg/geotools/styling/FeatureTypeStyle;)D:1861 - ReplaceComparisonOperator == -> >=
+581	ReplaceComparisonOperator	org.geotools.styling.SLD.minScale(Lorg/geotools/styling/FeatureTypeStyle;)D:1861 - ReplaceComparisonOperator == -> <=
+582	ReplaceConstant	org.geotools.styling.SLD.minScale(Lorg/geotools/styling/FeatureTypeStyle;)D:1862 - ReplaceConstant - 0.0 -> 1.0
+583	ReplaceConstant	org.geotools.styling.SLD.minScale(Lorg/geotools/styling/FeatureTypeStyle;)D:1862 - ReplaceConstant - 0.0 -> -1.0
+584	ReplaceConstant	org.geotools.styling.SLD.minScale(Lorg/geotools/styling/FeatureTypeStyle;)D:1864 - ReplaceConstant - 0 -> 1
+585	ReplaceComparisonOperator	org.geotools.styling.SLD.maxScale(Lorg/geotools/styling/FeatureTypeStyle;)D:1875 - ReplaceComparisonOperator = null -> != null
+586	ReplaceComparisonOperator	org.geotools.styling.SLD.maxScale(Lorg/geotools/styling/FeatureTypeStyle;)D:1875 - ReplaceComparisonOperator == -> -2
+587	ReplaceComparisonOperator	org.geotools.styling.SLD.maxScale(Lorg/geotools/styling/FeatureTypeStyle;)D:1875 - ReplaceComparisonOperator == -> >=
+588	ReplaceComparisonOperator	org.geotools.styling.SLD.maxScale(Lorg/geotools/styling/FeatureTypeStyle;)D:1875 - ReplaceComparisonOperator == -> <=
+589	ReplaceConstant	org.geotools.styling.SLD.maxScale(Lorg/geotools/styling/FeatureTypeStyle;)D:1876 - ReplaceConstant - NaN -> 0.0
+590	ReplaceConstant	org.geotools.styling.SLD.maxScale(Lorg/geotools/styling/FeatureTypeStyle;)D:1876 - ReplaceConstant - NaN -> 1.0
+591	ReplaceConstant	org.geotools.styling.SLD.maxScale(Lorg/geotools/styling/FeatureTypeStyle;)D:1876 - ReplaceConstant - NaN -> -1.0
+592	ReplaceConstant	org.geotools.styling.SLD.maxScale(Lorg/geotools/styling/FeatureTypeStyle;)D:1876 - ReplaceConstant - NaN -> NaN
+593	ReplaceConstant	org.geotools.styling.SLD.maxScale(Lorg/geotools/styling/FeatureTypeStyle;)D:1878 - ReplaceConstant - 0 -> 1
+594	InsertUnaryOp	org.geotools.styling.SLD.getPlacement(DDD)Lorg/geotools/styling/PointPlacement;:1891 - InsertUnaryOp Negation of horizAlign
+595	InsertUnaryOp	org.geotools.styling.SLD.getPlacement(DDD)Lorg/geotools/styling/PointPlacement;:1891 - InsertUnaryOp Negation of vertAlign
+596	InsertUnaryOp	org.geotools.styling.SLD.getPlacement(DDD)Lorg/geotools/styling/PointPlacement;:1892 - InsertUnaryOp Negation of rotation
+597	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1943 - ReplaceComparisonOperator != -> -1
+598	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1943 - ReplaceComparisonOperator != -> <
+599	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1943 - ReplaceComparisonOperator != -> >
+600	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1944 - ReplaceComparisonOperator == -> -2
+601	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1944 - ReplaceComparisonOperator == -> >=
+602	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1944 - ReplaceComparisonOperator == -> <=
+603	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1945 - ReplaceComparisonOperator == -> -2
+604	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1945 - ReplaceComparisonOperator == -> >=
+605	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1945 - ReplaceComparisonOperator == -> <=
+606	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1950 - ReplaceConstant - 0.5 -> 0.0
+607	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1950 - ReplaceConstant - 0.5 -> 1.0
+608	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1950 - ReplaceConstant - 0.5 -> -1.0
+609	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1950 - ReplaceConstant - 0.5 -> -0.5
+610	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1950 - ReplaceConstant - 0.5 -> 1.5
+611	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1952 - ReplaceComparisonOperator != -> -1
+612	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1952 - ReplaceComparisonOperator != -> <
+613	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1952 - ReplaceComparisonOperator != -> >
+614	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1953 - ReplaceComparisonOperator == -> -2
+615	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1953 - ReplaceComparisonOperator == -> >=
+616	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1953 - ReplaceComparisonOperator == -> <=
+617	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1954 - ReplaceConstant - 1.0 -> 0.0
+618	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1954 - ReplaceConstant - 1.0 -> -1.0
+619	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1954 - ReplaceConstant - 1.0 -> 2.0
+620	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1956 - ReplaceComparisonOperator != -> -1
+621	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1956 - ReplaceComparisonOperator != -> <
+622	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1956 - ReplaceComparisonOperator != -> >
+623	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1957 - ReplaceComparisonOperator == -> -2
+624	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1957 - ReplaceComparisonOperator == -> >=
+625	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1957 - ReplaceComparisonOperator == -> <=
+626	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1958 - ReplaceComparisonOperator == -> -2
+627	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1958 - ReplaceComparisonOperator == -> >=
+628	ReplaceComparisonOperator	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1958 - ReplaceComparisonOperator == -> <=
+629	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1963 - ReplaceConstant - Circle -> 
+630	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1963 - ReplaceConstant - 0.5 -> 0.0
+631	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1963 - ReplaceConstant - 0.5 -> 1.0
+632	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1963 - ReplaceConstant - 0.5 -> -1.0
+633	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1963 - ReplaceConstant - 0.5 -> -0.5
+634	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1963 - ReplaceConstant - 0.5 -> 1.5
+635	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1963 - ReplaceConstant - 3.0 -> 0.0
+636	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1963 - ReplaceConstant - 3.0 -> 1.0
+637	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1963 - ReplaceConstant - 3.0 -> -1.0
+638	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1963 - ReplaceConstant - 3.0 -> 2.0
+639	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1963 - ReplaceConstant - 3.0 -> 4.0
+640	ReplaceConstant	org.geotools.styling.SLD.createSimpleStyle(Lorg/opengis/feature/type/FeatureType;Ljava/awt/Color;)Lorg/geotools/styling/Style;:1966 - ReplaceConstant - No style method for  -> 
+641	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;F)Lorg/geotools/styling/Style;:1979 - ReplaceConstant - 1.0 -> 0.0
+642	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;F)Lorg/geotools/styling/Style;:1979 - ReplaceConstant - 1.0 -> -1.0
+643	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;F)Lorg/geotools/styling/Style;:1979 - ReplaceConstant - 1.0 -> 2.0
+644	ReplaceComparisonOperator	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;F)Lorg/geotools/styling/Style;:1981 - ReplaceComparisonOperator = null -> != null
+645	InsertUnaryOp	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;F)Lorg/geotools/styling/Style;:1982 - InsertUnaryOp Negation of opacity
+646	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;F)Lorg/geotools/styling/Style;:1984 - ReplaceConstant - 1 -> 0
+647	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;F)Lorg/geotools/styling/Style;:1984 - ReplaceConstant - 0 -> 1
+648	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2005 - ReplaceConstant - 1.0 -> 0.0
+649	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2005 - ReplaceConstant - 1.0 -> -1.0
+650	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2005 - ReplaceConstant - 1.0 -> 2.0
+651	ReplaceComparisonOperator	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2007 - ReplaceComparisonOperator = null -> != null
+652	InsertUnaryOp	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2008 - InsertUnaryOp Negation of opacity
+653	ReplaceComparisonOperator	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2012 - ReplaceComparisonOperator != null -> = null
+654	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2013 - ReplaceConstant - 1 -> 0
+655	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2013 - ReplaceConstant - 0 -> 1
+656	ReplaceComparisonOperator	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2016 - ReplaceComparisonOperator != null -> = null
+657	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2019 - ReplaceConstant - 1 -> 0
+658	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2019 - ReplaceConstant - 0 -> 1
+659	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2022 - ReplaceConstant - 2 -> 0
+660	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2022 - ReplaceConstant - 2 -> 1
+661	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2022 - ReplaceConstant - 2 -> -1
+662	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2022 - ReplaceConstant - 2 -> 3
+663	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2022 - ReplaceConstant - 0 -> 1
+664	ReplaceConstant	org.geotools.styling.SLD.createPolygonStyle(Ljava/awt/Color;Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2022 - ReplaceConstant - 1 -> 0
+665	InsertUnaryOp	org.geotools.styling.SLD.createLineStyle(Ljava/awt/Color;F)Lorg/geotools/styling/Style;:2035 - InsertUnaryOp Negation of width
+666	ReplaceConstant	org.geotools.styling.SLD.createLineStyle(Ljava/awt/Color;F)Lorg/geotools/styling/Style;:2036 - ReplaceConstant - 1 -> 0
+667	ReplaceConstant	org.geotools.styling.SLD.createLineStyle(Ljava/awt/Color;F)Lorg/geotools/styling/Style;:2036 - ReplaceConstant - 0 -> 1
+668	InsertUnaryOp	org.geotools.styling.SLD.createLineStyle(Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2056 - InsertUnaryOp Negation of width
+669	ReplaceComparisonOperator	org.geotools.styling.SLD.createLineStyle(Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2059 - ReplaceComparisonOperator != null -> = null
+670	ReplaceConstant	org.geotools.styling.SLD.createLineStyle(Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2060 - ReplaceConstant - 1 -> 0
+671	ReplaceConstant	org.geotools.styling.SLD.createLineStyle(Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2060 - ReplaceConstant - 0 -> 1
+672	ReplaceComparisonOperator	org.geotools.styling.SLD.createLineStyle(Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2063 - ReplaceComparisonOperator != null -> = null
+673	ReplaceConstant	org.geotools.styling.SLD.createLineStyle(Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2066 - ReplaceConstant - 1 -> 0
+674	ReplaceConstant	org.geotools.styling.SLD.createLineStyle(Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2066 - ReplaceConstant - 0 -> 1
+675	ReplaceConstant	org.geotools.styling.SLD.createLineStyle(Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2069 - ReplaceConstant - 2 -> 0
+676	ReplaceConstant	org.geotools.styling.SLD.createLineStyle(Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2069 - ReplaceConstant - 2 -> 1
+677	ReplaceConstant	org.geotools.styling.SLD.createLineStyle(Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2069 - ReplaceConstant - 2 -> -1
+678	ReplaceConstant	org.geotools.styling.SLD.createLineStyle(Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2069 - ReplaceConstant - 2 -> 3
+679	ReplaceConstant	org.geotools.styling.SLD.createLineStyle(Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2069 - ReplaceConstant - 0 -> 1
+680	ReplaceConstant	org.geotools.styling.SLD.createLineStyle(Ljava/awt/Color;FLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2069 - ReplaceConstant - 1 -> 0
+681	InsertUnaryOp	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FF)Lorg/geotools/styling/Style;:2091 - InsertUnaryOp Negation of opacity
+682	InsertUnaryOp	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FF)Lorg/geotools/styling/Style;:2091 - InsertUnaryOp Negation of size
+683	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2121 - ReplaceConstant - 1.0 -> 0.0
+684	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2121 - ReplaceConstant - 1.0 -> -1.0
+685	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2121 - ReplaceConstant - 1.0 -> 2.0
+686	ReplaceComparisonOperator	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2123 - ReplaceComparisonOperator = null -> != null
+687	InsertUnaryOp	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2124 - InsertUnaryOp Negation of opacity
+688	InsertUnaryOp	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2127 - InsertUnaryOp Negation of size
+689	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2128 - ReplaceConstant - 0 -> 1
+690	InsertUnaryOp	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2133 - InsertUnaryOp Negation of size
+691	ReplaceComparisonOperator	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2137 - ReplaceComparisonOperator != null -> = null
+692	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2138 - ReplaceConstant - 1 -> 0
+693	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2138 - ReplaceConstant - 0 -> 1
+694	ReplaceComparisonOperator	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2141 - ReplaceComparisonOperator != null -> = null
+695	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2143 - ReplaceConstant - 0.5 -> 0.0
+696	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2143 - ReplaceConstant - 0.5 -> 1.0
+697	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2143 - ReplaceConstant - 0.5 -> -1.0
+698	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2143 - ReplaceConstant - 0.5 -> -0.5
+699	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2143 - ReplaceConstant - 0.5 -> 1.5
+700	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2143 - ReplaceConstant - 0.0 -> 1.0
+701	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2143 - ReplaceConstant - 0.0 -> -1.0
+702	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2144 - ReplaceConstant - 0 -> 1
+703	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2144 - ReplaceConstant - 5 -> 0
+704	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2144 - ReplaceConstant - 5 -> 1
+705	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2144 - ReplaceConstant - 5 -> -1
+706	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2144 - ReplaceConstant - 5 -> 4
+707	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2144 - ReplaceConstant - 5 -> 6
+708	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2145 - ReplaceConstant - 0 -> 1
+709	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2147 - ReplaceConstant - 1 -> 0
+710	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2147 - ReplaceConstant - 0 -> 1
+711	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2150 - ReplaceConstant - 2 -> 0
+712	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2150 - ReplaceConstant - 2 -> 1
+713	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2150 - ReplaceConstant - 2 -> -1
+714	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2150 - ReplaceConstant - 2 -> 3
+715	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2150 - ReplaceConstant - 0 -> 1
+716	ReplaceConstant	org.geotools.styling.SLD.createPointStyle(Ljava/lang/String;Ljava/awt/Color;Ljava/awt/Color;FFLjava/lang/String;Lorg/geotools/styling/Font;)Lorg/geotools/styling/Style;:2150 - ReplaceConstant - 1 -> 0
+717	ReplaceComparisonOperator	org.geotools.styling.SLD.wrapSymbolizers([Lorg/geotools/styling/Symbolizer;)Lorg/geotools/styling/Style;:2163 - ReplaceComparisonOperator = null -> != null
+718	ReplaceComparisonOperator	org.geotools.styling.SLD.wrapSymbolizers([Lorg/geotools/styling/Symbolizer;)Lorg/geotools/styling/Style;:2163 - ReplaceComparisonOperator != -> -1
+719	ReplaceComparisonOperator	org.geotools.styling.SLD.wrapSymbolizers([Lorg/geotools/styling/Symbolizer;)Lorg/geotools/styling/Style;:2163 - ReplaceComparisonOperator != -> <
+720	ReplaceComparisonOperator	org.geotools.styling.SLD.wrapSymbolizers([Lorg/geotools/styling/Symbolizer;)Lorg/geotools/styling/Style;:2163 - ReplaceComparisonOperator != -> >
+721	ReplaceConstant	org.geotools.styling.SLD.wrapSymbolizers([Lorg/geotools/styling/Symbolizer;)Lorg/geotools/styling/Style;:2169 - ReplaceConstant - 0 -> 1
+722	ReplaceComparisonOperator	org.geotools.styling.SLD.wrapSymbolizers([Lorg/geotools/styling/Symbolizer;)Lorg/geotools/styling/Style;:2169 - ReplaceComparisonOperator >= -> -1
+723	ReplaceComparisonOperator	org.geotools.styling.SLD.wrapSymbolizers([Lorg/geotools/styling/Symbolizer;)Lorg/geotools/styling/Style;:2169 - ReplaceComparisonOperator >= -> >
+724	ReplaceComparisonOperator	org.geotools.styling.SLD.wrapSymbolizers([Lorg/geotools/styling/Symbolizer;)Lorg/geotools/styling/Style;:2169 - ReplaceComparisonOperator >= -> ==
+725	ReplaceConstant	org.geotools.styling.SLD.wrapSymbolizers([Lorg/geotools/styling/Symbolizer;)Lorg/geotools/styling/Style;:2173 - ReplaceConstant - 1 -> 0
+726	ReplaceConstant	org.geotools.styling.SLD.wrapSymbolizers([Lorg/geotools/styling/Symbolizer;)Lorg/geotools/styling/Style;:2173 - ReplaceConstant - 0 -> 1

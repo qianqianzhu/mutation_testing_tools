@@ -1,0 +1,136 @@
+0	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:80 - InsertUnaryOp Negation
+1	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:80 - ReplaceComparisonOperator != -> -1
+2	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:80 - ReplaceComparisonOperator != -> <
+3	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:80 - ReplaceComparisonOperator != -> >
+4	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:80 - InsertUnaryOp Negation of bucketsPerElement
+5	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:80 - InsertUnaryOp IINC 1 bucketsPerElement
+6	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:80 - InsertUnaryOp IINC -1 bucketsPerElement
+7	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:80 - ReplaceComparisonOperator >= -> -1
+8	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:80 - ReplaceComparisonOperator >= -> ==
+9	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:80 - ReplaceComparisonOperator >= -> >
+10	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:81 - InsertUnaryOp Negation of bucketsPerElement
+11	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:81 - InsertUnaryOp IINC 1 bucketsPerElement
+12	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:81 - InsertUnaryOp IINC -1 bucketsPerElement
+13	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:81 - ReplaceComparisonOperator < -> !=
+14	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:81 - ReplaceComparisonOperator < -> -2
+15	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:81 - ReplaceComparisonOperator < -> <=
+16	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:82 - ReplaceConstant - 1 -> 0
+17	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:82 - ReplaceArithmeticOperator - -> +
+18	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:82 - ReplaceArithmeticOperator - -> %
+19	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:82 - ReplaceArithmeticOperator - -> *
+20	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:82 - ReplaceArithmeticOperator - -> /
+21	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:84 - InsertUnaryOp Negation of bucketsPerElement
+22	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:84 - InsertUnaryOp IINC 1 bucketsPerElement
+23	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBestK(I)I:84 - InsertUnaryOp IINC -1 bucketsPerElement
+24	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:116 - InsertUnaryOp Negation of maxFalsePosProb
+25	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:116 - ReplaceConstant - 2 -> 0
+26	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:116 - ReplaceConstant - 2 -> 1
+27	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:116 - ReplaceConstant - 2 -> -1
+28	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:116 - ReplaceConstant - 2 -> 3
+29	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:116 - ReplaceConstant - 1 -> 0
+30	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:116 - ReplaceComparisonOperator < -> -2
+31	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:116 - ReplaceComparisonOperator < -> !=
+32	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:116 - ReplaceComparisonOperator < -> <=
+33	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:117 - ReplaceConstant - 2 -> 0
+34	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:117 - ReplaceConstant - 2 -> 1
+35	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:117 - ReplaceConstant - 2 -> -1
+36	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:117 - ReplaceConstant - 2 -> 3
+37	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:117 - ReplaceConstant - 2 -> 0
+38	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:117 - ReplaceConstant - 2 -> 1
+39	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:117 - ReplaceConstant - 2 -> -1
+40	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:117 - ReplaceConstant - 2 -> 3
+41	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:119 - InsertUnaryOp Negation of maxFalsePosProb
+42	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:119 - ReplaceConstant - 15 -> 0
+43	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:119 - ReplaceConstant - 15 -> 1
+44	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:119 - ReplaceConstant - 15 -> -1
+45	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:119 - ReplaceConstant - 15 -> 14
+46	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:119 - ReplaceConstant - 15 -> 16
+47	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:119 - ReplaceConstant - 8 -> 0
+48	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:119 - ReplaceConstant - 8 -> 1
+49	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:119 - ReplaceConstant - 8 -> -1
+50	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:119 - ReplaceConstant - 8 -> 7
+51	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:119 - ReplaceConstant - 8 -> 9
+52	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:119 - ReplaceComparisonOperator >= -> -1
+53	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:119 - ReplaceComparisonOperator >= -> ==
+54	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:119 - ReplaceComparisonOperator >= -> >
+55	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:120 - ReplaceConstant - 8 -> 0
+56	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:120 - ReplaceConstant - 8 -> 1
+57	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:120 - ReplaceConstant - 8 -> -1
+58	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:120 - ReplaceConstant - 8 -> 7
+59	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:120 - ReplaceConstant - 8 -> 9
+60	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:120 - ReplaceConstant - 15 -> 0
+61	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:120 - ReplaceConstant - 15 -> 1
+62	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:120 - ReplaceConstant - 15 -> -1
+63	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:120 - ReplaceConstant - 15 -> 14
+64	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:120 - ReplaceConstant - 15 -> 16
+65	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:124 - ReplaceConstant - 2 -> 0
+66	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:124 - ReplaceConstant - 2 -> 1
+67	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:124 - ReplaceConstant - 2 -> -1
+68	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:124 - ReplaceConstant - 2 -> 3
+69	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:125 - ReplaceConstant - 2 -> 0
+70	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:125 - ReplaceConstant - 2 -> 1
+71	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:125 - ReplaceConstant - 2 -> -1
+72	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:125 - ReplaceConstant - 2 -> 3
+73	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:126 - InsertUnaryOp Negation of bucketsPerElement
+74	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:126 - InsertUnaryOp IINC 1 bucketsPerElement
+75	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:126 - InsertUnaryOp IINC -1 bucketsPerElement
+76	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:126 - InsertUnaryOp Negation of K
+77	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:126 - InsertUnaryOp IINC 1 K
+78	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:126 - InsertUnaryOp IINC -1 K
+79	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:126 - InsertUnaryOp Negation of maxFalsePosProb
+80	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:126 - ReplaceComparisonOperator <= -> -1
+81	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:126 - ReplaceComparisonOperator <= -> ==
+82	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:126 - ReplaceComparisonOperator <= -> <
+83	ReplaceVariable	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:127 - ReplaceVariable bucketsPerElement -> K
+84	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:128 - InsertUnaryOp Negation of bucketsPerElement
+85	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:128 - InsertUnaryOp IINC 1 bucketsPerElement
+86	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:128 - InsertUnaryOp IINC -1 bucketsPerElement
+87	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:132 - InsertUnaryOp Negation of bucketsPerElement
+88	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:132 - InsertUnaryOp IINC 1 bucketsPerElement
+89	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:132 - InsertUnaryOp IINC -1 bucketsPerElement
+90	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:132 - InsertUnaryOp Negation of K
+91	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:132 - InsertUnaryOp IINC 1 K
+92	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:132 - InsertUnaryOp IINC -1 K
+93	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:132 - ReplaceConstant - 1 -> 0
+94	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:132 - ReplaceArithmeticOperator - -> +
+95	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:132 - ReplaceArithmeticOperator - -> %
+96	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:132 - ReplaceArithmeticOperator - -> *
+97	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:132 - ReplaceArithmeticOperator - -> /
+98	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:132 - InsertUnaryOp Negation of maxFalsePosProb
+99	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:132 - ReplaceComparisonOperator > -> -2
+100	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:132 - ReplaceComparisonOperator > -> !=
+101	ReplaceComparisonOperator	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:132 - ReplaceComparisonOperator > -> >=
+102	ReplaceVariable	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:133 - ReplaceVariable K -> bucketsPerElement
+103	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:136 - InsertUnaryOp Negation of K
+104	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:136 - InsertUnaryOp IINC 1 K
+105	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:136 - InsertUnaryOp IINC -1 K
+106	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:136 - InsertUnaryOp Negation of bucketsPerElement
+107	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:136 - InsertUnaryOp IINC 1 bucketsPerElement
+108	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.computeBucketsAndK(D)Lcom/clearspring/analytics/stream/membership/BloomCalculations$BloomSpecification;:136 - InsertUnaryOp IINC -1 bucketsPerElement
+109	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceConstant - 1.0 -> 0.0
+110	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceConstant - 1.0 -> -1.0
+111	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceConstant - 1.0 -> 2.0
+112	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - InsertUnaryOp Negation of hashCount
+113	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - InsertUnaryOp IINC 1 hashCount
+114	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - InsertUnaryOp IINC -1 hashCount
+115	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceConstant - 1.0 -> 0.0
+116	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceConstant - 1.0 -> -1.0
+117	ReplaceConstant	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceConstant - 1.0 -> 2.0
+118	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - InsertUnaryOp Negation of bucketsPerElement
+119	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - InsertUnaryOp IINC 1 bucketsPerElement
+120	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - InsertUnaryOp IINC -1 bucketsPerElement
+121	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceArithmeticOperator / -> +
+122	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceArithmeticOperator / -> %
+123	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceArithmeticOperator / -> -
+124	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceArithmeticOperator / -> *
+125	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceArithmeticOperator * -> +
+126	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceArithmeticOperator * -> %
+127	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceArithmeticOperator * -> -
+128	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceArithmeticOperator * -> /
+129	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceArithmeticOperator - -> +
+130	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceArithmeticOperator - -> %
+131	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceArithmeticOperator - -> *
+132	ReplaceArithmeticOperator	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - ReplaceArithmeticOperator - -> /
+133	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - InsertUnaryOp Negation of hashCount
+134	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - InsertUnaryOp IINC 1 hashCount
+135	InsertUnaryOp	com.clearspring.analytics.stream.membership.BloomCalculations.getFalsePositiveProbability(II)D:149 - InsertUnaryOp IINC -1 hashCount

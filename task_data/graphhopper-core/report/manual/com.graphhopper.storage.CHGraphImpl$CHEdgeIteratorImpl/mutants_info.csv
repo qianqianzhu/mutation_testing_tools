@@ -1,0 +1,157 @@
+0	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getFlags()J:409 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getFlags()J:409 - ReplaceConstant - getFlags -> 
+2	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setBaseNode(I)Lcom/graphhopper/util/CHEdgeIterator;:415 - InsertUnaryOp Negation
+3	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setBaseNode(I)Lcom/graphhopper/util/CHEdgeIterator;:415 - ReplaceComparisonOperator != -> -1
+4	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setBaseNode(I)Lcom/graphhopper/util/CHEdgeIterator;:415 - ReplaceComparisonOperator != -> <
+5	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setBaseNode(I)Lcom/graphhopper/util/CHEdgeIterator;:415 - ReplaceComparisonOperator != -> >
+6	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setBaseNode(I)Lcom/graphhopper/util/CHEdgeIterator;:415 - ReplaceComparisonOperator != -> -1
+7	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setBaseNode(I)Lcom/graphhopper/util/CHEdgeIterator;:415 - ReplaceComparisonOperator != -> <
+8	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setBaseNode(I)Lcom/graphhopper/util/CHEdgeIterator;:415 - ReplaceComparisonOperator != -> >
+9	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setBaseNode(I)Lcom/graphhopper/util/CHEdgeIterator;:415 - ReplaceConstant - Traversal CHGraph is only possible if BaseGraph is frozen -> 
+10	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setBaseNode(I)Lcom/graphhopper/util/CHEdgeIterator;:418 - InsertUnaryOp Negation of baseNode
+11	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setBaseNode(I)Lcom/graphhopper/util/CHEdgeIterator;:418 - InsertUnaryOp IINC 1 baseNode
+12	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setBaseNode(I)Lcom/graphhopper/util/CHEdgeIterator;:418 - InsertUnaryOp IINC -1 baseNode
+13	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setBaseNode(I)Lcom/graphhopper/util/CHEdgeIterator;:419 - InsertUnaryOp Negation of baseNode
+14	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setBaseNode(I)Lcom/graphhopper/util/CHEdgeIterator;:419 - InsertUnaryOp IINC 1 baseNode
+15	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setBaseNode(I)Lcom/graphhopper/util/CHEdgeIterator;:419 - InsertUnaryOp IINC -1 baseNode
+16	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:425 - ReplaceConstant - 1 -> 0
+17	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:425 - ReplaceConstant - setSkippedEdges -> 
+18	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:426 - InsertUnaryOp Negation of edge1
+19	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:426 - InsertUnaryOp IINC 1 edge1
+20	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:426 - InsertUnaryOp IINC -1 edge1
+21	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:426 - InsertUnaryOp Negation of edge2
+22	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:426 - InsertUnaryOp IINC 1 edge2
+23	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:426 - InsertUnaryOp IINC -1 edge2
+24	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:426 - ReplaceComparisonOperator == -> -2
+25	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:426 - ReplaceComparisonOperator == -> >=
+26	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:426 - ReplaceComparisonOperator == -> <=
+27	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:427 - ReplaceConstant - Skipped edges of a shortcut needs to be both valid or invalid but they were not  -> 
+28	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:427 - InsertUnaryOp Negation of edge1
+29	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:427 - InsertUnaryOp IINC 1 edge1
+30	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:427 - InsertUnaryOp IINC -1 edge1
+31	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:427 - ReplaceConstant - ,  -> 
+32	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:427 - InsertUnaryOp Negation of edge2
+33	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:427 - InsertUnaryOp IINC 1 edge2
+34	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:427 - InsertUnaryOp IINC -1 edge2
+35	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:430 - InsertUnaryOp Negation
+36	ReplaceArithmeticOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:430 - ReplaceArithmeticOperator + -> %
+37	ReplaceArithmeticOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:430 - ReplaceArithmeticOperator + -> -
+38	ReplaceArithmeticOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:430 - ReplaceArithmeticOperator + -> *
+39	ReplaceArithmeticOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:430 - ReplaceArithmeticOperator + -> /
+40	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:430 - InsertUnaryOp Negation of edge1
+41	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:430 - InsertUnaryOp IINC 1 edge1
+42	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:430 - InsertUnaryOp IINC -1 edge1
+43	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:431 - InsertUnaryOp Negation
+44	ReplaceArithmeticOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:431 - ReplaceArithmeticOperator + -> %
+45	ReplaceArithmeticOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:431 - ReplaceArithmeticOperator + -> -
+46	ReplaceArithmeticOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:431 - ReplaceArithmeticOperator + -> *
+47	ReplaceArithmeticOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:431 - ReplaceArithmeticOperator + -> /
+48	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:431 - InsertUnaryOp Negation of edge2
+49	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:431 - InsertUnaryOp IINC 1 edge2
+50	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setSkippedEdges(II)V:431 - InsertUnaryOp IINC -1 edge2
+51	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getSkippedEdge1()I:436 - ReplaceConstant - 1 -> 0
+52	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getSkippedEdge1()I:436 - ReplaceConstant - getSkippedEdge1 -> 
+53	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getSkippedEdge1()I:437 - InsertUnaryOp Negation
+54	ReplaceArithmeticOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getSkippedEdge1()I:437 - ReplaceArithmeticOperator + -> %
+55	ReplaceArithmeticOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getSkippedEdge1()I:437 - ReplaceArithmeticOperator + -> -
+56	ReplaceArithmeticOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getSkippedEdge1()I:437 - ReplaceArithmeticOperator + -> *
+57	ReplaceArithmeticOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getSkippedEdge1()I:437 - ReplaceArithmeticOperator + -> /
+58	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getSkippedEdge2()I:442 - ReplaceConstant - 1 -> 0
+59	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getSkippedEdge2()I:442 - ReplaceConstant - getSkippedEdge2 -> 
+60	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getSkippedEdge2()I:443 - InsertUnaryOp Negation
+61	ReplaceArithmeticOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getSkippedEdge2()I:443 - ReplaceArithmeticOperator + -> %
+62	ReplaceArithmeticOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getSkippedEdge2()I:443 - ReplaceArithmeticOperator + -> -
+63	ReplaceArithmeticOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getSkippedEdge2()I:443 - ReplaceArithmeticOperator + -> *
+64	ReplaceArithmeticOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getSkippedEdge2()I:443 - ReplaceArithmeticOperator + -> /
+65	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isShortcut()Z:449 - InsertUnaryOp Negation
+66	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isShortcut()Z:449 - InsertUnaryOp +1
+67	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isShortcut()Z:449 - InsertUnaryOp -1
+68	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isShortcut()Z:449 - InsertUnaryOp Negation
+69	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isShortcut()Z:449 - InsertUnaryOp +1
+70	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isShortcut()Z:449 - InsertUnaryOp -1
+71	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isShortcut()Z:449 - ReplaceComparisonOperator < -> !=
+72	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isShortcut()Z:449 - ReplaceComparisonOperator < -> -2
+73	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isShortcut()Z:449 - ReplaceComparisonOperator < -> <=
+74	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isShortcut()Z:449 - ReplaceConstant - 1 -> 0
+75	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isShortcut()Z:449 - ReplaceConstant - 0 -> 1
+76	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:454 - InsertUnaryOp Negation
+77	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:454 - ReplaceComparisonOperator != -> -1
+78	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:454 - ReplaceComparisonOperator != -> <
+79	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:454 - ReplaceComparisonOperator != -> >
+80	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:454 - ReplaceComparisonOperator == -> !=
+81	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:454 - ReplaceConstant -  vs.  -> 
+82	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:455 - ReplaceComparisonOperator == -> -2
+83	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:455 - ReplaceComparisonOperator == -> >=
+84	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:455 - ReplaceComparisonOperator == -> <=
+85	ReplaceBitwiseOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:456 - ReplaceBitwiseOperator & -> |
+86	ReplaceBitwiseOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:456 - ReplaceBitwiseOperator & -> ^
+87	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:456 - ReplaceConstant - 0 -> 1
+88	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:456 - ReplaceConstant - 0 -> -1
+89	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:456 - ReplaceComparisonOperator == -> -2
+90	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:456 - ReplaceComparisonOperator == -> >=
+91	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:456 - ReplaceComparisonOperator == -> <=
+92	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:456 - ReplaceConstant - 1 -> 0
+93	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:456 - ReplaceConstant - 0 -> 1
+94	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:463 - InsertUnaryOp Negation
+95	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:463 - ReplaceComparisonOperator != -> -1
+96	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:463 - ReplaceComparisonOperator != -> <
+97	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:463 - ReplaceComparisonOperator != -> >
+98	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:463 - ReplaceComparisonOperator == -> !=
+99	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:463 - ReplaceConstant -  vs.  -> 
+100	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:464 - ReplaceComparisonOperator == -> -2
+101	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:464 - ReplaceComparisonOperator == -> >=
+102	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:464 - ReplaceComparisonOperator == -> <=
+103	ReplaceBitwiseOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:465 - ReplaceBitwiseOperator & -> |
+104	ReplaceBitwiseOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:465 - ReplaceBitwiseOperator & -> ^
+105	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:465 - ReplaceConstant - 0 -> 1
+106	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:465 - ReplaceConstant - 0 -> -1
+107	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:465 - ReplaceComparisonOperator == -> -2
+108	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:465 - ReplaceComparisonOperator == -> >=
+109	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:465 - ReplaceComparisonOperator == -> <=
+110	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:465 - ReplaceConstant - 1 -> 0
+111	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:465 - ReplaceConstant - 0 -> 1
+112	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setWeight(D)Lcom/graphhopper/util/CHEdgeIteratorState;:472 - ReplaceConstant - 1 -> 0
+113	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setWeight(D)Lcom/graphhopper/util/CHEdgeIteratorState;:472 - ReplaceConstant - setWeight -> 
+114	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setWeight(D)Lcom/graphhopper/util/CHEdgeIteratorState;:473 - InsertUnaryOp Negation of weight
+115	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getWeight()D:479 - ReplaceConstant - 1 -> 0
+116	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getWeight()D:479 - ReplaceConstant - getWeight -> 
+117	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.selectEdgeAccess()V:485 - InsertUnaryOp Negation
+118	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.selectEdgeAccess()V:485 - InsertUnaryOp +1
+119	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.selectEdgeAccess()V:485 - InsertUnaryOp -1
+120	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.selectEdgeAccess()V:485 - InsertUnaryOp Negation
+121	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.selectEdgeAccess()V:485 - InsertUnaryOp +1
+122	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.selectEdgeAccess()V:485 - InsertUnaryOp -1
+123	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.selectEdgeAccess()V:485 - ReplaceComparisonOperator >= -> -1
+124	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.selectEdgeAccess()V:485 - ReplaceComparisonOperator >= -> >
+125	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.selectEdgeAccess()V:485 - ReplaceComparisonOperator >= -> ==
+126	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:494 - ReplaceComparisonOperator == -> -2
+127	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:494 - ReplaceComparisonOperator == -> >=
+128	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:494 - ReplaceComparisonOperator == -> <=
+129	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:495 - InsertUnaryOp Negation of shouldBeShortcut
+130	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:495 - InsertUnaryOp IINC 1 shouldBeShortcut
+131	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:495 - InsertUnaryOp IINC -1 shouldBeShortcut
+132	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:495 - ReplaceComparisonOperator != -> -1
+133	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:495 - ReplaceComparisonOperator != -> <
+134	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:495 - ReplaceComparisonOperator != -> >
+135	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:496 - ReplaceConstant - Cannot call  -> 
+136	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:496 - ReplaceConstant -  on shortcut  -> 
+137	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:497 - InsertUnaryOp Negation of shouldBeShortcut
+138	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:497 - InsertUnaryOp IINC 1 shouldBeShortcut
+139	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:497 - InsertUnaryOp IINC -1 shouldBeShortcut
+140	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:497 - ReplaceComparisonOperator == -> -2
+141	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:497 - ReplaceComparisonOperator == -> >=
+142	ReplaceComparisonOperator	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:497 - ReplaceComparisonOperator == -> <=
+143	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:498 - ReplaceConstant - Method  -> 
+144	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.checkShortcut(ZLjava/lang/String;)V:498 - ReplaceConstant -  only for shortcuts  -> 
+145	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getName()Ljava/lang/String;:503 - ReplaceConstant - 0 -> 1
+146	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getName()Ljava/lang/String;:503 - ReplaceConstant - getName -> 
+147	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setName(Ljava/lang/String;)Lcom/graphhopper/util/EdgeIteratorState;:509 - ReplaceConstant - 0 -> 1
+148	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setName(Ljava/lang/String;)Lcom/graphhopper/util/EdgeIteratorState;:509 - ReplaceConstant - setName -> 
+149	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.fetchWayGeometry(I)Lcom/graphhopper/util/PointList;:515 - ReplaceConstant - 0 -> 1
+150	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.fetchWayGeometry(I)Lcom/graphhopper/util/PointList;:515 - ReplaceConstant - fetchWayGeometry -> 
+151	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.fetchWayGeometry(I)Lcom/graphhopper/util/PointList;:516 - InsertUnaryOp Negation of mode
+152	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.fetchWayGeometry(I)Lcom/graphhopper/util/PointList;:516 - InsertUnaryOp IINC 1 mode
+153	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.fetchWayGeometry(I)Lcom/graphhopper/util/PointList;:516 - InsertUnaryOp IINC -1 mode
+154	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setWayGeometry(Lcom/graphhopper/util/PointList;)Lcom/graphhopper/util/EdgeIteratorState;:521 - ReplaceConstant - 0 -> 1
+155	ReplaceConstant	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.setWayGeometry(Lcom/graphhopper/util/PointList;)Lcom/graphhopper/util/EdgeIteratorState;:521 - ReplaceConstant - setWayGeometry -> 
+156	InsertUnaryOp	com.graphhopper.storage.CHGraphImpl$CHEdgeIteratorImpl.getMergeStatus(J)I:527 - InsertUnaryOp Negation of flags

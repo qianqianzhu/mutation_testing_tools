@@ -1,0 +1,42 @@
+0	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.duplicatesFrom(Ljava/lang/Iterable;)Ljava/lang/Iterable;:31 - ReplaceComparisonOperator == -> -2
+1	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.duplicatesFrom(Ljava/lang/Iterable;)Ljava/lang/Iterable;:31 - ReplaceComparisonOperator == -> >=
+2	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.duplicatesFrom(Ljava/lang/Iterable;)Ljava/lang/Iterable;:31 - ReplaceComparisonOperator == -> <=
+3	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.duplicatesFrom(Ljava/lang/Iterable;)Ljava/lang/Iterable;:35 - ReplaceComparisonOperator == -> -2
+4	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.duplicatesFrom(Ljava/lang/Iterable;)Ljava/lang/Iterable;:35 - ReplaceComparisonOperator == -> >=
+5	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.duplicatesFrom(Ljava/lang/Iterable;)Ljava/lang/Iterable;:35 - ReplaceComparisonOperator == -> <=
+6	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.duplicatesFrom(Ljava/lang/Iterable;)Ljava/lang/Iterable;:36 - ReplaceComparisonOperator == -> -2
+7	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.duplicatesFrom(Ljava/lang/Iterable;)Ljava/lang/Iterable;:36 - ReplaceComparisonOperator == -> >=
+8	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.duplicatesFrom(Ljava/lang/Iterable;)Ljava/lang/Iterable;:36 - ReplaceComparisonOperator == -> <=
+9	ReplaceConstant	org.assertj.core.internal.AbstractComparisonStrategy.arrayContains(Ljava/lang/Object;Ljava/lang/Object;)Z:54 - ReplaceConstant - 0 -> 1
+10	InsertUnaryOp	org.assertj.core.internal.AbstractComparisonStrategy.arrayContains(Ljava/lang/Object;Ljava/lang/Object;)Z:54 - InsertUnaryOp Negation of i
+11	InsertUnaryOp	org.assertj.core.internal.AbstractComparisonStrategy.arrayContains(Ljava/lang/Object;Ljava/lang/Object;)Z:54 - InsertUnaryOp IINC 1 i
+12	InsertUnaryOp	org.assertj.core.internal.AbstractComparisonStrategy.arrayContains(Ljava/lang/Object;Ljava/lang/Object;)Z:54 - InsertUnaryOp IINC -1 i
+13	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.arrayContains(Ljava/lang/Object;Ljava/lang/Object;)Z:54 - ReplaceComparisonOperator >= -> -1
+14	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.arrayContains(Ljava/lang/Object;Ljava/lang/Object;)Z:54 - ReplaceComparisonOperator >= -> >
+15	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.arrayContains(Ljava/lang/Object;Ljava/lang/Object;)Z:54 - ReplaceComparisonOperator >= -> ==
+16	InsertUnaryOp	org.assertj.core.internal.AbstractComparisonStrategy.arrayContains(Ljava/lang/Object;Ljava/lang/Object;)Z:55 - InsertUnaryOp Negation of i
+17	InsertUnaryOp	org.assertj.core.internal.AbstractComparisonStrategy.arrayContains(Ljava/lang/Object;Ljava/lang/Object;)Z:55 - InsertUnaryOp IINC 1 i
+18	InsertUnaryOp	org.assertj.core.internal.AbstractComparisonStrategy.arrayContains(Ljava/lang/Object;Ljava/lang/Object;)Z:55 - InsertUnaryOp IINC -1 i
+19	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.arrayContains(Ljava/lang/Object;Ljava/lang/Object;)Z:56 - ReplaceComparisonOperator == -> -2
+20	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.arrayContains(Ljava/lang/Object;Ljava/lang/Object;)Z:56 - ReplaceComparisonOperator == -> >=
+21	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.arrayContains(Ljava/lang/Object;Ljava/lang/Object;)Z:56 - ReplaceComparisonOperator == -> <=
+22	ReplaceConstant	org.assertj.core.internal.AbstractComparisonStrategy.arrayContains(Ljava/lang/Object;Ljava/lang/Object;)Z:57 - ReplaceConstant - 1 -> 0
+23	ReplaceConstant	org.assertj.core.internal.AbstractComparisonStrategy.arrayContains(Ljava/lang/Object;Ljava/lang/Object;)Z:60 - ReplaceConstant - 0 -> 1
+24	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.isLessThan(Ljava/lang/Object;Ljava/lang/Object;)Z:65 - ReplaceComparisonOperator == -> -2
+25	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.isLessThan(Ljava/lang/Object;Ljava/lang/Object;)Z:65 - ReplaceComparisonOperator == -> >=
+26	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.isLessThan(Ljava/lang/Object;Ljava/lang/Object;)Z:65 - ReplaceComparisonOperator == -> <=
+27	ReplaceConstant	org.assertj.core.internal.AbstractComparisonStrategy.isLessThan(Ljava/lang/Object;Ljava/lang/Object;)Z:66 - ReplaceConstant - 0 -> 1
+28	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.isLessThan(Ljava/lang/Object;Ljava/lang/Object;)Z:68 - ReplaceComparisonOperator != -> -1
+29	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.isLessThan(Ljava/lang/Object;Ljava/lang/Object;)Z:68 - ReplaceComparisonOperator != -> <
+30	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.isLessThan(Ljava/lang/Object;Ljava/lang/Object;)Z:68 - ReplaceComparisonOperator != -> >
+31	ReplaceConstant	org.assertj.core.internal.AbstractComparisonStrategy.isLessThan(Ljava/lang/Object;Ljava/lang/Object;)Z:68 - ReplaceConstant - 1 -> 0
+32	ReplaceConstant	org.assertj.core.internal.AbstractComparisonStrategy.isLessThan(Ljava/lang/Object;Ljava/lang/Object;)Z:68 - ReplaceConstant - 0 -> 1
+33	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.isLessThanOrEqualTo(Ljava/lang/Object;Ljava/lang/Object;)Z:73 - ReplaceComparisonOperator == -> -2
+34	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.isLessThanOrEqualTo(Ljava/lang/Object;Ljava/lang/Object;)Z:73 - ReplaceComparisonOperator == -> >=
+35	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.isLessThanOrEqualTo(Ljava/lang/Object;Ljava/lang/Object;)Z:73 - ReplaceComparisonOperator == -> <=
+36	ReplaceConstant	org.assertj.core.internal.AbstractComparisonStrategy.isLessThanOrEqualTo(Ljava/lang/Object;Ljava/lang/Object;)Z:74 - ReplaceConstant - 1 -> 0
+37	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.isGreaterThanOrEqualTo(Ljava/lang/Object;Ljava/lang/Object;)Z:81 - ReplaceComparisonOperator == -> -2
+38	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.isGreaterThanOrEqualTo(Ljava/lang/Object;Ljava/lang/Object;)Z:81 - ReplaceComparisonOperator == -> >=
+39	ReplaceComparisonOperator	org.assertj.core.internal.AbstractComparisonStrategy.isGreaterThanOrEqualTo(Ljava/lang/Object;Ljava/lang/Object;)Z:81 - ReplaceComparisonOperator == -> <=
+40	ReplaceConstant	org.assertj.core.internal.AbstractComparisonStrategy.isGreaterThanOrEqualTo(Ljava/lang/Object;Ljava/lang/Object;)Z:82 - ReplaceConstant - 1 -> 0
+41	ReplaceConstant	org.assertj.core.internal.AbstractComparisonStrategy.isStandard()Z:91 - ReplaceConstant - 0 -> 1

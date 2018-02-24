@@ -1,0 +1,236 @@
+0	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:97 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:102 - ReplaceConstant - 0.1 -> 0.0
+2	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:102 - ReplaceConstant - 0.1 -> 1.0
+3	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:102 - ReplaceConstant - 0.1 -> -1.0
+4	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:102 - ReplaceConstant - 0.1 -> -0.9
+5	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:102 - ReplaceConstant - 0.1 -> 1.1
+6	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:109 - ReplaceConstant - 0 -> 1
+7	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:123 - ReplaceConstant - 0 -> 1
+8	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:125 - ReplaceConstant - 0.0 -> 1.0
+9	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:125 - ReplaceConstant - 0.0 -> -1.0
+10	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:126 - ReplaceConstant - 0.0 -> 1.0
+11	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:126 - ReplaceConstant - 0.0 -> -1.0
+12	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:129 - ReplaceConstant - 0 -> 1
+13	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:130 - ReplaceConstant - 0.1 -> 0.0
+14	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:130 - ReplaceConstant - 0.1 -> 1.0
+15	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:130 - ReplaceConstant - 0.1 -> -1.0
+16	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:130 - ReplaceConstant - 0.1 -> -0.9
+17	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:130 - ReplaceConstant - 0.1 -> 1.1
+18	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:131 - ReplaceConstant - 2 -> 0
+19	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:131 - ReplaceConstant - 2 -> 1
+20	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:131 - ReplaceConstant - 2 -> -1
+21	ReplaceConstant	org.jfree.chart.axis.ColorBar.<init>(Ljava/lang/String;)V:131 - ReplaceConstant - 2 -> 3
+22	InsertUnaryOp	org.jfree.chart.axis.ColorBar.configure(Lorg/jfree/chart/plot/ContourPlot;)V:145 - InsertUnaryOp Negation of minZ
+23	InsertUnaryOp	org.jfree.chart.axis.ColorBar.configure(Lorg/jfree/chart/plot/ContourPlot;)V:146 - InsertUnaryOp Negation of maxZ
+24	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:197 - InsertUnaryOp Negation
+25	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:197 - InsertUnaryOp +1
+26	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:197 - InsertUnaryOp -1
+27	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:197 - ReplaceComparisonOperator <= -> -1
+28	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:197 - ReplaceComparisonOperator <= -> ==
+29	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:197 - ReplaceComparisonOperator <= -> <
+30	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:198 - InsertUnaryOp Negation
+31	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:198 - InsertUnaryOp +1
+32	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:198 - InsertUnaryOp -1
+33	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:202 - ReplaceComparisonOperator == -> -2
+34	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:202 - ReplaceComparisonOperator == -> >=
+35	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:202 - ReplaceComparisonOperator == -> <=
+36	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:209 - InsertUnaryOp Negation
+37	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:209 - InsertUnaryOp +1
+38	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:209 - InsertUnaryOp -1
+39	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:209 - ReplaceComparisonOperator <= -> -1
+40	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:209 - ReplaceComparisonOperator <= -> ==
+41	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:209 - ReplaceComparisonOperator <= -> <
+42	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:210 - InsertUnaryOp Negation
+43	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:210 - InsertUnaryOp +1
+44	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:210 - InsertUnaryOp -1
+45	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:213 - ReplaceComparisonOperator != -> ==
+46	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:215 - InsertUnaryOp Negation
+47	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:215 - InsertUnaryOp +1
+48	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:215 - InsertUnaryOp -1
+49	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:215 - ReplaceArithmeticOperator + -> %
+50	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:215 - ReplaceArithmeticOperator + -> -
+51	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:215 - ReplaceArithmeticOperator + -> *
+52	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:215 - ReplaceArithmeticOperator + -> /
+53	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:215 - InsertUnaryOp Negation of length
+54	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:215 - InsertUnaryOp Negation of thickness
+55	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:217 - ReplaceComparisonOperator != -> ==
+56	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:219 - InsertUnaryOp Negation
+57	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:219 - InsertUnaryOp +1
+58	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:219 - InsertUnaryOp -1
+59	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:219 - ReplaceArithmeticOperator + -> %
+60	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:219 - ReplaceArithmeticOperator + -> -
+61	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:219 - ReplaceArithmeticOperator + -> *
+62	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:219 - ReplaceArithmeticOperator + -> /
+63	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:219 - InsertUnaryOp Negation of length
+64	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:219 - InsertUnaryOp Negation of thickness
+65	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:221 - ReplaceComparisonOperator != -> ==
+66	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:222 - InsertUnaryOp Negation of thickness
+67	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:222 - ReplaceArithmeticOperator - -> +
+68	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:222 - ReplaceArithmeticOperator - -> %
+69	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:222 - ReplaceArithmeticOperator - -> *
+70	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:222 - ReplaceArithmeticOperator - -> /
+71	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:222 - InsertUnaryOp Negation
+72	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:222 - InsertUnaryOp +1
+73	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:222 - InsertUnaryOp -1
+74	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:222 - ReplaceArithmeticOperator - -> +
+75	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:222 - ReplaceArithmeticOperator - -> %
+76	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:222 - ReplaceArithmeticOperator - -> *
+77	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:222 - ReplaceArithmeticOperator - -> /
+78	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:223 - InsertUnaryOp Negation of thickness
+79	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:223 - InsertUnaryOp Negation of length
+80	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:225 - ReplaceComparisonOperator != -> ==
+81	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:226 - InsertUnaryOp Negation
+82	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:226 - InsertUnaryOp +1
+83	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:226 - InsertUnaryOp -1
+84	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:226 - ReplaceArithmeticOperator + -> %
+85	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:226 - ReplaceArithmeticOperator + -> -
+86	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:226 - ReplaceArithmeticOperator + -> *
+87	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:226 - ReplaceArithmeticOperator + -> /
+88	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:227 - InsertUnaryOp Negation of thickness
+89	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:227 - InsertUnaryOp Negation of length
+90	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:236 - InsertUnaryOp Negation
+91	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:236 - ReplaceComparisonOperator != -> -1
+92	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:236 - ReplaceComparisonOperator != -> <
+93	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:236 - ReplaceComparisonOperator != -> >
+94	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:236 - ReplaceComparisonOperator != null -> = null
+95	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:237 - ReplaceComparisonOperator != -> ==
+96	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:239 - InsertUnaryOp Negation of cursor
+97	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:242 - ReplaceComparisonOperator != -> ==
+98	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:244 - InsertUnaryOp Negation of cursor
+99	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:247 - ReplaceComparisonOperator != -> ==
+100	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:249 - InsertUnaryOp Negation of cursor
+101	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:252 - ReplaceComparisonOperator != -> ==
+102	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:254 - InsertUnaryOp Negation of cursor
+103	InsertUnaryOp	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:257 - InsertUnaryOp Negation
+104	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:257 - ReplaceComparisonOperator != -> -1
+105	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:257 - ReplaceComparisonOperator != -> <
+106	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:257 - ReplaceComparisonOperator != -> >
+107	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:257 - ReplaceComparisonOperator != null -> = null
+108	ReplaceConstant	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:281 - ReplaceConstant - 1.0 -> 0.0
+109	ReplaceConstant	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:281 - ReplaceConstant - 1.0 -> -1.0
+110	ReplaceConstant	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:281 - ReplaceConstant - 1.0 -> 2.0
+111	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:283 - ReplaceComparisonOperator == -> -2
+112	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:283 - ReplaceComparisonOperator == -> >=
+113	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:283 - ReplaceComparisonOperator == -> <=
+114	InsertUnaryOp	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:288 - InsertUnaryOp Negation of xx
+115	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:288 - ReplaceComparisonOperator > -> -2
+116	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:288 - ReplaceComparisonOperator > -> !=
+117	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:288 - ReplaceComparisonOperator > -> >=
+118	InsertUnaryOp	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:289 - InsertUnaryOp Negation of xx
+119	InsertUnaryOp	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:290 - InsertUnaryOp Negation of xx
+120	InsertUnaryOp	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:290 - InsertUnaryOp Negation of y1
+121	InsertUnaryOp	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:290 - InsertUnaryOp Negation of xx
+122	InsertUnaryOp	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:290 - InsertUnaryOp Negation of y2
+123	InsertUnaryOp	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:291 - InsertUnaryOp Negation of value
+124	InsertUnaryOp	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:293 - InsertUnaryOp Negation of xx
+125	ReplaceConstant	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:293 - ReplaceConstant - 1.0 -> 0.0
+126	ReplaceConstant	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:293 - ReplaceConstant - 1.0 -> -1.0
+127	ReplaceConstant	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:293 - ReplaceConstant - 1.0 -> 2.0
+128	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:293 - ReplaceArithmeticOperator + -> %
+129	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:293 - ReplaceArithmeticOperator + -> -
+130	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:293 - ReplaceArithmeticOperator + -> *
+131	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:293 - ReplaceArithmeticOperator + -> /
+132	InsertUnaryOp	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:301 - InsertUnaryOp Negation of xx
+133	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:301 - ReplaceComparisonOperator > -> -2
+134	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:301 - ReplaceComparisonOperator > -> !=
+135	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:301 - ReplaceComparisonOperator > -> >=
+136	InsertUnaryOp	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:302 - InsertUnaryOp Negation of xx
+137	InsertUnaryOp	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:303 - InsertUnaryOp Negation of y1
+138	InsertUnaryOp	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:303 - InsertUnaryOp Negation of xx
+139	InsertUnaryOp	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:303 - InsertUnaryOp Negation of y2
+140	InsertUnaryOp	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:303 - InsertUnaryOp Negation of xx
+141	InsertUnaryOp	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:304 - InsertUnaryOp Negation of value
+142	InsertUnaryOp	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:306 - InsertUnaryOp Negation of xx
+143	ReplaceConstant	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:306 - ReplaceConstant - 1.0 -> 0.0
+144	ReplaceConstant	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:306 - ReplaceConstant - 1.0 -> -1.0
+145	ReplaceConstant	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:306 - ReplaceConstant - 1.0 -> 2.0
+146	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:306 - ReplaceArithmeticOperator + -> %
+147	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:306 - ReplaceArithmeticOperator + -> -
+148	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:306 - ReplaceArithmeticOperator + -> *
+149	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.drawColorBar(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)V:306 - ReplaceArithmeticOperator + -> /
+150	InsertUnaryOp	org.jfree.chart.axis.ColorBar.getPaint(D)Ljava/awt/Paint;:332 - InsertUnaryOp Negation of value
+151	InsertUnaryOp	org.jfree.chart.axis.ColorBar.setMaximumValue(D)V:350 - InsertUnaryOp Negation of value
+152	InsertUnaryOp	org.jfree.chart.axis.ColorBar.setMaximumValue(D)V:351 - InsertUnaryOp Negation of value
+153	InsertUnaryOp	org.jfree.chart.axis.ColorBar.setMinimumValue(D)V:360 - InsertUnaryOp Negation of value
+154	InsertUnaryOp	org.jfree.chart.axis.ColorBar.setMinimumValue(D)V:361 - InsertUnaryOp Negation of value
+155	InsertUnaryOp	org.jfree.chart.axis.ColorBar.reserveSpace(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/Plot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/axis/AxisSpace;)Lorg/jfree/chart/axis/AxisSpace;:384 - InsertUnaryOp Negation of thickness
+156	ReplaceConstant	org.jfree.chart.axis.ColorBar.reserveSpace(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/Plot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/axis/AxisSpace;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceConstant - 2 -> 0
+157	ReplaceConstant	org.jfree.chart.axis.ColorBar.reserveSpace(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/Plot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/axis/AxisSpace;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceConstant - 2 -> 1
+158	ReplaceConstant	org.jfree.chart.axis.ColorBar.reserveSpace(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/Plot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/axis/AxisSpace;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceConstant - 2 -> -1
+159	ReplaceConstant	org.jfree.chart.axis.ColorBar.reserveSpace(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/Plot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/axis/AxisSpace;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceConstant - 2 -> 3
+160	InsertUnaryOp	org.jfree.chart.axis.ColorBar.reserveSpace(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/Plot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/axis/AxisSpace;)Lorg/jfree/chart/axis/AxisSpace;:384 - InsertUnaryOp Negation
+161	InsertUnaryOp	org.jfree.chart.axis.ColorBar.reserveSpace(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/Plot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/axis/AxisSpace;)Lorg/jfree/chart/axis/AxisSpace;:384 - InsertUnaryOp +1
+162	InsertUnaryOp	org.jfree.chart.axis.ColorBar.reserveSpace(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/Plot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/axis/AxisSpace;)Lorg/jfree/chart/axis/AxisSpace;:384 - InsertUnaryOp -1
+163	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.reserveSpace(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/Plot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/axis/AxisSpace;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator * -> +
+164	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.reserveSpace(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/Plot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/axis/AxisSpace;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator * -> %
+165	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.reserveSpace(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/Plot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/axis/AxisSpace;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator * -> -
+166	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.reserveSpace(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/Plot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/axis/AxisSpace;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator * -> /
+167	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.reserveSpace(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/Plot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/axis/AxisSpace;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator + -> %
+168	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.reserveSpace(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/Plot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/axis/AxisSpace;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator + -> -
+169	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.reserveSpace(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/Plot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/axis/AxisSpace;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator + -> *
+170	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.reserveSpace(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/Plot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/axis/AxisSpace;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator + -> /
+171	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.calculateBarThickness(Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:400 - ReplaceComparisonOperator == -> -2
+172	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.calculateBarThickness(Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:400 - ReplaceComparisonOperator == -> >=
+173	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.calculateBarThickness(Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:400 - ReplaceComparisonOperator == -> <=
+174	InsertUnaryOp	org.jfree.chart.axis.ColorBar.calculateBarThickness(Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:401 - InsertUnaryOp Negation
+175	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.calculateBarThickness(Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:401 - ReplaceArithmeticOperator * -> +
+176	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.calculateBarThickness(Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:401 - ReplaceArithmeticOperator * -> %
+177	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.calculateBarThickness(Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:401 - ReplaceArithmeticOperator * -> -
+178	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.calculateBarThickness(Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:401 - ReplaceArithmeticOperator * -> /
+179	InsertUnaryOp	org.jfree.chart.axis.ColorBar.calculateBarThickness(Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:404 - InsertUnaryOp Negation
+180	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.calculateBarThickness(Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:404 - ReplaceArithmeticOperator * -> +
+181	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.calculateBarThickness(Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:404 - ReplaceArithmeticOperator * -> %
+182	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.calculateBarThickness(Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:404 - ReplaceArithmeticOperator * -> -
+183	ReplaceArithmeticOperator	org.jfree.chart.axis.ColorBar.calculateBarThickness(Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:404 - ReplaceArithmeticOperator * -> /
+184	InsertUnaryOp	org.jfree.chart.axis.ColorBar.calculateBarThickness(Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)D:406 - InsertUnaryOp Negation of result
+185	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:433 - ReplaceComparisonOperator != -> ==
+186	ReplaceConstant	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:434 - ReplaceConstant - 1 -> 0
+187	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:436 - ReplaceComparisonOperator != -> -1
+188	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:436 - ReplaceComparisonOperator != -> <
+189	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:436 - ReplaceComparisonOperator != -> >
+190	ReplaceConstant	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:437 - ReplaceConstant - 0 -> 1
+191	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:440 - ReplaceComparisonOperator != -> -1
+192	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:440 - ReplaceComparisonOperator != -> <
+193	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:440 - ReplaceComparisonOperator != -> >
+194	ReplaceConstant	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:441 - ReplaceConstant - 0 -> 1
+195	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:443 - InsertUnaryOp Negation
+196	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:443 - InsertUnaryOp +1
+197	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:443 - InsertUnaryOp -1
+198	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:443 - InsertUnaryOp Negation
+199	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:443 - InsertUnaryOp +1
+200	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:443 - InsertUnaryOp -1
+201	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:443 - ReplaceComparisonOperator == -> -2
+202	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:443 - ReplaceComparisonOperator == -> >=
+203	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:443 - ReplaceComparisonOperator == -> <=
+204	ReplaceConstant	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:444 - ReplaceConstant - 0 -> 1
+205	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:446 - InsertUnaryOp Negation
+206	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:446 - InsertUnaryOp Negation
+207	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:446 - ReplaceComparisonOperator == -> -2
+208	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:446 - ReplaceComparisonOperator == -> >=
+209	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:446 - ReplaceComparisonOperator == -> <=
+210	ReplaceConstant	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:447 - ReplaceConstant - 0 -> 1
+211	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:449 - ReplaceComparisonOperator != -> -1
+212	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:449 - ReplaceComparisonOperator != -> <
+213	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:449 - ReplaceComparisonOperator != -> >
+214	ReplaceConstant	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:450 - ReplaceConstant - 0 -> 1
+215	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:452 - InsertUnaryOp Negation
+216	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:452 - InsertUnaryOp +1
+217	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:452 - InsertUnaryOp -1
+218	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:452 - InsertUnaryOp Negation
+219	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:452 - InsertUnaryOp +1
+220	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:452 - InsertUnaryOp -1
+221	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:452 - ReplaceComparisonOperator == -> -2
+222	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:452 - ReplaceComparisonOperator == -> >=
+223	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:452 - ReplaceComparisonOperator == -> <=
+224	ReplaceConstant	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:453 - ReplaceConstant - 0 -> 1
+225	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:455 - InsertUnaryOp Negation
+226	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:455 - InsertUnaryOp +1
+227	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:455 - InsertUnaryOp -1
+228	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:455 - InsertUnaryOp Negation
+229	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:455 - InsertUnaryOp +1
+230	InsertUnaryOp	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:455 - InsertUnaryOp -1
+231	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:455 - ReplaceComparisonOperator == -> -2
+232	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:455 - ReplaceComparisonOperator == -> >=
+233	ReplaceComparisonOperator	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:455 - ReplaceComparisonOperator == -> <=
+234	ReplaceConstant	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:456 - ReplaceConstant - 0 -> 1
+235	ReplaceConstant	org.jfree.chart.axis.ColorBar.equals(Ljava/lang/Object;)Z:458 - ReplaceConstant - 1 -> 0

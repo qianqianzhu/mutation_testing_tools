@@ -1,0 +1,93 @@
+0	ReplaceConstant	org.jfree.data.KeyToGroupMap.<init>()V:83 - ReplaceConstant - Default Group -> 
+1	ReplaceConstant	org.jfree.data.KeyToGroupMap.<init>(Ljava/lang/Comparable;)V:92 - ReplaceConstant - defaultGroup -> 
+2	ReplaceConstant	org.jfree.data.KeyToGroupMap.getGroupCount()I:104 - ReplaceConstant - 1 -> 0
+3	ReplaceArithmeticOperator	org.jfree.data.KeyToGroupMap.getGroupCount()I:104 - ReplaceArithmeticOperator + -> %
+4	ReplaceArithmeticOperator	org.jfree.data.KeyToGroupMap.getGroupCount()I:104 - ReplaceArithmeticOperator + -> -
+5	ReplaceArithmeticOperator	org.jfree.data.KeyToGroupMap.getGroupCount()I:104 - ReplaceArithmeticOperator + -> *
+6	ReplaceArithmeticOperator	org.jfree.data.KeyToGroupMap.getGroupCount()I:104 - ReplaceArithmeticOperator + -> /
+7	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getGroups()Ljava/util/List;:118 - ReplaceComparisonOperator == -> -2
+8	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getGroups()Ljava/util/List;:118 - ReplaceComparisonOperator == -> >=
+9	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getGroups()Ljava/util/List;:118 - ReplaceComparisonOperator == -> <=
+10	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getGroups()Ljava/util/List;:120 - ReplaceComparisonOperator != -> -1
+11	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getGroups()Ljava/util/List;:120 - ReplaceComparisonOperator != -> <
+12	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getGroups()Ljava/util/List;:120 - ReplaceComparisonOperator != -> >
+13	InsertUnaryOp	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:137 - InsertUnaryOp Negation of result
+14	InsertUnaryOp	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:137 - InsertUnaryOp IINC 1 result
+15	InsertUnaryOp	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:137 - InsertUnaryOp IINC -1 result
+16	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:137 - ReplaceComparisonOperator >= -> -1
+17	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:137 - ReplaceComparisonOperator >= -> ==
+18	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:137 - ReplaceComparisonOperator >= -> >
+19	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:138 - ReplaceComparisonOperator == -> -2
+20	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:138 - ReplaceComparisonOperator == -> >=
+21	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:138 - ReplaceComparisonOperator == -> <=
+22	ReplaceConstant	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:139 - ReplaceConstant - 0 -> 1
+23	InsertUnaryOp	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:143 - InsertUnaryOp Negation of result
+24	InsertUnaryOp	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:143 - InsertUnaryOp IINC 1 result
+25	InsertUnaryOp	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:143 - InsertUnaryOp IINC -1 result
+26	ReplaceConstant	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:143 - ReplaceConstant - 1 -> 0
+27	ReplaceArithmeticOperator	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:143 - ReplaceArithmeticOperator + -> %
+28	ReplaceArithmeticOperator	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:143 - ReplaceArithmeticOperator + -> -
+29	ReplaceArithmeticOperator	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:143 - ReplaceArithmeticOperator + -> *
+30	ReplaceArithmeticOperator	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:143 - ReplaceArithmeticOperator + -> /
+31	InsertUnaryOp	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:145 - InsertUnaryOp Negation of result
+32	InsertUnaryOp	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:145 - InsertUnaryOp IINC 1 result
+33	InsertUnaryOp	org.jfree.data.KeyToGroupMap.getGroupIndex(Ljava/lang/Comparable;)I:145 - InsertUnaryOp IINC -1 result
+34	ReplaceConstant	org.jfree.data.KeyToGroupMap.getGroup(Ljava/lang/Comparable;)Ljava/lang/Comparable;:157 - ReplaceConstant - key -> 
+35	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getGroup(Ljava/lang/Comparable;)Ljava/lang/Comparable;:160 - ReplaceComparisonOperator = null -> != null
+36	ReplaceConstant	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:174 - ReplaceConstant - key -> 
+37	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:176 - ReplaceComparisonOperator != -> -1
+38	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:176 - ReplaceComparisonOperator != -> <
+39	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:176 - ReplaceComparisonOperator != -> >
+40	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:177 - ReplaceComparisonOperator != -> -1
+41	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:177 - ReplaceComparisonOperator != -> <
+42	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:177 - ReplaceComparisonOperator != -> >
+43	InsertUnaryOp	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:179 - InsertUnaryOp Negation of count
+44	InsertUnaryOp	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:179 - InsertUnaryOp IINC 1 count
+45	InsertUnaryOp	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:179 - InsertUnaryOp IINC -1 count
+46	ReplaceConstant	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:179 - ReplaceConstant - 1 -> 0
+47	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:179 - ReplaceComparisonOperator != -> -1
+48	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:179 - ReplaceComparisonOperator != -> <
+49	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:179 - ReplaceComparisonOperator != -> >
+50	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:184 - ReplaceComparisonOperator != null -> = null
+51	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:188 - ReplaceComparisonOperator != -> -1
+52	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:188 - ReplaceComparisonOperator != -> <
+53	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:188 - ReplaceComparisonOperator != -> >
+54	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:189 - ReplaceComparisonOperator != -> -1
+55	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:189 - ReplaceComparisonOperator != -> <
+56	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.mapKeyToGroup(Ljava/lang/Comparable;Ljava/lang/Comparable;)V:189 - ReplaceComparisonOperator != -> >
+57	ReplaceConstant	org.jfree.data.KeyToGroupMap.getKeyCount(Ljava/lang/Comparable;)I:207 - ReplaceConstant - group -> 
+58	ReplaceConstant	org.jfree.data.KeyToGroupMap.getKeyCount(Ljava/lang/Comparable;)I:208 - ReplaceConstant - 0 -> 1
+59	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getKeyCount(Ljava/lang/Comparable;)I:210 - ReplaceComparisonOperator == -> -2
+60	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getKeyCount(Ljava/lang/Comparable;)I:210 - ReplaceComparisonOperator == -> >=
+61	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getKeyCount(Ljava/lang/Comparable;)I:210 - ReplaceComparisonOperator == -> <=
+62	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getKeyCount(Ljava/lang/Comparable;)I:212 - ReplaceComparisonOperator == -> -2
+63	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getKeyCount(Ljava/lang/Comparable;)I:212 - ReplaceComparisonOperator == -> >=
+64	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.getKeyCount(Ljava/lang/Comparable;)I:212 - ReplaceComparisonOperator == -> <=
+65	InsertUnaryOp	org.jfree.data.KeyToGroupMap.getKeyCount(Ljava/lang/Comparable;)I:216 - InsertUnaryOp Negation of result
+66	InsertUnaryOp	org.jfree.data.KeyToGroupMap.getKeyCount(Ljava/lang/Comparable;)I:216 - InsertUnaryOp IINC 1 result
+67	InsertUnaryOp	org.jfree.data.KeyToGroupMap.getKeyCount(Ljava/lang/Comparable;)I:216 - InsertUnaryOp IINC -1 result
+68	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.equals(Ljava/lang/Object;)Z:228 - ReplaceComparisonOperator != -> ==
+69	ReplaceConstant	org.jfree.data.KeyToGroupMap.equals(Ljava/lang/Object;)Z:229 - ReplaceConstant - 1 -> 0
+70	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.equals(Ljava/lang/Object;)Z:231 - ReplaceComparisonOperator != -> -1
+71	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.equals(Ljava/lang/Object;)Z:231 - ReplaceComparisonOperator != -> <
+72	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.equals(Ljava/lang/Object;)Z:231 - ReplaceComparisonOperator != -> >
+73	ReplaceConstant	org.jfree.data.KeyToGroupMap.equals(Ljava/lang/Object;)Z:232 - ReplaceConstant - 0 -> 1
+74	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.equals(Ljava/lang/Object;)Z:235 - ReplaceComparisonOperator != -> -1
+75	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.equals(Ljava/lang/Object;)Z:235 - ReplaceComparisonOperator != -> <
+76	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.equals(Ljava/lang/Object;)Z:235 - ReplaceComparisonOperator != -> >
+77	ReplaceConstant	org.jfree.data.KeyToGroupMap.equals(Ljava/lang/Object;)Z:236 - ReplaceConstant - 0 -> 1
+78	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.equals(Ljava/lang/Object;)Z:238 - ReplaceComparisonOperator != -> -1
+79	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.equals(Ljava/lang/Object;)Z:238 - ReplaceComparisonOperator != -> <
+80	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.equals(Ljava/lang/Object;)Z:238 - ReplaceComparisonOperator != -> >
+81	ReplaceConstant	org.jfree.data.KeyToGroupMap.equals(Ljava/lang/Object;)Z:239 - ReplaceConstant - 0 -> 1
+82	ReplaceConstant	org.jfree.data.KeyToGroupMap.equals(Ljava/lang/Object;)Z:241 - ReplaceConstant - 1 -> 0
+83	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.clone(Ljava/lang/Object;)Ljava/lang/Object;:270 - ReplaceComparisonOperator != null -> = null
+84	ReplaceConstant	org.jfree.data.KeyToGroupMap.clone(Ljava/lang/Object;)Ljava/lang/Object;:276 - ReplaceConstant - clone -> 
+85	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.clone(Ljava/lang/Object;)Ljava/lang/Object;:277 - ReplaceComparisonOperator == -> -2
+86	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.clone(Ljava/lang/Object;)Ljava/lang/Object;:277 - ReplaceComparisonOperator == -> >=
+87	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.clone(Ljava/lang/Object;)Ljava/lang/Object;:277 - ReplaceComparisonOperator == -> <=
+88	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.clone(Ljava/util/Collection;)Ljava/util/Collection;:304 - ReplaceComparisonOperator = null -> != null
+89	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.clone(Ljava/util/Collection;)Ljava/util/Collection;:308 - ReplaceComparisonOperator == -> -2
+90	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.clone(Ljava/util/Collection;)Ljava/util/Collection;:308 - ReplaceComparisonOperator == -> >=
+91	ReplaceComparisonOperator	org.jfree.data.KeyToGroupMap.clone(Ljava/util/Collection;)Ljava/util/Collection;:308 - ReplaceComparisonOperator == -> <=
+92	ReplaceConstant	org.jfree.data.KeyToGroupMap.clone(Ljava/util/Collection;)Ljava/util/Collection;:314 - ReplaceConstant - Exception. -> 

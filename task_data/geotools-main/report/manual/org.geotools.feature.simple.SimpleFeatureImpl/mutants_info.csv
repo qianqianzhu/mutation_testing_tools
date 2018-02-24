@@ -1,0 +1,182 @@
+0	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.<init>(Ljava/util/List;Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/filter/identity/FeatureId;)V:101 - ReplaceConstant - 0 -> 1
+1	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.<init>([Ljava/lang/Object;Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/filter/identity/FeatureId;Z)V:116 - InsertUnaryOp Negation of validating
+2	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.<init>([Ljava/lang/Object;Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/filter/identity/FeatureId;Z)V:116 - InsertUnaryOp IINC 1 validating
+3	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.<init>([Ljava/lang/Object;Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/filter/identity/FeatureId;Z)V:116 - InsertUnaryOp IINC -1 validating
+4	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.<init>([Ljava/lang/Object;Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/filter/identity/FeatureId;ZLjava/util/Map;)V:136 - InsertUnaryOp Negation of validating
+5	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.<init>([Ljava/lang/Object;Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/filter/identity/FeatureId;ZLjava/util/Map;)V:136 - InsertUnaryOp IINC 1 validating
+6	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.<init>([Ljava/lang/Object;Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/filter/identity/FeatureId;ZLjava/util/Map;)V:136 - InsertUnaryOp IINC -1 validating
+7	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.<init>([Ljava/lang/Object;Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/filter/identity/FeatureId;ZLjava/util/Map;)V:140 - InsertUnaryOp Negation of validating
+8	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.<init>([Ljava/lang/Object;Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/filter/identity/FeatureId;ZLjava/util/Map;)V:140 - InsertUnaryOp IINC 1 validating
+9	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.<init>([Ljava/lang/Object;Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/filter/identity/FeatureId;ZLjava/util/Map;)V:140 - InsertUnaryOp IINC -1 validating
+10	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.<init>([Ljava/lang/Object;Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/filter/identity/FeatureId;ZLjava/util/Map;)V:140 - ReplaceComparisonOperator == -> -2
+11	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.<init>([Ljava/lang/Object;Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/filter/identity/FeatureId;ZLjava/util/Map;)V:140 - ReplaceComparisonOperator == -> >=
+12	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.<init>([Ljava/lang/Object;Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/filter/identity/FeatureId;ZLjava/util/Map;)V:140 - ReplaceComparisonOperator == -> <=
+13	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.index(Lorg/opengis/feature/simple/SimpleFeatureType;)Ljava/util/Map;:160 - ReplaceComparisonOperator == -> -2
+14	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.index(Lorg/opengis/feature/simple/SimpleFeatureType;)Ljava/util/Map;:160 - ReplaceComparisonOperator == -> >=
+15	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.index(Lorg/opengis/feature/simple/SimpleFeatureType;)Ljava/util/Map;:160 - ReplaceComparisonOperator == -> <=
+16	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.index(Lorg/opengis/feature/simple/SimpleFeatureType;)Ljava/util/Map;:165 - ReplaceConstant - indexLookup -> 
+17	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.index(Lorg/opengis/feature/simple/SimpleFeatureType;)Ljava/util/Map;:166 - ReplaceComparisonOperator == -> -2
+18	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.index(Lorg/opengis/feature/simple/SimpleFeatureType;)Ljava/util/Map;:166 - ReplaceComparisonOperator == -> >=
+19	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.index(Lorg/opengis/feature/simple/SimpleFeatureType;)Ljava/util/Map;:166 - ReplaceComparisonOperator == -> <=
+20	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.index(Lorg/opengis/feature/simple/SimpleFeatureType;)Ljava/util/Map;:171 - ReplaceConstant - indexLookup -> 
+21	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.getAttribute(I)Ljava/lang/Object;:190 - InsertUnaryOp Negation of index
+22	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.getAttribute(I)Ljava/lang/Object;:190 - InsertUnaryOp IINC 1 index
+23	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.getAttribute(I)Ljava/lang/Object;:190 - InsertUnaryOp IINC -1 index
+24	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getAttribute(Ljava/lang/String;)Ljava/lang/Object;:195 - ReplaceComparisonOperator = null -> != null
+25	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getDefaultGeometry()Ljava/lang/Object;:216 - ReplaceComparisonOperator = null -> != null
+26	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getDefaultGeometry()Ljava/lang/Object;:219 - ReplaceComparisonOperator != null -> = null
+27	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getDefaultGeometry()Ljava/lang/Object;:221 - ReplaceComparisonOperator = null -> != null
+28	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttribute(ILjava/lang/Object;)V:241 - InsertUnaryOp Negation of index
+29	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttribute(ILjava/lang/Object;)V:241 - InsertUnaryOp IINC 1 index
+30	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttribute(ILjava/lang/Object;)V:241 - InsertUnaryOp IINC -1 index
+31	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttribute(ILjava/lang/Object;)V:243 - InsertUnaryOp Negation
+32	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.setAttribute(ILjava/lang/Object;)V:243 - ReplaceComparisonOperator == -> -2
+33	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.setAttribute(ILjava/lang/Object;)V:243 - ReplaceComparisonOperator == -> >=
+34	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.setAttribute(ILjava/lang/Object;)V:243 - ReplaceComparisonOperator == -> <=
+35	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttribute(ILjava/lang/Object;)V:244 - InsertUnaryOp Negation of index
+36	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttribute(ILjava/lang/Object;)V:244 - InsertUnaryOp IINC 1 index
+37	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttribute(ILjava/lang/Object;)V:244 - InsertUnaryOp IINC -1 index
+38	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttribute(ILjava/lang/Object;)V:246 - InsertUnaryOp Negation of index
+39	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttribute(ILjava/lang/Object;)V:246 - InsertUnaryOp IINC 1 index
+40	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttribute(ILjava/lang/Object;)V:246 - InsertUnaryOp IINC -1 index
+41	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.setAttribute(Ljava/lang/String;Ljava/lang/Object;)V:251 - ReplaceComparisonOperator != null -> = null
+42	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.setAttribute(Ljava/lang/String;Ljava/lang/Object;)V:252 - ReplaceConstant - Unknown attribute  -> 
+43	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.setAttributes(Ljava/util/List;)V:261 - ReplaceConstant - 0 -> 1
+44	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttributes(Ljava/util/List;)V:261 - InsertUnaryOp Negation of i
+45	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttributes(Ljava/util/List;)V:261 - InsertUnaryOp IINC 1 i
+46	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttributes(Ljava/util/List;)V:261 - InsertUnaryOp IINC -1 i
+47	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.setAttributes(Ljava/util/List;)V:261 - ReplaceComparisonOperator >= -> -1
+48	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.setAttributes(Ljava/util/List;)V:261 - ReplaceComparisonOperator >= -> >
+49	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.setAttributes(Ljava/util/List;)V:261 - ReplaceComparisonOperator >= -> ==
+50	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttributes(Ljava/util/List;)V:262 - InsertUnaryOp Negation of i
+51	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttributes(Ljava/util/List;)V:262 - InsertUnaryOp IINC 1 i
+52	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttributes(Ljava/util/List;)V:262 - InsertUnaryOp IINC -1 i
+53	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttributes(Ljava/util/List;)V:262 - InsertUnaryOp Negation of i
+54	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttributes(Ljava/util/List;)V:262 - InsertUnaryOp IINC 1 i
+55	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setAttributes(Ljava/util/List;)V:262 - InsertUnaryOp IINC -1 i
+56	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.setDefaultGeometry(Ljava/lang/Object;)V:272 - ReplaceComparisonOperator = null -> != null
+57	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.getBounds()Lorg/opengis/geometry/BoundingBox;:282 - ReplaceConstant - 0 -> 1
+58	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getBounds()Lorg/opengis/geometry/BoundingBox;:282 - ReplaceComparisonOperator >= -> -1
+59	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getBounds()Lorg/opengis/geometry/BoundingBox;:282 - ReplaceComparisonOperator >= -> >
+60	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getBounds()Lorg/opengis/geometry/BoundingBox;:282 - ReplaceComparisonOperator >= -> ==
+61	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getBounds()Lorg/opengis/geometry/BoundingBox;:283 - ReplaceComparisonOperator == -> -2
+62	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getBounds()Lorg/opengis/geometry/BoundingBox;:283 - ReplaceComparisonOperator == -> >=
+63	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getBounds()Lorg/opengis/geometry/BoundingBox;:283 - ReplaceComparisonOperator == -> <=
+64	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getBounds()Lorg/opengis/geometry/BoundingBox;:287 - ReplaceComparisonOperator == -> -2
+65	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getBounds()Lorg/opengis/geometry/BoundingBox;:287 - ReplaceComparisonOperator == -> >=
+66	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getBounds()Lorg/opengis/geometry/BoundingBox;:287 - ReplaceComparisonOperator == -> <=
+67	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getDefaultGeometryProperty()Lorg/opengis/feature/GeometryAttribute;:302 - ReplaceComparisonOperator = null -> != null
+68	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.setDefaultGeometryProperty(Lorg/opengis/feature/GeometryAttribute;)V:310 - ReplaceComparisonOperator = null -> != null
+69	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getProperties(Ljava/lang/String;)Ljava/util/Collection;:326 - ReplaceComparisonOperator = null -> != null
+70	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getProperty(Ljava/lang/String;)Lorg/opengis/feature/Property;:341 - ReplaceComparisonOperator != null -> = null
+71	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.getProperty(Ljava/lang/String;)Lorg/opengis/feature/Property;:345 - InsertUnaryOp Negation of index
+72	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.getProperty(Ljava/lang/String;)Lorg/opengis/feature/Property;:345 - InsertUnaryOp IINC 1 index
+73	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.getProperty(Ljava/lang/String;)Lorg/opengis/feature/Property;:345 - InsertUnaryOp IINC -1 index
+74	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getProperty(Ljava/lang/String;)Lorg/opengis/feature/Property;:346 - ReplaceComparisonOperator == -> -2
+75	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getProperty(Ljava/lang/String;)Lorg/opengis/feature/Property;:346 - ReplaceComparisonOperator == -> >=
+76	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getProperty(Ljava/lang/String;)Lorg/opengis/feature/Property;:346 - ReplaceComparisonOperator == -> <=
+77	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.getProperty(Ljava/lang/String;)Lorg/opengis/feature/Property;:347 - InsertUnaryOp Negation of index
+78	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.getProperty(Ljava/lang/String;)Lorg/opengis/feature/Property;:347 - InsertUnaryOp IINC 1 index
+79	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.getProperty(Ljava/lang/String;)Lorg/opengis/feature/Property;:347 - InsertUnaryOp IINC -1 index
+80	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.getProperty(Ljava/lang/String;)Lorg/opengis/feature/Property;:349 - InsertUnaryOp Negation of index
+81	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.getProperty(Ljava/lang/String;)Lorg/opengis/feature/Property;:349 - InsertUnaryOp IINC 1 index
+82	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.getProperty(Ljava/lang/String;)Lorg/opengis/feature/Property;:349 - InsertUnaryOp IINC -1 index
+83	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.setValue(Ljava/util/Collection;)V:359 - ReplaceConstant - 0 -> 1
+84	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.setValue(Ljava/util/Collection;)V:360 - ReplaceComparisonOperator == -> -2
+85	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.setValue(Ljava/util/Collection;)V:360 - ReplaceComparisonOperator == -> >=
+86	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.setValue(Ljava/util/Collection;)V:360 - ReplaceComparisonOperator == -> <=
+87	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setValue(Ljava/util/Collection;)V:361 - InsertUnaryOp Negation of i
+88	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setValue(Ljava/util/Collection;)V:361 - InsertUnaryOp IINC 1 i
+89	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.setValue(Ljava/util/Collection;)V:361 - InsertUnaryOp IINC -1 i
+90	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.getDescriptor()Lorg/opengis/feature/type/AttributeDescriptor;:373 - ReplaceConstant - 0 -> 1
+91	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.getDescriptor()Lorg/opengis/feature/type/AttributeDescriptor;:373 - ReplaceConstant - 2147483647 -> 0
+92	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.getDescriptor()Lorg/opengis/feature/type/AttributeDescriptor;:373 - ReplaceConstant - 2147483647 -> 1
+93	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.getDescriptor()Lorg/opengis/feature/type/AttributeDescriptor;:373 - ReplaceConstant - 2147483647 -> -1
+94	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.getDescriptor()Lorg/opengis/feature/type/AttributeDescriptor;:373 - ReplaceConstant - 2147483647 -> 2147483646
+95	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.getDescriptor()Lorg/opengis/feature/type/AttributeDescriptor;:373 - ReplaceConstant - 2147483647 -> -2147483648
+96	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.getDescriptor()Lorg/opengis/feature/type/AttributeDescriptor;:373 - ReplaceConstant - 1 -> 0
+97	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.isNillable()Z:386 - ReplaceConstant - 1 -> 0
+98	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.getUserData()Ljava/util/Map;:390 - ReplaceComparisonOperator != null -> = null
+99	ReplaceArithmeticOperator	org.geotools.feature.simple.SimpleFeatureImpl.hashCode()I:401 - ReplaceArithmeticOperator * -> +
+100	ReplaceArithmeticOperator	org.geotools.feature.simple.SimpleFeatureImpl.hashCode()I:401 - ReplaceArithmeticOperator * -> %
+101	ReplaceArithmeticOperator	org.geotools.feature.simple.SimpleFeatureImpl.hashCode()I:401 - ReplaceArithmeticOperator * -> -
+102	ReplaceArithmeticOperator	org.geotools.feature.simple.SimpleFeatureImpl.hashCode()I:401 - ReplaceArithmeticOperator * -> /
+103	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:413 - ReplaceComparisonOperator != null -> = null
+104	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:414 - ReplaceConstant - 0 -> 1
+105	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:417 - ReplaceComparisonOperator != -> ==
+106	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:418 - ReplaceConstant - 1 -> 0
+107	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:421 - ReplaceComparisonOperator != -> -1
+108	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:421 - ReplaceComparisonOperator != -> <
+109	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:421 - ReplaceComparisonOperator != -> >
+110	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:422 - ReplaceConstant - 0 -> 1
+111	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:429 - ReplaceComparisonOperator != null -> = null
+112	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:430 - ReplaceComparisonOperator = null -> != null
+113	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:431 - ReplaceConstant - 0 -> 1
+114	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:435 - ReplaceComparisonOperator != -> -1
+115	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:435 - ReplaceComparisonOperator != -> <
+116	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:435 - ReplaceComparisonOperator != -> >
+117	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:436 - ReplaceConstant - 0 -> 1
+118	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:439 - ReplaceComparisonOperator != -> -1
+119	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:439 - ReplaceComparisonOperator != -> <
+120	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:439 - ReplaceComparisonOperator != -> >
+121	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:440 - ReplaceConstant - 0 -> 1
+122	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:443 - ReplaceConstant - 0 -> 1
+123	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:443 - InsertUnaryOp Negation of i
+124	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:443 - InsertUnaryOp IINC 1 i
+125	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:443 - InsertUnaryOp IINC -1 i
+126	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:443 - InsertUnaryOp Negation of ii
+127	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:443 - InsertUnaryOp IINC 1 ii
+128	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:443 - InsertUnaryOp IINC -1 ii
+129	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:443 - ReplaceComparisonOperator >= -> -1
+130	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:443 - ReplaceComparisonOperator >= -> >
+131	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:443 - ReplaceComparisonOperator >= -> ==
+132	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:444 - InsertUnaryOp Negation of i
+133	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:444 - InsertUnaryOp IINC 1 i
+134	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:444 - InsertUnaryOp IINC -1 i
+135	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:446 - InsertUnaryOp Negation of i
+136	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:446 - InsertUnaryOp IINC 1 i
+137	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:446 - InsertUnaryOp IINC -1 i
+138	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:446 - ReplaceComparisonOperator != null -> = null
+139	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:447 - ReplaceComparisonOperator = null -> != null
+140	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:448 - ReplaceConstant - 0 -> 1
+141	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:451 - InsertUnaryOp Negation of i
+142	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:451 - InsertUnaryOp IINC 1 i
+143	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:451 - InsertUnaryOp IINC -1 i
+144	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:451 - ReplaceComparisonOperator == -> -2
+145	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:451 - ReplaceComparisonOperator == -> >=
+146	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:451 - ReplaceComparisonOperator == -> <=
+147	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:452 - ReplaceComparisonOperator != -> -1
+148	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:452 - ReplaceComparisonOperator != -> <
+149	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:452 - ReplaceComparisonOperator != -> >
+150	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:453 - ReplaceConstant - 0 -> 1
+151	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:454 - InsertUnaryOp Negation of i
+152	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:454 - InsertUnaryOp IINC 1 i
+153	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:454 - InsertUnaryOp IINC -1 i
+154	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:454 - ReplaceComparisonOperator != -> -1
+155	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:454 - ReplaceComparisonOperator != -> <
+156	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:454 - ReplaceComparisonOperator != -> >
+157	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:455 - ReplaceConstant - 0 -> 1
+158	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:457 - InsertUnaryOp Negation of i
+159	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:457 - InsertUnaryOp IINC 1 i
+160	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:457 - InsertUnaryOp IINC -1 i
+161	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:457 - ReplaceComparisonOperator != -> -1
+162	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:457 - ReplaceComparisonOperator != -> <
+163	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:457 - ReplaceComparisonOperator != -> >
+164	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:458 - ReplaceConstant - 0 -> 1
+165	ReplaceVariable	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:443 - ReplaceVariable i -> ii
+166	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.equals(Ljava/lang/Object;)Z:463 - ReplaceConstant - 1 -> 0
+167	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.validate()V:467 - ReplaceConstant - 0 -> 1
+168	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.validate()V:467 - InsertUnaryOp Negation of i
+169	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.validate()V:467 - InsertUnaryOp IINC 1 i
+170	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.validate()V:467 - InsertUnaryOp IINC -1 i
+171	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.validate()V:467 - ReplaceComparisonOperator >= -> -1
+172	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.validate()V:467 - ReplaceComparisonOperator >= -> >
+173	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureImpl.validate()V:467 - ReplaceComparisonOperator >= -> ==
+174	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.validate()V:468 - InsertUnaryOp Negation of i
+175	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.validate()V:468 - InsertUnaryOp IINC 1 i
+176	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.validate()V:468 - InsertUnaryOp IINC -1 i
+177	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.validate()V:469 - InsertUnaryOp Negation of i
+178	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.validate()V:469 - InsertUnaryOp IINC 1 i
+179	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureImpl.validate()V:469 - InsertUnaryOp IINC -1 i
+180	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.toString()Ljava/lang/String;:497 - ReplaceConstant - SimpleFeatureImpl: -> 
+181	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureImpl.toString()Ljava/lang/String;:499 - ReplaceConstant - = -> 

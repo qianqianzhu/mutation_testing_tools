@@ -1,0 +1,329 @@
+0	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.<init>()V:186 - ReplaceConstant - X -> 
+1	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.<init>()V:186 - ReplaceConstant - Y -> 
+2	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.<init>([[FLorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;)V:202 - ReplaceConstant - domainAxis -> 
+3	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.<init>([[FLorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;)V:203 - ReplaceConstant - rangeAxis -> 
+4	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.<init>([[FLorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;)V:217 - ReplaceConstant - 1 -> 0
+5	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.<init>([[FLorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;)V:221 - ReplaceConstant - 1 -> 0
+6	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.getPlotType()Ljava/lang/String;:233 - ReplaceConstant - Fast_Scatter_Plot -> 
+7	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.setDomainAxis(Lorg/jfree/chart/axis/ValueAxis;)V:292 - ReplaceConstant - axis -> 
+8	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.setRangeAxis(Lorg/jfree/chart/axis/ValueAxis;)V:319 - ReplaceConstant - axis -> 
+9	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.setPaint(Ljava/awt/Paint;)V:345 - ReplaceConstant - paint -> 
+10	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.isDomainGridlinesVisible()Z:360 - InsertUnaryOp Negation
+11	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setDomainGridlinesVisible(Z)V:373 - InsertUnaryOp Negation
+12	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setDomainGridlinesVisible(Z)V:373 - InsertUnaryOp Negation of visible
+13	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setDomainGridlinesVisible(Z)V:373 - InsertUnaryOp IINC 1 visible
+14	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setDomainGridlinesVisible(Z)V:373 - InsertUnaryOp IINC -1 visible
+15	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.setDomainGridlinesVisible(Z)V:373 - ReplaceComparisonOperator == -> -2
+16	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.setDomainGridlinesVisible(Z)V:373 - ReplaceComparisonOperator == -> >=
+17	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.setDomainGridlinesVisible(Z)V:373 - ReplaceComparisonOperator == -> <=
+18	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setDomainGridlinesVisible(Z)V:374 - InsertUnaryOp Negation of visible
+19	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setDomainGridlinesVisible(Z)V:374 - InsertUnaryOp IINC 1 visible
+20	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setDomainGridlinesVisible(Z)V:374 - InsertUnaryOp IINC -1 visible
+21	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.setDomainGridlineStroke(Ljava/awt/Stroke;)V:400 - ReplaceConstant - stroke -> 
+22	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.setDomainGridlinePaint(Ljava/awt/Paint;)V:426 - ReplaceConstant - paint -> 
+23	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.isRangeGridlinesVisible()Z:440 - InsertUnaryOp Negation
+24	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setRangeGridlinesVisible(Z)V:453 - InsertUnaryOp Negation
+25	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setRangeGridlinesVisible(Z)V:453 - InsertUnaryOp Negation of visible
+26	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setRangeGridlinesVisible(Z)V:453 - InsertUnaryOp IINC 1 visible
+27	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setRangeGridlinesVisible(Z)V:453 - InsertUnaryOp IINC -1 visible
+28	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.setRangeGridlinesVisible(Z)V:453 - ReplaceComparisonOperator == -> -2
+29	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.setRangeGridlinesVisible(Z)V:453 - ReplaceComparisonOperator == -> >=
+30	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.setRangeGridlinesVisible(Z)V:453 - ReplaceComparisonOperator == -> <=
+31	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setRangeGridlinesVisible(Z)V:454 - InsertUnaryOp Negation of visible
+32	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setRangeGridlinesVisible(Z)V:454 - InsertUnaryOp IINC 1 visible
+33	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setRangeGridlinesVisible(Z)V:454 - InsertUnaryOp IINC -1 visible
+34	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.setRangeGridlineStroke(Ljava/awt/Stroke;)V:480 - ReplaceConstant - stroke -> 
+35	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.setRangeGridlinePaint(Ljava/awt/Paint;)V:506 - ReplaceConstant - paint -> 
+36	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:528 - ReplaceComparisonOperator = null -> != null
+37	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:543 - ReplaceComparisonOperator = null -> != null
+38	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:561 - ReplaceConstant - 3 -> 0
+39	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:561 - ReplaceConstant - 3 -> 1
+40	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:561 - ReplaceConstant - 3 -> -1
+41	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:561 - ReplaceConstant - 3 -> 2
+42	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:561 - ReplaceConstant - 3 -> 4
+43	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:600 - ReplaceComparisonOperator = null -> != null
+44	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:601 - ReplaceConstant - 0 -> 1
+45	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:601 - InsertUnaryOp Negation of i
+46	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:601 - InsertUnaryOp IINC 1 i
+47	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:601 - InsertUnaryOp IINC -1 i
+48	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:601 - ReplaceConstant - 0 -> 1
+49	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:601 - ReplaceComparisonOperator >= -> -1
+50	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:601 - ReplaceComparisonOperator >= -> >
+51	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:601 - ReplaceComparisonOperator >= -> ==
+52	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:602 - ReplaceConstant - 0 -> 1
+53	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:602 - InsertUnaryOp Negation of i
+54	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:602 - InsertUnaryOp IINC 1 i
+55	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:602 - InsertUnaryOp IINC -1 i
+56	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:603 - ReplaceConstant - 1 -> 0
+57	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:603 - InsertUnaryOp Negation of i
+58	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:603 - InsertUnaryOp IINC 1 i
+59	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:603 - InsertUnaryOp IINC -1 i
+60	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:607 - InsertUnaryOp Negation of x
+61	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:609 - InsertUnaryOp Negation of y
+62	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:611 - InsertUnaryOp Negation of transX
+63	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:611 - InsertUnaryOp IINC 1 transX
+64	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:611 - InsertUnaryOp IINC -1 transX
+65	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:611 - InsertUnaryOp Negation of transY
+66	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:611 - InsertUnaryOp IINC 1 transY
+67	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:611 - InsertUnaryOp IINC -1 transY
+68	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:611 - ReplaceConstant - 1 -> 0
+69	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.render(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/plot/PlotRenderingInfo;Lorg/jfree/chart/plot/CrosshairState;)V:611 - ReplaceConstant - 1 -> 0
+70	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.drawDomainGridlines(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/util/List;)V:625 - ReplaceComparisonOperator != -> -1
+71	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.drawDomainGridlines(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/util/List;)V:625 - ReplaceComparisonOperator != -> <
+72	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.drawDomainGridlines(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/util/List;)V:625 - ReplaceComparisonOperator != -> >
+73	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.drawDomainGridlines(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/util/List;)V:632 - ReplaceComparisonOperator == -> -2
+74	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.drawDomainGridlines(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/util/List;)V:632 - ReplaceComparisonOperator == -> >=
+75	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.drawDomainGridlines(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/util/List;)V:632 - ReplaceComparisonOperator == -> <=
+76	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.drawDomainGridlines(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/util/List;)V:636 - InsertUnaryOp Negation of v
+77	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.drawDomainGridlines(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/util/List;)V:636 - InsertUnaryOp Negation of v
+78	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.drawRangeGridlines(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/util/List;)V:655 - ReplaceComparisonOperator != -> -1
+79	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.drawRangeGridlines(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/util/List;)V:655 - ReplaceComparisonOperator != -> <
+80	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.drawRangeGridlines(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/util/List;)V:655 - ReplaceComparisonOperator != -> >
+81	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.drawRangeGridlines(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/util/List;)V:663 - ReplaceComparisonOperator == -> -2
+82	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.drawRangeGridlines(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/util/List;)V:663 - ReplaceComparisonOperator == -> >=
+83	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.drawRangeGridlines(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/util/List;)V:663 - ReplaceComparisonOperator == -> <=
+84	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.drawRangeGridlines(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/util/List;)V:667 - InsertUnaryOp Negation of v
+85	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.drawRangeGridlines(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/util/List;)V:668 - InsertUnaryOp Negation of v
+86	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.getDataRange(Lorg/jfree/chart/axis/ValueAxis;)Lorg/jfree/data/Range;:688 - ReplaceComparisonOperator != -> ==
+87	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.getDataRange(Lorg/jfree/chart/axis/ValueAxis;)Lorg/jfree/data/Range;:691 - ReplaceComparisonOperator != -> ==
+88	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:708 - ReplaceComparisonOperator = null -> != null
+89	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:709 - ReplaceConstant - Infinity -> 0.0
+90	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:709 - ReplaceConstant - Infinity -> 1.0
+91	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:709 - ReplaceConstant - Infinity -> -1.0
+92	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:709 - ReplaceConstant - Infinity -> Infinity
+93	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:710 - ReplaceConstant - -Infinity -> 0.0
+94	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:710 - ReplaceConstant - -Infinity -> 1.0
+95	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:710 - ReplaceConstant - -Infinity -> -1.0
+96	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:710 - ReplaceConstant - -Infinity -> -Infinity
+97	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:711 - ReplaceConstant - 0 -> 1
+98	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:711 - InsertUnaryOp Negation of i
+99	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:711 - InsertUnaryOp IINC 1 i
+100	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:711 - InsertUnaryOp IINC -1 i
+101	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:711 - ReplaceConstant - 0 -> 1
+102	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:711 - ReplaceComparisonOperator >= -> -1
+103	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:711 - ReplaceComparisonOperator >= -> >
+104	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:711 - ReplaceComparisonOperator >= -> ==
+105	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:712 - ReplaceConstant - 0 -> 1
+106	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:712 - InsertUnaryOp Negation of i
+107	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:712 - InsertUnaryOp IINC 1 i
+108	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:712 - InsertUnaryOp IINC -1 i
+109	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:713 - InsertUnaryOp Negation of v
+110	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:713 - InsertUnaryOp Negation of lowest
+111	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:713 - ReplaceComparisonOperator >= -> -1
+112	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:713 - ReplaceComparisonOperator >= -> ==
+113	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:713 - ReplaceComparisonOperator >= -> >
+114	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:714 - InsertUnaryOp Negation of v
+115	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:716 - InsertUnaryOp Negation of v
+116	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:716 - InsertUnaryOp Negation of highest
+117	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:716 - ReplaceComparisonOperator <= -> -1
+118	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:716 - ReplaceComparisonOperator <= -> ==
+119	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:716 - ReplaceComparisonOperator <= -> <
+120	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:717 - InsertUnaryOp Negation of v
+121	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:720 - InsertUnaryOp Negation of lowest
+122	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:720 - InsertUnaryOp Negation of highest
+123	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:720 - ReplaceComparisonOperator > -> -2
+124	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:720 - ReplaceComparisonOperator > -> !=
+125	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:720 - ReplaceComparisonOperator > -> >=
+126	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:721 - InsertUnaryOp Negation of lowest
+127	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateXDataRange([[F)Lorg/jfree/data/Range;:721 - InsertUnaryOp Negation of highest
+128	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:739 - ReplaceComparisonOperator = null -> != null
+129	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:740 - ReplaceConstant - Infinity -> 0.0
+130	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:740 - ReplaceConstant - Infinity -> 1.0
+131	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:740 - ReplaceConstant - Infinity -> -1.0
+132	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:740 - ReplaceConstant - Infinity -> Infinity
+133	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:741 - ReplaceConstant - -Infinity -> 0.0
+134	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:741 - ReplaceConstant - -Infinity -> 1.0
+135	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:741 - ReplaceConstant - -Infinity -> -1.0
+136	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:741 - ReplaceConstant - -Infinity -> -Infinity
+137	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:742 - ReplaceConstant - 0 -> 1
+138	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:742 - InsertUnaryOp Negation of i
+139	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:742 - InsertUnaryOp IINC 1 i
+140	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:742 - InsertUnaryOp IINC -1 i
+141	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:742 - ReplaceConstant - 0 -> 1
+142	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:742 - ReplaceComparisonOperator >= -> -1
+143	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:742 - ReplaceComparisonOperator >= -> >
+144	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:742 - ReplaceComparisonOperator >= -> ==
+145	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:743 - ReplaceConstant - 1 -> 0
+146	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:743 - InsertUnaryOp Negation of i
+147	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:743 - InsertUnaryOp IINC 1 i
+148	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:743 - InsertUnaryOp IINC -1 i
+149	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:744 - InsertUnaryOp Negation of v
+150	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:744 - InsertUnaryOp Negation of lowest
+151	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:744 - ReplaceComparisonOperator >= -> -1
+152	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:744 - ReplaceComparisonOperator >= -> ==
+153	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:744 - ReplaceComparisonOperator >= -> >
+154	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:745 - InsertUnaryOp Negation of v
+155	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:747 - InsertUnaryOp Negation of v
+156	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:747 - InsertUnaryOp Negation of highest
+157	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:747 - ReplaceComparisonOperator <= -> -1
+158	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:747 - ReplaceComparisonOperator <= -> ==
+159	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:747 - ReplaceComparisonOperator <= -> <
+160	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:748 - InsertUnaryOp Negation of v
+161	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:751 - InsertUnaryOp Negation of lowest
+162	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:751 - InsertUnaryOp Negation of highest
+163	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:751 - ReplaceComparisonOperator > -> -2
+164	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:751 - ReplaceComparisonOperator > -> !=
+165	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:751 - ReplaceComparisonOperator > -> >=
+166	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:752 - InsertUnaryOp Negation of lowest
+167	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.calculateYDataRange([[F)Lorg/jfree/data/Range;:752 - InsertUnaryOp Negation of highest
+168	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:769 - InsertUnaryOp Negation of factor
+169	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:788 - InsertUnaryOp Negation of useAnchor
+170	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:788 - InsertUnaryOp IINC 1 useAnchor
+171	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:788 - InsertUnaryOp IINC -1 useAnchor
+172	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.zoomDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:788 - ReplaceComparisonOperator == -> -2
+173	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.zoomDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:788 - ReplaceComparisonOperator == -> >=
+174	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.zoomDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:788 - ReplaceComparisonOperator == -> <=
+175	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:792 - InsertUnaryOp Negation of sourceX
+176	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:794 - InsertUnaryOp Negation of factor
+177	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:794 - InsertUnaryOp Negation of anchorX
+178	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:797 - InsertUnaryOp Negation of factor
+179	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomDomainAxes(DDLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:815 - InsertUnaryOp Negation of lowerPercent
+180	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomDomainAxes(DDLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:815 - InsertUnaryOp Negation of upperPercent
+181	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:828 - InsertUnaryOp Negation of factor
+182	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:847 - InsertUnaryOp Negation of useAnchor
+183	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:847 - InsertUnaryOp IINC 1 useAnchor
+184	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:847 - InsertUnaryOp IINC -1 useAnchor
+185	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:847 - ReplaceComparisonOperator == -> -2
+186	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:847 - ReplaceComparisonOperator == -> >=
+187	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:847 - ReplaceComparisonOperator == -> <=
+188	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:851 - InsertUnaryOp Negation of sourceY
+189	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:853 - InsertUnaryOp Negation of factor
+190	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:853 - InsertUnaryOp Negation of anchorY
+191	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:856 - InsertUnaryOp Negation of factor
+192	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomRangeAxes(DDLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:874 - InsertUnaryOp Negation of lowerPercent
+193	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.zoomRangeAxes(DDLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:874 - InsertUnaryOp Negation of upperPercent
+194	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.isDomainZoomable()Z:884 - ReplaceConstant - 1 -> 0
+195	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.isRangeZoomable()Z:894 - ReplaceConstant - 1 -> 0
+196	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.isDomainPannable()Z:907 - InsertUnaryOp Negation
+197	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setDomainPannable(Z)V:919 - InsertUnaryOp Negation of pannable
+198	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setDomainPannable(Z)V:919 - InsertUnaryOp IINC 1 pannable
+199	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setDomainPannable(Z)V:919 - InsertUnaryOp IINC -1 pannable
+200	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.isRangePannable()Z:932 - InsertUnaryOp Negation
+201	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setRangePannable(Z)V:944 - InsertUnaryOp Negation of pannable
+202	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setRangePannable(Z)V:944 - InsertUnaryOp IINC 1 pannable
+203	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.setRangePannable(Z)V:944 - InsertUnaryOp IINC -1 pannable
+204	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:959 - ReplaceComparisonOperator == -> -2
+205	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:959 - ReplaceComparisonOperator == -> >=
+206	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:959 - ReplaceComparisonOperator == -> <=
+207	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:959 - ReplaceComparisonOperator != null -> = null
+208	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:963 - InsertUnaryOp Negation of percent
+209	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:963 - InsertUnaryOp Negation of length
+210	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:963 - ReplaceArithmeticOperator * -> +
+211	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:963 - ReplaceArithmeticOperator * -> %
+212	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:963 - ReplaceArithmeticOperator * -> -
+213	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:963 - ReplaceArithmeticOperator * -> /
+214	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:964 - ReplaceComparisonOperator == -> -2
+215	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:964 - ReplaceComparisonOperator == -> >=
+216	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:964 - ReplaceComparisonOperator == -> <=
+217	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:965 - InsertUnaryOp Negation of adj
+218	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:967 - InsertUnaryOp Negation of adj
+219	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:967 - ReplaceArithmeticOperator + -> %
+220	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:967 - ReplaceArithmeticOperator + -> -
+221	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:967 - ReplaceArithmeticOperator + -> *
+222	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:967 - ReplaceArithmeticOperator + -> /
+223	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:968 - InsertUnaryOp Negation of adj
+224	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:968 - ReplaceArithmeticOperator + -> %
+225	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:968 - ReplaceArithmeticOperator + -> -
+226	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:968 - ReplaceArithmeticOperator + -> *
+227	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panDomainAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:968 - ReplaceArithmeticOperator + -> /
+228	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:983 - ReplaceComparisonOperator == -> -2
+229	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:983 - ReplaceComparisonOperator == -> >=
+230	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:983 - ReplaceComparisonOperator == -> <=
+231	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:983 - ReplaceComparisonOperator != null -> = null
+232	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:987 - InsertUnaryOp Negation of percent
+233	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:987 - InsertUnaryOp Negation of length
+234	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:987 - ReplaceArithmeticOperator * -> +
+235	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:987 - ReplaceArithmeticOperator * -> %
+236	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:987 - ReplaceArithmeticOperator * -> -
+237	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:987 - ReplaceArithmeticOperator * -> /
+238	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:988 - ReplaceComparisonOperator == -> -2
+239	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:988 - ReplaceComparisonOperator == -> >=
+240	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:988 - ReplaceComparisonOperator == -> <=
+241	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:989 - InsertUnaryOp Negation of adj
+242	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:991 - InsertUnaryOp Negation of adj
+243	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:991 - ReplaceArithmeticOperator + -> %
+244	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:991 - ReplaceArithmeticOperator + -> -
+245	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:991 - ReplaceArithmeticOperator + -> *
+246	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:991 - ReplaceArithmeticOperator + -> /
+247	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:992 - InsertUnaryOp Negation of adj
+248	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:992 - ReplaceArithmeticOperator + -> %
+249	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:992 - ReplaceArithmeticOperator + -> -
+250	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:992 - ReplaceArithmeticOperator + -> *
+251	ReplaceArithmeticOperator	org.jfree.chart.plot.FastScatterPlot.panRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:992 - ReplaceArithmeticOperator + -> /
+252	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1007 - ReplaceComparisonOperator != -> ==
+253	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1008 - ReplaceConstant - 1 -> 0
+254	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1010 - ReplaceComparisonOperator != -> -1
+255	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1010 - ReplaceComparisonOperator != -> <
+256	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1010 - ReplaceComparisonOperator != -> >
+257	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1011 - ReplaceConstant - 0 -> 1
+258	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1013 - ReplaceComparisonOperator != -> -1
+259	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1013 - ReplaceComparisonOperator != -> <
+260	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1013 - ReplaceComparisonOperator != -> >
+261	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1014 - ReplaceConstant - 0 -> 1
+262	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1017 - InsertUnaryOp Negation
+263	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1017 - InsertUnaryOp Negation
+264	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1017 - ReplaceComparisonOperator == -> -2
+265	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1017 - ReplaceComparisonOperator == -> >=
+266	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1017 - ReplaceComparisonOperator == -> <=
+267	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1018 - ReplaceConstant - 0 -> 1
+268	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1020 - InsertUnaryOp Negation
+269	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1020 - InsertUnaryOp Negation
+270	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1020 - ReplaceComparisonOperator == -> -2
+271	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1020 - ReplaceComparisonOperator == -> >=
+272	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1020 - ReplaceComparisonOperator == -> <=
+273	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1021 - ReplaceConstant - 0 -> 1
+274	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1023 - ReplaceComparisonOperator != -> -1
+275	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1023 - ReplaceComparisonOperator != -> <
+276	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1023 - ReplaceComparisonOperator != -> >
+277	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1024 - ReplaceConstant - 0 -> 1
+278	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1026 - ReplaceComparisonOperator != -> -1
+279	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1026 - ReplaceComparisonOperator != -> <
+280	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1026 - ReplaceComparisonOperator != -> >
+281	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1027 - ReplaceConstant - 0 -> 1
+282	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1029 - ReplaceComparisonOperator != -> -1
+283	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1029 - ReplaceComparisonOperator != -> <
+284	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1029 - ReplaceComparisonOperator != -> >
+285	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1030 - ReplaceConstant - 0 -> 1
+286	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1032 - ReplaceComparisonOperator != -> -1
+287	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1032 - ReplaceComparisonOperator != -> <
+288	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1032 - ReplaceComparisonOperator != -> >
+289	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1033 - ReplaceConstant - 0 -> 1
+290	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1035 - InsertUnaryOp Negation
+291	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1035 - InsertUnaryOp Negation
+292	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1035 - ReplaceComparisonOperator == -> -2
+293	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1035 - ReplaceComparisonOperator == -> >=
+294	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1035 - ReplaceComparisonOperator == -> <=
+295	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1036 - ReplaceConstant - 0 -> 1
+296	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1038 - ReplaceComparisonOperator != -> -1
+297	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1038 - ReplaceComparisonOperator != -> <
+298	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1038 - ReplaceComparisonOperator != -> >
+299	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1040 - ReplaceConstant - 0 -> 1
+300	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1042 - ReplaceComparisonOperator != -> -1
+301	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1042 - ReplaceComparisonOperator != -> <
+302	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1042 - ReplaceComparisonOperator != -> >
+303	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1044 - ReplaceConstant - 0 -> 1
+304	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1046 - InsertUnaryOp Negation
+305	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1046 - ReplaceComparisonOperator != -> -1
+306	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1046 - ReplaceComparisonOperator != -> <
+307	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1046 - ReplaceComparisonOperator != -> >
+308	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1046 - ReplaceConstant - 1 -> 0
+309	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1046 - ReplaceConstant - 0 -> 1
+310	InsertUnaryOp	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1046 - InsertUnaryOp Negation
+311	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1046 - ReplaceComparisonOperator != -> -1
+312	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1046 - ReplaceComparisonOperator != -> <
+313	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1046 - ReplaceComparisonOperator != -> >
+314	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1047 - ReplaceConstant - 0 -> 1
+315	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1049 - ReplaceComparisonOperator != -> -1
+316	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1049 - ReplaceComparisonOperator != -> <
+317	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1049 - ReplaceComparisonOperator != -> >
+318	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1051 - ReplaceConstant - 0 -> 1
+319	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1053 - ReplaceComparisonOperator != -> -1
+320	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1053 - ReplaceComparisonOperator != -> <
+321	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1053 - ReplaceComparisonOperator != -> >
+322	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1055 - ReplaceConstant - 0 -> 1
+323	ReplaceConstant	org.jfree.chart.plot.FastScatterPlot.equals(Ljava/lang/Object;)Z:1057 - ReplaceConstant - 1 -> 0
+324	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.clone()Ljava/lang/Object;:1072 - ReplaceComparisonOperator = null -> != null
+325	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.clone()Ljava/lang/Object;:1075 - ReplaceComparisonOperator = null -> != null
+326	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.clone()Ljava/lang/Object;:1080 - ReplaceComparisonOperator = null -> != null
+327	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.readObject(Ljava/io/ObjectInputStream;)V:1124 - ReplaceComparisonOperator = null -> != null
+328	ReplaceComparisonOperator	org.jfree.chart.plot.FastScatterPlot.readObject(Ljava/io/ObjectInputStream;)V:1128 - ReplaceComparisonOperator = null -> != null

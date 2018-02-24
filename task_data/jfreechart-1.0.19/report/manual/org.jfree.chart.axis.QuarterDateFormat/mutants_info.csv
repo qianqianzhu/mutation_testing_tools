@@ -1,0 +1,56 @@
+0	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.<init>(Ljava/util/TimeZone;[Ljava/lang/String;)V:116 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.<init>(Ljava/util/TimeZone;[Ljava/lang/String;Z)V:131 - ReplaceConstant - zone -> 
+2	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.<init>(Ljava/util/TimeZone;[Ljava/lang/String;Z)V:134 - InsertUnaryOp Negation of quarterFirst
+3	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.<init>(Ljava/util/TimeZone;[Ljava/lang/String;Z)V:134 - InsertUnaryOp IINC 1 quarterFirst
+4	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.<init>(Ljava/util/TimeZone;[Ljava/lang/String;Z)V:134 - InsertUnaryOp IINC -1 quarterFirst
+5	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:156 - ReplaceConstant - 1 -> 0
+6	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:157 - ReplaceConstant - 2 -> 0
+7	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:157 - ReplaceConstant - 2 -> 1
+8	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:157 - ReplaceConstant - 2 -> -1
+9	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:157 - ReplaceConstant - 2 -> 3
+10	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:158 - InsertUnaryOp Negation of month
+11	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:158 - InsertUnaryOp IINC 1 month
+12	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:158 - InsertUnaryOp IINC -1 month
+13	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:158 - ReplaceConstant - 3 -> 0
+14	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:158 - ReplaceConstant - 3 -> 1
+15	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:158 - ReplaceConstant - 3 -> -1
+16	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:158 - ReplaceConstant - 3 -> 2
+17	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:158 - ReplaceConstant - 3 -> 4
+18	ReplaceArithmeticOperator	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:158 - ReplaceArithmeticOperator / -> +
+19	ReplaceArithmeticOperator	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:158 - ReplaceArithmeticOperator / -> %
+20	ReplaceArithmeticOperator	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:158 - ReplaceArithmeticOperator / -> -
+21	ReplaceArithmeticOperator	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:158 - ReplaceArithmeticOperator / -> *
+22	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:159 - InsertUnaryOp Negation
+23	ReplaceComparisonOperator	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:159 - ReplaceComparisonOperator == -> -2
+24	ReplaceComparisonOperator	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:159 - ReplaceComparisonOperator == -> >=
+25	ReplaceComparisonOperator	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:159 - ReplaceComparisonOperator == -> <=
+26	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:160 - InsertUnaryOp Negation of quarter
+27	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:160 - InsertUnaryOp IINC 1 quarter
+28	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:160 - InsertUnaryOp IINC -1 quarter
+29	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:161 - ReplaceConstant -   -> 
+30	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:162 - InsertUnaryOp Negation of year
+31	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:162 - InsertUnaryOp IINC 1 year
+32	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:162 - InsertUnaryOp IINC -1 year
+33	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:165 - InsertUnaryOp Negation of year
+34	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:165 - InsertUnaryOp IINC 1 year
+35	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:165 - InsertUnaryOp IINC -1 year
+36	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:166 - ReplaceConstant -   -> 
+37	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:167 - InsertUnaryOp Negation of quarter
+38	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:167 - InsertUnaryOp IINC 1 quarter
+39	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:167 - InsertUnaryOp IINC -1 quarter
+40	ReplaceComparisonOperator	org.jfree.chart.axis.QuarterDateFormat.equals(Ljava/lang/Object;)Z:194 - ReplaceComparisonOperator != -> ==
+41	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.equals(Ljava/lang/Object;)Z:195 - ReplaceConstant - 1 -> 0
+42	ReplaceComparisonOperator	org.jfree.chart.axis.QuarterDateFormat.equals(Ljava/lang/Object;)Z:197 - ReplaceComparisonOperator != -> -1
+43	ReplaceComparisonOperator	org.jfree.chart.axis.QuarterDateFormat.equals(Ljava/lang/Object;)Z:197 - ReplaceComparisonOperator != -> <
+44	ReplaceComparisonOperator	org.jfree.chart.axis.QuarterDateFormat.equals(Ljava/lang/Object;)Z:197 - ReplaceComparisonOperator != -> >
+45	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.equals(Ljava/lang/Object;)Z:198 - ReplaceConstant - 0 -> 1
+46	ReplaceComparisonOperator	org.jfree.chart.axis.QuarterDateFormat.equals(Ljava/lang/Object;)Z:201 - ReplaceComparisonOperator != -> -1
+47	ReplaceComparisonOperator	org.jfree.chart.axis.QuarterDateFormat.equals(Ljava/lang/Object;)Z:201 - ReplaceComparisonOperator != -> <
+48	ReplaceComparisonOperator	org.jfree.chart.axis.QuarterDateFormat.equals(Ljava/lang/Object;)Z:201 - ReplaceComparisonOperator != -> >
+49	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.equals(Ljava/lang/Object;)Z:202 - ReplaceConstant - 0 -> 1
+50	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.equals(Ljava/lang/Object;)Z:204 - InsertUnaryOp Negation
+51	InsertUnaryOp	org.jfree.chart.axis.QuarterDateFormat.equals(Ljava/lang/Object;)Z:204 - InsertUnaryOp Negation
+52	ReplaceComparisonOperator	org.jfree.chart.axis.QuarterDateFormat.equals(Ljava/lang/Object;)Z:204 - ReplaceComparisonOperator == -> -2
+53	ReplaceComparisonOperator	org.jfree.chart.axis.QuarterDateFormat.equals(Ljava/lang/Object;)Z:204 - ReplaceComparisonOperator == -> >=
+54	ReplaceComparisonOperator	org.jfree.chart.axis.QuarterDateFormat.equals(Ljava/lang/Object;)Z:204 - ReplaceComparisonOperator == -> <=
+55	ReplaceConstant	org.jfree.chart.axis.QuarterDateFormat.equals(Ljava/lang/Object;)Z:205 - ReplaceConstant - 0 -> 1

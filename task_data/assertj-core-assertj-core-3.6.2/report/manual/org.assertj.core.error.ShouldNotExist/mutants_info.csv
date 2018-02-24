@@ -1,0 +1,16 @@
+0	ReplaceConstant	org.assertj.core.error.ShouldNotExist.<init>(Ljava/io/File;)V:55 - ReplaceConstant - %nExpecting file:%n  <%s>%nnot to exist -> 
+1	ReplaceConstant	org.assertj.core.error.ShouldNotExist.<init>(Ljava/io/File;)V:55 - ReplaceConstant - 1 -> 0
+2	ReplaceConstant	org.assertj.core.error.ShouldNotExist.<init>(Ljava/io/File;)V:55 - ReplaceConstant - 0 -> 1
+3	ReplaceConstant	org.assertj.core.error.ShouldNotExist.<init>(Ljava/nio/file/Path;)V:59 - ReplaceConstant - %nExpecting path:%n  <%s>%nnot to exist -> 
+4	ReplaceConstant	org.assertj.core.error.ShouldNotExist.<init>(Ljava/nio/file/Path;)V:59 - ReplaceConstant - 1 -> 0
+5	ReplaceConstant	org.assertj.core.error.ShouldNotExist.<init>(Ljava/nio/file/Path;)V:59 - ReplaceConstant - 0 -> 1
+6	InsertUnaryOp	org.assertj.core.error.ShouldNotExist.<init>(Ljava/nio/file/Path;Z)V:63 - InsertUnaryOp Negation of followLinks
+7	InsertUnaryOp	org.assertj.core.error.ShouldNotExist.<init>(Ljava/nio/file/Path;Z)V:63 - InsertUnaryOp IINC 1 followLinks
+8	InsertUnaryOp	org.assertj.core.error.ShouldNotExist.<init>(Ljava/nio/file/Path;Z)V:63 - InsertUnaryOp IINC -1 followLinks
+9	ReplaceComparisonOperator	org.assertj.core.error.ShouldNotExist.<init>(Ljava/nio/file/Path;Z)V:63 - ReplaceComparisonOperator == -> -2
+10	ReplaceComparisonOperator	org.assertj.core.error.ShouldNotExist.<init>(Ljava/nio/file/Path;Z)V:63 - ReplaceComparisonOperator == -> >=
+11	ReplaceComparisonOperator	org.assertj.core.error.ShouldNotExist.<init>(Ljava/nio/file/Path;Z)V:63 - ReplaceComparisonOperator == -> <=
+12	ReplaceConstant	org.assertj.core.error.ShouldNotExist.<init>(Ljava/nio/file/Path;Z)V:63 - ReplaceConstant - %nExpecting path:%n  <%s>%nnot to exist -> 
+13	ReplaceConstant	org.assertj.core.error.ShouldNotExist.<init>(Ljava/nio/file/Path;Z)V:63 - ReplaceConstant - %nExpecting path:%n  <%s>%nnot to exist (symbolic links were not followed). -> 
+14	ReplaceConstant	org.assertj.core.error.ShouldNotExist.<init>(Ljava/nio/file/Path;Z)V:63 - ReplaceConstant - 1 -> 0
+15	ReplaceConstant	org.assertj.core.error.ShouldNotExist.<init>(Ljava/nio/file/Path;Z)V:63 - ReplaceConstant - 0 -> 1

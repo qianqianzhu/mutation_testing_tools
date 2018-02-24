@@ -1,0 +1,151 @@
+0	InsertUnaryOp	org.assertj.core.util.DoubleComparator.<init>(D)V:22 - InsertUnaryOp Negation of epsilon
+1	InsertUnaryOp	org.assertj.core.util.DoubleComparator.compare(Ljava/lang/Double;Ljava/lang/Double;)I:27 - InsertUnaryOp Negation
+2	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.compare(Ljava/lang/Double;Ljava/lang/Double;)I:27 - ReplaceComparisonOperator == -> -2
+3	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.compare(Ljava/lang/Double;Ljava/lang/Double;)I:27 - ReplaceComparisonOperator == -> >=
+4	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.compare(Ljava/lang/Double;Ljava/lang/Double;)I:27 - ReplaceComparisonOperator == -> <=
+5	ReplaceConstant	org.assertj.core.util.DoubleComparator.compare(Ljava/lang/Double;Ljava/lang/Double;)I:27 - ReplaceConstant - 0 -> 1
+6	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceComparisonOperator >= -> -1
+7	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceComparisonOperator >= -> ==
+8	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceComparisonOperator >= -> >
+9	ReplaceConstant	org.assertj.core.util.DoubleComparator.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceConstant - -1 -> 0
+10	ReplaceConstant	org.assertj.core.util.DoubleComparator.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceConstant - -1 -> 1
+11	ReplaceConstant	org.assertj.core.util.DoubleComparator.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceConstant - -1 -> -2
+12	ReplaceConstant	org.assertj.core.util.DoubleComparator.compare(Ljava/lang/Double;Ljava/lang/Double;)I:28 - ReplaceConstant - 1 -> 0
+13	InsertUnaryOp	org.assertj.core.util.DoubleComparator.getEpsilon()D:32 - InsertUnaryOp Negation
+14	InsertUnaryOp	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:40 - InsertUnaryOp Negation of a
+15	InsertUnaryOp	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:41 - InsertUnaryOp Negation of b
+16	InsertUnaryOp	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:42 - InsertUnaryOp Negation of a
+17	InsertUnaryOp	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:42 - InsertUnaryOp Negation of b
+18	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:42 - ReplaceArithmeticOperator - -> +
+19	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:42 - ReplaceArithmeticOperator - -> %
+20	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:42 - ReplaceArithmeticOperator - -> *
+21	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:42 - ReplaceArithmeticOperator - -> /
+22	InsertUnaryOp	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:44 - InsertUnaryOp Negation of a
+23	InsertUnaryOp	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:44 - InsertUnaryOp Negation of b
+24	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:44 - ReplaceComparisonOperator != -> -1
+25	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:44 - ReplaceComparisonOperator != -> <
+26	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:44 - ReplaceComparisonOperator != -> >
+27	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:46 - ReplaceConstant - 1 -> 0
+28	InsertUnaryOp	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - InsertUnaryOp Negation of a
+29	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - ReplaceConstant - 0.0 -> 1.0
+30	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - ReplaceConstant - 0.0 -> -1.0
+31	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - ReplaceComparisonOperator == -> -2
+32	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - ReplaceComparisonOperator == -> >=
+33	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - ReplaceComparisonOperator == -> <=
+34	InsertUnaryOp	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - InsertUnaryOp Negation of b
+35	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - ReplaceConstant - 0.0 -> 1.0
+36	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - ReplaceConstant - 0.0 -> -1.0
+37	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - ReplaceComparisonOperator == -> -2
+38	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - ReplaceComparisonOperator == -> >=
+39	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - ReplaceComparisonOperator == -> <=
+40	InsertUnaryOp	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - InsertUnaryOp Negation of diff
+41	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - ReplaceConstant - 2.2250738585072014E-308 -> 0.0
+42	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - ReplaceConstant - 2.2250738585072014E-308 -> 1.0
+43	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - ReplaceConstant - 2.2250738585072014E-308 -> -1.0
+44	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - ReplaceComparisonOperator >= -> -1
+45	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - ReplaceComparisonOperator >= -> ==
+46	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:47 - ReplaceComparisonOperator >= -> >
+47	InsertUnaryOp	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:50 - InsertUnaryOp Negation of diff
+48	InsertUnaryOp	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:50 - InsertUnaryOp Negation of epsilon
+49	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:50 - ReplaceConstant - 2.2250738585072014E-308 -> 0.0
+50	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:50 - ReplaceConstant - 2.2250738585072014E-308 -> 1.0
+51	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:50 - ReplaceConstant - 2.2250738585072014E-308 -> -1.0
+52	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:50 - ReplaceArithmeticOperator * -> +
+53	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:50 - ReplaceArithmeticOperator * -> %
+54	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:50 - ReplaceArithmeticOperator * -> -
+55	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:50 - ReplaceArithmeticOperator * -> /
+56	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:50 - ReplaceComparisonOperator >= -> -1
+57	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:50 - ReplaceComparisonOperator >= -> ==
+58	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:50 - ReplaceComparisonOperator >= -> >
+59	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:50 - ReplaceConstant - 1 -> 0
+60	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:50 - ReplaceConstant - 0 -> 1
+61	InsertUnaryOp	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - InsertUnaryOp Negation of diff
+62	InsertUnaryOp	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - InsertUnaryOp Negation of absA
+63	InsertUnaryOp	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - InsertUnaryOp Negation of absB
+64	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - ReplaceArithmeticOperator + -> %
+65	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - ReplaceArithmeticOperator + -> -
+66	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - ReplaceArithmeticOperator + -> *
+67	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - ReplaceArithmeticOperator + -> /
+68	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - ReplaceConstant - 1.7976931348623157E308 -> 0.0
+69	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - ReplaceConstant - 1.7976931348623157E308 -> 1.0
+70	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - ReplaceConstant - 1.7976931348623157E308 -> -1.0
+71	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - ReplaceConstant - 1.7976931348623157E308 -> 1.7976931348623157E308
+72	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - ReplaceArithmeticOperator / -> +
+73	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - ReplaceArithmeticOperator / -> %
+74	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - ReplaceArithmeticOperator / -> -
+75	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - ReplaceArithmeticOperator / -> *
+76	InsertUnaryOp	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - InsertUnaryOp Negation of epsilon
+77	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - ReplaceComparisonOperator >= -> -1
+78	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - ReplaceComparisonOperator >= -> ==
+79	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - ReplaceComparisonOperator >= -> >
+80	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - ReplaceConstant - 1 -> 0
+81	ReplaceConstant	org.assertj.core.util.DoubleComparator.complexCloseEnough(DDD)Z:52 - ReplaceConstant - 0 -> 1
+82	InsertUnaryOp	org.assertj.core.util.DoubleComparator.closeEnough(DDD)Z:58 - InsertUnaryOp Negation of a
+83	InsertUnaryOp	org.assertj.core.util.DoubleComparator.closeEnough(DDD)Z:58 - InsertUnaryOp Negation of b
+84	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.closeEnough(DDD)Z:58 - ReplaceComparisonOperator == -> -2
+85	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.closeEnough(DDD)Z:58 - ReplaceComparisonOperator == -> >=
+86	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.closeEnough(DDD)Z:58 - ReplaceComparisonOperator == -> <=
+87	InsertUnaryOp	org.assertj.core.util.DoubleComparator.closeEnough(DDD)Z:58 - InsertUnaryOp Negation of a
+88	InsertUnaryOp	org.assertj.core.util.DoubleComparator.closeEnough(DDD)Z:58 - InsertUnaryOp Negation of b
+89	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.closeEnough(DDD)Z:58 - ReplaceArithmeticOperator - -> +
+90	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.closeEnough(DDD)Z:58 - ReplaceArithmeticOperator - -> %
+91	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.closeEnough(DDD)Z:58 - ReplaceArithmeticOperator - -> *
+92	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.closeEnough(DDD)Z:58 - ReplaceArithmeticOperator - -> /
+93	InsertUnaryOp	org.assertj.core.util.DoubleComparator.closeEnough(DDD)Z:58 - InsertUnaryOp Negation of epsilon
+94	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.closeEnough(DDD)Z:58 - ReplaceComparisonOperator >= -> -1
+95	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.closeEnough(DDD)Z:58 - ReplaceComparisonOperator >= -> ==
+96	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.closeEnough(DDD)Z:58 - ReplaceComparisonOperator >= -> >
+97	ReplaceConstant	org.assertj.core.util.DoubleComparator.closeEnough(DDD)Z:58 - ReplaceConstant - 1 -> 0
+98	ReplaceConstant	org.assertj.core.util.DoubleComparator.closeEnough(DDD)Z:58 - ReplaceConstant - 0 -> 1
+99	ReplaceConstant	org.assertj.core.util.DoubleComparator.hashCode()I:63 - ReplaceConstant - 31 -> 0
+100	ReplaceConstant	org.assertj.core.util.DoubleComparator.hashCode()I:63 - ReplaceConstant - 31 -> 1
+101	ReplaceConstant	org.assertj.core.util.DoubleComparator.hashCode()I:63 - ReplaceConstant - 31 -> -1
+102	ReplaceConstant	org.assertj.core.util.DoubleComparator.hashCode()I:63 - ReplaceConstant - 31 -> 30
+103	ReplaceConstant	org.assertj.core.util.DoubleComparator.hashCode()I:63 - ReplaceConstant - 31 -> 32
+104	ReplaceConstant	org.assertj.core.util.DoubleComparator.hashCode()I:64 - ReplaceConstant - 1 -> 0
+105	InsertUnaryOp	org.assertj.core.util.DoubleComparator.hashCode()I:65 - InsertUnaryOp Negation
+106	ReplaceConstant	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceConstant - 31 -> 0
+107	ReplaceConstant	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceConstant - 31 -> 1
+108	ReplaceConstant	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceConstant - 31 -> -1
+109	ReplaceConstant	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceConstant - 31 -> 30
+110	ReplaceConstant	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceConstant - 31 -> 32
+111	InsertUnaryOp	org.assertj.core.util.DoubleComparator.hashCode()I:66 - InsertUnaryOp Negation of result
+112	InsertUnaryOp	org.assertj.core.util.DoubleComparator.hashCode()I:66 - InsertUnaryOp IINC 1 result
+113	InsertUnaryOp	org.assertj.core.util.DoubleComparator.hashCode()I:66 - InsertUnaryOp IINC -1 result
+114	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceArithmeticOperator * -> +
+115	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceArithmeticOperator * -> %
+116	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceArithmeticOperator * -> -
+117	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceArithmeticOperator * -> /
+118	InsertUnaryOp	org.assertj.core.util.DoubleComparator.hashCode()I:66 - InsertUnaryOp Negation of temp
+119	InsertUnaryOp	org.assertj.core.util.DoubleComparator.hashCode()I:66 - InsertUnaryOp Negation of temp
+120	ReplaceConstant	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceConstant - 32 -> 0
+121	ReplaceConstant	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceConstant - 32 -> 1
+122	ReplaceConstant	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceConstant - 32 -> -1
+123	ReplaceConstant	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceConstant - 32 -> 31
+124	ReplaceConstant	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceConstant - 32 -> 33
+125	ReplaceBitwiseOperator	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceBitwiseOperator >>> L -> << L
+126	ReplaceBitwiseOperator	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceBitwiseOperator >>> L -> >> L
+127	ReplaceBitwiseOperator	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceBitwiseOperator ^ -> |
+128	ReplaceBitwiseOperator	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceBitwiseOperator ^ -> &
+129	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceArithmeticOperator + -> %
+130	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceArithmeticOperator + -> -
+131	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceArithmeticOperator + -> *
+132	ReplaceArithmeticOperator	org.assertj.core.util.DoubleComparator.hashCode()I:66 - ReplaceArithmeticOperator + -> /
+133	InsertUnaryOp	org.assertj.core.util.DoubleComparator.hashCode()I:67 - InsertUnaryOp Negation of result
+134	InsertUnaryOp	org.assertj.core.util.DoubleComparator.hashCode()I:67 - InsertUnaryOp IINC 1 result
+135	InsertUnaryOp	org.assertj.core.util.DoubleComparator.hashCode()I:67 - InsertUnaryOp IINC -1 result
+136	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.equals(Ljava/lang/Object;)Z:72 - ReplaceComparisonOperator != -> ==
+137	ReplaceConstant	org.assertj.core.util.DoubleComparator.equals(Ljava/lang/Object;)Z:72 - ReplaceConstant - 1 -> 0
+138	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.equals(Ljava/lang/Object;)Z:73 - ReplaceComparisonOperator != null -> = null
+139	ReplaceConstant	org.assertj.core.util.DoubleComparator.equals(Ljava/lang/Object;)Z:73 - ReplaceConstant - 0 -> 1
+140	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.equals(Ljava/lang/Object;)Z:74 - ReplaceComparisonOperator != -> -1
+141	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.equals(Ljava/lang/Object;)Z:74 - ReplaceComparisonOperator != -> <
+142	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.equals(Ljava/lang/Object;)Z:74 - ReplaceComparisonOperator != -> >
+143	ReplaceConstant	org.assertj.core.util.DoubleComparator.equals(Ljava/lang/Object;)Z:74 - ReplaceConstant - 0 -> 1
+144	InsertUnaryOp	org.assertj.core.util.DoubleComparator.equals(Ljava/lang/Object;)Z:76 - InsertUnaryOp Negation
+145	InsertUnaryOp	org.assertj.core.util.DoubleComparator.equals(Ljava/lang/Object;)Z:76 - InsertUnaryOp Negation
+146	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.equals(Ljava/lang/Object;)Z:76 - ReplaceComparisonOperator != -> -1
+147	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.equals(Ljava/lang/Object;)Z:76 - ReplaceComparisonOperator != -> <
+148	ReplaceComparisonOperator	org.assertj.core.util.DoubleComparator.equals(Ljava/lang/Object;)Z:76 - ReplaceComparisonOperator != -> >
+149	ReplaceConstant	org.assertj.core.util.DoubleComparator.equals(Ljava/lang/Object;)Z:76 - ReplaceConstant - 1 -> 0
+150	ReplaceConstant	org.assertj.core.util.DoubleComparator.equals(Ljava/lang/Object;)Z:76 - ReplaceConstant - 0 -> 1

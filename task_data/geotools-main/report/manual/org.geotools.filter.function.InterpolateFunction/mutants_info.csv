@@ -1,0 +1,1138 @@
+0	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.getName()Ljava/lang/String;:203 - ReplaceConstant - Interpolate -> 
+1	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:223 - ReplaceComparisonOperator != -> ==
+2	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:223 - ReplaceComparisonOperator == -> -2
+3	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:223 - ReplaceComparisonOperator == -> >=
+4	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:223 - ReplaceComparisonOperator == -> <=
+5	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:224 - ReplaceConstant - Trying to evaluate the function as Color but the method parameter is set as NUMERIC -> 
+6	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:228 - ReplaceComparisonOperator != -> ==
+7	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:228 - ReplaceComparisonOperator != -> -1
+8	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:228 - ReplaceComparisonOperator != -> <
+9	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:228 - ReplaceComparisonOperator != -> >
+10	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:229 - ReplaceConstant - Trying to evaluate the function as  -> 
+11	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:230 - ReplaceConstant -  but the method parameter is set as COLOR -> 
+12	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:240 - ReplaceConstant - 0 -> 1
+13	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:247 - ReplaceConstant - Rasterdata -> 
+14	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:247 - ReplaceComparisonOperator == -> -2
+15	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:247 - ReplaceComparisonOperator == -> >=
+16	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:247 - ReplaceComparisonOperator == -> <=
+17	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:257 - ReplaceConstant - 1 -> 0
+18	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:257 - ReplaceComparisonOperator != -> -1
+19	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:257 - ReplaceComparisonOperator != -> <
+20	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:257 - ReplaceComparisonOperator != -> >
+21	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:258 - ReplaceConstant - 0 -> 1
+22	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:262 - InsertUnaryOp Negation of segment
+23	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:262 - InsertUnaryOp IINC 1 segment
+24	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:262 - InsertUnaryOp IINC -1 segment
+25	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:262 - ReplaceComparisonOperator > -> -2
+26	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:262 - ReplaceComparisonOperator > -> !=
+27	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:262 - ReplaceComparisonOperator > -> >=
+28	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:264 - ReplaceConstant - 0 -> 1
+29	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:266 - InsertUnaryOp Negation of segment
+30	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:266 - InsertUnaryOp IINC 1 segment
+31	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:266 - InsertUnaryOp IINC -1 segment
+32	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:266 - ReplaceComparisonOperator < -> !=
+33	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:266 - ReplaceComparisonOperator < -> -2
+34	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:266 - ReplaceComparisonOperator < -> <=
+35	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:268 - ReplaceConstant - 1 -> 0
+36	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:268 - ReplaceArithmeticOperator - -> +
+37	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:268 - ReplaceArithmeticOperator - -> %
+38	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:268 - ReplaceArithmeticOperator - -> *
+39	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:268 - ReplaceArithmeticOperator - -> /
+40	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:277 - InsertUnaryOp Negation of segment
+41	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:277 - InsertUnaryOp IINC 1 segment
+42	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:277 - InsertUnaryOp IINC -1 segment
+43	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:280 - InsertUnaryOp Negation of segment
+44	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:280 - InsertUnaryOp IINC 1 segment
+45	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:280 - InsertUnaryOp IINC -1 segment
+46	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:284 - InsertUnaryOp Negation of segment
+47	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:284 - InsertUnaryOp IINC 1 segment
+48	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:284 - InsertUnaryOp IINC -1 segment
+49	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:289 - InsertUnaryOp Negation of segment
+50	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:289 - InsertUnaryOp IINC 1 segment
+51	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:289 - InsertUnaryOp IINC -1 segment
+52	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:289 - ReplaceConstant - 1 -> 0
+53	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:289 - ReplaceComparisonOperator < -> !=
+54	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:289 - ReplaceComparisonOperator < -> -2
+55	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:289 - ReplaceComparisonOperator < -> <=
+56	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:289 - InsertUnaryOp Negation of segment
+57	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:289 - InsertUnaryOp IINC 1 segment
+58	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:289 - InsertUnaryOp IINC -1 segment
+59	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:289 - ReplaceComparisonOperator < -> !=
+60	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:289 - ReplaceComparisonOperator < -> -2
+61	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:289 - ReplaceComparisonOperator < -> <=
+62	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:290 - ReplaceConstant - segment index outside valid range -> 
+63	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:293 - InsertUnaryOp Negation of segment
+64	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:293 - InsertUnaryOp IINC 1 segment
+65	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:293 - InsertUnaryOp IINC -1 segment
+66	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:294 - InsertUnaryOp Negation of segment
+67	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:294 - InsertUnaryOp IINC 1 segment
+68	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:294 - InsertUnaryOp IINC -1 segment
+69	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:294 - ReplaceConstant - 1 -> 0
+70	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:294 - ReplaceArithmeticOperator - -> +
+71	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:294 - ReplaceArithmeticOperator - -> %
+72	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:294 - ReplaceArithmeticOperator - -> *
+73	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:294 - ReplaceArithmeticOperator - -> /
+74	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:295 - ReplaceComparisonOperator != -> ==
+75	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:296 - InsertUnaryOp Negation of segment
+76	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:296 - InsertUnaryOp IINC 1 segment
+77	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:296 - InsertUnaryOp IINC -1 segment
+78	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:297 - InsertUnaryOp Negation of segment
+79	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:297 - InsertUnaryOp IINC 1 segment
+80	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:297 - InsertUnaryOp IINC -1 segment
+81	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:297 - ReplaceConstant - 1 -> 0
+82	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:297 - ReplaceArithmeticOperator - -> +
+83	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:297 - ReplaceArithmeticOperator - -> %
+84	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:297 - ReplaceArithmeticOperator - -> *
+85	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:297 - ReplaceArithmeticOperator - -> /
+86	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:298 - ReplaceConstant - 0.0 -> 1.0
+87	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:298 - ReplaceConstant - 0.0 -> -1.0
+88	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:298 - ReplaceConstant - 255.0 -> 0.0
+89	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:298 - ReplaceConstant - 255.0 -> 1.0
+90	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:298 - ReplaceConstant - 255.0 -> -1.0
+91	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:298 - ReplaceConstant - 255.0 -> 254.0
+92	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:298 - ReplaceConstant - 255.0 -> 256.0
+93	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:299 - ReplaceConstant - 0.0 -> 1.0
+94	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:299 - ReplaceConstant - 0.0 -> -1.0
+95	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:299 - ReplaceConstant - 255.0 -> 0.0
+96	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:299 - ReplaceConstant - 255.0 -> 1.0
+97	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:299 - ReplaceConstant - 255.0 -> -1.0
+98	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:299 - ReplaceConstant - 255.0 -> 254.0
+99	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:299 - ReplaceConstant - 255.0 -> 256.0
+100	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:300 - ReplaceConstant - 0.0 -> 1.0
+101	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:300 - ReplaceConstant - 0.0 -> -1.0
+102	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:300 - ReplaceConstant - 255.0 -> 0.0
+103	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:300 - ReplaceConstant - 255.0 -> 1.0
+104	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:300 - ReplaceConstant - 255.0 -> -1.0
+105	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:300 - ReplaceConstant - 255.0 -> 254.0
+106	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:300 - ReplaceConstant - 255.0 -> 256.0
+107	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:301 - InsertUnaryOp Negation of r
+108	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:301 - InsertUnaryOp IINC 1 r
+109	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:301 - InsertUnaryOp IINC -1 r
+110	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:301 - InsertUnaryOp Negation of g
+111	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:301 - InsertUnaryOp IINC 1 g
+112	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:301 - InsertUnaryOp IINC -1 g
+113	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:301 - InsertUnaryOp Negation of b
+114	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:301 - InsertUnaryOp IINC 1 b
+115	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:301 - InsertUnaryOp IINC -1 b
+116	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:304 - InsertUnaryOp Negation of segment
+117	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:304 - InsertUnaryOp IINC 1 segment
+118	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:304 - InsertUnaryOp IINC -1 segment
+119	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:305 - InsertUnaryOp Negation of segment
+120	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:305 - InsertUnaryOp IINC 1 segment
+121	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:305 - InsertUnaryOp IINC -1 segment
+122	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:305 - ReplaceConstant - 1 -> 0
+123	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:305 - ReplaceArithmeticOperator - -> +
+124	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:305 - ReplaceArithmeticOperator - -> %
+125	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:305 - ReplaceArithmeticOperator - -> *
+126	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:305 - ReplaceArithmeticOperator - -> /
+127	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.linearInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:308 - InsertUnaryOp Negation of interpolated
+128	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:313 - InsertUnaryOp Negation of segment
+129	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:313 - InsertUnaryOp IINC 1 segment
+130	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:313 - InsertUnaryOp IINC -1 segment
+131	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:313 - ReplaceConstant - 1 -> 0
+132	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:313 - ReplaceComparisonOperator < -> !=
+133	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:313 - ReplaceComparisonOperator < -> -2
+134	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:313 - ReplaceComparisonOperator < -> <=
+135	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:313 - InsertUnaryOp Negation of segment
+136	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:313 - InsertUnaryOp IINC 1 segment
+137	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:313 - InsertUnaryOp IINC -1 segment
+138	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:313 - ReplaceComparisonOperator < -> !=
+139	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:313 - ReplaceComparisonOperator < -> -2
+140	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:313 - ReplaceComparisonOperator < -> <=
+141	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:314 - ReplaceConstant - segment index outside valid range -> 
+142	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:317 - InsertUnaryOp Negation of segment
+143	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:317 - InsertUnaryOp IINC 1 segment
+144	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:317 - InsertUnaryOp IINC -1 segment
+145	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:318 - InsertUnaryOp Negation of segment
+146	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:318 - InsertUnaryOp IINC 1 segment
+147	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:318 - InsertUnaryOp IINC -1 segment
+148	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:318 - ReplaceConstant - 1 -> 0
+149	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:318 - ReplaceArithmeticOperator - -> +
+150	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:318 - ReplaceArithmeticOperator - -> %
+151	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:318 - ReplaceArithmeticOperator - -> *
+152	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:318 - ReplaceArithmeticOperator - -> /
+153	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:319 - ReplaceComparisonOperator != -> ==
+154	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:320 - InsertUnaryOp Negation of segment
+155	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:320 - InsertUnaryOp IINC 1 segment
+156	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:320 - InsertUnaryOp IINC -1 segment
+157	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:321 - InsertUnaryOp Negation of segment
+158	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:321 - InsertUnaryOp IINC 1 segment
+159	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:321 - InsertUnaryOp IINC -1 segment
+160	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:321 - ReplaceConstant - 1 -> 0
+161	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:321 - ReplaceArithmeticOperator - -> +
+162	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:321 - ReplaceArithmeticOperator - -> %
+163	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:321 - ReplaceArithmeticOperator - -> *
+164	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:321 - ReplaceArithmeticOperator - -> /
+165	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:322 - ReplaceConstant - 0.0 -> 1.0
+166	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:322 - ReplaceConstant - 0.0 -> -1.0
+167	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:322 - ReplaceConstant - 255.0 -> 0.0
+168	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:322 - ReplaceConstant - 255.0 -> 1.0
+169	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:322 - ReplaceConstant - 255.0 -> -1.0
+170	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:322 - ReplaceConstant - 255.0 -> 254.0
+171	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:322 - ReplaceConstant - 255.0 -> 256.0
+172	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:323 - ReplaceConstant - 0.0 -> 1.0
+173	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:323 - ReplaceConstant - 0.0 -> -1.0
+174	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:323 - ReplaceConstant - 255.0 -> 0.0
+175	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:323 - ReplaceConstant - 255.0 -> 1.0
+176	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:323 - ReplaceConstant - 255.0 -> -1.0
+177	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:323 - ReplaceConstant - 255.0 -> 254.0
+178	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:323 - ReplaceConstant - 255.0 -> 256.0
+179	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:324 - ReplaceConstant - 0.0 -> 1.0
+180	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:324 - ReplaceConstant - 0.0 -> -1.0
+181	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:324 - ReplaceConstant - 255.0 -> 0.0
+182	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:324 - ReplaceConstant - 255.0 -> 1.0
+183	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:324 - ReplaceConstant - 255.0 -> -1.0
+184	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:324 - ReplaceConstant - 255.0 -> 254.0
+185	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:324 - ReplaceConstant - 255.0 -> 256.0
+186	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:325 - InsertUnaryOp Negation of r
+187	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:325 - InsertUnaryOp IINC 1 r
+188	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:325 - InsertUnaryOp IINC -1 r
+189	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:325 - InsertUnaryOp Negation of g
+190	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:325 - InsertUnaryOp IINC 1 g
+191	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:325 - InsertUnaryOp IINC -1 g
+192	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:325 - InsertUnaryOp Negation of b
+193	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:325 - InsertUnaryOp IINC 1 b
+194	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:325 - InsertUnaryOp IINC -1 b
+195	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:328 - InsertUnaryOp Negation of segment
+196	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:328 - InsertUnaryOp IINC 1 segment
+197	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:328 - InsertUnaryOp IINC -1 segment
+198	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:329 - InsertUnaryOp Negation of segment
+199	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:329 - InsertUnaryOp IINC 1 segment
+200	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:329 - InsertUnaryOp IINC -1 segment
+201	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:329 - ReplaceConstant - 1 -> 0
+202	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:329 - ReplaceArithmeticOperator - -> +
+203	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:329 - ReplaceArithmeticOperator - -> %
+204	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:329 - ReplaceArithmeticOperator - -> *
+205	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:329 - ReplaceArithmeticOperator - -> /
+206	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cosineInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:332 - InsertUnaryOp Negation of interpolated
+207	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:337 - InsertUnaryOp Negation of segment
+208	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:337 - InsertUnaryOp IINC 1 segment
+209	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:337 - InsertUnaryOp IINC -1 segment
+210	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:337 - ReplaceConstant - 1 -> 0
+211	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:337 - ReplaceComparisonOperator < -> !=
+212	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:337 - ReplaceComparisonOperator < -> -2
+213	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:337 - ReplaceComparisonOperator < -> <=
+214	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:337 - InsertUnaryOp Negation of segment
+215	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:337 - InsertUnaryOp IINC 1 segment
+216	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:337 - InsertUnaryOp IINC -1 segment
+217	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:337 - ReplaceComparisonOperator < -> !=
+218	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:337 - ReplaceComparisonOperator < -> -2
+219	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:337 - ReplaceComparisonOperator < -> <=
+220	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:338 - ReplaceConstant - segment index outside valid range -> 
+221	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:341 - ReplaceConstant - 4 -> 0
+222	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:341 - ReplaceConstant - 4 -> 1
+223	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:341 - ReplaceConstant - 4 -> -1
+224	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:341 - ReplaceConstant - 4 -> 3
+225	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:341 - ReplaceConstant - 4 -> 5
+226	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:342 - ReplaceConstant - 4 -> 0
+227	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:342 - ReplaceConstant - 4 -> 1
+228	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:342 - ReplaceConstant - 4 -> -1
+229	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:342 - ReplaceConstant - 4 -> 3
+230	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:342 - ReplaceConstant - 4 -> 5
+231	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:353 - InsertUnaryOp Negation of segment
+232	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:353 - InsertUnaryOp IINC 1 segment
+233	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:353 - InsertUnaryOp IINC -1 segment
+234	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:353 - ReplaceConstant - 1 -> 0
+235	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:353 - ReplaceComparisonOperator != -> -1
+236	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:353 - ReplaceComparisonOperator != -> <
+237	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:353 - ReplaceComparisonOperator != -> >
+238	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:354 - ReplaceConstant - 0 -> 1
+239	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:355 - ReplaceConstant - 1 -> 0
+240	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:356 - ReplaceConstant - 0 -> 1
+241	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:356 - ReplaceConstant - 2.0 -> 0.0
+242	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:356 - ReplaceConstant - 2.0 -> 1.0
+243	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:356 - ReplaceConstant - 2.0 -> -1.0
+244	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:356 - ReplaceConstant - 2.0 -> 3.0
+245	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:356 - InsertUnaryOp Negation of data0
+246	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:356 - ReplaceArithmeticOperator * -> +
+247	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:356 - ReplaceArithmeticOperator * -> %
+248	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:356 - ReplaceArithmeticOperator * -> -
+249	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:356 - ReplaceArithmeticOperator * -> /
+250	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:356 - InsertUnaryOp Negation of data1
+251	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:356 - ReplaceArithmeticOperator - -> +
+252	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:356 - ReplaceArithmeticOperator - -> %
+253	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:356 - ReplaceArithmeticOperator - -> *
+254	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:356 - ReplaceArithmeticOperator - -> /
+255	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:357 - ReplaceConstant - 0 -> 1
+256	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:361 - InsertUnaryOp Negation of segment
+257	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:361 - InsertUnaryOp IINC 1 segment
+258	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:361 - InsertUnaryOp IINC -1 segment
+259	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:361 - ReplaceConstant - 1 -> 0
+260	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:361 - ReplaceArithmeticOperator - -> +
+261	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:361 - ReplaceArithmeticOperator - -> %
+262	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:361 - ReplaceArithmeticOperator - -> *
+263	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:361 - ReplaceArithmeticOperator - -> /
+264	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:361 - ReplaceComparisonOperator != -> -1
+265	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:361 - ReplaceComparisonOperator != -> <
+266	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:361 - ReplaceComparisonOperator != -> >
+267	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:362 - InsertUnaryOp Negation of segment
+268	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:362 - InsertUnaryOp IINC 1 segment
+269	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:362 - InsertUnaryOp IINC -1 segment
+270	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:363 - InsertUnaryOp Negation of segment
+271	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:363 - InsertUnaryOp IINC 1 segment
+272	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:363 - InsertUnaryOp IINC -1 segment
+273	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:363 - ReplaceConstant - 1 -> 0
+274	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:363 - ReplaceArithmeticOperator - -> +
+275	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:363 - ReplaceArithmeticOperator - -> %
+276	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:363 - ReplaceArithmeticOperator - -> *
+277	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:363 - ReplaceArithmeticOperator - -> /
+278	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:364 - ReplaceConstant - 2.0 -> 0.0
+279	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:364 - ReplaceConstant - 2.0 -> 1.0
+280	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:364 - ReplaceConstant - 2.0 -> -1.0
+281	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:364 - ReplaceConstant - 2.0 -> 3.0
+282	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:364 - InsertUnaryOp Negation of data0
+283	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:364 - ReplaceArithmeticOperator * -> +
+284	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:364 - ReplaceArithmeticOperator * -> %
+285	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:364 - ReplaceArithmeticOperator * -> -
+286	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:364 - ReplaceArithmeticOperator * -> /
+287	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:364 - InsertUnaryOp Negation of data1
+288	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:364 - ReplaceArithmeticOperator - -> +
+289	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:364 - ReplaceArithmeticOperator - -> %
+290	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:364 - ReplaceArithmeticOperator - -> *
+291	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:364 - ReplaceArithmeticOperator - -> /
+292	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:365 - InsertUnaryOp Negation of segment
+293	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:365 - InsertUnaryOp IINC 1 segment
+294	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:365 - InsertUnaryOp IINC -1 segment
+295	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - InsertUnaryOp Negation of segment
+296	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - InsertUnaryOp IINC 1 segment
+297	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - InsertUnaryOp IINC -1 segment
+298	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceConstant - 2 -> 0
+299	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceConstant - 2 -> 1
+300	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceConstant - 2 -> -1
+301	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceConstant - 2 -> 3
+302	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceArithmeticOperator - -> +
+303	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceArithmeticOperator - -> %
+304	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceArithmeticOperator - -> *
+305	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceArithmeticOperator - -> /
+306	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceConstant - 0 -> 1
+307	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - InsertUnaryOp Negation of k
+308	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - InsertUnaryOp IINC 1 k
+309	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - InsertUnaryOp IINC -1 k
+310	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceConstant - 4 -> 0
+311	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceConstant - 4 -> 1
+312	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceConstant - 4 -> -1
+313	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceConstant - 4 -> 3
+314	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceConstant - 4 -> 5
+315	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceComparisonOperator >= -> -1
+316	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceComparisonOperator >= -> >
+317	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceComparisonOperator >= -> ==
+318	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:370 - InsertUnaryOp Negation of k
+319	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:370 - InsertUnaryOp IINC 1 k
+320	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:370 - InsertUnaryOp IINC -1 k
+321	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:370 - InsertUnaryOp Negation of i
+322	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:370 - InsertUnaryOp IINC 1 i
+323	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:370 - InsertUnaryOp IINC -1 i
+324	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceVariable i -> segment
+325	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceVariable i -> k
+326	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceVariable k -> i
+327	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:369 - ReplaceVariable k -> segment
+328	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:373 - ReplaceComparisonOperator != -> ==
+329	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:374 - ReplaceConstant - 4 -> 0
+330	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:374 - ReplaceConstant - 4 -> 1
+331	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:374 - ReplaceConstant - 4 -> -1
+332	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:374 - ReplaceConstant - 4 -> 3
+333	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:374 - ReplaceConstant - 4 -> 5
+334	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - InsertUnaryOp Negation of segment
+335	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - InsertUnaryOp IINC 1 segment
+336	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - InsertUnaryOp IINC -1 segment
+337	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceConstant - 2 -> 0
+338	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceConstant - 2 -> 1
+339	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceConstant - 2 -> -1
+340	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceConstant - 2 -> 3
+341	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceArithmeticOperator - -> +
+342	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceArithmeticOperator - -> %
+343	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceArithmeticOperator - -> *
+344	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceArithmeticOperator - -> /
+345	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceConstant - 0 -> 1
+346	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - InsertUnaryOp Negation of k
+347	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - InsertUnaryOp IINC 1 k
+348	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - InsertUnaryOp IINC -1 k
+349	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceConstant - 4 -> 0
+350	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceConstant - 4 -> 1
+351	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceConstant - 4 -> -1
+352	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceConstant - 4 -> 3
+353	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceConstant - 4 -> 5
+354	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceComparisonOperator >= -> -1
+355	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceComparisonOperator >= -> >
+356	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceComparisonOperator >= -> ==
+357	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:376 - InsertUnaryOp Negation of k
+358	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:376 - InsertUnaryOp IINC 1 k
+359	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:376 - InsertUnaryOp IINC -1 k
+360	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:376 - InsertUnaryOp Negation of i
+361	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:376 - InsertUnaryOp IINC 1 i
+362	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:376 - InsertUnaryOp IINC -1 i
+363	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceVariable i -> segment
+364	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceVariable i -> k
+365	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceVariable k -> i
+366	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:375 - ReplaceVariable k -> segment
+367	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - ReplaceConstant - 0 -> 1
+368	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - InsertUnaryOp Negation of i
+369	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - InsertUnaryOp IINC 1 i
+370	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - InsertUnaryOp IINC -1 i
+371	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - ReplaceConstant - 4 -> 0
+372	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - ReplaceConstant - 4 -> 1
+373	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - ReplaceConstant - 4 -> -1
+374	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - ReplaceConstant - 4 -> 3
+375	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - ReplaceConstant - 4 -> 5
+376	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - ReplaceComparisonOperator >= -> -1
+377	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - ReplaceComparisonOperator >= -> >
+378	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - ReplaceComparisonOperator >= -> ==
+379	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - InsertUnaryOp Negation of i
+380	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - InsertUnaryOp IINC 1 i
+381	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - InsertUnaryOp IINC -1 i
+382	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - InsertUnaryOp Negation of i
+383	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - InsertUnaryOp IINC 1 i
+384	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - InsertUnaryOp IINC -1 i
+385	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:379 - ReplaceVariable i -> segment
+386	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:380 - ReplaceConstant - 0.0 -> 1.0
+387	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:380 - ReplaceConstant - 0.0 -> -1.0
+388	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:380 - ReplaceConstant - 255.0 -> 0.0
+389	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:380 - ReplaceConstant - 255.0 -> 1.0
+390	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:380 - ReplaceConstant - 255.0 -> -1.0
+391	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:380 - ReplaceConstant - 255.0 -> 254.0
+392	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:380 - ReplaceConstant - 255.0 -> 256.0
+393	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - ReplaceConstant - 0 -> 1
+394	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - InsertUnaryOp Negation of i
+395	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - InsertUnaryOp IINC 1 i
+396	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - InsertUnaryOp IINC -1 i
+397	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - ReplaceConstant - 4 -> 0
+398	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - ReplaceConstant - 4 -> 1
+399	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - ReplaceConstant - 4 -> -1
+400	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - ReplaceConstant - 4 -> 3
+401	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - ReplaceConstant - 4 -> 5
+402	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - ReplaceComparisonOperator >= -> -1
+403	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - ReplaceComparisonOperator >= -> >
+404	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - ReplaceComparisonOperator >= -> ==
+405	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - InsertUnaryOp Negation of i
+406	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - InsertUnaryOp IINC 1 i
+407	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - InsertUnaryOp IINC -1 i
+408	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - InsertUnaryOp Negation of i
+409	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - InsertUnaryOp IINC 1 i
+410	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - InsertUnaryOp IINC -1 i
+411	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - ReplaceVariable i -> r
+412	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:382 - ReplaceVariable i -> segment
+413	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:383 - ReplaceConstant - 0.0 -> 1.0
+414	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:383 - ReplaceConstant - 0.0 -> -1.0
+415	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:383 - ReplaceConstant - 255.0 -> 0.0
+416	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:383 - ReplaceConstant - 255.0 -> 1.0
+417	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:383 - ReplaceConstant - 255.0 -> -1.0
+418	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:383 - ReplaceConstant - 255.0 -> 254.0
+419	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:383 - ReplaceConstant - 255.0 -> 256.0
+420	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - ReplaceConstant - 0 -> 1
+421	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - InsertUnaryOp Negation of i
+422	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - InsertUnaryOp IINC 1 i
+423	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - InsertUnaryOp IINC -1 i
+424	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - ReplaceConstant - 4 -> 0
+425	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - ReplaceConstant - 4 -> 1
+426	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - ReplaceConstant - 4 -> -1
+427	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - ReplaceConstant - 4 -> 3
+428	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - ReplaceConstant - 4 -> 5
+429	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - ReplaceComparisonOperator >= -> -1
+430	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - ReplaceComparisonOperator >= -> >
+431	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - ReplaceComparisonOperator >= -> ==
+432	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - InsertUnaryOp Negation of i
+433	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - InsertUnaryOp IINC 1 i
+434	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - InsertUnaryOp IINC -1 i
+435	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - InsertUnaryOp Negation of i
+436	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - InsertUnaryOp IINC 1 i
+437	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - InsertUnaryOp IINC -1 i
+438	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - ReplaceVariable i -> r
+439	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - ReplaceVariable i -> g
+440	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:385 - ReplaceVariable i -> segment
+441	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:386 - ReplaceConstant - 0.0 -> 1.0
+442	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:386 - ReplaceConstant - 0.0 -> -1.0
+443	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:386 - ReplaceConstant - 255.0 -> 0.0
+444	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:386 - ReplaceConstant - 255.0 -> 1.0
+445	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:386 - ReplaceConstant - 255.0 -> -1.0
+446	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:386 - ReplaceConstant - 255.0 -> 254.0
+447	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:386 - ReplaceConstant - 255.0 -> 256.0
+448	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:388 - InsertUnaryOp Negation of r
+449	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:388 - InsertUnaryOp IINC 1 r
+450	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:388 - InsertUnaryOp IINC -1 r
+451	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:388 - InsertUnaryOp Negation of g
+452	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:388 - InsertUnaryOp IINC 1 g
+453	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:388 - InsertUnaryOp IINC -1 g
+454	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:388 - InsertUnaryOp Negation of b
+455	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:388 - InsertUnaryOp IINC 1 b
+456	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:388 - InsertUnaryOp IINC -1 b
+457	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - InsertUnaryOp Negation of segment
+458	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - InsertUnaryOp IINC 1 segment
+459	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - InsertUnaryOp IINC -1 segment
+460	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceConstant - 2 -> 0
+461	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceConstant - 2 -> 1
+462	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceConstant - 2 -> -1
+463	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceConstant - 2 -> 3
+464	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceArithmeticOperator - -> +
+465	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceArithmeticOperator - -> %
+466	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceArithmeticOperator - -> *
+467	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceArithmeticOperator - -> /
+468	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceConstant - 0 -> 1
+469	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - InsertUnaryOp Negation of k
+470	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - InsertUnaryOp IINC 1 k
+471	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - InsertUnaryOp IINC -1 k
+472	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceConstant - 4 -> 0
+473	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceConstant - 4 -> 1
+474	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceConstant - 4 -> -1
+475	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceConstant - 4 -> 3
+476	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceConstant - 4 -> 5
+477	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceComparisonOperator >= -> -1
+478	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceComparisonOperator >= -> >
+479	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceComparisonOperator >= -> ==
+480	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:392 - InsertUnaryOp Negation of k
+481	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:392 - InsertUnaryOp IINC 1 k
+482	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:392 - InsertUnaryOp IINC -1 k
+483	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:392 - InsertUnaryOp Negation of i
+484	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:392 - InsertUnaryOp IINC 1 i
+485	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:392 - InsertUnaryOp IINC -1 i
+486	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceVariable i -> segment
+487	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceVariable i -> k
+488	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceVariable k -> i
+489	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:391 - ReplaceVariable k -> segment
+490	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.cubicInterpolate(Ljava/lang/Double;Ljava/lang/Object;ILjava/lang/Class;)Ljava/lang/Object;:395 - InsertUnaryOp Negation of interpolated
+491	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:410 - InsertUnaryOp Negation
+492	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:410 - ReplaceComparisonOperator == -> -2
+493	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:410 - ReplaceComparisonOperator == -> >=
+494	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:410 - ReplaceComparisonOperator == -> <=
+495	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:410 - ReplaceConstant - 1 -> 0
+496	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:410 - ReplaceConstant - 0 -> 1
+497	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:410 - InsertUnaryOp Negation
+498	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:410 - ReplaceComparisonOperator == -> -2
+499	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:410 - ReplaceComparisonOperator == -> >=
+500	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:410 - ReplaceComparisonOperator == -> <=
+501	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:410 - ReplaceConstant - 1 -> 0
+502	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:410 - ReplaceConstant - 0 -> 1
+503	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:410 - ReplaceArithmeticOperator + -> %
+504	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:410 - ReplaceArithmeticOperator + -> -
+505	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:410 - ReplaceArithmeticOperator + -> *
+506	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:410 - ReplaceArithmeticOperator + -> /
+507	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:413 - InsertUnaryOp Negation of numControlParameters
+508	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:413 - InsertUnaryOp IINC 1 numControlParameters
+509	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:413 - InsertUnaryOp IINC -1 numControlParameters
+510	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:413 - ReplaceArithmeticOperator - -> +
+511	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:413 - ReplaceArithmeticOperator - -> %
+512	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:413 - ReplaceArithmeticOperator - -> *
+513	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:413 - ReplaceArithmeticOperator - -> /
+514	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:413 - ReplaceConstant - 1 -> 0
+515	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:413 - ReplaceArithmeticOperator - -> +
+516	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:413 - ReplaceArithmeticOperator - -> %
+517	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:413 - ReplaceArithmeticOperator - -> *
+518	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:413 - ReplaceArithmeticOperator - -> /
+519	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:414 - InsertUnaryOp Negation of numInterpolationParmaters
+520	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:414 - InsertUnaryOp IINC 1 numInterpolationParmaters
+521	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:414 - InsertUnaryOp IINC -1 numInterpolationParmaters
+522	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:414 - ReplaceConstant - 2 -> 0
+523	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:414 - ReplaceConstant - 2 -> 1
+524	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:414 - ReplaceConstant - 2 -> -1
+525	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:414 - ReplaceConstant - 2 -> 3
+526	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:414 - ReplaceComparisonOperator >= -> -1
+527	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:414 - ReplaceComparisonOperator >= -> >
+528	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:414 - ReplaceComparisonOperator >= -> ==
+529	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:415 - ReplaceConstant - Need at least one interpolation point -> 
+530	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:418 - InsertUnaryOp Negation of numInterpolationParmaters
+531	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:418 - InsertUnaryOp IINC 1 numInterpolationParmaters
+532	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:418 - InsertUnaryOp IINC -1 numInterpolationParmaters
+533	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:418 - ReplaceConstant - 2 -> 0
+534	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:418 - ReplaceConstant - 2 -> 1
+535	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:418 - ReplaceConstant - 2 -> -1
+536	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:418 - ReplaceConstant - 2 -> 3
+537	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:418 - ReplaceArithmeticOperator % -> +
+538	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:418 - ReplaceArithmeticOperator % -> -
+539	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:418 - ReplaceArithmeticOperator % -> *
+540	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:418 - ReplaceArithmeticOperator % -> /
+541	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:418 - ReplaceComparisonOperator == -> -2
+542	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:418 - ReplaceComparisonOperator == -> >=
+543	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:418 - ReplaceComparisonOperator == -> <=
+544	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:419 - ReplaceConstant - Missing data or value in interpolation points ? -> 
+545	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:422 - ReplaceConstant - 1 -> 0
+546	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:422 - InsertUnaryOp Negation of numControlParameters
+547	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:422 - InsertUnaryOp IINC 1 numControlParameters
+548	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:422 - InsertUnaryOp IINC -1 numControlParameters
+549	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:422 - ReplaceArithmeticOperator - -> +
+550	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:422 - ReplaceArithmeticOperator - -> %
+551	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:422 - ReplaceArithmeticOperator - -> *
+552	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:422 - ReplaceArithmeticOperator - -> /
+553	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:424 - ReplaceConstant - 0 -> 1
+554	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:424 - InsertUnaryOp Negation of i
+555	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:424 - InsertUnaryOp IINC 1 i
+556	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:424 - InsertUnaryOp IINC -1 i
+557	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:424 - InsertUnaryOp Negation of numInterpolationParmaters
+558	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:424 - InsertUnaryOp IINC 1 numInterpolationParmaters
+559	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:424 - InsertUnaryOp IINC -1 numInterpolationParmaters
+560	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:424 - ReplaceComparisonOperator >= -> -1
+561	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:424 - ReplaceComparisonOperator >= -> >
+562	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:424 - ReplaceComparisonOperator >= -> ==
+563	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:425 - InsertUnaryOp Negation of i
+564	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:425 - InsertUnaryOp IINC 1 i
+565	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:425 - InsertUnaryOp IINC -1 i
+566	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:425 - InsertUnaryOp Negation of i
+567	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:425 - InsertUnaryOp IINC 1 i
+568	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.initialize()V:425 - InsertUnaryOp IINC -1 i
+569	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:425 - ReplaceConstant - 1 -> 0
+570	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:425 - ReplaceArithmeticOperator + -> %
+571	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:425 - ReplaceArithmeticOperator + -> -
+572	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:425 - ReplaceArithmeticOperator + -> *
+573	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:425 - ReplaceArithmeticOperator + -> /
+574	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.initialize()V:424 - ReplaceVariable i -> numInterpolationParmaters
+575	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.initialize()V:424 - ReplaceVariable i -> numControlParameters
+576	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:428 - ReplaceComparisonOperator != -> ==
+577	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:429 - ReplaceConstant - 3 -> 0
+578	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:429 - ReplaceConstant - 3 -> 1
+579	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:429 - ReplaceConstant - 3 -> -1
+580	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:429 - ReplaceConstant - 3 -> 2
+581	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:429 - ReplaceConstant - 3 -> 4
+582	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:429 - ReplaceComparisonOperator >= -> -1
+583	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:429 - ReplaceComparisonOperator >= -> >
+584	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:429 - ReplaceComparisonOperator >= -> ==
+585	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:430 - ReplaceComparisonOperator == -> -2
+586	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:430 - ReplaceComparisonOperator == -> >=
+587	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.initialize()V:430 - ReplaceComparisonOperator == -> <=
+588	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.initialize()V:431 - ReplaceConstant - Cubic interpolation requested but not enoughpoints supplied. Falling back to linear interpolation -> 
+589	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMode()V:443 - ReplaceConstant - 0 -> 1
+590	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - ReplaceConstant - 2 -> 0
+591	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - ReplaceConstant - 2 -> 1
+592	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - ReplaceConstant - 2 -> -1
+593	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - ReplaceConstant - 2 -> 3
+594	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - InsertUnaryOp Negation of i
+595	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - InsertUnaryOp IINC 1 i
+596	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - InsertUnaryOp IINC -1 i
+597	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - ReplaceConstant - 1 -> 0
+598	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - ReplaceComparisonOperator < -> !=
+599	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - ReplaceComparisonOperator < -> -2
+600	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - ReplaceComparisonOperator < -> <=
+601	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - InsertUnaryOp Negation of specified
+602	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - InsertUnaryOp IINC 1 specified
+603	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - InsertUnaryOp IINC -1 specified
+604	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - ReplaceComparisonOperator != -> -1
+605	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - ReplaceComparisonOperator != -> <
+606	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - ReplaceComparisonOperator != -> >
+607	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:448 - InsertUnaryOp Negation of n
+608	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:448 - InsertUnaryOp IINC 1 n
+609	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:448 - InsertUnaryOp IINC -1 n
+610	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:448 - InsertUnaryOp Negation of i
+611	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:448 - InsertUnaryOp IINC 1 i
+612	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:448 - InsertUnaryOp IINC -1 i
+613	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:448 - ReplaceArithmeticOperator - -> +
+614	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:448 - ReplaceArithmeticOperator - -> %
+615	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:448 - ReplaceArithmeticOperator - -> *
+616	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:448 - ReplaceArithmeticOperator - -> /
+617	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:449 - InsertUnaryOp Negation of index
+618	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:449 - InsertUnaryOp IINC 1 index
+619	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:449 - InsertUnaryOp IINC -1 index
+620	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMode()V:449 - ReplaceConstant - 1 -> 0
+621	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:449 - ReplaceComparisonOperator <= -> -1
+622	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:449 - ReplaceComparisonOperator <= -> <
+623	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:449 - ReplaceComparisonOperator <= -> ==
+624	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:450 - InsertUnaryOp Negation of index
+625	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:450 - InsertUnaryOp IINC 1 index
+626	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:450 - InsertUnaryOp IINC -1 index
+627	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:451 - ReplaceComparisonOperator == -> -2
+628	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:451 - ReplaceComparisonOperator == -> >=
+629	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:451 - ReplaceComparisonOperator == -> <=
+630	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:451 - ReplaceComparisonOperator == -> -2
+631	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:451 - ReplaceComparisonOperator == -> >=
+632	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:451 - ReplaceComparisonOperator == -> <=
+633	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMode()V:453 - ReplaceConstant - linear -> 
+634	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:453 - ReplaceComparisonOperator == -> -2
+635	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:453 - ReplaceComparisonOperator == -> >=
+636	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:453 - ReplaceComparisonOperator == -> <=
+637	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMode()V:455 - ReplaceConstant - 1 -> 0
+638	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMode()V:457 - ReplaceConstant - cosine -> 
+639	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:457 - ReplaceComparisonOperator == -> -2
+640	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:457 - ReplaceComparisonOperator == -> >=
+641	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:457 - ReplaceComparisonOperator == -> <=
+642	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMode()V:459 - ReplaceConstant - 1 -> 0
+643	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMode()V:461 - ReplaceConstant - cubic -> 
+644	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:461 - ReplaceComparisonOperator == -> -2
+645	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:461 - ReplaceComparisonOperator == -> >=
+646	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:461 - ReplaceComparisonOperator == -> <=
+647	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMode()V:463 - ReplaceConstant - 1 -> 0
+648	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.setMode()V:447 - ReplaceVariable i -> n
+649	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:470 - InsertUnaryOp Negation of specified
+650	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:470 - InsertUnaryOp IINC 1 specified
+651	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:470 - InsertUnaryOp IINC -1 specified
+652	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:470 - ReplaceComparisonOperator != -> -1
+653	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:470 - ReplaceComparisonOperator != -> <
+654	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMode()V:470 - ReplaceComparisonOperator != -> >
+655	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:474 - InsertUnaryOp Negation of specified
+656	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:474 - InsertUnaryOp IINC 1 specified
+657	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMode()V:474 - InsertUnaryOp IINC -1 specified
+658	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMethod()V:481 - ReplaceConstant - 0 -> 1
+659	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - ReplaceConstant - 2 -> 0
+660	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - ReplaceConstant - 2 -> 1
+661	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - ReplaceConstant - 2 -> -1
+662	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - ReplaceConstant - 2 -> 3
+663	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - InsertUnaryOp Negation of i
+664	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - InsertUnaryOp IINC 1 i
+665	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - InsertUnaryOp IINC -1 i
+666	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - ReplaceConstant - 1 -> 0
+667	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - ReplaceComparisonOperator < -> !=
+668	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - ReplaceComparisonOperator < -> -2
+669	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - ReplaceComparisonOperator < -> <=
+670	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - InsertUnaryOp Negation of specified
+671	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - InsertUnaryOp IINC 1 specified
+672	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - InsertUnaryOp IINC -1 specified
+673	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - ReplaceComparisonOperator != -> -1
+674	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - ReplaceComparisonOperator != -> <
+675	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - ReplaceComparisonOperator != -> >
+676	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:486 - InsertUnaryOp Negation of n
+677	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:486 - InsertUnaryOp IINC 1 n
+678	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:486 - InsertUnaryOp IINC -1 n
+679	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:486 - InsertUnaryOp Negation of i
+680	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:486 - InsertUnaryOp IINC 1 i
+681	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:486 - InsertUnaryOp IINC -1 i
+682	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:486 - ReplaceArithmeticOperator - -> +
+683	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:486 - ReplaceArithmeticOperator - -> %
+684	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:486 - ReplaceArithmeticOperator - -> *
+685	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:486 - ReplaceArithmeticOperator - -> /
+686	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:487 - InsertUnaryOp Negation of index
+687	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:487 - InsertUnaryOp IINC 1 index
+688	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:487 - InsertUnaryOp IINC -1 index
+689	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMethod()V:487 - ReplaceConstant - 1 -> 0
+690	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:487 - ReplaceComparisonOperator <= -> -1
+691	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:487 - ReplaceComparisonOperator <= -> <
+692	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:487 - ReplaceComparisonOperator <= -> ==
+693	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:488 - InsertUnaryOp Negation of index
+694	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:488 - InsertUnaryOp IINC 1 index
+695	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:488 - InsertUnaryOp IINC -1 index
+696	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:489 - ReplaceComparisonOperator == -> -2
+697	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:489 - ReplaceComparisonOperator == -> >=
+698	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:489 - ReplaceComparisonOperator == -> <=
+699	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:489 - ReplaceComparisonOperator == -> -2
+700	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:489 - ReplaceComparisonOperator == -> >=
+701	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:489 - ReplaceComparisonOperator == -> <=
+702	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMethod()V:491 - ReplaceConstant - numeric -> 
+703	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:491 - ReplaceComparisonOperator == -> -2
+704	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:491 - ReplaceComparisonOperator == -> >=
+705	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:491 - ReplaceComparisonOperator == -> <=
+706	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMethod()V:493 - ReplaceConstant - 1 -> 0
+707	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMethod()V:495 - ReplaceConstant - color -> 
+708	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:495 - ReplaceComparisonOperator != -> -1
+709	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:495 - ReplaceComparisonOperator != -> <
+710	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:495 - ReplaceComparisonOperator != -> >
+711	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMethod()V:495 - ReplaceConstant - colour -> 
+712	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:496 - ReplaceComparisonOperator == -> -2
+713	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:496 - ReplaceComparisonOperator == -> >=
+714	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:496 - ReplaceComparisonOperator == -> <=
+715	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.setMethod()V:498 - ReplaceConstant - 1 -> 0
+716	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.setMethod()V:485 - ReplaceVariable i -> n
+717	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:505 - InsertUnaryOp Negation of specified
+718	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:505 - InsertUnaryOp IINC 1 specified
+719	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:505 - InsertUnaryOp IINC -1 specified
+720	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:505 - ReplaceComparisonOperator != -> -1
+721	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:505 - ReplaceComparisonOperator != -> <
+722	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.setMethod()V:505 - ReplaceComparisonOperator != -> >
+723	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:509 - InsertUnaryOp Negation of specified
+724	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:509 - InsertUnaryOp IINC 1 specified
+725	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.setMethod()V:509 - InsertUnaryOp IINC -1 specified
+726	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:525 - ReplaceConstant - 0 -> 1
+727	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:525 - InsertUnaryOp Negation of i
+728	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:525 - InsertUnaryOp IINC 1 i
+729	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:525 - InsertUnaryOp IINC -1 i
+730	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:525 - ReplaceComparisonOperator >= -> -1
+731	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:525 - ReplaceComparisonOperator >= -> >
+732	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:525 - ReplaceComparisonOperator >= -> ==
+733	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:526 - InsertUnaryOp Negation of i
+734	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:526 - InsertUnaryOp IINC 1 i
+735	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:526 - InsertUnaryOp IINC -1 i
+736	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:527 - ReplaceComparisonOperator > -> -2
+737	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:527 - ReplaceComparisonOperator > -> !=
+738	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:527 - ReplaceComparisonOperator > -> >=
+739	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:528 - InsertUnaryOp Negation of i
+740	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:528 - InsertUnaryOp IINC 1 i
+741	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:528 - InsertUnaryOp IINC -1 i
+742	ReplaceVariable	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:525 - ReplaceVariable i -> segment
+743	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:533 - InsertUnaryOp Negation of segment
+744	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:533 - InsertUnaryOp IINC 1 segment
+745	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.findSegment(Ljava/lang/Double;Ljava/lang/Object;)I:533 - InsertUnaryOp IINC -1 segment
+746	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:548 - InsertUnaryOp Negation of x0
+747	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:548 - InsertUnaryOp Negation of x1
+748	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:549 - InsertUnaryOp Negation of x
+749	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:549 - InsertUnaryOp Negation of x0
+750	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:549 - ReplaceArithmeticOperator - -> +
+751	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:549 - ReplaceArithmeticOperator - -> %
+752	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:549 - ReplaceArithmeticOperator - -> *
+753	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:549 - ReplaceArithmeticOperator - -> /
+754	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:549 - InsertUnaryOp Negation of xspan
+755	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:549 - ReplaceArithmeticOperator / -> +
+756	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:549 - ReplaceArithmeticOperator / -> %
+757	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:549 - ReplaceArithmeticOperator / -> -
+758	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:549 - ReplaceArithmeticOperator / -> *
+759	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:550 - InsertUnaryOp Negation of y0
+760	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:550 - InsertUnaryOp Negation of t
+761	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:550 - InsertUnaryOp Negation of y1
+762	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:550 - InsertUnaryOp Negation of y0
+763	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:550 - ReplaceArithmeticOperator - -> +
+764	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:550 - ReplaceArithmeticOperator - -> %
+765	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:550 - ReplaceArithmeticOperator - -> *
+766	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:550 - ReplaceArithmeticOperator - -> /
+767	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:550 - ReplaceArithmeticOperator * -> +
+768	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:550 - ReplaceArithmeticOperator * -> %
+769	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:550 - ReplaceArithmeticOperator * -> -
+770	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:550 - ReplaceArithmeticOperator * -> /
+771	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:550 - ReplaceArithmeticOperator + -> %
+772	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:550 - ReplaceArithmeticOperator + -> -
+773	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:550 - ReplaceArithmeticOperator + -> *
+774	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doLinear(DDDDD)D:550 - ReplaceArithmeticOperator + -> /
+775	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:565 - InsertUnaryOp Negation of x0
+776	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:565 - InsertUnaryOp Negation of x1
+777	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:566 - InsertUnaryOp Negation of x
+778	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:566 - InsertUnaryOp Negation of x0
+779	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:566 - ReplaceArithmeticOperator - -> +
+780	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:566 - ReplaceArithmeticOperator - -> %
+781	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:566 - ReplaceArithmeticOperator - -> *
+782	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:566 - ReplaceArithmeticOperator - -> /
+783	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:566 - InsertUnaryOp Negation of xspan
+784	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:566 - ReplaceArithmeticOperator / -> +
+785	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:566 - ReplaceArithmeticOperator / -> %
+786	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:566 - ReplaceArithmeticOperator / -> -
+787	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:566 - ReplaceArithmeticOperator / -> *
+788	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceConstant - 0.5 -> 0.0
+789	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceConstant - 0.5 -> 1.0
+790	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceConstant - 0.5 -> -1.0
+791	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceConstant - 0.5 -> -0.5
+792	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceConstant - 0.5 -> 1.5
+793	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceConstant - 1.0 -> 0.0
+794	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceConstant - 1.0 -> -1.0
+795	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceConstant - 1.0 -> 2.0
+796	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - InsertUnaryOp Negation of t
+797	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceConstant - 3.141592653589793 -> 0.0
+798	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceConstant - 3.141592653589793 -> 1.0
+799	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceConstant - 3.141592653589793 -> -1.0
+800	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceConstant - 3.141592653589793 -> 2.141592653589793
+801	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceConstant - 3.141592653589793 -> 4.141592653589793
+802	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceArithmeticOperator * -> +
+803	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceArithmeticOperator * -> %
+804	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceArithmeticOperator * -> -
+805	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceArithmeticOperator * -> /
+806	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceArithmeticOperator - -> +
+807	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceArithmeticOperator - -> %
+808	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceArithmeticOperator - -> *
+809	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceArithmeticOperator - -> /
+810	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceArithmeticOperator * -> +
+811	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceArithmeticOperator * -> %
+812	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceArithmeticOperator * -> -
+813	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:567 - ReplaceArithmeticOperator * -> /
+814	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:568 - InsertUnaryOp Negation of y0
+815	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:568 - InsertUnaryOp Negation of tcos
+816	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:568 - InsertUnaryOp Negation of y1
+817	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:568 - InsertUnaryOp Negation of y0
+818	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:568 - ReplaceArithmeticOperator - -> +
+819	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:568 - ReplaceArithmeticOperator - -> %
+820	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:568 - ReplaceArithmeticOperator - -> *
+821	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:568 - ReplaceArithmeticOperator - -> /
+822	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:568 - ReplaceArithmeticOperator * -> +
+823	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:568 - ReplaceArithmeticOperator * -> %
+824	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:568 - ReplaceArithmeticOperator * -> -
+825	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:568 - ReplaceArithmeticOperator * -> /
+826	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:568 - ReplaceArithmeticOperator + -> %
+827	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:568 - ReplaceArithmeticOperator + -> -
+828	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:568 - ReplaceArithmeticOperator + -> *
+829	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCosine(DDDDD)D:568 - ReplaceArithmeticOperator + -> /
+830	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:589 - ReplaceConstant - 1 -> 0
+831	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:589 - ReplaceConstant - 2 -> 0
+832	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:589 - ReplaceConstant - 2 -> 1
+833	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:589 - ReplaceConstant - 2 -> -1
+834	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:589 - ReplaceConstant - 2 -> 3
+835	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:590 - InsertUnaryOp Negation of x
+836	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:590 - ReplaceConstant - 1 -> 0
+837	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:590 - ReplaceArithmeticOperator - -> +
+838	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:590 - ReplaceArithmeticOperator - -> %
+839	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:590 - ReplaceArithmeticOperator - -> *
+840	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:590 - ReplaceArithmeticOperator - -> /
+841	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:590 - InsertUnaryOp Negation of span12
+842	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:590 - ReplaceArithmeticOperator / -> +
+843	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:590 - ReplaceArithmeticOperator / -> %
+844	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:590 - ReplaceArithmeticOperator / -> -
+845	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:590 - ReplaceArithmeticOperator / -> *
+846	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:592 - InsertUnaryOp Negation of t
+847	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:592 - ReplaceConstant - 1.0E-8 -> 0.0
+848	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:592 - ReplaceConstant - 1.0E-8 -> 1.0
+849	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:592 - ReplaceConstant - 1.0E-8 -> -1.0
+850	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:592 - ReplaceConstant - 1.0E-8 -> -0.99999999
+851	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:592 - ReplaceConstant - 1.0E-8 -> 1.00000001
+852	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:592 - ReplaceComparisonOperator >= -> -1
+853	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:592 - ReplaceComparisonOperator >= -> ==
+854	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:592 - ReplaceComparisonOperator >= -> >
+855	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:593 - ReplaceConstant - 1 -> 0
+856	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:594 - ReplaceConstant - 1.0 -> 0.0
+857	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:594 - ReplaceConstant - 1.0 -> -1.0
+858	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:594 - ReplaceConstant - 1.0 -> 2.0
+859	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:594 - InsertUnaryOp Negation of t
+860	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:594 - ReplaceArithmeticOperator - -> +
+861	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:594 - ReplaceArithmeticOperator - -> %
+862	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:594 - ReplaceArithmeticOperator - -> *
+863	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:594 - ReplaceArithmeticOperator - -> /
+864	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:594 - ReplaceConstant - 1.0E-8 -> 0.0
+865	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:594 - ReplaceConstant - 1.0E-8 -> 1.0
+866	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:594 - ReplaceConstant - 1.0E-8 -> -1.0
+867	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:594 - ReplaceConstant - 1.0E-8 -> -0.99999999
+868	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:594 - ReplaceConstant - 1.0E-8 -> 1.00000001
+869	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:594 - ReplaceComparisonOperator >= -> -1
+870	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:594 - ReplaceComparisonOperator >= -> ==
+871	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:594 - ReplaceComparisonOperator >= -> >
+872	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:595 - ReplaceConstant - 2 -> 0
+873	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:595 - ReplaceConstant - 2 -> 1
+874	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:595 - ReplaceConstant - 2 -> -1
+875	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:595 - ReplaceConstant - 2 -> 3
+876	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:598 - ReplaceConstant - 0 -> 1
+877	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:598 - ReplaceConstant - 1 -> 0
+878	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:599 - ReplaceConstant - 2 -> 0
+879	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:599 - ReplaceConstant - 2 -> 1
+880	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:599 - ReplaceConstant - 2 -> -1
+881	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:599 - ReplaceConstant - 2 -> 3
+882	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:599 - ReplaceConstant - 3 -> 0
+883	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:599 - ReplaceConstant - 3 -> 1
+884	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:599 - ReplaceConstant - 3 -> -1
+885	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:599 - ReplaceConstant - 3 -> 2
+886	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:599 - ReplaceConstant - 3 -> 4
+887	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:600 - InsertUnaryOp Negation of t
+888	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:600 - InsertUnaryOp Negation of t
+889	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:600 - ReplaceArithmeticOperator * -> +
+890	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:600 - ReplaceArithmeticOperator * -> %
+891	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:600 - ReplaceArithmeticOperator * -> -
+892	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:600 - ReplaceArithmeticOperator * -> /
+893	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:601 - InsertUnaryOp Negation of t2
+894	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:601 - InsertUnaryOp Negation of t
+895	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:601 - ReplaceArithmeticOperator * -> +
+896	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:601 - ReplaceArithmeticOperator * -> %
+897	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:601 - ReplaceArithmeticOperator * -> -
+898	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:601 - ReplaceArithmeticOperator * -> /
+899	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceConstant - 0.5 -> 0.0
+900	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceConstant - 0.5 -> 1.0
+901	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceConstant - 0.5 -> -1.0
+902	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceConstant - 0.5 -> -0.5
+903	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceConstant - 0.5 -> 1.5
+904	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceConstant - 2 -> 0
+905	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceConstant - 2 -> 1
+906	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceConstant - 2 -> -1
+907	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceConstant - 2 -> 3
+908	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceConstant - 1 -> 0
+909	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator - -> +
+910	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator - -> %
+911	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator - -> *
+912	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator - -> /
+913	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - InsertUnaryOp Negation of span12
+914	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator / -> +
+915	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator / -> %
+916	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator / -> -
+917	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator / -> *
+918	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceConstant - 1 -> 0
+919	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceConstant - 0 -> 1
+920	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator - -> +
+921	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator - -> %
+922	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator - -> *
+923	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator - -> /
+924	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - InsertUnaryOp Negation of span01
+925	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator / -> +
+926	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator / -> %
+927	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator / -> -
+928	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator / -> *
+929	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator + -> %
+930	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator + -> -
+931	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator + -> *
+932	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator + -> /
+933	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator * -> +
+934	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator * -> %
+935	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator * -> -
+936	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:603 - ReplaceArithmeticOperator * -> /
+937	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 0.5 -> 0.0
+938	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 0.5 -> 1.0
+939	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 0.5 -> -1.0
+940	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 0.5 -> -0.5
+941	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 0.5 -> 1.5
+942	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 3 -> 0
+943	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 3 -> 1
+944	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 3 -> -1
+945	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 3 -> 2
+946	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 3 -> 4
+947	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 2 -> 0
+948	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 2 -> 1
+949	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 2 -> -1
+950	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 2 -> 3
+951	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator - -> +
+952	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator - -> %
+953	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator - -> *
+954	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator - -> /
+955	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - InsertUnaryOp Negation of span23
+956	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator / -> +
+957	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator / -> %
+958	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator / -> -
+959	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator / -> *
+960	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 2 -> 0
+961	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 2 -> 1
+962	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 2 -> -1
+963	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 2 -> 3
+964	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceConstant - 1 -> 0
+965	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator - -> +
+966	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator - -> %
+967	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator - -> *
+968	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator - -> /
+969	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - InsertUnaryOp Negation of span12
+970	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator / -> +
+971	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator / -> %
+972	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator / -> -
+973	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator / -> *
+974	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator + -> %
+975	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator + -> -
+976	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator + -> *
+977	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator + -> /
+978	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator * -> +
+979	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator * -> %
+980	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator * -> -
+981	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:604 - ReplaceArithmeticOperator * -> /
+982	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 2.0 -> 0.0
+983	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 2.0 -> 1.0
+984	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 2.0 -> -1.0
+985	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 2.0 -> 3.0
+986	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - InsertUnaryOp Negation of t3
+987	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> +
+988	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> %
+989	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> -
+990	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> /
+991	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 3.0 -> 0.0
+992	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 3.0 -> 1.0
+993	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 3.0 -> -1.0
+994	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 3.0 -> 2.0
+995	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 3.0 -> 4.0
+996	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - InsertUnaryOp Negation of t2
+997	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> +
+998	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> %
+999	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> -
+1000	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> /
+1001	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator - -> +
+1002	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator - -> %
+1003	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator - -> *
+1004	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator - -> /
+1005	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 1.0 -> 0.0
+1006	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 1.0 -> -1.0
+1007	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 1.0 -> 2.0
+1008	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> %
+1009	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> -
+1010	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> *
+1011	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> /
+1012	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 1 -> 0
+1013	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> +
+1014	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> %
+1015	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> -
+1016	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> /
+1017	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - InsertUnaryOp Negation of t3
+1018	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 2.0 -> 0.0
+1019	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 2.0 -> 1.0
+1020	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 2.0 -> -1.0
+1021	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 2.0 -> 3.0
+1022	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - InsertUnaryOp Negation of t2
+1023	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> +
+1024	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> %
+1025	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> -
+1026	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> /
+1027	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator - -> +
+1028	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator - -> %
+1029	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator - -> *
+1030	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator - -> /
+1031	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - InsertUnaryOp Negation of t
+1032	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> %
+1033	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> -
+1034	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> *
+1035	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> /
+1036	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - InsertUnaryOp Negation of span12
+1037	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> +
+1038	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> %
+1039	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> -
+1040	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> /
+1041	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - InsertUnaryOp Negation of m1
+1042	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> +
+1043	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> %
+1044	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> -
+1045	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> /
+1046	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> %
+1047	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> -
+1048	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> *
+1049	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> /
+1050	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - -2.0 -> 0.0
+1051	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - -2.0 -> 1.0
+1052	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - -2.0 -> -1.0
+1053	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - -2.0 -> -3.0
+1054	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - InsertUnaryOp Negation of t3
+1055	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> +
+1056	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> %
+1057	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> -
+1058	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> /
+1059	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 3.0 -> 0.0
+1060	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 3.0 -> 1.0
+1061	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 3.0 -> -1.0
+1062	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 3.0 -> 2.0
+1063	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 3.0 -> 4.0
+1064	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - InsertUnaryOp Negation of t2
+1065	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> +
+1066	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> %
+1067	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> -
+1068	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> /
+1069	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> %
+1070	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> -
+1071	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> *
+1072	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> /
+1073	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 2 -> 0
+1074	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 2 -> 1
+1075	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 2 -> -1
+1076	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceConstant - 2 -> 3
+1077	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> +
+1078	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> %
+1079	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> -
+1080	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> /
+1081	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> %
+1082	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> -
+1083	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> *
+1084	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> /
+1085	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - InsertUnaryOp Negation of t3
+1086	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - InsertUnaryOp Negation of t2
+1087	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator - -> +
+1088	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator - -> %
+1089	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator - -> *
+1090	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator - -> /
+1091	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - InsertUnaryOp Negation of span12
+1092	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> +
+1093	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> %
+1094	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> -
+1095	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> /
+1096	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - InsertUnaryOp Negation of m2
+1097	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> +
+1098	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> %
+1099	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> -
+1100	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator * -> /
+1101	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> %
+1102	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> -
+1103	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> *
+1104	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:606 - ReplaceArithmeticOperator + -> /
+1105	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.doCubic(D[D[D)D:611 - InsertUnaryOp Negation of y
+1106	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.getSpan(DD)D:626 - InsertUnaryOp Negation of x1
+1107	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.getSpan(DD)D:626 - InsertUnaryOp Negation of x0
+1108	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.getSpan(DD)D:626 - ReplaceArithmeticOperator - -> +
+1109	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.getSpan(DD)D:626 - ReplaceArithmeticOperator - -> %
+1110	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.getSpan(DD)D:626 - ReplaceArithmeticOperator - -> *
+1111	ReplaceArithmeticOperator	org.geotools.filter.function.InterpolateFunction.getSpan(DD)D:626 - ReplaceArithmeticOperator - -> /
+1112	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.getSpan(DD)D:628 - InsertUnaryOp Negation of xspan
+1113	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.getSpan(DD)D:628 - ReplaceConstant - 1.0E-8 -> 0.0
+1114	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.getSpan(DD)D:628 - ReplaceConstant - 1.0E-8 -> 1.0
+1115	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.getSpan(DD)D:628 - ReplaceConstant - 1.0E-8 -> -1.0
+1116	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.getSpan(DD)D:628 - ReplaceConstant - 1.0E-8 -> -0.99999999
+1117	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.getSpan(DD)D:628 - ReplaceConstant - 1.0E-8 -> 1.00000001
+1118	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.getSpan(DD)D:628 - ReplaceComparisonOperator >= -> -1
+1119	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.getSpan(DD)D:628 - ReplaceComparisonOperator >= -> ==
+1120	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.getSpan(DD)D:628 - ReplaceComparisonOperator >= -> >
+1121	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.getSpan(DD)D:629 - ReplaceConstant - Interpolation points must be in ascending order of data (lookup) values with no ties -> 
+1122	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.getSpan(DD)D:633 - InsertUnaryOp Negation of xspan
+1123	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.clamp(DDD)D:644 - InsertUnaryOp Negation of min
+1124	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.clamp(DDD)D:644 - InsertUnaryOp Negation of max
+1125	InsertUnaryOp	org.geotools.filter.function.InterpolateFunction.clamp(DDD)D:644 - InsertUnaryOp Negation of x
+1126	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.toString()Ljava/lang/String;:655 - ReplaceConstant - ( -> 
+1127	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.toString()Ljava/lang/String;:657 - ReplaceComparisonOperator = null -> != null
+1128	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.toString()Ljava/lang/String;:659 - ReplaceComparisonOperator == -> -2
+1129	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.toString()Ljava/lang/String;:659 - ReplaceComparisonOperator == -> >=
+1130	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.toString()Ljava/lang/String;:659 - ReplaceComparisonOperator == -> <=
+1131	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.toString()Ljava/lang/String;:661 - ReplaceConstant - [ -> 
+1132	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.toString()Ljava/lang/String;:663 - ReplaceConstant - ] -> 
+1133	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.toString()Ljava/lang/String;:664 - ReplaceComparisonOperator == -> -2
+1134	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.toString()Ljava/lang/String;:664 - ReplaceComparisonOperator == -> >=
+1135	ReplaceComparisonOperator	org.geotools.filter.function.InterpolateFunction.toString()Ljava/lang/String;:664 - ReplaceComparisonOperator == -> <=
+1136	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.toString()Ljava/lang/String;:665 - ReplaceConstant - ,  -> 
+1137	ReplaceConstant	org.geotools.filter.function.InterpolateFunction.toString()Ljava/lang/String;:669 - ReplaceConstant - ) -> 

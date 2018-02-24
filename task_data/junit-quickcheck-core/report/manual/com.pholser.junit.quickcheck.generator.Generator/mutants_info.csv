@@ -1,0 +1,34 @@
+0	ReplaceConstant	com.pholser.junit.quickcheck.generator.Generator.canRegisterAsType(Ljava/lang/Class;)Z:96 - ReplaceConstant - 1 -> 0
+1	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.shrink(Lcom/pholser/junit/quickcheck/random/SourceOfRandomness;Ljava/lang/Object;)Ljava/util/List;:107 - ReplaceComparisonOperator != -> -1
+2	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.shrink(Lcom/pholser/junit/quickcheck/random/SourceOfRandomness;Ljava/lang/Object;)Ljava/util/List;:107 - ReplaceComparisonOperator != -> <
+3	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.shrink(Lcom/pholser/junit/quickcheck/random/SourceOfRandomness;Ljava/lang/Object;)Ljava/util/List;:107 - ReplaceComparisonOperator != -> >
+4	ReplaceConstant	com.pholser.junit.quickcheck.generator.Generator.shrink(Lcom/pholser/junit/quickcheck/random/SourceOfRandomness;Ljava/lang/Object;)Ljava/util/List;:109 - ReplaceConstant -  not capable of shrinking  -> 
+5	ReplaceConstant	com.pholser.junit.quickcheck.generator.Generator.canShrink(Ljava/lang/Object;)Z:128 - ReplaceConstant - 0 -> 1
+6	ReplaceConstant	com.pholser.junit.quickcheck.generator.Generator.narrow(Ljava/lang/Object;)Ljava/lang/Object;:155 - ReplaceConstant - 0 -> 1
+7	ReplaceConstant	com.pholser.junit.quickcheck.generator.Generator.hasComponents()Z:165 - ReplaceConstant - 0 -> 1
+8	ReplaceConstant	com.pholser.junit.quickcheck.generator.Generator.numberOfNeededComponents()I:173 - ReplaceConstant - 0 -> 1
+9	ReplaceConstant	com.pholser.junit.quickcheck.generator.Generator.canGenerateForParametersOfTypes(Ljava/util/List;)Z:197 - ReplaceConstant - 1 -> 0
+10	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.compatibleWithTypeParameter(Lorg/javaruntype/type/TypeParameter;Ljava/lang/Class;)Z:207 - ReplaceComparisonOperator != -> -1
+11	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.compatibleWithTypeParameter(Lorg/javaruntype/type/TypeParameter;Ljava/lang/Class;)Z:207 - ReplaceComparisonOperator != -> <
+12	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.compatibleWithTypeParameter(Lorg/javaruntype/type/TypeParameter;Ljava/lang/Class;)Z:207 - ReplaceComparisonOperator != -> >
+13	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.compatibleWithTypeParameter(Lorg/javaruntype/type/TypeParameter;Ljava/lang/Class;)Z:208 - ReplaceComparisonOperator == -> -2
+14	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.compatibleWithTypeParameter(Lorg/javaruntype/type/TypeParameter;Ljava/lang/Class;)Z:208 - ReplaceComparisonOperator == -> >=
+15	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.compatibleWithTypeParameter(Lorg/javaruntype/type/TypeParameter;Ljava/lang/Class;)Z:208 - ReplaceComparisonOperator == -> <=
+16	ReplaceConstant	com.pholser.junit.quickcheck.generator.Generator.compatibleWithTypeParameter(Lorg/javaruntype/type/TypeParameter;Ljava/lang/Class;)Z:208 - ReplaceConstant - 1 -> 0
+17	ReplaceConstant	com.pholser.junit.quickcheck.generator.Generator.compatibleWithTypeParameter(Lorg/javaruntype/type/TypeParameter;Ljava/lang/Class;)Z:208 - ReplaceConstant - 0 -> 1
+18	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.collectConfigurationAnnotations(Ljava/lang/reflect/AnnotatedElement;)Ljava/util/Map;:280 - ReplaceComparisonOperator != null -> = null
+19	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.collectConfigurationAnnotations(Ljava/lang/reflect/AnnotatedElement;)Ljava/util/Map;:286 - ReplaceComparisonOperator == -> -2
+20	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.collectConfigurationAnnotations(Ljava/lang/reflect/AnnotatedElement;)Ljava/util/Map;:286 - ReplaceComparisonOperator == -> >=
+21	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.collectConfigurationAnnotations(Ljava/lang/reflect/AnnotatedElement;)Ljava/util/Map;:286 - ReplaceComparisonOperator == -> <=
+22	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.configureStrict(Ljava/util/Map;)V:292 - ReplaceComparisonOperator == -> -2
+23	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.configureStrict(Ljava/util/Map;)V:292 - ReplaceComparisonOperator == -> >=
+24	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.configureStrict(Ljava/util/Map;)V:292 - ReplaceComparisonOperator == -> <=
+25	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.configureLenient(Ljava/util/Map;)V:311 - ReplaceComparisonOperator == -> -2
+26	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.configureLenient(Ljava/util/Map;)V:311 - ReplaceComparisonOperator == -> >=
+27	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.configureLenient(Ljava/util/Map;)V:311 - ReplaceComparisonOperator == -> <=
+28	ReplaceConstant	com.pholser.junit.quickcheck.generator.Generator.configure(Ljava/lang/Class;Ljava/lang/annotation/Annotation;Ljava/util/function/Consumer;)V:330 - ReplaceConstant - configure -> 
+29	ReplaceConstant	com.pholser.junit.quickcheck.generator.Generator.configure(Ljava/lang/Class;Ljava/lang/annotation/Annotation;Ljava/util/function/Consumer;)V:330 - ReplaceConstant - 1 -> 0
+30	ReplaceConstant	com.pholser.junit.quickcheck.generator.Generator.configure(Ljava/lang/Class;Ljava/lang/annotation/Annotation;Ljava/util/function/Consumer;)V:330 - ReplaceConstant - 0 -> 1
+31	ReplaceComparisonOperator	com.pholser.junit.quickcheck.generator.Generator.configure(Ljava/lang/Class;Ljava/lang/annotation/Annotation;Ljava/util/function/Consumer;)V:335 - ReplaceComparisonOperator = null -> != null
+32	ReplaceConstant	com.pholser.junit.quickcheck.generator.Generator.configure(Ljava/lang/Class;Ljava/lang/annotation/Annotation;Ljava/util/function/Consumer;)V:336 - ReplaceConstant - 1 -> 0
+33	ReplaceConstant	com.pholser.junit.quickcheck.generator.Generator.configure(Ljava/lang/Class;Ljava/lang/annotation/Annotation;Ljava/util/function/Consumer;)V:336 - ReplaceConstant - 0 -> 1

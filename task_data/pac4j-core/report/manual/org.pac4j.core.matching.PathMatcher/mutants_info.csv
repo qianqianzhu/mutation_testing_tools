@@ -1,0 +1,32 @@
+0	ReplaceConstant	org.pac4j.core.matching.PathMatcher.excludeBranch(Ljava/lang/String;)Lorg/pac4j/core/matching/PathMatcher;:45 - ReplaceConstant - ^ -> 
+1	ReplaceConstant	org.pac4j.core.matching.PathMatcher.excludeBranch(Ljava/lang/String;)Lorg/pac4j/core/matching/PathMatcher;:45 - ReplaceConstant - (/.*)?$ -> 
+2	ReplaceConstant	org.pac4j.core.matching.PathMatcher.excludeRegex(Ljava/lang/String;)Lorg/pac4j/core/matching/PathMatcher;:56 - ReplaceConstant - regex -> 
+3	ReplaceConstant	org.pac4j.core.matching.PathMatcher.excludeRegex(Ljava/lang/String;)Lorg/pac4j/core/matching/PathMatcher;:57 - ReplaceConstant - Excluding paths with regexes is an advanced feature: be careful when defining your regular expression to avoid any security issues! -> 
+4	ReplaceConstant	org.pac4j.core.matching.PathMatcher.excludeRegex(Ljava/lang/String;)Lorg/pac4j/core/matching/PathMatcher;:59 - ReplaceConstant - ^ -> 
+5	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.excludeRegex(Ljava/lang/String;)Lorg/pac4j/core/matching/PathMatcher;:59 - ReplaceComparisonOperator == -> -2
+6	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.excludeRegex(Ljava/lang/String;)Lorg/pac4j/core/matching/PathMatcher;:59 - ReplaceComparisonOperator == -> >=
+7	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.excludeRegex(Ljava/lang/String;)Lorg/pac4j/core/matching/PathMatcher;:59 - ReplaceComparisonOperator == -> <=
+8	ReplaceConstant	org.pac4j.core.matching.PathMatcher.excludeRegex(Ljava/lang/String;)Lorg/pac4j/core/matching/PathMatcher;:59 - ReplaceConstant - $ -> 
+9	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.excludeRegex(Ljava/lang/String;)Lorg/pac4j/core/matching/PathMatcher;:59 - ReplaceComparisonOperator != -> -1
+10	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.excludeRegex(Ljava/lang/String;)Lorg/pac4j/core/matching/PathMatcher;:59 - ReplaceComparisonOperator != -> <
+11	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.excludeRegex(Ljava/lang/String;)Lorg/pac4j/core/matching/PathMatcher;:59 - ReplaceComparisonOperator != -> >
+12	ReplaceConstant	org.pac4j.core.matching.PathMatcher.excludeRegex(Ljava/lang/String;)Lorg/pac4j/core/matching/PathMatcher;:60 - ReplaceConstant - Your regular expression: ' -> 
+13	ReplaceConstant	org.pac4j.core.matching.PathMatcher.excludeRegex(Ljava/lang/String;)Lorg/pac4j/core/matching/PathMatcher;:60 - ReplaceConstant - ' must start with a ^ and end with a $ to define a full path matching -> 
+14	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.matches(Ljava/lang/String;)Z:75 - ReplaceComparisonOperator == -> -2
+15	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.matches(Ljava/lang/String;)Z:75 - ReplaceComparisonOperator == -> >=
+16	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.matches(Ljava/lang/String;)Z:75 - ReplaceComparisonOperator == -> <=
+17	ReplaceConstant	org.pac4j.core.matching.PathMatcher.matches(Ljava/lang/String;)Z:76 - ReplaceConstant - 0 -> 1
+18	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.matches(Ljava/lang/String;)Z:79 - ReplaceComparisonOperator == -> -2
+19	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.matches(Ljava/lang/String;)Z:79 - ReplaceComparisonOperator == -> >=
+20	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.matches(Ljava/lang/String;)Z:79 - ReplaceComparisonOperator == -> <=
+21	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.matches(Ljava/lang/String;)Z:80 - ReplaceComparisonOperator == -> -2
+22	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.matches(Ljava/lang/String;)Z:80 - ReplaceComparisonOperator == -> >=
+23	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.matches(Ljava/lang/String;)Z:80 - ReplaceComparisonOperator == -> <=
+24	ReplaceConstant	org.pac4j.core.matching.PathMatcher.matches(Ljava/lang/String;)Z:81 - ReplaceConstant - 0 -> 1
+25	ReplaceConstant	org.pac4j.core.matching.PathMatcher.matches(Ljava/lang/String;)Z:85 - ReplaceConstant - 1 -> 0
+26	ReplaceConstant	org.pac4j.core.matching.PathMatcher.validatePath(Ljava/lang/String;)V:107 - ReplaceConstant - path -> 
+27	ReplaceConstant	org.pac4j.core.matching.PathMatcher.validatePath(Ljava/lang/String;)V:108 - ReplaceConstant - / -> 
+28	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.validatePath(Ljava/lang/String;)V:108 - ReplaceComparisonOperator != -> -1
+29	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.validatePath(Ljava/lang/String;)V:108 - ReplaceComparisonOperator != -> <
+30	ReplaceComparisonOperator	org.pac4j.core.matching.PathMatcher.validatePath(Ljava/lang/String;)V:108 - ReplaceComparisonOperator != -> >
+31	ReplaceConstant	org.pac4j.core.matching.PathMatcher.validatePath(Ljava/lang/String;)V:109 - ReplaceConstant - Excluded path must begin with a / -> 

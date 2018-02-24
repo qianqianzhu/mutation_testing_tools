@@ -1,0 +1,15 @@
+0	ReplaceConstant	org.assertj.core.error.ShouldExist.shouldExist(Ljava/nio/file/Path;)Lorg/assertj/core/error/ErrorMessageFactory;:44 - ReplaceConstant - 1 -> 0
+1	ReplaceConstant	org.assertj.core.error.ShouldExist.shouldExistNoFollowLinks(Ljava/nio/file/Path;)Lorg/assertj/core/error/ErrorMessageFactory;:48 - ReplaceConstant - 0 -> 1
+2	ReplaceConstant	org.assertj.core.error.ShouldExist.<init>(Ljava/io/File;)V:52 - ReplaceConstant - %nExpecting file:%n  <%s>%nto exist. -> 
+3	ReplaceConstant	org.assertj.core.error.ShouldExist.<init>(Ljava/io/File;)V:52 - ReplaceConstant - 1 -> 0
+4	ReplaceConstant	org.assertj.core.error.ShouldExist.<init>(Ljava/io/File;)V:52 - ReplaceConstant - 0 -> 1
+5	InsertUnaryOp	org.assertj.core.error.ShouldExist.<init>(Ljava/nio/file/Path;Z)V:56 - InsertUnaryOp Negation of followLinks
+6	InsertUnaryOp	org.assertj.core.error.ShouldExist.<init>(Ljava/nio/file/Path;Z)V:56 - InsertUnaryOp IINC 1 followLinks
+7	InsertUnaryOp	org.assertj.core.error.ShouldExist.<init>(Ljava/nio/file/Path;Z)V:56 - InsertUnaryOp IINC -1 followLinks
+8	ReplaceComparisonOperator	org.assertj.core.error.ShouldExist.<init>(Ljava/nio/file/Path;Z)V:56 - ReplaceComparisonOperator == -> -2
+9	ReplaceComparisonOperator	org.assertj.core.error.ShouldExist.<init>(Ljava/nio/file/Path;Z)V:56 - ReplaceComparisonOperator == -> >=
+10	ReplaceComparisonOperator	org.assertj.core.error.ShouldExist.<init>(Ljava/nio/file/Path;Z)V:56 - ReplaceComparisonOperator == -> <=
+11	ReplaceConstant	org.assertj.core.error.ShouldExist.<init>(Ljava/nio/file/Path;Z)V:56 - ReplaceConstant - %nExpecting path:%n  <%s>%nto exist (symbolic links were followed). -> 
+12	ReplaceConstant	org.assertj.core.error.ShouldExist.<init>(Ljava/nio/file/Path;Z)V:56 - ReplaceConstant - %nExpecting path:%n  <%s>%nto exist (symbolic links were not followed). -> 
+13	ReplaceConstant	org.assertj.core.error.ShouldExist.<init>(Ljava/nio/file/Path;Z)V:56 - ReplaceConstant - 1 -> 0
+14	ReplaceConstant	org.assertj.core.error.ShouldExist.<init>(Ljava/nio/file/Path;Z)V:56 - ReplaceConstant - 0 -> 1

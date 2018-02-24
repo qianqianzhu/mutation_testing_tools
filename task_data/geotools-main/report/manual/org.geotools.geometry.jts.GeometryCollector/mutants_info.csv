@@ -1,0 +1,126 @@
+0	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.<init>()V:59 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.<init>()V:59 - ReplaceConstant - 0 -> -1
+2	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.<init>()V:61 - ReplaceConstant - -1 -> 0
+3	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.<init>()V:61 - ReplaceConstant - -1 -> 1
+4	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.<init>()V:61 - ReplaceConstant - -1 -> -2
+5	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.<init>()V:65 - ReplaceConstant - -1 -> 0
+6	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.<init>()V:65 - ReplaceConstant - -1 -> 1
+7	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.<init>()V:65 - ReplaceConstant - -1 -> -2
+8	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.getMaxCoordinates()J:74 - InsertUnaryOp Negation
+9	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.setMaxCoordinates(J)V:83 - InsertUnaryOp Negation of maxCoordinates
+10	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.collect()Lcom/vividsolutions/jts/geom/GeometryCollection;:115 - InsertUnaryOp Negation
+11	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.collect()Lcom/vividsolutions/jts/geom/GeometryCollection;:115 - InsertUnaryOp +1
+12	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.collect()Lcom/vividsolutions/jts/geom/GeometryCollection;:115 - InsertUnaryOp -1
+13	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collect()Lcom/vividsolutions/jts/geom/GeometryCollection;:115 - ReplaceComparisonOperator <= -> -1
+14	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collect()Lcom/vividsolutions/jts/geom/GeometryCollection;:115 - ReplaceComparisonOperator <= -> ==
+15	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collect()Lcom/vividsolutions/jts/geom/GeometryCollection;:115 - ReplaceComparisonOperator <= -> <
+16	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.collect()Lcom/vividsolutions/jts/geom/GeometryCollection;:116 - InsertUnaryOp Negation
+17	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.collect()Lcom/vividsolutions/jts/geom/GeometryCollection;:116 - InsertUnaryOp +1
+18	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.collect()Lcom/vividsolutions/jts/geom/GeometryCollection;:116 - InsertUnaryOp -1
+19	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collect()Lcom/vividsolutions/jts/geom/GeometryCollection;:118 - ReplaceComparisonOperator = null -> != null
+20	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:127 - ReplaceComparisonOperator == -> -2
+21	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:127 - ReplaceComparisonOperator == -> >=
+22	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:127 - ReplaceComparisonOperator == -> <=
+23	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:128 - ReplaceComparisonOperator != null -> = null
+24	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:133 - ReplaceComparisonOperator != null -> = null
+25	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:134 - ReplaceConstant - 0 -> 1
+26	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:136 - ReplaceComparisonOperator != null -> = null
+27	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:142 - ReplaceComparisonOperator != -> ==
+28	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:145 - ReplaceComparisonOperator != -> ==
+29	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:150 - ReplaceConstant - 1 -> 0
+30	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:150 - ReplaceComparisonOperator <= -> -1
+31	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:150 - ReplaceComparisonOperator <= -> <
+32	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:150 - ReplaceComparisonOperator <= -> ==
+33	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:150 - ReplaceComparisonOperator != -> -1
+34	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:150 - ReplaceComparisonOperator != -> <
+35	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:150 - ReplaceComparisonOperator != -> >
+36	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:151 - ReplaceConstant - 0.0 -> 1.0
+37	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:151 - ReplaceConstant - 0.0 -> -1.0
+38	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:152 - ReplaceComparisonOperator == -> -2
+39	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:152 - ReplaceComparisonOperator == -> >=
+40	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:152 - ReplaceComparisonOperator == -> <=
+41	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:153 - ReplaceConstant - 1 -> 0
+42	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:153 - ReplaceConstant - 0 -> 1
+43	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.collectInternal()Lcom/vividsolutions/jts/geom/GeometryCollection;:160 - ReplaceComparisonOperator != -> ==
+44	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:172 - ReplaceComparisonOperator = null -> != null
+45	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:172 - ReplaceComparisonOperator != -> -1
+46	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:172 - ReplaceComparisonOperator != -> <
+47	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:172 - ReplaceComparisonOperator != -> >
+48	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:177 - ReplaceConstant - 0 -> 1
+49	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:178 - ReplaceConstant - 1 -> 0
+50	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:178 - InsertUnaryOp Negation of i
+51	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:178 - InsertUnaryOp IINC 1 i
+52	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:178 - InsertUnaryOp IINC -1 i
+53	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:178 - ReplaceComparisonOperator >= -> -1
+54	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:178 - ReplaceComparisonOperator >= -> >
+55	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:178 - ReplaceComparisonOperator >= -> ==
+56	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:179 - InsertUnaryOp Negation of i
+57	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:179 - InsertUnaryOp IINC 1 i
+58	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:179 - InsertUnaryOp IINC -1 i
+59	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:180 - ReplaceComparisonOperator == -> !=
+60	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:180 - ReplaceComparisonOperator != -> -1
+61	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:180 - ReplaceComparisonOperator != -> <
+62	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:180 - ReplaceComparisonOperator != -> >
+63	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:186 - ReplaceComparisonOperator != -> ==
+64	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:188 - ReplaceComparisonOperator != -> ==
+65	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.guessCollectionType()Ljava/lang/Class;:190 - ReplaceComparisonOperator != -> ==
+66	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.baseType(Ljava/lang/Class;)Ljava/lang/Class;:199 - ReplaceComparisonOperator == -> -2
+67	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.baseType(Ljava/lang/Class;)Ljava/lang/Class;:199 - ReplaceComparisonOperator == -> >=
+68	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.baseType(Ljava/lang/Class;)Ljava/lang/Class;:199 - ReplaceComparisonOperator == -> <=
+69	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.baseType(Ljava/lang/Class;)Ljava/lang/Class;:201 - ReplaceComparisonOperator == -> -2
+70	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.baseType(Ljava/lang/Class;)Ljava/lang/Class;:201 - ReplaceComparisonOperator == -> >=
+71	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.baseType(Ljava/lang/Class;)Ljava/lang/Class;:201 - ReplaceComparisonOperator == -> <=
+72	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.baseType(Ljava/lang/Class;)Ljava/lang/Class;:203 - ReplaceComparisonOperator == -> -2
+73	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.baseType(Ljava/lang/Class;)Ljava/lang/Class;:203 - ReplaceComparisonOperator == -> >=
+74	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.baseType(Ljava/lang/Class;)Ljava/lang/Class;:203 - ReplaceComparisonOperator == -> <=
+75	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:217 - ReplaceComparisonOperator != null -> = null
+76	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:222 - ReplaceComparisonOperator == -> -2
+77	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:222 - ReplaceComparisonOperator == -> >=
+78	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:222 - ReplaceComparisonOperator == -> <=
+79	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:224 - ReplaceConstant - 0 -> 1
+80	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:224 - InsertUnaryOp Negation of i
+81	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:224 - InsertUnaryOp IINC 1 i
+82	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:224 - InsertUnaryOp IINC -1 i
+83	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:224 - ReplaceComparisonOperator >= -> -1
+84	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:224 - ReplaceComparisonOperator >= -> >
+85	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:224 - ReplaceComparisonOperator >= -> ==
+86	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:225 - InsertUnaryOp Negation of i
+87	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:225 - InsertUnaryOp IINC 1 i
+88	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:225 - InsertUnaryOp IINC -1 i
+89	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:228 - InsertUnaryOp Negation
+90	ReplaceArithmeticOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:228 - ReplaceArithmeticOperator + -> %
+91	ReplaceArithmeticOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:228 - ReplaceArithmeticOperator + -> -
+92	ReplaceArithmeticOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:228 - ReplaceArithmeticOperator + -> *
+93	ReplaceArithmeticOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:228 - ReplaceArithmeticOperator + -> /
+94	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:229 - InsertUnaryOp Negation
+95	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:229 - ReplaceConstant - 0 -> 1
+96	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:229 - ReplaceConstant - 0 -> -1
+97	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:229 - ReplaceComparisonOperator <= -> -1
+98	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:229 - ReplaceComparisonOperator <= -> ==
+99	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:229 - ReplaceComparisonOperator <= -> <
+100	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:229 - InsertUnaryOp Negation
+101	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:229 - InsertUnaryOp Negation
+102	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:229 - ReplaceComparisonOperator <= -> -1
+103	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:229 - ReplaceComparisonOperator <= -> ==
+104	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:229 - ReplaceComparisonOperator <= -> <
+105	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:230 - ReplaceConstant - Max number of collected ordinates has been exceeded. Current count is  -> 
+106	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:230 - InsertUnaryOp Negation
+107	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:230 - ReplaceConstant - , max count is  -> 
+108	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:230 - InsertUnaryOp Negation
+109	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.add(Lcom/vividsolutions/jts/geom/Geometry;)V:237 - ReplaceComparisonOperator = null -> != null
+110	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.initCRS(Lcom/vividsolutions/jts/geom/Geometry;)V:246 - ReplaceComparisonOperator != null -> = null
+111	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.initCRS(Lcom/vividsolutions/jts/geom/Geometry;)V:246 - ReplaceComparisonOperator == -> -2
+112	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.initCRS(Lcom/vividsolutions/jts/geom/Geometry;)V:246 - ReplaceComparisonOperator == -> >=
+113	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.initCRS(Lcom/vividsolutions/jts/geom/Geometry;)V:246 - ReplaceComparisonOperator == -> <=
+114	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.initCRS(Lcom/vividsolutions/jts/geom/Geometry;)V:249 - InsertUnaryOp Negation
+115	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.initCRS(Lcom/vividsolutions/jts/geom/Geometry;)V:249 - InsertUnaryOp +1
+116	InsertUnaryOp	org.geotools.geometry.jts.GeometryCollector.initCRS(Lcom/vividsolutions/jts/geom/Geometry;)V:249 - InsertUnaryOp -1
+117	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.initCRS(Lcom/vividsolutions/jts/geom/Geometry;)V:249 - ReplaceConstant - -1 -> 0
+118	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.initCRS(Lcom/vividsolutions/jts/geom/Geometry;)V:249 - ReplaceConstant - -1 -> 1
+119	ReplaceConstant	org.geotools.geometry.jts.GeometryCollector.initCRS(Lcom/vividsolutions/jts/geom/Geometry;)V:249 - ReplaceConstant - -1 -> -2
+120	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.initCRS(Lcom/vividsolutions/jts/geom/Geometry;)V:249 - ReplaceComparisonOperator != -> -1
+121	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.initCRS(Lcom/vividsolutions/jts/geom/Geometry;)V:249 - ReplaceComparisonOperator != -> <
+122	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.initCRS(Lcom/vividsolutions/jts/geom/Geometry;)V:249 - ReplaceComparisonOperator != -> >
+123	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.initCRS(Lcom/vividsolutions/jts/geom/Geometry;)V:249 - ReplaceComparisonOperator <= -> -1
+124	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.initCRS(Lcom/vividsolutions/jts/geom/Geometry;)V:249 - ReplaceComparisonOperator <= -> ==
+125	ReplaceComparisonOperator	org.geotools.geometry.jts.GeometryCollector.initCRS(Lcom/vividsolutions/jts/geom/Geometry;)V:249 - ReplaceComparisonOperator <= -> <

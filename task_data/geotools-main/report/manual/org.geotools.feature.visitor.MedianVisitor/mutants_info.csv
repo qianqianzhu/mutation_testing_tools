@@ -1,0 +1,70 @@
+0	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:62 - InsertUnaryOp Negation of attributeTypeIndex
+1	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:62 - InsertUnaryOp IINC 1 attributeTypeIndex
+2	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:62 - InsertUnaryOp IINC -1 attributeTypeIndex
+3	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.getExpressions()Ljava/util/List;:81 - ReplaceConstant - 1 -> 0
+4	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.getExpressions()Ljava/util/List;:81 - ReplaceConstant - 0 -> 1
+5	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.visit(Lorg/opengis/feature/Feature;)V:92 - ReplaceComparisonOperator != null -> = null
+6	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.visit(Lorg/opengis/feature/Feature;)V:96 - ReplaceComparisonOperator == -> -2
+7	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.visit(Lorg/opengis/feature/Feature;)V:96 - ReplaceComparisonOperator == -> >=
+8	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.visit(Lorg/opengis/feature/Feature;)V:96 - ReplaceComparisonOperator == -> <=
+9	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.visit(Lorg/opengis/feature/Feature;)V:100 - ReplaceConstant - Expression is not comparable! -> 
+10	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.getMedian()Ljava/lang/Object;:112 - ReplaceComparisonOperator = null -> != null
+11	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.getMedian()Ljava/lang/Object;:118 - ReplaceComparisonOperator != null -> = null
+12	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.getMedian()Ljava/lang/Object;:119 - ReplaceConstant - Must visit before median value is ready! -> 
+13	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:135 - ReplaceComparisonOperator = null -> != null
+14	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:138 - ReplaceConstant - 1 -> 0
+15	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:138 - ReplaceComparisonOperator >= -> -1
+16	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:138 - ReplaceComparisonOperator >= -> >
+17	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:138 - ReplaceComparisonOperator >= -> ==
+18	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:250 - ReplaceConstant - 1 -> 0
+19	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:250 - ReplaceComparisonOperator >= -> -1
+20	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:250 - ReplaceComparisonOperator >= -> >
+21	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:250 - ReplaceComparisonOperator >= -> ==
+22	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:256 - ReplaceConstant - -1 -> 0
+23	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:256 - ReplaceConstant - -1 -> 1
+24	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:256 - ReplaceConstant - -1 -> -2
+25	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:257 - ReplaceConstant - 2 -> 0
+26	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:257 - ReplaceConstant - 2 -> 1
+27	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:257 - ReplaceConstant - 2 -> -1
+28	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:257 - ReplaceConstant - 2 -> 3
+29	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:257 - ReplaceArithmeticOperator / -> +
+30	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:257 - ReplaceArithmeticOperator / -> %
+31	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:257 - ReplaceArithmeticOperator / -> -
+32	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:257 - ReplaceArithmeticOperator / -> *
+33	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:259 - ReplaceConstant - 2 -> 0
+34	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:259 - ReplaceConstant - 2 -> 1
+35	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:259 - ReplaceConstant - 2 -> -1
+36	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:259 - ReplaceConstant - 2 -> 3
+37	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:259 - ReplaceArithmeticOperator % -> +
+38	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:259 - ReplaceArithmeticOperator % -> -
+39	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:259 - ReplaceArithmeticOperator % -> *
+40	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:259 - ReplaceArithmeticOperator % -> /
+41	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:259 - ReplaceComparisonOperator != -> -1
+42	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:259 - ReplaceComparisonOperator != -> <
+43	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:259 - ReplaceComparisonOperator != -> >
+44	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:262 - InsertUnaryOp Negation of index
+45	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:262 - InsertUnaryOp IINC 1 index
+46	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:262 - InsertUnaryOp IINC -1 index
+47	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:262 - ReplaceConstant - 1 -> 0
+48	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:262 - ReplaceArithmeticOperator - -> +
+49	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:262 - ReplaceArithmeticOperator - -> %
+50	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:262 - ReplaceArithmeticOperator - -> *
+51	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:262 - ReplaceArithmeticOperator - -> /
+52	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:263 - InsertUnaryOp Negation of index
+53	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:263 - InsertUnaryOp IINC 1 index
+54	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:263 - InsertUnaryOp IINC -1 index
+55	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:265 - ReplaceComparisonOperator == -> -2
+56	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:265 - ReplaceComparisonOperator == -> >=
+57	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:265 - ReplaceComparisonOperator == -> <=
+58	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:265 - ReplaceComparisonOperator == -> -2
+59	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:265 - ReplaceComparisonOperator == -> >=
+60	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:265 - ReplaceComparisonOperator == -> <=
+61	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:268 - ReplaceConstant - 2 -> 0
+62	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:268 - ReplaceConstant - 2 -> 1
+63	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:268 - ReplaceConstant - 2 -> -1
+64	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:268 - ReplaceConstant - 2 -> 3
+65	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:269 - ReplaceConstant - 0 -> 1
+66	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:269 - ReplaceConstant - 1 -> 0
+67	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:282 - InsertUnaryOp Negation of index
+68	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:282 - InsertUnaryOp IINC 1 index
+69	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor.findMedian(Ljava/util/List;)Ljava/lang/Object;:282 - InsertUnaryOp IINC -1 index

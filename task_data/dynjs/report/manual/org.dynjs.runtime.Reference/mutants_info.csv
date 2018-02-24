@@ -1,0 +1,78 @@
+0	InsertUnaryOp	org.dynjs.runtime.Reference.<init>(Ljava/lang/String;Ljava/lang/Object;Z)V:14 - InsertUnaryOp Negation of strict
+1	InsertUnaryOp	org.dynjs.runtime.Reference.<init>(Ljava/lang/String;Ljava/lang/Object;Z)V:14 - InsertUnaryOp IINC 1 strict
+2	InsertUnaryOp	org.dynjs.runtime.Reference.<init>(Ljava/lang/String;Ljava/lang/Object;Z)V:14 - InsertUnaryOp IINC -1 strict
+3	InsertUnaryOp	org.dynjs.runtime.Reference.isStrictReference()Z:26 - InsertUnaryOp Negation
+4	ReplaceComparisonOperator	org.dynjs.runtime.Reference.hasPrimitiveBase()Z:30 - ReplaceComparisonOperator != -> -1
+5	ReplaceComparisonOperator	org.dynjs.runtime.Reference.hasPrimitiveBase()Z:30 - ReplaceComparisonOperator != -> <
+6	ReplaceComparisonOperator	org.dynjs.runtime.Reference.hasPrimitiveBase()Z:30 - ReplaceComparisonOperator != -> >
+7	ReplaceComparisonOperator	org.dynjs.runtime.Reference.hasPrimitiveBase()Z:30 - ReplaceComparisonOperator != -> -1
+8	ReplaceComparisonOperator	org.dynjs.runtime.Reference.hasPrimitiveBase()Z:30 - ReplaceComparisonOperator != -> <
+9	ReplaceComparisonOperator	org.dynjs.runtime.Reference.hasPrimitiveBase()Z:30 - ReplaceComparisonOperator != -> >
+10	ReplaceComparisonOperator	org.dynjs.runtime.Reference.hasPrimitiveBase()Z:30 - ReplaceComparisonOperator == -> -2
+11	ReplaceComparisonOperator	org.dynjs.runtime.Reference.hasPrimitiveBase()Z:30 - ReplaceComparisonOperator == -> >=
+12	ReplaceComparisonOperator	org.dynjs.runtime.Reference.hasPrimitiveBase()Z:30 - ReplaceComparisonOperator == -> <=
+13	ReplaceConstant	org.dynjs.runtime.Reference.hasPrimitiveBase()Z:30 - ReplaceConstant - 1 -> 0
+14	ReplaceConstant	org.dynjs.runtime.Reference.hasPrimitiveBase()Z:30 - ReplaceConstant - 0 -> 1
+15	ReplaceComparisonOperator	org.dynjs.runtime.Reference.isPropertyReference()Z:35 - ReplaceComparisonOperator != -> -1
+16	ReplaceComparisonOperator	org.dynjs.runtime.Reference.isPropertyReference()Z:35 - ReplaceComparisonOperator != -> <
+17	ReplaceComparisonOperator	org.dynjs.runtime.Reference.isPropertyReference()Z:35 - ReplaceComparisonOperator != -> >
+18	ReplaceConstant	org.dynjs.runtime.Reference.isPropertyReference()Z:35 - ReplaceConstant - 1 -> 0
+19	ReplaceConstant	org.dynjs.runtime.Reference.isPropertyReference()Z:35 - ReplaceConstant - 0 -> 1
+20	ReplaceComparisonOperator	org.dynjs.runtime.Reference.isUnresolvableReference()Z:39 - ReplaceComparisonOperator != -> ==
+21	ReplaceConstant	org.dynjs.runtime.Reference.isUnresolvableReference()Z:39 - ReplaceConstant - 1 -> 0
+22	ReplaceConstant	org.dynjs.runtime.Reference.isUnresolvableReference()Z:39 - ReplaceConstant - 0 -> 1
+23	ReplaceComparisonOperator	org.dynjs.runtime.Reference.getValue(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:45 - ReplaceComparisonOperator == -> -2
+24	ReplaceComparisonOperator	org.dynjs.runtime.Reference.getValue(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:45 - ReplaceComparisonOperator == -> >=
+25	ReplaceComparisonOperator	org.dynjs.runtime.Reference.getValue(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:45 - ReplaceComparisonOperator == -> <=
+26	ReplaceConstant	org.dynjs.runtime.Reference.getValue(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:46 - ReplaceConstant -  is not defined -> 
+27	ReplaceComparisonOperator	org.dynjs.runtime.Reference.getValue(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:49 - ReplaceComparisonOperator == -> -2
+28	ReplaceComparisonOperator	org.dynjs.runtime.Reference.getValue(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:49 - ReplaceComparisonOperator == -> >=
+29	ReplaceComparisonOperator	org.dynjs.runtime.Reference.getValue(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:49 - ReplaceComparisonOperator == -> <=
+30	ReplaceComparisonOperator	org.dynjs.runtime.Reference.getValue(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:50 - ReplaceComparisonOperator != -> -1
+31	ReplaceComparisonOperator	org.dynjs.runtime.Reference.getValue(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:50 - ReplaceComparisonOperator != -> <
+32	ReplaceComparisonOperator	org.dynjs.runtime.Reference.getValue(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:50 - ReplaceComparisonOperator != -> >
+33	InsertUnaryOp	org.dynjs.runtime.Reference.getValue(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:56 - InsertUnaryOp Negation
+34	ReplaceConstant	org.dynjs.runtime.Reference.primitiveGet(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/runtime/JSObject;Ljava/lang/String;)Ljava/lang/Object;:64 - ReplaceConstant - 0 -> 1
+35	ReplaceComparisonOperator	org.dynjs.runtime.Reference.primitiveGet(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/runtime/JSObject;Ljava/lang/String;)Ljava/lang/Object;:65 - ReplaceComparisonOperator != -> ==
+36	ReplaceComparisonOperator	org.dynjs.runtime.Reference.primitiveGet(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/runtime/JSObject;Ljava/lang/String;)Ljava/lang/Object;:70 - ReplaceComparisonOperator == -> -2
+37	ReplaceComparisonOperator	org.dynjs.runtime.Reference.primitiveGet(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/runtime/JSObject;Ljava/lang/String;)Ljava/lang/Object;:70 - ReplaceComparisonOperator == -> >=
+38	ReplaceComparisonOperator	org.dynjs.runtime.Reference.primitiveGet(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/runtime/JSObject;Ljava/lang/String;)Ljava/lang/Object;:70 - ReplaceComparisonOperator == -> <=
+39	ReplaceComparisonOperator	org.dynjs.runtime.Reference.primitiveGet(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/runtime/JSObject;Ljava/lang/String;)Ljava/lang/Object;:72 - ReplaceComparisonOperator != null -> = null
+40	ReplaceComparisonOperator	org.dynjs.runtime.Reference.primitiveGet(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/runtime/JSObject;Ljava/lang/String;)Ljava/lang/Object;:80 - ReplaceComparisonOperator != -> ==
+41	ReplaceConstant	org.dynjs.runtime.Reference.primitiveGet(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/runtime/JSObject;Ljava/lang/String;)Ljava/lang/Object;:84 - ReplaceConstant - 0 -> 1
+42	ReplaceComparisonOperator	org.dynjs.runtime.Reference.putValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)V:89 - ReplaceComparisonOperator == -> -2
+43	ReplaceComparisonOperator	org.dynjs.runtime.Reference.putValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)V:89 - ReplaceComparisonOperator == -> >=
+44	ReplaceComparisonOperator	org.dynjs.runtime.Reference.putValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)V:89 - ReplaceComparisonOperator == -> <=
+45	ReplaceComparisonOperator	org.dynjs.runtime.Reference.putValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)V:90 - ReplaceComparisonOperator == -> -2
+46	ReplaceComparisonOperator	org.dynjs.runtime.Reference.putValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)V:90 - ReplaceComparisonOperator == -> >=
+47	ReplaceComparisonOperator	org.dynjs.runtime.Reference.putValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)V:90 - ReplaceComparisonOperator == -> <=
+48	ReplaceConstant	org.dynjs.runtime.Reference.putValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)V:91 - ReplaceConstant -  is not defined -> 
+49	ReplaceConstant	org.dynjs.runtime.Reference.putValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)V:93 - ReplaceConstant - 0 -> 1
+50	ReplaceComparisonOperator	org.dynjs.runtime.Reference.putValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)V:95 - ReplaceComparisonOperator == -> -2
+51	ReplaceComparisonOperator	org.dynjs.runtime.Reference.putValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)V:95 - ReplaceComparisonOperator == -> >=
+52	ReplaceComparisonOperator	org.dynjs.runtime.Reference.putValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)V:95 - ReplaceComparisonOperator == -> <=
+53	ReplaceComparisonOperator	org.dynjs.runtime.Reference.putValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)V:96 - ReplaceComparisonOperator != -> -1
+54	ReplaceComparisonOperator	org.dynjs.runtime.Reference.putValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)V:96 - ReplaceComparisonOperator != -> <
+55	ReplaceComparisonOperator	org.dynjs.runtime.Reference.putValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)V:96 - ReplaceComparisonOperator != -> >
+56	InsertUnaryOp	org.dynjs.runtime.Reference.putValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)V:97 - InsertUnaryOp Negation
+57	InsertUnaryOp	org.dynjs.runtime.Reference.putValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)V:102 - InsertUnaryOp Negation
+58	ReplaceComparisonOperator	org.dynjs.runtime.Reference.isValidForPrePostIncrementDecrement()Z:107 - ReplaceComparisonOperator == -> -2
+59	ReplaceComparisonOperator	org.dynjs.runtime.Reference.isValidForPrePostIncrementDecrement()Z:107 - ReplaceComparisonOperator == -> >=
+60	ReplaceComparisonOperator	org.dynjs.runtime.Reference.isValidForPrePostIncrementDecrement()Z:107 - ReplaceComparisonOperator == -> <=
+61	ReplaceComparisonOperator	org.dynjs.runtime.Reference.isValidForPrePostIncrementDecrement()Z:107 - ReplaceComparisonOperator == -> -2
+62	ReplaceComparisonOperator	org.dynjs.runtime.Reference.isValidForPrePostIncrementDecrement()Z:107 - ReplaceComparisonOperator == -> >=
+63	ReplaceComparisonOperator	org.dynjs.runtime.Reference.isValidForPrePostIncrementDecrement()Z:107 - ReplaceComparisonOperator == -> <=
+64	ReplaceConstant	org.dynjs.runtime.Reference.isValidForPrePostIncrementDecrement()Z:108 - ReplaceConstant - eval -> 
+65	ReplaceComparisonOperator	org.dynjs.runtime.Reference.isValidForPrePostIncrementDecrement()Z:108 - ReplaceComparisonOperator != -> -1
+66	ReplaceComparisonOperator	org.dynjs.runtime.Reference.isValidForPrePostIncrementDecrement()Z:108 - ReplaceComparisonOperator != -> <
+67	ReplaceComparisonOperator	org.dynjs.runtime.Reference.isValidForPrePostIncrementDecrement()Z:108 - ReplaceComparisonOperator != -> >
+68	ReplaceConstant	org.dynjs.runtime.Reference.isValidForPrePostIncrementDecrement()Z:108 - ReplaceConstant - arguments -> 
+69	ReplaceComparisonOperator	org.dynjs.runtime.Reference.isValidForPrePostIncrementDecrement()Z:108 - ReplaceComparisonOperator == -> -2
+70	ReplaceComparisonOperator	org.dynjs.runtime.Reference.isValidForPrePostIncrementDecrement()Z:108 - ReplaceComparisonOperator == -> >=
+71	ReplaceComparisonOperator	org.dynjs.runtime.Reference.isValidForPrePostIncrementDecrement()Z:108 - ReplaceComparisonOperator == -> <=
+72	ReplaceConstant	org.dynjs.runtime.Reference.isValidForPrePostIncrementDecrement()Z:109 - ReplaceConstant - 0 -> 1
+73	ReplaceConstant	org.dynjs.runtime.Reference.isValidForPrePostIncrementDecrement()Z:112 - ReplaceConstant - 1 -> 0
+74	ReplaceConstant	org.dynjs.runtime.Reference.toString()Ljava/lang/String;:116 - ReplaceConstant - [Reference: name= -> 
+75	ReplaceConstant	org.dynjs.runtime.Reference.toString()Ljava/lang/String;:116 - ReplaceConstant - ; base= -> 
+76	ReplaceConstant	org.dynjs.runtime.Reference.toString()Ljava/lang/String;:116 - ReplaceConstant -  ( -> 
+77	ReplaceConstant	org.dynjs.runtime.Reference.toString()Ljava/lang/String;:116 - ReplaceConstant - )] -> 

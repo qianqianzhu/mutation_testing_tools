@@ -1,0 +1,156 @@
+0	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.<init>()V:189 - ReplaceConstant - 0.0 -> 1.0
+1	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.<init>()V:189 - ReplaceConstant - 0.0 -> -1.0
+2	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.<init>()V:189 - ReplaceConstant - 1.0 -> 0.0
+3	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.<init>()V:189 - ReplaceConstant - 1.0 -> -1.0
+4	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.<init>()V:189 - ReplaceConstant - 1.0 -> 2.0
+5	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.<init>(DDLjava/awt/Paint;)V:202 - InsertUnaryOp Negation of lowerBound
+6	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.<init>(DDLjava/awt/Paint;)V:202 - InsertUnaryOp Negation of upperBound
+7	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.<init>(DDLjava/awt/Paint;)V:202 - ReplaceComparisonOperator < -> -2
+8	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.<init>(DDLjava/awt/Paint;)V:202 - ReplaceComparisonOperator < -> !=
+9	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.<init>(DDLjava/awt/Paint;)V:202 - ReplaceComparisonOperator < -> <=
+10	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.<init>(DDLjava/awt/Paint;)V:203 - ReplaceConstant - Requires lowerBound < upperBound. -> 
+11	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.<init>(DDLjava/awt/Paint;)V:206 - ReplaceConstant - defaultPaint -> 
+12	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.<init>(DDLjava/awt/Paint;)V:207 - InsertUnaryOp Negation of lowerBound
+13	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.<init>(DDLjava/awt/Paint;)V:208 - InsertUnaryOp Negation of upperBound
+14	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getLowerBound()D:231 - InsertUnaryOp Negation
+15	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getUpperBound()D:243 - InsertUnaryOp Negation
+16	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:271 - InsertUnaryOp Negation of value
+17	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:273 - InsertUnaryOp Negation of index
+18	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:273 - InsertUnaryOp IINC 1 index
+19	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:273 - InsertUnaryOp IINC -1 index
+20	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:273 - ReplaceComparisonOperator < -> -2
+21	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:273 - ReplaceComparisonOperator < -> !=
+22	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:273 - ReplaceComparisonOperator < -> <=
+23	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:274 - InsertUnaryOp Negation of index
+24	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:274 - InsertUnaryOp IINC 1 index
+25	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:274 - InsertUnaryOp IINC -1 index
+26	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:277 - InsertUnaryOp Negation of index
+27	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:277 - InsertUnaryOp IINC 1 index
+28	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:277 - InsertUnaryOp IINC -1 index
+29	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:277 - ReplaceConstant - 1 -> 0
+30	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:277 - ReplaceArithmeticOperator + -> %
+31	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:277 - ReplaceArithmeticOperator + -> -
+32	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:277 - ReplaceArithmeticOperator + -> *
+33	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.add(DLjava/awt/Paint;)V:277 - ReplaceArithmeticOperator + -> /
+34	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:294 - InsertUnaryOp Negation of value
+35	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:294 - InsertUnaryOp Negation
+36	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:294 - ReplaceComparisonOperator >= -> -1
+37	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:294 - ReplaceComparisonOperator >= -> ==
+38	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:294 - ReplaceComparisonOperator >= -> >
+39	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:297 - InsertUnaryOp Negation of value
+40	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:297 - InsertUnaryOp Negation
+41	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:297 - ReplaceComparisonOperator <= -> -1
+42	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:297 - ReplaceComparisonOperator <= -> ==
+43	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:297 - ReplaceComparisonOperator <= -> <
+44	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:302 - InsertUnaryOp Negation of count
+45	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:302 - InsertUnaryOp IINC 1 count
+46	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:302 - InsertUnaryOp IINC -1 count
+47	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:302 - ReplaceComparisonOperator != -> -1
+48	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:302 - ReplaceComparisonOperator != -> <
+49	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:302 - ReplaceComparisonOperator != -> >
+50	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:307 - ReplaceConstant - 0 -> 1
+51	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:308 - InsertUnaryOp Negation of value
+52	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:308 - InsertUnaryOp Negation
+53	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:308 - ReplaceComparisonOperator >= -> -1
+54	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:308 - ReplaceComparisonOperator >= -> ==
+55	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:308 - ReplaceComparisonOperator >= -> >
+56	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:313 - ReplaceConstant - 0 -> 1
+57	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:314 - ReplaceConstant - 1 -> 0
+58	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:314 - ReplaceArithmeticOperator - -> +
+59	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:314 - ReplaceArithmeticOperator - -> %
+60	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:314 - ReplaceArithmeticOperator - -> *
+61	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:314 - ReplaceArithmeticOperator - -> /
+62	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:315 - InsertUnaryOp Negation of high
+63	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:315 - InsertUnaryOp IINC 1 high
+64	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:315 - InsertUnaryOp IINC -1 high
+65	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:315 - InsertUnaryOp Negation of low
+66	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:315 - InsertUnaryOp IINC 1 low
+67	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:315 - InsertUnaryOp IINC -1 low
+68	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:315 - ReplaceArithmeticOperator - -> +
+69	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:315 - ReplaceArithmeticOperator - -> %
+70	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:315 - ReplaceArithmeticOperator - -> *
+71	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:315 - ReplaceArithmeticOperator - -> /
+72	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:315 - ReplaceConstant - 1 -> 0
+73	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:315 - ReplaceComparisonOperator <= -> -1
+74	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:315 - ReplaceComparisonOperator <= -> <
+75	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:315 - ReplaceComparisonOperator <= -> ==
+76	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - InsertUnaryOp Negation of low
+77	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - InsertUnaryOp IINC 1 low
+78	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - InsertUnaryOp IINC -1 low
+79	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - InsertUnaryOp Negation of high
+80	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - InsertUnaryOp IINC 1 high
+81	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - InsertUnaryOp IINC -1 high
+82	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - ReplaceArithmeticOperator + -> %
+83	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - ReplaceArithmeticOperator + -> -
+84	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - ReplaceArithmeticOperator + -> *
+85	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - ReplaceArithmeticOperator + -> /
+86	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - ReplaceConstant - 2 -> 0
+87	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - ReplaceConstant - 2 -> 1
+88	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - ReplaceConstant - 2 -> -1
+89	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - ReplaceConstant - 2 -> 3
+90	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - ReplaceArithmeticOperator / -> +
+91	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - ReplaceArithmeticOperator / -> %
+92	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - ReplaceArithmeticOperator / -> -
+93	ReplaceArithmeticOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:316 - ReplaceArithmeticOperator / -> *
+94	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:317 - InsertUnaryOp Negation of current
+95	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:317 - InsertUnaryOp IINC 1 current
+96	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:317 - InsertUnaryOp IINC -1 current
+97	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:318 - InsertUnaryOp Negation of value
+98	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:318 - InsertUnaryOp Negation
+99	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:318 - ReplaceComparisonOperator < -> -2
+100	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:318 - ReplaceComparisonOperator < -> !=
+101	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:318 - ReplaceComparisonOperator < -> <=
+102	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:319 - InsertUnaryOp Negation of current
+103	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:319 - InsertUnaryOp IINC 1 current
+104	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:319 - InsertUnaryOp IINC -1 current
+105	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:322 - InsertUnaryOp Negation of current
+106	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:322 - InsertUnaryOp IINC 1 current
+107	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:322 - InsertUnaryOp IINC -1 current
+108	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:325 - InsertUnaryOp Negation of high
+109	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:325 - InsertUnaryOp IINC 1 high
+110	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:325 - InsertUnaryOp IINC -1 high
+111	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:325 - InsertUnaryOp Negation of low
+112	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:325 - InsertUnaryOp IINC 1 low
+113	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:325 - InsertUnaryOp IINC -1 low
+114	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:325 - ReplaceComparisonOperator <= -> -1
+115	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:325 - ReplaceComparisonOperator <= -> <
+116	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:325 - ReplaceComparisonOperator <= -> ==
+117	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:326 - InsertUnaryOp Negation of high
+118	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:326 - InsertUnaryOp IINC 1 high
+119	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:326 - InsertUnaryOp IINC -1 high
+120	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:327 - InsertUnaryOp Negation of value
+121	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:327 - InsertUnaryOp Negation
+122	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:327 - ReplaceComparisonOperator >= -> -1
+123	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:327 - ReplaceComparisonOperator >= -> ==
+124	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:327 - ReplaceComparisonOperator >= -> >
+125	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:328 - InsertUnaryOp Negation of low
+126	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:328 - InsertUnaryOp IINC 1 low
+127	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:328 - InsertUnaryOp IINC -1 low
+128	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.getPaint(D)Ljava/awt/Paint;:331 - ReplaceComparisonOperator = null -> != null
+129	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:344 - ReplaceComparisonOperator != -> ==
+130	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:345 - ReplaceConstant - 1 -> 0
+131	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:347 - ReplaceComparisonOperator != -> -1
+132	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:347 - ReplaceComparisonOperator != -> <
+133	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:347 - ReplaceComparisonOperator != -> >
+134	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:348 - ReplaceConstant - 0 -> 1
+135	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:351 - InsertUnaryOp Negation
+136	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:351 - InsertUnaryOp Negation
+137	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:351 - ReplaceComparisonOperator == -> -2
+138	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:351 - ReplaceComparisonOperator == -> >=
+139	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:351 - ReplaceComparisonOperator == -> <=
+140	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:352 - ReplaceConstant - 0 -> 1
+141	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:354 - InsertUnaryOp Negation
+142	InsertUnaryOp	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:354 - InsertUnaryOp Negation
+143	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:354 - ReplaceComparisonOperator == -> -2
+144	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:354 - ReplaceComparisonOperator == -> >=
+145	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:354 - ReplaceComparisonOperator == -> <=
+146	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:355 - ReplaceConstant - 0 -> 1
+147	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:357 - ReplaceComparisonOperator != -> -1
+148	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:357 - ReplaceComparisonOperator != -> <
+149	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:357 - ReplaceComparisonOperator != -> >
+150	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:358 - ReplaceConstant - 0 -> 1
+151	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:360 - ReplaceComparisonOperator != -> -1
+152	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:360 - ReplaceComparisonOperator != -> <
+153	ReplaceComparisonOperator	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:360 - ReplaceComparisonOperator != -> >
+154	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:361 - ReplaceConstant - 0 -> 1
+155	ReplaceConstant	org.jfree.chart.renderer.LookupPaintScale.equals(Ljava/lang/Object;)Z:363 - ReplaceConstant - 1 -> 0

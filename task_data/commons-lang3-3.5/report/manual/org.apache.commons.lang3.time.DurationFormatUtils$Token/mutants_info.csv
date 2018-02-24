@@ -1,0 +1,50 @@
+0	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils$Token.containsTokenWithValue([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;Ljava/lang/Object;)Z:583 - ReplaceConstant - 0 -> 1
+1	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.containsTokenWithValue([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;Ljava/lang/Object;)Z:583 - ReplaceComparisonOperator >= -> -1
+2	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.containsTokenWithValue([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;Ljava/lang/Object;)Z:583 - ReplaceComparisonOperator >= -> >
+3	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.containsTokenWithValue([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;Ljava/lang/Object;)Z:583 - ReplaceComparisonOperator >= -> ==
+4	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.containsTokenWithValue([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;Ljava/lang/Object;)Z:584 - ReplaceComparisonOperator != -> ==
+5	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils$Token.containsTokenWithValue([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;Ljava/lang/Object;)Z:585 - ReplaceConstant - 1 -> 0
+6	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils$Token.containsTokenWithValue([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;Ljava/lang/Object;)Z:588 - ReplaceConstant - 0 -> 1
+7	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils$Token.<init>(Ljava/lang/Object;)V:601 - ReplaceConstant - 1 -> 0
+8	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.<init>(Ljava/lang/Object;I)V:613 - InsertUnaryOp Negation of count
+9	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.<init>(Ljava/lang/Object;I)V:613 - InsertUnaryOp IINC 1 count
+10	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.<init>(Ljava/lang/Object;I)V:613 - InsertUnaryOp IINC -1 count
+11	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.increment()V:620 - InsertUnaryOp Negation
+12	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.increment()V:620 - InsertUnaryOp +1
+13	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.increment()V:620 - InsertUnaryOp -1
+14	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils$Token.increment()V:620 - ReplaceConstant - 1 -> 0
+15	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.increment()V:620 - ReplaceArithmeticOperator + -> %
+16	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.increment()V:620 - ReplaceArithmeticOperator + -> -
+17	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.increment()V:620 - ReplaceArithmeticOperator + -> *
+18	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.increment()V:620 - ReplaceArithmeticOperator + -> /
+19	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.getCount()I:629 - InsertUnaryOp Negation
+20	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.getCount()I:629 - InsertUnaryOp +1
+21	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.getCount()I:629 - InsertUnaryOp -1
+22	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:649 - ReplaceComparisonOperator == -> -2
+23	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:649 - ReplaceComparisonOperator == -> >=
+24	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:649 - ReplaceComparisonOperator == -> <=
+25	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:651 - ReplaceComparisonOperator == -> !=
+26	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:652 - ReplaceConstant - 0 -> 1
+27	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:654 - InsertUnaryOp Negation
+28	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:654 - InsertUnaryOp +1
+29	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:654 - InsertUnaryOp -1
+30	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:654 - InsertUnaryOp Negation
+31	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:654 - InsertUnaryOp +1
+32	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:654 - InsertUnaryOp -1
+33	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:654 - ReplaceComparisonOperator == -> -2
+34	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:654 - ReplaceComparisonOperator == -> >=
+35	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:654 - ReplaceComparisonOperator == -> <=
+36	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:655 - ReplaceConstant - 0 -> 1
+37	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:657 - ReplaceComparisonOperator == -> -2
+38	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:657 - ReplaceComparisonOperator == -> >=
+39	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:657 - ReplaceComparisonOperator == -> <=
+40	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:659 - ReplaceComparisonOperator == -> -2
+41	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:659 - ReplaceComparisonOperator == -> >=
+42	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:659 - ReplaceComparisonOperator == -> <=
+43	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:662 - ReplaceComparisonOperator != -> ==
+44	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:662 - ReplaceConstant - 1 -> 0
+45	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:662 - ReplaceConstant - 0 -> 1
+46	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils$Token.equals(Ljava/lang/Object;)Z:665 - ReplaceConstant - 0 -> 1
+47	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.toString()Ljava/lang/String;:687 - InsertUnaryOp Negation
+48	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.toString()Ljava/lang/String;:687 - InsertUnaryOp +1
+49	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils$Token.toString()Ljava/lang/String;:687 - InsertUnaryOp -1

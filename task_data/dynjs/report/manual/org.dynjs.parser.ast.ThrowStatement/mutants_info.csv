@@ -1,0 +1,12 @@
+0	ReplaceConstant	org.dynjs.parser.ast.ThrowStatement.getSizeMetric()I:44 - ReplaceConstant - 1 -> 0
+1	ReplaceArithmeticOperator	org.dynjs.parser.ast.ThrowStatement.getSizeMetric()I:44 - ReplaceArithmeticOperator + -> %
+2	ReplaceArithmeticOperator	org.dynjs.parser.ast.ThrowStatement.getSizeMetric()I:44 - ReplaceArithmeticOperator + -> -
+3	ReplaceArithmeticOperator	org.dynjs.parser.ast.ThrowStatement.getSizeMetric()I:44 - ReplaceArithmeticOperator + -> *
+4	ReplaceArithmeticOperator	org.dynjs.parser.ast.ThrowStatement.getSizeMetric()I:44 - ReplaceArithmeticOperator + -> /
+5	InsertUnaryOp	org.dynjs.parser.ast.ThrowStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:49 - InsertUnaryOp Negation of debug
+6	InsertUnaryOp	org.dynjs.parser.ast.ThrowStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:49 - InsertUnaryOp IINC 1 debug
+7	InsertUnaryOp	org.dynjs.parser.ast.ThrowStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:49 - InsertUnaryOp IINC -1 debug
+8	ReplaceConstant	org.dynjs.parser.ast.ThrowStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:54 - ReplaceConstant - throw  -> 
+9	InsertUnaryOp	org.dynjs.parser.ast.ThrowStatement.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:59 - InsertUnaryOp Negation of strict
+10	InsertUnaryOp	org.dynjs.parser.ast.ThrowStatement.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:59 - InsertUnaryOp IINC 1 strict
+11	InsertUnaryOp	org.dynjs.parser.ast.ThrowStatement.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:59 - InsertUnaryOp IINC -1 strict

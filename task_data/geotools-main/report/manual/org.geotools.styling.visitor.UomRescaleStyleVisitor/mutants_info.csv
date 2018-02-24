@@ -1,0 +1,73 @@
+0	InsertUnaryOp	org.geotools.styling.visitor.UomRescaleStyleVisitor.<init>(D)V:74 - InsertUnaryOp Negation of mapScale
+1	ReplaceConstant	org.geotools.styling.visitor.UomRescaleStyleVisitor.<init>(D)V:74 - ReplaceConstant - 0.0 -> 1.0
+2	ReplaceConstant	org.geotools.styling.visitor.UomRescaleStyleVisitor.<init>(D)V:74 - ReplaceConstant - 0.0 -> -1.0
+3	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.<init>(D)V:74 - ReplaceComparisonOperator > -> -2
+4	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.<init>(D)V:74 - ReplaceComparisonOperator > -> !=
+5	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.<init>(D)V:74 - ReplaceComparisonOperator > -> >=
+6	ReplaceConstant	org.geotools.styling.visitor.UomRescaleStyleVisitor.<init>(D)V:75 - ReplaceConstant - The mapScale is out of range. Value is  -> 
+7	InsertUnaryOp	org.geotools.styling.visitor.UomRescaleStyleVisitor.<init>(D)V:75 - InsertUnaryOp Negation of mapScale
+8	ReplaceConstant	org.geotools.styling.visitor.UomRescaleStyleVisitor.<init>(D)V:76 - ReplaceConstant - . It must be positive. -> 
+9	InsertUnaryOp	org.geotools.styling.visitor.UomRescaleStyleVisitor.<init>(D)V:78 - InsertUnaryOp Negation of mapScale
+10	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Lorg/opengis/filter/expression/Expression;Ljavax/measure/unit/Unit;)Lorg/opengis/filter/expression/Expression;:90 - ReplaceComparisonOperator = null -> != null
+11	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Lorg/opengis/filter/expression/Expression;Ljavax/measure/unit/Unit;)Lorg/opengis/filter/expression/Expression;:90 - ReplaceComparisonOperator == -> -2
+12	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Lorg/opengis/filter/expression/Expression;Ljavax/measure/unit/Unit;)Lorg/opengis/filter/expression/Expression;:90 - ReplaceComparisonOperator == -> >=
+13	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Lorg/opengis/filter/expression/Expression;Ljavax/measure/unit/Unit;)Lorg/opengis/filter/expression/Expression;:90 - ReplaceComparisonOperator == -> <=
+14	InsertUnaryOp	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Lorg/opengis/filter/expression/Expression;Ljavax/measure/unit/Unit;)Lorg/opengis/filter/expression/Expression;:95 - InsertUnaryOp Negation
+15	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Ljava/util/List;Ljavax/measure/unit/Unit;)Ljava/util/List;:102 - ReplaceComparisonOperator = null -> != null
+16	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Ljava/util/List;Ljavax/measure/unit/Unit;)Ljava/util/List;:102 - ReplaceComparisonOperator == -> -2
+17	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Ljava/util/List;Ljavax/measure/unit/Unit;)Ljava/util/List;:102 - ReplaceComparisonOperator == -> >=
+18	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Ljava/util/List;Ljavax/measure/unit/Unit;)Ljava/util/List;:102 - ReplaceComparisonOperator == -> <=
+19	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Ljava/util/List;Ljavax/measure/unit/Unit;)Ljava/util/List;:106 - ReplaceComparisonOperator == -> -2
+20	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Ljava/util/List;Ljavax/measure/unit/Unit;)Ljava/util/List;:106 - ReplaceComparisonOperator == -> >=
+21	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Ljava/util/List;Ljavax/measure/unit/Unit;)Ljava/util/List;:106 - ReplaceComparisonOperator == -> <=
+22	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Ljava/lang/String;Ljavax/measure/unit/Unit;)Ljava/lang/String;:121 - ReplaceComparisonOperator != null -> = null
+23	InsertUnaryOp	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Ljava/lang/String;Ljavax/measure/unit/Unit;)Ljava/lang/String;:126 - InsertUnaryOp Negation
+24	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescaleStroke(Lorg/geotools/styling/Stroke;Ljavax/measure/unit/Unit;)V:137 - ReplaceComparisonOperator = null -> != null
+25	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Lorg/geotools/styling/Graphic;Ljavax/measure/unit/Unit;)V:158 - ReplaceComparisonOperator = null -> != null
+26	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Lorg/geotools/styling/Graphic;Ljavax/measure/unit/Unit;)V:163 - ReplaceComparisonOperator = null -> != null
+27	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Lorg/geotools/styling/Graphic;Ljavax/measure/unit/Unit;)V:169 - ReplaceComparisonOperator = null -> != null
+28	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Lorg/geotools/styling/Graphic;Ljavax/measure/unit/Unit;)V:170 - ReplaceComparisonOperator == -> -2
+29	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Lorg/geotools/styling/Graphic;Ljavax/measure/unit/Unit;)V:170 - ReplaceComparisonOperator == -> >=
+30	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Lorg/geotools/styling/Graphic;Ljavax/measure/unit/Unit;)V:170 - ReplaceComparisonOperator == -> <=
+31	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Lorg/geotools/styling/Graphic;Ljavax/measure/unit/Unit;)V:171 - ReplaceComparisonOperator == -> -2
+32	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Lorg/geotools/styling/Graphic;Ljavax/measure/unit/Unit;)V:171 - ReplaceComparisonOperator == -> >=
+33	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescale(Lorg/geotools/styling/Graphic;Ljavax/measure/unit/Unit;)V:171 - ReplaceComparisonOperator == -> <=
+34	ReplaceConstant	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/PolygonSymbolizer;)V:200 - ReplaceConstant - graphic-margin -> 
+35	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.rescaleFill(Lorg/geotools/styling/Fill;Ljavax/measure/unit/Unit;)V:206 - ReplaceComparisonOperator = null -> != null
+36	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:219 - ReplaceComparisonOperator == -> -2
+37	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:219 - ReplaceComparisonOperator == -> >=
+38	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:219 - ReplaceComparisonOperator == -> <=
+39	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:225 - ReplaceComparisonOperator == -> -2
+40	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:225 - ReplaceComparisonOperator == -> >=
+41	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:225 - ReplaceComparisonOperator == -> <=
+42	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:229 - ReplaceComparisonOperator = null -> != null
+43	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:234 - ReplaceComparisonOperator == -> -2
+44	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:234 - ReplaceComparisonOperator == -> >=
+45	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:234 - ReplaceComparisonOperator == -> <=
+46	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:245 - ReplaceComparisonOperator = null -> != null
+47	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:249 - ReplaceComparisonOperator == -> -2
+48	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:249 - ReplaceComparisonOperator == -> >=
+49	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:249 - ReplaceComparisonOperator == -> <=
+50	ReplaceConstant	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:257 - ReplaceConstant - maxDisplacement -> 
+51	ReplaceConstant	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:258 - ReplaceConstant - spaceAround -> 
+52	ReplaceConstant	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:259 - ReplaceConstant - minGroupDistance -> 
+53	ReplaceConstant	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:260 - ReplaceConstant - repeat -> 
+54	ReplaceConstant	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:261 - ReplaceConstant - autoWrap -> 
+55	ReplaceConstant	org.geotools.styling.visitor.UomRescaleStyleVisitor.visit(Lorg/geotools/styling/TextSymbolizer;)V:262 - ReplaceConstant - graphic-margin -> 
+56	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.scaleIntOption(Ljava/util/Map;Ljava/lang/String;Ljavax/measure/unit/Unit;)V:268 - ReplaceComparisonOperator == -> -2
+57	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.scaleIntOption(Ljava/util/Map;Ljava/lang/String;Ljavax/measure/unit/Unit;)V:268 - ReplaceComparisonOperator == -> >=
+58	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.scaleIntOption(Ljava/util/Map;Ljava/lang/String;Ljavax/measure/unit/Unit;)V:268 - ReplaceComparisonOperator == -> <=
+59	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.scaleIntArrayOption(Ljava/util/Map;Ljava/lang/String;Ljavax/measure/unit/Unit;)V:277 - ReplaceComparisonOperator == -> -2
+60	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.scaleIntArrayOption(Ljava/util/Map;Ljava/lang/String;Ljavax/measure/unit/Unit;)V:277 - ReplaceComparisonOperator == -> >=
+61	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.scaleIntArrayOption(Ljava/util/Map;Ljava/lang/String;Ljavax/measure/unit/Unit;)V:277 - ReplaceComparisonOperator == -> <=
+62	ReplaceConstant	org.geotools.styling.visitor.UomRescaleStyleVisitor.scaleIntArrayOption(Ljava/util/Map;Ljava/lang/String;Ljavax/measure/unit/Unit;)V:279 - ReplaceConstant - \s+ -> 
+63	ReplaceConstant	org.geotools.styling.visitor.UomRescaleStyleVisitor.scaleIntArrayOption(Ljava/util/Map;Ljava/lang/String;Ljavax/measure/unit/Unit;)V:281 - ReplaceConstant - 0 -> 1
+64	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.scaleIntArrayOption(Ljava/util/Map;Ljava/lang/String;Ljavax/measure/unit/Unit;)V:281 - ReplaceComparisonOperator >= -> -1
+65	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.scaleIntArrayOption(Ljava/util/Map;Ljava/lang/String;Ljavax/measure/unit/Unit;)V:281 - ReplaceComparisonOperator >= -> >
+66	ReplaceComparisonOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.scaleIntArrayOption(Ljava/util/Map;Ljava/lang/String;Ljavax/measure/unit/Unit;)V:281 - ReplaceComparisonOperator >= -> ==
+67	ReplaceConstant	org.geotools.styling.visitor.UomRescaleStyleVisitor.scaleIntArrayOption(Ljava/util/Map;Ljava/lang/String;Ljavax/measure/unit/Unit;)V:283 - ReplaceConstant -   -> 
+68	ReplaceConstant	org.geotools.styling.visitor.UomRescaleStyleVisitor.scaleIntArrayOption(Ljava/util/Map;Ljava/lang/String;Ljavax/measure/unit/Unit;)V:285 - ReplaceConstant - 1 -> 0
+69	ReplaceArithmeticOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.scaleIntArrayOption(Ljava/util/Map;Ljava/lang/String;Ljavax/measure/unit/Unit;)V:285 - ReplaceArithmeticOperator - -> +
+70	ReplaceArithmeticOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.scaleIntArrayOption(Ljava/util/Map;Ljava/lang/String;Ljavax/measure/unit/Unit;)V:285 - ReplaceArithmeticOperator - -> %
+71	ReplaceArithmeticOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.scaleIntArrayOption(Ljava/util/Map;Ljava/lang/String;Ljavax/measure/unit/Unit;)V:285 - ReplaceArithmeticOperator - -> *
+72	ReplaceArithmeticOperator	org.geotools.styling.visitor.UomRescaleStyleVisitor.scaleIntArrayOption(Ljava/util/Map;Ljava/lang/String;Ljavax/measure/unit/Unit;)V:285 - ReplaceArithmeticOperator - -> /

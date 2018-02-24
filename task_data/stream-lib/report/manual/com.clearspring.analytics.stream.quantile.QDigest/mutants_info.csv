@@ -1,0 +1,508 @@
+0	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.<init>(D)V:77 - ReplaceConstant - 1 -> 0
+1	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.<init>(D)V:77 - ReplaceConstant - 1 -> -1
+2	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.<init>(D)V:77 - ReplaceConstant - 1 -> 2
+3	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.<init>(D)V:79 - ReplaceConstant - 16 -> 0
+4	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.<init>(D)V:79 - ReplaceConstant - 16 -> 1
+5	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.<init>(D)V:79 - ReplaceConstant - 16 -> -1
+6	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.<init>(D)V:79 - ReplaceConstant - 16 -> 15
+7	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.<init>(D)V:79 - ReplaceConstant - 16 -> 17
+8	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.<init>(D)V:79 - ReplaceConstant - 0.25 -> 0.0
+9	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.<init>(D)V:79 - ReplaceConstant - 0.25 -> 1.0
+10	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.<init>(D)V:79 - ReplaceConstant - 0.25 -> -1.0
+11	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.<init>(D)V:79 - ReplaceConstant - 0.25 -> -0.75
+12	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.<init>(D)V:79 - ReplaceConstant - 0.25 -> 1.25
+13	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.<init>(D)V:82 - InsertUnaryOp Negation of compressionFactor
+14	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.value2leaf(J)J:86 - InsertUnaryOp Negation
+15	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.value2leaf(J)J:86 - InsertUnaryOp Negation of x
+16	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.value2leaf(J)J:86 - ReplaceArithmeticOperator + -> %
+17	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.value2leaf(J)J:86 - ReplaceArithmeticOperator + -> -
+18	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.value2leaf(J)J:86 - ReplaceArithmeticOperator + -> *
+19	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.value2leaf(J)J:86 - ReplaceArithmeticOperator + -> /
+20	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.leaf2value(J)J:90 - InsertUnaryOp Negation of id
+21	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.leaf2value(J)J:90 - InsertUnaryOp Negation
+22	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.leaf2value(J)J:90 - ReplaceArithmeticOperator - -> +
+23	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.leaf2value(J)J:90 - ReplaceArithmeticOperator - -> %
+24	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.leaf2value(J)J:90 - ReplaceArithmeticOperator - -> *
+25	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.leaf2value(J)J:90 - ReplaceArithmeticOperator - -> /
+26	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.isRoot(J)Z:94 - InsertUnaryOp Negation of id
+27	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.isRoot(J)Z:94 - ReplaceConstant - 1 -> 0
+28	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.isRoot(J)Z:94 - ReplaceConstant - 1 -> -1
+29	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.isRoot(J)Z:94 - ReplaceConstant - 1 -> 2
+30	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.isRoot(J)Z:94 - ReplaceComparisonOperator != -> -1
+31	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.isRoot(J)Z:94 - ReplaceComparisonOperator != -> <
+32	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.isRoot(J)Z:94 - ReplaceComparisonOperator != -> >
+33	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.isRoot(J)Z:94 - ReplaceConstant - 1 -> 0
+34	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.isRoot(J)Z:94 - ReplaceConstant - 0 -> 1
+35	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.isLeaf(J)Z:98 - InsertUnaryOp Negation of id
+36	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.isLeaf(J)Z:98 - InsertUnaryOp Negation
+37	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.isLeaf(J)Z:98 - ReplaceComparisonOperator < -> -2
+38	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.isLeaf(J)Z:98 - ReplaceComparisonOperator < -> !=
+39	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.isLeaf(J)Z:98 - ReplaceComparisonOperator < -> <=
+40	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.isLeaf(J)Z:98 - ReplaceConstant - 1 -> 0
+41	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.isLeaf(J)Z:98 - ReplaceConstant - 0 -> 1
+42	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - InsertUnaryOp Negation of id
+43	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceConstant - 2 -> 0
+44	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceConstant - 2 -> 1
+45	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceConstant - 2 -> -1
+46	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceConstant - 2 -> 3
+47	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceArithmeticOperator % -> +
+48	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceArithmeticOperator % -> -
+49	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceArithmeticOperator % -> *
+50	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceArithmeticOperator % -> /
+51	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceConstant - 0 -> 1
+52	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceConstant - 0 -> -1
+53	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceComparisonOperator != -> -1
+54	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceComparisonOperator != -> <
+55	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceComparisonOperator != -> >
+56	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - InsertUnaryOp Negation of id
+57	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceConstant - 1 -> 0
+58	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceConstant - 1 -> -1
+59	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceConstant - 1 -> 2
+60	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceArithmeticOperator + -> %
+61	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceArithmeticOperator + -> -
+62	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceArithmeticOperator + -> *
+63	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceArithmeticOperator + -> /
+64	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - InsertUnaryOp Negation of id
+65	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceConstant - 1 -> 0
+66	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceConstant - 1 -> -1
+67	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceConstant - 1 -> 2
+68	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceArithmeticOperator - -> +
+69	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceArithmeticOperator - -> %
+70	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceArithmeticOperator - -> *
+71	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.sibling(J)J:102 - ReplaceArithmeticOperator - -> /
+72	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.parent(J)J:106 - InsertUnaryOp Negation of id
+73	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.parent(J)J:106 - ReplaceConstant - 2 -> 0
+74	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.parent(J)J:106 - ReplaceConstant - 2 -> 1
+75	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.parent(J)J:106 - ReplaceConstant - 2 -> -1
+76	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.parent(J)J:106 - ReplaceConstant - 2 -> 3
+77	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.parent(J)J:106 - ReplaceArithmeticOperator / -> +
+78	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.parent(J)J:106 - ReplaceArithmeticOperator / -> %
+79	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.parent(J)J:106 - ReplaceArithmeticOperator / -> -
+80	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.parent(J)J:106 - ReplaceArithmeticOperator / -> *
+81	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.leftChild(J)J:110 - ReplaceConstant - 2 -> 0
+82	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.leftChild(J)J:110 - ReplaceConstant - 2 -> 1
+83	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.leftChild(J)J:110 - ReplaceConstant - 2 -> -1
+84	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.leftChild(J)J:110 - ReplaceConstant - 2 -> 3
+85	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.leftChild(J)J:110 - InsertUnaryOp Negation of id
+86	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.leftChild(J)J:110 - ReplaceArithmeticOperator * -> +
+87	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.leftChild(J)J:110 - ReplaceArithmeticOperator * -> %
+88	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.leftChild(J)J:110 - ReplaceArithmeticOperator * -> -
+89	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.leftChild(J)J:110 - ReplaceArithmeticOperator * -> /
+90	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rightChild(J)J:114 - ReplaceConstant - 2 -> 0
+91	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rightChild(J)J:114 - ReplaceConstant - 2 -> 1
+92	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rightChild(J)J:114 - ReplaceConstant - 2 -> -1
+93	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rightChild(J)J:114 - ReplaceConstant - 2 -> 3
+94	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.rightChild(J)J:114 - InsertUnaryOp Negation of id
+95	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rightChild(J)J:114 - ReplaceArithmeticOperator * -> +
+96	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rightChild(J)J:114 - ReplaceArithmeticOperator * -> %
+97	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rightChild(J)J:114 - ReplaceArithmeticOperator * -> -
+98	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rightChild(J)J:114 - ReplaceArithmeticOperator * -> /
+99	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rightChild(J)J:114 - ReplaceConstant - 1 -> 0
+100	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rightChild(J)J:114 - ReplaceConstant - 1 -> -1
+101	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rightChild(J)J:114 - ReplaceConstant - 1 -> 2
+102	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rightChild(J)J:114 - ReplaceArithmeticOperator + -> %
+103	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rightChild(J)J:114 - ReplaceArithmeticOperator + -> -
+104	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rightChild(J)J:114 - ReplaceArithmeticOperator + -> *
+105	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rightChild(J)J:114 - ReplaceArithmeticOperator + -> /
+106	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.rangeLeft(J)J:118 - InsertUnaryOp Negation of id
+107	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.rangeLeft(J)J:118 - ReplaceComparisonOperator != -> -1
+108	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.rangeLeft(J)J:118 - ReplaceComparisonOperator != -> <
+109	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.rangeLeft(J)J:118 - ReplaceComparisonOperator != -> >
+110	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.rangeLeft(J)J:119 - InsertUnaryOp Negation of id
+111	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.rangeLeft(J)J:121 - InsertUnaryOp Negation of id
+112	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.rangeRight(J)J:125 - InsertUnaryOp Negation of id
+113	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.rangeRight(J)J:125 - ReplaceComparisonOperator != -> -1
+114	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.rangeRight(J)J:125 - ReplaceComparisonOperator != -> <
+115	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.rangeRight(J)J:125 - ReplaceComparisonOperator != -> >
+116	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.rangeRight(J)J:126 - InsertUnaryOp Negation of id
+117	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.rangeRight(J)J:128 - InsertUnaryOp Negation of id
+118	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:133 - InsertUnaryOp Negation of value
+119	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:133 - ReplaceConstant - 0 -> 1
+120	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:133 - ReplaceConstant - 0 -> -1
+121	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:133 - ReplaceComparisonOperator < -> -2
+122	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:133 - ReplaceComparisonOperator < -> !=
+123	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:133 - ReplaceComparisonOperator < -> <=
+124	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:133 - InsertUnaryOp Negation of value
+125	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:133 - ReplaceConstant - 4611686018427387903 -> 0
+126	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:133 - ReplaceConstant - 4611686018427387903 -> 1
+127	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:133 - ReplaceConstant - 4611686018427387903 -> -1
+128	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:133 - ReplaceConstant - 4611686018427387903 -> 4611686018427387902
+129	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:133 - ReplaceConstant - 4611686018427387903 -> 4611686018427387904
+130	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:133 - ReplaceComparisonOperator <= -> -1
+131	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:133 - ReplaceComparisonOperator <= -> ==
+132	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:133 - ReplaceComparisonOperator <= -> <
+133	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:134 - ReplaceConstant - Can only accept values in the range 0..4611686018427387903, got  -> 
+134	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:134 - InsertUnaryOp Negation of value
+135	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:137 - InsertUnaryOp Negation of value
+136	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:137 - InsertUnaryOp Negation
+137	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:137 - ReplaceComparisonOperator < -> -2
+138	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:137 - ReplaceComparisonOperator < -> !=
+139	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:137 - ReplaceComparisonOperator < -> <=
+140	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:138 - InsertUnaryOp Negation of value
+141	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:138 - ReplaceConstant - 1 -> 0
+142	ReplaceBitwiseOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:138 - ReplaceBitwiseOperator << L -> >> L
+143	ReplaceBitwiseOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:138 - ReplaceBitwiseOperator << L -> >>> L
+144	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:141 - InsertUnaryOp Negation of value
+145	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:142 - InsertUnaryOp Negation of leaf
+146	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:142 - ReplaceConstant - 1 -> 0
+147	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:142 - ReplaceConstant - 1 -> -1
+148	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:142 - ReplaceConstant - 1 -> 2
+149	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:143 - InsertUnaryOp Negation
+150	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:143 - ReplaceConstant - 1 -> 0
+151	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:143 - ReplaceConstant - 1 -> -1
+152	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:143 - ReplaceConstant - 1 -> 2
+153	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:143 - ReplaceArithmeticOperator + -> %
+154	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:143 - ReplaceArithmeticOperator + -> -
+155	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:143 - ReplaceArithmeticOperator + -> *
+156	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:143 - ReplaceArithmeticOperator + -> /
+157	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:148 - InsertUnaryOp Negation of leaf
+158	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:149 - ReplaceConstant - 3.0 -> 0.0
+159	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:149 - ReplaceConstant - 3.0 -> 1.0
+160	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:149 - ReplaceConstant - 3.0 -> -1.0
+161	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:149 - ReplaceConstant - 3.0 -> 2.0
+162	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:149 - ReplaceConstant - 3.0 -> 4.0
+163	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:149 - InsertUnaryOp Negation
+164	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:149 - ReplaceArithmeticOperator * -> +
+165	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:149 - ReplaceArithmeticOperator * -> %
+166	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:149 - ReplaceArithmeticOperator * -> -
+167	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:149 - ReplaceArithmeticOperator * -> /
+168	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:149 - ReplaceComparisonOperator <= -> -1
+169	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:149 - ReplaceComparisonOperator <= -> ==
+170	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.offer(J)V:149 - ReplaceComparisonOperator <= -> <
+171	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:155 - InsertUnaryOp Negation
+172	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:155 - InsertUnaryOp Negation
+173	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:155 - ReplaceComparisonOperator == -> -2
+174	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:155 - ReplaceComparisonOperator == -> >=
+175	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:155 - ReplaceComparisonOperator == -> <=
+176	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:156 - ReplaceConstant - Compression factors must be the same: left is  -> 
+177	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:156 - InsertUnaryOp Negation
+178	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:156 - ReplaceConstant - , right is  -> 
+179	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:156 - InsertUnaryOp Negation
+180	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:161 - InsertUnaryOp Negation
+181	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:161 - InsertUnaryOp Negation
+182	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:161 - ReplaceComparisonOperator <= -> -1
+183	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:161 - ReplaceComparisonOperator <= -> ==
+184	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:161 - ReplaceComparisonOperator <= -> <
+185	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:165 - InsertUnaryOp Negation
+186	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:166 - InsertUnaryOp Negation
+187	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:167 - InsertUnaryOp Negation
+188	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:167 - InsertUnaryOp Negation
+189	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:167 - ReplaceArithmeticOperator + -> %
+190	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:167 - ReplaceArithmeticOperator + -> -
+191	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:167 - ReplaceArithmeticOperator + -> *
+192	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:167 - ReplaceArithmeticOperator + -> /
+193	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:168 - ReplaceComparisonOperator == -> -2
+194	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:168 - ReplaceComparisonOperator == -> >=
+195	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:168 - ReplaceComparisonOperator == -> <=
+196	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:169 - InsertUnaryOp Negation of k
+197	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:169 - InsertUnaryOp Negation of k
+198	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:172 - InsertUnaryOp Negation
+199	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:172 - InsertUnaryOp Negation
+200	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:172 - ReplaceComparisonOperator <= -> -1
+201	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:172 - ReplaceComparisonOperator <= -> ==
+202	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:172 - ReplaceComparisonOperator <= -> <
+203	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:173 - InsertUnaryOp Negation
+204	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:176 - ReplaceComparisonOperator == -> -2
+205	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:176 - ReplaceComparisonOperator == -> >=
+206	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:176 - ReplaceComparisonOperator == -> <=
+207	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:177 - InsertUnaryOp Negation of k
+208	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:177 - InsertUnaryOp Negation of k
+209	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:177 - InsertUnaryOp Negation of k
+210	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:177 - ReplaceArithmeticOperator + -> %
+211	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:177 - ReplaceArithmeticOperator + -> -
+212	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:177 - ReplaceArithmeticOperator + -> *
+213	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.unionOf(Lcom/clearspring/analytics/stream/quantile/QDigest;Lcom/clearspring/analytics/stream/quantile/QDigest;)Lcom/clearspring/analytics/stream/quantile/QDigest;:177 - ReplaceArithmeticOperator + -> /
+214	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:186 - ReplaceConstant - 16 -> 0
+215	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:186 - ReplaceConstant - 16 -> 1
+216	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:186 - ReplaceConstant - 16 -> -1
+217	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:186 - ReplaceConstant - 16 -> 15
+218	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:186 - ReplaceConstant - 16 -> 17
+219	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:186 - ReplaceConstant - 0.25 -> 0.0
+220	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:186 - ReplaceConstant - 0.25 -> 1.0
+221	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:186 - ReplaceConstant - 0.25 -> -1.0
+222	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:186 - ReplaceConstant - 0.25 -> -0.75
+223	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:186 - ReplaceConstant - 0.25 -> 1.25
+224	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:197 - InsertUnaryOp Negation of newCapacity
+225	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:197 - InsertUnaryOp Negation
+226	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:197 - ReplaceArithmeticOperator / -> +
+227	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:197 - ReplaceArithmeticOperator / -> %
+228	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:197 - ReplaceArithmeticOperator / -> -
+229	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:197 - ReplaceArithmeticOperator / -> *
+230	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:197 - ReplaceConstant - 1 -> 0
+231	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:197 - ReplaceConstant - 1 -> -1
+232	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:197 - ReplaceConstant - 1 -> 2
+233	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:197 - ReplaceArithmeticOperator - -> +
+234	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:197 - ReplaceArithmeticOperator - -> %
+235	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:197 - ReplaceArithmeticOperator - -> *
+236	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:197 - ReplaceArithmeticOperator - -> /
+237	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:200 - ReplaceConstant - 1 -> 0
+238	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:200 - ReplaceConstant - 1 -> -1
+239	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:200 - ReplaceConstant - 1 -> 2
+240	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:201 - ReplaceConstant - 0 -> 1
+241	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:201 - ReplaceComparisonOperator >= -> -1
+242	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:201 - ReplaceComparisonOperator >= -> >
+243	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:201 - ReplaceComparisonOperator >= -> ==
+244	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:202 - InsertUnaryOp Negation of scaleL
+245	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:202 - InsertUnaryOp Negation of k
+246	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:202 - ReplaceConstant - 2 -> 0
+247	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:202 - ReplaceConstant - 2 -> 1
+248	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:202 - ReplaceConstant - 2 -> -1
+249	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:202 - ReplaceConstant - 2 -> 3
+250	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:202 - ReplaceArithmeticOperator / -> +
+251	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:202 - ReplaceArithmeticOperator / -> %
+252	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:202 - ReplaceArithmeticOperator / -> -
+253	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:202 - ReplaceArithmeticOperator / -> *
+254	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:202 - ReplaceComparisonOperator > -> -2
+255	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:202 - ReplaceComparisonOperator > -> !=
+256	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:202 - ReplaceComparisonOperator > -> >=
+257	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:203 - InsertUnaryOp Negation of scaleL
+258	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:203 - ReplaceConstant - 1 -> 0
+259	ReplaceBitwiseOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:203 - ReplaceBitwiseOperator << L -> >> L
+260	ReplaceBitwiseOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:203 - ReplaceBitwiseOperator << L -> >>> L
+261	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:205 - InsertUnaryOp Negation of k
+262	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:205 - InsertUnaryOp Negation of scaleL
+263	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:205 - InsertUnaryOp Negation of scaleR
+264	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:205 - ReplaceArithmeticOperator * -> +
+265	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:205 - ReplaceArithmeticOperator * -> %
+266	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:205 - ReplaceArithmeticOperator * -> -
+267	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:205 - ReplaceArithmeticOperator * -> /
+268	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:205 - ReplaceArithmeticOperator + -> %
+269	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:205 - ReplaceArithmeticOperator + -> -
+270	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:205 - ReplaceArithmeticOperator + -> *
+271	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:205 - ReplaceArithmeticOperator + -> /
+272	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:205 - InsertUnaryOp Negation of k
+273	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.rebuildToCapacity(J)V:208 - InsertUnaryOp Negation of newCapacity
+274	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.compressFully()V:215 - ReplaceConstant - 0 -> 1
+275	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressFully()V:215 - ReplaceComparisonOperator >= -> -1
+276	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressFully()V:215 - ReplaceComparisonOperator >= -> >
+277	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressFully()V:215 - ReplaceComparisonOperator >= -> ==
+278	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressFully()V:217 - InsertUnaryOp Negation of node
+279	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressFully()V:217 - ReplaceComparisonOperator != -> -1
+280	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressFully()V:217 - ReplaceComparisonOperator != -> <
+281	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressFully()V:217 - ReplaceComparisonOperator != -> >
+282	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressFully()V:218 - InsertUnaryOp Negation of node
+283	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:229 - InsertUnaryOp Negation
+284	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:229 - InsertUnaryOp Negation
+285	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:229 - ReplaceArithmeticOperator / -> +
+286	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:229 - ReplaceArithmeticOperator / -> %
+287	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:229 - ReplaceArithmeticOperator / -> -
+288	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:229 - ReplaceArithmeticOperator / -> *
+289	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:230 - InsertUnaryOp Negation of node
+290	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:231 - InsertUnaryOp Negation of node
+291	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:231 - ReplaceComparisonOperator != -> -1
+292	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:231 - ReplaceComparisonOperator != -> <
+293	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:231 - ReplaceComparisonOperator != -> >
+294	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:232 - InsertUnaryOp Negation of atNode
+295	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:232 - InsertUnaryOp Negation of threshold
+296	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:232 - ReplaceComparisonOperator <= -> -1
+297	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:232 - ReplaceComparisonOperator <= -> ==
+298	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:232 - ReplaceComparisonOperator <= -> <
+299	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:235 - InsertUnaryOp Negation of node
+300	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:236 - InsertUnaryOp Negation of atNode
+301	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:236 - InsertUnaryOp Negation of atSibling
+302	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:236 - ReplaceArithmeticOperator + -> %
+303	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:236 - ReplaceArithmeticOperator + -> -
+304	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:236 - ReplaceArithmeticOperator + -> *
+305	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:236 - ReplaceArithmeticOperator + -> /
+306	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:236 - InsertUnaryOp Negation of threshold
+307	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:236 - ReplaceComparisonOperator <= -> -1
+308	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:236 - ReplaceComparisonOperator <= -> ==
+309	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:236 - ReplaceComparisonOperator <= -> <
+310	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:239 - InsertUnaryOp Negation of node
+311	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:240 - InsertUnaryOp Negation of atNode
+312	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:240 - InsertUnaryOp Negation of atSibling
+313	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:240 - ReplaceArithmeticOperator + -> %
+314	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:240 - ReplaceArithmeticOperator + -> -
+315	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:240 - ReplaceArithmeticOperator + -> *
+316	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:240 - ReplaceArithmeticOperator + -> /
+317	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:240 - InsertUnaryOp Negation of atParent
+318	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:240 - ReplaceArithmeticOperator + -> %
+319	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:240 - ReplaceArithmeticOperator + -> -
+320	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:240 - ReplaceArithmeticOperator + -> *
+321	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:240 - ReplaceArithmeticOperator + -> /
+322	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:240 - InsertUnaryOp Negation of threshold
+323	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:240 - ReplaceComparisonOperator <= -> -1
+324	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:240 - ReplaceComparisonOperator <= -> ==
+325	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:240 - ReplaceComparisonOperator <= -> <
+326	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:244 - InsertUnaryOp Negation of node
+327	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:244 - InsertUnaryOp Negation of atNode
+328	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:244 - InsertUnaryOp Negation of atSibling
+329	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:244 - ReplaceArithmeticOperator + -> %
+330	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:244 - ReplaceArithmeticOperator + -> -
+331	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:244 - ReplaceArithmeticOperator + -> *
+332	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:244 - ReplaceArithmeticOperator + -> /
+333	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:245 - InsertUnaryOp Negation of node
+334	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:246 - InsertUnaryOp Negation of atSibling
+335	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:246 - ReplaceConstant - 0 -> 1
+336	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:246 - ReplaceConstant - 0 -> -1
+337	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:246 - ReplaceComparisonOperator <= -> -1
+338	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:246 - ReplaceComparisonOperator <= -> ==
+339	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:246 - ReplaceComparisonOperator <= -> <
+340	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:247 - InsertUnaryOp Negation of node
+341	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:249 - InsertUnaryOp Negation of node
+342	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:250 - InsertUnaryOp Negation of atParent
+343	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:250 - InsertUnaryOp Negation of atNode
+344	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:250 - ReplaceArithmeticOperator + -> %
+345	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:250 - ReplaceArithmeticOperator + -> -
+346	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:250 - ReplaceArithmeticOperator + -> *
+347	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:250 - ReplaceArithmeticOperator + -> /
+348	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:250 - InsertUnaryOp Negation of atSibling
+349	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:250 - ReplaceArithmeticOperator + -> %
+350	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:250 - ReplaceArithmeticOperator + -> -
+351	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:250 - ReplaceArithmeticOperator + -> *
+352	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressUpward(J)V:250 - ReplaceArithmeticOperator + -> /
+353	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:258 - InsertUnaryOp Negation
+354	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:258 - InsertUnaryOp Negation
+355	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:258 - ReplaceArithmeticOperator / -> +
+356	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:258 - ReplaceArithmeticOperator / -> %
+357	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:258 - ReplaceArithmeticOperator / -> -
+358	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:258 - ReplaceArithmeticOperator / -> *
+359	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:261 - InsertUnaryOp Negation of seedNode
+360	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:262 - ReplaceComparisonOperator != -> -1
+361	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:262 - ReplaceComparisonOperator != -> <
+362	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:262 - ReplaceComparisonOperator != -> >
+363	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:264 - InsertUnaryOp Negation of node
+364	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:265 - InsertUnaryOp Negation of node
+365	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:266 - InsertUnaryOp Negation of atNode
+366	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:266 - ReplaceConstant - 0 -> 1
+367	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:266 - ReplaceConstant - 0 -> -1
+368	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:266 - ReplaceComparisonOperator != -> -1
+369	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:266 - ReplaceComparisonOperator != -> <
+370	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:266 - ReplaceComparisonOperator != -> >
+371	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:266 - InsertUnaryOp Negation of atSibling
+372	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:266 - ReplaceConstant - 0 -> 1
+373	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:266 - ReplaceConstant - 0 -> -1
+374	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:266 - ReplaceComparisonOperator != -> -1
+375	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:266 - ReplaceComparisonOperator != -> <
+376	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:266 - ReplaceComparisonOperator != -> >
+377	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:269 - InsertUnaryOp Negation of node
+378	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:270 - InsertUnaryOp Negation of atParent
+379	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:270 - InsertUnaryOp Negation of atNode
+380	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:270 - ReplaceArithmeticOperator + -> %
+381	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:270 - ReplaceArithmeticOperator + -> -
+382	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:270 - ReplaceArithmeticOperator + -> *
+383	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:270 - ReplaceArithmeticOperator + -> /
+384	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:270 - InsertUnaryOp Negation of atSibling
+385	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:270 - ReplaceArithmeticOperator + -> %
+386	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:270 - ReplaceArithmeticOperator + -> -
+387	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:270 - ReplaceArithmeticOperator + -> *
+388	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:270 - ReplaceArithmeticOperator + -> /
+389	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:270 - InsertUnaryOp Negation of threshold
+390	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:270 - ReplaceComparisonOperator <= -> -1
+391	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:270 - ReplaceComparisonOperator <= -> ==
+392	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:270 - ReplaceComparisonOperator <= -> <
+393	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:273 - InsertUnaryOp Negation of node
+394	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:273 - InsertUnaryOp Negation of atNode
+395	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:273 - InsertUnaryOp Negation of atSibling
+396	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:273 - ReplaceArithmeticOperator + -> %
+397	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:273 - ReplaceArithmeticOperator + -> -
+398	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:273 - ReplaceArithmeticOperator + -> *
+399	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:273 - ReplaceArithmeticOperator + -> /
+400	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:274 - InsertUnaryOp Negation of node
+401	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:275 - InsertUnaryOp Negation of node
+402	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:277 - InsertUnaryOp Negation of node
+403	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:277 - ReplaceComparisonOperator != -> -1
+404	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:277 - ReplaceComparisonOperator != -> <
+405	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:277 - ReplaceComparisonOperator != -> >
+406	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:278 - InsertUnaryOp Negation of node
+407	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.compressDownward(J)V:279 - InsertUnaryOp Negation of node
+408	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.get(J)J:285 - InsertUnaryOp Negation of node
+409	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:291 - ReplaceConstant - 0 -> 1
+410	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:291 - ReplaceConstant - 0 -> -1
+411	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:292 - ReplaceComparisonOperator == -> -2
+412	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:292 - ReplaceComparisonOperator == -> >=
+413	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:292 - ReplaceComparisonOperator == -> <=
+414	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:293 - InsertUnaryOp Negation of s
+415	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:293 - ReplaceConstant - 2 -> 0
+416	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:293 - ReplaceConstant - 2 -> 1
+417	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:293 - ReplaceConstant - 2 -> -1
+418	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:293 - ReplaceConstant - 2 -> 3
+419	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:293 - ReplaceArithmeticOperator + -> %
+420	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:293 - ReplaceArithmeticOperator + -> -
+421	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:293 - ReplaceArithmeticOperator + -> *
+422	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:293 - ReplaceArithmeticOperator + -> /
+423	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:294 - InsertUnaryOp Negation of s
+424	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:294 - InsertUnaryOp Negation of q
+425	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:294 - InsertUnaryOp Negation
+426	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:294 - ReplaceArithmeticOperator * -> +
+427	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:294 - ReplaceArithmeticOperator * -> %
+428	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:294 - ReplaceArithmeticOperator * -> -
+429	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:294 - ReplaceArithmeticOperator * -> /
+430	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:294 - ReplaceComparisonOperator <= -> -1
+431	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:294 - ReplaceComparisonOperator <= -> ==
+432	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:294 - ReplaceComparisonOperator <= -> <
+433	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:295 - ReplaceConstant - 1 -> 0
+434	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:298 - ReplaceConstant - 1 -> 0
+435	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:298 - ReplaceArithmeticOperator - -> +
+436	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:298 - ReplaceArithmeticOperator - -> %
+437	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:298 - ReplaceArithmeticOperator - -> *
+438	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:298 - ReplaceArithmeticOperator - -> /
+439	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.getQuantile(D)J:298 - ReplaceConstant - 1 -> 0
+440	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.toAscRanges()Ljava/util/List;:303 - ReplaceComparisonOperator == -> -2
+441	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.toAscRanges()Ljava/util/List;:303 - ReplaceComparisonOperator == -> >=
+442	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.toAscRanges()Ljava/util/List;:303 - ReplaceComparisonOperator == -> <=
+443	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toAscRanges()Ljava/util/List;:304 - ReplaceConstant - 3 -> 0
+444	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toAscRanges()Ljava/util/List;:304 - ReplaceConstant - 3 -> 1
+445	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toAscRanges()Ljava/util/List;:304 - ReplaceConstant - 3 -> -1
+446	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toAscRanges()Ljava/util/List;:304 - ReplaceConstant - 3 -> 2
+447	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toAscRanges()Ljava/util/List;:304 - ReplaceConstant - 3 -> 4
+448	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toAscRanges()Ljava/util/List;:304 - ReplaceConstant - 0 -> 1
+449	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.toAscRanges()Ljava/util/List;:304 - InsertUnaryOp Negation of key
+450	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toAscRanges()Ljava/util/List;:304 - ReplaceConstant - 1 -> 0
+451	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.toAscRanges()Ljava/util/List;:304 - InsertUnaryOp Negation of key
+452	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toAscRanges()Ljava/util/List;:304 - ReplaceConstant - 2 -> 0
+453	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toAscRanges()Ljava/util/List;:304 - ReplaceConstant - 2 -> 1
+454	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toAscRanges()Ljava/util/List;:304 - ReplaceConstant - 2 -> -1
+455	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toAscRanges()Ljava/util/List;:304 - ReplaceConstant - 2 -> 3
+456	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.toAscRanges()Ljava/util/List;:304 - InsertUnaryOp Negation of key
+457	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.toString()Ljava/lang/String;:314 - ReplaceComparisonOperator == -> -2
+458	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.toString()Ljava/lang/String;:314 - ReplaceComparisonOperator == -> >=
+459	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.toString()Ljava/lang/String;:314 - ReplaceComparisonOperator == -> <=
+460	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.toString()Ljava/lang/String;:315 - ReplaceComparisonOperator <= -> -1
+461	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.toString()Ljava/lang/String;:315 - ReplaceComparisonOperator <= -> ==
+462	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.toString()Ljava/lang/String;:315 - ReplaceComparisonOperator <= -> <
+463	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toString()Ljava/lang/String;:316 - ReplaceConstant - ,  -> 
+464	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toString()Ljava/lang/String;:318 - ReplaceConstant - 0 -> 1
+465	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toString()Ljava/lang/String;:318 - ReplaceConstant -  ..  -> 
+466	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toString()Ljava/lang/String;:318 - ReplaceConstant - 1 -> 0
+467	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toString()Ljava/lang/String;:318 - ReplaceConstant - :  -> 
+468	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toString()Ljava/lang/String;:318 - ReplaceConstant - 2 -> 0
+469	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toString()Ljava/lang/String;:318 - ReplaceConstant - 2 -> 1
+470	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toString()Ljava/lang/String;:318 - ReplaceConstant - 2 -> -1
+471	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.toString()Ljava/lang/String;:318 - ReplaceConstant - 2 -> 3
+472	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.serialize(Lcom/clearspring/analytics/stream/quantile/QDigest;)[B:327 - InsertUnaryOp Negation
+473	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.serialize(Lcom/clearspring/analytics/stream/quantile/QDigest;)[B:328 - InsertUnaryOp Negation
+474	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.serialize(Lcom/clearspring/analytics/stream/quantile/QDigest;)[B:329 - InsertUnaryOp Negation
+475	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.serialize(Lcom/clearspring/analytics/stream/quantile/QDigest;)[B:331 - ReplaceComparisonOperator == -> -2
+476	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.serialize(Lcom/clearspring/analytics/stream/quantile/QDigest;)[B:331 - ReplaceComparisonOperator == -> >=
+477	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.serialize(Lcom/clearspring/analytics/stream/quantile/QDigest;)[B:331 - ReplaceComparisonOperator == -> <=
+478	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.serialize(Lcom/clearspring/analytics/stream/quantile/QDigest;)[B:332 - InsertUnaryOp Negation of k
+479	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.serialize(Lcom/clearspring/analytics/stream/quantile/QDigest;)[B:333 - InsertUnaryOp Negation of k
+480	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.deserialize([B)Lcom/clearspring/analytics/stream/quantile/QDigest;:350 - InsertUnaryOp Negation of compressionFactor
+481	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.deserialize([B)Lcom/clearspring/analytics/stream/quantile/QDigest;:351 - InsertUnaryOp Negation of size
+482	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.deserialize([B)Lcom/clearspring/analytics/stream/quantile/QDigest;:352 - InsertUnaryOp Negation of capacity
+483	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.deserialize([B)Lcom/clearspring/analytics/stream/quantile/QDigest;:353 - ReplaceConstant - 0 -> 1
+484	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.deserialize([B)Lcom/clearspring/analytics/stream/quantile/QDigest;:353 - InsertUnaryOp Negation of i
+485	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.deserialize([B)Lcom/clearspring/analytics/stream/quantile/QDigest;:353 - InsertUnaryOp IINC 1 i
+486	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.deserialize([B)Lcom/clearspring/analytics/stream/quantile/QDigest;:353 - InsertUnaryOp IINC -1 i
+487	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.deserialize([B)Lcom/clearspring/analytics/stream/quantile/QDigest;:353 - InsertUnaryOp Negation of count
+488	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.deserialize([B)Lcom/clearspring/analytics/stream/quantile/QDigest;:353 - InsertUnaryOp IINC 1 count
+489	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.deserialize([B)Lcom/clearspring/analytics/stream/quantile/QDigest;:353 - InsertUnaryOp IINC -1 count
+490	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.deserialize([B)Lcom/clearspring/analytics/stream/quantile/QDigest;:353 - ReplaceComparisonOperator >= -> -1
+491	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.deserialize([B)Lcom/clearspring/analytics/stream/quantile/QDigest;:353 - ReplaceComparisonOperator >= -> >
+492	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.deserialize([B)Lcom/clearspring/analytics/stream/quantile/QDigest;:353 - ReplaceComparisonOperator >= -> ==
+493	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.deserialize([B)Lcom/clearspring/analytics/stream/quantile/QDigest;:356 - InsertUnaryOp Negation of k
+494	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.deserialize([B)Lcom/clearspring/analytics/stream/quantile/QDigest;:356 - InsertUnaryOp Negation of n
+495	ReplaceVariable	com.clearspring.analytics.stream.quantile.QDigest.deserialize([B)Lcom/clearspring/analytics/stream/quantile/QDigest;:353 - ReplaceVariable i -> count
+496	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.computeActualSize()J:366 - ReplaceConstant - 0 -> 1
+497	ReplaceConstant	com.clearspring.analytics.stream.quantile.QDigest.computeActualSize()J:366 - ReplaceConstant - 0 -> -1
+498	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.computeActualSize()J:367 - ReplaceComparisonOperator == -> -2
+499	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.computeActualSize()J:367 - ReplaceComparisonOperator == -> >=
+500	ReplaceComparisonOperator	com.clearspring.analytics.stream.quantile.QDigest.computeActualSize()J:367 - ReplaceComparisonOperator == -> <=
+501	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.computeActualSize()J:367 - InsertUnaryOp Negation of res
+502	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.computeActualSize()J:367 - InsertUnaryOp Negation of x
+503	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.computeActualSize()J:367 - ReplaceArithmeticOperator + -> %
+504	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.computeActualSize()J:367 - ReplaceArithmeticOperator + -> -
+505	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.computeActualSize()J:367 - ReplaceArithmeticOperator + -> *
+506	ReplaceArithmeticOperator	com.clearspring.analytics.stream.quantile.QDigest.computeActualSize()J:367 - ReplaceArithmeticOperator + -> /
+507	InsertUnaryOp	com.clearspring.analytics.stream.quantile.QDigest.computeActualSize()J:368 - InsertUnaryOp Negation of res

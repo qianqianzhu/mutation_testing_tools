@@ -1,0 +1,14 @@
+0	InsertUnaryOp	edu.uci.ics.crawler4j.fetcher.PageFetchResult.getStatusCode()I:44 - InsertUnaryOp Negation
+1	InsertUnaryOp	edu.uci.ics.crawler4j.fetcher.PageFetchResult.getStatusCode()I:44 - InsertUnaryOp +1
+2	InsertUnaryOp	edu.uci.ics.crawler4j.fetcher.PageFetchResult.getStatusCode()I:44 - InsertUnaryOp -1
+3	InsertUnaryOp	edu.uci.ics.crawler4j.fetcher.PageFetchResult.setStatusCode(I)V:48 - InsertUnaryOp Negation of statusCode
+4	InsertUnaryOp	edu.uci.ics.crawler4j.fetcher.PageFetchResult.setStatusCode(I)V:48 - InsertUnaryOp IINC 1 statusCode
+5	InsertUnaryOp	edu.uci.ics.crawler4j.fetcher.PageFetchResult.setStatusCode(I)V:48 - InsertUnaryOp IINC -1 statusCode
+6	InsertUnaryOp	edu.uci.ics.crawler4j.fetcher.PageFetchResult.fetchContent(Ledu/uci/ics/crawler4j/crawler/Page;I)Z:77 - InsertUnaryOp Negation of maxBytes
+7	InsertUnaryOp	edu.uci.ics.crawler4j.fetcher.PageFetchResult.fetchContent(Ledu/uci/ics/crawler4j/crawler/Page;I)Z:77 - InsertUnaryOp IINC 1 maxBytes
+8	InsertUnaryOp	edu.uci.ics.crawler4j.fetcher.PageFetchResult.fetchContent(Ledu/uci/ics/crawler4j/crawler/Page;I)Z:77 - InsertUnaryOp IINC -1 maxBytes
+9	ReplaceConstant	edu.uci.ics.crawler4j.fetcher.PageFetchResult.fetchContent(Ledu/uci/ics/crawler4j/crawler/Page;I)Z:79 - ReplaceConstant - 1 -> 0
+10	ReplaceConstant	edu.uci.ics.crawler4j.fetcher.PageFetchResult.fetchContent(Ledu/uci/ics/crawler4j/crawler/Page;I)Z:81 - ReplaceConstant - Exception while fetching content for: {} [{}] -> 
+11	ReplaceConstant	edu.uci.ics.crawler4j.fetcher.PageFetchResult.fetchContent(Ledu/uci/ics/crawler4j/crawler/Page;I)Z:84 - ReplaceConstant - 0 -> 1
+12	ReplaceComparisonOperator	edu.uci.ics.crawler4j.fetcher.PageFetchResult.discardContentIfNotConsumed()V:89 - ReplaceComparisonOperator = null -> != null
+13	ReplaceConstant	edu.uci.ics.crawler4j.fetcher.PageFetchResult.discardContentIfNotConsumed()V:98 - ReplaceConstant - Unexpected error occurred while trying to discard content -> 

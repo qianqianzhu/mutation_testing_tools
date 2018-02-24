@@ -1,0 +1,213 @@
+0	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>()V:83 - ReplaceConstant - 1000 -> 0
+1	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>()V:83 - ReplaceConstant - 1000 -> 1
+2	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>()V:83 - ReplaceConstant - 1000 -> -1
+3	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>()V:83 - ReplaceConstant - 1000 -> 999
+4	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>()V:83 - ReplaceConstant - 1000 -> 1001
+5	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>()V:83 - ReplaceConstant - 1000000000 -> 0
+6	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>()V:83 - ReplaceConstant - 1000000000 -> 1
+7	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>()V:83 - ReplaceConstant - 1000000000 -> -1
+8	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>()V:83 - ReplaceConstant - 1000000000 -> 999999999
+9	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>()V:83 - ReplaceConstant - 1000000000 -> 1000000001
+10	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>(ILcom/clearspring/analytics/util/IBuilder;)V:59 - ReplaceConstant - 0 -> 1
+11	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>(ILcom/clearspring/analytics/util/IBuilder;)V:91 - InsertUnaryOp Negation of tippingPoint
+12	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>(ILcom/clearspring/analytics/util/IBuilder;)V:91 - InsertUnaryOp IINC 1 tippingPoint
+13	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>(ILcom/clearspring/analytics/util/IBuilder;)V:91 - InsertUnaryOp IINC -1 tippingPoint
+14	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>([B)V:59 - ReplaceConstant - 0 -> 1
+15	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>([B)V:106 - InsertUnaryOp Negation
+16	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>([B)V:106 - ReplaceComparisonOperator != -> -1
+17	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>([B)V:106 - ReplaceComparisonOperator != -> <
+18	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>([B)V:106 - ReplaceComparisonOperator != -> >
+19	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>([B)V:106 - ReplaceComparisonOperator > -> !=
+20	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>([B)V:106 - ReplaceComparisonOperator > -> -2
+21	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.<init>([B)V:106 - ReplaceComparisonOperator > -> >=
+22	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.cardinality()J:113 - InsertUnaryOp Negation
+23	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.cardinality()J:113 - ReplaceComparisonOperator == -> -2
+24	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.cardinality()J:113 - ReplaceComparisonOperator == -> >=
+25	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.cardinality()J:113 - ReplaceComparisonOperator == -> <=
+26	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:131 - ReplaceConstant - 0 -> 1
+27	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:133 - InsertUnaryOp Negation
+28	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:133 - ReplaceComparisonOperator == -> -2
+29	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:133 - ReplaceComparisonOperator == -> >=
+30	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:133 - ReplaceComparisonOperator == -> <=
+31	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:136 - ReplaceComparisonOperator == -> -2
+32	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:136 - ReplaceComparisonOperator == -> >=
+33	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:136 - ReplaceComparisonOperator == -> <=
+34	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:137 - ReplaceConstant - 1 -> 0
+35	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:138 - InsertUnaryOp Negation
+36	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:138 - InsertUnaryOp +1
+37	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:138 - InsertUnaryOp -1
+38	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:138 - ReplaceComparisonOperator <= -> -1
+39	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:138 - ReplaceComparisonOperator <= -> <
+40	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:138 - ReplaceComparisonOperator <= -> ==
+41	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:144 - InsertUnaryOp Negation of modified
+42	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:144 - InsertUnaryOp IINC 1 modified
+43	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.offer(Ljava/lang/Object;)Z:144 - InsertUnaryOp IINC -1 modified
+44	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.sizeof()I:149 - InsertUnaryOp Negation
+45	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.sizeof()I:149 - ReplaceComparisonOperator == -> -2
+46	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.sizeof()I:149 - ReplaceComparisonOperator == -> >=
+47	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.sizeof()I:149 - ReplaceComparisonOperator == -> <=
+48	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.sizeof()I:152 - ReplaceConstant - -1 -> 0
+49	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.sizeof()I:152 - ReplaceConstant - -1 -> 1
+50	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.sizeof()I:152 - ReplaceConstant - -1 -> -2
+51	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.tip()V:161 - ReplaceComparisonOperator == -> -2
+52	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.tip()V:161 - ReplaceComparisonOperator == -> >=
+53	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.tip()V:161 - ReplaceComparisonOperator == -> <=
+54	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.tip()V:167 - ReplaceConstant - 1 -> 0
+55	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.tipped()Z:171 - InsertUnaryOp Negation
+56	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:183 - InsertUnaryOp Negation
+57	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:183 - ReplaceComparisonOperator == -> -2
+58	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:183 - ReplaceComparisonOperator == -> >=
+59	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:183 - ReplaceComparisonOperator == -> <=
+60	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:188 - InsertUnaryOp Negation of type
+61	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:188 - InsertUnaryOp IINC 1 type
+62	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:188 - InsertUnaryOp IINC -1 type
+63	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:205 - ReplaceConstant - Unrecognized estimator type:  -> 
+64	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:205 - InsertUnaryOp Negation of type
+65	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:205 - InsertUnaryOp IINC 1 type
+66	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:205 - InsertUnaryOp IINC -1 type
+67	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - InsertUnaryOp Negation
+68	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - ReplaceComparisonOperator != -> -1
+69	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - ReplaceComparisonOperator != -> <
+70	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - ReplaceComparisonOperator != -> >
+71	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - InsertUnaryOp Negation of count
+72	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - InsertUnaryOp IINC 1 count
+73	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - InsertUnaryOp IINC -1 count
+74	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - InsertUnaryOp Negation
+75	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - InsertUnaryOp +1
+76	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - InsertUnaryOp -1
+77	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - ReplaceComparisonOperator <= -> -1
+78	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - ReplaceComparisonOperator <= -> <
+79	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - ReplaceComparisonOperator <= -> ==
+80	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - ReplaceConstant - Invalid serialization: count (%d) > tippingPoint (%d) -> 
+81	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - ReplaceConstant - 2 -> 0
+82	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - ReplaceConstant - 2 -> 1
+83	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - ReplaceConstant - 2 -> -1
+84	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - ReplaceConstant - 2 -> 3
+85	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - ReplaceConstant - 0 -> 1
+86	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - InsertUnaryOp Negation of count
+87	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - InsertUnaryOp IINC 1 count
+88	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - InsertUnaryOp IINC -1 count
+89	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - ReplaceConstant - 1 -> 0
+90	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - InsertUnaryOp Negation
+91	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - InsertUnaryOp +1
+92	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:212 - InsertUnaryOp -1
+93	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:214 - InsertUnaryOp Negation of count
+94	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:214 - InsertUnaryOp IINC 1 count
+95	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:214 - InsertUnaryOp IINC -1 count
+96	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:215 - ReplaceConstant - 0 -> 1
+97	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:215 - InsertUnaryOp Negation of i
+98	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:215 - InsertUnaryOp IINC 1 i
+99	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:215 - InsertUnaryOp IINC -1 i
+100	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:215 - InsertUnaryOp Negation of count
+101	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:215 - InsertUnaryOp IINC 1 count
+102	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:215 - InsertUnaryOp IINC -1 count
+103	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:215 - ReplaceComparisonOperator >= -> -1
+104	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:215 - ReplaceComparisonOperator >= -> >
+105	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:215 - ReplaceComparisonOperator >= -> ==
+106	ReplaceVariable	com.clearspring.analytics.stream.cardinality.CountThenEstimate.readExternal(Ljava/io/ObjectInput;)V:215 - ReplaceVariable i -> count
+107	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:223 - InsertUnaryOp Negation
+108	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:224 - InsertUnaryOp Negation
+109	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:224 - ReplaceComparisonOperator == -> -2
+110	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:224 - ReplaceComparisonOperator == -> >=
+111	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:224 - ReplaceComparisonOperator == -> <=
+112	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:225 - ReplaceComparisonOperator == -> -2
+113	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:225 - ReplaceComparisonOperator == -> >=
+114	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:225 - ReplaceComparisonOperator == -> <=
+115	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:226 - ReplaceConstant - 1 -> 0
+116	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:227 - ReplaceComparisonOperator == -> -2
+117	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:227 - ReplaceComparisonOperator == -> >=
+118	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:227 - ReplaceComparisonOperator == -> <=
+119	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:228 - ReplaceConstant - 2 -> 0
+120	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:228 - ReplaceConstant - 2 -> 1
+121	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:228 - ReplaceConstant - 2 -> -1
+122	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:228 - ReplaceConstant - 2 -> 3
+123	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:229 - ReplaceComparisonOperator == -> -2
+124	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:229 - ReplaceComparisonOperator == -> >=
+125	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:229 - ReplaceComparisonOperator == -> <=
+126	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:230 - ReplaceConstant - 3 -> 0
+127	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:230 - ReplaceConstant - 3 -> 1
+128	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:230 - ReplaceConstant - 3 -> -1
+129	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:230 - ReplaceConstant - 3 -> 2
+130	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:230 - ReplaceConstant - 3 -> 4
+131	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:231 - ReplaceComparisonOperator == -> -2
+132	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:231 - ReplaceComparisonOperator == -> >=
+133	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:231 - ReplaceComparisonOperator == -> <=
+134	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:232 - ReplaceConstant - 5 -> 0
+135	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:232 - ReplaceConstant - 5 -> 1
+136	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:232 - ReplaceConstant - 5 -> -1
+137	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:232 - ReplaceConstant - 5 -> 4
+138	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:232 - ReplaceConstant - 5 -> 6
+139	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:233 - ReplaceComparisonOperator == -> -2
+140	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:233 - ReplaceComparisonOperator == -> >=
+141	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:233 - ReplaceComparisonOperator == -> <=
+142	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:234 - ReplaceConstant - 4 -> 0
+143	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:234 - ReplaceConstant - 4 -> 1
+144	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:234 - ReplaceConstant - 4 -> -1
+145	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:234 - ReplaceConstant - 4 -> 3
+146	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:234 - ReplaceConstant - 4 -> 5
+147	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:236 - ReplaceConstant - Estimator unsupported for serialization:  -> 
+148	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:243 - InsertUnaryOp Negation
+149	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:243 - InsertUnaryOp +1
+150	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:243 - InsertUnaryOp -1
+151	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:246 - ReplaceComparisonOperator == -> -2
+152	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:246 - ReplaceComparisonOperator == -> >=
+153	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.writeExternal(Ljava/io/ObjectOutput;)V:246 - ReplaceComparisonOperator == -> <=
+154	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.merge([Lcom/clearspring/analytics/stream/cardinality/ICardinality;)Lcom/clearspring/analytics/stream/cardinality/ICardinality;:254 - ReplaceComparisonOperator != null -> = null
+155	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.merge([Lcom/clearspring/analytics/stream/cardinality/ICardinality;)Lcom/clearspring/analytics/stream/cardinality/ICardinality;:255 - ReplaceConstant - 1 -> 0
+156	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.merge([Lcom/clearspring/analytics/stream/cardinality/ICardinality;)Lcom/clearspring/analytics/stream/cardinality/ICardinality;:255 - ReplaceConstant - 0 -> 1
+157	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.merge([Lcom/clearspring/analytics/stream/cardinality/ICardinality;)Lcom/clearspring/analytics/stream/cardinality/ICardinality;:258 - ReplaceConstant - 1 -> 0
+158	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.merge([Lcom/clearspring/analytics/stream/cardinality/ICardinality;)Lcom/clearspring/analytics/stream/cardinality/ICardinality;:258 - ReplaceArithmeticOperator + -> %
+159	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.merge([Lcom/clearspring/analytics/stream/cardinality/ICardinality;)Lcom/clearspring/analytics/stream/cardinality/ICardinality;:258 - ReplaceArithmeticOperator + -> -
+160	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.merge([Lcom/clearspring/analytics/stream/cardinality/ICardinality;)Lcom/clearspring/analytics/stream/cardinality/ICardinality;:258 - ReplaceArithmeticOperator + -> *
+161	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.merge([Lcom/clearspring/analytics/stream/cardinality/ICardinality;)Lcom/clearspring/analytics/stream/cardinality/ICardinality;:258 - ReplaceArithmeticOperator + -> /
+162	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.merge([Lcom/clearspring/analytics/stream/cardinality/ICardinality;)Lcom/clearspring/analytics/stream/cardinality/ICardinality;:259 - ReplaceConstant - 1 -> 0
+163	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.merge([Lcom/clearspring/analytics/stream/cardinality/ICardinality;)Lcom/clearspring/analytics/stream/cardinality/ICardinality;:259 - ReplaceArithmeticOperator - -> +
+164	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.merge([Lcom/clearspring/analytics/stream/cardinality/ICardinality;)Lcom/clearspring/analytics/stream/cardinality/ICardinality;:259 - ReplaceArithmeticOperator - -> %
+165	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.merge([Lcom/clearspring/analytics/stream/cardinality/ICardinality;)Lcom/clearspring/analytics/stream/cardinality/ICardinality;:259 - ReplaceArithmeticOperator - -> *
+166	ReplaceArithmeticOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.merge([Lcom/clearspring/analytics/stream/cardinality/ICardinality;)Lcom/clearspring/analytics/stream/cardinality/ICardinality;:259 - ReplaceArithmeticOperator - -> /
+167	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:272 - ReplaceComparisonOperator != null -> = null
+168	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:272 - ReplaceConstant - 0 -> 1
+169	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:273 - InsertUnaryOp Negation of numEstimators
+170	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:273 - InsertUnaryOp IINC 1 numEstimators
+171	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:273 - InsertUnaryOp IINC -1 numEstimators
+172	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:273 - ReplaceComparisonOperator <= -> -1
+173	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:273 - ReplaceComparisonOperator <= -> ==
+174	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:273 - ReplaceComparisonOperator <= -> <
+175	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:274 - InsertUnaryOp Negation of numEstimators
+176	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:274 - InsertUnaryOp IINC 1 numEstimators
+177	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:274 - InsertUnaryOp IINC -1 numEstimators
+178	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:275 - InsertUnaryOp Negation of numEstimators
+179	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:275 - InsertUnaryOp IINC 1 numEstimators
+180	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:275 - InsertUnaryOp IINC -1 numEstimators
+181	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:277 - ReplaceConstant - 0 -> 1
+182	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:277 - ReplaceComparisonOperator >= -> -1
+183	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:277 - ReplaceComparisonOperator >= -> >
+184	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:277 - ReplaceComparisonOperator >= -> ==
+185	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:278 - InsertUnaryOp Negation
+186	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:278 - ReplaceComparisonOperator == -> -2
+187	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:278 - ReplaceComparisonOperator == -> >=
+188	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:278 - ReplaceComparisonOperator == -> <=
+189	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:285 - ReplaceComparisonOperator <= -> -1
+190	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:285 - ReplaceComparisonOperator <= -> ==
+191	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:285 - ReplaceComparisonOperator <= -> <
+192	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:286 - ReplaceConstant - 0 -> 1
+193	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:286 - InsertUnaryOp Negation
+194	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:286 - InsertUnaryOp +1
+195	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:286 - InsertUnaryOp -1
+196	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:286 - ReplaceConstant - 0 -> 1
+197	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:288 - ReplaceComparisonOperator == -> -2
+198	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:288 - ReplaceComparisonOperator == -> >=
+199	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:288 - ReplaceComparisonOperator == -> <=
+200	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:289 - ReplaceComparisonOperator == -> -2
+201	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:289 - ReplaceComparisonOperator == -> >=
+202	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:289 - ReplaceComparisonOperator == -> <=
+203	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:294 - ReplaceConstant - 0 -> 1
+204	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:294 - ReplaceConstant - 1 -> 0
+205	ReplaceConstant	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:296 - ReplaceConstant - 0 -> 1
+206	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:299 - ReplaceComparisonOperator != -> -1
+207	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:299 - ReplaceComparisonOperator != -> <
+208	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:299 - ReplaceComparisonOperator != -> >
+209	InsertUnaryOp	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:300 - InsertUnaryOp Negation
+210	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:300 - ReplaceComparisonOperator != -> -1
+211	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:300 - ReplaceComparisonOperator != -> <
+212	ReplaceComparisonOperator	com.clearspring.analytics.stream.cardinality.CountThenEstimate.mergeEstimators([Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;)Lcom/clearspring/analytics/stream/cardinality/CountThenEstimate;:300 - ReplaceComparisonOperator != -> >

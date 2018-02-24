@@ -1,0 +1,73 @@
+0	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.hasBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:15 - ReplaceComparisonOperator != -> -1
+1	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.hasBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:15 - ReplaceComparisonOperator != -> <
+2	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.hasBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:15 - ReplaceComparisonOperator != -> >
+3	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.hasBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:15 - ReplaceComparisonOperator == -> -2
+4	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.hasBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:15 - ReplaceComparisonOperator == -> >=
+5	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.hasBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:15 - ReplaceComparisonOperator == -> <=
+6	ReplaceConstant	org.dynjs.runtime.DeclarativeEnvironmentRecord.hasBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:15 - ReplaceConstant - 1 -> 0
+7	ReplaceConstant	org.dynjs.runtime.DeclarativeEnvironmentRecord.hasBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:15 - ReplaceConstant - 0 -> 1
+8	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.createMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)V:21 - ReplaceComparisonOperator == -> -2
+9	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.createMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)V:21 - ReplaceComparisonOperator == -> >=
+10	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.createMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)V:21 - ReplaceComparisonOperator == -> <=
+11	ReplaceConstant	org.dynjs.runtime.DeclarativeEnvironmentRecord.createMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)V:22 - ReplaceConstant - 10.2.1.1.2: Binding already exists for  -> 
+12	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.createMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)V:27 - InsertUnaryOp Negation of configurable
+13	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.createMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)V:27 - InsertUnaryOp IINC 1 configurable
+14	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.createMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)V:27 - InsertUnaryOp IINC -1 configurable
+15	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.createMutableBinding(Ljava/lang/String;Z)V:32 - InsertUnaryOp Negation of configurable
+16	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.createMutableBinding(Ljava/lang/String;Z)V:32 - InsertUnaryOp IINC 1 configurable
+17	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.createMutableBinding(Ljava/lang/String;Z)V:32 - InsertUnaryOp IINC -1 configurable
+18	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.setMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:38 - ReplaceComparisonOperator != -> -1
+19	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.setMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:38 - ReplaceComparisonOperator != -> <
+20	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.setMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:38 - ReplaceComparisonOperator != -> >
+21	ReplaceConstant	org.dynjs.runtime.DeclarativeEnvironmentRecord.setMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:39 - ReplaceConstant - 10.2.1.1.3: No binding exists for  -> 
+22	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.setMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:42 - ReplaceComparisonOperator == -> -2
+23	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.setMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:42 - ReplaceComparisonOperator == -> >=
+24	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.setMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:42 - ReplaceComparisonOperator == -> <=
+25	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.setMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:48 - InsertUnaryOp Negation of strict
+26	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.setMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:48 - InsertUnaryOp IINC 1 strict
+27	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.setMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:48 - InsertUnaryOp IINC -1 strict
+28	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.setMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:48 - ReplaceComparisonOperator == -> -2
+29	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.setMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:48 - ReplaceComparisonOperator == -> >=
+30	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.setMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:48 - ReplaceComparisonOperator == -> <=
+31	ReplaceConstant	org.dynjs.runtime.DeclarativeEnvironmentRecord.setMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:49 - ReplaceConstant - attempt to change immutable binding is not allowed -> 
+32	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.setMutableBinding(Ljava/lang/String;Ljava/lang/Object;Z)V:54 - InsertUnaryOp Negation of strict
+33	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.setMutableBinding(Ljava/lang/String;Ljava/lang/Object;Z)V:54 - InsertUnaryOp IINC 1 strict
+34	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.setMutableBinding(Ljava/lang/String;Ljava/lang/Object;Z)V:54 - InsertUnaryOp IINC -1 strict
+35	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.assignMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;ZZ)V:60 - InsertUnaryOp Negation of exists
+36	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.assignMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;ZZ)V:60 - InsertUnaryOp IINC 1 exists
+37	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.assignMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;ZZ)V:60 - InsertUnaryOp IINC -1 exists
+38	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.assignMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;ZZ)V:60 - ReplaceComparisonOperator != -> -1
+39	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.assignMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;ZZ)V:60 - ReplaceComparisonOperator != -> <
+40	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.assignMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;ZZ)V:60 - ReplaceComparisonOperator != -> >
+41	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.assignMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;ZZ)V:63 - InsertUnaryOp Negation of configurable
+42	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.assignMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;ZZ)V:63 - InsertUnaryOp IINC 1 configurable
+43	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.assignMutableBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;ZZ)V:63 - InsertUnaryOp IINC -1 configurable
+44	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.getBindingValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:76 - ReplaceComparisonOperator != -> -1
+45	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.getBindingValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:76 - ReplaceComparisonOperator != -> <
+46	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.getBindingValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:76 - ReplaceComparisonOperator != -> >
+47	ReplaceConstant	org.dynjs.runtime.DeclarativeEnvironmentRecord.getBindingValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:77 - ReplaceConstant - 10.2.1.1.4: No binding exists for  -> 
+48	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.getBindingValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:81 - ReplaceComparisonOperator = null -> != null
+49	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.getBindingValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:81 - ReplaceComparisonOperator != -> -1
+50	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.getBindingValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:81 - ReplaceComparisonOperator != -> <
+51	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.getBindingValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:81 - ReplaceComparisonOperator != -> >
+52	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.getBindingValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:82 - InsertUnaryOp Negation of strict
+53	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.getBindingValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:82 - InsertUnaryOp IINC 1 strict
+54	InsertUnaryOp	org.dynjs.runtime.DeclarativeEnvironmentRecord.getBindingValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:82 - InsertUnaryOp IINC -1 strict
+55	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.getBindingValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:82 - ReplaceComparisonOperator == -> -2
+56	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.getBindingValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:82 - ReplaceComparisonOperator == -> >=
+57	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.getBindingValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:82 - ReplaceComparisonOperator == -> <=
+58	ReplaceConstant	org.dynjs.runtime.DeclarativeEnvironmentRecord.getBindingValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:83 - ReplaceConstant -  is not initialized -> 
+59	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.getBindingValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:88 - ReplaceComparisonOperator = null -> != null
+60	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.getBindingValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:94 - ReplaceComparisonOperator != null -> = null
+61	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.deleteBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:105 - ReplaceComparisonOperator != null -> = null
+62	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.deleteBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:109 - ReplaceComparisonOperator != null -> = null
+63	ReplaceConstant	org.dynjs.runtime.DeclarativeEnvironmentRecord.deleteBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:110 - ReplaceConstant - 1 -> 0
+64	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.deleteBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:113 - ReplaceComparisonOperator != -> -1
+65	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.deleteBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:113 - ReplaceComparisonOperator != -> <
+66	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.deleteBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:113 - ReplaceComparisonOperator != -> >
+67	ReplaceConstant	org.dynjs.runtime.DeclarativeEnvironmentRecord.deleteBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:114 - ReplaceConstant - 0 -> 1
+68	ReplaceComparisonOperator	org.dynjs.runtime.DeclarativeEnvironmentRecord.deleteBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:117 - ReplaceComparisonOperator = null -> != null
+69	ReplaceConstant	org.dynjs.runtime.DeclarativeEnvironmentRecord.deleteBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:117 - ReplaceConstant - 1 -> 0
+70	ReplaceConstant	org.dynjs.runtime.DeclarativeEnvironmentRecord.deleteBinding(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:117 - ReplaceConstant - 0 -> 1
+71	ReplaceConstant	org.dynjs.runtime.DeclarativeEnvironmentRecord.initializeImmutableBinding(Ljava/lang/String;Ljava/lang/Object;)V:138 - ReplaceConstant - 1 -> 0
+72	ReplaceConstant	org.dynjs.runtime.DeclarativeEnvironmentRecord.isGlobal()Z:142 - ReplaceConstant - 0 -> 1

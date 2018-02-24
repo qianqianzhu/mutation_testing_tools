@@ -1,0 +1,42 @@
+0	ReplaceComparisonOperator	org.geotools.filter.function.math.ModuloFunction.<init>(Ljava/util/List;Lorg/opengis/filter/expression/Literal;)V:57 - ReplaceComparisonOperator != null -> = null
+1	ReplaceConstant	org.geotools.filter.function.math.ModuloFunction.<init>(Ljava/util/List;Lorg/opengis/filter/expression/Literal;)V:58 - ReplaceConstant - parameters must be provided -> 
+2	ReplaceComparisonOperator	org.geotools.filter.function.math.ModuloFunction.<init>(Ljava/util/List;Lorg/opengis/filter/expression/Literal;)V:61 - ReplaceComparisonOperator == -> -2
+3	ReplaceComparisonOperator	org.geotools.filter.function.math.ModuloFunction.<init>(Ljava/util/List;Lorg/opengis/filter/expression/Literal;)V:61 - ReplaceComparisonOperator == -> >=
+4	ReplaceComparisonOperator	org.geotools.filter.function.math.ModuloFunction.<init>(Ljava/util/List;Lorg/opengis/filter/expression/Literal;)V:61 - ReplaceComparisonOperator == -> <=
+5	ReplaceConstant	org.geotools.filter.function.math.ModuloFunction.<init>(Ljava/util/List;Lorg/opengis/filter/expression/Literal;)V:62 - ReplaceConstant -  function parameters are required -> 
+6	ReplaceConstant	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:75 - ReplaceConstant - 0 -> 1
+7	ReplaceConstant	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:78 - ReplaceConstant - 1 -> 0
+8	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:81 - InsertUnaryOp Negation of divisor
+9	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:81 - InsertUnaryOp IINC 1 divisor
+10	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:81 - InsertUnaryOp IINC -1 divisor
+11	ReplaceComparisonOperator	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:81 - ReplaceComparisonOperator != -> -1
+12	ReplaceComparisonOperator	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:81 - ReplaceComparisonOperator != -> <
+13	ReplaceComparisonOperator	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:81 - ReplaceComparisonOperator != -> >
+14	ReplaceConstant	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:82 - ReplaceConstant - divisor cannot be 0 -> 
+15	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - InsertUnaryOp Negation of dividend
+16	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - InsertUnaryOp IINC 1 dividend
+17	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - InsertUnaryOp IINC -1 dividend
+18	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - InsertUnaryOp Negation of divisor
+19	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - InsertUnaryOp IINC 1 divisor
+20	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - InsertUnaryOp IINC -1 divisor
+21	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - InsertUnaryOp Negation of dividend
+22	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - InsertUnaryOp IINC 1 dividend
+23	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - InsertUnaryOp IINC -1 dividend
+24	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - InsertUnaryOp Negation of divisor
+25	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - InsertUnaryOp IINC 1 divisor
+26	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - InsertUnaryOp IINC -1 divisor
+27	ReplaceArithmeticOperator	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - ReplaceArithmeticOperator / -> +
+28	ReplaceArithmeticOperator	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - ReplaceArithmeticOperator / -> %
+29	ReplaceArithmeticOperator	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - ReplaceArithmeticOperator / -> -
+30	ReplaceArithmeticOperator	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - ReplaceArithmeticOperator / -> *
+31	ReplaceArithmeticOperator	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - ReplaceArithmeticOperator * -> +
+32	ReplaceArithmeticOperator	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - ReplaceArithmeticOperator * -> %
+33	ReplaceArithmeticOperator	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - ReplaceArithmeticOperator * -> -
+34	ReplaceArithmeticOperator	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - ReplaceArithmeticOperator * -> /
+35	ReplaceArithmeticOperator	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - ReplaceArithmeticOperator - -> +
+36	ReplaceArithmeticOperator	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - ReplaceArithmeticOperator - -> %
+37	ReplaceArithmeticOperator	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - ReplaceArithmeticOperator - -> *
+38	ReplaceArithmeticOperator	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:85 - ReplaceArithmeticOperator - -> /
+39	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:87 - InsertUnaryOp Negation of modulo
+40	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:87 - InsertUnaryOp IINC 1 modulo
+41	InsertUnaryOp	org.geotools.filter.function.math.ModuloFunction.evaluate(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;:87 - InsertUnaryOp IINC -1 modulo

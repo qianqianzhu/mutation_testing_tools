@@ -1,0 +1,129 @@
+0	ReplaceConstant	com.graphhopper.storage.index.QueryResult.<init>(DD)V:42 - ReplaceConstant - 1.7976931348623157E308 -> 0.0
+1	ReplaceConstant	com.graphhopper.storage.index.QueryResult.<init>(DD)V:42 - ReplaceConstant - 1.7976931348623157E308 -> 1.0
+2	ReplaceConstant	com.graphhopper.storage.index.QueryResult.<init>(DD)V:42 - ReplaceConstant - 1.7976931348623157E308 -> -1.0
+3	ReplaceConstant	com.graphhopper.storage.index.QueryResult.<init>(DD)V:42 - ReplaceConstant - 1.7976931348623157E308 -> 1.7976931348623157E308
+4	ReplaceConstant	com.graphhopper.storage.index.QueryResult.<init>(DD)V:43 - ReplaceConstant - -1 -> 0
+5	ReplaceConstant	com.graphhopper.storage.index.QueryResult.<init>(DD)V:43 - ReplaceConstant - -1 -> 1
+6	ReplaceConstant	com.graphhopper.storage.index.QueryResult.<init>(DD)V:43 - ReplaceConstant - -1 -> -2
+7	ReplaceConstant	com.graphhopper.storage.index.QueryResult.<init>(DD)V:44 - ReplaceConstant - -1 -> 0
+8	ReplaceConstant	com.graphhopper.storage.index.QueryResult.<init>(DD)V:44 - ReplaceConstant - -1 -> 1
+9	ReplaceConstant	com.graphhopper.storage.index.QueryResult.<init>(DD)V:44 - ReplaceConstant - -1 -> -2
+10	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.<init>(DD)V:50 - InsertUnaryOp Negation of queryLat
+11	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.<init>(DD)V:50 - InsertUnaryOp Negation of queryLon
+12	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.getClosestNode()I:60 - InsertUnaryOp Negation
+13	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.getClosestNode()I:60 - InsertUnaryOp +1
+14	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.getClosestNode()I:60 - InsertUnaryOp -1
+15	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.setClosestNode(I)V:64 - InsertUnaryOp Negation of node
+16	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.setClosestNode(I)V:64 - InsertUnaryOp IINC 1 node
+17	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.setClosestNode(I)V:64 - InsertUnaryOp IINC -1 node
+18	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.getQueryDistance()D:71 - InsertUnaryOp Negation
+19	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.setQueryDistance(D)V:75 - InsertUnaryOp Negation of dist
+20	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.getWayIndex()I:85 - InsertUnaryOp Negation
+21	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.getWayIndex()I:85 - InsertUnaryOp +1
+22	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.getWayIndex()I:85 - InsertUnaryOp -1
+23	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.setWayIndex(I)V:89 - InsertUnaryOp Negation of wayIndex
+24	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.setWayIndex(I)V:89 - InsertUnaryOp IINC 1 wayIndex
+25	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.setWayIndex(I)V:89 - InsertUnaryOp IINC -1 wayIndex
+26	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.isValid()Z:107 - InsertUnaryOp Negation
+27	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.isValid()Z:107 - InsertUnaryOp +1
+28	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.isValid()Z:107 - InsertUnaryOp -1
+29	ReplaceComparisonOperator	com.graphhopper.storage.index.QueryResult.isValid()Z:107 - ReplaceComparisonOperator < -> -2
+30	ReplaceComparisonOperator	com.graphhopper.storage.index.QueryResult.isValid()Z:107 - ReplaceComparisonOperator < -> !=
+31	ReplaceComparisonOperator	com.graphhopper.storage.index.QueryResult.isValid()Z:107 - ReplaceComparisonOperator < -> <=
+32	ReplaceConstant	com.graphhopper.storage.index.QueryResult.isValid()Z:107 - ReplaceConstant - 1 -> 0
+33	ReplaceConstant	com.graphhopper.storage.index.QueryResult.isValid()Z:107 - ReplaceConstant - 0 -> 1
+34	ReplaceComparisonOperator	com.graphhopper.storage.index.QueryResult.getSnappedPoint()Lcom/graphhopper/util/shapes/GHPoint3D;:130 - ReplaceComparisonOperator != null -> = null
+35	ReplaceConstant	com.graphhopper.storage.index.QueryResult.getSnappedPoint()Lcom/graphhopper/util/shapes/GHPoint3D;:131 - ReplaceConstant - Calculate snapped point before! -> 
+36	ReplaceComparisonOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:139 - ReplaceComparisonOperator != null -> = null
+37	ReplaceConstant	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:140 - ReplaceConstant - No closest edge? -> 
+38	ReplaceComparisonOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:141 - ReplaceComparisonOperator = null -> != null
+39	ReplaceConstant	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:142 - ReplaceConstant - Calculate snapped point only once -> 
+40	ReplaceConstant	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:144 - ReplaceConstant - 3 -> 0
+41	ReplaceConstant	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:144 - ReplaceConstant - 3 -> 1
+42	ReplaceConstant	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:144 - ReplaceConstant - 3 -> -1
+43	ReplaceConstant	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:144 - ReplaceConstant - 3 -> 2
+44	ReplaceConstant	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:144 - ReplaceConstant - 3 -> 4
+45	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:145 - InsertUnaryOp Negation
+46	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:145 - InsertUnaryOp +1
+47	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:145 - InsertUnaryOp -1
+48	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:146 - InsertUnaryOp Negation
+49	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:146 - InsertUnaryOp +1
+50	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:146 - InsertUnaryOp -1
+51	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:147 - InsertUnaryOp Negation
+52	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:147 - InsertUnaryOp +1
+53	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:147 - InsertUnaryOp -1
+54	ReplaceComparisonOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:148 - ReplaceComparisonOperator == -> !=
+55	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:149 - InsertUnaryOp Negation of tmpLat
+56	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:149 - InsertUnaryOp Negation of tmpLon
+57	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:149 - InsertUnaryOp Negation of tmpEle
+58	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:153 - InsertUnaryOp Negation
+59	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:153 - InsertUnaryOp Negation
+60	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:154 - InsertUnaryOp Negation
+61	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:154 - InsertUnaryOp +1
+62	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:154 - InsertUnaryOp -1
+63	ReplaceConstant	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:154 - ReplaceConstant - 1 -> 0
+64	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:154 - ReplaceArithmeticOperator + -> %
+65	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:154 - ReplaceArithmeticOperator + -> -
+66	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:154 - ReplaceArithmeticOperator + -> *
+67	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:154 - ReplaceArithmeticOperator + -> /
+68	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:154 - InsertUnaryOp Negation
+69	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:154 - InsertUnaryOp +1
+70	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:154 - InsertUnaryOp -1
+71	ReplaceConstant	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:154 - ReplaceConstant - 1 -> 0
+72	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:154 - ReplaceArithmeticOperator + -> %
+73	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:154 - ReplaceArithmeticOperator + -> -
+74	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:154 - ReplaceArithmeticOperator + -> *
+75	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:154 - ReplaceArithmeticOperator + -> /
+76	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:155 - InsertUnaryOp Negation of queryLat
+77	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:155 - InsertUnaryOp Negation of queryLon
+78	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:155 - InsertUnaryOp Negation of tmpLat
+79	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:155 - InsertUnaryOp Negation of tmpLon
+80	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:155 - InsertUnaryOp Negation of adjLat
+81	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:155 - InsertUnaryOp Negation of adjLon
+82	ReplaceComparisonOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:155 - ReplaceComparisonOperator == -> -2
+83	ReplaceComparisonOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:155 - ReplaceComparisonOperator == -> >=
+84	ReplaceComparisonOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:155 - ReplaceComparisonOperator == -> <=
+85	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:156 - InsertUnaryOp Negation of queryLat
+86	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:156 - InsertUnaryOp Negation of queryLon
+87	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:156 - InsertUnaryOp Negation of tmpLat
+88	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:156 - InsertUnaryOp Negation of tmpLon
+89	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:156 - InsertUnaryOp Negation of adjLat
+90	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:156 - InsertUnaryOp Negation of adjLon
+91	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:157 - InsertUnaryOp Negation
+92	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:157 - InsertUnaryOp +1
+93	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:157 - InsertUnaryOp -1
+94	ReplaceConstant	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:157 - ReplaceConstant - 1 -> 0
+95	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:157 - ReplaceArithmeticOperator + -> %
+96	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:157 - ReplaceArithmeticOperator + -> -
+97	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:157 - ReplaceArithmeticOperator + -> *
+98	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:157 - ReplaceArithmeticOperator + -> /
+99	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:158 - InsertUnaryOp Negation
+100	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:158 - InsertUnaryOp Negation
+101	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:158 - InsertUnaryOp Negation of tmpEle
+102	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:158 - InsertUnaryOp Negation of adjEle
+103	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:158 - ReplaceArithmeticOperator + -> %
+104	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:158 - ReplaceArithmeticOperator + -> -
+105	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:158 - ReplaceArithmeticOperator + -> *
+106	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:158 - ReplaceArithmeticOperator + -> /
+107	ReplaceConstant	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:158 - ReplaceConstant - 2.0 -> 0.0
+108	ReplaceConstant	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:158 - ReplaceConstant - 2.0 -> 1.0
+109	ReplaceConstant	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:158 - ReplaceConstant - 2.0 -> -1.0
+110	ReplaceConstant	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:158 - ReplaceConstant - 2.0 -> 3.0
+111	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:158 - ReplaceArithmeticOperator / -> +
+112	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:158 - ReplaceArithmeticOperator / -> %
+113	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:158 - ReplaceArithmeticOperator / -> -
+114	ReplaceArithmeticOperator	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:158 - ReplaceArithmeticOperator / -> *
+115	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:161 - InsertUnaryOp Negation of tmpLat
+116	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:161 - InsertUnaryOp Negation of tmpLon
+117	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.calcSnappedPoint(Lcom/graphhopper/util/DistanceCalc;)V:161 - InsertUnaryOp Negation of tmpEle
+118	ReplaceComparisonOperator	com.graphhopper.storage.index.QueryResult.toString()Ljava/lang/String;:166 - ReplaceComparisonOperator = null -> != null
+119	ReplaceConstant	com.graphhopper.storage.index.QueryResult.toString()Ljava/lang/String;:167 - ReplaceConstant - - -> 
+120	ReplaceConstant	com.graphhopper.storage.index.QueryResult.toString()Ljava/lang/String;:167 - ReplaceConstant -    -> 
+121	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.toString()Ljava/lang/String;:168 - InsertUnaryOp Negation
+122	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.toString()Ljava/lang/String;:168 - InsertUnaryOp +1
+123	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.toString()Ljava/lang/String;:168 - InsertUnaryOp -1
+124	ReplaceConstant	com.graphhopper.storage.index.QueryResult.toString()Ljava/lang/String;:168 - ReplaceConstant - ,  -> 
+125	ReplaceConstant	com.graphhopper.storage.index.QueryResult.toString()Ljava/lang/String;:168 - ReplaceConstant - ,  -> 
+126	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.toString()Ljava/lang/String;:168 - InsertUnaryOp Negation
+127	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.toString()Ljava/lang/String;:168 - InsertUnaryOp +1
+128	InsertUnaryOp	com.graphhopper.storage.index.QueryResult.toString()Ljava/lang/String;:168 - InsertUnaryOp -1

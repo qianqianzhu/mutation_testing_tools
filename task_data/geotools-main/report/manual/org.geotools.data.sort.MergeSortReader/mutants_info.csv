@@ -1,0 +1,37 @@
+0	ReplaceComparisonOperator	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:60 - ReplaceComparisonOperator != -> -1
+1	ReplaceComparisonOperator	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:60 - ReplaceComparisonOperator != -> <
+2	ReplaceComparisonOperator	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:60 - ReplaceComparisonOperator != -> >
+3	ReplaceConstant	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:65 - ReplaceConstant - 0 -> 1
+4	ReplaceConstant	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:66 - ReplaceConstant - 1 -> 0
+5	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:66 - InsertUnaryOp Negation of i
+6	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:66 - InsertUnaryOp IINC 1 i
+7	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:66 - InsertUnaryOp IINC -1 i
+8	ReplaceComparisonOperator	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:66 - ReplaceComparisonOperator >= -> -1
+9	ReplaceComparisonOperator	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:66 - ReplaceComparisonOperator >= -> >
+10	ReplaceComparisonOperator	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:66 - ReplaceComparisonOperator >= -> ==
+11	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:67 - InsertUnaryOp Negation of selected
+12	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:67 - InsertUnaryOp IINC 1 selected
+13	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:67 - InsertUnaryOp IINC -1 selected
+14	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:68 - InsertUnaryOp Negation of i
+15	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:68 - InsertUnaryOp IINC 1 i
+16	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:68 - InsertUnaryOp IINC -1 i
+17	ReplaceComparisonOperator	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:69 - ReplaceComparisonOperator <= -> -1
+18	ReplaceComparisonOperator	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:69 - ReplaceComparisonOperator <= -> ==
+19	ReplaceComparisonOperator	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:69 - ReplaceComparisonOperator <= -> <
+20	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:70 - InsertUnaryOp Negation of i
+21	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:70 - InsertUnaryOp IINC 1 i
+22	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:70 - InsertUnaryOp IINC -1 i
+23	ReplaceVariable	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:66 - ReplaceVariable i -> selected
+24	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:75 - InsertUnaryOp Negation of selected
+25	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:75 - InsertUnaryOp IINC 1 selected
+26	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:75 - InsertUnaryOp IINC -1 selected
+27	ReplaceComparisonOperator	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:77 - ReplaceComparisonOperator != null -> = null
+28	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:78 - InsertUnaryOp Negation of selected
+29	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:78 - InsertUnaryOp IINC 1 selected
+30	InsertUnaryOp	org.geotools.data.sort.MergeSortReader.next()Lorg/opengis/feature/simple/SimpleFeature;:78 - InsertUnaryOp IINC -1 selected
+31	ReplaceComparisonOperator	org.geotools.data.sort.MergeSortReader.hasNext()Z:86 - ReplaceComparisonOperator <= -> -1
+32	ReplaceComparisonOperator	org.geotools.data.sort.MergeSortReader.hasNext()Z:86 - ReplaceComparisonOperator <= -> ==
+33	ReplaceComparisonOperator	org.geotools.data.sort.MergeSortReader.hasNext()Z:86 - ReplaceComparisonOperator <= -> <
+34	ReplaceConstant	org.geotools.data.sort.MergeSortReader.hasNext()Z:86 - ReplaceConstant - 1 -> 0
+35	ReplaceConstant	org.geotools.data.sort.MergeSortReader.hasNext()Z:86 - ReplaceConstant - 0 -> 1
+36	ReplaceConstant	org.geotools.data.sort.MergeSortReader.close()V:90 - ReplaceConstant - 1 -> 0

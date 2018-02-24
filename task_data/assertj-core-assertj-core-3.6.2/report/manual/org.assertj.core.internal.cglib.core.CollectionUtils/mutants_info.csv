@@ -1,0 +1,23 @@
+0	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.bucket(Ljava/util/Collection;Lorg/assertj/core/internal/cglib/core/Transformer;)Ljava/util/Map;:30 - ReplaceComparisonOperator == -> -2
+1	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.bucket(Ljava/util/Collection;Lorg/assertj/core/internal/cglib/core/Transformer;)Ljava/util/Map;:30 - ReplaceComparisonOperator == -> >=
+2	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.bucket(Ljava/util/Collection;Lorg/assertj/core/internal/cglib/core/Transformer;)Ljava/util/Map;:30 - ReplaceComparisonOperator == -> <=
+3	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.bucket(Ljava/util/Collection;Lorg/assertj/core/internal/cglib/core/Transformer;)Ljava/util/Map;:34 - ReplaceComparisonOperator != null -> = null
+4	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.reverse(Ljava/util/Map;Ljava/util/Map;)V:43 - ReplaceComparisonOperator == -> -2
+5	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.reverse(Ljava/util/Map;Ljava/util/Map;)V:43 - ReplaceComparisonOperator == -> >=
+6	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.reverse(Ljava/util/Map;Ljava/util/Map;)V:43 - ReplaceComparisonOperator == -> <=
+7	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.filter(Ljava/util/Collection;Lorg/assertj/core/internal/cglib/core/Predicate;)Ljava/util/Collection;:51 - ReplaceComparisonOperator == -> -2
+8	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.filter(Ljava/util/Collection;Lorg/assertj/core/internal/cglib/core/Predicate;)Ljava/util/Collection;:51 - ReplaceComparisonOperator == -> >=
+9	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.filter(Ljava/util/Collection;Lorg/assertj/core/internal/cglib/core/Predicate;)Ljava/util/Collection;:51 - ReplaceComparisonOperator == -> <=
+10	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.filter(Ljava/util/Collection;Lorg/assertj/core/internal/cglib/core/Predicate;)Ljava/util/Collection;:52 - ReplaceComparisonOperator != -> -1
+11	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.filter(Ljava/util/Collection;Lorg/assertj/core/internal/cglib/core/Predicate;)Ljava/util/Collection;:52 - ReplaceComparisonOperator != -> <
+12	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.filter(Ljava/util/Collection;Lorg/assertj/core/internal/cglib/core/Predicate;)Ljava/util/Collection;:52 - ReplaceComparisonOperator != -> >
+13	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.transform(Ljava/util/Collection;Lorg/assertj/core/internal/cglib/core/Transformer;)Ljava/util/List;:61 - ReplaceComparisonOperator == -> -2
+14	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.transform(Ljava/util/Collection;Lorg/assertj/core/internal/cglib/core/Transformer;)Ljava/util/List;:61 - ReplaceComparisonOperator == -> >=
+15	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.transform(Ljava/util/Collection;Lorg/assertj/core/internal/cglib/core/Transformer;)Ljava/util/List;:61 - ReplaceComparisonOperator == -> <=
+16	ReplaceConstant	org.assertj.core.internal.cglib.core.CollectionUtils.getIndexMap(Ljava/util/List;)Ljava/util/Map;:69 - ReplaceConstant - 0 -> 1
+17	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.getIndexMap(Ljava/util/List;)Ljava/util/Map;:70 - ReplaceComparisonOperator == -> -2
+18	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.getIndexMap(Ljava/util/List;)Ljava/util/Map;:70 - ReplaceComparisonOperator == -> >=
+19	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.CollectionUtils.getIndexMap(Ljava/util/List;)Ljava/util/Map;:70 - ReplaceComparisonOperator == -> <=
+20	InsertUnaryOp	org.assertj.core.internal.cglib.core.CollectionUtils.getIndexMap(Ljava/util/List;)Ljava/util/Map;:71 - InsertUnaryOp Negation of index
+21	InsertUnaryOp	org.assertj.core.internal.cglib.core.CollectionUtils.getIndexMap(Ljava/util/List;)Ljava/util/Map;:71 - InsertUnaryOp IINC 1 index
+22	InsertUnaryOp	org.assertj.core.internal.cglib.core.CollectionUtils.getIndexMap(Ljava/util/List;)Ljava/util/Map;:71 - InsertUnaryOp IINC -1 index

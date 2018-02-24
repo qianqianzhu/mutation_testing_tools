@@ -1,0 +1,50 @@
+0	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.getFunctionNames()Ljava/util/List;:63 - ReplaceComparisonOperator == -> -2
+1	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.getFunctionNames()Ljava/util/List;:63 - ReplaceComparisonOperator == -> >=
+2	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.getFunctionNames()Ljava/util/List;:63 - ReplaceComparisonOperator == -> <=
+3	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.function(Lorg/opengis/feature/type/Name;Ljava/util/List;Lorg/opengis/filter/expression/Literal;)Lorg/opengis/filter/expression/Function;:81 - ReplaceComparisonOperator != null -> = null
+4	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.function(Lorg/opengis/feature/type/Name;Ljava/util/List;Lorg/opengis/filter/expression/Literal;)Lorg/opengis/filter/expression/Function;:83 - ReplaceComparisonOperator != null -> = null
+5	ReplaceConstant	org.geotools.filter.function.DefaultFunctionFactory.function(Lorg/opengis/feature/type/Name;Ljava/util/List;Lorg/opengis/filter/expression/Literal;)Lorg/opengis/filter/expression/Function;:95 - ReplaceConstant - Unable to create function  -> 
+6	ReplaceConstant	org.geotools.filter.function.DefaultFunctionFactory.function(Lorg/opengis/feature/type/Name;Ljava/util/List;Lorg/opengis/filter/expression/Literal;)Lorg/opengis/filter/expression/Function;:95 - ReplaceConstant - Function -> 
+7	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.functionCache()Ljava/util/Map;:102 - ReplaceComparisonOperator != null -> = null
+8	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.functionCache()Ljava/util/Map;:104 - ReplaceComparisonOperator != null -> = null
+9	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:116 - ReplaceComparisonOperator != null -> = null
+10	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:116 - ReplaceComparisonOperator == -> -2
+11	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:116 - ReplaceComparisonOperator == -> >=
+12	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:116 - ReplaceComparisonOperator == -> <=
+13	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:119 - ReplaceComparisonOperator != null -> = null
+14	InsertUnaryOp	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:122 - InsertUnaryOp Negation of argc
+15	InsertUnaryOp	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:122 - InsertUnaryOp IINC 1 argc
+16	InsertUnaryOp	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:122 - InsertUnaryOp IINC -1 argc
+17	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:123 - ReplaceComparisonOperator != -> -1
+18	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:123 - ReplaceComparisonOperator != -> <
+19	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:123 - ReplaceComparisonOperator != -> >
+20	ReplaceConstant	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:124 - ReplaceConstant -  FunctionName was null, used for etArgumentCount():  -> 
+21	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:128 - ReplaceComparisonOperator != -> -1
+22	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:128 - ReplaceComparisonOperator != -> <
+23	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:128 - ReplaceComparisonOperator != -> >
+24	ReplaceConstant	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:129 - ReplaceConstant -  has name conflict betwee ' -> 
+25	ReplaceConstant	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:129 - ReplaceConstant - ' and ' -> 
+26	ReplaceConstant	org.geotools.filter.function.DefaultFunctionFactory.getFunctionName(Lorg/opengis/filter/expression/Function;)Lorg/opengis/filter/capability/FunctionName;:129 - ReplaceConstant - ' -> 
+27	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.loadFunctions()Ljava/util/Map;:138 - ReplaceComparisonOperator == -> -2
+28	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.loadFunctions()Ljava/util/Map;:138 - ReplaceComparisonOperator == -> >=
+29	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.loadFunctions()Ljava/util/Map;:138 - ReplaceComparisonOperator == -> <=
+30	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.loadFunctions()Ljava/util/Map;:147 - ReplaceComparisonOperator == -> -2
+31	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.loadFunctions()Ljava/util/Map;:147 - ReplaceComparisonOperator == -> >=
+32	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.loadFunctions()Ljava/util/Map;:147 - ReplaceComparisonOperator == -> <=
+33	ReplaceConstant	org.geotools.filter.function.DefaultFunctionFactory.loadFunctions()Ljava/util/Map;:150 - ReplaceConstant - Function  -> 
+34	ReplaceConstant	org.geotools.filter.function.DefaultFunctionFactory.loadFunctions()Ljava/util/Map;:150 - ReplaceConstant -  clash between  -> 
+35	ReplaceConstant	org.geotools.filter.function.DefaultFunctionFactory.loadFunctions()Ljava/util/Map;:150 - ReplaceConstant -  and  -> 
+36	ReplaceConstant	org.geotools.filter.function.DefaultFunctionFactory.functionName(Lorg/opengis/feature/type/Name;)Lorg/opengis/feature/type/Name;:161 - ReplaceConstant - -1 -> 0
+37	ReplaceConstant	org.geotools.filter.function.DefaultFunctionFactory.functionName(Lorg/opengis/feature/type/Name;)Lorg/opengis/feature/type/Name;:161 - ReplaceConstant - -1 -> 1
+38	ReplaceConstant	org.geotools.filter.function.DefaultFunctionFactory.functionName(Lorg/opengis/feature/type/Name;)Lorg/opengis/feature/type/Name;:161 - ReplaceConstant - -1 -> -2
+39	ReplaceConstant	org.geotools.filter.function.DefaultFunctionFactory.functionName(Lorg/opengis/feature/type/Name;)Lorg/opengis/feature/type/Name;:163 - ReplaceConstant - Function -> 
+40	ReplaceConstant	org.geotools.filter.function.DefaultFunctionFactory.functionName(Lorg/opengis/feature/type/Name;)Lorg/opengis/feature/type/Name;:163 - ReplaceConstant - -1 -> 0
+41	ReplaceConstant	org.geotools.filter.function.DefaultFunctionFactory.functionName(Lorg/opengis/feature/type/Name;)Lorg/opengis/feature/type/Name;:163 - ReplaceConstant - -1 -> 1
+42	ReplaceConstant	org.geotools.filter.function.DefaultFunctionFactory.functionName(Lorg/opengis/feature/type/Name;)Lorg/opengis/feature/type/Name;:163 - ReplaceConstant - -1 -> -2
+43	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.functionName(Lorg/opengis/feature/type/Name;)Lorg/opengis/feature/type/Name;:163 - ReplaceComparisonOperator == -> -2
+44	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.functionName(Lorg/opengis/feature/type/Name;)Lorg/opengis/feature/type/Name;:163 - ReplaceComparisonOperator == -> >=
+45	ReplaceComparisonOperator	org.geotools.filter.function.DefaultFunctionFactory.functionName(Lorg/opengis/feature/type/Name;)Lorg/opengis/feature/type/Name;:163 - ReplaceComparisonOperator == -> <=
+46	ReplaceConstant	org.geotools.filter.function.DefaultFunctionFactory.functionName(Lorg/opengis/feature/type/Name;)Lorg/opengis/feature/type/Name;:164 - ReplaceConstant - 0 -> 1
+47	InsertUnaryOp	org.geotools.filter.function.DefaultFunctionFactory.functionName(Lorg/opengis/feature/type/Name;)Lorg/opengis/feature/type/Name;:164 - InsertUnaryOp Negation of index
+48	InsertUnaryOp	org.geotools.filter.function.DefaultFunctionFactory.functionName(Lorg/opengis/feature/type/Name;)Lorg/opengis/feature/type/Name;:164 - InsertUnaryOp IINC 1 index
+49	InsertUnaryOp	org.geotools.filter.function.DefaultFunctionFactory.functionName(Lorg/opengis/feature/type/Name;)Lorg/opengis/feature/type/Name;:164 - InsertUnaryOp IINC -1 index

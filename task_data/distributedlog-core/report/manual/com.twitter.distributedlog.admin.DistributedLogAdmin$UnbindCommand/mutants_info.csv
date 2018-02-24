@@ -1,0 +1,42 @@
+0	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.<init>(Lcom/twitter/distributedlog/admin/DistributedLogAdmin;)V:443 - ReplaceConstant - unbind -> 
+1	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.<init>(Lcom/twitter/distributedlog/admin/DistributedLogAdmin;)V:443 - ReplaceConstant - unbind the bookkeeper environment bound for a given distributedlog instance. -> 
+2	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.<init>(Lcom/twitter/distributedlog/admin/DistributedLogAdmin;)V:444 - ReplaceConstant - f -> 
+3	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.<init>(Lcom/twitter/distributedlog/admin/DistributedLogAdmin;)V:444 - ReplaceConstant - force -> 
+4	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.<init>(Lcom/twitter/distributedlog/admin/DistributedLogAdmin;)V:444 - ReplaceConstant - 0 -> 1
+5	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.<init>(Lcom/twitter/distributedlog/admin/DistributedLogAdmin;)V:444 - ReplaceConstant - Force unbinding without prompt. -> 
+6	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.getUsage()Ljava/lang/String;:454 - ReplaceConstant - unbind [options] <distributedlog uri> -> 
+7	ReplaceComparisonOperator	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:460 - ReplaceComparisonOperator > -> -2
+8	ReplaceComparisonOperator	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:460 - ReplaceComparisonOperator > -> !=
+9	ReplaceComparisonOperator	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:460 - ReplaceComparisonOperator > -> >=
+10	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:461 - ReplaceConstant - No distributedlog uri specified. -> 
+11	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:463 - ReplaceConstant - -1 -> 0
+12	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:463 - ReplaceConstant - -1 -> 1
+13	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:463 - ReplaceConstant - -1 -> -2
+14	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:465 - ReplaceConstant - f -> 
+15	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:466 - ReplaceConstant - 0 -> 1
+16	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:468 - ReplaceConstant - 10000 -> 0
+17	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:468 - ReplaceConstant - 10000 -> 1
+18	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:468 - ReplaceConstant - 10000 -> -1
+19	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:468 - ReplaceConstant - 10000 -> 9999
+20	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:468 - ReplaceConstant - 10000 -> 10001
+21	ReplaceComparisonOperator	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:476 - ReplaceComparisonOperator != -> ==
+22	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:477 - ReplaceConstant - No bookkeeper is bound to  -> 
+23	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:478 - ReplaceConstant - 0 -> 1
+24	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:480 - ReplaceConstant - There is bookkeeper bound to  -> 
+25	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:480 - ReplaceConstant -  :  -> 
+26	InsertUnaryOp	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:484 - InsertUnaryOp Negation of force
+27	InsertUnaryOp	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:484 - InsertUnaryOp IINC 1 force
+28	InsertUnaryOp	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:484 - InsertUnaryOp IINC -1 force
+29	ReplaceComparisonOperator	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:484 - ReplaceComparisonOperator != -> -1
+30	ReplaceComparisonOperator	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:484 - ReplaceComparisonOperator != -> <
+31	ReplaceComparisonOperator	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:484 - ReplaceComparisonOperator != -> >
+32	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:484 - ReplaceConstant - Do you want to unbind  -> 
+33	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:484 - ReplaceConstant -  :
+ -> 
+34	ReplaceComparisonOperator	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:484 - ReplaceComparisonOperator != -> -1
+35	ReplaceComparisonOperator	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:484 - ReplaceComparisonOperator != -> <
+36	ReplaceComparisonOperator	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:484 - ReplaceComparisonOperator != -> >
+37	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:485 - ReplaceConstant - 0 -> 1
+38	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:489 - ReplaceConstant - Unbound on  -> 
+39	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:489 - ReplaceConstant - . -> 
+40	ReplaceConstant	com.twitter.distributedlog.admin.DistributedLogAdmin$UnbindCommand.runCmd(Lorg/apache/commons/cli/CommandLine;)I:490 - ReplaceConstant - 0 -> 1

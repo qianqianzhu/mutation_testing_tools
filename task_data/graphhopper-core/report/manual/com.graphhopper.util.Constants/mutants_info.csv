@@ -1,0 +1,28 @@
+0	ReplaceConstant	com.graphhopper.util.Constants.getVersions()Ljava/lang/String;:113 - ReplaceConstant - 5,14,4,3,3,2 -> 
+1	ReplaceConstant	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:118 - ReplaceConstant - . -> 
+2	InsertUnaryOp	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:119 - InsertUnaryOp Negation of firstIdx
+3	InsertUnaryOp	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:119 - InsertUnaryOp IINC 1 firstIdx
+4	InsertUnaryOp	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:119 - InsertUnaryOp IINC -1 firstIdx
+5	ReplaceComparisonOperator	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:119 - ReplaceComparisonOperator >= -> -1
+6	ReplaceComparisonOperator	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:119 - ReplaceComparisonOperator >= -> ==
+7	ReplaceComparisonOperator	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:119 - ReplaceComparisonOperator >= -> >
+8	ReplaceConstant	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:120 - ReplaceConstant - Cannot extract major version from version  -> 
+9	ReplaceConstant	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:122 - ReplaceConstant - . -> 
+10	InsertUnaryOp	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:122 - InsertUnaryOp Negation of firstIdx
+11	InsertUnaryOp	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:122 - InsertUnaryOp IINC 1 firstIdx
+12	InsertUnaryOp	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:122 - InsertUnaryOp IINC -1 firstIdx
+13	ReplaceConstant	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:122 - ReplaceConstant - 1 -> 0
+14	ReplaceArithmeticOperator	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:122 - ReplaceArithmeticOperator + -> %
+15	ReplaceArithmeticOperator	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:122 - ReplaceArithmeticOperator + -> -
+16	ReplaceArithmeticOperator	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:122 - ReplaceArithmeticOperator + -> *
+17	ReplaceArithmeticOperator	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:122 - ReplaceArithmeticOperator + -> /
+18	InsertUnaryOp	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:123 - InsertUnaryOp Negation of sndIdx
+19	InsertUnaryOp	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:123 - InsertUnaryOp IINC 1 sndIdx
+20	InsertUnaryOp	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:123 - InsertUnaryOp IINC -1 sndIdx
+21	ReplaceComparisonOperator	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:123 - ReplaceComparisonOperator >= -> -1
+22	ReplaceComparisonOperator	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:123 - ReplaceComparisonOperator >= -> ==
+23	ReplaceComparisonOperator	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:123 - ReplaceComparisonOperator >= -> >
+24	ReplaceConstant	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:125 - ReplaceConstant - 0 -> 1
+25	InsertUnaryOp	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:125 - InsertUnaryOp Negation of sndIdx
+26	InsertUnaryOp	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:125 - InsertUnaryOp IINC 1 sndIdx
+27	InsertUnaryOp	com.graphhopper.util.Constants.getMajorVersion()Ljava/lang/String;:125 - InsertUnaryOp IINC -1 sndIdx

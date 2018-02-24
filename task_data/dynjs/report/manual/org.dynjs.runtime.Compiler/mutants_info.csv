@@ -1,0 +1,12 @@
+0	ReplaceConstant	org.dynjs.runtime.Compiler.forceStrict()Lorg/dynjs/runtime/Compiler;:44 - ReplaceConstant - 1 -> 0
+1	InsertUnaryOp	org.dynjs.runtime.Compiler.forceStrict(Z)Lorg/dynjs/runtime/Compiler;:48 - InsertUnaryOp Negation of forceStrict
+2	InsertUnaryOp	org.dynjs.runtime.Compiler.forceStrict(Z)Lorg/dynjs/runtime/Compiler;:48 - InsertUnaryOp IINC 1 forceStrict
+3	InsertUnaryOp	org.dynjs.runtime.Compiler.forceStrict(Z)Lorg/dynjs/runtime/Compiler;:48 - InsertUnaryOp IINC -1 forceStrict
+4	ReplaceComparisonOperator	org.dynjs.runtime.Compiler.parse()Lorg/dynjs/parser/ast/ProgramTree;:81 - ReplaceComparisonOperator = null -> != null
+5	InsertUnaryOp	org.dynjs.runtime.Compiler.parse()Lorg/dynjs/parser/ast/ProgramTree;:87 - InsertUnaryOp Negation
+6	ReplaceComparisonOperator	org.dynjs.runtime.Compiler.parse()Lorg/dynjs/parser/ast/ProgramTree;:92 - ReplaceComparisonOperator = null -> != null
+7	ReplaceComparisonOperator	org.dynjs.runtime.Compiler.parse()Lorg/dynjs/parser/ast/ProgramTree;:92 - ReplaceComparisonOperator = null -> != null
+8	ReplaceComparisonOperator	org.dynjs.runtime.Compiler.compilationContext()Lorg/dynjs/compiler/CompilationContext;:99 - ReplaceComparisonOperator != null -> = null
+9	ReplaceComparisonOperator	org.dynjs.runtime.Compiler.compilationContext()Lorg/dynjs/compiler/CompilationContext;:102 - ReplaceComparisonOperator != null -> = null
+10	ReplaceComparisonOperator	org.dynjs.runtime.Compiler.compile(Lorg/dynjs/parser/ast/ProgramTree;)Lorg/dynjs/runtime/JSProgram;:113 - ReplaceComparisonOperator != -> ==
+11	InsertUnaryOp	org.dynjs.runtime.Compiler.compile(Lorg/dynjs/parser/ast/ProgramTree;)Lorg/dynjs/runtime/JSProgram;:118 - InsertUnaryOp Negation

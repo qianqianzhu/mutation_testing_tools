@@ -1,0 +1,39 @@
+0	InsertUnaryOp	org.geotools.feature.visitor.CountVisitor$CountResult.<init>(I)V:77 - InsertUnaryOp Negation of newcount
+1	InsertUnaryOp	org.geotools.feature.visitor.CountVisitor$CountResult.<init>(I)V:77 - InsertUnaryOp IINC 1 newcount
+2	InsertUnaryOp	org.geotools.feature.visitor.CountVisitor$CountResult.<init>(I)V:77 - InsertUnaryOp IINC -1 newcount
+3	InsertUnaryOp	org.geotools.feature.visitor.CountVisitor$CountResult.getValue()Ljava/lang/Object;:81 - InsertUnaryOp Negation
+4	InsertUnaryOp	org.geotools.feature.visitor.CountVisitor$CountResult.getValue()Ljava/lang/Object;:81 - InsertUnaryOp +1
+5	InsertUnaryOp	org.geotools.feature.visitor.CountVisitor$CountResult.getValue()Ljava/lang/Object;:81 - InsertUnaryOp -1
+6	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor$CountResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:85 - ReplaceComparisonOperator != -> ==
+7	ReplaceConstant	org.geotools.feature.visitor.CountVisitor$CountResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:85 - ReplaceConstant - 1 -> 0
+8	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor$CountResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:86 - ReplaceComparisonOperator == -> -2
+9	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor$CountResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:86 - ReplaceComparisonOperator == -> >=
+10	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor$CountResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:86 - ReplaceComparisonOperator == -> <=
+11	ReplaceConstant	org.geotools.feature.visitor.CountVisitor$CountResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:86 - ReplaceConstant - 1 -> 0
+12	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor$CountResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:87 - ReplaceComparisonOperator == -> -2
+13	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor$CountResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:87 - ReplaceComparisonOperator == -> >=
+14	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor$CountResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:87 - ReplaceComparisonOperator == -> <=
+15	ReplaceConstant	org.geotools.feature.visitor.CountVisitor$CountResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:87 - ReplaceConstant - 1 -> 0
+16	ReplaceConstant	org.geotools.feature.visitor.CountVisitor$CountResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:88 - ReplaceConstant - 0 -> 1
+17	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:92 - ReplaceComparisonOperator != -> -1
+18	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:92 - ReplaceComparisonOperator != -> <
+19	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:92 - ReplaceComparisonOperator != -> >
+20	ReplaceConstant	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:93 - ReplaceConstant - Parameter is not a compatible type -> 
+21	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:97 - ReplaceComparisonOperator != -> ==
+22	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:101 - ReplaceComparisonOperator == -> -2
+23	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:101 - ReplaceComparisonOperator == -> >=
+24	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:101 - ReplaceComparisonOperator == -> <=
+25	InsertUnaryOp	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:104 - InsertUnaryOp Negation
+26	InsertUnaryOp	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:104 - InsertUnaryOp +1
+27	InsertUnaryOp	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:104 - InsertUnaryOp -1
+28	InsertUnaryOp	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:104 - InsertUnaryOp Negation of toAdd
+29	InsertUnaryOp	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:104 - InsertUnaryOp IINC 1 toAdd
+30	InsertUnaryOp	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:104 - InsertUnaryOp IINC -1 toAdd
+31	ReplaceArithmeticOperator	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:104 - ReplaceArithmeticOperator + -> %
+32	ReplaceArithmeticOperator	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:104 - ReplaceArithmeticOperator + -> -
+33	ReplaceArithmeticOperator	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:104 - ReplaceArithmeticOperator + -> *
+34	ReplaceArithmeticOperator	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:104 - ReplaceArithmeticOperator + -> /
+35	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:105 - ReplaceComparisonOperator == -> -2
+36	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:105 - ReplaceComparisonOperator == -> >=
+37	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:105 - ReplaceComparisonOperator == -> <=
+38	ReplaceConstant	org.geotools.feature.visitor.CountVisitor$CountResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:110 - ReplaceConstant - The CalcResults claim to be compatible, but the appropriate merge method has not been implemented. -> 

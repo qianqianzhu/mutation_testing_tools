@@ -1,0 +1,76 @@
+0	ReplaceComparisonOperator	org.geotools.styling.AnchorPointImpl.cast(Lorg/opengis/style/AnchorPoint;)Lorg/geotools/styling/AnchorPointImpl;:48 - ReplaceComparisonOperator != null -> = null
+1	ReplaceComparisonOperator	org.geotools.styling.AnchorPointImpl.cast(Lorg/opengis/style/AnchorPoint;)Lorg/geotools/styling/AnchorPointImpl;:51 - ReplaceComparisonOperator == -> -2
+2	ReplaceComparisonOperator	org.geotools.styling.AnchorPointImpl.cast(Lorg/opengis/style/AnchorPoint;)Lorg/geotools/styling/AnchorPointImpl;:51 - ReplaceComparisonOperator == -> >=
+3	ReplaceComparisonOperator	org.geotools.styling.AnchorPointImpl.cast(Lorg/opengis/style/AnchorPoint;)Lorg/geotools/styling/AnchorPointImpl;:51 - ReplaceComparisonOperator == -> <=
+4	ReplaceConstant	org.geotools.styling.AnchorPointImpl.<init>(Lorg/opengis/filter/FilterFactory;)V:71 - ReplaceConstant - 0.0 -> 1.0
+5	ReplaceConstant	org.geotools.styling.AnchorPointImpl.<init>(Lorg/opengis/filter/FilterFactory;)V:71 - ReplaceConstant - 0.0 -> -1.0
+6	ReplaceConstant	org.geotools.styling.AnchorPointImpl.<init>(Lorg/opengis/filter/FilterFactory;)V:72 - ReplaceConstant - 0.5 -> 0.0
+7	ReplaceConstant	org.geotools.styling.AnchorPointImpl.<init>(Lorg/opengis/filter/FilterFactory;)V:72 - ReplaceConstant - 0.5 -> 1.0
+8	ReplaceConstant	org.geotools.styling.AnchorPointImpl.<init>(Lorg/opengis/filter/FilterFactory;)V:72 - ReplaceConstant - 0.5 -> -1.0
+9	ReplaceConstant	org.geotools.styling.AnchorPointImpl.<init>(Lorg/opengis/filter/FilterFactory;)V:72 - ReplaceConstant - 0.5 -> -0.5
+10	ReplaceConstant	org.geotools.styling.AnchorPointImpl.<init>(Lorg/opengis/filter/FilterFactory;)V:72 - ReplaceConstant - 0.5 -> 1.5
+11	ReplaceConstant	org.geotools.styling.AnchorPointImpl.<init>(Lorg/opengis/filter/FilterFactory;)V:74 - ReplaceConstant - Failed to build defaultAnchorPoint:  -> 
+12	InsertUnaryOp	org.geotools.styling.AnchorPointImpl.setAnchorPointX(D)V:106 - InsertUnaryOp Negation of x
+13	InsertUnaryOp	org.geotools.styling.AnchorPointImpl.getAnchorPointY(D)V:133 - InsertUnaryOp Negation of x
+14	ReplaceConstant	org.geotools.styling.AnchorPointImpl.clone()Ljava/lang/Object;:151 - ReplaceConstant - Never happen -> 
+15	ReplaceComparisonOperator	org.geotools.styling.AnchorPointImpl.equals(Ljava/lang/Object;)Z:159 - ReplaceComparisonOperator != -> ==
+16	ReplaceConstant	org.geotools.styling.AnchorPointImpl.equals(Ljava/lang/Object;)Z:160 - ReplaceConstant - 1 -> 0
+17	ReplaceComparisonOperator	org.geotools.styling.AnchorPointImpl.equals(Ljava/lang/Object;)Z:163 - ReplaceComparisonOperator == -> -2
+18	ReplaceComparisonOperator	org.geotools.styling.AnchorPointImpl.equals(Ljava/lang/Object;)Z:163 - ReplaceComparisonOperator == -> >=
+19	ReplaceComparisonOperator	org.geotools.styling.AnchorPointImpl.equals(Ljava/lang/Object;)Z:163 - ReplaceComparisonOperator == -> <=
+20	ReplaceComparisonOperator	org.geotools.styling.AnchorPointImpl.equals(Ljava/lang/Object;)Z:166 - ReplaceComparisonOperator == -> -2
+21	ReplaceComparisonOperator	org.geotools.styling.AnchorPointImpl.equals(Ljava/lang/Object;)Z:166 - ReplaceComparisonOperator == -> >=
+22	ReplaceComparisonOperator	org.geotools.styling.AnchorPointImpl.equals(Ljava/lang/Object;)Z:166 - ReplaceComparisonOperator == -> <=
+23	ReplaceComparisonOperator	org.geotools.styling.AnchorPointImpl.equals(Ljava/lang/Object;)Z:167 - ReplaceComparisonOperator == -> -2
+24	ReplaceComparisonOperator	org.geotools.styling.AnchorPointImpl.equals(Ljava/lang/Object;)Z:167 - ReplaceComparisonOperator == -> >=
+25	ReplaceComparisonOperator	org.geotools.styling.AnchorPointImpl.equals(Ljava/lang/Object;)Z:167 - ReplaceComparisonOperator == -> <=
+26	ReplaceConstant	org.geotools.styling.AnchorPointImpl.equals(Ljava/lang/Object;)Z:167 - ReplaceConstant - 1 -> 0
+27	ReplaceConstant	org.geotools.styling.AnchorPointImpl.equals(Ljava/lang/Object;)Z:167 - ReplaceConstant - 0 -> 1
+28	ReplaceConstant	org.geotools.styling.AnchorPointImpl.equals(Ljava/lang/Object;)Z:170 - ReplaceConstant - 0 -> 1
+29	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:177 - ReplaceConstant - 37 -> 0
+30	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:177 - ReplaceConstant - 37 -> 1
+31	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:177 - ReplaceConstant - 37 -> -1
+32	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:177 - ReplaceConstant - 37 -> 36
+33	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:177 - ReplaceConstant - 37 -> 38
+34	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:178 - ReplaceConstant - 17 -> 0
+35	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:178 - ReplaceConstant - 17 -> 1
+36	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:178 - ReplaceConstant - 17 -> -1
+37	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:178 - ReplaceConstant - 17 -> 16
+38	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:178 - ReplaceConstant - 17 -> 18
+39	ReplaceComparisonOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:180 - ReplaceComparisonOperator = null -> != null
+40	InsertUnaryOp	org.geotools.styling.AnchorPointImpl.hashCode()I:181 - InsertUnaryOp Negation of result
+41	InsertUnaryOp	org.geotools.styling.AnchorPointImpl.hashCode()I:181 - InsertUnaryOp IINC 1 result
+42	InsertUnaryOp	org.geotools.styling.AnchorPointImpl.hashCode()I:181 - InsertUnaryOp IINC -1 result
+43	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:181 - ReplaceConstant - 37 -> 0
+44	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:181 - ReplaceConstant - 37 -> 1
+45	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:181 - ReplaceConstant - 37 -> -1
+46	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:181 - ReplaceConstant - 37 -> 36
+47	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:181 - ReplaceConstant - 37 -> 38
+48	ReplaceArithmeticOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:181 - ReplaceArithmeticOperator * -> +
+49	ReplaceArithmeticOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:181 - ReplaceArithmeticOperator * -> %
+50	ReplaceArithmeticOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:181 - ReplaceArithmeticOperator * -> -
+51	ReplaceArithmeticOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:181 - ReplaceArithmeticOperator * -> /
+52	ReplaceArithmeticOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:181 - ReplaceArithmeticOperator + -> %
+53	ReplaceArithmeticOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:181 - ReplaceArithmeticOperator + -> -
+54	ReplaceArithmeticOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:181 - ReplaceArithmeticOperator + -> *
+55	ReplaceArithmeticOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:181 - ReplaceArithmeticOperator + -> /
+56	ReplaceComparisonOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:184 - ReplaceComparisonOperator = null -> != null
+57	InsertUnaryOp	org.geotools.styling.AnchorPointImpl.hashCode()I:185 - InsertUnaryOp Negation of result
+58	InsertUnaryOp	org.geotools.styling.AnchorPointImpl.hashCode()I:185 - InsertUnaryOp IINC 1 result
+59	InsertUnaryOp	org.geotools.styling.AnchorPointImpl.hashCode()I:185 - InsertUnaryOp IINC -1 result
+60	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:185 - ReplaceConstant - 37 -> 0
+61	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:185 - ReplaceConstant - 37 -> 1
+62	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:185 - ReplaceConstant - 37 -> -1
+63	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:185 - ReplaceConstant - 37 -> 36
+64	ReplaceConstant	org.geotools.styling.AnchorPointImpl.hashCode()I:185 - ReplaceConstant - 37 -> 38
+65	ReplaceArithmeticOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:185 - ReplaceArithmeticOperator * -> +
+66	ReplaceArithmeticOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:185 - ReplaceArithmeticOperator * -> %
+67	ReplaceArithmeticOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:185 - ReplaceArithmeticOperator * -> -
+68	ReplaceArithmeticOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:185 - ReplaceArithmeticOperator * -> /
+69	ReplaceArithmeticOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:185 - ReplaceArithmeticOperator + -> %
+70	ReplaceArithmeticOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:185 - ReplaceArithmeticOperator + -> -
+71	ReplaceArithmeticOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:185 - ReplaceArithmeticOperator + -> *
+72	ReplaceArithmeticOperator	org.geotools.styling.AnchorPointImpl.hashCode()I:185 - ReplaceArithmeticOperator + -> /
+73	InsertUnaryOp	org.geotools.styling.AnchorPointImpl.hashCode()I:188 - InsertUnaryOp Negation of result
+74	InsertUnaryOp	org.geotools.styling.AnchorPointImpl.hashCode()I:188 - InsertUnaryOp IINC 1 result
+75	InsertUnaryOp	org.geotools.styling.AnchorPointImpl.hashCode()I:188 - InsertUnaryOp IINC -1 result

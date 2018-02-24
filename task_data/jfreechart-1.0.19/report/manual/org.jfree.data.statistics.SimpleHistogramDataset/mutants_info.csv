@@ -1,0 +1,169 @@
+0	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.<init>(Ljava/lang/Comparable;)V:91 - ReplaceConstant - key -> 
+1	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.<init>(Ljava/lang/Comparable;)V:94 - ReplaceConstant - 1 -> 0
+2	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getAdjustForBinSize()Z:106 - InsertUnaryOp Negation
+3	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.setAdjustForBinSize(Z)V:119 - InsertUnaryOp Negation of adjust
+4	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.setAdjustForBinSize(Z)V:119 - InsertUnaryOp IINC 1 adjust
+5	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.setAdjustForBinSize(Z)V:119 - InsertUnaryOp IINC -1 adjust
+6	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.getSeriesCount()I:130 - ReplaceConstant - 1 -> 0
+7	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addBin(Lorg/jfree/data/statistics/SimpleHistogramBin;)V:180 - ReplaceComparisonOperator == -> -2
+8	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addBin(Lorg/jfree/data/statistics/SimpleHistogramBin;)V:180 - ReplaceComparisonOperator == -> >=
+9	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addBin(Lorg/jfree/data/statistics/SimpleHistogramBin;)V:180 - ReplaceComparisonOperator == -> <=
+10	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addBin(Lorg/jfree/data/statistics/SimpleHistogramBin;)V:183 - ReplaceComparisonOperator == -> -2
+11	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addBin(Lorg/jfree/data/statistics/SimpleHistogramBin;)V:183 - ReplaceComparisonOperator == -> >=
+12	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addBin(Lorg/jfree/data/statistics/SimpleHistogramBin;)V:183 - ReplaceComparisonOperator == -> <=
+13	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.addBin(Lorg/jfree/data/statistics/SimpleHistogramBin;)V:184 - ReplaceConstant - Overlapping bin -> 
+14	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(D)V:199 - InsertUnaryOp Negation of value
+15	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(D)V:199 - ReplaceConstant - 1 -> 0
+16	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:211 - ReplaceConstant - 0 -> 1
+17	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:213 - ReplaceComparisonOperator == -> -2
+18	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:213 - ReplaceComparisonOperator == -> >=
+19	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:213 - ReplaceComparisonOperator == -> <=
+20	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:213 - InsertUnaryOp Negation of placed
+21	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:213 - InsertUnaryOp IINC 1 placed
+22	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:213 - InsertUnaryOp IINC -1 placed
+23	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:213 - ReplaceComparisonOperator != -> -1
+24	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:213 - ReplaceComparisonOperator != -> <
+25	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:213 - ReplaceComparisonOperator != -> >
+26	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:215 - InsertUnaryOp Negation of value
+27	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:215 - ReplaceComparisonOperator == -> -2
+28	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:215 - ReplaceComparisonOperator == -> >=
+29	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:215 - ReplaceComparisonOperator == -> <=
+30	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:216 - ReplaceConstant - 1 -> 0
+31	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:216 - ReplaceArithmeticOperator + -> %
+32	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:216 - ReplaceArithmeticOperator + -> -
+33	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:216 - ReplaceArithmeticOperator + -> *
+34	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:216 - ReplaceArithmeticOperator + -> /
+35	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:217 - ReplaceConstant - 1 -> 0
+36	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:220 - InsertUnaryOp Negation of placed
+37	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:220 - InsertUnaryOp IINC 1 placed
+38	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:220 - InsertUnaryOp IINC -1 placed
+39	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:220 - ReplaceComparisonOperator != -> -1
+40	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:220 - ReplaceComparisonOperator != -> <
+41	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:220 - ReplaceComparisonOperator != -> >
+42	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:221 - ReplaceConstant - No bin. -> 
+43	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:223 - InsertUnaryOp Negation of notify
+44	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:223 - InsertUnaryOp IINC 1 notify
+45	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:223 - InsertUnaryOp IINC -1 notify
+46	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:223 - ReplaceComparisonOperator == -> -2
+47	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:223 - ReplaceComparisonOperator == -> >=
+48	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservation(DZ)V:223 - ReplaceComparisonOperator == -> <=
+49	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.addObservations([D)V:237 - ReplaceConstant - 0 -> 1
+50	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.addObservations([D)V:237 - InsertUnaryOp Negation of i
+51	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.addObservations([D)V:237 - InsertUnaryOp IINC 1 i
+52	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.addObservations([D)V:237 - InsertUnaryOp IINC -1 i
+53	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservations([D)V:237 - ReplaceComparisonOperator >= -> -1
+54	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservations([D)V:237 - ReplaceComparisonOperator >= -> >
+55	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.addObservations([D)V:237 - ReplaceComparisonOperator >= -> ==
+56	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.addObservations([D)V:238 - InsertUnaryOp Negation of i
+57	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.addObservations([D)V:238 - InsertUnaryOp IINC 1 i
+58	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.addObservations([D)V:238 - InsertUnaryOp IINC -1 i
+59	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.addObservations([D)V:238 - ReplaceConstant - 0 -> 1
+60	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.clearObservations()V:254 - ReplaceComparisonOperator == -> -2
+61	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.clearObservations()V:254 - ReplaceComparisonOperator == -> >=
+62	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.clearObservations()V:254 - ReplaceComparisonOperator == -> <=
+63	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.clearObservations()V:256 - ReplaceConstant - 0 -> 1
+64	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getX(II)Ljava/lang/Number;:286 - InsertUnaryOp Negation of series
+65	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getX(II)Ljava/lang/Number;:286 - InsertUnaryOp IINC 1 series
+66	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getX(II)Ljava/lang/Number;:286 - InsertUnaryOp IINC -1 series
+67	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getX(II)Ljava/lang/Number;:286 - InsertUnaryOp Negation of item
+68	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getX(II)Ljava/lang/Number;:286 - InsertUnaryOp IINC 1 item
+69	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getX(II)Ljava/lang/Number;:286 - InsertUnaryOp IINC -1 item
+70	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getXValue(II)D:299 - InsertUnaryOp Negation of item
+71	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getXValue(II)D:299 - InsertUnaryOp IINC 1 item
+72	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getXValue(II)D:299 - InsertUnaryOp IINC -1 item
+73	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.getXValue(II)D:300 - ReplaceArithmeticOperator + -> %
+74	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.getXValue(II)D:300 - ReplaceArithmeticOperator + -> -
+75	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.getXValue(II)D:300 - ReplaceArithmeticOperator + -> *
+76	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.getXValue(II)D:300 - ReplaceArithmeticOperator + -> /
+77	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.getXValue(II)D:300 - ReplaceConstant - 2.0 -> 0.0
+78	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.getXValue(II)D:300 - ReplaceConstant - 2.0 -> 1.0
+79	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.getXValue(II)D:300 - ReplaceConstant - 2.0 -> -1.0
+80	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.getXValue(II)D:300 - ReplaceConstant - 2.0 -> 3.0
+81	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.getXValue(II)D:300 - ReplaceArithmeticOperator / -> +
+82	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.getXValue(II)D:300 - ReplaceArithmeticOperator / -> %
+83	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.getXValue(II)D:300 - ReplaceArithmeticOperator / -> -
+84	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.getXValue(II)D:300 - ReplaceArithmeticOperator / -> *
+85	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getY(II)Ljava/lang/Number;:313 - InsertUnaryOp Negation of series
+86	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getY(II)Ljava/lang/Number;:313 - InsertUnaryOp IINC 1 series
+87	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getY(II)Ljava/lang/Number;:313 - InsertUnaryOp IINC -1 series
+88	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getY(II)Ljava/lang/Number;:313 - InsertUnaryOp Negation of item
+89	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getY(II)Ljava/lang/Number;:313 - InsertUnaryOp IINC 1 item
+90	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getY(II)Ljava/lang/Number;:313 - InsertUnaryOp IINC -1 item
+91	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getYValue(II)D:328 - InsertUnaryOp Negation of item
+92	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getYValue(II)D:328 - InsertUnaryOp IINC 1 item
+93	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getYValue(II)D:328 - InsertUnaryOp IINC -1 item
+94	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getYValue(II)D:329 - InsertUnaryOp Negation
+95	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.getYValue(II)D:329 - ReplaceComparisonOperator == -> -2
+96	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.getYValue(II)D:329 - ReplaceComparisonOperator == -> >=
+97	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.getYValue(II)D:329 - ReplaceComparisonOperator == -> <=
+98	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.getYValue(II)D:331 - ReplaceArithmeticOperator - -> +
+99	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.getYValue(II)D:331 - ReplaceArithmeticOperator - -> %
+100	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.getYValue(II)D:331 - ReplaceArithmeticOperator - -> *
+101	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.getYValue(II)D:331 - ReplaceArithmeticOperator - -> /
+102	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.getYValue(II)D:331 - ReplaceArithmeticOperator / -> +
+103	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.getYValue(II)D:331 - ReplaceArithmeticOperator / -> %
+104	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.getYValue(II)D:331 - ReplaceArithmeticOperator / -> -
+105	ReplaceArithmeticOperator	org.jfree.data.statistics.SimpleHistogramDataset.getYValue(II)D:331 - ReplaceArithmeticOperator / -> *
+106	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartX(II)Ljava/lang/Number;:348 - InsertUnaryOp Negation of series
+107	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartX(II)Ljava/lang/Number;:348 - InsertUnaryOp IINC 1 series
+108	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartX(II)Ljava/lang/Number;:348 - InsertUnaryOp IINC -1 series
+109	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartX(II)Ljava/lang/Number;:348 - InsertUnaryOp Negation of item
+110	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartX(II)Ljava/lang/Number;:348 - InsertUnaryOp IINC 1 item
+111	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartX(II)Ljava/lang/Number;:348 - InsertUnaryOp IINC -1 item
+112	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartXValue(II)D:362 - InsertUnaryOp Negation of item
+113	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartXValue(II)D:362 - InsertUnaryOp IINC 1 item
+114	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartXValue(II)D:362 - InsertUnaryOp IINC -1 item
+115	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndX(II)Ljava/lang/Number;:376 - InsertUnaryOp Negation of series
+116	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndX(II)Ljava/lang/Number;:376 - InsertUnaryOp IINC 1 series
+117	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndX(II)Ljava/lang/Number;:376 - InsertUnaryOp IINC -1 series
+118	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndX(II)Ljava/lang/Number;:376 - InsertUnaryOp Negation of item
+119	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndX(II)Ljava/lang/Number;:376 - InsertUnaryOp IINC 1 item
+120	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndX(II)Ljava/lang/Number;:376 - InsertUnaryOp IINC -1 item
+121	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndXValue(II)D:390 - InsertUnaryOp Negation of item
+122	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndXValue(II)D:390 - InsertUnaryOp IINC 1 item
+123	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndXValue(II)D:390 - InsertUnaryOp IINC -1 item
+124	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartY(II)Ljava/lang/Number;:404 - InsertUnaryOp Negation of series
+125	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartY(II)Ljava/lang/Number;:404 - InsertUnaryOp IINC 1 series
+126	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartY(II)Ljava/lang/Number;:404 - InsertUnaryOp IINC -1 series
+127	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartY(II)Ljava/lang/Number;:404 - InsertUnaryOp Negation of item
+128	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartY(II)Ljava/lang/Number;:404 - InsertUnaryOp IINC 1 item
+129	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartY(II)Ljava/lang/Number;:404 - InsertUnaryOp IINC -1 item
+130	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartYValue(II)D:418 - InsertUnaryOp Negation of series
+131	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartYValue(II)D:418 - InsertUnaryOp IINC 1 series
+132	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartYValue(II)D:418 - InsertUnaryOp IINC -1 series
+133	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartYValue(II)D:418 - InsertUnaryOp Negation of item
+134	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartYValue(II)D:418 - InsertUnaryOp IINC 1 item
+135	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getStartYValue(II)D:418 - InsertUnaryOp IINC -1 item
+136	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndY(II)Ljava/lang/Number;:431 - InsertUnaryOp Negation of series
+137	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndY(II)Ljava/lang/Number;:431 - InsertUnaryOp IINC 1 series
+138	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndY(II)Ljava/lang/Number;:431 - InsertUnaryOp IINC -1 series
+139	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndY(II)Ljava/lang/Number;:431 - InsertUnaryOp Negation of item
+140	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndY(II)Ljava/lang/Number;:431 - InsertUnaryOp IINC 1 item
+141	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndY(II)Ljava/lang/Number;:431 - InsertUnaryOp IINC -1 item
+142	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndYValue(II)D:445 - InsertUnaryOp Negation of series
+143	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndYValue(II)D:445 - InsertUnaryOp IINC 1 series
+144	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndYValue(II)D:445 - InsertUnaryOp IINC -1 series
+145	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndYValue(II)D:445 - InsertUnaryOp Negation of item
+146	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndYValue(II)D:445 - InsertUnaryOp IINC 1 item
+147	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.getEndYValue(II)D:445 - InsertUnaryOp IINC -1 item
+148	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:457 - ReplaceComparisonOperator != -> ==
+149	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:458 - ReplaceConstant - 1 -> 0
+150	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:460 - ReplaceComparisonOperator != -> -1
+151	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:460 - ReplaceComparisonOperator != -> <
+152	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:460 - ReplaceComparisonOperator != -> >
+153	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:461 - ReplaceConstant - 0 -> 1
+154	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:464 - ReplaceComparisonOperator != -> -1
+155	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:464 - ReplaceComparisonOperator != -> <
+156	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:464 - ReplaceComparisonOperator != -> >
+157	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:465 - ReplaceConstant - 0 -> 1
+158	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:467 - InsertUnaryOp Negation
+159	InsertUnaryOp	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:467 - InsertUnaryOp Negation
+160	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:467 - ReplaceComparisonOperator == -> -2
+161	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:467 - ReplaceComparisonOperator == -> >=
+162	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:467 - ReplaceComparisonOperator == -> <=
+163	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:468 - ReplaceConstant - 0 -> 1
+164	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:470 - ReplaceComparisonOperator != -> -1
+165	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:470 - ReplaceComparisonOperator != -> <
+166	ReplaceComparisonOperator	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:470 - ReplaceComparisonOperator != -> >
+167	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:471 - ReplaceConstant - 0 -> 1
+168	ReplaceConstant	org.jfree.data.statistics.SimpleHistogramDataset.equals(Ljava/lang/Object;)Z:473 - ReplaceConstant - 1 -> 0

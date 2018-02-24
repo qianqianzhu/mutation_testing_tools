@@ -1,0 +1,124 @@
+0	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.<init>(Lcom/graphhopper/routing/weighting/Weighting;Lcom/graphhopper/storage/TurnCostExtension;)V:41 - ReplaceConstant - 40.0 -> 0.0
+1	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.<init>(Lcom/graphhopper/routing/weighting/Weighting;Lcom/graphhopper/storage/TurnCostExtension;)V:41 - ReplaceConstant - 40.0 -> 1.0
+2	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.<init>(Lcom/graphhopper/routing/weighting/Weighting;Lcom/graphhopper/storage/TurnCostExtension;)V:41 - ReplaceConstant - 40.0 -> -1.0
+3	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.<init>(Lcom/graphhopper/routing/weighting/Weighting;Lcom/graphhopper/storage/TurnCostExtension;)V:41 - ReplaceConstant - 40.0 -> 39.0
+4	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.<init>(Lcom/graphhopper/routing/weighting/Weighting;Lcom/graphhopper/storage/TurnCostExtension;)V:41 - ReplaceConstant - 40.0 -> 41.0
+5	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.<init>(Lcom/graphhopper/routing/weighting/Weighting;Lcom/graphhopper/storage/TurnCostExtension;)V:51 - ReplaceComparisonOperator != null -> = null
+6	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.<init>(Lcom/graphhopper/routing/weighting/Weighting;Lcom/graphhopper/storage/TurnCostExtension;)V:52 - ReplaceConstant - No storage set to calculate turn weight -> 
+7	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.setDefaultUTurnCost(D)Lcom/graphhopper/routing/weighting/TurnWeighting;:60 - InsertUnaryOp Negation of costInSeconds
+8	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.getMinWeight(D)D:66 - InsertUnaryOp Negation of distance
+9	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:71 - InsertUnaryOp Negation of reverse
+10	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:71 - InsertUnaryOp IINC 1 reverse
+11	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:71 - InsertUnaryOp IINC -1 reverse
+12	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:71 - InsertUnaryOp Negation of prevOrNextEdgeId
+13	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:71 - InsertUnaryOp IINC 1 prevOrNextEdgeId
+14	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:71 - InsertUnaryOp IINC -1 prevOrNextEdgeId
+15	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:72 - InsertUnaryOp Negation of prevOrNextEdgeId
+16	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:72 - InsertUnaryOp IINC 1 prevOrNextEdgeId
+17	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:72 - InsertUnaryOp IINC -1 prevOrNextEdgeId
+18	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:72 - ReplaceConstant - -1 -> 0
+19	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:72 - ReplaceConstant - -1 -> 1
+20	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:72 - ReplaceConstant - -1 -> -2
+21	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:72 - ReplaceComparisonOperator != -> -1
+22	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:72 - ReplaceComparisonOperator != -> <
+23	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:72 - ReplaceComparisonOperator != -> >
+24	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:73 - InsertUnaryOp Negation of weight
+25	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:77 - InsertUnaryOp Negation of reverse
+26	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:77 - InsertUnaryOp IINC 1 reverse
+27	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:77 - InsertUnaryOp IINC -1 reverse
+28	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:77 - ReplaceComparisonOperator == -> -2
+29	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:77 - ReplaceComparisonOperator == -> >=
+30	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:77 - ReplaceComparisonOperator == -> <=
+31	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:78 - InsertUnaryOp Negation of edgeId
+32	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:78 - InsertUnaryOp IINC 1 edgeId
+33	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:78 - InsertUnaryOp IINC -1 edgeId
+34	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:78 - InsertUnaryOp Negation of prevOrNextEdgeId
+35	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:78 - InsertUnaryOp IINC 1 prevOrNextEdgeId
+36	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:78 - InsertUnaryOp IINC -1 prevOrNextEdgeId
+37	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:80 - InsertUnaryOp Negation of prevOrNextEdgeId
+38	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:80 - InsertUnaryOp IINC 1 prevOrNextEdgeId
+39	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:80 - InsertUnaryOp IINC -1 prevOrNextEdgeId
+40	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:80 - InsertUnaryOp Negation of edgeId
+41	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:80 - InsertUnaryOp IINC 1 edgeId
+42	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:80 - InsertUnaryOp IINC -1 edgeId
+43	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:82 - InsertUnaryOp Negation of turnCosts
+44	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:82 - ReplaceConstant - 0.0 -> 1.0
+45	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:82 - ReplaceConstant - 0.0 -> -1.0
+46	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:82 - ReplaceComparisonOperator != -> -1
+47	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:82 - ReplaceComparisonOperator != -> <
+48	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:82 - ReplaceComparisonOperator != -> >
+49	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:82 - InsertUnaryOp Negation of edgeId
+50	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:82 - InsertUnaryOp IINC 1 edgeId
+51	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:82 - InsertUnaryOp IINC -1 edgeId
+52	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:82 - InsertUnaryOp Negation of prevOrNextEdgeId
+53	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:82 - InsertUnaryOp IINC 1 prevOrNextEdgeId
+54	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:82 - InsertUnaryOp IINC -1 prevOrNextEdgeId
+55	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:82 - ReplaceComparisonOperator != -> -1
+56	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:82 - ReplaceComparisonOperator != -> <
+57	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:82 - ReplaceComparisonOperator != -> >
+58	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:83 - InsertUnaryOp Negation of weight
+59	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:83 - InsertUnaryOp Negation
+60	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:83 - ReplaceArithmeticOperator + -> %
+61	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:83 - ReplaceArithmeticOperator + -> -
+62	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:83 - ReplaceArithmeticOperator + -> *
+63	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:83 - ReplaceArithmeticOperator + -> /
+64	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:85 - InsertUnaryOp Negation of weight
+65	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:85 - InsertUnaryOp Negation of turnCosts
+66	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:85 - ReplaceArithmeticOperator + -> %
+67	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:85 - ReplaceArithmeticOperator + -> -
+68	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:85 - ReplaceArithmeticOperator + -> *
+69	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.TurnWeighting.calcWeight(Lcom/graphhopper/util/EdgeIteratorState;ZI)D:85 - ReplaceArithmeticOperator + -> /
+70	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:90 - InsertUnaryOp Negation of reverse
+71	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:90 - InsertUnaryOp IINC 1 reverse
+72	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:90 - InsertUnaryOp IINC -1 reverse
+73	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:90 - InsertUnaryOp Negation of prevOrNextEdgeId
+74	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:90 - InsertUnaryOp IINC 1 prevOrNextEdgeId
+75	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:90 - InsertUnaryOp IINC -1 prevOrNextEdgeId
+76	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:91 - InsertUnaryOp Negation of prevOrNextEdgeId
+77	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:91 - InsertUnaryOp IINC 1 prevOrNextEdgeId
+78	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:91 - InsertUnaryOp IINC -1 prevOrNextEdgeId
+79	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:91 - ReplaceConstant - -1 -> 0
+80	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:91 - ReplaceConstant - -1 -> 1
+81	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:91 - ReplaceConstant - -1 -> -2
+82	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:91 - ReplaceComparisonOperator != -> -1
+83	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:91 - ReplaceComparisonOperator != -> <
+84	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:91 - ReplaceComparisonOperator != -> >
+85	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:92 - InsertUnaryOp Negation of millis
+86	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:97 - InsertUnaryOp Negation of reverse
+87	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:97 - InsertUnaryOp IINC 1 reverse
+88	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:97 - InsertUnaryOp IINC -1 reverse
+89	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:97 - ReplaceComparisonOperator == -> -2
+90	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:97 - ReplaceComparisonOperator == -> >=
+91	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:97 - ReplaceComparisonOperator == -> <=
+92	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:98 - InsertUnaryOp Negation of prevOrNextEdgeId
+93	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:98 - InsertUnaryOp IINC 1 prevOrNextEdgeId
+94	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:98 - InsertUnaryOp IINC -1 prevOrNextEdgeId
+95	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:100 - InsertUnaryOp Negation of prevOrNextEdgeId
+96	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:100 - InsertUnaryOp IINC 1 prevOrNextEdgeId
+97	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:100 - InsertUnaryOp IINC -1 prevOrNextEdgeId
+98	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:102 - InsertUnaryOp Negation of millis
+99	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:102 - InsertUnaryOp Negation of turnCostsInMillis
+100	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:102 - ReplaceArithmeticOperator + -> %
+101	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:102 - ReplaceArithmeticOperator + -> -
+102	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:102 - ReplaceArithmeticOperator + -> *
+103	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.TurnWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:102 - ReplaceArithmeticOperator + -> /
+104	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:109 - InsertUnaryOp Negation of edgeFrom
+105	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:109 - InsertUnaryOp IINC 1 edgeFrom
+106	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:109 - InsertUnaryOp IINC -1 edgeFrom
+107	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:109 - InsertUnaryOp Negation of nodeVia
+108	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:109 - InsertUnaryOp IINC 1 nodeVia
+109	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:109 - InsertUnaryOp IINC -1 nodeVia
+110	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:109 - InsertUnaryOp Negation of edgeTo
+111	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:109 - InsertUnaryOp IINC 1 edgeTo
+112	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:109 - InsertUnaryOp IINC -1 edgeTo
+113	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:110 - InsertUnaryOp Negation of turnFlags
+114	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:110 - ReplaceComparisonOperator == -> -2
+115	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:110 - ReplaceComparisonOperator == -> >=
+116	ReplaceComparisonOperator	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:110 - ReplaceComparisonOperator == -> <=
+117	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:111 - ReplaceConstant - Infinity -> 0.0
+118	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:111 - ReplaceConstant - Infinity -> 1.0
+119	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:111 - ReplaceConstant - Infinity -> -1.0
+120	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:111 - ReplaceConstant - Infinity -> Infinity
+121	InsertUnaryOp	com.graphhopper.routing.weighting.TurnWeighting.calcTurnWeight(III)D:113 - InsertUnaryOp Negation of turnFlags
+122	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.toString()Ljava/lang/String;:129 - ReplaceConstant - turn| -> 
+123	ReplaceConstant	com.graphhopper.routing.weighting.TurnWeighting.getName()Ljava/lang/String;:134 - ReplaceConstant - turn| -> 

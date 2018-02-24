@@ -1,0 +1,307 @@
+0	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.defaultIfNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:95 - ReplaceComparisonOperator = null -> != null
+1	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.firstNonNull([Ljava/lang/Object;)Ljava/lang/Object;:121 - ReplaceComparisonOperator = null -> != null
+2	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.firstNonNull([Ljava/lang/Object;)Ljava/lang/Object;:122 - ReplaceConstant - 0 -> 1
+3	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.firstNonNull([Ljava/lang/Object;)Ljava/lang/Object;:122 - ReplaceComparisonOperator >= -> -1
+4	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.firstNonNull([Ljava/lang/Object;)Ljava/lang/Object;:122 - ReplaceComparisonOperator >= -> >
+5	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.firstNonNull([Ljava/lang/Object;)Ljava/lang/Object;:122 - ReplaceComparisonOperator >= -> ==
+6	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.firstNonNull([Ljava/lang/Object;)Ljava/lang/Object;:123 - ReplaceComparisonOperator = null -> != null
+7	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.anyNotNull([Ljava/lang/Object;)Z:155 - ReplaceComparisonOperator = null -> != null
+8	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.anyNotNull([Ljava/lang/Object;)Z:155 - ReplaceConstant - 1 -> 0
+9	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.anyNotNull([Ljava/lang/Object;)Z:155 - ReplaceConstant - 0 -> 1
+10	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.allNotNull([Ljava/lang/Object;)Z:184 - ReplaceComparisonOperator != null -> = null
+11	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.allNotNull([Ljava/lang/Object;)Z:185 - ReplaceConstant - 0 -> 1
+12	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.allNotNull([Ljava/lang/Object;)Z:188 - ReplaceConstant - 0 -> 1
+13	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.allNotNull([Ljava/lang/Object;)Z:188 - ReplaceComparisonOperator >= -> -1
+14	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.allNotNull([Ljava/lang/Object;)Z:188 - ReplaceComparisonOperator >= -> >
+15	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.allNotNull([Ljava/lang/Object;)Z:188 - ReplaceComparisonOperator >= -> ==
+16	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.allNotNull([Ljava/lang/Object;)Z:189 - ReplaceComparisonOperator != null -> = null
+17	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.allNotNull([Ljava/lang/Object;)Z:190 - ReplaceConstant - 0 -> 1
+18	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.allNotNull([Ljava/lang/Object;)Z:194 - ReplaceConstant - 1 -> 0
+19	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.equals(Ljava/lang/Object;Ljava/lang/Object;)Z:222 - ReplaceComparisonOperator != -> ==
+20	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.equals(Ljava/lang/Object;Ljava/lang/Object;)Z:223 - ReplaceConstant - 1 -> 0
+21	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.equals(Ljava/lang/Object;Ljava/lang/Object;)Z:225 - ReplaceComparisonOperator = null -> != null
+22	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.equals(Ljava/lang/Object;Ljava/lang/Object;)Z:225 - ReplaceComparisonOperator != null -> = null
+23	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.equals(Ljava/lang/Object;Ljava/lang/Object;)Z:226 - ReplaceConstant - 0 -> 1
+24	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.notEqual(Ljava/lang/Object;Ljava/lang/Object;)Z:251 - ReplaceComparisonOperator != -> -1
+25	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.notEqual(Ljava/lang/Object;Ljava/lang/Object;)Z:251 - ReplaceComparisonOperator != -> <
+26	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.notEqual(Ljava/lang/Object;Ljava/lang/Object;)Z:251 - ReplaceComparisonOperator != -> >
+27	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.notEqual(Ljava/lang/Object;Ljava/lang/Object;)Z:251 - ReplaceConstant - 1 -> 0
+28	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.notEqual(Ljava/lang/Object;Ljava/lang/Object;)Z:251 - ReplaceConstant - 0 -> 1
+29	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.hashCode(Ljava/lang/Object;)I:272 - ReplaceComparisonOperator != null -> = null
+30	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.hashCode(Ljava/lang/Object;)I:272 - ReplaceConstant - 0 -> 1
+31	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:299 - ReplaceConstant - 1 -> 0
+32	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:300 - ReplaceComparisonOperator = null -> != null
+33	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:301 - ReplaceConstant - 0 -> 1
+34	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:301 - ReplaceComparisonOperator >= -> -1
+35	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:301 - ReplaceComparisonOperator >= -> >
+36	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:301 - ReplaceComparisonOperator >= -> ==
+37	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - InsertUnaryOp Negation of hash
+38	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - InsertUnaryOp IINC 1 hash
+39	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - InsertUnaryOp IINC -1 hash
+40	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - ReplaceConstant - 31 -> 0
+41	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - ReplaceConstant - 31 -> 1
+42	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - ReplaceConstant - 31 -> -1
+43	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - ReplaceConstant - 31 -> 30
+44	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - ReplaceConstant - 31 -> 32
+45	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - ReplaceArithmeticOperator * -> +
+46	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - ReplaceArithmeticOperator * -> %
+47	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - ReplaceArithmeticOperator * -> -
+48	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - ReplaceArithmeticOperator * -> /
+49	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - InsertUnaryOp Negation of tmpHash
+50	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - InsertUnaryOp IINC 1 tmpHash
+51	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - InsertUnaryOp IINC -1 tmpHash
+52	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - ReplaceArithmeticOperator + -> %
+53	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - ReplaceArithmeticOperator + -> -
+54	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - ReplaceArithmeticOperator + -> *
+55	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:303 - ReplaceArithmeticOperator + -> /
+56	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:306 - InsertUnaryOp Negation of hash
+57	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:306 - InsertUnaryOp IINC 1 hash
+58	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.hashCodeMulti([Ljava/lang/Object;)I:306 - InsertUnaryOp IINC -1 hash
+59	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/Object;)Ljava/lang/String;:328 - ReplaceComparisonOperator != null -> = null
+60	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/Appendable;Ljava/lang/Object;)V:353 - ReplaceComparisonOperator != null -> = null
+61	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/Appendable;Ljava/lang/Object;)V:354 - ReplaceConstant - Cannot get the toString of a null identity -> 
+62	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/Appendable;Ljava/lang/Object;)V:356 - ReplaceConstant - 64 -> 0
+63	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/Appendable;Ljava/lang/Object;)V:356 - ReplaceConstant - 64 -> 1
+64	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/Appendable;Ljava/lang/Object;)V:356 - ReplaceConstant - 64 -> -1
+65	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/Appendable;Ljava/lang/Object;)V:356 - ReplaceConstant - 64 -> 63
+66	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/Appendable;Ljava/lang/Object;)V:356 - ReplaceConstant - 64 -> 65
+67	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.identityToString(Lorg/apache/commons/lang3/text/StrBuilder;Ljava/lang/Object;)V:377 - ReplaceComparisonOperator != null -> = null
+68	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Lorg/apache/commons/lang3/text/StrBuilder;Ljava/lang/Object;)V:378 - ReplaceConstant - Cannot get the toString of a null identity -> 
+69	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Lorg/apache/commons/lang3/text/StrBuilder;Ljava/lang/Object;)V:380 - ReplaceConstant - 64 -> 0
+70	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Lorg/apache/commons/lang3/text/StrBuilder;Ljava/lang/Object;)V:380 - ReplaceConstant - 64 -> 1
+71	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Lorg/apache/commons/lang3/text/StrBuilder;Ljava/lang/Object;)V:380 - ReplaceConstant - 64 -> -1
+72	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Lorg/apache/commons/lang3/text/StrBuilder;Ljava/lang/Object;)V:380 - ReplaceConstant - 64 -> 63
+73	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Lorg/apache/commons/lang3/text/StrBuilder;Ljava/lang/Object;)V:380 - ReplaceConstant - 64 -> 65
+74	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/StringBuffer;Ljava/lang/Object;)V:401 - ReplaceComparisonOperator != null -> = null
+75	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/StringBuffer;Ljava/lang/Object;)V:402 - ReplaceConstant - Cannot get the toString of a null identity -> 
+76	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/StringBuffer;Ljava/lang/Object;)V:404 - ReplaceConstant - 64 -> 0
+77	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/StringBuffer;Ljava/lang/Object;)V:404 - ReplaceConstant - 64 -> 1
+78	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/StringBuffer;Ljava/lang/Object;)V:404 - ReplaceConstant - 64 -> -1
+79	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/StringBuffer;Ljava/lang/Object;)V:404 - ReplaceConstant - 64 -> 63
+80	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/StringBuffer;Ljava/lang/Object;)V:404 - ReplaceConstant - 64 -> 65
+81	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/StringBuilder;Ljava/lang/Object;)V:425 - ReplaceComparisonOperator != null -> = null
+82	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/StringBuilder;Ljava/lang/Object;)V:426 - ReplaceConstant - Cannot get the toString of a null identity -> 
+83	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/StringBuilder;Ljava/lang/Object;)V:428 - ReplaceConstant - 64 -> 0
+84	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/StringBuilder;Ljava/lang/Object;)V:428 - ReplaceConstant - 64 -> 1
+85	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/StringBuilder;Ljava/lang/Object;)V:428 - ReplaceConstant - 64 -> -1
+86	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/StringBuilder;Ljava/lang/Object;)V:428 - ReplaceConstant - 64 -> 63
+87	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.identityToString(Ljava/lang/StringBuilder;Ljava/lang/Object;)V:428 - ReplaceConstant - 64 -> 65
+88	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.toString(Ljava/lang/Object;)Ljava/lang/String;:457 - ReplaceComparisonOperator != null -> = null
+89	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.toString(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;:483 - ReplaceComparisonOperator != null -> = null
+90	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.min([Ljava/lang/Comparable;)Ljava/lang/Comparable;:503 - ReplaceComparisonOperator = null -> != null
+91	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.min([Ljava/lang/Comparable;)Ljava/lang/Comparable;:504 - ReplaceConstant - 0 -> 1
+92	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.min([Ljava/lang/Comparable;)Ljava/lang/Comparable;:504 - ReplaceComparisonOperator >= -> -1
+93	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.min([Ljava/lang/Comparable;)Ljava/lang/Comparable;:504 - ReplaceComparisonOperator >= -> >
+94	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.min([Ljava/lang/Comparable;)Ljava/lang/Comparable;:504 - ReplaceComparisonOperator >= -> ==
+95	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.min([Ljava/lang/Comparable;)Ljava/lang/Comparable;:505 - ReplaceConstant - 1 -> 0
+96	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.min([Ljava/lang/Comparable;)Ljava/lang/Comparable;:505 - ReplaceComparisonOperator >= -> -1
+97	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.min([Ljava/lang/Comparable;)Ljava/lang/Comparable;:505 - ReplaceComparisonOperator >= -> ==
+98	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.min([Ljava/lang/Comparable;)Ljava/lang/Comparable;:505 - ReplaceComparisonOperator >= -> >
+99	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.max([Ljava/lang/Comparable;)Ljava/lang/Comparable;:528 - ReplaceComparisonOperator = null -> != null
+100	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.max([Ljava/lang/Comparable;)Ljava/lang/Comparable;:529 - ReplaceConstant - 0 -> 1
+101	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.max([Ljava/lang/Comparable;)Ljava/lang/Comparable;:529 - ReplaceComparisonOperator >= -> -1
+102	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.max([Ljava/lang/Comparable;)Ljava/lang/Comparable;:529 - ReplaceComparisonOperator >= -> >
+103	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.max([Ljava/lang/Comparable;)Ljava/lang/Comparable;:529 - ReplaceComparisonOperator >= -> ==
+104	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.max([Ljava/lang/Comparable;)Ljava/lang/Comparable;:530 - ReplaceConstant - 0 -> 1
+105	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.max([Ljava/lang/Comparable;)Ljava/lang/Comparable;:530 - ReplaceComparisonOperator <= -> -1
+106	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.max([Ljava/lang/Comparable;)Ljava/lang/Comparable;:530 - ReplaceComparisonOperator <= -> ==
+107	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.max([Ljava/lang/Comparable;)Ljava/lang/Comparable;:530 - ReplaceComparisonOperator <= -> <
+108	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;)I:549 - ReplaceConstant - 0 -> 1
+109	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:566 - ReplaceComparisonOperator != -> ==
+110	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:567 - ReplaceConstant - 0 -> 1
+111	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:568 - ReplaceComparisonOperator != null -> = null
+112	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:569 - InsertUnaryOp Negation of nullGreater
+113	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:569 - InsertUnaryOp IINC 1 nullGreater
+114	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:569 - InsertUnaryOp IINC -1 nullGreater
+115	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:569 - ReplaceComparisonOperator == -> -2
+116	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:569 - ReplaceComparisonOperator == -> >=
+117	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:569 - ReplaceComparisonOperator == -> <=
+118	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:569 - ReplaceConstant - 1 -> 0
+119	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:569 - ReplaceConstant - -1 -> 0
+120	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:569 - ReplaceConstant - -1 -> 1
+121	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:569 - ReplaceConstant - -1 -> -2
+122	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:570 - ReplaceComparisonOperator != null -> = null
+123	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:571 - InsertUnaryOp Negation of nullGreater
+124	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:571 - InsertUnaryOp IINC 1 nullGreater
+125	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:571 - InsertUnaryOp IINC -1 nullGreater
+126	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:571 - ReplaceComparisonOperator == -> -2
+127	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:571 - ReplaceComparisonOperator == -> >=
+128	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:571 - ReplaceComparisonOperator == -> <=
+129	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:571 - ReplaceConstant - -1 -> 0
+130	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:571 - ReplaceConstant - -1 -> 1
+131	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:571 - ReplaceConstant - -1 -> -2
+132	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.compare(Ljava/lang/Comparable;Ljava/lang/Comparable;Z)I:571 - ReplaceConstant - 1 -> 0
+133	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.median([Ljava/lang/Comparable;)Ljava/lang/Comparable;:593 - ReplaceConstant - 1 -> 0
+134	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.median([Ljava/lang/Comparable;)Ljava/lang/Comparable;:593 - ReplaceArithmeticOperator - -> +
+135	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.median([Ljava/lang/Comparable;)Ljava/lang/Comparable;:593 - ReplaceArithmeticOperator - -> %
+136	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.median([Ljava/lang/Comparable;)Ljava/lang/Comparable;:593 - ReplaceArithmeticOperator - -> *
+137	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.median([Ljava/lang/Comparable;)Ljava/lang/Comparable;:593 - ReplaceArithmeticOperator - -> /
+138	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.median([Ljava/lang/Comparable;)Ljava/lang/Comparable;:593 - ReplaceConstant - 2 -> 0
+139	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.median([Ljava/lang/Comparable;)Ljava/lang/Comparable;:593 - ReplaceConstant - 2 -> 1
+140	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.median([Ljava/lang/Comparable;)Ljava/lang/Comparable;:593 - ReplaceConstant - 2 -> -1
+141	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.median([Ljava/lang/Comparable;)Ljava/lang/Comparable;:593 - ReplaceConstant - 2 -> 3
+142	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.median([Ljava/lang/Comparable;)Ljava/lang/Comparable;:593 - ReplaceArithmeticOperator / -> +
+143	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.median([Ljava/lang/Comparable;)Ljava/lang/Comparable;:593 - ReplaceArithmeticOperator / -> %
+144	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.median([Ljava/lang/Comparable;)Ljava/lang/Comparable;:593 - ReplaceArithmeticOperator / -> -
+145	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.median([Ljava/lang/Comparable;)Ljava/lang/Comparable;:593 - ReplaceArithmeticOperator / -> *
+146	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.median(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/lang/Object;:609 - ReplaceConstant - null/empty items -> 
+147	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.median(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/lang/Object;:609 - ReplaceConstant - 0 -> 1
+148	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.median(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/lang/Object;:611 - ReplaceConstant - null comparator -> 
+149	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.median(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/lang/Object;:611 - ReplaceConstant - 0 -> 1
+150	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.median(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/lang/Object;:616 - ReplaceConstant - 1 -> 0
+151	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.median(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/lang/Object;:616 - ReplaceArithmeticOperator - -> +
+152	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.median(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/lang/Object;:616 - ReplaceArithmeticOperator - -> %
+153	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.median(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/lang/Object;:616 - ReplaceArithmeticOperator - -> *
+154	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.median(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/lang/Object;:616 - ReplaceArithmeticOperator - -> /
+155	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.median(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/lang/Object;:616 - ReplaceConstant - 2 -> 0
+156	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.median(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/lang/Object;:616 - ReplaceConstant - 2 -> 1
+157	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.median(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/lang/Object;:616 - ReplaceConstant - 2 -> -1
+158	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.median(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/lang/Object;:616 - ReplaceConstant - 2 -> 3
+159	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.median(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/lang/Object;:616 - ReplaceArithmeticOperator / -> +
+160	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.median(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/lang/Object;:616 - ReplaceArithmeticOperator / -> %
+161	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.median(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/lang/Object;:616 - ReplaceArithmeticOperator / -> -
+162	ReplaceArithmeticOperator	org.apache.commons.lang3.ObjectUtils.median(Ljava/util/Comparator;[Ljava/lang/Object;)Ljava/lang/Object;:616 - ReplaceArithmeticOperator / -> *
+163	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:631 - ReplaceComparisonOperator == -> -2
+164	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:631 - ReplaceComparisonOperator == -> >=
+165	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:631 - ReplaceComparisonOperator == -> <=
+166	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:633 - ReplaceConstant - 0 -> 1
+167	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:633 - ReplaceComparisonOperator >= -> -1
+168	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:633 - ReplaceComparisonOperator >= -> >
+169	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:633 - ReplaceComparisonOperator >= -> ==
+170	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:635 - ReplaceComparisonOperator != null -> = null
+171	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:636 - ReplaceConstant - 1 -> 0
+172	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:642 - ReplaceConstant - 0 -> 1
+173	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:643 - ReplaceComparisonOperator == -> -2
+174	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:643 - ReplaceComparisonOperator == -> >=
+175	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:643 - ReplaceComparisonOperator == -> <=
+176	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:645 - InsertUnaryOp Negation of cmp
+177	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:645 - InsertUnaryOp IINC 1 cmp
+178	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:645 - InsertUnaryOp IINC -1 cmp
+179	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:645 - InsertUnaryOp Negation of max
+180	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:645 - InsertUnaryOp IINC 1 max
+181	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:645 - InsertUnaryOp IINC -1 max
+182	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:645 - ReplaceComparisonOperator != -> -1
+183	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:645 - ReplaceComparisonOperator != -> <
+184	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:645 - ReplaceComparisonOperator != -> >
+185	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:647 - InsertUnaryOp Negation of cmp
+186	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:647 - InsertUnaryOp IINC 1 cmp
+187	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:647 - InsertUnaryOp IINC -1 cmp
+188	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:647 - InsertUnaryOp Negation of max
+189	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:647 - InsertUnaryOp IINC 1 max
+190	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:647 - InsertUnaryOp IINC -1 max
+191	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:647 - ReplaceComparisonOperator <= -> -1
+192	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:647 - ReplaceComparisonOperator <= -> <
+193	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:647 - ReplaceComparisonOperator <= -> ==
+194	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:648 - InsertUnaryOp Negation of cmp
+195	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:648 - InsertUnaryOp IINC 1 cmp
+196	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.mode([Ljava/lang/Object;)Ljava/lang/Object;:648 - InsertUnaryOp IINC -1 cmp
+197	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:669 - ReplaceComparisonOperator == -> -2
+198	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:669 - ReplaceComparisonOperator == -> >=
+199	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:669 - ReplaceComparisonOperator == -> <=
+200	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:671 - ReplaceComparisonOperator == -> -2
+201	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:671 - ReplaceComparisonOperator == -> >=
+202	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:671 - ReplaceComparisonOperator == -> <=
+203	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:673 - ReplaceComparisonOperator != -> -1
+204	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:673 - ReplaceComparisonOperator != -> <
+205	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:673 - ReplaceComparisonOperator != -> >
+206	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:677 - InsertUnaryOp Negation of length
+207	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:677 - InsertUnaryOp IINC 1 length
+208	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:677 - InsertUnaryOp IINC -1 length
+209	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:678 - InsertUnaryOp Negation of length
+210	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:678 - InsertUnaryOp IINC 1 length
+211	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:678 - InsertUnaryOp IINC -1 length
+212	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:678 - ReplaceComparisonOperator <= -> -1
+213	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:678 - ReplaceComparisonOperator <= -> ==
+214	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:678 - ReplaceComparisonOperator <= -> <
+215	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:679 - InsertUnaryOp Negation of length
+216	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:679 - InsertUnaryOp IINC 1 length
+217	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:679 - InsertUnaryOp IINC -1 length
+218	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:679 - InsertUnaryOp Negation of length
+219	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:679 - InsertUnaryOp IINC 1 length
+220	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:679 - InsertUnaryOp IINC -1 length
+221	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:684 - ReplaceConstant - clone -> 
+222	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:684 - ReplaceConstant - 0 -> 1
+223	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:685 - ReplaceConstant - 0 -> 1
+224	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:687 - ReplaceConstant - Cloneable type  -> 
+225	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:688 - ReplaceConstant -  has no clone method -> 
+226	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:691 - ReplaceConstant - Cannot clone Cloneable type  -> 
+227	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.clone(Ljava/lang/Object;)Ljava/lang/Object;:694 - ReplaceConstant - Exception cloning Cloneable type  -> 
+228	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.cloneIfPossible(Ljava/lang/Object;)Ljava/lang/Object;:724 - ReplaceComparisonOperator != null -> = null
+229	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(Z)Z:806 - InsertUnaryOp Negation of v
+230	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(Z)Z:806 - InsertUnaryOp IINC 1 v
+231	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(Z)Z:806 - InsertUnaryOp IINC -1 v
+232	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(B)B:825 - InsertUnaryOp Negation of v
+233	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(B)B:825 - InsertUnaryOp IINC 1 v
+234	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(B)B:825 - InsertUnaryOp IINC -1 v
+235	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - InsertUnaryOp Negation of v
+236	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - InsertUnaryOp IINC 1 v
+237	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - InsertUnaryOp IINC -1 v
+238	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - ReplaceConstant - -128 -> 0
+239	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - ReplaceConstant - -128 -> 1
+240	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - ReplaceConstant - -128 -> -1
+241	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - ReplaceConstant - -128 -> -129
+242	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - ReplaceConstant - -128 -> -127
+243	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - ReplaceComparisonOperator < -> !=
+244	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - ReplaceComparisonOperator < -> -2
+245	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - ReplaceComparisonOperator < -> <=
+246	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - InsertUnaryOp Negation of v
+247	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - InsertUnaryOp IINC 1 v
+248	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - InsertUnaryOp IINC -1 v
+249	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - ReplaceConstant - 127 -> 0
+250	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - ReplaceConstant - 127 -> 1
+251	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - ReplaceConstant - 127 -> -1
+252	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - ReplaceConstant - 127 -> 126
+253	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - ReplaceConstant - 127 -> 128
+254	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - ReplaceComparisonOperator <= -> -1
+255	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - ReplaceComparisonOperator <= -> <
+256	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:848 - ReplaceComparisonOperator <= -> ==
+257	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:849 - ReplaceConstant - Supplied value must be a valid byte literal between -128 and 127: [ -> 
+258	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:849 - InsertUnaryOp Negation of v
+259	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:849 - InsertUnaryOp IINC 1 v
+260	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:849 - InsertUnaryOp IINC -1 v
+261	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:849 - ReplaceConstant - ] -> 
+262	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:851 - InsertUnaryOp Negation of v
+263	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:851 - InsertUnaryOp IINC 1 v
+264	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_BYTE(I)B:851 - InsertUnaryOp IINC -1 v
+265	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(C)C:871 - InsertUnaryOp Negation of v
+266	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(C)C:871 - InsertUnaryOp IINC 1 v
+267	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(C)C:871 - InsertUnaryOp IINC -1 v
+268	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(S)S:890 - InsertUnaryOp Negation of v
+269	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(S)S:890 - InsertUnaryOp IINC 1 v
+270	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(S)S:890 - InsertUnaryOp IINC -1 v
+271	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - InsertUnaryOp Negation of v
+272	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - InsertUnaryOp IINC 1 v
+273	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - InsertUnaryOp IINC -1 v
+274	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - ReplaceConstant - -32768 -> 0
+275	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - ReplaceConstant - -32768 -> 1
+276	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - ReplaceConstant - -32768 -> -1
+277	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - ReplaceConstant - -32768 -> -32769
+278	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - ReplaceConstant - -32768 -> -32767
+279	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - ReplaceComparisonOperator < -> !=
+280	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - ReplaceComparisonOperator < -> -2
+281	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - ReplaceComparisonOperator < -> <=
+282	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - InsertUnaryOp Negation of v
+283	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - InsertUnaryOp IINC 1 v
+284	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - InsertUnaryOp IINC -1 v
+285	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - ReplaceConstant - 32767 -> 0
+286	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - ReplaceConstant - 32767 -> 1
+287	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - ReplaceConstant - 32767 -> -1
+288	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - ReplaceConstant - 32767 -> 32766
+289	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - ReplaceConstant - 32767 -> 32768
+290	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - ReplaceComparisonOperator <= -> -1
+291	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - ReplaceComparisonOperator <= -> <
+292	ReplaceComparisonOperator	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:913 - ReplaceComparisonOperator <= -> ==
+293	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:914 - ReplaceConstant - Supplied value must be a valid byte literal between -32768 and 32767: [ -> 
+294	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:914 - InsertUnaryOp Negation of v
+295	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:914 - InsertUnaryOp IINC 1 v
+296	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:914 - InsertUnaryOp IINC -1 v
+297	ReplaceConstant	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:914 - ReplaceConstant - ] -> 
+298	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:916 - InsertUnaryOp Negation of v
+299	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:916 - InsertUnaryOp IINC 1 v
+300	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST_SHORT(I)S:916 - InsertUnaryOp IINC -1 v
+301	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(I)I:937 - InsertUnaryOp Negation of v
+302	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(I)I:937 - InsertUnaryOp IINC 1 v
+303	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(I)I:937 - InsertUnaryOp IINC -1 v
+304	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(J)J:956 - InsertUnaryOp Negation of v
+305	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(F)F:975 - InsertUnaryOp Negation of v
+306	InsertUnaryOp	org.apache.commons.lang3.ObjectUtils.CONST(D)D:994 - InsertUnaryOp Negation of v

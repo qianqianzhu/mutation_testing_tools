@@ -1,0 +1,305 @@
+0	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.<init>()V:151 - ReplaceConstant - 0 -> 1
+1	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.setFIDValidator(Lorg/geotools/filter/visitor/SimplifyingFilterVisitor$FIDValidator;)V:154 - ReplaceComparisonOperator != null -> = null
+2	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:171 - ReplaceComparisonOperator != -> -1
+3	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:171 - ReplaceComparisonOperator != -> <
+4	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:171 - ReplaceComparisonOperator != -> >
+5	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:177 - ReplaceConstant - 1 -> 0
+6	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:177 - ReplaceComparisonOperator != -> -1
+7	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:177 - ReplaceComparisonOperator != -> <
+8	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:177 - ReplaceComparisonOperator != -> >
+9	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:178 - ReplaceConstant - 0 -> 1
+10	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:186 - InsertUnaryOp Negation
+11	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:186 - ReplaceComparisonOperator == -> -2
+12	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:186 - ReplaceComparisonOperator == -> >=
+13	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:186 - ReplaceComparisonOperator == -> <=
+14	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:186 - ReplaceComparisonOperator = null -> != null
+15	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:186 - ReplaceComparisonOperator == -> -2
+16	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:186 - ReplaceComparisonOperator == -> >=
+17	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:186 - ReplaceComparisonOperator == -> <=
+18	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:193 - ReplaceComparisonOperator == -> -2
+19	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:193 - ReplaceComparisonOperator == -> >=
+20	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:193 - ReplaceComparisonOperator == -> <=
+21	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:197 - ReplaceComparisonOperator != -> ==
+22	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:198 - ReplaceConstant - 1 -> 0
+23	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:198 - ReplaceConstant - 0 -> 1
+24	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:202 - ReplaceComparisonOperator != -> ==
+25	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:210 - ReplaceConstant - 0 -> 1
+26	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:210 - InsertUnaryOp Negation of i
+27	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:210 - InsertUnaryOp IINC 1 i
+28	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:210 - InsertUnaryOp IINC -1 i
+29	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:210 - ReplaceComparisonOperator >= -> -1
+30	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:210 - ReplaceComparisonOperator >= -> >
+31	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:210 - ReplaceComparisonOperator >= -> ==
+32	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:211 - InsertUnaryOp Negation of i
+33	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:211 - InsertUnaryOp IINC 1 i
+34	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:211 - InsertUnaryOp IINC -1 i
+35	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:211 - ReplaceConstant - 1 -> 0
+36	ReplaceArithmeticOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:211 - ReplaceArithmeticOperator + -> %
+37	ReplaceArithmeticOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:211 - ReplaceArithmeticOperator + -> -
+38	ReplaceArithmeticOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:211 - ReplaceArithmeticOperator + -> *
+39	ReplaceArithmeticOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:211 - ReplaceArithmeticOperator + -> /
+40	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:211 - InsertUnaryOp Negation of j
+41	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:211 - InsertUnaryOp IINC 1 j
+42	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:211 - InsertUnaryOp IINC -1 j
+43	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:211 - ReplaceComparisonOperator >= -> -1
+44	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:211 - ReplaceComparisonOperator >= -> >
+45	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:211 - ReplaceComparisonOperator >= -> ==
+46	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:212 - InsertUnaryOp Negation of i
+47	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:212 - InsertUnaryOp IINC 1 i
+48	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:212 - InsertUnaryOp IINC -1 i
+49	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:213 - InsertUnaryOp Negation of j
+50	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:213 - InsertUnaryOp IINC 1 j
+51	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:213 - InsertUnaryOp IINC -1 j
+52	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:214 - ReplaceComparisonOperator == -> -2
+53	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:214 - ReplaceComparisonOperator == -> >=
+54	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:214 - ReplaceComparisonOperator == -> <=
+55	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:215 - InsertUnaryOp Negation of j
+56	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:215 - InsertUnaryOp IINC 1 j
+57	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:215 - InsertUnaryOp IINC -1 j
+58	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:216 - ReplaceComparisonOperator == -> -2
+59	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:216 - ReplaceComparisonOperator == -> >=
+60	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:216 - ReplaceComparisonOperator == -> <=
+61	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:217 - ReplaceConstant - 1 -> 0
+62	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:217 - ReplaceConstant - 0 -> 1
+63	ReplaceVariable	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicAndSimplification(Ljava/util/List;)Ljava/util/List;:219 - ReplaceVariable j -> i
+64	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.collect(Lorg/opengis/filter/BinaryLogicOperator;Ljava/lang/Class;Ljava/lang/Object;Ljava/util/List;)Ljava/util/List;:229 - ReplaceComparisonOperator == -> -2
+65	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.collect(Lorg/opengis/filter/BinaryLogicOperator;Ljava/lang/Class;Ljava/lang/Object;Ljava/util/List;)Ljava/util/List;:229 - ReplaceComparisonOperator == -> >=
+66	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.collect(Lorg/opengis/filter/BinaryLogicOperator;Ljava/lang/Class;Ljava/lang/Object;Ljava/util/List;)Ljava/util/List;:229 - ReplaceComparisonOperator == -> <=
+67	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.collect(Lorg/opengis/filter/BinaryLogicOperator;Ljava/lang/Class;Ljava/lang/Object;Ljava/util/List;)Ljava/util/List;:230 - ReplaceComparisonOperator == -> -2
+68	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.collect(Lorg/opengis/filter/BinaryLogicOperator;Ljava/lang/Class;Ljava/lang/Object;Ljava/util/List;)Ljava/util/List;:230 - ReplaceComparisonOperator == -> >=
+69	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.collect(Lorg/opengis/filter/BinaryLogicOperator;Ljava/lang/Class;Ljava/lang/Object;Ljava/util/List;)Ljava/util/List;:230 - ReplaceComparisonOperator == -> <=
+70	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.collect(Lorg/opengis/filter/BinaryLogicOperator;Ljava/lang/Class;Ljava/lang/Object;Ljava/util/List;)Ljava/util/List;:235 - ReplaceComparisonOperator == -> -2
+71	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.collect(Lorg/opengis/filter/BinaryLogicOperator;Ljava/lang/Class;Ljava/lang/Object;Ljava/util/List;)Ljava/util/List;:235 - ReplaceComparisonOperator == -> >=
+72	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.collect(Lorg/opengis/filter/BinaryLogicOperator;Ljava/lang/Class;Ljava/lang/Object;Ljava/util/List;)Ljava/util/List;:235 - ReplaceComparisonOperator == -> <=
+73	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:258 - ReplaceComparisonOperator == -> -2
+74	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:258 - ReplaceComparisonOperator == -> >=
+75	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:258 - ReplaceComparisonOperator == -> <=
+76	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:261 - ReplaceComparisonOperator == -> -2
+77	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:261 - ReplaceComparisonOperator == -> >=
+78	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:261 - ReplaceComparisonOperator == -> <=
+79	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:264 - ReplaceComparisonOperator == -> -2
+80	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:264 - ReplaceComparisonOperator == -> >=
+81	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:264 - ReplaceComparisonOperator == -> <=
+82	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:264 - ReplaceComparisonOperator != -> -1
+83	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:264 - ReplaceComparisonOperator != -> <
+84	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:264 - ReplaceComparisonOperator != -> >
+85	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:264 - ReplaceComparisonOperator == -> -2
+86	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:264 - ReplaceComparisonOperator == -> >=
+87	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:264 - ReplaceComparisonOperator == -> <=
+88	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:264 - ReplaceComparisonOperator == -> -2
+89	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:264 - ReplaceComparisonOperator == -> >=
+90	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:264 - ReplaceComparisonOperator == -> <=
+91	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:268 - ReplaceComparisonOperator == -> -2
+92	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:268 - ReplaceComparisonOperator == -> >=
+93	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:268 - ReplaceComparisonOperator == -> <=
+94	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:276 - ReplaceComparisonOperator != -> -1
+95	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:276 - ReplaceComparisonOperator != -> <
+96	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:276 - ReplaceComparisonOperator != -> >
+97	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:277 - ReplaceConstant - 0 -> 1
+98	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:279 - ReplaceComparisonOperator == -> -2
+99	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:279 - ReplaceComparisonOperator == -> >=
+100	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:279 - ReplaceComparisonOperator == -> <=
+101	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:280 - ReplaceComparisonOperator != -> -1
+102	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:280 - ReplaceComparisonOperator != -> <
+103	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:280 - ReplaceComparisonOperator != -> >
+104	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:281 - ReplaceComparisonOperator == -> -2
+105	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:281 - ReplaceComparisonOperator == -> >=
+106	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:281 - ReplaceComparisonOperator == -> <=
+107	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:282 - ReplaceComparisonOperator == -> -2
+108	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:282 - ReplaceComparisonOperator == -> >=
+109	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:282 - ReplaceComparisonOperator == -> <=
+110	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:282 - ReplaceConstant - 1 -> 0
+111	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:282 - ReplaceConstant - 0 -> 1
+112	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.dualFilters(Lorg/opengis/filter/Filter;Lorg/opengis/filter/Filter;)Z:286 - ReplaceConstant - 0 -> 1
+113	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:299 - ReplaceComparisonOperator != -> -1
+114	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:299 - ReplaceComparisonOperator != -> <
+115	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:299 - ReplaceComparisonOperator != -> >
+116	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:304 - ReplaceConstant - 1 -> 0
+117	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:304 - ReplaceComparisonOperator != -> -1
+118	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:304 - ReplaceComparisonOperator != -> <
+119	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:304 - ReplaceComparisonOperator != -> >
+120	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:305 - ReplaceConstant - 0 -> 1
+121	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:314 - InsertUnaryOp Negation
+122	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:314 - ReplaceComparisonOperator == -> -2
+123	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:314 - ReplaceComparisonOperator == -> >=
+124	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:314 - ReplaceComparisonOperator == -> <=
+125	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:314 - ReplaceComparisonOperator = null -> != null
+126	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:314 - ReplaceComparisonOperator == -> -2
+127	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:314 - ReplaceComparisonOperator == -> >=
+128	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:314 - ReplaceComparisonOperator == -> <=
+129	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:321 - ReplaceComparisonOperator == -> -2
+130	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:321 - ReplaceComparisonOperator == -> >=
+131	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:321 - ReplaceComparisonOperator == -> <=
+132	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:325 - ReplaceComparisonOperator != -> ==
+133	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:326 - ReplaceConstant - 1 -> 0
+134	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:326 - ReplaceConstant - 0 -> 1
+135	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:330 - ReplaceComparisonOperator != -> ==
+136	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:338 - ReplaceConstant - 0 -> 1
+137	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:338 - InsertUnaryOp Negation of i
+138	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:338 - InsertUnaryOp IINC 1 i
+139	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:338 - InsertUnaryOp IINC -1 i
+140	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:338 - ReplaceComparisonOperator >= -> -1
+141	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:338 - ReplaceComparisonOperator >= -> >
+142	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:338 - ReplaceComparisonOperator >= -> ==
+143	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:339 - InsertUnaryOp Negation of i
+144	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:339 - InsertUnaryOp IINC 1 i
+145	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:339 - InsertUnaryOp IINC -1 i
+146	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:339 - ReplaceConstant - 1 -> 0
+147	ReplaceArithmeticOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:339 - ReplaceArithmeticOperator + -> %
+148	ReplaceArithmeticOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:339 - ReplaceArithmeticOperator + -> -
+149	ReplaceArithmeticOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:339 - ReplaceArithmeticOperator + -> *
+150	ReplaceArithmeticOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:339 - ReplaceArithmeticOperator + -> /
+151	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:339 - InsertUnaryOp Negation of j
+152	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:339 - InsertUnaryOp IINC 1 j
+153	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:339 - InsertUnaryOp IINC -1 j
+154	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:339 - ReplaceComparisonOperator >= -> -1
+155	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:339 - ReplaceComparisonOperator >= -> >
+156	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:339 - ReplaceComparisonOperator >= -> ==
+157	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:340 - InsertUnaryOp Negation of i
+158	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:340 - InsertUnaryOp IINC 1 i
+159	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:340 - InsertUnaryOp IINC -1 i
+160	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:341 - InsertUnaryOp Negation of j
+161	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:341 - InsertUnaryOp IINC 1 j
+162	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:341 - InsertUnaryOp IINC -1 j
+163	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:342 - ReplaceComparisonOperator == -> -2
+164	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:342 - ReplaceComparisonOperator == -> >=
+165	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:342 - ReplaceComparisonOperator == -> <=
+166	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:343 - InsertUnaryOp Negation of j
+167	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:343 - InsertUnaryOp IINC 1 j
+168	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:343 - InsertUnaryOp IINC -1 j
+169	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:344 - ReplaceComparisonOperator == -> -2
+170	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:344 - ReplaceComparisonOperator == -> >=
+171	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:344 - ReplaceComparisonOperator == -> <=
+172	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:345 - ReplaceConstant - 1 -> 0
+173	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:345 - ReplaceConstant - 0 -> 1
+174	ReplaceVariable	org.geotools.filter.visitor.SimplifyingFilterVisitor.basicOrSimplification(Ljava/util/List;)Ljava/util/List;:347 - ReplaceVariable j -> i
+175	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:373 - ReplaceComparisonOperator != -> -1
+176	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:373 - ReplaceComparisonOperator != -> <
+177	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:373 - ReplaceComparisonOperator != -> >
+178	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:379 - ReplaceComparisonOperator == -> -2
+179	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:379 - ReplaceComparisonOperator == -> >=
+180	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:379 - ReplaceComparisonOperator == -> <=
+181	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:380 - ReplaceComparisonOperator != -> -1
+182	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:380 - ReplaceComparisonOperator != -> <
+183	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:380 - ReplaceComparisonOperator != -> >
+184	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:380 - ReplaceComparisonOperator == -> -2
+185	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:380 - ReplaceComparisonOperator == -> >=
+186	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:380 - ReplaceComparisonOperator == -> <=
+187	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:384 - ReplaceComparisonOperator == -> -2
+188	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:384 - ReplaceComparisonOperator == -> >=
+189	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:384 - ReplaceComparisonOperator == -> <=
+190	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:391 - ReplaceComparisonOperator != -> -1
+191	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:391 - ReplaceComparisonOperator != -> <
+192	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:391 - ReplaceComparisonOperator != -> >
+193	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:402 - ReplaceComparisonOperator == -> -2
+194	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:402 - ReplaceComparisonOperator == -> >=
+195	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:402 - ReplaceComparisonOperator == -> <=
+196	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:406 - ReplaceComparisonOperator != -> ==
+197	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:408 - ReplaceComparisonOperator != -> ==
+198	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:410 - ReplaceComparisonOperator == -> -2
+199	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:410 - ReplaceComparisonOperator == -> >=
+200	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:410 - ReplaceComparisonOperator == -> <=
+201	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:410 - ReplaceComparisonOperator == -> -2
+202	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:410 - ReplaceComparisonOperator == -> >=
+203	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:410 - ReplaceComparisonOperator == -> <=
+204	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:415 - ReplaceComparisonOperator == -> -2
+205	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:415 - ReplaceComparisonOperator == -> >=
+206	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:415 - ReplaceComparisonOperator == -> <=
+207	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:415 - ReplaceComparisonOperator == -> -2
+208	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:415 - ReplaceComparisonOperator == -> >=
+209	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:415 - ReplaceComparisonOperator == -> <=
+210	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:418 - ReplaceComparisonOperator == -> -2
+211	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:418 - ReplaceComparisonOperator == -> >=
+212	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:418 - ReplaceComparisonOperator == -> <=
+213	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:418 - ReplaceComparisonOperator == -> -2
+214	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:418 - ReplaceComparisonOperator == -> >=
+215	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:418 - ReplaceComparisonOperator == -> <=
+216	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:421 - ReplaceComparisonOperator == -> -2
+217	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:421 - ReplaceComparisonOperator == -> >=
+218	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:421 - ReplaceComparisonOperator == -> <=
+219	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:421 - ReplaceComparisonOperator == -> -2
+220	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:421 - ReplaceComparisonOperator == -> >=
+221	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:421 - ReplaceComparisonOperator == -> <=
+222	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:424 - ReplaceComparisonOperator == -> -2
+223	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:424 - ReplaceComparisonOperator == -> >=
+224	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:424 - ReplaceComparisonOperator == -> <=
+225	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:424 - ReplaceComparisonOperator == -> -2
+226	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:424 - ReplaceComparisonOperator == -> >=
+227	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:424 - ReplaceComparisonOperator == -> <=
+228	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:428 - ReplaceComparisonOperator == -> -2
+229	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:428 - ReplaceComparisonOperator == -> >=
+230	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:428 - ReplaceComparisonOperator == -> <=
+231	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:428 - ReplaceComparisonOperator == -> -2
+232	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:428 - ReplaceComparisonOperator == -> >=
+233	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:428 - ReplaceComparisonOperator == -> <=
+234	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:431 - ReplaceComparisonOperator == -> -2
+235	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:431 - ReplaceComparisonOperator == -> >=
+236	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:431 - ReplaceComparisonOperator == -> <=
+237	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:431 - ReplaceComparisonOperator == -> -2
+238	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:431 - ReplaceComparisonOperator == -> >=
+239	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:431 - ReplaceComparisonOperator == -> <=
+240	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:435 - ReplaceComparisonOperator == -> -2
+241	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:435 - ReplaceComparisonOperator == -> >=
+242	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:435 - ReplaceComparisonOperator == -> <=
+243	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:440 - ReplaceComparisonOperator == -> -2
+244	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:440 - ReplaceComparisonOperator == -> >=
+245	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:440 - ReplaceComparisonOperator == -> <=
+246	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:444 - ReplaceComparisonOperator == -> -2
+247	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:444 - ReplaceComparisonOperator == -> >=
+248	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:444 - ReplaceComparisonOperator == -> <=
+249	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:449 - ReplaceComparisonOperator == -> -2
+250	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:449 - ReplaceComparisonOperator == -> >=
+251	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:449 - ReplaceComparisonOperator == -> <=
+252	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:469 - ReplaceComparisonOperator == -> -2
+253	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:469 - ReplaceComparisonOperator == -> >=
+254	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:469 - ReplaceComparisonOperator == -> <=
+255	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:474 - ReplaceComparisonOperator != null -> = null
+256	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:482 - ReplaceComparisonOperator == -> -2
+257	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:482 - ReplaceComparisonOperator == -> >=
+258	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:482 - ReplaceComparisonOperator == -> <=
+259	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.simplify(Lorg/opengis/filter/Filter;Lorg/opengis/feature/type/FeatureType;)Lorg/opengis/filter/Filter;:519 - ReplaceComparisonOperator == -> !=
+260	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.simplify(Lorg/opengis/filter/Filter;Lorg/opengis/feature/type/FeatureType;)Lorg/opengis/filter/Filter;:519 - ReplaceComparisonOperator == -> !=
+261	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.simplify(Lorg/opengis/filter/Filter;Lorg/opengis/feature/type/FeatureType;)Lorg/opengis/filter/Filter;:519 - ReplaceComparisonOperator != null -> = null
+262	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.isConstant(Lorg/opengis/filter/expression/Expression;)Z:529 - ReplaceComparisonOperator == -> -2
+263	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.isConstant(Lorg/opengis/filter/expression/Expression;)Z:529 - ReplaceComparisonOperator == -> >=
+264	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.isConstant(Lorg/opengis/filter/expression/Expression;)Z:529 - ReplaceComparisonOperator == -> <=
+265	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.isConstant(Lorg/opengis/filter/expression/Expression;)Z:530 - ReplaceConstant - 1 -> 0
+266	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.isConstant(Lorg/opengis/filter/expression/Expression;)Z:531 - ReplaceComparisonOperator == -> -2
+267	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.isConstant(Lorg/opengis/filter/expression/Expression;)Z:531 - ReplaceComparisonOperator == -> >=
+268	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.isConstant(Lorg/opengis/filter/expression/Expression;)Z:531 - ReplaceComparisonOperator == -> <=
+269	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.isConstant(Lorg/opengis/filter/expression/Expression;)Z:532 - ReplaceConstant - 1 -> 0
+270	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.isConstant(Lorg/opengis/filter/expression/Expression;)Z:533 - ReplaceComparisonOperator == -> -2
+271	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.isConstant(Lorg/opengis/filter/expression/Expression;)Z:533 - ReplaceComparisonOperator == -> >=
+272	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.isConstant(Lorg/opengis/filter/expression/Expression;)Z:533 - ReplaceComparisonOperator == -> <=
+273	ReplaceConstant	org.geotools.filter.visitor.SimplifyingFilterVisitor.isConstant(Lorg/opengis/filter/expression/Expression;)Z:534 - ReplaceConstant - 0 -> 1
+274	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsBetween;Ljava/lang/Object;)Ljava/lang/Object;:544 - ReplaceComparisonOperator == -> -2
+275	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsBetween;Ljava/lang/Object;)Ljava/lang/Object;:544 - ReplaceComparisonOperator == -> >=
+276	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsBetween;Ljava/lang/Object;)Ljava/lang/Object;:544 - ReplaceComparisonOperator == -> <=
+277	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsBetween;Ljava/lang/Object;)Ljava/lang/Object;:544 - ReplaceComparisonOperator == -> -2
+278	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsBetween;Ljava/lang/Object;)Ljava/lang/Object;:544 - ReplaceComparisonOperator == -> >=
+279	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsBetween;Ljava/lang/Object;)Ljava/lang/Object;:544 - ReplaceComparisonOperator == -> <=
+280	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsBetween;Ljava/lang/Object;)Ljava/lang/Object;:545 - ReplaceComparisonOperator == -> -2
+281	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsBetween;Ljava/lang/Object;)Ljava/lang/Object;:545 - ReplaceComparisonOperator == -> >=
+282	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsBetween;Ljava/lang/Object;)Ljava/lang/Object;:545 - ReplaceComparisonOperator == -> <=
+283	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.staticFilterEvaluate(Lorg/opengis/filter/Filter;)Ljava/lang/Object;:553 - ReplaceComparisonOperator == -> -2
+284	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.staticFilterEvaluate(Lorg/opengis/filter/Filter;)Ljava/lang/Object;:553 - ReplaceComparisonOperator == -> >=
+285	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.staticFilterEvaluate(Lorg/opengis/filter/Filter;)Ljava/lang/Object;:553 - ReplaceComparisonOperator == -> <=
+286	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.simplifyBinaryComparisonOperator(Lorg/opengis/filter/BinaryComparisonOperator;)Ljava/lang/Object;:566 - ReplaceComparisonOperator == -> -2
+287	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.simplifyBinaryComparisonOperator(Lorg/opengis/filter/BinaryComparisonOperator;)Ljava/lang/Object;:566 - ReplaceComparisonOperator == -> >=
+288	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.simplifyBinaryComparisonOperator(Lorg/opengis/filter/BinaryComparisonOperator;)Ljava/lang/Object;:566 - ReplaceComparisonOperator == -> <=
+289	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.simplifyBinaryComparisonOperator(Lorg/opengis/filter/BinaryComparisonOperator;)Ljava/lang/Object;:566 - ReplaceComparisonOperator == -> -2
+290	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.simplifyBinaryComparisonOperator(Lorg/opengis/filter/BinaryComparisonOperator;)Ljava/lang/Object;:566 - ReplaceComparisonOperator == -> >=
+291	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.simplifyBinaryComparisonOperator(Lorg/opengis/filter/BinaryComparisonOperator;)Ljava/lang/Object;:566 - ReplaceComparisonOperator == -> <=
+292	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLike;Ljava/lang/Object;)Ljava/lang/Object;:601 - ReplaceComparisonOperator == -> -2
+293	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLike;Ljava/lang/Object;)Ljava/lang/Object;:601 - ReplaceComparisonOperator == -> >=
+294	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLike;Ljava/lang/Object;)Ljava/lang/Object;:601 - ReplaceComparisonOperator == -> <=
+295	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNil;Ljava/lang/Object;)Ljava/lang/Object;:611 - ReplaceComparisonOperator == -> -2
+296	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNil;Ljava/lang/Object;)Ljava/lang/Object;:611 - ReplaceComparisonOperator == -> >=
+297	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNil;Ljava/lang/Object;)Ljava/lang/Object;:611 - ReplaceComparisonOperator == -> <=
+298	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNull;Ljava/lang/Object;)Ljava/lang/Object;:621 - ReplaceComparisonOperator == -> -2
+299	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNull;Ljava/lang/Object;)Ljava/lang/Object;:621 - ReplaceComparisonOperator == -> >=
+300	ReplaceComparisonOperator	org.geotools.filter.visitor.SimplifyingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNull;Ljava/lang/Object;)Ljava/lang/Object;:621 - ReplaceComparisonOperator == -> <=
+301	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.isRangeSimplicationEnabled()Z:629 - InsertUnaryOp Negation
+302	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.setRangeSimplicationEnabled(Z)V:640 - InsertUnaryOp Negation of rangeSimplicationEnabled
+303	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.setRangeSimplicationEnabled(Z)V:640 - InsertUnaryOp IINC 1 rangeSimplicationEnabled
+304	InsertUnaryOp	org.geotools.filter.visitor.SimplifyingFilterVisitor.setRangeSimplicationEnabled(Z)V:640 - InsertUnaryOp IINC -1 rangeSimplicationEnabled

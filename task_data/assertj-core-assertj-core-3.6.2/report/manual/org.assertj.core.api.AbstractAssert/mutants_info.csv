@@ -1,0 +1,10 @@
+0	ReplaceComparisonOperator	org.assertj.core.api.AbstractAssert.failWithMessage(Ljava/lang/String;[Ljava/lang/Object;)V:114 - ReplaceComparisonOperator = null -> != null
+1	ReplaceConstant	org.assertj.core.api.AbstractAssert.failWithMessage(Ljava/lang/String;[Ljava/lang/Object;)V:115 - ReplaceConstant - 0 -> 1
+2	ReplaceConstant	org.assertj.core.api.AbstractAssert.isInstanceOfSatisfying(Ljava/lang/Class;Ljava/util/function/Consumer;)Lorg/assertj/core/api/AbstractAssert;:319 - ReplaceConstant - The Consumer<T> expressing the assertions requirements must not be null -> 
+3	ReplaceConstant	org.assertj.core.api.AbstractAssert.equals(Ljava/lang/Object;)Z:492 - ReplaceConstant - 'equals' is not supported...maybe you intended to call 'isEqualTo' -> 
+4	ReplaceConstant	org.assertj.core.api.AbstractAssert.hashCode()I:502 - ReplaceConstant - 1 -> 0
+5	ReplaceConstant	org.assertj.core.api.AbstractAssert.satisfies(Ljava/util/function/Consumer;)Lorg/assertj/core/api/AbstractAssert;:584 - ReplaceConstant - The Consumer<T> expressing the assertions requirements must not be null -> 
+6	ReplaceConstant	org.assertj.core.api.AbstractAssert.matches(Ljava/util/function/Predicate;Lorg/assertj/core/presentation/PredicateDescription;)Lorg/assertj/core/api/AbstractAssert;:590 - ReplaceConstant - The predicate must not be null -> 
+7	ReplaceComparisonOperator	org.assertj.core.api.AbstractAssert.matches(Ljava/util/function/Predicate;Lorg/assertj/core/presentation/PredicateDescription;)Lorg/assertj/core/api/AbstractAssert;:591 - ReplaceComparisonOperator == -> -2
+8	ReplaceComparisonOperator	org.assertj.core.api.AbstractAssert.matches(Ljava/util/function/Predicate;Lorg/assertj/core/presentation/PredicateDescription;)Lorg/assertj/core/api/AbstractAssert;:591 - ReplaceComparisonOperator == -> >=
+9	ReplaceComparisonOperator	org.assertj.core.api.AbstractAssert.matches(Ljava/util/function/Predicate;Lorg/assertj/core/presentation/PredicateDescription;)Lorg/assertj/core/api/AbstractAssert;:591 - ReplaceComparisonOperator == -> <=

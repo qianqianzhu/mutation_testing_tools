@@ -1,0 +1,50 @@
+0	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.<init>()V:110 - ReplaceConstant - wfs -> 
+1	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.<init>()V:111 - ReplaceConstant - http://www.opengis.net/wfs -> 
+2	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.<init>()V:115 - ReplaceConstant - -1 -> 0
+3	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.<init>()V:115 - ReplaceConstant - -1 -> 1
+4	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.<init>()V:115 - ReplaceConstant - -1 -> -2
+5	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.<init>()V:116 - ReplaceConstant - 0 -> 1
+6	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.<init>()V:117 - ReplaceConstant - 0 -> 1
+7	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.<init>()V:118 - ReplaceConstant - 1 -> 0
+8	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.<init>()V:121 - ReplaceConstant - 4 -> 0
+9	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.<init>()V:121 - ReplaceConstant - 4 -> 1
+10	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.<init>()V:121 - ReplaceConstant - 4 -> -1
+11	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.<init>()V:121 - ReplaceConstant - 4 -> 3
+12	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.<init>()V:121 - ReplaceConstant - 4 -> 5
+13	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.setNumDecimals(I)V:150 - InsertUnaryOp Negation of numDecimals
+14	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.setNumDecimals(I)V:150 - InsertUnaryOp IINC 1 numDecimals
+15	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.setNumDecimals(I)V:150 - InsertUnaryOp IINC -1 numDecimals
+16	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.setGmlPrefixing(Z)V:219 - InsertUnaryOp Negation of prefixGml
+17	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.setGmlPrefixing(Z)V:219 - InsertUnaryOp IINC 1 prefixGml
+18	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.setGmlPrefixing(Z)V:219 - InsertUnaryOp IINC -1 prefixGml
+19	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.setGmlPrefixing(Z)V:221 - InsertUnaryOp Negation of prefixGml
+20	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.setGmlPrefixing(Z)V:221 - InsertUnaryOp IINC 1 prefixGml
+21	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.setGmlPrefixing(Z)V:221 - InsertUnaryOp IINC -1 prefixGml
+22	ReplaceComparisonOperator	org.geotools.gml.producer.FeatureTransformer.setGmlPrefixing(Z)V:221 - ReplaceComparisonOperator == -> -2
+23	ReplaceComparisonOperator	org.geotools.gml.producer.FeatureTransformer.setGmlPrefixing(Z)V:221 - ReplaceComparisonOperator == -> >=
+24	ReplaceComparisonOperator	org.geotools.gml.producer.FeatureTransformer.setGmlPrefixing(Z)V:221 - ReplaceComparisonOperator == -> <=
+25	ReplaceComparisonOperator	org.geotools.gml.producer.FeatureTransformer.setGmlPrefixing(Z)V:221 - ReplaceComparisonOperator != null -> = null
+26	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.loadGmlAttributes(Ljava/util/Set;)V:232 - ReplaceConstant - pointProperty -> 
+27	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.loadGmlAttributes(Ljava/util/Set;)V:233 - ReplaceConstant - geometryProperty -> 
+28	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.loadGmlAttributes(Ljava/util/Set;)V:234 - ReplaceConstant - polygonProperty -> 
+29	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.loadGmlAttributes(Ljava/util/Set;)V:235 - ReplaceConstant - lineStringProperty -> 
+30	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.loadGmlAttributes(Ljava/util/Set;)V:236 - ReplaceConstant - multiPointProperty -> 
+31	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.loadGmlAttributes(Ljava/util/Set;)V:237 - ReplaceConstant - multiLineStringProperty -> 
+32	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.loadGmlAttributes(Ljava/util/Set;)V:238 - ReplaceConstant - multiPolygonProperty -> 
+33	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.loadGmlAttributes(Ljava/util/Set;)V:239 - ReplaceConstant - description -> 
+34	ReplaceConstant	org.geotools.gml.producer.FeatureTransformer.loadGmlAttributes(Ljava/util/Set;)V:240 - ReplaceConstant - name -> 
+35	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.setFeatureBounding(Z)V:269 - InsertUnaryOp Negation of featureBounding
+36	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.setFeatureBounding(Z)V:269 - InsertUnaryOp IINC 1 featureBounding
+37	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.setFeatureBounding(Z)V:269 - InsertUnaryOp IINC -1 featureBounding
+38	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.setCollectionBounding(Z)V:281 - InsertUnaryOp Negation of collectionBounding
+39	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.setCollectionBounding(Z)V:281 - InsertUnaryOp IINC 1 collectionBounding
+40	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.setCollectionBounding(Z)V:281 - InsertUnaryOp IINC -1 collectionBounding
+41	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.createTranslator(Lorg/xml/sax/ContentHandler;)Lorg/geotools/xml/transform/Translator;:291 - InsertUnaryOp Negation
+42	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.createTranslator(Lorg/xml/sax/ContentHandler;)Lorg/geotools/xml/transform/Translator;:291 - InsertUnaryOp +1
+43	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.createTranslator(Lorg/xml/sax/ContentHandler;)Lorg/geotools/xml/transform/Translator;:291 - InsertUnaryOp -1
+44	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.createTranslator(Lorg/xml/sax/ContentHandler;)Lorg/geotools/xml/transform/Translator;:292 - InsertUnaryOp Negation
+45	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.createTranslator(Lorg/xml/sax/ContentHandler;)Lorg/geotools/xml/transform/Translator;:295 - InsertUnaryOp Negation
+46	InsertUnaryOp	org.geotools.gml.producer.FeatureTransformer.createTranslator(Lorg/xml/sax/ContentHandler;)Lorg/geotools/xml/transform/Translator;:296 - InsertUnaryOp Negation
+47	ReplaceComparisonOperator	org.geotools.gml.producer.FeatureTransformer.createTranslator(Lorg/xml/sax/ContentHandler;)Lorg/geotools/xml/transform/Translator;:298 - ReplaceComparisonOperator == -> -2
+48	ReplaceComparisonOperator	org.geotools.gml.producer.FeatureTransformer.createTranslator(Lorg/xml/sax/ContentHandler;)Lorg/geotools/xml/transform/Translator;:298 - ReplaceComparisonOperator == -> >=
+49	ReplaceComparisonOperator	org.geotools.gml.producer.FeatureTransformer.createTranslator(Lorg/xml/sax/ContentHandler;)Lorg/geotools/xml/transform/Translator;:298 - ReplaceComparisonOperator == -> <=

@@ -1,0 +1,24 @@
+0	ReplaceConstant	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.<init>(Ljava/lang/String;Lcom/twitter/distributedlog/DistributedLogConfiguration;Lorg/apache/bookkeeper/stats/StatsLogger;)V:62 - ReplaceConstant - DynamicConfigurationFeatureProvider-%d -> 
+1	ReplaceConstant	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.start()V:76 - ReplaceConstant - 2 -> 0
+2	ReplaceConstant	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.start()V:76 - ReplaceConstant - 2 -> 1
+3	ReplaceConstant	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.start()V:76 - ReplaceConstant - 2 -> -1
+4	ReplaceConstant	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.start()V:76 - ReplaceConstant - 2 -> 3
+5	ReplaceComparisonOperator	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.start()V:85 - ReplaceComparisonOperator == -> !=
+6	ReplaceConstant	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.start()V:99 - ReplaceConstant - Failed to register subscription on features configuration -> 
+7	ReplaceComparisonOperator	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.onReload(Lcom/twitter/distributedlog/config/ConcurrentBaseConfiguration;)V:111 - ReplaceComparisonOperator == -> -2
+8	ReplaceComparisonOperator	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.onReload(Lcom/twitter/distributedlog/config/ConcurrentBaseConfiguration;)V:111 - ReplaceComparisonOperator == -> >=
+9	ReplaceComparisonOperator	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.onReload(Lcom/twitter/distributedlog/config/ConcurrentBaseConfiguration;)V:111 - ReplaceComparisonOperator == -> <=
+10	ReplaceConstant	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.onReload(Lcom/twitter/distributedlog/config/ConcurrentBaseConfiguration;)V:113 - ReplaceConstant - 0 -> 1
+11	InsertUnaryOp	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.onReload(Lcom/twitter/distributedlog/config/ConcurrentBaseConfiguration;)V:114 - InsertUnaryOp Negation of availability
+12	InsertUnaryOp	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.onReload(Lcom/twitter/distributedlog/config/ConcurrentBaseConfiguration;)V:114 - InsertUnaryOp IINC 1 availability
+13	InsertUnaryOp	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.onReload(Lcom/twitter/distributedlog/config/ConcurrentBaseConfiguration;)V:114 - InsertUnaryOp IINC -1 availability
+14	ReplaceComparisonOperator	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.onReload(Lcom/twitter/distributedlog/config/ConcurrentBaseConfiguration;)V:114 - ReplaceComparisonOperator == -> -2
+15	ReplaceComparisonOperator	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.onReload(Lcom/twitter/distributedlog/config/ConcurrentBaseConfiguration;)V:114 - ReplaceComparisonOperator == -> >=
+16	ReplaceComparisonOperator	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.onReload(Lcom/twitter/distributedlog/config/ConcurrentBaseConfiguration;)V:114 - ReplaceComparisonOperator == -> <=
+17	InsertUnaryOp	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.onReload(Lcom/twitter/distributedlog/config/ConcurrentBaseConfiguration;)V:115 - InsertUnaryOp Negation of availability
+18	InsertUnaryOp	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.onReload(Lcom/twitter/distributedlog/config/ConcurrentBaseConfiguration;)V:115 - InsertUnaryOp IINC 1 availability
+19	InsertUnaryOp	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.onReload(Lcom/twitter/distributedlog/config/ConcurrentBaseConfiguration;)V:115 - InsertUnaryOp IINC -1 availability
+20	ReplaceConstant	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.onReload(Lcom/twitter/distributedlog/config/ConcurrentBaseConfiguration;)V:116 - ReplaceConstant - Reload feature {}={} -> 
+21	InsertUnaryOp	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.onReload(Lcom/twitter/distributedlog/config/ConcurrentBaseConfiguration;)V:116 - InsertUnaryOp Negation of availability
+22	InsertUnaryOp	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.onReload(Lcom/twitter/distributedlog/config/ConcurrentBaseConfiguration;)V:116 - InsertUnaryOp IINC 1 availability
+23	InsertUnaryOp	com.twitter.distributedlog.feature.DynamicConfigurationFeatureProvider.onReload(Lcom/twitter/distributedlog/config/ConcurrentBaseConfiguration;)V:116 - InsertUnaryOp IINC -1 availability

@@ -1,0 +1,13 @@
+0	ReplaceConstant	org.dynjs.parser.ast.DotExpression.toString()Ljava/lang/String;:60 - ReplaceConstant - . -> 
+1	ReplaceConstant	org.dynjs.parser.ast.DotExpression.getSizeMetric()I:64 - ReplaceConstant - 1 -> 0
+2	ReplaceArithmeticOperator	org.dynjs.parser.ast.DotExpression.getSizeMetric()I:64 - ReplaceArithmeticOperator + -> %
+3	ReplaceArithmeticOperator	org.dynjs.parser.ast.DotExpression.getSizeMetric()I:64 - ReplaceArithmeticOperator + -> -
+4	ReplaceArithmeticOperator	org.dynjs.parser.ast.DotExpression.getSizeMetric()I:64 - ReplaceArithmeticOperator + -> *
+5	ReplaceArithmeticOperator	org.dynjs.parser.ast.DotExpression.getSizeMetric()I:64 - ReplaceArithmeticOperator + -> /
+6	InsertUnaryOp	org.dynjs.parser.ast.DotExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:69 - InsertUnaryOp Negation of debug
+7	InsertUnaryOp	org.dynjs.parser.ast.DotExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:69 - InsertUnaryOp IINC 1 debug
+8	InsertUnaryOp	org.dynjs.parser.ast.DotExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:69 - InsertUnaryOp IINC -1 debug
+9	ReplaceConstant	org.dynjs.parser.ast.DotExpression.dump(Ljava/lang/String;)Ljava/lang/String;:80 - ReplaceConstant -    -> 
+10	InsertUnaryOp	org.dynjs.parser.ast.DotExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:89 - InsertUnaryOp Negation of strict
+11	InsertUnaryOp	org.dynjs.parser.ast.DotExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:89 - InsertUnaryOp IINC 1 strict
+12	InsertUnaryOp	org.dynjs.parser.ast.DotExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:89 - InsertUnaryOp IINC -1 strict

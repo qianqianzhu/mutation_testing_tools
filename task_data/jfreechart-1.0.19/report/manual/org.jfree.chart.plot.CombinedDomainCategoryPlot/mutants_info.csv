@@ -1,0 +1,382 @@
+0	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.<init>(Lorg/jfree/chart/axis/CategoryAxis;)V:125 - ReplaceConstant - 5.0 -> 0.0
+1	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.<init>(Lorg/jfree/chart/axis/CategoryAxis;)V:125 - ReplaceConstant - 5.0 -> 1.0
+2	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.<init>(Lorg/jfree/chart/axis/CategoryAxis;)V:125 - ReplaceConstant - 5.0 -> -1.0
+3	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.<init>(Lorg/jfree/chart/axis/CategoryAxis;)V:125 - ReplaceConstant - 5.0 -> 4.0
+4	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.<init>(Lorg/jfree/chart/axis/CategoryAxis;)V:125 - ReplaceConstant - 5.0 -> 6.0
+5	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.getGap()D:136 - InsertUnaryOp Negation
+6	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.setGap(D)V:148 - InsertUnaryOp Negation of gap
+7	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;)V:162 - ReplaceConstant - 1 -> 0
+8	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:176 - ReplaceConstant - subplot -> 
+9	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:177 - InsertUnaryOp Negation of weight
+10	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:177 - InsertUnaryOp IINC 1 weight
+11	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:177 - InsertUnaryOp IINC -1 weight
+12	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:177 - ReplaceConstant - 1 -> 0
+13	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:177 - ReplaceComparisonOperator >= -> -1
+14	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:177 - ReplaceComparisonOperator >= -> >
+15	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:177 - ReplaceComparisonOperator >= -> ==
+16	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:178 - ReplaceConstant - Require weight >= 1. -> 
+17	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:181 - InsertUnaryOp Negation of weight
+18	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:181 - InsertUnaryOp IINC 1 weight
+19	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:181 - InsertUnaryOp IINC -1 weight
+20	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:182 - ReplaceConstant - 0.0 -> 1.0
+21	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:182 - ReplaceConstant - 0.0 -> -1.0
+22	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:182 - ReplaceConstant - 0.0 -> 1.0
+23	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:182 - ReplaceConstant - 0.0 -> -1.0
+24	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:182 - ReplaceConstant - 0.0 -> 1.0
+25	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:182 - ReplaceConstant - 0.0 -> -1.0
+26	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:182 - ReplaceConstant - 0.0 -> 1.0
+27	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:182 - ReplaceConstant - 0.0 -> -1.0
+28	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.add(Lorg/jfree/chart/plot/CategoryPlot;I)V:188 - ReplaceComparisonOperator = null -> != null
+29	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:203 - ReplaceConstant - subplot -> 
+30	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:204 - ReplaceConstant - -1 -> 0
+31	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:204 - ReplaceConstant - -1 -> 1
+32	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:204 - ReplaceConstant - -1 -> -2
+33	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:206 - ReplaceConstant - 0 -> 1
+34	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - InsertUnaryOp Negation of position
+35	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - InsertUnaryOp IINC 1 position
+36	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - InsertUnaryOp IINC -1 position
+37	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - ReplaceConstant - -1 -> 0
+38	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - ReplaceConstant - -1 -> 1
+39	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - ReplaceConstant - -1 -> -2
+40	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - ReplaceComparisonOperator != -> -1
+41	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - ReplaceComparisonOperator != -> <
+42	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - ReplaceComparisonOperator != -> >
+43	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - InsertUnaryOp Negation of i
+44	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - InsertUnaryOp IINC 1 i
+45	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - InsertUnaryOp IINC -1 i
+46	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - InsertUnaryOp Negation of size
+47	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - InsertUnaryOp IINC 1 size
+48	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - InsertUnaryOp IINC -1 size
+49	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - ReplaceComparisonOperator >= -> -1
+50	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - ReplaceComparisonOperator >= -> >
+51	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:207 - ReplaceComparisonOperator >= -> ==
+52	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:208 - InsertUnaryOp Negation of i
+53	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:208 - InsertUnaryOp IINC 1 i
+54	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:208 - InsertUnaryOp IINC -1 i
+55	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:208 - ReplaceComparisonOperator != -> ==
+56	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:209 - InsertUnaryOp Negation of i
+57	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:209 - InsertUnaryOp IINC 1 i
+58	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:209 - InsertUnaryOp IINC -1 i
+59	ReplaceVariable	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:211 - ReplaceVariable i -> size
+60	ReplaceVariable	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:211 - ReplaceVariable i -> position
+61	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:213 - InsertUnaryOp Negation of position
+62	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:213 - InsertUnaryOp IINC 1 position
+63	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:213 - InsertUnaryOp IINC -1 position
+64	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:213 - ReplaceConstant - -1 -> 0
+65	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:213 - ReplaceConstant - -1 -> 1
+66	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:213 - ReplaceConstant - -1 -> -2
+67	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:213 - ReplaceComparisonOperator == -> -2
+68	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:213 - ReplaceComparisonOperator == -> >=
+69	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:213 - ReplaceComparisonOperator == -> <=
+70	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:214 - InsertUnaryOp Negation of position
+71	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:214 - InsertUnaryOp IINC 1 position
+72	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:214 - InsertUnaryOp IINC -1 position
+73	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.remove(Lorg/jfree/chart/plot/CategoryPlot;)V:218 - ReplaceComparisonOperator = null -> != null
+74	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.getSubplots()Ljava/util/List;:232 - ReplaceComparisonOperator = null -> != null
+75	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.findSubplot(Lorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)Lorg/jfree/chart/plot/CategoryPlot;:250 - ReplaceConstant - info -> 
+76	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.findSubplot(Lorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)Lorg/jfree/chart/plot/CategoryPlot;:251 - ReplaceConstant - source -> 
+77	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.findSubplot(Lorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)Lorg/jfree/chart/plot/CategoryPlot;:254 - InsertUnaryOp Negation of subplotIndex
+78	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.findSubplot(Lorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)Lorg/jfree/chart/plot/CategoryPlot;:254 - InsertUnaryOp IINC 1 subplotIndex
+79	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.findSubplot(Lorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)Lorg/jfree/chart/plot/CategoryPlot;:254 - InsertUnaryOp IINC -1 subplotIndex
+80	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.findSubplot(Lorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)Lorg/jfree/chart/plot/CategoryPlot;:254 - ReplaceComparisonOperator < -> -2
+81	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.findSubplot(Lorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)Lorg/jfree/chart/plot/CategoryPlot;:254 - ReplaceComparisonOperator < -> !=
+82	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.findSubplot(Lorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)Lorg/jfree/chart/plot/CategoryPlot;:254 - ReplaceComparisonOperator < -> <=
+83	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.findSubplot(Lorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)Lorg/jfree/chart/plot/CategoryPlot;:255 - InsertUnaryOp Negation of subplotIndex
+84	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.findSubplot(Lorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)Lorg/jfree/chart/plot/CategoryPlot;:255 - InsertUnaryOp IINC 1 subplotIndex
+85	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.findSubplot(Lorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)Lorg/jfree/chart/plot/CategoryPlot;:255 - InsertUnaryOp IINC -1 subplotIndex
+86	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:270 - InsertUnaryOp Negation of factor
+87	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:270 - ReplaceConstant - 0 -> 1
+88	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:286 - ReplaceComparisonOperator = null -> != null
+89	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:287 - InsertUnaryOp Negation of factor
+90	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:287 - InsertUnaryOp Negation of useAnchor
+91	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:287 - InsertUnaryOp IINC 1 useAnchor
+92	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:287 - InsertUnaryOp IINC -1 useAnchor
+93	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:293 - ReplaceComparisonOperator == -> -2
+94	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:293 - ReplaceComparisonOperator == -> >=
+95	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:293 - ReplaceComparisonOperator == -> <=
+96	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:295 - InsertUnaryOp Negation of factor
+97	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:295 - InsertUnaryOp Negation of useAnchor
+98	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:295 - InsertUnaryOp IINC 1 useAnchor
+99	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;Z)V:295 - InsertUnaryOp IINC -1 useAnchor
+100	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DDLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:313 - ReplaceComparisonOperator = null -> != null
+101	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DDLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:314 - InsertUnaryOp Negation of lowerPercent
+102	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DDLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:314 - InsertUnaryOp Negation of upperPercent
+103	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DDLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:320 - ReplaceComparisonOperator == -> -2
+104	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DDLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:320 - ReplaceComparisonOperator == -> >=
+105	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DDLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:320 - ReplaceComparisonOperator == -> <=
+106	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DDLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:322 - InsertUnaryOp Negation of lowerPercent
+107	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.zoomRangeAxes(DDLorg/jfree/chart/plot/PlotRenderingInfo;Ljava/awt/geom/Point2D;)V:322 - InsertUnaryOp Negation of upperPercent
+108	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:344 - ReplaceComparisonOperator = null -> != null
+109	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:345 - ReplaceComparisonOperator != -> ==
+110	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:349 - ReplaceComparisonOperator != -> ==
+111	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:358 - ReplaceComparisonOperator = null -> != null
+112	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:363 - ReplaceComparisonOperator == -> -2
+113	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:363 - ReplaceComparisonOperator == -> >=
+114	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:363 - ReplaceComparisonOperator == -> <=
+115	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:374 - ReplaceConstant - 0 -> 1
+116	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:375 - ReplaceConstant - 0 -> 1
+117	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:375 - InsertUnaryOp Negation of i
+118	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:375 - InsertUnaryOp IINC 1 i
+119	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:375 - InsertUnaryOp IINC -1 i
+120	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:375 - InsertUnaryOp Negation of n
+121	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:375 - InsertUnaryOp IINC 1 n
+122	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:375 - InsertUnaryOp IINC -1 n
+123	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:375 - ReplaceComparisonOperator >= -> -1
+124	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:375 - ReplaceComparisonOperator >= -> >
+125	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:375 - ReplaceComparisonOperator >= -> ==
+126	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:376 - InsertUnaryOp Negation of i
+127	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:376 - InsertUnaryOp IINC 1 i
+128	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:376 - InsertUnaryOp IINC -1 i
+129	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:377 - InsertUnaryOp Negation of totalWeight
+130	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:377 - InsertUnaryOp IINC 1 totalWeight
+131	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:377 - InsertUnaryOp IINC -1 totalWeight
+132	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:377 - ReplaceArithmeticOperator + -> %
+133	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:377 - ReplaceArithmeticOperator + -> -
+134	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:377 - ReplaceArithmeticOperator + -> *
+135	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:377 - ReplaceArithmeticOperator + -> /
+136	ReplaceVariable	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:375 - ReplaceVariable i -> totalWeight
+137	ReplaceVariable	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:375 - ReplaceVariable i -> n
+138	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:379 - InsertUnaryOp Negation of n
+139	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:379 - InsertUnaryOp IINC 1 n
+140	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:379 - InsertUnaryOp IINC -1 n
+141	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:382 - ReplaceConstant - 0.0 -> 1.0
+142	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:382 - ReplaceConstant - 0.0 -> -1.0
+143	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:383 - ReplaceComparisonOperator != -> ==
+144	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:384 - InsertUnaryOp Negation
+145	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:384 - InsertUnaryOp Negation of n
+146	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:384 - InsertUnaryOp IINC 1 n
+147	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:384 - InsertUnaryOp IINC -1 n
+148	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceConstant - 1 -> 0
+149	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator - -> +
+150	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator - -> %
+151	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator - -> *
+152	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator - -> /
+153	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator * -> +
+154	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator * -> %
+155	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator * -> -
+156	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator * -> /
+157	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator - -> +
+158	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator - -> %
+159	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator - -> *
+160	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:384 - ReplaceArithmeticOperator - -> /
+161	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:386 - ReplaceComparisonOperator != -> ==
+162	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:387 - InsertUnaryOp Negation
+163	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:387 - InsertUnaryOp Negation of n
+164	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:387 - InsertUnaryOp IINC 1 n
+165	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:387 - InsertUnaryOp IINC -1 n
+166	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:387 - ReplaceConstant - 1 -> 0
+167	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:387 - ReplaceArithmeticOperator - -> +
+168	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:387 - ReplaceArithmeticOperator - -> %
+169	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:387 - ReplaceArithmeticOperator - -> *
+170	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:387 - ReplaceArithmeticOperator - -> /
+171	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:387 - ReplaceArithmeticOperator * -> +
+172	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:387 - ReplaceArithmeticOperator * -> %
+173	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:387 - ReplaceArithmeticOperator * -> -
+174	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:387 - ReplaceArithmeticOperator * -> /
+175	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:387 - ReplaceArithmeticOperator - -> +
+176	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:387 - ReplaceArithmeticOperator - -> %
+177	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:387 - ReplaceArithmeticOperator - -> *
+178	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:387 - ReplaceArithmeticOperator - -> /
+179	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:390 - ReplaceConstant - 0 -> 1
+180	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:390 - InsertUnaryOp Negation of i
+181	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:390 - InsertUnaryOp IINC 1 i
+182	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:390 - InsertUnaryOp IINC -1 i
+183	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:390 - InsertUnaryOp Negation of n
+184	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:390 - InsertUnaryOp IINC 1 n
+185	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:390 - InsertUnaryOp IINC -1 n
+186	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:390 - ReplaceComparisonOperator >= -> -1
+187	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:390 - ReplaceComparisonOperator >= -> >
+188	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:390 - ReplaceComparisonOperator >= -> ==
+189	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:391 - InsertUnaryOp Negation of i
+190	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:391 - InsertUnaryOp IINC 1 i
+191	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:391 - InsertUnaryOp IINC -1 i
+192	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:394 - ReplaceComparisonOperator != -> ==
+193	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:395 - InsertUnaryOp Negation of usableSize
+194	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:395 - ReplaceArithmeticOperator * -> +
+195	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:395 - ReplaceArithmeticOperator * -> %
+196	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:395 - ReplaceArithmeticOperator * -> -
+197	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:395 - ReplaceArithmeticOperator * -> /
+198	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:395 - InsertUnaryOp Negation of totalWeight
+199	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:395 - InsertUnaryOp IINC 1 totalWeight
+200	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:395 - InsertUnaryOp IINC -1 totalWeight
+201	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:395 - ReplaceArithmeticOperator / -> +
+202	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:395 - ReplaceArithmeticOperator / -> %
+203	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:395 - ReplaceArithmeticOperator / -> -
+204	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:395 - ReplaceArithmeticOperator / -> *
+205	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:396 - InsertUnaryOp Negation of i
+206	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:396 - InsertUnaryOp IINC 1 i
+207	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:396 - InsertUnaryOp IINC -1 i
+208	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:396 - InsertUnaryOp Negation of x
+209	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:396 - InsertUnaryOp Negation of y
+210	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:396 - InsertUnaryOp Negation of w
+211	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:398 - InsertUnaryOp Negation of x
+212	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:398 - InsertUnaryOp Negation of w
+213	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:398 - ReplaceArithmeticOperator + -> %
+214	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:398 - ReplaceArithmeticOperator + -> -
+215	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:398 - ReplaceArithmeticOperator + -> *
+216	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:398 - ReplaceArithmeticOperator + -> /
+217	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:398 - InsertUnaryOp Negation
+218	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:398 - ReplaceArithmeticOperator + -> %
+219	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:398 - ReplaceArithmeticOperator + -> -
+220	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:398 - ReplaceArithmeticOperator + -> *
+221	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:398 - ReplaceArithmeticOperator + -> /
+222	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:400 - ReplaceComparisonOperator != -> ==
+223	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:401 - InsertUnaryOp Negation of usableSize
+224	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:401 - ReplaceArithmeticOperator * -> +
+225	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:401 - ReplaceArithmeticOperator * -> %
+226	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:401 - ReplaceArithmeticOperator * -> -
+227	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:401 - ReplaceArithmeticOperator * -> /
+228	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:401 - InsertUnaryOp Negation of totalWeight
+229	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:401 - InsertUnaryOp IINC 1 totalWeight
+230	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:401 - InsertUnaryOp IINC -1 totalWeight
+231	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:401 - ReplaceArithmeticOperator / -> +
+232	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:401 - ReplaceArithmeticOperator / -> %
+233	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:401 - ReplaceArithmeticOperator / -> -
+234	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:401 - ReplaceArithmeticOperator / -> *
+235	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:402 - InsertUnaryOp Negation of i
+236	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:402 - InsertUnaryOp IINC 1 i
+237	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:402 - InsertUnaryOp IINC -1 i
+238	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:402 - InsertUnaryOp Negation of x
+239	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:402 - InsertUnaryOp Negation of y
+240	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:403 - InsertUnaryOp Negation of h
+241	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:404 - InsertUnaryOp Negation of y
+242	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:404 - InsertUnaryOp Negation of h
+243	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:404 - ReplaceArithmeticOperator + -> %
+244	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:404 - ReplaceArithmeticOperator + -> -
+245	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:404 - ReplaceArithmeticOperator + -> *
+246	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:404 - ReplaceArithmeticOperator + -> /
+247	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:404 - InsertUnaryOp Negation
+248	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:404 - ReplaceArithmeticOperator + -> %
+249	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:404 - ReplaceArithmeticOperator + -> -
+250	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:404 - ReplaceArithmeticOperator + -> *
+251	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:404 - ReplaceArithmeticOperator + -> /
+252	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:407 - InsertUnaryOp Negation of i
+253	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:407 - InsertUnaryOp IINC 1 i
+254	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:407 - InsertUnaryOp IINC -1 i
+255	ReplaceVariable	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:390 - ReplaceVariable i -> totalWeight
+256	ReplaceVariable	org.jfree.chart.plot.CombinedDomainCategoryPlot.calculateAxisSpace(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/chart/axis/AxisSpace;:390 - ReplaceVariable i -> n
+257	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:434 - ReplaceComparisonOperator = null -> != null
+258	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:440 - ReplaceArithmeticOperator + -> %
+259	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:440 - ReplaceArithmeticOperator + -> -
+260	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:440 - ReplaceArithmeticOperator + -> *
+261	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:440 - ReplaceArithmeticOperator + -> /
+262	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:441 - ReplaceArithmeticOperator + -> %
+263	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:441 - ReplaceArithmeticOperator + -> -
+264	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:441 - ReplaceArithmeticOperator + -> *
+265	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:441 - ReplaceArithmeticOperator + -> /
+266	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:442 - ReplaceArithmeticOperator - -> +
+267	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:442 - ReplaceArithmeticOperator - -> %
+268	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:442 - ReplaceArithmeticOperator - -> *
+269	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:442 - ReplaceArithmeticOperator - -> /
+270	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:442 - ReplaceArithmeticOperator - -> +
+271	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:442 - ReplaceArithmeticOperator - -> %
+272	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:442 - ReplaceArithmeticOperator - -> *
+273	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:442 - ReplaceArithmeticOperator - -> /
+274	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:443 - ReplaceArithmeticOperator - -> +
+275	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:443 - ReplaceArithmeticOperator - -> %
+276	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:443 - ReplaceArithmeticOperator - -> *
+277	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:443 - ReplaceArithmeticOperator - -> /
+278	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:443 - ReplaceArithmeticOperator - -> +
+279	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:443 - ReplaceArithmeticOperator - -> %
+280	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:443 - ReplaceArithmeticOperator - -> *
+281	ReplaceArithmeticOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:443 - ReplaceArithmeticOperator - -> /
+282	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:458 - InsertUnaryOp Negation of cursor
+283	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:460 - ReplaceComparisonOperator != null -> = null
+284	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:466 - ReplaceConstant - 0 -> 1
+285	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:466 - InsertUnaryOp Negation of i
+286	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:466 - InsertUnaryOp IINC 1 i
+287	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:466 - InsertUnaryOp IINC -1 i
+288	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:466 - ReplaceComparisonOperator >= -> -1
+289	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:466 - ReplaceComparisonOperator >= -> >
+290	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:466 - ReplaceComparisonOperator >= -> ==
+291	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:467 - InsertUnaryOp Negation of i
+292	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:467 - InsertUnaryOp IINC 1 i
+293	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:467 - InsertUnaryOp IINC -1 i
+294	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:469 - ReplaceComparisonOperator = null -> != null
+295	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:474 - ReplaceComparisonOperator = null -> != null
+296	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:474 - InsertUnaryOp Negation of i
+297	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:474 - InsertUnaryOp IINC 1 i
+298	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:474 - InsertUnaryOp IINC -1 i
+299	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:474 - ReplaceComparisonOperator == -> -2
+300	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:474 - ReplaceComparisonOperator == -> >=
+301	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:474 - ReplaceComparisonOperator == -> <=
+302	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:477 - InsertUnaryOp Negation of i
+303	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:477 - InsertUnaryOp IINC 1 i
+304	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:477 - InsertUnaryOp IINC -1 i
+305	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Point2D;Lorg/jfree/chart/plot/PlotState;Lorg/jfree/chart/plot/PlotRenderingInfo;)V:481 - ReplaceComparisonOperator = null -> != null
+306	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.setFixedRangeAxisSpaceForSubplots(Lorg/jfree/chart/axis/AxisSpace;)V:495 - ReplaceComparisonOperator == -> -2
+307	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.setFixedRangeAxisSpaceForSubplots(Lorg/jfree/chart/axis/AxisSpace;)V:495 - ReplaceComparisonOperator == -> >=
+308	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.setFixedRangeAxisSpaceForSubplots(Lorg/jfree/chart/axis/AxisSpace;)V:495 - ReplaceComparisonOperator == -> <=
+309	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.setFixedRangeAxisSpaceForSubplots(Lorg/jfree/chart/axis/AxisSpace;)V:497 - ReplaceConstant - 0 -> 1
+310	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.setOrientation(Lorg/jfree/chart/plot/PlotOrientation;)V:510 - ReplaceComparisonOperator == -> -2
+311	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.setOrientation(Lorg/jfree/chart/plot/PlotOrientation;)V:510 - ReplaceComparisonOperator == -> >=
+312	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.setOrientation(Lorg/jfree/chart/plot/PlotOrientation;)V:510 - ReplaceComparisonOperator == -> <=
+313	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.setShadowGenerator(Lorg/jfree/chart/util/ShadowGenerator;)V:525 - ReplaceConstant - 0 -> 1
+314	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.setShadowGenerator(Lorg/jfree/chart/util/ShadowGenerator;)V:528 - ReplaceComparisonOperator == -> -2
+315	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.setShadowGenerator(Lorg/jfree/chart/util/ShadowGenerator;)V:528 - ReplaceComparisonOperator == -> >=
+316	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.setShadowGenerator(Lorg/jfree/chart/util/ShadowGenerator;)V:528 - ReplaceComparisonOperator == -> <=
+317	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.setShadowGenerator(Lorg/jfree/chart/util/ShadowGenerator;)V:532 - ReplaceConstant - 1 -> 0
+318	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.getLegendItems()Lorg/jfree/chart/LegendItemCollection;:563 - ReplaceComparisonOperator != null -> = null
+319	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.getLegendItems()Lorg/jfree/chart/LegendItemCollection;:565 - ReplaceComparisonOperator = null -> != null
+320	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.getLegendItems()Lorg/jfree/chart/LegendItemCollection;:567 - ReplaceComparisonOperator == -> -2
+321	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.getLegendItems()Lorg/jfree/chart/LegendItemCollection;:567 - ReplaceComparisonOperator == -> >=
+322	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.getLegendItems()Lorg/jfree/chart/LegendItemCollection;:567 - ReplaceComparisonOperator == -> <=
+323	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.getCategories()Ljava/util/List;:586 - ReplaceComparisonOperator = null -> != null
+324	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.getCategories()Ljava/util/List;:588 - ReplaceComparisonOperator == -> -2
+325	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.getCategories()Ljava/util/List;:588 - ReplaceComparisonOperator == -> >=
+326	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.getCategories()Ljava/util/List;:588 - ReplaceComparisonOperator == -> <=
+327	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.getCategories()Ljava/util/List;:592 - ReplaceComparisonOperator == -> -2
+328	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.getCategories()Ljava/util/List;:592 - ReplaceComparisonOperator == -> >=
+329	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.getCategories()Ljava/util/List;:592 - ReplaceComparisonOperator == -> <=
+330	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.getCategories()Ljava/util/List;:594 - ReplaceComparisonOperator != -> -1
+331	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.getCategories()Ljava/util/List;:594 - ReplaceComparisonOperator != -> <
+332	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.getCategories()Ljava/util/List;:594 - ReplaceComparisonOperator != -> >
+333	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:631 - InsertUnaryOp Negation of x
+334	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:631 - InsertUnaryOp IINC 1 x
+335	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:631 - InsertUnaryOp IINC -1 x
+336	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:631 - InsertUnaryOp Negation of y
+337	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:631 - InsertUnaryOp IINC 1 y
+338	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:631 - InsertUnaryOp IINC -1 y
+339	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:631 - ReplaceComparisonOperator == -> -2
+340	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:631 - ReplaceComparisonOperator == -> >=
+341	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:631 - ReplaceComparisonOperator == -> <=
+342	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:632 - ReplaceConstant - 0 -> 1
+343	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:632 - InsertUnaryOp Negation of i
+344	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:632 - InsertUnaryOp IINC 1 i
+345	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:632 - InsertUnaryOp IINC -1 i
+346	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:632 - ReplaceComparisonOperator >= -> -1
+347	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:632 - ReplaceComparisonOperator >= -> >
+348	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:632 - ReplaceComparisonOperator >= -> ==
+349	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:633 - InsertUnaryOp Negation of i
+350	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:633 - InsertUnaryOp IINC 1 i
+351	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:633 - InsertUnaryOp IINC -1 i
+352	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:634 - InsertUnaryOp Negation of i
+353	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:634 - InsertUnaryOp IINC 1 i
+354	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:634 - InsertUnaryOp IINC -1 i
+355	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:635 - InsertUnaryOp Negation of x
+356	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:635 - InsertUnaryOp IINC 1 x
+357	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:635 - InsertUnaryOp IINC -1 x
+358	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:635 - InsertUnaryOp Negation of y
+359	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:635 - InsertUnaryOp IINC 1 y
+360	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:635 - InsertUnaryOp IINC -1 y
+361	ReplaceVariable	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:632 - ReplaceVariable i -> x
+362	ReplaceVariable	org.jfree.chart.plot.CombinedDomainCategoryPlot.handleClick(IILorg/jfree/chart/plot/PlotRenderingInfo;)V:632 - ReplaceVariable i -> y
+363	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.equals(Ljava/lang/Object;)Z:661 - ReplaceComparisonOperator != -> ==
+364	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.equals(Ljava/lang/Object;)Z:662 - ReplaceConstant - 1 -> 0
+365	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.equals(Ljava/lang/Object;)Z:664 - ReplaceComparisonOperator != -> -1
+366	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.equals(Ljava/lang/Object;)Z:664 - ReplaceComparisonOperator != -> <
+367	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.equals(Ljava/lang/Object;)Z:664 - ReplaceComparisonOperator != -> >
+368	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.equals(Ljava/lang/Object;)Z:665 - ReplaceConstant - 0 -> 1
+369	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.equals(Ljava/lang/Object;)Z:668 - InsertUnaryOp Negation
+370	InsertUnaryOp	org.jfree.chart.plot.CombinedDomainCategoryPlot.equals(Ljava/lang/Object;)Z:668 - InsertUnaryOp Negation
+371	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.equals(Ljava/lang/Object;)Z:668 - ReplaceComparisonOperator == -> -2
+372	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.equals(Ljava/lang/Object;)Z:668 - ReplaceComparisonOperator == -> >=
+373	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.equals(Ljava/lang/Object;)Z:668 - ReplaceComparisonOperator == -> <=
+374	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.equals(Ljava/lang/Object;)Z:669 - ReplaceConstant - 0 -> 1
+375	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.equals(Ljava/lang/Object;)Z:671 - ReplaceComparisonOperator != -> -1
+376	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.equals(Ljava/lang/Object;)Z:671 - ReplaceComparisonOperator != -> <
+377	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.equals(Ljava/lang/Object;)Z:671 - ReplaceComparisonOperator != -> >
+378	ReplaceConstant	org.jfree.chart.plot.CombinedDomainCategoryPlot.equals(Ljava/lang/Object;)Z:672 - ReplaceConstant - 0 -> 1
+379	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.clone()Ljava/lang/Object;:691 - ReplaceComparisonOperator == -> -2
+380	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.clone()Ljava/lang/Object;:691 - ReplaceComparisonOperator == -> >=
+381	ReplaceComparisonOperator	org.jfree.chart.plot.CombinedDomainCategoryPlot.clone()Ljava/lang/Object;:691 - ReplaceComparisonOperator == -> <=

@@ -1,0 +1,157 @@
+0	ReplaceConstant	org.jfree.chart.block.AbstractBlock.<init>()V:111 - ReplaceConstant - 0.0 -> 1.0
+1	ReplaceConstant	org.jfree.chart.block.AbstractBlock.<init>()V:111 - ReplaceConstant - 0.0 -> -1.0
+2	ReplaceConstant	org.jfree.chart.block.AbstractBlock.<init>()V:112 - ReplaceConstant - 0.0 -> 1.0
+3	ReplaceConstant	org.jfree.chart.block.AbstractBlock.<init>()V:112 - ReplaceConstant - 0.0 -> -1.0
+4	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.getWidth()D:151 - InsertUnaryOp Negation
+5	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.setWidth(D)V:162 - InsertUnaryOp Negation of width
+6	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.getHeight()D:175 - InsertUnaryOp Negation
+7	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.setHeight(D)V:186 - InsertUnaryOp Negation of height
+8	ReplaceConstant	org.jfree.chart.block.AbstractBlock.setMargin(Lorg/jfree/ui/RectangleInsets;)V:209 - ReplaceConstant - margin -> 
+9	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.setMargin(DDDD)V:225 - InsertUnaryOp Negation of top
+10	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.setMargin(DDDD)V:225 - InsertUnaryOp Negation of left
+11	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.setMargin(DDDD)V:225 - InsertUnaryOp Negation of bottom
+12	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.setMargin(DDDD)V:225 - InsertUnaryOp Negation of right
+13	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.getBorder()Lorg/jfree/chart/block/BlockBorder;:236 - ReplaceComparisonOperator == -> -2
+14	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.getBorder()Lorg/jfree/chart/block/BlockBorder;:236 - ReplaceComparisonOperator == -> >=
+15	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.getBorder()Lorg/jfree/chart/block/BlockBorder;:236 - ReplaceComparisonOperator == -> <=
+16	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.setBorder(DDDD)V:268 - InsertUnaryOp Negation of top
+17	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.setBorder(DDDD)V:268 - InsertUnaryOp Negation of left
+18	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.setBorder(DDDD)V:268 - InsertUnaryOp Negation of bottom
+19	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.setBorder(DDDD)V:268 - InsertUnaryOp Negation of right
+20	ReplaceConstant	org.jfree.chart.block.AbstractBlock.setFrame(Lorg/jfree/chart/block/BlockFrame;)V:292 - ReplaceConstant - frame -> 
+21	ReplaceConstant	org.jfree.chart.block.AbstractBlock.setPadding(Lorg/jfree/ui/RectangleInsets;)V:316 - ReplaceConstant - padding -> 
+22	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.setPadding(DDDD)V:330 - InsertUnaryOp Negation of top
+23	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.setPadding(DDDD)V:330 - InsertUnaryOp Negation of left
+24	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.setPadding(DDDD)V:330 - InsertUnaryOp Negation of bottom
+25	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.setPadding(DDDD)V:330 - InsertUnaryOp Negation of right
+26	ReplaceArithmeticOperator	org.jfree.chart.block.AbstractBlock.getContentXOffset()D:341 - ReplaceArithmeticOperator + -> %
+27	ReplaceArithmeticOperator	org.jfree.chart.block.AbstractBlock.getContentXOffset()D:341 - ReplaceArithmeticOperator + -> -
+28	ReplaceArithmeticOperator	org.jfree.chart.block.AbstractBlock.getContentXOffset()D:341 - ReplaceArithmeticOperator + -> *
+29	ReplaceArithmeticOperator	org.jfree.chart.block.AbstractBlock.getContentXOffset()D:341 - ReplaceArithmeticOperator + -> /
+30	ReplaceArithmeticOperator	org.jfree.chart.block.AbstractBlock.getContentXOffset()D:342 - ReplaceArithmeticOperator + -> %
+31	ReplaceArithmeticOperator	org.jfree.chart.block.AbstractBlock.getContentXOffset()D:342 - ReplaceArithmeticOperator + -> -
+32	ReplaceArithmeticOperator	org.jfree.chart.block.AbstractBlock.getContentXOffset()D:342 - ReplaceArithmeticOperator + -> *
+33	ReplaceArithmeticOperator	org.jfree.chart.block.AbstractBlock.getContentXOffset()D:342 - ReplaceArithmeticOperator + -> /
+34	ReplaceArithmeticOperator	org.jfree.chart.block.AbstractBlock.getContentYOffset()D:353 - ReplaceArithmeticOperator + -> %
+35	ReplaceArithmeticOperator	org.jfree.chart.block.AbstractBlock.getContentYOffset()D:353 - ReplaceArithmeticOperator + -> -
+36	ReplaceArithmeticOperator	org.jfree.chart.block.AbstractBlock.getContentYOffset()D:353 - ReplaceArithmeticOperator + -> *
+37	ReplaceArithmeticOperator	org.jfree.chart.block.AbstractBlock.getContentYOffset()D:353 - ReplaceArithmeticOperator + -> /
+38	ReplaceArithmeticOperator	org.jfree.chart.block.AbstractBlock.getContentYOffset()D:354 - ReplaceArithmeticOperator + -> %
+39	ReplaceArithmeticOperator	org.jfree.chart.block.AbstractBlock.getContentYOffset()D:354 - ReplaceArithmeticOperator + -> -
+40	ReplaceArithmeticOperator	org.jfree.chart.block.AbstractBlock.getContentYOffset()D:354 - ReplaceArithmeticOperator + -> *
+41	ReplaceArithmeticOperator	org.jfree.chart.block.AbstractBlock.getContentYOffset()D:354 - ReplaceArithmeticOperator + -> /
+42	ReplaceConstant	org.jfree.chart.block.AbstractBlock.setBounds(Ljava/awt/geom/Rectangle2D;)V:402 - ReplaceConstant - bounds -> 
+43	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.trimToContentWidth(D)D:418 - InsertUnaryOp Negation of fixedWidth
+44	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.trimToContentWidth(D)D:419 - InsertUnaryOp Negation of result
+45	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.trimToContentWidth(D)D:420 - InsertUnaryOp Negation of result
+46	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.trimToContentWidth(D)D:421 - InsertUnaryOp Negation of result
+47	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentWidth(D)D:421 - ReplaceConstant - 0.0 -> 1.0
+48	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentWidth(D)D:421 - ReplaceConstant - 0.0 -> -1.0
+49	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.trimToContentHeight(D)D:436 - InsertUnaryOp Negation of fixedHeight
+50	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.trimToContentHeight(D)D:437 - InsertUnaryOp Negation of result
+51	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.trimToContentHeight(D)D:438 - InsertUnaryOp Negation of result
+52	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.trimToContentHeight(D)D:439 - InsertUnaryOp Negation of result
+53	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentHeight(D)D:439 - ReplaceConstant - 0.0 -> 1.0
+54	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentHeight(D)D:439 - ReplaceConstant - 0.0 -> -1.0
+55	ReplaceConstant	org.jfree.chart.block.AbstractBlock.toContentConstraint(Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/block/RectangleConstraint;:451 - ReplaceConstant - c -> 
+56	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.toContentConstraint(Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/block/RectangleConstraint;:452 - ReplaceComparisonOperator == -> -2
+57	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.toContentConstraint(Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/block/RectangleConstraint;:452 - ReplaceComparisonOperator == -> >=
+58	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.toContentConstraint(Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/block/RectangleConstraint;:452 - ReplaceComparisonOperator == -> <=
+59	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.toContentConstraint(Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/block/RectangleConstraint;:459 - InsertUnaryOp Negation of w
+60	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.toContentConstraint(Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/block/RectangleConstraint;:460 - InsertUnaryOp Negation of h
+61	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.toContentConstraint(Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/block/RectangleConstraint;:463 - InsertUnaryOp Negation of ww
+62	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.toContentConstraint(Lorg/jfree/chart/block/RectangleConstraint;)Lorg/jfree/chart/block/RectangleConstraint;:463 - InsertUnaryOp Negation of hh
+63	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:468 - ReplaceComparisonOperator != null -> = null
+64	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:471 - ReplaceConstant - 0.0 -> 1.0
+65	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:471 - ReplaceConstant - 0.0 -> -1.0
+66	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:472 - ReplaceConstant - Infinity -> 0.0
+67	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:472 - ReplaceConstant - Infinity -> 1.0
+68	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:472 - ReplaceConstant - Infinity -> -1.0
+69	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:472 - ReplaceConstant - Infinity -> Infinity
+70	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:473 - ReplaceConstant - 0.0 -> 1.0
+71	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:473 - ReplaceConstant - 0.0 -> -1.0
+72	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:473 - ReplaceComparisonOperator <= -> -1
+73	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:473 - ReplaceComparisonOperator <= -> ==
+74	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:473 - ReplaceComparisonOperator <= -> <
+75	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:476 - ReplaceConstant - Infinity -> 0.0
+76	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:476 - ReplaceConstant - Infinity -> 1.0
+77	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:476 - ReplaceConstant - Infinity -> -1.0
+78	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:476 - ReplaceConstant - Infinity -> Infinity
+79	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:476 - ReplaceComparisonOperator >= -> -1
+80	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:476 - ReplaceComparisonOperator >= -> ==
+81	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:476 - ReplaceComparisonOperator >= -> >
+82	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:479 - InsertUnaryOp Negation of lowerBound
+83	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.trimToContentWidth(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:479 - InsertUnaryOp Negation of upperBound
+84	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:483 - ReplaceComparisonOperator != null -> = null
+85	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:486 - ReplaceConstant - 0.0 -> 1.0
+86	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:486 - ReplaceConstant - 0.0 -> -1.0
+87	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:487 - ReplaceConstant - Infinity -> 0.0
+88	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:487 - ReplaceConstant - Infinity -> 1.0
+89	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:487 - ReplaceConstant - Infinity -> -1.0
+90	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:487 - ReplaceConstant - Infinity -> Infinity
+91	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:488 - ReplaceConstant - 0.0 -> 1.0
+92	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:488 - ReplaceConstant - 0.0 -> -1.0
+93	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:488 - ReplaceComparisonOperator <= -> -1
+94	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:488 - ReplaceComparisonOperator <= -> ==
+95	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:488 - ReplaceComparisonOperator <= -> <
+96	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:491 - ReplaceConstant - Infinity -> 0.0
+97	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:491 - ReplaceConstant - Infinity -> 1.0
+98	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:491 - ReplaceConstant - Infinity -> -1.0
+99	ReplaceConstant	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:491 - ReplaceConstant - Infinity -> Infinity
+100	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:491 - ReplaceComparisonOperator >= -> -1
+101	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:491 - ReplaceComparisonOperator >= -> ==
+102	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:491 - ReplaceComparisonOperator >= -> >
+103	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:494 - InsertUnaryOp Negation of lowerBound
+104	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.trimToContentHeight(Lorg/jfree/data/Range;)Lorg/jfree/data/Range;:494 - InsertUnaryOp Negation of upperBound
+105	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.calculateTotalWidth(D)D:505 - InsertUnaryOp Negation of contentWidth
+106	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.calculateTotalWidth(D)D:506 - InsertUnaryOp Negation of result
+107	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.calculateTotalWidth(D)D:507 - InsertUnaryOp Negation of result
+108	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.calculateTotalWidth(D)D:508 - InsertUnaryOp Negation of result
+109	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.calculateTotalWidth(D)D:509 - InsertUnaryOp Negation of result
+110	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.calculateTotalHeight(D)D:520 - InsertUnaryOp Negation of contentHeight
+111	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.calculateTotalHeight(D)D:521 - InsertUnaryOp Negation of result
+112	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.calculateTotalHeight(D)D:522 - InsertUnaryOp Negation of result
+113	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.calculateTotalHeight(D)D:523 - InsertUnaryOp Negation of result
+114	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.calculateTotalHeight(D)D:524 - InsertUnaryOp Negation of result
+115	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:588 - ReplaceComparisonOperator != -> ==
+116	ReplaceConstant	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:589 - ReplaceConstant - 1 -> 0
+117	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:591 - ReplaceComparisonOperator != -> -1
+118	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:591 - ReplaceComparisonOperator != -> <
+119	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:591 - ReplaceComparisonOperator != -> >
+120	ReplaceConstant	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:592 - ReplaceConstant - 0 -> 1
+121	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:595 - ReplaceComparisonOperator != -> -1
+122	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:595 - ReplaceComparisonOperator != -> <
+123	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:595 - ReplaceComparisonOperator != -> >
+124	ReplaceConstant	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:596 - ReplaceConstant - 0 -> 1
+125	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:598 - ReplaceComparisonOperator != -> -1
+126	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:598 - ReplaceComparisonOperator != -> <
+127	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:598 - ReplaceComparisonOperator != -> >
+128	ReplaceConstant	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:599 - ReplaceConstant - 0 -> 1
+129	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:601 - ReplaceComparisonOperator != -> -1
+130	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:601 - ReplaceComparisonOperator != -> <
+131	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:601 - ReplaceComparisonOperator != -> >
+132	ReplaceConstant	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:602 - ReplaceConstant - 0 -> 1
+133	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:604 - ReplaceComparisonOperator != -> -1
+134	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:604 - ReplaceComparisonOperator != -> <
+135	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:604 - ReplaceComparisonOperator != -> >
+136	ReplaceConstant	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:605 - ReplaceConstant - 0 -> 1
+137	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:607 - ReplaceComparisonOperator != -> -1
+138	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:607 - ReplaceComparisonOperator != -> <
+139	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:607 - ReplaceComparisonOperator != -> >
+140	ReplaceConstant	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:608 - ReplaceConstant - 0 -> 1
+141	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:610 - InsertUnaryOp Negation
+142	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:610 - InsertUnaryOp Negation
+143	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:610 - ReplaceComparisonOperator == -> -2
+144	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:610 - ReplaceComparisonOperator == -> >=
+145	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:610 - ReplaceComparisonOperator == -> <=
+146	ReplaceConstant	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:611 - ReplaceConstant - 0 -> 1
+147	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:613 - InsertUnaryOp Negation
+148	InsertUnaryOp	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:613 - InsertUnaryOp Negation
+149	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:613 - ReplaceComparisonOperator == -> -2
+150	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:613 - ReplaceComparisonOperator == -> >=
+151	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:613 - ReplaceComparisonOperator == -> <=
+152	ReplaceConstant	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:614 - ReplaceConstant - 0 -> 1
+153	ReplaceConstant	org.jfree.chart.block.AbstractBlock.equals(Ljava/lang/Object;)Z:616 - ReplaceConstant - 1 -> 0
+154	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.clone()Ljava/lang/Object;:631 - ReplaceComparisonOperator == -> -2
+155	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.clone()Ljava/lang/Object;:631 - ReplaceComparisonOperator == -> >=
+156	ReplaceComparisonOperator	org.jfree.chart.block.AbstractBlock.clone()Ljava/lang/Object;:631 - ReplaceComparisonOperator == -> <=

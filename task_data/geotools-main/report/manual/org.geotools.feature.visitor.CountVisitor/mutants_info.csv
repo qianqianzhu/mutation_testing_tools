@@ -1,0 +1,13 @@
+0	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor.visit(Lorg/opengis/feature/Feature;)V:45 - ReplaceComparisonOperator != null -> = null
+1	ReplaceConstant	org.geotools.feature.visitor.CountVisitor.visit(Lorg/opengis/feature/Feature;)V:46 - ReplaceConstant - 0 -> 1
+2	ReplaceConstant	org.geotools.feature.visitor.CountVisitor.visit(Lorg/opengis/feature/Feature;)V:48 - ReplaceConstant - 1 -> 0
+3	ReplaceArithmeticOperator	org.geotools.feature.visitor.CountVisitor.visit(Lorg/opengis/feature/Feature;)V:48 - ReplaceArithmeticOperator + -> %
+4	ReplaceArithmeticOperator	org.geotools.feature.visitor.CountVisitor.visit(Lorg/opengis/feature/Feature;)V:48 - ReplaceArithmeticOperator + -> -
+5	ReplaceArithmeticOperator	org.geotools.feature.visitor.CountVisitor.visit(Lorg/opengis/feature/Feature;)V:48 - ReplaceArithmeticOperator + -> *
+6	ReplaceArithmeticOperator	org.geotools.feature.visitor.CountVisitor.visit(Lorg/opengis/feature/Feature;)V:48 - ReplaceArithmeticOperator + -> /
+7	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor.getCount()I:52 - ReplaceComparisonOperator != null -> = null
+8	ReplaceConstant	org.geotools.feature.visitor.CountVisitor.getCount()I:53 - ReplaceConstant - 0 -> 1
+9	InsertUnaryOp	org.geotools.feature.visitor.CountVisitor.setValue(I)V:59 - InsertUnaryOp Negation of count
+10	InsertUnaryOp	org.geotools.feature.visitor.CountVisitor.setValue(I)V:59 - InsertUnaryOp IINC 1 count
+11	InsertUnaryOp	org.geotools.feature.visitor.CountVisitor.setValue(I)V:59 - InsertUnaryOp IINC -1 count
+12	ReplaceComparisonOperator	org.geotools.feature.visitor.CountVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:67 - ReplaceComparisonOperator != null -> = null

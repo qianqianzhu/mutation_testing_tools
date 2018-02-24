@@ -1,0 +1,52 @@
+0	ReplaceConstant	org.assertj.core.api.filter.Filters.filter(Ljava/lang/Iterable;)Lorg/assertj/core/api/filter/Filters;:100 - ReplaceConstant - The iterable to filter should not be null -> 
+1	ReplaceConstant	org.assertj.core.api.filter.Filters.filter([Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:133 - ReplaceConstant - The array to filter should not be null -> 
+2	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.being(Lorg/assertj/core/api/Condition;)Lorg/assertj/core/api/filter/Filters;:166 - ReplaceComparisonOperator != null -> = null
+3	ReplaceConstant	org.assertj.core.api.filter.Filters.being(Lorg/assertj/core/api/Condition;)Lorg/assertj/core/api/filter/Filters;:166 - ReplaceConstant - The filter condition should not be null -> 
+4	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.having(Lorg/assertj/core/api/Condition;)Lorg/assertj/core/api/filter/Filters;:190 - ReplaceComparisonOperator != null -> = null
+5	ReplaceConstant	org.assertj.core.api.filter.Filters.having(Lorg/assertj/core/api/Condition;)Lorg/assertj/core/api/filter/Filters;:190 - ReplaceConstant - The filter condition should not be null -> 
+6	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.applyFilterCondition(Lorg/assertj/core/api/Condition;)Lorg/assertj/core/api/filter/Filters;:196 - ReplaceComparisonOperator == -> -2
+7	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.applyFilterCondition(Lorg/assertj/core/api/Condition;)Lorg/assertj/core/api/filter/Filters;:196 - ReplaceComparisonOperator == -> >=
+8	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.applyFilterCondition(Lorg/assertj/core/api/Condition;)Lorg/assertj/core/api/filter/Filters;:196 - ReplaceComparisonOperator == -> <=
+9	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.applyFilterCondition(Lorg/assertj/core/api/Condition;)Lorg/assertj/core/api/filter/Filters;:197 - ReplaceComparisonOperator == -> -2
+10	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.applyFilterCondition(Lorg/assertj/core/api/Condition;)Lorg/assertj/core/api/filter/Filters;:197 - ReplaceComparisonOperator == -> >=
+11	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.applyFilterCondition(Lorg/assertj/core/api/Condition;)Lorg/assertj/core/api/filter/Filters;:197 - ReplaceComparisonOperator == -> <=
+12	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.validatePropertyOrFieldName(Ljava/lang/String;)V:246 - ReplaceComparisonOperator = null -> != null
+13	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.validatePropertyOrFieldName(Ljava/lang/String;)V:246 - ReplaceComparisonOperator == -> -2
+14	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.validatePropertyOrFieldName(Ljava/lang/String;)V:246 - ReplaceComparisonOperator == -> >=
+15	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.validatePropertyOrFieldName(Ljava/lang/String;)V:246 - ReplaceComparisonOperator == -> <=
+16	ReplaceConstant	org.assertj.core.api.filter.Filters.validatePropertyOrFieldName(Ljava/lang/String;)V:247 - ReplaceConstant - The property/field name to filter on should not be null or empty -> 
+17	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.equalsTo(Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:277 - ReplaceComparisonOperator == -> -2
+18	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.equalsTo(Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:277 - ReplaceComparisonOperator == -> >=
+19	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.equalsTo(Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:277 - ReplaceComparisonOperator == -> <=
+20	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.equalsTo(Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:279 - ReplaceComparisonOperator == -> -2
+21	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.equalsTo(Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:279 - ReplaceComparisonOperator == -> >=
+22	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.equalsTo(Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:279 - ReplaceComparisonOperator == -> <=
+23	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.notEqualsTo(Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:300 - ReplaceComparisonOperator == -> -2
+24	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.notEqualsTo(Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:300 - ReplaceComparisonOperator == -> >=
+25	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.notEqualsTo(Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:300 - ReplaceComparisonOperator == -> <=
+26	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.notEqualsTo(Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:302 - ReplaceComparisonOperator != -> -1
+27	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.notEqualsTo(Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:302 - ReplaceComparisonOperator != -> <
+28	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.notEqualsTo(Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:302 - ReplaceComparisonOperator != -> >
+29	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.checkPropertyNameToFilterOnIsNotNull()V:309 - ReplaceComparisonOperator != null -> = null
+30	ReplaceConstant	org.assertj.core.api.filter.Filters.checkPropertyNameToFilterOnIsNotNull()V:310 - ReplaceConstant - The property name to filter on has not been set - no filtering is possible -> 
+31	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.in([Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:328 - ReplaceComparisonOperator == -> -2
+32	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.in([Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:328 - ReplaceComparisonOperator == -> >=
+33	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.in([Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:328 - ReplaceComparisonOperator == -> <=
+34	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.in([Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:330 - ReplaceComparisonOperator == -> -2
+35	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.in([Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:330 - ReplaceComparisonOperator == -> >=
+36	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.in([Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:330 - ReplaceComparisonOperator == -> <=
+37	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.notIn([Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:351 - ReplaceComparisonOperator == -> -2
+38	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.notIn([Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:351 - ReplaceComparisonOperator == -> >=
+39	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.notIn([Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:351 - ReplaceComparisonOperator == -> <=
+40	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.notIn([Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:353 - ReplaceComparisonOperator != -> -1
+41	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.notIn([Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:353 - ReplaceComparisonOperator != -> <
+42	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.notIn([Ljava/lang/Object;)Lorg/assertj/core/api/filter/Filters;:353 - ReplaceComparisonOperator != -> >
+43	ReplaceConstant	org.assertj.core.api.filter.Filters.isItemInArray(Ljava/lang/Object;[Ljava/lang/Object;)Z:367 - ReplaceConstant - 0 -> 1
+44	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.isItemInArray(Ljava/lang/Object;[Ljava/lang/Object;)Z:367 - ReplaceComparisonOperator >= -> -1
+45	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.isItemInArray(Ljava/lang/Object;[Ljava/lang/Object;)Z:367 - ReplaceComparisonOperator >= -> >
+46	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.isItemInArray(Ljava/lang/Object;[Ljava/lang/Object;)Z:367 - ReplaceComparisonOperator >= -> ==
+47	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.isItemInArray(Ljava/lang/Object;[Ljava/lang/Object;)Z:368 - ReplaceComparisonOperator == -> -2
+48	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.isItemInArray(Ljava/lang/Object;[Ljava/lang/Object;)Z:368 - ReplaceComparisonOperator == -> >=
+49	ReplaceComparisonOperator	org.assertj.core.api.filter.Filters.isItemInArray(Ljava/lang/Object;[Ljava/lang/Object;)Z:368 - ReplaceComparisonOperator == -> <=
+50	ReplaceConstant	org.assertj.core.api.filter.Filters.isItemInArray(Ljava/lang/Object;[Ljava/lang/Object;)Z:368 - ReplaceConstant - 1 -> 0
+51	ReplaceConstant	org.assertj.core.api.filter.Filters.isItemInArray(Ljava/lang/Object;[Ljava/lang/Object;)Z:369 - ReplaceConstant - 0 -> 1

@@ -1,0 +1,8 @@
+0	ReplaceComparisonOperator	org.assertj.core.api.IterableAssert$LazyIterable.iterator()Ljava/util/Iterator;:196 - ReplaceComparisonOperator != null -> = null
+1	ReplaceConstant	org.assertj.core.api.IterableAssert$LazyIterable.size()I:204 - ReplaceConstant - 0 -> 1
+2	ReplaceComparisonOperator	org.assertj.core.api.IterableAssert$LazyIterable.size()I:206 - ReplaceComparisonOperator == -> -2
+3	ReplaceComparisonOperator	org.assertj.core.api.IterableAssert$LazyIterable.size()I:206 - ReplaceComparisonOperator == -> >=
+4	ReplaceComparisonOperator	org.assertj.core.api.IterableAssert$LazyIterable.size()I:206 - ReplaceComparisonOperator == -> <=
+5	InsertUnaryOp	org.assertj.core.api.IterableAssert$LazyIterable.size()I:210 - InsertUnaryOp Negation of size
+6	InsertUnaryOp	org.assertj.core.api.IterableAssert$LazyIterable.size()I:210 - InsertUnaryOp IINC 1 size
+7	InsertUnaryOp	org.assertj.core.api.IterableAssert$LazyIterable.size()I:210 - InsertUnaryOp IINC -1 size

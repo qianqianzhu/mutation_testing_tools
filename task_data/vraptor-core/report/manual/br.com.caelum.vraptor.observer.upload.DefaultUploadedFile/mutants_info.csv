@@ -1,0 +1,13 @@
+0|InsertUnaryOp|br.com.caelum.vraptor.observer.upload.DefaultUploadedFile.<init>(Ljava/io/InputStream;Ljava/lang/String;Ljava/lang/String;J)V:49 - InsertUnaryOp Negation of size
+1|InsertUnaryOp|br.com.caelum.vraptor.observer.upload.DefaultUploadedFile.getSize()J:69 - InsertUnaryOp Negation
+2|ReplaceConstant|br.com.caelum.vraptor.observer.upload.DefaultUploadedFile.writeTo(Ljava/io/File;)V:74 - ReplaceConstant - Target can't be null -> 
+3|ReplaceConstant|br.com.caelum.vraptor.observer.upload.DefaultUploadedFile.writeTo(Ljava/io/File;)V:75 - ReplaceConstant - 0 -> 1
+4|ReplaceConstant|br.com.caelum.vraptor.observer.upload.DefaultUploadedFile.writeTo(Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)V:80 - ReplaceConstant - Target can't be null -> 
+5|ReplaceComparisonOperator|br.com.caelum.vraptor.observer.upload.DefaultUploadedFile.writeTo(Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)V:83 - ReplaceComparisonOperator = null -> != null
+6|ReplaceComparisonOperator|br.com.caelum.vraptor.observer.upload.DefaultUploadedFile.writeTo(Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)V:83 - ReplaceComparisonOperator = null -> != null
+7|ReplaceComparisonOperator|br.com.caelum.vraptor.observer.upload.DefaultUploadedFile.writeTo(Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)V:83 - ReplaceComparisonOperator != null -> = null
+8|ReplaceComparisonOperator|br.com.caelum.vraptor.observer.upload.DefaultUploadedFile.writeTo(Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)V:83 - ReplaceComparisonOperator == -> !=
+9|ReplaceConstant|br.com.caelum.vraptor.observer.upload.DefaultUploadedFile.writeTo(Ljava/io/OutputStream;)V:88 - ReplaceConstant - Target can't be null -> 
+10|ReplaceConstant|br.com.caelum.vraptor.observer.upload.DefaultUploadedFile.toString()Ljava/lang/String;:94 - ReplaceConstant - UploadedFile[name=%s] -> 
+11|ReplaceConstant|br.com.caelum.vraptor.observer.upload.DefaultUploadedFile.toString()Ljava/lang/String;:94 - ReplaceConstant - 1 -> 0
+12|ReplaceConstant|br.com.caelum.vraptor.observer.upload.DefaultUploadedFile.toString()Ljava/lang/String;:94 - ReplaceConstant - 0 -> 1

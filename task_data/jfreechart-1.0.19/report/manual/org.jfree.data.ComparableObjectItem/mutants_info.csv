@@ -1,0 +1,44 @@
+0	ReplaceConstant	org.jfree.data.ComparableObjectItem.<init>(Ljava/lang/Comparable;Ljava/lang/Object;)V:74 - ReplaceConstant - x -> 
+1	ReplaceComparisonOperator	org.jfree.data.ComparableObjectItem.compareTo(Ljava/lang/Object;)I:126 - ReplaceComparisonOperator == -> -2
+2	ReplaceComparisonOperator	org.jfree.data.ComparableObjectItem.compareTo(Ljava/lang/Object;)I:126 - ReplaceComparisonOperator == -> >=
+3	ReplaceComparisonOperator	org.jfree.data.ComparableObjectItem.compareTo(Ljava/lang/Object;)I:126 - ReplaceComparisonOperator == -> <=
+4	ReplaceConstant	org.jfree.data.ComparableObjectItem.compareTo(Ljava/lang/Object;)I:135 - ReplaceConstant - 1 -> 0
+5	InsertUnaryOp	org.jfree.data.ComparableObjectItem.compareTo(Ljava/lang/Object;)I:138 - InsertUnaryOp Negation of result
+6	InsertUnaryOp	org.jfree.data.ComparableObjectItem.compareTo(Ljava/lang/Object;)I:138 - InsertUnaryOp IINC 1 result
+7	InsertUnaryOp	org.jfree.data.ComparableObjectItem.compareTo(Ljava/lang/Object;)I:138 - InsertUnaryOp IINC -1 result
+8	ReplaceComparisonOperator	org.jfree.data.ComparableObjectItem.equals(Ljava/lang/Object;)Z:165 - ReplaceComparisonOperator != -> ==
+9	ReplaceConstant	org.jfree.data.ComparableObjectItem.equals(Ljava/lang/Object;)Z:166 - ReplaceConstant - 1 -> 0
+10	ReplaceComparisonOperator	org.jfree.data.ComparableObjectItem.equals(Ljava/lang/Object;)Z:168 - ReplaceComparisonOperator != -> -1
+11	ReplaceComparisonOperator	org.jfree.data.ComparableObjectItem.equals(Ljava/lang/Object;)Z:168 - ReplaceComparisonOperator != -> <
+12	ReplaceComparisonOperator	org.jfree.data.ComparableObjectItem.equals(Ljava/lang/Object;)Z:168 - ReplaceComparisonOperator != -> >
+13	ReplaceConstant	org.jfree.data.ComparableObjectItem.equals(Ljava/lang/Object;)Z:169 - ReplaceConstant - 0 -> 1
+14	ReplaceComparisonOperator	org.jfree.data.ComparableObjectItem.equals(Ljava/lang/Object;)Z:172 - ReplaceComparisonOperator != -> -1
+15	ReplaceComparisonOperator	org.jfree.data.ComparableObjectItem.equals(Ljava/lang/Object;)Z:172 - ReplaceComparisonOperator != -> <
+16	ReplaceComparisonOperator	org.jfree.data.ComparableObjectItem.equals(Ljava/lang/Object;)Z:172 - ReplaceComparisonOperator != -> >
+17	ReplaceConstant	org.jfree.data.ComparableObjectItem.equals(Ljava/lang/Object;)Z:173 - ReplaceConstant - 0 -> 1
+18	ReplaceComparisonOperator	org.jfree.data.ComparableObjectItem.equals(Ljava/lang/Object;)Z:175 - ReplaceComparisonOperator != -> -1
+19	ReplaceComparisonOperator	org.jfree.data.ComparableObjectItem.equals(Ljava/lang/Object;)Z:175 - ReplaceComparisonOperator != -> <
+20	ReplaceComparisonOperator	org.jfree.data.ComparableObjectItem.equals(Ljava/lang/Object;)Z:175 - ReplaceComparisonOperator != -> >
+21	ReplaceConstant	org.jfree.data.ComparableObjectItem.equals(Ljava/lang/Object;)Z:176 - ReplaceConstant - 0 -> 1
+22	ReplaceConstant	org.jfree.data.ComparableObjectItem.equals(Ljava/lang/Object;)Z:178 - ReplaceConstant - 1 -> 0
+23	ReplaceConstant	org.jfree.data.ComparableObjectItem.hashCode()I:190 - ReplaceConstant - 29 -> 0
+24	ReplaceConstant	org.jfree.data.ComparableObjectItem.hashCode()I:190 - ReplaceConstant - 29 -> 1
+25	ReplaceConstant	org.jfree.data.ComparableObjectItem.hashCode()I:190 - ReplaceConstant - 29 -> -1
+26	ReplaceConstant	org.jfree.data.ComparableObjectItem.hashCode()I:190 - ReplaceConstant - 29 -> 28
+27	ReplaceConstant	org.jfree.data.ComparableObjectItem.hashCode()I:190 - ReplaceConstant - 29 -> 30
+28	InsertUnaryOp	org.jfree.data.ComparableObjectItem.hashCode()I:190 - InsertUnaryOp Negation of result
+29	InsertUnaryOp	org.jfree.data.ComparableObjectItem.hashCode()I:190 - InsertUnaryOp IINC 1 result
+30	InsertUnaryOp	org.jfree.data.ComparableObjectItem.hashCode()I:190 - InsertUnaryOp IINC -1 result
+31	ReplaceArithmeticOperator	org.jfree.data.ComparableObjectItem.hashCode()I:190 - ReplaceArithmeticOperator * -> +
+32	ReplaceArithmeticOperator	org.jfree.data.ComparableObjectItem.hashCode()I:190 - ReplaceArithmeticOperator * -> %
+33	ReplaceArithmeticOperator	org.jfree.data.ComparableObjectItem.hashCode()I:190 - ReplaceArithmeticOperator * -> -
+34	ReplaceArithmeticOperator	org.jfree.data.ComparableObjectItem.hashCode()I:190 - ReplaceArithmeticOperator * -> /
+35	ReplaceComparisonOperator	org.jfree.data.ComparableObjectItem.hashCode()I:190 - ReplaceComparisonOperator = null -> != null
+36	ReplaceConstant	org.jfree.data.ComparableObjectItem.hashCode()I:190 - ReplaceConstant - 0 -> 1
+37	ReplaceArithmeticOperator	org.jfree.data.ComparableObjectItem.hashCode()I:190 - ReplaceArithmeticOperator + -> %
+38	ReplaceArithmeticOperator	org.jfree.data.ComparableObjectItem.hashCode()I:190 - ReplaceArithmeticOperator + -> -
+39	ReplaceArithmeticOperator	org.jfree.data.ComparableObjectItem.hashCode()I:190 - ReplaceArithmeticOperator + -> *
+40	ReplaceArithmeticOperator	org.jfree.data.ComparableObjectItem.hashCode()I:190 - ReplaceArithmeticOperator + -> /
+41	InsertUnaryOp	org.jfree.data.ComparableObjectItem.hashCode()I:191 - InsertUnaryOp Negation of result
+42	InsertUnaryOp	org.jfree.data.ComparableObjectItem.hashCode()I:191 - InsertUnaryOp IINC 1 result
+43	InsertUnaryOp	org.jfree.data.ComparableObjectItem.hashCode()I:191 - InsertUnaryOp IINC -1 result

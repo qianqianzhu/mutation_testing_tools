@@ -1,0 +1,10 @@
+0	ReplaceConstant	org.apache.commons.lang3.time.FastDateParser$ISO8601TimeZoneStrategy.setCalendar(Lorg/apache/commons/lang3/time/FastDateParser;Ljava/util/Calendar;Ljava/lang/String;)V:921 - ReplaceConstant - Z -> 
+1	ReplaceComparisonOperator	org.apache.commons.lang3.time.FastDateParser$ISO8601TimeZoneStrategy.setCalendar(Lorg/apache/commons/lang3/time/FastDateParser;Ljava/util/Calendar;Ljava/lang/String;)V:921 - ReplaceComparisonOperator == -> -2
+2	ReplaceComparisonOperator	org.apache.commons.lang3.time.FastDateParser$ISO8601TimeZoneStrategy.setCalendar(Lorg/apache/commons/lang3/time/FastDateParser;Ljava/util/Calendar;Ljava/lang/String;)V:921 - ReplaceComparisonOperator == -> >=
+3	ReplaceComparisonOperator	org.apache.commons.lang3.time.FastDateParser$ISO8601TimeZoneStrategy.setCalendar(Lorg/apache/commons/lang3/time/FastDateParser;Ljava/util/Calendar;Ljava/lang/String;)V:921 - ReplaceComparisonOperator == -> <=
+4	ReplaceConstant	org.apache.commons.lang3.time.FastDateParser$ISO8601TimeZoneStrategy.setCalendar(Lorg/apache/commons/lang3/time/FastDateParser;Ljava/util/Calendar;Ljava/lang/String;)V:922 - ReplaceConstant - UTC -> 
+5	ReplaceConstant	org.apache.commons.lang3.time.FastDateParser$ISO8601TimeZoneStrategy.setCalendar(Lorg/apache/commons/lang3/time/FastDateParser;Ljava/util/Calendar;Ljava/lang/String;)V:924 - ReplaceConstant - GMT -> 
+6	InsertUnaryOp	org.apache.commons.lang3.time.FastDateParser$ISO8601TimeZoneStrategy.getStrategy(I)Lorg/apache/commons/lang3/time/FastDateParser$Strategy;:940 - InsertUnaryOp Negation of tokenLen
+7	InsertUnaryOp	org.apache.commons.lang3.time.FastDateParser$ISO8601TimeZoneStrategy.getStrategy(I)Lorg/apache/commons/lang3/time/FastDateParser$Strategy;:940 - InsertUnaryOp IINC 1 tokenLen
+8	InsertUnaryOp	org.apache.commons.lang3.time.FastDateParser$ISO8601TimeZoneStrategy.getStrategy(I)Lorg/apache/commons/lang3/time/FastDateParser$Strategy;:940 - InsertUnaryOp IINC -1 tokenLen
+9	ReplaceConstant	org.apache.commons.lang3.time.FastDateParser$ISO8601TimeZoneStrategy.getStrategy(I)Lorg/apache/commons/lang3/time/FastDateParser$Strategy;:948 - ReplaceConstant - invalid number of X -> 

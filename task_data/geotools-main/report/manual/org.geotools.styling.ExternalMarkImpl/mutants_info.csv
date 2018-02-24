@@ -1,0 +1,16 @@
+0	ReplaceConstant	org.geotools.styling.ExternalMarkImpl.<init>(Ljavax/swing/Icon;)V:46 - ReplaceConstant - -1 -> 0
+1	ReplaceConstant	org.geotools.styling.ExternalMarkImpl.<init>(Ljavax/swing/Icon;)V:46 - ReplaceConstant - -1 -> 1
+2	ReplaceConstant	org.geotools.styling.ExternalMarkImpl.<init>(Ljavax/swing/Icon;)V:46 - ReplaceConstant - -1 -> -2
+3	InsertUnaryOp	org.geotools.styling.ExternalMarkImpl.<init>(Lorg/opengis/metadata/citation/OnLineResource;Ljava/lang/String;I)V:53 - InsertUnaryOp Negation of markIndex
+4	InsertUnaryOp	org.geotools.styling.ExternalMarkImpl.<init>(Lorg/opengis/metadata/citation/OnLineResource;Ljava/lang/String;I)V:53 - InsertUnaryOp IINC 1 markIndex
+5	InsertUnaryOp	org.geotools.styling.ExternalMarkImpl.<init>(Lorg/opengis/metadata/citation/OnLineResource;Ljava/lang/String;I)V:53 - InsertUnaryOp IINC -1 markIndex
+6	InsertUnaryOp	org.geotools.styling.ExternalMarkImpl.getMarkIndex()I:67 - InsertUnaryOp Negation
+7	InsertUnaryOp	org.geotools.styling.ExternalMarkImpl.getMarkIndex()I:67 - InsertUnaryOp +1
+8	InsertUnaryOp	org.geotools.styling.ExternalMarkImpl.getMarkIndex()I:67 - InsertUnaryOp -1
+9	InsertUnaryOp	org.geotools.styling.ExternalMarkImpl.setMarkIndex(I)V:91 - InsertUnaryOp Negation of markIndex
+10	InsertUnaryOp	org.geotools.styling.ExternalMarkImpl.setMarkIndex(I)V:91 - InsertUnaryOp IINC 1 markIndex
+11	InsertUnaryOp	org.geotools.styling.ExternalMarkImpl.setMarkIndex(I)V:91 - InsertUnaryOp IINC -1 markIndex
+12	ReplaceComparisonOperator	org.geotools.styling.ExternalMarkImpl.cast(Lorg/opengis/style/ExternalMark;)Lorg/geotools/styling/ExternalMarkImpl;:98 - ReplaceComparisonOperator != null -> = null
+13	ReplaceComparisonOperator	org.geotools.styling.ExternalMarkImpl.cast(Lorg/opengis/style/ExternalMark;)Lorg/geotools/styling/ExternalMarkImpl;:100 - ReplaceComparisonOperator == -> -2
+14	ReplaceComparisonOperator	org.geotools.styling.ExternalMarkImpl.cast(Lorg/opengis/style/ExternalMark;)Lorg/geotools/styling/ExternalMarkImpl;:100 - ReplaceComparisonOperator == -> >=
+15	ReplaceComparisonOperator	org.geotools.styling.ExternalMarkImpl.cast(Lorg/opengis/style/ExternalMark;)Lorg/geotools/styling/ExternalMarkImpl;:100 - ReplaceComparisonOperator == -> <=

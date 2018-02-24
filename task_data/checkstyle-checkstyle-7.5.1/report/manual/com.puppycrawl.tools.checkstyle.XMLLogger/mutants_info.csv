@@ -1,0 +1,172 @@
+0	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.<init>(Ljava/io/OutputStream;Z)V:73 - InsertUnaryOp Negation of closeStream
+1	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.<init>(Ljava/io/OutputStream;Z)V:73 - InsertUnaryOp IINC 1 closeStream
+2	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.<init>(Ljava/io/OutputStream;Z)V:73 - InsertUnaryOp IINC -1 closeStream
+3	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.auditStarted(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:87 - ReplaceConstant - <?xml version="1.0" encoding="UTF-8"?> -> 
+4	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.auditStarted(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:90 - ReplaceConstant - checkstylecompilation -> 
+5	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.auditStarted(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:92 - ReplaceConstant - checkstyle.compile.version -> 
+6	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.auditStarted(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:94 - ReplaceConstant - <checkstyle version=" -> 
+7	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.auditStarted(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:94 - ReplaceConstant - "> -> 
+8	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.auditFinished(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:99 - ReplaceConstant - </checkstyle> -> 
+9	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.auditFinished(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:100 - InsertUnaryOp Negation
+10	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.auditFinished(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:100 - ReplaceComparisonOperator == -> -2
+11	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.auditFinished(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:100 - ReplaceComparisonOperator == -> >=
+12	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.auditFinished(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:100 - ReplaceComparisonOperator == -> <=
+13	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.fileStarted(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:110 - ReplaceConstant - <file name=" -> 
+14	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.fileStarted(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:110 - ReplaceConstant - "> -> 
+15	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.fileFinished(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:115 - ReplaceConstant - </file> -> 
+16	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.addError(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:120 - ReplaceComparisonOperator == -> !=
+17	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.addError(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:121 - ReplaceConstant - <error line=" -> 
+18	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.addError(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:121 - ReplaceConstant - " -> 
+19	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.addError(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:122 - ReplaceComparisonOperator <= -> -1
+20	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.addError(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:122 - ReplaceComparisonOperator <= -> ==
+21	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.addError(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:122 - ReplaceComparisonOperator <= -> <
+22	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.addError(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:123 - ReplaceConstant -  column=" -> 
+23	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.addError(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:123 - ReplaceConstant - " -> 
+24	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.addError(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:125 - ReplaceConstant -  severity=" -> 
+25	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.addError(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:127 - ReplaceConstant - " -> 
+26	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.addError(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:128 - ReplaceConstant -  message=" -> 
+27	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.addError(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:130 - ReplaceConstant - " -> 
+28	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.addError(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:131 - ReplaceConstant -  source=" -> 
+29	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.addError(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:133 - ReplaceConstant - "/> -> 
+30	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.addException(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;Ljava/lang/Throwable;)V:141 - ReplaceConstant - <exception> -> 
+31	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.addException(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;Ljava/lang/Throwable;)V:142 - ReplaceConstant - <![CDATA[ -> 
+32	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.addException(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;Ljava/lang/Throwable;)V:144 - ReplaceConstant - ]]> -> 
+33	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.addException(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;Ljava/lang/Throwable;)V:145 - ReplaceConstant - </exception> -> 
+34	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:157 - ReplaceConstant - 0 -> 1
+35	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:158 - InsertUnaryOp Negation of i
+36	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:158 - InsertUnaryOp IINC 1 i
+37	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:158 - InsertUnaryOp IINC -1 i
+38	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:159 - InsertUnaryOp Negation of chr
+39	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:159 - InsertUnaryOp IINC 1 chr
+40	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:159 - InsertUnaryOp IINC -1 chr
+41	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:161 - ReplaceConstant - &lt; -> 
+42	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:164 - ReplaceConstant - &gt; -> 
+43	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:167 - ReplaceConstant - &apos; -> 
+44	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:170 - ReplaceConstant - &quot; -> 
+45	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:173 - InsertUnaryOp Negation of i
+46	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:173 - InsertUnaryOp IINC 1 i
+47	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:173 - InsertUnaryOp IINC -1 i
+48	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:176 - InsertUnaryOp Negation of chr
+49	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:176 - InsertUnaryOp IINC 1 chr
+50	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:176 - InsertUnaryOp IINC -1 chr
+51	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:157 - InsertUnaryOp Negation of i
+52	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:157 - InsertUnaryOp IINC 1 i
+53	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:157 - InsertUnaryOp IINC -1 i
+54	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:157 - ReplaceComparisonOperator < -> !=
+55	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:157 - ReplaceComparisonOperator < -> -2
+56	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.encode(Ljava/lang/String;)Ljava/lang/String;:157 - ReplaceComparisonOperator < -> <=
+57	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:188 - ReplaceConstant - 0 -> 1
+58	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:190 - ReplaceConstant - 0 -> 1
+59	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:190 - ReplaceConstant - 38 -> 0
+60	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:190 - ReplaceConstant - 38 -> 1
+61	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:190 - ReplaceConstant - 38 -> -1
+62	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:190 - ReplaceConstant - 38 -> 37
+63	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:190 - ReplaceConstant - 38 -> 39
+64	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:190 - ReplaceComparisonOperator != -> -1
+65	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:190 - ReplaceComparisonOperator != -> <
+66	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:190 - ReplaceComparisonOperator != -> >
+67	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:190 - ReplaceConstant - 59 -> 0
+68	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:190 - ReplaceConstant - 59 -> 1
+69	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:190 - ReplaceConstant - 59 -> -1
+70	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:190 - ReplaceConstant - 59 -> 58
+71	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:190 - ReplaceConstant - 59 -> 60
+72	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:190 - ReplaceComparisonOperator != -> -1
+73	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:190 - ReplaceComparisonOperator != -> <
+74	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:190 - ReplaceComparisonOperator != -> >
+75	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:191 - ReplaceConstant - 0 -> 1
+76	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:193 - ReplaceConstant - 1 -> 0
+77	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:193 - ReplaceConstant - 35 -> 0
+78	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:193 - ReplaceConstant - 35 -> 1
+79	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:193 - ReplaceConstant - 35 -> -1
+80	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:193 - ReplaceConstant - 35 -> 34
+81	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:193 - ReplaceConstant - 35 -> 36
+82	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:193 - ReplaceComparisonOperator != -> -1
+83	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:193 - ReplaceComparisonOperator != -> <
+84	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:193 - ReplaceComparisonOperator != -> >
+85	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:195 - ReplaceConstant - 2 -> 0
+86	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:195 - ReplaceConstant - 2 -> 1
+87	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:195 - ReplaceConstant - 2 -> -1
+88	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:195 - ReplaceConstant - 2 -> 3
+89	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:197 - ReplaceConstant - 10 -> 0
+90	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:197 - ReplaceConstant - 10 -> 1
+91	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:197 - ReplaceConstant - 10 -> -1
+92	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:197 - ReplaceConstant - 10 -> 9
+93	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:197 - ReplaceConstant - 10 -> 11
+94	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:198 - ReplaceConstant - 2 -> 0
+95	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:198 - ReplaceConstant - 2 -> 1
+96	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:198 - ReplaceConstant - 2 -> -1
+97	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:198 - ReplaceConstant - 2 -> 3
+98	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:198 - ReplaceConstant - 120 -> 0
+99	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:198 - ReplaceConstant - 120 -> 1
+100	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:198 - ReplaceConstant - 120 -> -1
+101	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:198 - ReplaceConstant - 120 -> 119
+102	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:198 - ReplaceConstant - 120 -> 121
+103	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:198 - ReplaceComparisonOperator != -> -1
+104	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:198 - ReplaceComparisonOperator != -> <
+105	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:198 - ReplaceComparisonOperator != -> >
+106	ReplaceVariable	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:199 - ReplaceVariable prefixLength -> radix
+107	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:200 - ReplaceConstant - 16 -> 0
+108	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:200 - ReplaceConstant - 16 -> 1
+109	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:200 - ReplaceConstant - 16 -> -1
+110	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:200 - ReplaceConstant - 16 -> 15
+111	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:200 - ReplaceConstant - 16 -> 17
+112	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:204 - InsertUnaryOp Negation of prefixLength
+113	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:204 - InsertUnaryOp IINC 1 prefixLength
+114	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:204 - InsertUnaryOp IINC -1 prefixLength
+115	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:204 - ReplaceConstant - 1 -> 0
+116	ReplaceArithmeticOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:204 - ReplaceArithmeticOperator - -> +
+117	ReplaceArithmeticOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:204 - ReplaceArithmeticOperator - -> %
+118	ReplaceArithmeticOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:204 - ReplaceArithmeticOperator - -> *
+119	ReplaceArithmeticOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:204 - ReplaceArithmeticOperator - -> /
+120	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:204 - InsertUnaryOp Negation of radix
+121	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:204 - InsertUnaryOp IINC 1 radix
+122	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:204 - InsertUnaryOp IINC -1 radix
+123	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:205 - ReplaceConstant - 1 -> 0
+124	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:208 - ReplaceConstant - 0 -> 1
+125	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:212 - ReplaceConstant - 1 -> 0
+126	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:212 - ReplaceConstant - 1 -> 0
+127	ReplaceArithmeticOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:212 - ReplaceArithmeticOperator - -> +
+128	ReplaceArithmeticOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:212 - ReplaceArithmeticOperator - -> %
+129	ReplaceArithmeticOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:212 - ReplaceArithmeticOperator - -> *
+130	ReplaceArithmeticOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:212 - ReplaceArithmeticOperator - -> /
+131	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:213 - ReplaceConstant - 0 -> 1
+132	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:214 - ReplaceComparisonOperator == -> -2
+133	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:214 - ReplaceComparisonOperator == -> >=
+134	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:214 - ReplaceComparisonOperator == -> <=
+135	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:215 - ReplaceConstant - 1 -> 0
+136	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:213 - ReplaceComparisonOperator < -> !=
+137	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:213 - ReplaceComparisonOperator < -> -2
+138	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:213 - ReplaceComparisonOperator < -> <=
+139	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:220 - InsertUnaryOp Negation of reference
+140	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:220 - InsertUnaryOp IINC 1 reference
+141	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.isReference(Ljava/lang/String;)Z:220 - InsertUnaryOp IINC -1 reference
+142	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:230 - ReplaceConstant - 59 -> 0
+143	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:230 - ReplaceConstant - 59 -> 1
+144	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:230 - ReplaceConstant - 59 -> -1
+145	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:230 - ReplaceConstant - 59 -> 58
+146	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:230 - ReplaceConstant - 59 -> 60
+147	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:230 - InsertUnaryOp Negation of ampPosition
+148	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:230 - InsertUnaryOp IINC 1 ampPosition
+149	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:230 - InsertUnaryOp IINC -1 ampPosition
+150	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:232 - InsertUnaryOp Negation of nextSemi
+151	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:232 - InsertUnaryOp IINC 1 nextSemi
+152	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:232 - InsertUnaryOp IINC -1 nextSemi
+153	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:232 - ReplaceComparisonOperator < -> -2
+154	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:232 - ReplaceComparisonOperator < -> !=
+155	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:232 - ReplaceComparisonOperator < -> <=
+156	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:233 - InsertUnaryOp Negation of ampPosition
+157	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:233 - InsertUnaryOp IINC 1 ampPosition
+158	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:233 - InsertUnaryOp IINC -1 ampPosition
+159	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:233 - InsertUnaryOp Negation of nextSemi
+160	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:233 - InsertUnaryOp IINC 1 nextSemi
+161	InsertUnaryOp	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:233 - InsertUnaryOp IINC -1 nextSemi
+162	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:233 - ReplaceConstant - 1 -> 0
+163	ReplaceArithmeticOperator	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:233 - ReplaceArithmeticOperator + -> %
+164	ReplaceArithmeticOperator	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:233 - ReplaceArithmeticOperator + -> -
+165	ReplaceArithmeticOperator	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:233 - ReplaceArithmeticOperator + -> *
+166	ReplaceArithmeticOperator	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:233 - ReplaceArithmeticOperator + -> /
+167	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:233 - ReplaceComparisonOperator != -> -1
+168	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:233 - ReplaceComparisonOperator != -> <
+169	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:233 - ReplaceComparisonOperator != -> >
+170	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:234 - ReplaceConstant - &amp; -> 
+171	ReplaceConstant	com.puppycrawl.tools.checkstyle.XMLLogger.encodeAmpersand(Ljava/lang/String;I)Ljava/lang/String;:237 - ReplaceConstant - & -> 

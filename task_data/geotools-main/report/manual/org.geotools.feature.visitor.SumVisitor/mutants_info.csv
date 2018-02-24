@@ -1,0 +1,14 @@
+0	InsertUnaryOp	org.geotools.feature.visitor.SumVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:52 - InsertUnaryOp Negation of attributeTypeIndex
+1	InsertUnaryOp	org.geotools.feature.visitor.SumVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:52 - InsertUnaryOp IINC 1 attributeTypeIndex
+2	InsertUnaryOp	org.geotools.feature.visitor.SumVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:52 - InsertUnaryOp IINC -1 attributeTypeIndex
+3	ReplaceConstant	org.geotools.feature.visitor.SumVisitor.getExpressions()Ljava/util/List;:75 - ReplaceConstant - 1 -> 0
+4	ReplaceConstant	org.geotools.feature.visitor.SumVisitor.getExpressions()Ljava/util/List;:75 - ReplaceConstant - 0 -> 1
+5	ReplaceComparisonOperator	org.geotools.feature.visitor.SumVisitor.createStrategy(Ljava/lang/Class;)Lorg/geotools/feature/visitor/SumVisitor$SumStrategy;:86 - ReplaceComparisonOperator != -> ==
+6	ReplaceComparisonOperator	org.geotools.feature.visitor.SumVisitor.createStrategy(Ljava/lang/Class;)Lorg/geotools/feature/visitor/SumVisitor$SumStrategy;:88 - ReplaceComparisonOperator != -> ==
+7	ReplaceComparisonOperator	org.geotools.feature.visitor.SumVisitor.createStrategy(Ljava/lang/Class;)Lorg/geotools/feature/visitor/SumVisitor$SumStrategy;:90 - ReplaceComparisonOperator != -> ==
+8	ReplaceComparisonOperator	org.geotools.feature.visitor.SumVisitor.createStrategy(Ljava/lang/Class;)Lorg/geotools/feature/visitor/SumVisitor$SumStrategy;:92 - ReplaceComparisonOperator == -> -2
+9	ReplaceComparisonOperator	org.geotools.feature.visitor.SumVisitor.createStrategy(Ljava/lang/Class;)Lorg/geotools/feature/visitor/SumVisitor$SumStrategy;:92 - ReplaceComparisonOperator == -> >=
+10	ReplaceComparisonOperator	org.geotools.feature.visitor.SumVisitor.createStrategy(Ljava/lang/Class;)Lorg/geotools/feature/visitor/SumVisitor$SumStrategy;:92 - ReplaceComparisonOperator == -> <=
+11	ReplaceComparisonOperator	org.geotools.feature.visitor.SumVisitor.visit(Lorg/opengis/feature/Feature;)V:105 - ReplaceComparisonOperator = null -> != null
+12	ReplaceComparisonOperator	org.geotools.feature.visitor.SumVisitor.visit(Lorg/opengis/feature/Feature;)V:106 - ReplaceComparisonOperator != null -> = null
+13	ReplaceComparisonOperator	org.geotools.feature.visitor.SumVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:132 - ReplaceComparisonOperator != null -> = null

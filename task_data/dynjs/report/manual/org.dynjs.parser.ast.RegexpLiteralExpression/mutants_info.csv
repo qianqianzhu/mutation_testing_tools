@@ -1,0 +1,12 @@
+0	ReplaceComparisonOperator	org.dynjs.parser.ast.RegexpLiteralExpression.<init>(Lorg/dynjs/parser/js/Position;Ljava/lang/String;)V:53 - ReplaceComparisonOperator != null -> = null
+1	ReplaceConstant	org.dynjs.parser.ast.RegexpLiteralExpression.<init>(Lorg/dynjs/parser/js/Position;Ljava/lang/String;)V:54 - ReplaceConstant - Invalid regular expression -> 
+2	ReplaceConstant	org.dynjs.parser.ast.RegexpLiteralExpression.toString()Ljava/lang/String;:69 - ReplaceConstant - / -> 
+3	ReplaceConstant	org.dynjs.parser.ast.RegexpLiteralExpression.toString()Ljava/lang/String;:69 - ReplaceConstant - / -> 
+4	ReplaceConstant	org.dynjs.parser.ast.RegexpLiteralExpression.getSizeMetric()I:73 - ReplaceConstant - 3 -> 0
+5	ReplaceConstant	org.dynjs.parser.ast.RegexpLiteralExpression.getSizeMetric()I:73 - ReplaceConstant - 3 -> 1
+6	ReplaceConstant	org.dynjs.parser.ast.RegexpLiteralExpression.getSizeMetric()I:73 - ReplaceConstant - 3 -> -1
+7	ReplaceConstant	org.dynjs.parser.ast.RegexpLiteralExpression.getSizeMetric()I:73 - ReplaceConstant - 3 -> 2
+8	ReplaceConstant	org.dynjs.parser.ast.RegexpLiteralExpression.getSizeMetric()I:73 - ReplaceConstant - 3 -> 4
+9	InsertUnaryOp	org.dynjs.parser.ast.RegexpLiteralExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:78 - InsertUnaryOp Negation of strict
+10	InsertUnaryOp	org.dynjs.parser.ast.RegexpLiteralExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:78 - InsertUnaryOp IINC 1 strict
+11	InsertUnaryOp	org.dynjs.parser.ast.RegexpLiteralExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:78 - InsertUnaryOp IINC -1 strict

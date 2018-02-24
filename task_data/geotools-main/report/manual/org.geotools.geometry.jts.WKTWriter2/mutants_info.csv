@@ -1,0 +1,980 @@
+0	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.toPoint(Lcom/vividsolutions/jts/geom/Coordinate;)Ljava/lang/String;:63 - ReplaceConstant - POINT (  -> 
+1	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toPoint(Lcom/vividsolutions/jts/geom/Coordinate;)Ljava/lang/String;:63 - InsertUnaryOp Negation
+2	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.toPoint(Lcom/vividsolutions/jts/geom/Coordinate;)Ljava/lang/String;:63 - ReplaceConstant -   -> 
+3	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toPoint(Lcom/vividsolutions/jts/geom/Coordinate;)Ljava/lang/String;:63 - InsertUnaryOp Negation
+4	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.toPoint(Lcom/vividsolutions/jts/geom/Coordinate;)Ljava/lang/String;:63 - ReplaceConstant -  ) -> 
+5	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:75 - ReplaceConstant - LINESTRING  -> 
+6	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:76 - ReplaceComparisonOperator != -> -1
+7	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:76 - ReplaceComparisonOperator != -> <
+8	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:76 - ReplaceComparisonOperator != -> >
+9	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:77 - ReplaceConstant -  EMPTY -> 
+10	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:79 - ReplaceConstant - ( -> 
+11	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:80 - ReplaceConstant - 0 -> 1
+12	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:80 - InsertUnaryOp Negation of i
+13	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:80 - InsertUnaryOp IINC 1 i
+14	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:80 - InsertUnaryOp IINC -1 i
+15	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:80 - ReplaceComparisonOperator >= -> -1
+16	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:80 - ReplaceComparisonOperator >= -> >
+17	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:80 - ReplaceComparisonOperator >= -> ==
+18	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:81 - InsertUnaryOp Negation of i
+19	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:81 - InsertUnaryOp IINC 1 i
+20	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:81 - InsertUnaryOp IINC -1 i
+21	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:81 - ReplaceComparisonOperator <= -> -1
+22	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:81 - ReplaceComparisonOperator <= -> ==
+23	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:81 - ReplaceComparisonOperator <= -> <
+24	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:82 - ReplaceConstant - ,  -> 
+25	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:83 - InsertUnaryOp Negation of i
+26	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:83 - InsertUnaryOp IINC 1 i
+27	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:83 - InsertUnaryOp IINC -1 i
+28	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:83 - ReplaceConstant -   -> 
+29	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:83 - InsertUnaryOp Negation of i
+30	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:83 - InsertUnaryOp IINC 1 i
+31	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:83 - InsertUnaryOp IINC -1 i
+32	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Ljava/lang/String;:85 - ReplaceConstant - ) -> 
+33	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/Coordinate;Lcom/vividsolutions/jts/geom/Coordinate;)Ljava/lang/String;:99 - ReplaceConstant - LINESTRING (  -> 
+34	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/Coordinate;Lcom/vividsolutions/jts/geom/Coordinate;)Ljava/lang/String;:99 - InsertUnaryOp Negation
+35	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/Coordinate;Lcom/vividsolutions/jts/geom/Coordinate;)Ljava/lang/String;:99 - ReplaceConstant -   -> 
+36	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/Coordinate;Lcom/vividsolutions/jts/geom/Coordinate;)Ljava/lang/String;:99 - InsertUnaryOp Negation
+37	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/Coordinate;Lcom/vividsolutions/jts/geom/Coordinate;)Ljava/lang/String;:99 - ReplaceConstant - ,  -> 
+38	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/Coordinate;Lcom/vividsolutions/jts/geom/Coordinate;)Ljava/lang/String;:99 - InsertUnaryOp Negation
+39	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/Coordinate;Lcom/vividsolutions/jts/geom/Coordinate;)Ljava/lang/String;:99 - ReplaceConstant -   -> 
+40	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/Coordinate;Lcom/vividsolutions/jts/geom/Coordinate;)Ljava/lang/String;:99 - InsertUnaryOp Negation
+41	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.toLineString(Lcom/vividsolutions/jts/geom/Coordinate;Lcom/vividsolutions/jts/geom/Coordinate;)Ljava/lang/String;:99 - ReplaceConstant -  ) -> 
+42	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:119 - ReplaceConstant - 46 -> 0
+43	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:119 - ReplaceConstant - 46 -> 1
+44	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:119 - ReplaceConstant - 46 -> -1
+45	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:119 - ReplaceConstant - 46 -> 45
+46	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:119 - ReplaceConstant - 46 -> 47
+47	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:120 - ReplaceConstant - 0 -> 
+48	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:120 - InsertUnaryOp Negation of decimalPlaces
+49	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:120 - InsertUnaryOp IINC 1 decimalPlaces
+50	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:120 - InsertUnaryOp IINC -1 decimalPlaces
+51	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:120 - ReplaceComparisonOperator <= -> -1
+52	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:120 - ReplaceComparisonOperator <= -> ==
+53	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:120 - ReplaceComparisonOperator <= -> <
+54	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:120 - ReplaceConstant - . -> 
+55	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:120 - ReplaceConstant - 35 -> 0
+56	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:120 - ReplaceConstant - 35 -> 1
+57	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:120 - ReplaceConstant - 35 -> -1
+58	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:120 - ReplaceConstant - 35 -> 34
+59	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:120 - ReplaceConstant - 35 -> 36
+60	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:120 - InsertUnaryOp Negation of decimalPlaces
+61	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:120 - InsertUnaryOp IINC 1 decimalPlaces
+62	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.createFormatter(Lcom/vividsolutions/jts/geom/PrecisionModel;)Ljava/text/DecimalFormat;:120 - InsertUnaryOp IINC -1 decimalPlaces
+63	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.stringOfChar(CI)Ljava/lang/String;:133 - ReplaceConstant - 0 -> 1
+64	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.stringOfChar(CI)Ljava/lang/String;:133 - InsertUnaryOp Negation of i
+65	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.stringOfChar(CI)Ljava/lang/String;:133 - InsertUnaryOp IINC 1 i
+66	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.stringOfChar(CI)Ljava/lang/String;:133 - InsertUnaryOp IINC -1 i
+67	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.stringOfChar(CI)Ljava/lang/String;:133 - InsertUnaryOp Negation of count
+68	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.stringOfChar(CI)Ljava/lang/String;:133 - InsertUnaryOp IINC 1 count
+69	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.stringOfChar(CI)Ljava/lang/String;:133 - InsertUnaryOp IINC -1 count
+70	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.stringOfChar(CI)Ljava/lang/String;:133 - ReplaceComparisonOperator >= -> -1
+71	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.stringOfChar(CI)Ljava/lang/String;:133 - ReplaceComparisonOperator >= -> >
+72	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.stringOfChar(CI)Ljava/lang/String;:133 - ReplaceComparisonOperator >= -> ==
+73	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.stringOfChar(CI)Ljava/lang/String;:134 - InsertUnaryOp Negation of ch
+74	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.stringOfChar(CI)Ljava/lang/String;:134 - InsertUnaryOp IINC 1 ch
+75	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.stringOfChar(CI)Ljava/lang/String;:134 - InsertUnaryOp IINC -1 ch
+76	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.stringOfChar(CI)Ljava/lang/String;:133 - ReplaceVariable i -> count
+77	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>()V:139 - ReplaceConstant - 2 -> 0
+78	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>()V:139 - ReplaceConstant - 2 -> 1
+79	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>()V:139 - ReplaceConstant - 2 -> -1
+80	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>()V:139 - ReplaceConstant - 2 -> 3
+81	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>()V:143 - ReplaceConstant - 0 -> 1
+82	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>()V:145 - ReplaceConstant - 0 -> 1
+83	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>()V:147 - ReplaceConstant - 0 -> 1
+84	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>()V:149 - ReplaceConstant - -1 -> 0
+85	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>()V:149 - ReplaceConstant - -1 -> 1
+86	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>()V:149 - ReplaceConstant - -1 -> -2
+87	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>()V:151 - ReplaceConstant -    -> 
+88	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:139 - ReplaceConstant - 2 -> 0
+89	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:139 - ReplaceConstant - 2 -> 1
+90	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:139 - ReplaceConstant - 2 -> -1
+91	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:139 - ReplaceConstant - 2 -> 3
+92	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:143 - ReplaceConstant - 0 -> 1
+93	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:145 - ReplaceConstant - 0 -> 1
+94	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:147 - ReplaceConstant - 0 -> 1
+95	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:149 - ReplaceConstant - -1 -> 0
+96	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:149 - ReplaceConstant - -1 -> 1
+97	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:149 - ReplaceConstant - -1 -> -2
+98	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:151 - ReplaceConstant -    -> 
+99	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:167 - InsertUnaryOp Negation of outputDimension
+100	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:167 - InsertUnaryOp IINC 1 outputDimension
+101	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:167 - InsertUnaryOp IINC -1 outputDimension
+102	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - InsertUnaryOp Negation of outputDimension
+103	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - InsertUnaryOp IINC 1 outputDimension
+104	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - InsertUnaryOp IINC -1 outputDimension
+105	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - ReplaceConstant - 2 -> 0
+106	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - ReplaceConstant - 2 -> 1
+107	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - ReplaceConstant - 2 -> -1
+108	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - ReplaceConstant - 2 -> 3
+109	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - ReplaceComparisonOperator < -> !=
+110	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - ReplaceComparisonOperator < -> -2
+111	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - ReplaceComparisonOperator < -> <=
+112	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - InsertUnaryOp Negation of outputDimension
+113	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - InsertUnaryOp IINC 1 outputDimension
+114	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - InsertUnaryOp IINC -1 outputDimension
+115	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - ReplaceConstant - 3 -> 0
+116	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - ReplaceConstant - 3 -> 1
+117	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - ReplaceConstant - 3 -> -1
+118	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - ReplaceConstant - 3 -> 2
+119	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - ReplaceConstant - 3 -> 4
+120	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - ReplaceComparisonOperator <= -> -1
+121	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - ReplaceComparisonOperator <= -> <
+122	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:169 - ReplaceComparisonOperator <= -> ==
+123	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.<init>(I)V:170 - ReplaceConstant - Invalid output dimension (must be 2 or 3) -> 
+124	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.setFormatted(Z)V:179 - InsertUnaryOp Negation of isFormatted
+125	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.setFormatted(Z)V:179 - InsertUnaryOp IINC 1 isFormatted
+126	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.setFormatted(Z)V:179 - InsertUnaryOp IINC -1 isFormatted
+127	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.setMaxCoordinatesPerLine(I)V:189 - InsertUnaryOp Negation of coordsPerLine
+128	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.setMaxCoordinatesPerLine(I)V:189 - InsertUnaryOp IINC 1 coordsPerLine
+129	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.setMaxCoordinatesPerLine(I)V:189 - InsertUnaryOp IINC -1 coordsPerLine
+130	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.setTab(I)V:199 - InsertUnaryOp Negation of size
+131	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.setTab(I)V:199 - InsertUnaryOp IINC 1 size
+132	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.setTab(I)V:199 - InsertUnaryOp IINC -1 size
+133	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.setTab(I)V:199 - ReplaceComparisonOperator > -> -2
+134	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.setTab(I)V:199 - ReplaceComparisonOperator > -> !=
+135	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.setTab(I)V:199 - ReplaceComparisonOperator > -> >=
+136	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.setTab(I)V:200 - ReplaceConstant - Tab count must be positive -> 
+137	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.setTab(I)V:201 - ReplaceConstant - 32 -> 0
+138	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.setTab(I)V:201 - ReplaceConstant - 32 -> 1
+139	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.setTab(I)V:201 - ReplaceConstant - 32 -> -1
+140	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.setTab(I)V:201 - ReplaceConstant - 32 -> 31
+141	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.setTab(I)V:201 - ReplaceConstant - 32 -> 33
+142	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.setTab(I)V:201 - InsertUnaryOp Negation of size
+143	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.setTab(I)V:201 - InsertUnaryOp IINC 1 size
+144	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.setTab(I)V:201 - InsertUnaryOp IINC -1 size
+145	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.write(Lcom/vividsolutions/jts/geom/Geometry;)Ljava/lang/String;:213 - InsertUnaryOp Negation
+146	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.write(Lcom/vividsolutions/jts/geom/Geometry;Ljava/io/Writer;)V:226 - ReplaceConstant - 0 -> 1
+147	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.writeFormatted(Lcom/vividsolutions/jts/geom/Geometry;)Ljava/lang/String;:240 - ReplaceConstant - 1 -> 0
+148	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.writeFormatted(Lcom/vividsolutions/jts/geom/Geometry;Ljava/io/Writer;)V:254 - ReplaceConstant - 1 -> 0
+149	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.writeFormatted(Lcom/vividsolutions/jts/geom/Geometry;ZLjava/io/Writer;)V:264 - InsertUnaryOp Negation of useFormatting
+150	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.writeFormatted(Lcom/vividsolutions/jts/geom/Geometry;ZLjava/io/Writer;)V:264 - InsertUnaryOp IINC 1 useFormatting
+151	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.writeFormatted(Lcom/vividsolutions/jts/geom/Geometry;ZLjava/io/Writer;)V:264 - InsertUnaryOp IINC -1 useFormatting
+152	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.writeFormatted(Lcom/vividsolutions/jts/geom/Geometry;ZLjava/io/Writer;)V:266 - ReplaceConstant - 0 -> 1
+153	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:278 - InsertUnaryOp Negation of level
+154	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:278 - InsertUnaryOp IINC 1 level
+155	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:278 - InsertUnaryOp IINC -1 level
+156	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:280 - ReplaceComparisonOperator == -> -2
+157	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:280 - ReplaceComparisonOperator == -> >=
+158	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:280 - ReplaceComparisonOperator == -> <=
+159	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:282 - InsertUnaryOp Negation of level
+160	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:282 - InsertUnaryOp IINC 1 level
+161	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:282 - InsertUnaryOp IINC -1 level
+162	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:283 - ReplaceComparisonOperator == -> -2
+163	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:283 - ReplaceComparisonOperator == -> >=
+164	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:283 - ReplaceComparisonOperator == -> <=
+165	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:284 - InsertUnaryOp Negation of level
+166	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:284 - InsertUnaryOp IINC 1 level
+167	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:284 - InsertUnaryOp IINC -1 level
+168	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:285 - ReplaceComparisonOperator == -> -2
+169	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:285 - ReplaceComparisonOperator == -> >=
+170	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:285 - ReplaceComparisonOperator == -> <=
+171	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:286 - InsertUnaryOp Negation of level
+172	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:286 - InsertUnaryOp IINC 1 level
+173	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:286 - InsertUnaryOp IINC -1 level
+174	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:287 - ReplaceComparisonOperator == -> -2
+175	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:287 - ReplaceComparisonOperator == -> >=
+176	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:287 - ReplaceComparisonOperator == -> <=
+177	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:288 - InsertUnaryOp Negation of level
+178	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:288 - InsertUnaryOp IINC 1 level
+179	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:288 - InsertUnaryOp IINC -1 level
+180	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:289 - ReplaceComparisonOperator == -> -2
+181	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:289 - ReplaceComparisonOperator == -> >=
+182	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:289 - ReplaceComparisonOperator == -> <=
+183	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:290 - InsertUnaryOp Negation of level
+184	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:290 - InsertUnaryOp IINC 1 level
+185	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:290 - InsertUnaryOp IINC -1 level
+186	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:291 - ReplaceComparisonOperator == -> -2
+187	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:291 - ReplaceComparisonOperator == -> >=
+188	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:291 - ReplaceComparisonOperator == -> <=
+189	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:292 - InsertUnaryOp Negation of level
+190	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:292 - InsertUnaryOp IINC 1 level
+191	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:292 - InsertUnaryOp IINC -1 level
+192	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:293 - ReplaceComparisonOperator == -> -2
+193	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:293 - ReplaceComparisonOperator == -> >=
+194	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:293 - ReplaceComparisonOperator == -> <=
+195	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:294 - InsertUnaryOp Negation of level
+196	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:294 - InsertUnaryOp IINC 1 level
+197	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:294 - InsertUnaryOp IINC -1 level
+198	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:295 - ReplaceComparisonOperator == -> -2
+199	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:295 - ReplaceComparisonOperator == -> >=
+200	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:295 - ReplaceComparisonOperator == -> <=
+201	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:296 - InsertUnaryOp Negation of level
+202	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:296 - InsertUnaryOp IINC 1 level
+203	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:296 - InsertUnaryOp IINC -1 level
+204	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:297 - ReplaceComparisonOperator == -> -2
+205	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:297 - ReplaceComparisonOperator == -> >=
+206	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:297 - ReplaceComparisonOperator == -> <=
+207	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:298 - InsertUnaryOp Negation of level
+208	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:298 - InsertUnaryOp IINC 1 level
+209	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:298 - InsertUnaryOp IINC -1 level
+210	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:299 - ReplaceComparisonOperator == -> -2
+211	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:299 - ReplaceComparisonOperator == -> >=
+212	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:299 - ReplaceComparisonOperator == -> <=
+213	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:300 - InsertUnaryOp Negation of level
+214	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:300 - InsertUnaryOp IINC 1 level
+215	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:300 - InsertUnaryOp IINC -1 level
+216	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:301 - ReplaceComparisonOperator == -> -2
+217	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:301 - ReplaceComparisonOperator == -> >=
+218	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:301 - ReplaceComparisonOperator == -> <=
+219	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:302 - InsertUnaryOp Negation of level
+220	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:302 - InsertUnaryOp IINC 1 level
+221	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:302 - InsertUnaryOp IINC -1 level
+222	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:303 - ReplaceComparisonOperator == -> -2
+223	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:303 - ReplaceComparisonOperator == -> >=
+224	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:303 - ReplaceComparisonOperator == -> <=
+225	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:304 - InsertUnaryOp Negation of level
+226	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:304 - InsertUnaryOp IINC 1 level
+227	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:304 - InsertUnaryOp IINC -1 level
+228	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:305 - ReplaceComparisonOperator == -> -2
+229	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:305 - ReplaceComparisonOperator == -> >=
+230	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:305 - ReplaceComparisonOperator == -> <=
+231	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:306 - InsertUnaryOp Negation of level
+232	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:306 - InsertUnaryOp IINC 1 level
+233	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:306 - InsertUnaryOp IINC -1 level
+234	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:307 - ReplaceComparisonOperator == -> -2
+235	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:307 - ReplaceComparisonOperator == -> >=
+236	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:307 - ReplaceComparisonOperator == -> <=
+237	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:308 - InsertUnaryOp Negation of level
+238	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:308 - InsertUnaryOp IINC 1 level
+239	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:308 - InsertUnaryOp IINC -1 level
+240	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:309 - ReplaceComparisonOperator == -> -2
+241	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:309 - ReplaceComparisonOperator == -> >=
+242	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:309 - ReplaceComparisonOperator == -> <=
+243	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:310 - InsertUnaryOp Negation of level
+244	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:310 - InsertUnaryOp IINC 1 level
+245	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:310 - InsertUnaryOp IINC -1 level
+246	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendGeometryTaggedText(Lcom/vividsolutions/jts/geom/Geometry;ILjava/io/Writer;)V:312 - ReplaceConstant - Unsupported Geometry implementation: -> 
+247	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendPointTaggedText(Lcom/vividsolutions/jts/geom/Coordinate;ILjava/io/Writer;Lcom/vividsolutions/jts/geom/PrecisionModel;)V:328 - ReplaceConstant - POINT  -> 
+248	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPointTaggedText(Lcom/vividsolutions/jts/geom/Coordinate;ILjava/io/Writer;Lcom/vividsolutions/jts/geom/PrecisionModel;)V:329 - InsertUnaryOp Negation of level
+249	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPointTaggedText(Lcom/vividsolutions/jts/geom/Coordinate;ILjava/io/Writer;Lcom/vividsolutions/jts/geom/PrecisionModel;)V:329 - InsertUnaryOp IINC 1 level
+250	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPointTaggedText(Lcom/vividsolutions/jts/geom/Coordinate;ILjava/io/Writer;Lcom/vividsolutions/jts/geom/PrecisionModel;)V:329 - InsertUnaryOp IINC -1 level
+251	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCircularStringTaggedText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;ILjava/io/Writer;)V:341 - ReplaceConstant - CIRCULARSTRING  -> 
+252	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCircularStringTaggedText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;ILjava/io/Writer;)V:342 - InsertUnaryOp Negation of level
+253	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCircularStringTaggedText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;ILjava/io/Writer;)V:342 - InsertUnaryOp IINC 1 level
+254	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCircularStringTaggedText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;ILjava/io/Writer;)V:342 - InsertUnaryOp IINC -1 level
+255	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCircularStringTaggedText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;ILjava/io/Writer;)V:342 - ReplaceConstant - 0 -> 1
+256	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendLineStringTaggedText(Lcom/vividsolutions/jts/geom/LineString;ILjava/io/Writer;)V:354 - ReplaceConstant - LINESTRING  -> 
+257	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringTaggedText(Lcom/vividsolutions/jts/geom/LineString;ILjava/io/Writer;)V:355 - InsertUnaryOp Negation of level
+258	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringTaggedText(Lcom/vividsolutions/jts/geom/LineString;ILjava/io/Writer;)V:355 - InsertUnaryOp IINC 1 level
+259	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringTaggedText(Lcom/vividsolutions/jts/geom/LineString;ILjava/io/Writer;)V:355 - InsertUnaryOp IINC -1 level
+260	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendLineStringTaggedText(Lcom/vividsolutions/jts/geom/LineString;ILjava/io/Writer;)V:355 - ReplaceConstant - 0 -> 1
+261	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendLinearRingTaggedText(Lcom/vividsolutions/jts/geom/LinearRing;ILjava/io/Writer;)V:367 - ReplaceConstant - LINEARRING  -> 
+262	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLinearRingTaggedText(Lcom/vividsolutions/jts/geom/LinearRing;ILjava/io/Writer;)V:368 - InsertUnaryOp Negation of level
+263	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLinearRingTaggedText(Lcom/vividsolutions/jts/geom/LinearRing;ILjava/io/Writer;)V:368 - InsertUnaryOp IINC 1 level
+264	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLinearRingTaggedText(Lcom/vividsolutions/jts/geom/LinearRing;ILjava/io/Writer;)V:368 - InsertUnaryOp IINC -1 level
+265	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendLinearRingTaggedText(Lcom/vividsolutions/jts/geom/LinearRing;ILjava/io/Writer;)V:368 - ReplaceConstant - 0 -> 1
+266	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendPolygonTaggedText(Lcom/vividsolutions/jts/geom/Polygon;ILjava/io/Writer;)V:380 - ReplaceConstant - POLYGON  -> 
+267	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonTaggedText(Lcom/vividsolutions/jts/geom/Polygon;ILjava/io/Writer;)V:381 - InsertUnaryOp Negation of level
+268	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonTaggedText(Lcom/vividsolutions/jts/geom/Polygon;ILjava/io/Writer;)V:381 - InsertUnaryOp IINC 1 level
+269	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonTaggedText(Lcom/vividsolutions/jts/geom/Polygon;ILjava/io/Writer;)V:381 - InsertUnaryOp IINC -1 level
+270	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendPolygonTaggedText(Lcom/vividsolutions/jts/geom/Polygon;ILjava/io/Writer;)V:381 - ReplaceConstant - 0 -> 1
+271	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPointTaggedText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:393 - ReplaceConstant - MULTIPOINT  -> 
+272	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointTaggedText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:394 - InsertUnaryOp Negation of level
+273	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointTaggedText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:394 - InsertUnaryOp IINC 1 level
+274	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointTaggedText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:394 - InsertUnaryOp IINC -1 level
+275	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringTaggedText(Lcom/vividsolutions/jts/geom/MultiLineString;ILjava/io/Writer;)V:406 - ReplaceConstant - MULTILINESTRING  -> 
+276	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringTaggedText(Lcom/vividsolutions/jts/geom/MultiLineString;ILjava/io/Writer;)V:407 - InsertUnaryOp Negation of level
+277	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringTaggedText(Lcom/vividsolutions/jts/geom/MultiLineString;ILjava/io/Writer;)V:407 - InsertUnaryOp IINC 1 level
+278	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringTaggedText(Lcom/vividsolutions/jts/geom/MultiLineString;ILjava/io/Writer;)V:407 - InsertUnaryOp IINC -1 level
+279	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringTaggedText(Lcom/vividsolutions/jts/geom/MultiLineString;ILjava/io/Writer;)V:407 - ReplaceConstant - 0 -> 1
+280	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonTaggedText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:419 - ReplaceConstant - MULTIPOLYGON  -> 
+281	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonTaggedText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:420 - InsertUnaryOp Negation of level
+282	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonTaggedText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:420 - InsertUnaryOp IINC 1 level
+283	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonTaggedText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:420 - InsertUnaryOp IINC -1 level
+284	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionTaggedText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:432 - ReplaceConstant - GEOMETRYCOLLECTION  -> 
+285	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionTaggedText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:433 - InsertUnaryOp Negation of level
+286	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionTaggedText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:433 - InsertUnaryOp IINC 1 level
+287	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionTaggedText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:433 - InsertUnaryOp IINC -1 level
+288	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPointText(Lcom/vividsolutions/jts/geom/Coordinate;ILjava/io/Writer;Lcom/vividsolutions/jts/geom/PrecisionModel;)V:447 - ReplaceComparisonOperator != null -> = null
+289	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendPointText(Lcom/vividsolutions/jts/geom/Coordinate;ILjava/io/Writer;Lcom/vividsolutions/jts/geom/PrecisionModel;)V:448 - ReplaceConstant - EMPTY -> 
+290	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendPointText(Lcom/vividsolutions/jts/geom/Coordinate;ILjava/io/Writer;Lcom/vividsolutions/jts/geom/PrecisionModel;)V:450 - ReplaceConstant - ( -> 
+291	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendPointText(Lcom/vividsolutions/jts/geom/Coordinate;ILjava/io/Writer;Lcom/vividsolutions/jts/geom/PrecisionModel;)V:452 - ReplaceConstant - ) -> 
+292	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:464 - InsertUnaryOp Negation of i
+293	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:464 - InsertUnaryOp IINC 1 i
+294	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:464 - InsertUnaryOp IINC -1 i
+295	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:464 - ReplaceConstant -   -> 
+296	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:464 - InsertUnaryOp Negation of i
+297	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:464 - InsertUnaryOp IINC 1 i
+298	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:464 - InsertUnaryOp IINC -1 i
+299	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - InsertUnaryOp Negation
+300	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - InsertUnaryOp +1
+301	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - InsertUnaryOp -1
+302	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - ReplaceConstant - 3 -> 0
+303	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - ReplaceConstant - 3 -> 1
+304	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - ReplaceConstant - 3 -> -1
+305	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - ReplaceConstant - 3 -> 2
+306	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - ReplaceConstant - 3 -> 4
+307	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - ReplaceComparisonOperator < -> !=
+308	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - ReplaceComparisonOperator < -> -2
+309	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - ReplaceComparisonOperator < -> <=
+310	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - ReplaceConstant - 3 -> 0
+311	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - ReplaceConstant - 3 -> 1
+312	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - ReplaceConstant - 3 -> -1
+313	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - ReplaceConstant - 3 -> 2
+314	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - ReplaceConstant - 3 -> 4
+315	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - ReplaceComparisonOperator < -> !=
+316	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - ReplaceComparisonOperator < -> -2
+317	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:465 - ReplaceComparisonOperator < -> <=
+318	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:466 - InsertUnaryOp Negation of i
+319	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:466 - InsertUnaryOp IINC 1 i
+320	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:466 - InsertUnaryOp IINC -1 i
+321	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:466 - ReplaceConstant - 3 -> 0
+322	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:466 - ReplaceConstant - 3 -> 1
+323	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:466 - ReplaceConstant - 3 -> -1
+324	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:466 - ReplaceConstant - 3 -> 2
+325	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:466 - ReplaceConstant - 3 -> 4
+326	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:467 - InsertUnaryOp Negation of z
+327	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:467 - ReplaceComparisonOperator != -> -1
+328	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:467 - ReplaceComparisonOperator != -> <
+329	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:467 - ReplaceComparisonOperator != -> >
+330	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:468 - ReplaceConstant -   -> 
+331	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/CoordinateSequence;ILjava/io/Writer;)V:469 - InsertUnaryOp Negation of z
+332	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPoint(DDLjava/io/Writer;)V:482 - InsertUnaryOp Negation of x
+333	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendControlPoint(DDLjava/io/Writer;)V:482 - ReplaceConstant -   -> 
+334	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPoint(DDLjava/io/Writer;)V:482 - InsertUnaryOp Negation of y
+335	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:493 - InsertUnaryOp Negation
+336	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:493 - ReplaceConstant -   -> 
+337	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:493 - InsertUnaryOp Negation
+338	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:494 - InsertUnaryOp Negation
+339	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:494 - InsertUnaryOp +1
+340	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:494 - InsertUnaryOp -1
+341	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:494 - ReplaceConstant - 3 -> 0
+342	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:494 - ReplaceConstant - 3 -> 1
+343	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:494 - ReplaceConstant - 3 -> -1
+344	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:494 - ReplaceConstant - 3 -> 2
+345	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:494 - ReplaceConstant - 3 -> 4
+346	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:494 - ReplaceComparisonOperator < -> !=
+347	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:494 - ReplaceComparisonOperator < -> -2
+348	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:494 - ReplaceComparisonOperator < -> <=
+349	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:494 - InsertUnaryOp Negation
+350	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:494 - ReplaceComparisonOperator != -> -1
+351	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:494 - ReplaceComparisonOperator != -> <
+352	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:494 - ReplaceComparisonOperator != -> >
+353	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:495 - ReplaceConstant -   -> 
+354	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCoordinate(Lcom/vividsolutions/jts/geom/Coordinate;Ljava/io/Writer;)V:496 - InsertUnaryOp Negation
+355	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.writeNumber(D)Ljava/lang/String;:507 - InsertUnaryOp Negation of d
+356	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:519 - ReplaceComparisonOperator != -> -1
+357	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:519 - ReplaceComparisonOperator != -> <
+358	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:519 - ReplaceComparisonOperator != -> >
+359	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:520 - ReplaceConstant - EMPTY -> 
+360	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:522 - InsertUnaryOp Negation of doIndent
+361	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:522 - InsertUnaryOp IINC 1 doIndent
+362	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:522 - InsertUnaryOp IINC -1 doIndent
+363	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:522 - ReplaceComparisonOperator == -> -2
+364	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:522 - ReplaceComparisonOperator == -> >=
+365	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:522 - ReplaceComparisonOperator == -> <=
+366	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:523 - InsertUnaryOp Negation of level
+367	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:523 - InsertUnaryOp IINC 1 level
+368	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:523 - InsertUnaryOp IINC -1 level
+369	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:524 - ReplaceConstant - ( -> 
+370	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:525 - ReplaceConstant - 0 -> 1
+371	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:525 - InsertUnaryOp Negation of i
+372	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:525 - InsertUnaryOp IINC 1 i
+373	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:525 - InsertUnaryOp IINC -1 i
+374	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:525 - ReplaceComparisonOperator >= -> -1
+375	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:525 - ReplaceComparisonOperator >= -> >
+376	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:525 - ReplaceComparisonOperator >= -> ==
+377	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:526 - InsertUnaryOp Negation of i
+378	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:526 - InsertUnaryOp IINC 1 i
+379	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:526 - InsertUnaryOp IINC -1 i
+380	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:526 - ReplaceComparisonOperator <= -> -1
+381	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:526 - ReplaceComparisonOperator <= -> ==
+382	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:526 - ReplaceComparisonOperator <= -> <
+383	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:527 - ReplaceConstant - ,  -> 
+384	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - InsertUnaryOp Negation
+385	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - InsertUnaryOp +1
+386	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - InsertUnaryOp -1
+387	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - ReplaceComparisonOperator <= -> -1
+388	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - ReplaceComparisonOperator <= -> ==
+389	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - ReplaceComparisonOperator <= -> <
+390	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - InsertUnaryOp Negation of i
+391	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - InsertUnaryOp IINC 1 i
+392	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - InsertUnaryOp IINC -1 i
+393	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - InsertUnaryOp Negation
+394	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - InsertUnaryOp +1
+395	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - InsertUnaryOp -1
+396	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - ReplaceArithmeticOperator % -> +
+397	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - ReplaceArithmeticOperator % -> -
+398	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - ReplaceArithmeticOperator % -> *
+399	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - ReplaceArithmeticOperator % -> /
+400	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - ReplaceComparisonOperator != -> -1
+401	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - ReplaceComparisonOperator != -> <
+402	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:528 - ReplaceComparisonOperator != -> >
+403	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:529 - InsertUnaryOp Negation of level
+404	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:529 - InsertUnaryOp IINC 1 level
+405	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:529 - InsertUnaryOp IINC -1 level
+406	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:529 - ReplaceConstant - 1 -> 0
+407	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:529 - ReplaceArithmeticOperator + -> %
+408	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:529 - ReplaceArithmeticOperator + -> -
+409	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:529 - ReplaceArithmeticOperator + -> *
+410	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:529 - ReplaceArithmeticOperator + -> /
+411	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:532 - InsertUnaryOp Negation of i
+412	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:532 - InsertUnaryOp IINC 1 i
+413	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:532 - InsertUnaryOp IINC -1 i
+414	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:525 - ReplaceVariable i -> level
+415	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendSequenceText(Lcom/vividsolutions/jts/geom/CoordinateSequence;IZLjava/io/Writer;)V:534 - ReplaceConstant - ) -> 
+416	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:546 - ReplaceComparisonOperator == -> -2
+417	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:546 - ReplaceComparisonOperator == -> >=
+418	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:546 - ReplaceComparisonOperator == -> <=
+419	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:547 - ReplaceConstant - EMPTY -> 
+420	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:549 - InsertUnaryOp Negation of doIndent
+421	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:549 - InsertUnaryOp IINC 1 doIndent
+422	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:549 - InsertUnaryOp IINC -1 doIndent
+423	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:549 - ReplaceComparisonOperator == -> -2
+424	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:549 - ReplaceComparisonOperator == -> >=
+425	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:549 - ReplaceComparisonOperator == -> <=
+426	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:550 - InsertUnaryOp Negation of level
+427	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:550 - InsertUnaryOp IINC 1 level
+428	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:550 - InsertUnaryOp IINC -1 level
+429	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:551 - ReplaceConstant - ( -> 
+430	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:553 - ReplaceConstant - 0 -> 1
+431	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:553 - InsertUnaryOp Negation of i
+432	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:553 - InsertUnaryOp IINC 1 i
+433	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:553 - InsertUnaryOp IINC -1 i
+434	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:553 - ReplaceComparisonOperator >= -> -1
+435	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:553 - ReplaceComparisonOperator >= -> >
+436	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:553 - ReplaceComparisonOperator >= -> ==
+437	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:554 - InsertUnaryOp Negation of i
+438	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:554 - InsertUnaryOp IINC 1 i
+439	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:554 - InsertUnaryOp IINC -1 i
+440	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:554 - ReplaceComparisonOperator <= -> -1
+441	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:554 - ReplaceComparisonOperator <= -> ==
+442	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:554 - ReplaceComparisonOperator <= -> <
+443	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:555 - ReplaceConstant - ,  -> 
+444	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - InsertUnaryOp Negation
+445	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - InsertUnaryOp +1
+446	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - InsertUnaryOp -1
+447	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - ReplaceComparisonOperator <= -> -1
+448	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - ReplaceComparisonOperator <= -> ==
+449	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - ReplaceComparisonOperator <= -> <
+450	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - InsertUnaryOp Negation of i
+451	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - InsertUnaryOp IINC 1 i
+452	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - InsertUnaryOp IINC -1 i
+453	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - InsertUnaryOp Negation
+454	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - InsertUnaryOp +1
+455	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - InsertUnaryOp -1
+456	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - ReplaceArithmeticOperator % -> +
+457	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - ReplaceArithmeticOperator % -> -
+458	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - ReplaceArithmeticOperator % -> *
+459	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - ReplaceArithmeticOperator % -> /
+460	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - ReplaceComparisonOperator != -> -1
+461	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - ReplaceComparisonOperator != -> <
+462	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:556 - ReplaceComparisonOperator != -> >
+463	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:557 - InsertUnaryOp Negation of level
+464	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:557 - InsertUnaryOp IINC 1 level
+465	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:557 - InsertUnaryOp IINC -1 level
+466	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:557 - ReplaceConstant - 1 -> 0
+467	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:557 - ReplaceArithmeticOperator + -> %
+468	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:557 - ReplaceArithmeticOperator + -> -
+469	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:557 - ReplaceArithmeticOperator + -> *
+470	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:557 - ReplaceArithmeticOperator + -> /
+471	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:560 - InsertUnaryOp Negation of i
+472	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:560 - InsertUnaryOp IINC 1 i
+473	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:560 - InsertUnaryOp IINC -1 i
+474	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:560 - InsertUnaryOp Negation of i
+475	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:560 - InsertUnaryOp IINC 1 i
+476	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:560 - InsertUnaryOp IINC -1 i
+477	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:560 - ReplaceConstant - 1 -> 0
+478	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:560 - ReplaceArithmeticOperator + -> %
+479	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:560 - ReplaceArithmeticOperator + -> -
+480	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:560 - ReplaceArithmeticOperator + -> *
+481	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:560 - ReplaceArithmeticOperator + -> /
+482	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:553 - ReplaceVariable i -> level
+483	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendControlPointText(Lorg/geotools/geometry/jts/SingleCurvedGeometry;IZLjava/io/Writer;)V:562 - ReplaceConstant - ) -> 
+484	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:575 - ReplaceComparisonOperator == -> -2
+485	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:575 - ReplaceComparisonOperator == -> >=
+486	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:575 - ReplaceComparisonOperator == -> <=
+487	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:576 - ReplaceConstant - EMPTY -> 
+488	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:578 - InsertUnaryOp Negation of doIndent
+489	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:578 - InsertUnaryOp IINC 1 doIndent
+490	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:578 - InsertUnaryOp IINC -1 doIndent
+491	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:578 - ReplaceComparisonOperator == -> -2
+492	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:578 - ReplaceComparisonOperator == -> >=
+493	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:578 - ReplaceComparisonOperator == -> <=
+494	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:579 - InsertUnaryOp Negation of level
+495	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:579 - InsertUnaryOp IINC 1 level
+496	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:579 - InsertUnaryOp IINC -1 level
+497	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:580 - ReplaceConstant - ( -> 
+498	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:581 - ReplaceConstant - 0 -> 1
+499	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:581 - InsertUnaryOp Negation of i
+500	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:581 - InsertUnaryOp IINC 1 i
+501	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:581 - InsertUnaryOp IINC -1 i
+502	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:581 - ReplaceComparisonOperator >= -> -1
+503	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:581 - ReplaceComparisonOperator >= -> >
+504	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:581 - ReplaceComparisonOperator >= -> ==
+505	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:582 - InsertUnaryOp Negation of i
+506	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:582 - InsertUnaryOp IINC 1 i
+507	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:582 - InsertUnaryOp IINC -1 i
+508	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:582 - ReplaceComparisonOperator <= -> -1
+509	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:582 - ReplaceComparisonOperator <= -> ==
+510	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:582 - ReplaceComparisonOperator <= -> <
+511	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:583 - ReplaceConstant - ,  -> 
+512	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - InsertUnaryOp Negation
+513	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - InsertUnaryOp +1
+514	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - InsertUnaryOp -1
+515	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - ReplaceComparisonOperator <= -> -1
+516	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - ReplaceComparisonOperator <= -> ==
+517	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - ReplaceComparisonOperator <= -> <
+518	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - InsertUnaryOp Negation of i
+519	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - InsertUnaryOp IINC 1 i
+520	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - InsertUnaryOp IINC -1 i
+521	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - InsertUnaryOp Negation
+522	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - InsertUnaryOp +1
+523	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - InsertUnaryOp -1
+524	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - ReplaceArithmeticOperator % -> +
+525	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - ReplaceArithmeticOperator % -> -
+526	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - ReplaceArithmeticOperator % -> *
+527	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - ReplaceArithmeticOperator % -> /
+528	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - ReplaceComparisonOperator != -> -1
+529	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - ReplaceComparisonOperator != -> <
+530	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:584 - ReplaceComparisonOperator != -> >
+531	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:585 - InsertUnaryOp Negation of level
+532	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:585 - InsertUnaryOp IINC 1 level
+533	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:585 - InsertUnaryOp IINC -1 level
+534	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:585 - ReplaceConstant - 1 -> 0
+535	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:585 - ReplaceArithmeticOperator + -> %
+536	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:585 - ReplaceArithmeticOperator + -> -
+537	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:585 - ReplaceArithmeticOperator + -> *
+538	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:585 - ReplaceArithmeticOperator + -> /
+539	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:588 - InsertUnaryOp Negation of i
+540	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:588 - InsertUnaryOp IINC 1 i
+541	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:588 - InsertUnaryOp IINC -1 i
+542	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:581 - ReplaceVariable i -> level
+543	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendLineStringText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:590 - ReplaceConstant - ) -> 
+544	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:596 - ReplaceConstant - CURVEPOLYGON  -> 
+545	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:597 - ReplaceComparisonOperator == -> -2
+546	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:597 - ReplaceComparisonOperator == -> >=
+547	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:597 - ReplaceComparisonOperator == -> <=
+548	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:598 - ReplaceConstant - EMPTY -> 
+549	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:600 - ReplaceConstant - ( -> 
+550	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:601 - InsertUnaryOp Negation of level
+551	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:601 - InsertUnaryOp IINC 1 level
+552	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:601 - InsertUnaryOp IINC -1 level
+553	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:601 - ReplaceConstant - 0 -> 1
+554	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:602 - ReplaceConstant - 0 -> 1
+555	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:602 - InsertUnaryOp Negation of i
+556	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:602 - InsertUnaryOp IINC 1 i
+557	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:602 - InsertUnaryOp IINC -1 i
+558	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:602 - ReplaceComparisonOperator >= -> -1
+559	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:602 - ReplaceComparisonOperator >= -> >
+560	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:602 - ReplaceComparisonOperator >= -> ==
+561	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:603 - ReplaceConstant - ,  -> 
+562	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:604 - InsertUnaryOp Negation of i
+563	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:604 - InsertUnaryOp IINC 1 i
+564	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:604 - InsertUnaryOp IINC -1 i
+565	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:604 - InsertUnaryOp Negation of level
+566	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:604 - InsertUnaryOp IINC 1 level
+567	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:604 - InsertUnaryOp IINC -1 level
+568	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:604 - ReplaceConstant - 1 -> 0
+569	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:604 - ReplaceArithmeticOperator + -> %
+570	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:604 - ReplaceArithmeticOperator + -> -
+571	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:604 - ReplaceArithmeticOperator + -> *
+572	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:604 - ReplaceArithmeticOperator + -> /
+573	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:604 - ReplaceConstant - 1 -> 0
+574	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:602 - ReplaceVariable i -> level
+575	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCurvePolygonTaggedText(Lorg/geotools/geometry/jts/CurvePolygon;ILjava/io/Writer;)V:606 - ReplaceConstant - ) -> 
+576	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:612 - ReplaceConstant - MULTICURVE  -> 
+577	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:613 - ReplaceComparisonOperator == -> -2
+578	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:613 - ReplaceComparisonOperator == -> >=
+579	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:613 - ReplaceComparisonOperator == -> <=
+580	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:614 - ReplaceConstant - EMPTY -> 
+581	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:616 - ReplaceConstant - ( -> 
+582	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:617 - ReplaceConstant - 0 -> 1
+583	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:617 - InsertUnaryOp Negation of i
+584	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:617 - InsertUnaryOp IINC 1 i
+585	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:617 - InsertUnaryOp IINC -1 i
+586	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:617 - ReplaceComparisonOperator >= -> -1
+587	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:617 - ReplaceComparisonOperator >= -> >
+588	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:617 - ReplaceComparisonOperator >= -> ==
+589	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:618 - InsertUnaryOp Negation of i
+590	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:618 - InsertUnaryOp IINC 1 i
+591	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:618 - InsertUnaryOp IINC -1 i
+592	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:618 - InsertUnaryOp Negation of level
+593	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:618 - InsertUnaryOp IINC 1 level
+594	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:618 - InsertUnaryOp IINC -1 level
+595	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:618 - ReplaceConstant - 1 -> 0
+596	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:618 - ReplaceArithmeticOperator + -> %
+597	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:618 - ReplaceArithmeticOperator + -> -
+598	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:618 - ReplaceArithmeticOperator + -> *
+599	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:618 - ReplaceArithmeticOperator + -> /
+600	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:618 - ReplaceConstant - 1 -> 0
+601	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:619 - InsertUnaryOp Negation of i
+602	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:619 - InsertUnaryOp IINC 1 i
+603	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:619 - InsertUnaryOp IINC -1 i
+604	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:619 - ReplaceConstant - 1 -> 0
+605	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:619 - ReplaceArithmeticOperator - -> +
+606	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:619 - ReplaceArithmeticOperator - -> %
+607	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:619 - ReplaceArithmeticOperator - -> *
+608	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:619 - ReplaceArithmeticOperator - -> /
+609	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:619 - ReplaceComparisonOperator >= -> -1
+610	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:619 - ReplaceComparisonOperator >= -> >
+611	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:619 - ReplaceComparisonOperator >= -> ==
+612	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:620 - ReplaceConstant - ,  -> 
+613	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:617 - ReplaceVariable i -> level
+614	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiCurveTaggedText(Lorg/geotools/geometry/jts/MultiCurve;ILjava/io/Writer;)V:623 - ReplaceConstant - ) -> 
+615	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:630 - ReplaceConstant - MULTISURFACE  -> 
+616	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:631 - ReplaceComparisonOperator == -> -2
+617	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:631 - ReplaceComparisonOperator == -> >=
+618	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:631 - ReplaceComparisonOperator == -> <=
+619	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:632 - ReplaceConstant - EMPTY -> 
+620	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:634 - ReplaceConstant - ( -> 
+621	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:635 - ReplaceConstant - 0 -> 1
+622	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:635 - InsertUnaryOp Negation of i
+623	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:635 - InsertUnaryOp IINC 1 i
+624	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:635 - InsertUnaryOp IINC -1 i
+625	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:635 - ReplaceComparisonOperator >= -> -1
+626	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:635 - ReplaceComparisonOperator >= -> >
+627	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:635 - ReplaceComparisonOperator >= -> ==
+628	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:636 - InsertUnaryOp Negation of i
+629	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:636 - InsertUnaryOp IINC 1 i
+630	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:636 - InsertUnaryOp IINC -1 i
+631	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:636 - InsertUnaryOp Negation of level
+632	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:636 - InsertUnaryOp IINC 1 level
+633	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:636 - InsertUnaryOp IINC -1 level
+634	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:636 - ReplaceConstant - 1 -> 0
+635	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:636 - ReplaceArithmeticOperator + -> %
+636	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:636 - ReplaceArithmeticOperator + -> -
+637	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:636 - ReplaceArithmeticOperator + -> *
+638	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:636 - ReplaceArithmeticOperator + -> /
+639	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:636 - ReplaceConstant - 1 -> 0
+640	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:638 - InsertUnaryOp Negation of i
+641	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:638 - InsertUnaryOp IINC 1 i
+642	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:638 - InsertUnaryOp IINC -1 i
+643	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:638 - ReplaceConstant - 1 -> 0
+644	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:638 - ReplaceArithmeticOperator - -> +
+645	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:638 - ReplaceArithmeticOperator - -> %
+646	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:638 - ReplaceArithmeticOperator - -> *
+647	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:638 - ReplaceArithmeticOperator - -> /
+648	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:638 - ReplaceComparisonOperator >= -> -1
+649	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:638 - ReplaceComparisonOperator >= -> >
+650	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:638 - ReplaceComparisonOperator >= -> ==
+651	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:639 - ReplaceConstant - ,  -> 
+652	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:635 - ReplaceVariable i -> level
+653	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiSurfaceTaggedText(Lorg/geotools/geometry/jts/MultiSurface;ILjava/io/Writer;)V:642 - ReplaceConstant - ) -> 
+654	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:656 - ReplaceComparisonOperator == -> -2
+655	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:656 - ReplaceComparisonOperator == -> >=
+656	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:656 - ReplaceComparisonOperator == -> <=
+657	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:657 - ReplaceConstant - EMPTY -> 
+658	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:659 - InsertUnaryOp Negation of indentFirst
+659	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:659 - InsertUnaryOp IINC 1 indentFirst
+660	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:659 - InsertUnaryOp IINC -1 indentFirst
+661	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:659 - ReplaceComparisonOperator == -> -2
+662	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:659 - ReplaceComparisonOperator == -> >=
+663	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:659 - ReplaceComparisonOperator == -> <=
+664	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:660 - InsertUnaryOp Negation of level
+665	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:660 - InsertUnaryOp IINC 1 level
+666	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:660 - InsertUnaryOp IINC -1 level
+667	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:661 - ReplaceConstant - ( -> 
+668	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:662 - InsertUnaryOp Negation of level
+669	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:662 - InsertUnaryOp IINC 1 level
+670	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:662 - InsertUnaryOp IINC -1 level
+671	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:662 - ReplaceConstant - 0 -> 1
+672	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:663 - ReplaceConstant - 0 -> 1
+673	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:663 - InsertUnaryOp Negation of i
+674	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:663 - InsertUnaryOp IINC 1 i
+675	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:663 - InsertUnaryOp IINC -1 i
+676	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:663 - ReplaceComparisonOperator >= -> -1
+677	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:663 - ReplaceComparisonOperator >= -> >
+678	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:663 - ReplaceComparisonOperator >= -> ==
+679	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:664 - ReplaceConstant - ,  -> 
+680	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:665 - InsertUnaryOp Negation of i
+681	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:665 - InsertUnaryOp IINC 1 i
+682	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:665 - InsertUnaryOp IINC -1 i
+683	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:665 - InsertUnaryOp Negation of level
+684	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:665 - InsertUnaryOp IINC 1 level
+685	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:665 - InsertUnaryOp IINC -1 level
+686	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:665 - ReplaceConstant - 1 -> 0
+687	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:665 - ReplaceArithmeticOperator + -> %
+688	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:665 - ReplaceArithmeticOperator + -> -
+689	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:665 - ReplaceArithmeticOperator + -> *
+690	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:665 - ReplaceArithmeticOperator + -> /
+691	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:665 - ReplaceConstant - 1 -> 0
+692	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:663 - ReplaceVariable i -> level
+693	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendPolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:667 - ReplaceConstant - ) -> 
+694	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:680 - ReplaceComparisonOperator == -> -2
+695	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:680 - ReplaceComparisonOperator == -> >=
+696	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:680 - ReplaceComparisonOperator == -> <=
+697	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:681 - ReplaceConstant - EMPTY -> 
+698	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:683 - ReplaceConstant - ( -> 
+699	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:684 - ReplaceConstant - 0 -> 1
+700	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:684 - InsertUnaryOp Negation of i
+701	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:684 - InsertUnaryOp IINC 1 i
+702	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:684 - InsertUnaryOp IINC -1 i
+703	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:684 - ReplaceComparisonOperator >= -> -1
+704	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:684 - ReplaceComparisonOperator >= -> >
+705	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:684 - ReplaceComparisonOperator >= -> ==
+706	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:685 - InsertUnaryOp Negation of i
+707	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:685 - InsertUnaryOp IINC 1 i
+708	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:685 - InsertUnaryOp IINC -1 i
+709	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:685 - ReplaceComparisonOperator <= -> -1
+710	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:685 - ReplaceComparisonOperator <= -> ==
+711	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:685 - ReplaceComparisonOperator <= -> <
+712	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:686 - ReplaceConstant - ,  -> 
+713	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:687 - InsertUnaryOp Negation of i
+714	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:687 - InsertUnaryOp IINC 1 i
+715	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:687 - InsertUnaryOp IINC -1 i
+716	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:687 - InsertUnaryOp Negation of level
+717	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:687 - InsertUnaryOp IINC 1 level
+718	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:687 - InsertUnaryOp IINC -1 level
+719	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:687 - ReplaceConstant - 1 -> 0
+720	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:687 - ReplaceArithmeticOperator + -> %
+721	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:687 - ReplaceArithmeticOperator + -> -
+722	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:687 - ReplaceArithmeticOperator + -> *
+723	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:687 - ReplaceArithmeticOperator + -> /
+724	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:689 - ReplaceConstant - ( -> 
+725	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:690 - InsertUnaryOp Negation of i
+726	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:690 - InsertUnaryOp IINC 1 i
+727	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:690 - InsertUnaryOp IINC -1 i
+728	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:691 - ReplaceConstant - ) -> 
+729	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:684 - ReplaceVariable i -> level
+730	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPointText(Lcom/vividsolutions/jts/geom/MultiPoint;ILjava/io/Writer;)V:693 - ReplaceConstant - ) -> 
+731	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:699 - ReplaceConstant - COMPOUNDCURVE  -> 
+732	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:700 - ReplaceComparisonOperator == -> -2
+733	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:700 - ReplaceComparisonOperator == -> >=
+734	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:700 - ReplaceComparisonOperator == -> <=
+735	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:701 - ReplaceConstant - EMPTY -> 
+736	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:703 - InsertUnaryOp Negation of level
+737	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:703 - InsertUnaryOp IINC 1 level
+738	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:703 - InsertUnaryOp IINC -1 level
+739	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:704 - ReplaceConstant - 0 -> 1
+740	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:705 - ReplaceConstant - ( -> 
+741	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:707 - ReplaceConstant - 0 -> 1
+742	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:707 - InsertUnaryOp Negation of i
+743	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:707 - InsertUnaryOp IINC 1 i
+744	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:707 - InsertUnaryOp IINC -1 i
+745	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:707 - ReplaceComparisonOperator >= -> -1
+746	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:707 - ReplaceComparisonOperator >= -> >
+747	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:707 - ReplaceComparisonOperator >= -> ==
+748	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:708 - InsertUnaryOp Negation of i
+749	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:708 - InsertUnaryOp IINC 1 i
+750	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:708 - InsertUnaryOp IINC -1 i
+751	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:708 - ReplaceComparisonOperator <= -> -1
+752	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:708 - ReplaceComparisonOperator <= -> ==
+753	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:708 - ReplaceComparisonOperator <= -> <
+754	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:709 - ReplaceConstant - ,  -> 
+755	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:710 - InsertUnaryOp Negation of level
+756	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:710 - InsertUnaryOp IINC 1 level
+757	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:710 - InsertUnaryOp IINC -1 level
+758	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:710 - ReplaceConstant - 1 -> 0
+759	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:710 - ReplaceArithmeticOperator + -> %
+760	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:710 - ReplaceArithmeticOperator + -> -
+761	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:710 - ReplaceArithmeticOperator + -> *
+762	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:710 - ReplaceArithmeticOperator + -> /
+763	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:711 - ReplaceConstant - 1 -> 0
+764	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:713 - InsertUnaryOp Negation of i
+765	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:713 - InsertUnaryOp IINC 1 i
+766	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:713 - InsertUnaryOp IINC -1 i
+767	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:714 - InsertUnaryOp Negation of level2
+768	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:714 - InsertUnaryOp IINC 1 level2
+769	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:714 - InsertUnaryOp IINC -1 level2
+770	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:714 - InsertUnaryOp Negation of doIndent
+771	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:714 - InsertUnaryOp IINC 1 doIndent
+772	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:714 - InsertUnaryOp IINC -1 doIndent
+773	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:707 - ReplaceVariable i -> level
+774	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:707 - ReplaceVariable i -> level2
+775	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendCompoundCurveTaggedText(Lorg/geotools/geometry/jts/CompoundCurvedGeometry;ILjava/io/Writer;)V:716 - ReplaceConstant - ) -> 
+776	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:722 - ReplaceComparisonOperator == -> -2
+777	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:722 - ReplaceComparisonOperator == -> >=
+778	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:722 - ReplaceComparisonOperator == -> <=
+779	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:723 - InsertUnaryOp Negation of level
+780	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:723 - InsertUnaryOp IINC 1 level
+781	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:723 - InsertUnaryOp IINC -1 level
+782	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:724 - ReplaceComparisonOperator == -> -2
+783	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:724 - ReplaceComparisonOperator == -> >=
+784	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:724 - ReplaceComparisonOperator == -> <=
+785	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:725 - InsertUnaryOp Negation of level
+786	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:725 - InsertUnaryOp IINC 1 level
+787	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:725 - InsertUnaryOp IINC -1 level
+788	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:727 - InsertUnaryOp Negation of level
+789	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:727 - InsertUnaryOp IINC 1 level
+790	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:727 - InsertUnaryOp IINC -1 level
+791	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:727 - InsertUnaryOp Negation of doIndent
+792	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:727 - InsertUnaryOp IINC 1 doIndent
+793	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurveText(Lcom/vividsolutions/jts/geom/LineString;IZLjava/io/Writer;)V:727 - InsertUnaryOp IINC -1 doIndent
+794	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurvePolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:733 - ReplaceComparisonOperator == -> -2
+795	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurvePolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:733 - ReplaceComparisonOperator == -> >=
+796	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurvePolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:733 - ReplaceComparisonOperator == -> <=
+797	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurvePolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:734 - InsertUnaryOp Negation of level
+798	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurvePolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:734 - InsertUnaryOp IINC 1 level
+799	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurvePolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:734 - InsertUnaryOp IINC -1 level
+800	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurvePolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:736 - InsertUnaryOp Negation of level
+801	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurvePolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:736 - InsertUnaryOp IINC 1 level
+802	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurvePolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:736 - InsertUnaryOp IINC -1 level
+803	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurvePolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:736 - InsertUnaryOp Negation of doIndent
+804	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurvePolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:736 - InsertUnaryOp IINC 1 doIndent
+805	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendPotentialCurvePolygonText(Lcom/vividsolutions/jts/geom/Polygon;IZLjava/io/Writer;)V:736 - InsertUnaryOp IINC -1 doIndent
+806	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:749 - ReplaceComparisonOperator == -> -2
+807	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:749 - ReplaceComparisonOperator == -> >=
+808	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:749 - ReplaceComparisonOperator == -> <=
+809	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:750 - ReplaceConstant - EMPTY -> 
+810	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:752 - InsertUnaryOp Negation of level
+811	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:752 - InsertUnaryOp IINC 1 level
+812	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:752 - InsertUnaryOp IINC -1 level
+813	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:753 - InsertUnaryOp Negation of indentFirst
+814	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:753 - InsertUnaryOp IINC 1 indentFirst
+815	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:753 - InsertUnaryOp IINC -1 indentFirst
+816	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:754 - ReplaceConstant - ( -> 
+817	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:755 - ReplaceConstant - 0 -> 1
+818	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:755 - InsertUnaryOp Negation of i
+819	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:755 - InsertUnaryOp IINC 1 i
+820	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:755 - InsertUnaryOp IINC -1 i
+821	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:755 - ReplaceComparisonOperator >= -> -1
+822	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:755 - ReplaceComparisonOperator >= -> >
+823	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:755 - ReplaceComparisonOperator >= -> ==
+824	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:756 - InsertUnaryOp Negation of i
+825	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:756 - InsertUnaryOp IINC 1 i
+826	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:756 - InsertUnaryOp IINC -1 i
+827	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:756 - ReplaceComparisonOperator <= -> -1
+828	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:756 - ReplaceComparisonOperator <= -> ==
+829	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:756 - ReplaceComparisonOperator <= -> <
+830	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:757 - ReplaceConstant - ,  -> 
+831	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:758 - InsertUnaryOp Negation of level
+832	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:758 - InsertUnaryOp IINC 1 level
+833	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:758 - InsertUnaryOp IINC -1 level
+834	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:758 - ReplaceConstant - 1 -> 0
+835	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:758 - ReplaceArithmeticOperator + -> %
+836	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:758 - ReplaceArithmeticOperator + -> -
+837	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:758 - ReplaceArithmeticOperator + -> *
+838	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:758 - ReplaceArithmeticOperator + -> /
+839	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:759 - ReplaceConstant - 1 -> 0
+840	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:761 - InsertUnaryOp Negation of i
+841	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:761 - InsertUnaryOp IINC 1 i
+842	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:761 - InsertUnaryOp IINC -1 i
+843	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:761 - InsertUnaryOp Negation of level2
+844	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:761 - InsertUnaryOp IINC 1 level2
+845	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:761 - InsertUnaryOp IINC -1 level2
+846	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:761 - InsertUnaryOp Negation of doIndent
+847	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:761 - InsertUnaryOp IINC 1 doIndent
+848	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:761 - InsertUnaryOp IINC -1 doIndent
+849	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:755 - ReplaceVariable i -> level
+850	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:755 - ReplaceVariable i -> level2
+851	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiLineStringText(Lcom/vividsolutions/jts/geom/MultiLineString;IZLjava/io/Writer;)V:764 - ReplaceConstant - ) -> 
+852	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:777 - ReplaceComparisonOperator == -> -2
+853	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:777 - ReplaceComparisonOperator == -> >=
+854	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:777 - ReplaceComparisonOperator == -> <=
+855	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:778 - ReplaceConstant - EMPTY -> 
+856	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:780 - InsertUnaryOp Negation of level
+857	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:780 - InsertUnaryOp IINC 1 level
+858	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:780 - InsertUnaryOp IINC -1 level
+859	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:781 - ReplaceConstant - 0 -> 1
+860	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:782 - ReplaceConstant - ( -> 
+861	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:783 - ReplaceConstant - 0 -> 1
+862	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:783 - InsertUnaryOp Negation of i
+863	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:783 - InsertUnaryOp IINC 1 i
+864	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:783 - InsertUnaryOp IINC -1 i
+865	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:783 - ReplaceComparisonOperator >= -> -1
+866	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:783 - ReplaceComparisonOperator >= -> >
+867	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:783 - ReplaceComparisonOperator >= -> ==
+868	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:784 - InsertUnaryOp Negation of i
+869	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:784 - InsertUnaryOp IINC 1 i
+870	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:784 - InsertUnaryOp IINC -1 i
+871	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:784 - ReplaceComparisonOperator <= -> -1
+872	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:784 - ReplaceComparisonOperator <= -> ==
+873	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:784 - ReplaceComparisonOperator <= -> <
+874	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:785 - ReplaceConstant - ,  -> 
+875	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:786 - InsertUnaryOp Negation of level
+876	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:786 - InsertUnaryOp IINC 1 level
+877	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:786 - InsertUnaryOp IINC -1 level
+878	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:786 - ReplaceConstant - 1 -> 0
+879	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:786 - ReplaceArithmeticOperator + -> %
+880	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:786 - ReplaceArithmeticOperator + -> -
+881	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:786 - ReplaceArithmeticOperator + -> *
+882	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:786 - ReplaceArithmeticOperator + -> /
+883	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:787 - ReplaceConstant - 1 -> 0
+884	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:789 - InsertUnaryOp Negation of i
+885	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:789 - InsertUnaryOp IINC 1 i
+886	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:789 - InsertUnaryOp IINC -1 i
+887	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:789 - InsertUnaryOp Negation of level2
+888	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:789 - InsertUnaryOp IINC 1 level2
+889	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:789 - InsertUnaryOp IINC -1 level2
+890	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:789 - InsertUnaryOp Negation of doIndent
+891	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:789 - InsertUnaryOp IINC 1 doIndent
+892	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:789 - InsertUnaryOp IINC -1 doIndent
+893	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:783 - ReplaceVariable i -> level
+894	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:783 - ReplaceVariable i -> level2
+895	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendMultiPolygonText(Lcom/vividsolutions/jts/geom/MultiPolygon;ILjava/io/Writer;)V:791 - ReplaceConstant - ) -> 
+896	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:804 - ReplaceComparisonOperator == -> -2
+897	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:804 - ReplaceComparisonOperator == -> >=
+898	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:804 - ReplaceComparisonOperator == -> <=
+899	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:805 - ReplaceConstant - EMPTY -> 
+900	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:807 - InsertUnaryOp Negation of level
+901	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:807 - InsertUnaryOp IINC 1 level
+902	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:807 - InsertUnaryOp IINC -1 level
+903	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:808 - ReplaceConstant - ( -> 
+904	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:809 - ReplaceConstant - 0 -> 1
+905	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:809 - InsertUnaryOp Negation of i
+906	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:809 - InsertUnaryOp IINC 1 i
+907	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:809 - InsertUnaryOp IINC -1 i
+908	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:809 - ReplaceComparisonOperator >= -> -1
+909	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:809 - ReplaceComparisonOperator >= -> >
+910	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:809 - ReplaceComparisonOperator >= -> ==
+911	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:810 - InsertUnaryOp Negation of i
+912	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:810 - InsertUnaryOp IINC 1 i
+913	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:810 - InsertUnaryOp IINC -1 i
+914	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:810 - ReplaceComparisonOperator <= -> -1
+915	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:810 - ReplaceComparisonOperator <= -> ==
+916	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:810 - ReplaceComparisonOperator <= -> <
+917	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:811 - ReplaceConstant - ,  -> 
+918	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:812 - InsertUnaryOp Negation of level
+919	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:812 - InsertUnaryOp IINC 1 level
+920	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:812 - InsertUnaryOp IINC -1 level
+921	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:812 - ReplaceConstant - 1 -> 0
+922	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:812 - ReplaceArithmeticOperator + -> %
+923	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:812 - ReplaceArithmeticOperator + -> -
+924	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:812 - ReplaceArithmeticOperator + -> *
+925	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:812 - ReplaceArithmeticOperator + -> /
+926	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:814 - InsertUnaryOp Negation of i
+927	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:814 - InsertUnaryOp IINC 1 i
+928	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:814 - InsertUnaryOp IINC -1 i
+929	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:814 - InsertUnaryOp Negation of level2
+930	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:814 - InsertUnaryOp IINC 1 level2
+931	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:814 - InsertUnaryOp IINC -1 level2
+932	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:809 - ReplaceVariable i -> level
+933	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:809 - ReplaceVariable i -> level2
+934	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.appendGeometryCollectionText(Lcom/vividsolutions/jts/geom/GeometryCollection;ILjava/io/Writer;)V:816 - ReplaceConstant - ) -> 
+935	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - InsertUnaryOp Negation
+936	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - InsertUnaryOp +1
+937	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - InsertUnaryOp -1
+938	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - ReplaceComparisonOperator <= -> -1
+939	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - ReplaceComparisonOperator <= -> ==
+940	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - ReplaceComparisonOperator <= -> <
+941	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - InsertUnaryOp Negation of coordIndex
+942	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - InsertUnaryOp IINC 1 coordIndex
+943	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - InsertUnaryOp IINC -1 coordIndex
+944	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - InsertUnaryOp Negation
+945	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - InsertUnaryOp +1
+946	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - InsertUnaryOp -1
+947	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - ReplaceArithmeticOperator % -> +
+948	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - ReplaceArithmeticOperator % -> -
+949	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - ReplaceArithmeticOperator % -> *
+950	ReplaceArithmeticOperator	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - ReplaceArithmeticOperator % -> /
+951	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - ReplaceComparisonOperator == -> -2
+952	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - ReplaceComparisonOperator == -> >=
+953	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:821 - ReplaceComparisonOperator == -> <=
+954	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:823 - InsertUnaryOp Negation of level
+955	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:823 - InsertUnaryOp IINC 1 level
+956	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indentCoords(IILjava/io/Writer;)V:823 - InsertUnaryOp IINC -1 level
+957	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:827 - InsertUnaryOp Negation
+958	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:827 - ReplaceComparisonOperator == -> -2
+959	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:827 - ReplaceComparisonOperator == -> >=
+960	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:827 - ReplaceComparisonOperator == -> <=
+961	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:827 - InsertUnaryOp Negation of level
+962	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:827 - InsertUnaryOp IINC 1 level
+963	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:827 - InsertUnaryOp IINC -1 level
+964	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:827 - ReplaceComparisonOperator > -> -2
+965	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:827 - ReplaceComparisonOperator > -> !=
+966	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:827 - ReplaceComparisonOperator > -> >=
+967	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:829 - ReplaceConstant - 
+ -> 
+968	ReplaceConstant	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:830 - ReplaceConstant - 0 -> 1
+969	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:830 - InsertUnaryOp Negation of i
+970	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:830 - InsertUnaryOp IINC 1 i
+971	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:830 - InsertUnaryOp IINC -1 i
+972	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:830 - InsertUnaryOp Negation of level
+973	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:830 - InsertUnaryOp IINC 1 level
+974	InsertUnaryOp	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:830 - InsertUnaryOp IINC -1 level
+975	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:830 - ReplaceComparisonOperator >= -> -1
+976	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:830 - ReplaceComparisonOperator >= -> >
+977	ReplaceComparisonOperator	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:830 - ReplaceComparisonOperator >= -> ==
+978	ReplaceVariable	org.geotools.geometry.jts.WKTWriter2.indent(ILjava/io/Writer;)V:830 - ReplaceVariable i -> level

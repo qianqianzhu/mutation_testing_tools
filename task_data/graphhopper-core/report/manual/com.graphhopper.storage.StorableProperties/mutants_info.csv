@@ -1,0 +1,177 @@
+0	ReplaceConstant	com.graphhopper.storage.StorableProperties.<init>(Lcom/graphhopper/storage/Directory;)V:39 - ReplaceConstant - properties -> 
+1	ReplaceConstant	com.graphhopper.storage.StorableProperties.<init>(Lcom/graphhopper/storage/Directory;)V:41 - ReplaceConstant - 32768 -> 0
+2	ReplaceConstant	com.graphhopper.storage.StorableProperties.<init>(Lcom/graphhopper/storage/Directory;)V:41 - ReplaceConstant - 32768 -> 1
+3	ReplaceConstant	com.graphhopper.storage.StorableProperties.<init>(Lcom/graphhopper/storage/Directory;)V:41 - ReplaceConstant - 32768 -> -1
+4	ReplaceConstant	com.graphhopper.storage.StorableProperties.<init>(Lcom/graphhopper/storage/Directory;)V:41 - ReplaceConstant - 32768 -> 32767
+5	ReplaceConstant	com.graphhopper.storage.StorableProperties.<init>(Lcom/graphhopper/storage/Directory;)V:41 - ReplaceConstant - 32768 -> 32769
+6	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.loadExisting()Z:46 - ReplaceComparisonOperator != -> -1
+7	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.loadExisting()Z:46 - ReplaceComparisonOperator != -> <
+8	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.loadExisting()Z:46 - ReplaceComparisonOperator != -> >
+9	ReplaceConstant	com.graphhopper.storage.StorableProperties.loadExisting()Z:47 - ReplaceConstant - 0 -> 1
+10	InsertUnaryOp	com.graphhopper.storage.StorableProperties.loadExisting()Z:50 - InsertUnaryOp Negation of len
+11	InsertUnaryOp	com.graphhopper.storage.StorableProperties.loadExisting()Z:50 - InsertUnaryOp IINC 1 len
+12	InsertUnaryOp	com.graphhopper.storage.StorableProperties.loadExisting()Z:50 - InsertUnaryOp IINC -1 len
+13	ReplaceConstant	com.graphhopper.storage.StorableProperties.loadExisting()Z:51 - ReplaceConstant - 0 -> 1
+14	ReplaceConstant	com.graphhopper.storage.StorableProperties.loadExisting()Z:51 - ReplaceConstant - 0 -> -1
+15	InsertUnaryOp	com.graphhopper.storage.StorableProperties.loadExisting()Z:51 - InsertUnaryOp Negation of len
+16	InsertUnaryOp	com.graphhopper.storage.StorableProperties.loadExisting()Z:51 - InsertUnaryOp IINC 1 len
+17	InsertUnaryOp	com.graphhopper.storage.StorableProperties.loadExisting()Z:51 - InsertUnaryOp IINC -1 len
+18	ReplaceConstant	com.graphhopper.storage.StorableProperties.loadExisting()Z:54 - ReplaceConstant - 1 -> 0
+19	ReplaceConstant	com.graphhopper.storage.StorableProperties.flush()V:67 - ReplaceConstant - 0 -> 1
+20	ReplaceConstant	com.graphhopper.storage.StorableProperties.flush()V:67 - ReplaceConstant - 0 -> -1
+21	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.put(Ljava/lang/String;Ljava/lang/Object;)Lcom/graphhopper/storage/StorableProperties;:93 - ReplaceComparisonOperator != -> -1
+22	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.put(Ljava/lang/String;Ljava/lang/Object;)Lcom/graphhopper/storage/StorableProperties;:93 - ReplaceComparisonOperator != -> <
+23	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.put(Ljava/lang/String;Ljava/lang/Object;)Lcom/graphhopper/storage/StorableProperties;:93 - ReplaceComparisonOperator != -> >
+24	ReplaceConstant	com.graphhopper.storage.StorableProperties.put(Ljava/lang/String;Ljava/lang/Object;)Lcom/graphhopper/storage/StorableProperties;:94 - ReplaceConstant - Do not use upper case keys ( -> 
+25	ReplaceConstant	com.graphhopper.storage.StorableProperties.put(Ljava/lang/String;Ljava/lang/Object;)Lcom/graphhopper/storage/StorableProperties;:94 - ReplaceConstant - ) for StorableProperties since 0.7 -> 
+26	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.get(Ljava/lang/String;)Ljava/lang/String;:101 - ReplaceComparisonOperator != -> -1
+27	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.get(Ljava/lang/String;)Ljava/lang/String;:101 - ReplaceComparisonOperator != -> <
+28	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.get(Ljava/lang/String;)Ljava/lang/String;:101 - ReplaceComparisonOperator != -> >
+29	ReplaceConstant	com.graphhopper.storage.StorableProperties.get(Ljava/lang/String;)Ljava/lang/String;:102 - ReplaceConstant - Do not use upper case keys ( -> 
+30	ReplaceConstant	com.graphhopper.storage.StorableProperties.get(Ljava/lang/String;)Ljava/lang/String;:102 - ReplaceConstant - ) for StorableProperties since 0.7 -> 
+31	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.get(Ljava/lang/String;)Ljava/lang/String;:105 - ReplaceComparisonOperator != null -> = null
+32	InsertUnaryOp	com.graphhopper.storage.StorableProperties.create(J)Lcom/graphhopper/storage/StorableProperties;:123 - InsertUnaryOp Negation of size
+33	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:133 - ReplaceConstant - nodes.version -> 
+34	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:133 - ReplaceConstant - 5 -> 0
+35	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:133 - ReplaceConstant - 5 -> 1
+36	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:133 - ReplaceConstant - 5 -> -1
+37	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:133 - ReplaceConstant - 5 -> 4
+38	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:133 - ReplaceConstant - 5 -> 6
+39	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:134 - ReplaceConstant - edges.version -> 
+40	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:134 - ReplaceConstant - 14 -> 0
+41	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:134 - ReplaceConstant - 14 -> 1
+42	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:134 - ReplaceConstant - 14 -> -1
+43	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:134 - ReplaceConstant - 14 -> 13
+44	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:134 - ReplaceConstant - 14 -> 15
+45	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:135 - ReplaceConstant - geometry.version -> 
+46	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:135 - ReplaceConstant - 4 -> 0
+47	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:135 - ReplaceConstant - 4 -> 1
+48	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:135 - ReplaceConstant - 4 -> -1
+49	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:135 - ReplaceConstant - 4 -> 3
+50	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:135 - ReplaceConstant - 4 -> 5
+51	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:136 - ReplaceConstant - location_index.version -> 
+52	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:136 - ReplaceConstant - 3 -> 0
+53	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:136 - ReplaceConstant - 3 -> 1
+54	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:136 - ReplaceConstant - 3 -> -1
+55	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:136 - ReplaceConstant - 3 -> 2
+56	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:136 - ReplaceConstant - 3 -> 4
+57	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:137 - ReplaceConstant - name_index.version -> 
+58	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:137 - ReplaceConstant - 3 -> 0
+59	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:137 - ReplaceConstant - 3 -> 1
+60	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:137 - ReplaceConstant - 3 -> -1
+61	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:137 - ReplaceConstant - 3 -> 2
+62	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:137 - ReplaceConstant - 3 -> 4
+63	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:138 - ReplaceConstant - shortcuts.version -> 
+64	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:138 - ReplaceConstant - 2 -> 0
+65	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:138 - ReplaceConstant - 2 -> 1
+66	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:138 - ReplaceConstant - 2 -> -1
+67	ReplaceConstant	com.graphhopper.storage.StorableProperties.putCurrentVersions()V:138 - ReplaceConstant - 2 -> 3
+68	ReplaceConstant	com.graphhopper.storage.StorableProperties.versionsToString()Ljava/lang/String;:142 - ReplaceConstant - nodes.version -> 
+69	ReplaceConstant	com.graphhopper.storage.StorableProperties.versionsToString()Ljava/lang/String;:142 - ReplaceConstant - , -> 
+70	ReplaceConstant	com.graphhopper.storage.StorableProperties.versionsToString()Ljava/lang/String;:142 - ReplaceConstant - edges.version -> 
+71	ReplaceConstant	com.graphhopper.storage.StorableProperties.versionsToString()Ljava/lang/String;:143 - ReplaceConstant - , -> 
+72	ReplaceConstant	com.graphhopper.storage.StorableProperties.versionsToString()Ljava/lang/String;:143 - ReplaceConstant - geometry.version -> 
+73	ReplaceConstant	com.graphhopper.storage.StorableProperties.versionsToString()Ljava/lang/String;:144 - ReplaceConstant - , -> 
+74	ReplaceConstant	com.graphhopper.storage.StorableProperties.versionsToString()Ljava/lang/String;:144 - ReplaceConstant - location_index.version -> 
+75	ReplaceConstant	com.graphhopper.storage.StorableProperties.versionsToString()Ljava/lang/String;:145 - ReplaceConstant - , -> 
+76	ReplaceConstant	com.graphhopper.storage.StorableProperties.versionsToString()Ljava/lang/String;:145 - ReplaceConstant - name_index.version -> 
+77	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:150 - ReplaceConstant - nodes -> 
+78	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:150 - ReplaceConstant - 5 -> 0
+79	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:150 - ReplaceConstant - 5 -> 1
+80	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:150 - ReplaceConstant - 5 -> -1
+81	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:150 - ReplaceConstant - 5 -> 4
+82	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:150 - ReplaceConstant - 5 -> 6
+83	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:150 - InsertUnaryOp Negation of silent
+84	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:150 - InsertUnaryOp IINC 1 silent
+85	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:150 - InsertUnaryOp IINC -1 silent
+86	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:150 - ReplaceComparisonOperator != -> -1
+87	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:150 - ReplaceComparisonOperator != -> <
+88	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:150 - ReplaceComparisonOperator != -> >
+89	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:151 - ReplaceConstant - 0 -> 1
+90	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:153 - ReplaceConstant - edges -> 
+91	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:153 - ReplaceConstant - 14 -> 0
+92	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:153 - ReplaceConstant - 14 -> 1
+93	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:153 - ReplaceConstant - 14 -> -1
+94	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:153 - ReplaceConstant - 14 -> 13
+95	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:153 - ReplaceConstant - 14 -> 15
+96	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:153 - InsertUnaryOp Negation of silent
+97	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:153 - InsertUnaryOp IINC 1 silent
+98	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:153 - InsertUnaryOp IINC -1 silent
+99	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:153 - ReplaceComparisonOperator != -> -1
+100	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:153 - ReplaceComparisonOperator != -> <
+101	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:153 - ReplaceComparisonOperator != -> >
+102	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:154 - ReplaceConstant - 0 -> 1
+103	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:156 - ReplaceConstant - geometry -> 
+104	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:156 - ReplaceConstant - 4 -> 0
+105	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:156 - ReplaceConstant - 4 -> 1
+106	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:156 - ReplaceConstant - 4 -> -1
+107	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:156 - ReplaceConstant - 4 -> 3
+108	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:156 - ReplaceConstant - 4 -> 5
+109	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:156 - InsertUnaryOp Negation of silent
+110	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:156 - InsertUnaryOp IINC 1 silent
+111	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:156 - InsertUnaryOp IINC -1 silent
+112	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:156 - ReplaceComparisonOperator != -> -1
+113	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:156 - ReplaceComparisonOperator != -> <
+114	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:156 - ReplaceComparisonOperator != -> >
+115	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:157 - ReplaceConstant - 0 -> 1
+116	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:159 - ReplaceConstant - location_index -> 
+117	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:159 - ReplaceConstant - 3 -> 0
+118	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:159 - ReplaceConstant - 3 -> 1
+119	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:159 - ReplaceConstant - 3 -> -1
+120	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:159 - ReplaceConstant - 3 -> 2
+121	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:159 - ReplaceConstant - 3 -> 4
+122	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:159 - InsertUnaryOp Negation of silent
+123	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:159 - InsertUnaryOp IINC 1 silent
+124	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:159 - InsertUnaryOp IINC -1 silent
+125	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:159 - ReplaceComparisonOperator != -> -1
+126	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:159 - ReplaceComparisonOperator != -> <
+127	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:159 - ReplaceComparisonOperator != -> >
+128	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:160 - ReplaceConstant - 0 -> 1
+129	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:162 - ReplaceConstant - name_index -> 
+130	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:162 - ReplaceConstant - 3 -> 0
+131	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:162 - ReplaceConstant - 3 -> 1
+132	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:162 - ReplaceConstant - 3 -> -1
+133	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:162 - ReplaceConstant - 3 -> 2
+134	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:162 - ReplaceConstant - 3 -> 4
+135	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:162 - InsertUnaryOp Negation of silent
+136	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:162 - InsertUnaryOp IINC 1 silent
+137	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:162 - InsertUnaryOp IINC -1 silent
+138	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:162 - ReplaceComparisonOperator != -> -1
+139	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:162 - ReplaceComparisonOperator != -> <
+140	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:162 - ReplaceComparisonOperator != -> >
+141	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:163 - ReplaceConstant - 0 -> 1
+142	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:165 - ReplaceConstant - shortcuts -> 
+143	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:165 - ReplaceConstant - 2 -> 0
+144	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:165 - ReplaceConstant - 2 -> 1
+145	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:165 - ReplaceConstant - 2 -> -1
+146	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:165 - ReplaceConstant - 2 -> 3
+147	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:165 - InsertUnaryOp Negation of silent
+148	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:165 - InsertUnaryOp IINC 1 silent
+149	InsertUnaryOp	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:165 - InsertUnaryOp IINC -1 silent
+150	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:165 - ReplaceComparisonOperator != -> -1
+151	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:165 - ReplaceComparisonOperator != -> <
+152	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:165 - ReplaceComparisonOperator != -> >
+153	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:166 - ReplaceConstant - 0 -> 1
+154	ReplaceConstant	com.graphhopper.storage.StorableProperties.checkVersions(Z)Z:170 - ReplaceConstant - 1 -> 0
+155	ReplaceConstant	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:174 - ReplaceConstant - .version -> 
+156	InsertUnaryOp	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:175 - InsertUnaryOp Negation of vers
+157	InsertUnaryOp	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:175 - InsertUnaryOp IINC 1 vers
+158	InsertUnaryOp	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:175 - InsertUnaryOp IINC -1 vers
+159	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:175 - ReplaceComparisonOperator != -> -1
+160	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:175 - ReplaceComparisonOperator != -> <
+161	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:175 - ReplaceComparisonOperator != -> >
+162	InsertUnaryOp	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:176 - InsertUnaryOp Negation of silent
+163	InsertUnaryOp	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:176 - InsertUnaryOp IINC 1 silent
+164	InsertUnaryOp	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:176 - InsertUnaryOp IINC -1 silent
+165	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:176 - ReplaceComparisonOperator == -> -2
+166	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:176 - ReplaceComparisonOperator == -> >=
+167	ReplaceComparisonOperator	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:176 - ReplaceComparisonOperator == -> <=
+168	ReplaceConstant	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:177 - ReplaceConstant - 0 -> 1
+169	ReplaceConstant	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:179 - ReplaceConstant - Version of  -> 
+170	ReplaceConstant	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:179 - ReplaceConstant -  unsupported:  -> 
+171	ReplaceConstant	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:179 - ReplaceConstant - , expected: -> 
+172	InsertUnaryOp	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:179 - InsertUnaryOp Negation of vers
+173	InsertUnaryOp	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:179 - InsertUnaryOp IINC 1 vers
+174	InsertUnaryOp	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:179 - InsertUnaryOp IINC -1 vers
+175	ReplaceConstant	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:179 - ReplaceConstant - . Make sure you are using the same GraphHopper version for reading the files that was used for creating them. See https://discuss.graphhopper.com/t/722 -> 
+176	ReplaceConstant	com.graphhopper.storage.StorableProperties.check(Ljava/lang/String;IZ)Z:183 - ReplaceConstant - 1 -> 0

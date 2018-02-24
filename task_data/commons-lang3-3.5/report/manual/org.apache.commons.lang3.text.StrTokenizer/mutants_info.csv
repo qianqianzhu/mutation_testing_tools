@@ -1,0 +1,628 @@
+0	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.<init>()V:126 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.<init>()V:128 - ReplaceConstant - 1 -> 0
+2	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.<init>(Ljava/lang/String;)V:126 - ReplaceConstant - 0 -> 1
+3	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.<init>(Ljava/lang/String;)V:128 - ReplaceConstant - 1 -> 0
+4	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.<init>(Ljava/lang/String;)V:252 - ReplaceComparisonOperator = null -> != null
+5	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>(Ljava/lang/String;C)V:267 - InsertUnaryOp Negation of delim
+6	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>(Ljava/lang/String;C)V:267 - InsertUnaryOp IINC 1 delim
+7	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>(Ljava/lang/String;C)V:267 - InsertUnaryOp IINC -1 delim
+8	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>(Ljava/lang/String;CC)V:301 - InsertUnaryOp Negation of delim
+9	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>(Ljava/lang/String;CC)V:301 - InsertUnaryOp IINC 1 delim
+10	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>(Ljava/lang/String;CC)V:301 - InsertUnaryOp IINC -1 delim
+11	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>(Ljava/lang/String;CC)V:302 - InsertUnaryOp Negation of quote
+12	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>(Ljava/lang/String;CC)V:302 - InsertUnaryOp IINC 1 quote
+13	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>(Ljava/lang/String;CC)V:302 - InsertUnaryOp IINC -1 quote
+14	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.<init>([C)V:126 - ReplaceConstant - 0 -> 1
+15	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.<init>([C)V:128 - ReplaceConstant - 1 -> 0
+16	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>([CC)V:337 - InsertUnaryOp Negation of delim
+17	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>([CC)V:337 - InsertUnaryOp IINC 1 delim
+18	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>([CC)V:337 - InsertUnaryOp IINC -1 delim
+19	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>([CCC)V:371 - InsertUnaryOp Negation of delim
+20	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>([CCC)V:371 - InsertUnaryOp IINC 1 delim
+21	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>([CCC)V:371 - InsertUnaryOp IINC -1 delim
+22	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>([CCC)V:372 - InsertUnaryOp Negation of quote
+23	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>([CCC)V:372 - InsertUnaryOp IINC 1 quote
+24	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.<init>([CCC)V:372 - InsertUnaryOp IINC -1 quote
+25	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.nextToken()Ljava/lang/String;:408 - ReplaceComparisonOperator == -> -2
+26	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.nextToken()Ljava/lang/String;:408 - ReplaceComparisonOperator == -> >=
+27	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.nextToken()Ljava/lang/String;:408 - ReplaceComparisonOperator == -> <=
+28	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.nextToken()Ljava/lang/String;:409 - InsertUnaryOp Negation
+29	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.nextToken()Ljava/lang/String;:409 - InsertUnaryOp +1
+30	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.nextToken()Ljava/lang/String;:409 - InsertUnaryOp -1
+31	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.nextToken()Ljava/lang/String;:409 - ReplaceConstant - 1 -> 0
+32	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.nextToken()Ljava/lang/String;:409 - ReplaceArithmeticOperator + -> %
+33	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.nextToken()Ljava/lang/String;:409 - ReplaceArithmeticOperator + -> -
+34	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.nextToken()Ljava/lang/String;:409 - ReplaceArithmeticOperator + -> *
+35	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.nextToken()Ljava/lang/String;:409 - ReplaceArithmeticOperator + -> /
+36	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.previousToken()Ljava/lang/String;:420 - ReplaceComparisonOperator == -> -2
+37	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.previousToken()Ljava/lang/String;:420 - ReplaceComparisonOperator == -> >=
+38	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.previousToken()Ljava/lang/String;:420 - ReplaceComparisonOperator == -> <=
+39	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.previousToken()Ljava/lang/String;:421 - InsertUnaryOp Negation
+40	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.previousToken()Ljava/lang/String;:421 - InsertUnaryOp +1
+41	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.previousToken()Ljava/lang/String;:421 - InsertUnaryOp -1
+42	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.previousToken()Ljava/lang/String;:421 - ReplaceConstant - 1 -> 0
+43	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.previousToken()Ljava/lang/String;:421 - ReplaceArithmeticOperator - -> +
+44	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.previousToken()Ljava/lang/String;:421 - ReplaceArithmeticOperator - -> %
+45	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.previousToken()Ljava/lang/String;:421 - ReplaceArithmeticOperator - -> *
+46	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.previousToken()Ljava/lang/String;:421 - ReplaceArithmeticOperator - -> /
+47	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.getTokenList()Ljava/util/List;:444 - ReplaceConstant - 0 -> 1
+48	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.getTokenList()Ljava/util/List;:444 - ReplaceComparisonOperator >= -> -1
+49	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.getTokenList()Ljava/util/List;:444 - ReplaceComparisonOperator >= -> >
+50	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.getTokenList()Ljava/util/List;:444 - ReplaceComparisonOperator >= -> ==
+51	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.reset()Lorg/apache/commons/lang3/text/StrTokenizer;:458 - ReplaceConstant - 0 -> 1
+52	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.reset(Ljava/lang/String;)Lorg/apache/commons/lang3/text/StrTokenizer;:473 - ReplaceComparisonOperator = null -> != null
+53	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.hasNext()Z:505 - InsertUnaryOp Negation
+54	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.hasNext()Z:505 - InsertUnaryOp +1
+55	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.hasNext()Z:505 - InsertUnaryOp -1
+56	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.hasNext()Z:505 - ReplaceComparisonOperator >= -> -1
+57	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.hasNext()Z:505 - ReplaceComparisonOperator >= -> >
+58	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.hasNext()Z:505 - ReplaceComparisonOperator >= -> ==
+59	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.hasNext()Z:505 - ReplaceConstant - 1 -> 0
+60	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.hasNext()Z:505 - ReplaceConstant - 0 -> 1
+61	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.next()Ljava/lang/String;:516 - ReplaceComparisonOperator == -> -2
+62	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.next()Ljava/lang/String;:516 - ReplaceComparisonOperator == -> >=
+63	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.next()Ljava/lang/String;:516 - ReplaceComparisonOperator == -> <=
+64	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.next()Ljava/lang/String;:517 - InsertUnaryOp Negation
+65	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.next()Ljava/lang/String;:517 - InsertUnaryOp +1
+66	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.next()Ljava/lang/String;:517 - InsertUnaryOp -1
+67	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.next()Ljava/lang/String;:517 - ReplaceConstant - 1 -> 0
+68	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.next()Ljava/lang/String;:517 - ReplaceArithmeticOperator + -> %
+69	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.next()Ljava/lang/String;:517 - ReplaceArithmeticOperator + -> -
+70	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.next()Ljava/lang/String;:517 - ReplaceArithmeticOperator + -> *
+71	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.next()Ljava/lang/String;:517 - ReplaceArithmeticOperator + -> /
+72	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.nextIndex()I:529 - InsertUnaryOp Negation
+73	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.nextIndex()I:529 - InsertUnaryOp +1
+74	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.nextIndex()I:529 - InsertUnaryOp -1
+75	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.hasPrevious()Z:540 - InsertUnaryOp Negation
+76	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.hasPrevious()Z:540 - InsertUnaryOp +1
+77	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.hasPrevious()Z:540 - InsertUnaryOp -1
+78	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.hasPrevious()Z:540 - ReplaceComparisonOperator <= -> -1
+79	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.hasPrevious()Z:540 - ReplaceComparisonOperator <= -> ==
+80	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.hasPrevious()Z:540 - ReplaceComparisonOperator <= -> <
+81	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.hasPrevious()Z:540 - ReplaceConstant - 1 -> 0
+82	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.hasPrevious()Z:540 - ReplaceConstant - 0 -> 1
+83	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.previous()Ljava/lang/String;:550 - ReplaceComparisonOperator == -> -2
+84	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.previous()Ljava/lang/String;:550 - ReplaceComparisonOperator == -> >=
+85	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.previous()Ljava/lang/String;:550 - ReplaceComparisonOperator == -> <=
+86	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.previous()Ljava/lang/String;:551 - InsertUnaryOp Negation
+87	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.previous()Ljava/lang/String;:551 - InsertUnaryOp +1
+88	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.previous()Ljava/lang/String;:551 - InsertUnaryOp -1
+89	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.previous()Ljava/lang/String;:551 - ReplaceConstant - 1 -> 0
+90	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.previous()Ljava/lang/String;:551 - ReplaceArithmeticOperator - -> +
+91	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.previous()Ljava/lang/String;:551 - ReplaceArithmeticOperator - -> %
+92	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.previous()Ljava/lang/String;:551 - ReplaceArithmeticOperator - -> *
+93	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.previous()Ljava/lang/String;:551 - ReplaceArithmeticOperator - -> /
+94	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.previousIndex()I:563 - InsertUnaryOp Negation
+95	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.previousIndex()I:563 - InsertUnaryOp +1
+96	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.previousIndex()I:563 - InsertUnaryOp -1
+97	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.previousIndex()I:563 - ReplaceConstant - 1 -> 0
+98	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.previousIndex()I:563 - ReplaceArithmeticOperator - -> +
+99	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.previousIndex()I:563 - ReplaceArithmeticOperator - -> %
+100	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.previousIndex()I:563 - ReplaceArithmeticOperator - -> *
+101	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.previousIndex()I:563 - ReplaceArithmeticOperator - -> /
+102	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.remove()V:573 - ReplaceConstant - remove() is unsupported -> 
+103	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.set(Ljava/lang/String;)V:583 - ReplaceConstant - set() is unsupported -> 
+104	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.add(Ljava/lang/String;)V:593 - ReplaceConstant - add() is unsupported -> 
+105	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.checkTokenized()V:602 - ReplaceComparisonOperator != null -> = null
+106	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.checkTokenized()V:603 - ReplaceComparisonOperator != null -> = null
+107	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.checkTokenized()V:605 - ReplaceConstant - 0 -> 1
+108	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.checkTokenized()V:605 - ReplaceConstant - 0 -> 1
+109	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.checkTokenized()V:608 - ReplaceConstant - 0 -> 1
+110	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:635 - ReplaceComparisonOperator = null -> != null
+111	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:635 - InsertUnaryOp Negation of count
+112	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:635 - InsertUnaryOp IINC 1 count
+113	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:635 - InsertUnaryOp IINC -1 count
+114	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:635 - ReplaceComparisonOperator != -> -1
+115	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:635 - ReplaceComparisonOperator != -> <
+116	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:635 - ReplaceComparisonOperator != -> >
+117	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:640 - InsertUnaryOp Negation of offset
+118	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:640 - InsertUnaryOp IINC 1 offset
+119	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:640 - InsertUnaryOp IINC -1 offset
+120	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:643 - InsertUnaryOp Negation of pos
+121	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:643 - InsertUnaryOp IINC 1 pos
+122	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:643 - InsertUnaryOp IINC -1 pos
+123	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:643 - ReplaceComparisonOperator < -> -2
+124	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:643 - ReplaceComparisonOperator < -> !=
+125	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:643 - ReplaceComparisonOperator < -> <=
+126	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:643 - InsertUnaryOp Negation of pos
+127	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:643 - InsertUnaryOp IINC 1 pos
+128	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:643 - InsertUnaryOp IINC -1 pos
+129	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:643 - InsertUnaryOp Negation of count
+130	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:643 - InsertUnaryOp IINC 1 count
+131	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:643 - InsertUnaryOp IINC -1 count
+132	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:643 - ReplaceComparisonOperator >= -> -1
+133	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:643 - ReplaceComparisonOperator >= -> >
+134	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:643 - ReplaceComparisonOperator >= -> ==
+135	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:645 - InsertUnaryOp Negation of pos
+136	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:645 - InsertUnaryOp IINC 1 pos
+137	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:645 - InsertUnaryOp IINC -1 pos
+138	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:645 - InsertUnaryOp Negation of count
+139	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:645 - InsertUnaryOp IINC 1 count
+140	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:645 - InsertUnaryOp IINC -1 count
+141	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:648 - InsertUnaryOp Negation of pos
+142	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:648 - InsertUnaryOp IINC 1 pos
+143	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:648 - InsertUnaryOp IINC -1 pos
+144	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:648 - InsertUnaryOp Negation of count
+145	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:648 - InsertUnaryOp IINC 1 count
+146	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:648 - InsertUnaryOp IINC -1 count
+147	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:648 - ReplaceComparisonOperator < -> !=
+148	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:648 - ReplaceComparisonOperator < -> -2
+149	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.tokenize([CII)Ljava/util/List;:648 - ReplaceComparisonOperator < -> <=
+150	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.addToken(Ljava/util/List;Ljava/lang/String;)V:662 - ReplaceComparisonOperator == -> -2
+151	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.addToken(Ljava/util/List;Ljava/lang/String;)V:662 - ReplaceComparisonOperator == -> >=
+152	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.addToken(Ljava/util/List;Ljava/lang/String;)V:662 - ReplaceComparisonOperator == -> <=
+153	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.addToken(Ljava/util/List;Ljava/lang/String;)V:663 - ReplaceComparisonOperator == -> -2
+154	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.addToken(Ljava/util/List;Ljava/lang/String;)V:663 - ReplaceComparisonOperator == -> >=
+155	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.addToken(Ljava/util/List;Ljava/lang/String;)V:663 - ReplaceComparisonOperator == -> <=
+156	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.addToken(Ljava/util/List;Ljava/lang/String;)V:666 - ReplaceComparisonOperator == -> -2
+157	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.addToken(Ljava/util/List;Ljava/lang/String;)V:666 - ReplaceComparisonOperator == -> >=
+158	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.addToken(Ljava/util/List;Ljava/lang/String;)V:666 - ReplaceComparisonOperator == -> <=
+159	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:687 - InsertUnaryOp Negation of start
+160	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:687 - InsertUnaryOp IINC 1 start
+161	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:687 - InsertUnaryOp IINC -1 start
+162	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:687 - InsertUnaryOp Negation of len
+163	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:687 - InsertUnaryOp IINC 1 len
+164	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:687 - InsertUnaryOp IINC -1 len
+165	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:687 - ReplaceComparisonOperator >= -> -1
+166	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:687 - ReplaceComparisonOperator >= -> >
+167	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:687 - ReplaceComparisonOperator >= -> ==
+168	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:689 - InsertUnaryOp Negation of start
+169	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:689 - InsertUnaryOp IINC 1 start
+170	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:689 - InsertUnaryOp IINC -1 start
+171	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:689 - InsertUnaryOp Negation of start
+172	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:689 - InsertUnaryOp IINC 1 start
+173	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:689 - InsertUnaryOp IINC -1 start
+174	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:689 - InsertUnaryOp Negation of len
+175	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:689 - InsertUnaryOp IINC 1 len
+176	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:689 - InsertUnaryOp IINC -1 len
+177	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:690 - InsertUnaryOp Negation of start
+178	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:690 - InsertUnaryOp IINC 1 start
+179	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:690 - InsertUnaryOp IINC -1 start
+180	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:690 - InsertUnaryOp Negation of start
+181	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:690 - InsertUnaryOp IINC 1 start
+182	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:690 - InsertUnaryOp IINC -1 start
+183	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:690 - InsertUnaryOp Negation of len
+184	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:690 - InsertUnaryOp IINC 1 len
+185	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:690 - InsertUnaryOp IINC -1 len
+186	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:691 - InsertUnaryOp Negation of removeLen
+187	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:691 - InsertUnaryOp IINC 1 removeLen
+188	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:691 - InsertUnaryOp IINC -1 removeLen
+189	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:691 - ReplaceComparisonOperator == -> -2
+190	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:691 - ReplaceComparisonOperator == -> >=
+191	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:691 - ReplaceComparisonOperator == -> <=
+192	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:692 - InsertUnaryOp Negation of start
+193	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:692 - InsertUnaryOp IINC 1 start
+194	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:692 - InsertUnaryOp IINC -1 start
+195	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:692 - InsertUnaryOp Negation of start
+196	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:692 - InsertUnaryOp IINC 1 start
+197	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:692 - InsertUnaryOp IINC -1 start
+198	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:692 - InsertUnaryOp Negation of len
+199	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:692 - InsertUnaryOp IINC 1 len
+200	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:692 - InsertUnaryOp IINC -1 len
+201	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:692 - ReplaceComparisonOperator > -> -2
+202	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:692 - ReplaceComparisonOperator > -> !=
+203	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:692 - ReplaceComparisonOperator > -> >=
+204	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:693 - InsertUnaryOp Negation of start
+205	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:693 - InsertUnaryOp IINC 1 start
+206	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:693 - InsertUnaryOp IINC -1 start
+207	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:693 - InsertUnaryOp Negation of start
+208	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:693 - InsertUnaryOp IINC 1 start
+209	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:693 - InsertUnaryOp IINC -1 start
+210	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:693 - InsertUnaryOp Negation of len
+211	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:693 - InsertUnaryOp IINC 1 len
+212	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:693 - InsertUnaryOp IINC -1 len
+213	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:693 - ReplaceComparisonOperator <= -> -1
+214	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:693 - ReplaceComparisonOperator <= -> ==
+215	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:693 - ReplaceComparisonOperator <= -> <
+216	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:696 - InsertUnaryOp Negation of start
+217	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:696 - InsertUnaryOp IINC 1 start
+218	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:696 - InsertUnaryOp IINC -1 start
+219	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:696 - InsertUnaryOp Negation of removeLen
+220	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:696 - InsertUnaryOp IINC 1 removeLen
+221	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:696 - InsertUnaryOp IINC -1 removeLen
+222	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:696 - ReplaceArithmeticOperator + -> %
+223	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:696 - ReplaceArithmeticOperator + -> -
+224	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:696 - ReplaceArithmeticOperator + -> *
+225	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:696 - ReplaceArithmeticOperator + -> /
+226	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:700 - InsertUnaryOp Negation of start
+227	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:700 - InsertUnaryOp IINC 1 start
+228	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:700 - InsertUnaryOp IINC -1 start
+229	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:700 - InsertUnaryOp Negation of len
+230	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:700 - InsertUnaryOp IINC 1 len
+231	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:700 - InsertUnaryOp IINC -1 len
+232	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:700 - ReplaceComparisonOperator < -> !=
+233	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:700 - ReplaceComparisonOperator < -> -2
+234	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:700 - ReplaceComparisonOperator < -> <=
+235	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:702 - ReplaceConstant - -1 -> 0
+236	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:702 - ReplaceConstant - -1 -> 1
+237	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:702 - ReplaceConstant - -1 -> -2
+238	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:706 - InsertUnaryOp Negation of start
+239	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:706 - InsertUnaryOp IINC 1 start
+240	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:706 - InsertUnaryOp IINC -1 start
+241	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:706 - InsertUnaryOp Negation of start
+242	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:706 - InsertUnaryOp IINC 1 start
+243	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:706 - InsertUnaryOp IINC -1 start
+244	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:706 - InsertUnaryOp Negation of len
+245	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:706 - InsertUnaryOp IINC 1 len
+246	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:706 - InsertUnaryOp IINC -1 len
+247	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:707 - InsertUnaryOp Negation of delimLen
+248	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:707 - InsertUnaryOp IINC 1 delimLen
+249	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:707 - InsertUnaryOp IINC -1 delimLen
+250	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:707 - ReplaceComparisonOperator <= -> -1
+251	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:707 - ReplaceComparisonOperator <= -> ==
+252	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:707 - ReplaceComparisonOperator <= -> <
+253	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:709 - InsertUnaryOp Negation of start
+254	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:709 - InsertUnaryOp IINC 1 start
+255	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:709 - InsertUnaryOp IINC -1 start
+256	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:709 - InsertUnaryOp Negation of delimLen
+257	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:709 - InsertUnaryOp IINC 1 delimLen
+258	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:709 - InsertUnaryOp IINC -1 delimLen
+259	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:709 - ReplaceArithmeticOperator + -> %
+260	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:709 - ReplaceArithmeticOperator + -> -
+261	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:709 - ReplaceArithmeticOperator + -> *
+262	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:709 - ReplaceArithmeticOperator + -> /
+263	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:713 - InsertUnaryOp Negation of start
+264	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:713 - InsertUnaryOp IINC 1 start
+265	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:713 - InsertUnaryOp IINC -1 start
+266	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:713 - InsertUnaryOp Negation of start
+267	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:713 - InsertUnaryOp IINC 1 start
+268	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:713 - InsertUnaryOp IINC -1 start
+269	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:713 - InsertUnaryOp Negation of len
+270	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:713 - InsertUnaryOp IINC 1 len
+271	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:713 - InsertUnaryOp IINC -1 len
+272	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:714 - InsertUnaryOp Negation of quoteLen
+273	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:714 - InsertUnaryOp IINC 1 quoteLen
+274	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:714 - InsertUnaryOp IINC -1 quoteLen
+275	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:714 - ReplaceComparisonOperator <= -> -1
+276	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:714 - ReplaceComparisonOperator <= -> ==
+277	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:714 - ReplaceComparisonOperator <= -> <
+278	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - InsertUnaryOp Negation of start
+279	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - InsertUnaryOp IINC 1 start
+280	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - InsertUnaryOp IINC -1 start
+281	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - InsertUnaryOp Negation of quoteLen
+282	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - InsertUnaryOp IINC 1 quoteLen
+283	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - InsertUnaryOp IINC -1 quoteLen
+284	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - ReplaceArithmeticOperator + -> %
+285	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - ReplaceArithmeticOperator + -> -
+286	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - ReplaceArithmeticOperator + -> *
+287	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - ReplaceArithmeticOperator + -> /
+288	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - InsertUnaryOp Negation of len
+289	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - InsertUnaryOp IINC 1 len
+290	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - InsertUnaryOp IINC -1 len
+291	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - InsertUnaryOp Negation of start
+292	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - InsertUnaryOp IINC 1 start
+293	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - InsertUnaryOp IINC -1 start
+294	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - InsertUnaryOp Negation of quoteLen
+295	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - InsertUnaryOp IINC 1 quoteLen
+296	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:715 - InsertUnaryOp IINC -1 quoteLen
+297	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:717 - InsertUnaryOp Negation of start
+298	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:717 - InsertUnaryOp IINC 1 start
+299	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:717 - InsertUnaryOp IINC -1 start
+300	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:717 - InsertUnaryOp Negation of len
+301	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:717 - InsertUnaryOp IINC 1 len
+302	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:717 - InsertUnaryOp IINC -1 len
+303	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:717 - ReplaceConstant - 0 -> 1
+304	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readNextToken([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;)I:717 - ReplaceConstant - 0 -> 1
+305	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:739 - InsertUnaryOp Negation of start
+306	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:739 - InsertUnaryOp IINC 1 start
+307	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:739 - InsertUnaryOp IINC -1 start
+308	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:740 - InsertUnaryOp Negation of quoteLen
+309	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:740 - InsertUnaryOp IINC 1 quoteLen
+310	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:740 - InsertUnaryOp IINC -1 quoteLen
+311	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:740 - ReplaceComparisonOperator <= -> -1
+312	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:740 - ReplaceComparisonOperator <= -> ==
+313	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:740 - ReplaceComparisonOperator <= -> <
+314	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:740 - ReplaceConstant - 1 -> 0
+315	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:740 - ReplaceConstant - 0 -> 1
+316	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:741 - ReplaceConstant - 0 -> 1
+317	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:743 - InsertUnaryOp Negation of pos
+318	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:743 - InsertUnaryOp IINC 1 pos
+319	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:743 - InsertUnaryOp IINC -1 pos
+320	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:743 - InsertUnaryOp Negation of len
+321	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:743 - InsertUnaryOp IINC 1 len
+322	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:743 - InsertUnaryOp IINC -1 len
+323	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:743 - ReplaceComparisonOperator >= -> -1
+324	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:743 - ReplaceComparisonOperator >= -> >
+325	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:743 - ReplaceComparisonOperator >= -> ==
+326	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:747 - InsertUnaryOp Negation of quoting
+327	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:747 - InsertUnaryOp IINC 1 quoting
+328	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:747 - InsertUnaryOp IINC -1 quoting
+329	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:747 - ReplaceComparisonOperator == -> -2
+330	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:747 - ReplaceComparisonOperator == -> >=
+331	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:747 - ReplaceComparisonOperator == -> <=
+332	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:754 - InsertUnaryOp Negation of pos
+333	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:754 - InsertUnaryOp IINC 1 pos
+334	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:754 - InsertUnaryOp IINC -1 pos
+335	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:754 - InsertUnaryOp Negation of len
+336	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:754 - InsertUnaryOp IINC 1 len
+337	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:754 - InsertUnaryOp IINC -1 len
+338	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:754 - InsertUnaryOp Negation of quoteStart
+339	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:754 - InsertUnaryOp IINC 1 quoteStart
+340	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:754 - InsertUnaryOp IINC -1 quoteStart
+341	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:754 - InsertUnaryOp Negation of quoteLen
+342	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:754 - InsertUnaryOp IINC 1 quoteLen
+343	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:754 - InsertUnaryOp IINC -1 quoteLen
+344	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:754 - ReplaceComparisonOperator == -> -2
+345	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:754 - ReplaceComparisonOperator == -> >=
+346	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:754 - ReplaceComparisonOperator == -> <=
+347	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - InsertUnaryOp Negation of pos
+348	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - InsertUnaryOp IINC 1 pos
+349	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - InsertUnaryOp IINC -1 pos
+350	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - InsertUnaryOp Negation of quoteLen
+351	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - InsertUnaryOp IINC 1 quoteLen
+352	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - InsertUnaryOp IINC -1 quoteLen
+353	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - ReplaceArithmeticOperator + -> %
+354	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - ReplaceArithmeticOperator + -> -
+355	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - ReplaceArithmeticOperator + -> *
+356	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - ReplaceArithmeticOperator + -> /
+357	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - InsertUnaryOp Negation of len
+358	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - InsertUnaryOp IINC 1 len
+359	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - InsertUnaryOp IINC -1 len
+360	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - InsertUnaryOp Negation of quoteStart
+361	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - InsertUnaryOp IINC 1 quoteStart
+362	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - InsertUnaryOp IINC -1 quoteStart
+363	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - InsertUnaryOp Negation of quoteLen
+364	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - InsertUnaryOp IINC 1 quoteLen
+365	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - InsertUnaryOp IINC -1 quoteLen
+366	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - ReplaceComparisonOperator == -> -2
+367	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - ReplaceComparisonOperator == -> >=
+368	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:755 - ReplaceComparisonOperator == -> <=
+369	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:757 - InsertUnaryOp Negation of pos
+370	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:757 - InsertUnaryOp IINC 1 pos
+371	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:757 - InsertUnaryOp IINC -1 pos
+372	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:757 - InsertUnaryOp Negation of quoteLen
+373	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:757 - InsertUnaryOp IINC 1 quoteLen
+374	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:757 - InsertUnaryOp IINC -1 quoteLen
+375	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - InsertUnaryOp Negation of pos
+376	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - InsertUnaryOp IINC 1 pos
+377	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - InsertUnaryOp IINC -1 pos
+378	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - InsertUnaryOp Negation of quoteLen
+379	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - InsertUnaryOp IINC 1 quoteLen
+380	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - InsertUnaryOp IINC -1 quoteLen
+381	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - ReplaceConstant - 2 -> 0
+382	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - ReplaceConstant - 2 -> 1
+383	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - ReplaceConstant - 2 -> -1
+384	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - ReplaceConstant - 2 -> 3
+385	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - ReplaceArithmeticOperator * -> +
+386	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - ReplaceArithmeticOperator * -> %
+387	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - ReplaceArithmeticOperator * -> -
+388	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - ReplaceArithmeticOperator * -> /
+389	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - ReplaceArithmeticOperator + -> %
+390	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - ReplaceArithmeticOperator + -> -
+391	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - ReplaceArithmeticOperator + -> *
+392	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:758 - ReplaceArithmeticOperator + -> /
+393	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:764 - ReplaceConstant - 0 -> 1
+394	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:765 - InsertUnaryOp Negation of pos
+395	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:765 - InsertUnaryOp IINC 1 pos
+396	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:765 - InsertUnaryOp IINC -1 pos
+397	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:765 - InsertUnaryOp Negation of quoteLen
+398	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:765 - InsertUnaryOp IINC 1 quoteLen
+399	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:765 - InsertUnaryOp IINC -1 quoteLen
+400	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:765 - ReplaceArithmeticOperator + -> %
+401	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:765 - ReplaceArithmeticOperator + -> -
+402	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:765 - ReplaceArithmeticOperator + -> *
+403	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:765 - ReplaceArithmeticOperator + -> /
+404	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:770 - InsertUnaryOp Negation of pos
+405	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:770 - InsertUnaryOp IINC 1 pos
+406	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:770 - InsertUnaryOp IINC -1 pos
+407	ReplaceVariable	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:770 - ReplaceVariable pos -> quoteLen
+408	ReplaceVariable	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:770 - ReplaceVariable pos -> start
+409	ReplaceVariable	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:770 - ReplaceVariable pos -> len
+410	ReplaceVariable	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:770 - ReplaceVariable pos -> quoteStart
+411	ReplaceVariable	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:770 - ReplaceVariable pos -> trimStart
+412	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:777 - InsertUnaryOp Negation of pos
+413	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:777 - InsertUnaryOp IINC 1 pos
+414	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:777 - InsertUnaryOp IINC -1 pos
+415	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:777 - InsertUnaryOp Negation of start
+416	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:777 - InsertUnaryOp IINC 1 start
+417	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:777 - InsertUnaryOp IINC -1 start
+418	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:777 - InsertUnaryOp Negation of len
+419	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:777 - InsertUnaryOp IINC 1 len
+420	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:777 - InsertUnaryOp IINC -1 len
+421	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:778 - InsertUnaryOp Negation of delimLen
+422	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:778 - InsertUnaryOp IINC 1 delimLen
+423	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:778 - InsertUnaryOp IINC -1 delimLen
+424	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:778 - ReplaceComparisonOperator <= -> -1
+425	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:778 - ReplaceComparisonOperator <= -> ==
+426	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:778 - ReplaceComparisonOperator <= -> <
+427	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:780 - ReplaceConstant - 0 -> 1
+428	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:780 - InsertUnaryOp Negation of trimStart
+429	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:780 - InsertUnaryOp IINC 1 trimStart
+430	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:780 - InsertUnaryOp IINC -1 trimStart
+431	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:781 - InsertUnaryOp Negation of pos
+432	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:781 - InsertUnaryOp IINC 1 pos
+433	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:781 - InsertUnaryOp IINC -1 pos
+434	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:781 - InsertUnaryOp Negation of delimLen
+435	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:781 - InsertUnaryOp IINC 1 delimLen
+436	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:781 - InsertUnaryOp IINC -1 delimLen
+437	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:781 - ReplaceArithmeticOperator + -> %
+438	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:781 - ReplaceArithmeticOperator + -> -
+439	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:781 - ReplaceArithmeticOperator + -> *
+440	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:781 - ReplaceArithmeticOperator + -> /
+441	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - InsertUnaryOp Negation of quoteLen
+442	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - InsertUnaryOp IINC 1 quoteLen
+443	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - InsertUnaryOp IINC -1 quoteLen
+444	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - ReplaceComparisonOperator <= -> -1
+445	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - ReplaceComparisonOperator <= -> ==
+446	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - ReplaceComparisonOperator <= -> <
+447	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - InsertUnaryOp Negation of pos
+448	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - InsertUnaryOp IINC 1 pos
+449	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - InsertUnaryOp IINC -1 pos
+450	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - InsertUnaryOp Negation of len
+451	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - InsertUnaryOp IINC 1 len
+452	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - InsertUnaryOp IINC -1 len
+453	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - InsertUnaryOp Negation of quoteStart
+454	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - InsertUnaryOp IINC 1 quoteStart
+455	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - InsertUnaryOp IINC -1 quoteStart
+456	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - InsertUnaryOp Negation of quoteLen
+457	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - InsertUnaryOp IINC 1 quoteLen
+458	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - InsertUnaryOp IINC -1 quoteLen
+459	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - ReplaceComparisonOperator == -> -2
+460	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - ReplaceComparisonOperator == -> >=
+461	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:785 - ReplaceComparisonOperator == -> <=
+462	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:786 - ReplaceConstant - 1 -> 0
+463	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:787 - InsertUnaryOp Negation of pos
+464	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:787 - InsertUnaryOp IINC 1 pos
+465	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:787 - InsertUnaryOp IINC -1 pos
+466	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:787 - InsertUnaryOp Negation of quoteLen
+467	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:787 - InsertUnaryOp IINC 1 quoteLen
+468	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:787 - InsertUnaryOp IINC -1 quoteLen
+469	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:787 - ReplaceArithmeticOperator + -> %
+470	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:787 - ReplaceArithmeticOperator + -> -
+471	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:787 - ReplaceArithmeticOperator + -> *
+472	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:787 - ReplaceArithmeticOperator + -> /
+473	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:792 - InsertUnaryOp Negation of pos
+474	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:792 - InsertUnaryOp IINC 1 pos
+475	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:792 - InsertUnaryOp IINC -1 pos
+476	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:792 - InsertUnaryOp Negation of start
+477	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:792 - InsertUnaryOp IINC 1 start
+478	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:792 - InsertUnaryOp IINC -1 start
+479	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:792 - InsertUnaryOp Negation of len
+480	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:792 - InsertUnaryOp IINC 1 len
+481	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:792 - InsertUnaryOp IINC -1 len
+482	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:793 - InsertUnaryOp Negation of ignoredLen
+483	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:793 - InsertUnaryOp IINC 1 ignoredLen
+484	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:793 - InsertUnaryOp IINC -1 ignoredLen
+485	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:793 - ReplaceComparisonOperator <= -> -1
+486	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:793 - ReplaceComparisonOperator <= -> ==
+487	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:793 - ReplaceComparisonOperator <= -> <
+488	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:794 - InsertUnaryOp Negation of pos
+489	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:794 - InsertUnaryOp IINC 1 pos
+490	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:794 - InsertUnaryOp IINC -1 pos
+491	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:794 - InsertUnaryOp Negation of ignoredLen
+492	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:794 - InsertUnaryOp IINC 1 ignoredLen
+493	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:794 - InsertUnaryOp IINC -1 ignoredLen
+494	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:794 - ReplaceArithmeticOperator + -> %
+495	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:794 - ReplaceArithmeticOperator + -> -
+496	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:794 - ReplaceArithmeticOperator + -> *
+497	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:794 - ReplaceArithmeticOperator + -> /
+498	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:801 - InsertUnaryOp Negation of pos
+499	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:801 - InsertUnaryOp IINC 1 pos
+500	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:801 - InsertUnaryOp IINC -1 pos
+501	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:801 - InsertUnaryOp Negation of start
+502	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:801 - InsertUnaryOp IINC 1 start
+503	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:801 - InsertUnaryOp IINC -1 start
+504	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:801 - InsertUnaryOp Negation of len
+505	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:801 - InsertUnaryOp IINC 1 len
+506	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:801 - InsertUnaryOp IINC -1 len
+507	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:802 - InsertUnaryOp Negation of trimmedLen
+508	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:802 - InsertUnaryOp IINC 1 trimmedLen
+509	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:802 - InsertUnaryOp IINC -1 trimmedLen
+510	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:802 - ReplaceComparisonOperator <= -> -1
+511	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:802 - ReplaceComparisonOperator <= -> ==
+512	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:802 - ReplaceComparisonOperator <= -> <
+513	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:803 - InsertUnaryOp Negation of pos
+514	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:803 - InsertUnaryOp IINC 1 pos
+515	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:803 - InsertUnaryOp IINC -1 pos
+516	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:803 - InsertUnaryOp Negation of trimmedLen
+517	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:803 - InsertUnaryOp IINC 1 trimmedLen
+518	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:803 - InsertUnaryOp IINC -1 trimmedLen
+519	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:804 - InsertUnaryOp Negation of pos
+520	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:804 - InsertUnaryOp IINC 1 pos
+521	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:804 - InsertUnaryOp IINC -1 pos
+522	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:804 - InsertUnaryOp Negation of trimmedLen
+523	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:804 - InsertUnaryOp IINC 1 trimmedLen
+524	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:804 - InsertUnaryOp IINC -1 trimmedLen
+525	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:804 - ReplaceArithmeticOperator + -> %
+526	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:804 - ReplaceArithmeticOperator + -> -
+527	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:804 - ReplaceArithmeticOperator + -> *
+528	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:804 - ReplaceArithmeticOperator + -> /
+529	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:809 - InsertUnaryOp Negation of pos
+530	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:809 - InsertUnaryOp IINC 1 pos
+531	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:809 - InsertUnaryOp IINC -1 pos
+532	ReplaceVariable	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:809 - ReplaceVariable pos -> ignoredLen
+533	ReplaceVariable	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:809 - ReplaceVariable pos -> quoteLen
+534	ReplaceVariable	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:809 - ReplaceVariable pos -> len
+535	ReplaceVariable	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:809 - ReplaceVariable pos -> delimLen
+536	ReplaceVariable	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:809 - ReplaceVariable pos -> start
+537	ReplaceVariable	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:809 - ReplaceVariable pos -> trimmedLen
+538	ReplaceVariable	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:809 - ReplaceVariable pos -> quoteStart
+539	ReplaceVariable	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:809 - ReplaceVariable pos -> trimStart
+540	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:815 - ReplaceConstant - 0 -> 1
+541	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:815 - InsertUnaryOp Negation of trimStart
+542	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:815 - InsertUnaryOp IINC 1 trimStart
+543	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:815 - InsertUnaryOp IINC -1 trimStart
+544	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:816 - ReplaceConstant - -1 -> 0
+545	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:816 - ReplaceConstant - -1 -> 1
+546	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.readWithQuotes([CIILorg/apache/commons/lang3/text/StrBuilder;Ljava/util/List;II)I:816 - ReplaceConstant - -1 -> -2
+547	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:831 - ReplaceConstant - 0 -> 1
+548	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:831 - InsertUnaryOp Negation of i
+549	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:831 - InsertUnaryOp IINC 1 i
+550	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:831 - InsertUnaryOp IINC -1 i
+551	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:831 - InsertUnaryOp Negation of quoteLen
+552	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:831 - InsertUnaryOp IINC 1 quoteLen
+553	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:831 - InsertUnaryOp IINC -1 quoteLen
+554	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:831 - ReplaceComparisonOperator >= -> -1
+555	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:831 - ReplaceComparisonOperator >= -> >
+556	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:831 - ReplaceComparisonOperator >= -> ==
+557	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp Negation of pos
+558	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp IINC 1 pos
+559	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp IINC -1 pos
+560	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp Negation of i
+561	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp IINC 1 i
+562	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp IINC -1 i
+563	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceArithmeticOperator + -> %
+564	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceArithmeticOperator + -> -
+565	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceArithmeticOperator + -> *
+566	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceArithmeticOperator + -> /
+567	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp Negation of len
+568	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp IINC 1 len
+569	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp IINC -1 len
+570	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceComparisonOperator >= -> -1
+571	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceComparisonOperator >= -> >
+572	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceComparisonOperator >= -> ==
+573	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp Negation of pos
+574	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp IINC 1 pos
+575	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp IINC -1 pos
+576	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp Negation of i
+577	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp IINC 1 i
+578	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp IINC -1 i
+579	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceArithmeticOperator + -> %
+580	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceArithmeticOperator + -> -
+581	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceArithmeticOperator + -> *
+582	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceArithmeticOperator + -> /
+583	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp Negation of quoteStart
+584	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp IINC 1 quoteStart
+585	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp IINC -1 quoteStart
+586	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp Negation of i
+587	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp IINC 1 i
+588	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - InsertUnaryOp IINC -1 i
+589	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceArithmeticOperator + -> %
+590	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceArithmeticOperator + -> -
+591	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceArithmeticOperator + -> *
+592	ReplaceArithmeticOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceArithmeticOperator + -> /
+593	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceComparisonOperator == -> -2
+594	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceComparisonOperator == -> >=
+595	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:832 - ReplaceComparisonOperator == -> <=
+596	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:833 - ReplaceConstant - 0 -> 1
+597	ReplaceVariable	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:831 - ReplaceVariable i -> quoteLen
+598	ReplaceVariable	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:831 - ReplaceVariable i -> len
+599	ReplaceVariable	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:831 - ReplaceVariable i -> pos
+600	ReplaceVariable	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:831 - ReplaceVariable i -> quoteStart
+601	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.isQuote([CIIII)Z:836 - ReplaceConstant - 1 -> 0
+602	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.setDelimiterMatcher(Lorg/apache/commons/lang3/text/StrMatcher;)Lorg/apache/commons/lang3/text/StrTokenizer;:859 - ReplaceComparisonOperator != null -> = null
+603	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.setDelimiterChar(C)Lorg/apache/commons/lang3/text/StrTokenizer;:874 - InsertUnaryOp Negation of delim
+604	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.setDelimiterChar(C)Lorg/apache/commons/lang3/text/StrTokenizer;:874 - InsertUnaryOp IINC 1 delim
+605	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.setDelimiterChar(C)Lorg/apache/commons/lang3/text/StrTokenizer;:874 - InsertUnaryOp IINC -1 delim
+606	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.setQuoteMatcher(Lorg/apache/commons/lang3/text/StrMatcher;)Lorg/apache/commons/lang3/text/StrTokenizer;:912 - ReplaceComparisonOperator = null -> != null
+607	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.setQuoteChar(C)Lorg/apache/commons/lang3/text/StrTokenizer;:928 - InsertUnaryOp Negation of quote
+608	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.setQuoteChar(C)Lorg/apache/commons/lang3/text/StrTokenizer;:928 - InsertUnaryOp IINC 1 quote
+609	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.setQuoteChar(C)Lorg/apache/commons/lang3/text/StrTokenizer;:928 - InsertUnaryOp IINC -1 quote
+610	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.setIgnoredMatcher(Lorg/apache/commons/lang3/text/StrMatcher;)Lorg/apache/commons/lang3/text/StrTokenizer;:956 - ReplaceComparisonOperator = null -> != null
+611	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.setIgnoredChar(C)Lorg/apache/commons/lang3/text/StrTokenizer;:972 - InsertUnaryOp Negation of ignored
+612	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.setIgnoredChar(C)Lorg/apache/commons/lang3/text/StrTokenizer;:972 - InsertUnaryOp IINC 1 ignored
+613	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.setIgnoredChar(C)Lorg/apache/commons/lang3/text/StrTokenizer;:972 - InsertUnaryOp IINC -1 ignored
+614	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.setTrimmerMatcher(Lorg/apache/commons/lang3/text/StrMatcher;)Lorg/apache/commons/lang3/text/StrTokenizer;:1000 - ReplaceComparisonOperator = null -> != null
+615	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isEmptyTokenAsNull()Z:1014 - InsertUnaryOp Negation
+616	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.setEmptyTokenAsNull(Z)Lorg/apache/commons/lang3/text/StrTokenizer;:1025 - InsertUnaryOp Negation of emptyAsNull
+617	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.setEmptyTokenAsNull(Z)Lorg/apache/commons/lang3/text/StrTokenizer;:1025 - InsertUnaryOp IINC 1 emptyAsNull
+618	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.setEmptyTokenAsNull(Z)Lorg/apache/commons/lang3/text/StrTokenizer;:1025 - InsertUnaryOp IINC -1 emptyAsNull
+619	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.isIgnoreEmptyTokens()Z:1037 - InsertUnaryOp Negation
+620	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.setIgnoreEmptyTokens(Z)Lorg/apache/commons/lang3/text/StrTokenizer;:1048 - InsertUnaryOp Negation of ignoreEmptyTokens
+621	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.setIgnoreEmptyTokens(Z)Lorg/apache/commons/lang3/text/StrTokenizer;:1048 - InsertUnaryOp IINC 1 ignoreEmptyTokens
+622	InsertUnaryOp	org.apache.commons.lang3.text.StrTokenizer.setIgnoreEmptyTokens(Z)Lorg/apache/commons/lang3/text/StrTokenizer;:1048 - InsertUnaryOp IINC -1 ignoreEmptyTokens
+623	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.getContent()Ljava/lang/String;:1059 - ReplaceComparisonOperator != null -> = null
+624	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.cloneReset()Ljava/lang/Object;:1092 - ReplaceComparisonOperator = null -> != null
+625	ReplaceComparisonOperator	org.apache.commons.lang3.text.StrTokenizer.toString()Ljava/lang/String;:1107 - ReplaceComparisonOperator != null -> = null
+626	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.toString()Ljava/lang/String;:1108 - ReplaceConstant - StrTokenizer[not tokenized yet] -> 
+627	ReplaceConstant	org.apache.commons.lang3.text.StrTokenizer.toString()Ljava/lang/String;:1110 - ReplaceConstant - StrTokenizer -> 

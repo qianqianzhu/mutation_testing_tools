@@ -1,0 +1,85 @@
+0	ReplaceConstant	com.graphhopper.util.Downloader.<init>(Ljava/lang/String;)V:32 - ReplaceConstant - http://graphhopper.com -> 
+1	ReplaceConstant	com.graphhopper.util.Downloader.<init>(Ljava/lang/String;)V:33 - ReplaceConstant - gzip, deflate -> 
+2	ReplaceConstant	com.graphhopper.util.Downloader.<init>(Ljava/lang/String;)V:34 - ReplaceConstant - 4000 -> 0
+3	ReplaceConstant	com.graphhopper.util.Downloader.<init>(Ljava/lang/String;)V:34 - ReplaceConstant - 4000 -> 1
+4	ReplaceConstant	com.graphhopper.util.Downloader.<init>(Ljava/lang/String;)V:34 - ReplaceConstant - 4000 -> -1
+5	ReplaceConstant	com.graphhopper.util.Downloader.<init>(Ljava/lang/String;)V:34 - ReplaceConstant - 4000 -> 3999
+6	ReplaceConstant	com.graphhopper.util.Downloader.<init>(Ljava/lang/String;)V:34 - ReplaceConstant - 4000 -> 4001
+7	ReplaceConstant	com.graphhopper.util.Downloader.main([Ljava/lang/String;)V:41 - ReplaceConstant - GraphHopper Downloader -> 
+8	ReplaceConstant	com.graphhopper.util.Downloader.main([Ljava/lang/String;)V:41 - ReplaceConstant - http://graphhopper.com/public/maps/0.1/europe_germany_berlin.ghz -> 
+9	ReplaceConstant	com.graphhopper.util.Downloader.main([Ljava/lang/String;)V:41 - ReplaceConstant - somefolder -> 
+10	InsertUnaryOp	com.graphhopper.util.Downloader.setTimeout(I)Lcom/graphhopper/util/Downloader;:51 - InsertUnaryOp Negation of timeout
+11	InsertUnaryOp	com.graphhopper.util.Downloader.setTimeout(I)Lcom/graphhopper/util/Downloader;:51 - InsertUnaryOp IINC 1 timeout
+12	InsertUnaryOp	com.graphhopper.util.Downloader.setTimeout(I)Lcom/graphhopper/util/Downloader;:51 - InsertUnaryOp IINC -1 timeout
+13	InsertUnaryOp	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:71 - InsertUnaryOp Negation of readErrorStreamNoException
+14	InsertUnaryOp	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:71 - InsertUnaryOp IINC 1 readErrorStreamNoException
+15	InsertUnaryOp	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:71 - InsertUnaryOp IINC -1 readErrorStreamNoException
+16	ReplaceComparisonOperator	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:71 - ReplaceComparisonOperator == -> -2
+17	ReplaceComparisonOperator	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:71 - ReplaceComparisonOperator == -> >=
+18	ReplaceComparisonOperator	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:71 - ReplaceComparisonOperator == -> <=
+19	ReplaceConstant	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:71 - ReplaceConstant - 400 -> 0
+20	ReplaceConstant	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:71 - ReplaceConstant - 400 -> 1
+21	ReplaceConstant	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:71 - ReplaceConstant - 400 -> -1
+22	ReplaceConstant	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:71 - ReplaceConstant - 400 -> 399
+23	ReplaceConstant	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:71 - ReplaceConstant - 400 -> 401
+24	ReplaceComparisonOperator	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:71 - ReplaceComparisonOperator < -> !=
+25	ReplaceComparisonOperator	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:71 - ReplaceComparisonOperator < -> -2
+26	ReplaceComparisonOperator	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:71 - ReplaceComparisonOperator < -> <=
+27	ReplaceComparisonOperator	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:71 - ReplaceComparisonOperator = null -> != null
+28	ReplaceComparisonOperator	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:76 - ReplaceComparisonOperator != null -> = null
+29	ReplaceConstant	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:77 - ReplaceConstant - Stream is null. Message: -> 
+30	ReplaceComparisonOperator	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:82 - ReplaceComparisonOperator = null -> != null
+31	ReplaceConstant	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:82 - ReplaceConstant - gzip -> 
+32	ReplaceComparisonOperator	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:82 - ReplaceComparisonOperator == -> -2
+33	ReplaceComparisonOperator	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:82 - ReplaceComparisonOperator == -> >=
+34	ReplaceComparisonOperator	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:82 - ReplaceComparisonOperator == -> <=
+35	ReplaceComparisonOperator	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:84 - ReplaceComparisonOperator = null -> != null
+36	ReplaceConstant	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:84 - ReplaceConstant - deflate -> 
+37	ReplaceComparisonOperator	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:84 - ReplaceComparisonOperator == -> -2
+38	ReplaceComparisonOperator	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:84 - ReplaceComparisonOperator == -> >=
+39	ReplaceComparisonOperator	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:84 - ReplaceComparisonOperator == -> <=
+40	ReplaceConstant	com.graphhopper.util.Downloader.fetch(Ljava/net/HttpURLConnection;Z)Ljava/io/InputStream;:85 - ReplaceConstant - 1 -> 0
+41	ReplaceConstant	com.graphhopper.util.Downloader.fetch(Ljava/lang/String;)Ljava/io/InputStream;:93 - ReplaceConstant - 0 -> 1
+42	ReplaceConstant	com.graphhopper.util.Downloader.createConnection(Ljava/lang/String;)Ljava/net/HttpURLConnection;:100 - ReplaceConstant - 1 -> 0
+43	ReplaceConstant	com.graphhopper.util.Downloader.createConnection(Ljava/lang/String;)Ljava/net/HttpURLConnection;:101 - ReplaceConstant - 1 -> 0
+44	ReplaceConstant	com.graphhopper.util.Downloader.createConnection(Ljava/lang/String;)Ljava/net/HttpURLConnection;:102 - ReplaceConstant - Referrer -> 
+45	ReplaceConstant	com.graphhopper.util.Downloader.createConnection(Ljava/lang/String;)Ljava/net/HttpURLConnection;:103 - ReplaceConstant - User-Agent -> 
+46	ReplaceConstant	com.graphhopper.util.Downloader.createConnection(Ljava/lang/String;)Ljava/net/HttpURLConnection;:106 - ReplaceConstant - Accept-Encoding -> 
+47	InsertUnaryOp	com.graphhopper.util.Downloader.createConnection(Ljava/lang/String;)Ljava/net/HttpURLConnection;:107 - InsertUnaryOp Negation
+48	InsertUnaryOp	com.graphhopper.util.Downloader.createConnection(Ljava/lang/String;)Ljava/net/HttpURLConnection;:107 - InsertUnaryOp +1
+49	InsertUnaryOp	com.graphhopper.util.Downloader.createConnection(Ljava/lang/String;)Ljava/net/HttpURLConnection;:107 - InsertUnaryOp -1
+50	InsertUnaryOp	com.graphhopper.util.Downloader.createConnection(Ljava/lang/String;)Ljava/net/HttpURLConnection;:108 - InsertUnaryOp Negation
+51	InsertUnaryOp	com.graphhopper.util.Downloader.createConnection(Ljava/lang/String;)Ljava/net/HttpURLConnection;:108 - InsertUnaryOp +1
+52	InsertUnaryOp	com.graphhopper.util.Downloader.createConnection(Ljava/lang/String;)Ljava/net/HttpURLConnection;:108 - InsertUnaryOp -1
+53	ReplaceConstant	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:114 - ReplaceConstant - 0 -> 1
+54	ReplaceConstant	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:115 - ReplaceConstant - 8192 -> 0
+55	ReplaceConstant	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:115 - ReplaceConstant - 8192 -> 1
+56	ReplaceConstant	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:115 - ReplaceConstant - 8192 -> -1
+57	ReplaceConstant	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:115 - ReplaceConstant - 8192 -> 8191
+58	ReplaceConstant	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:115 - ReplaceConstant - 8192 -> 8193
+59	InsertUnaryOp	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:116 - InsertUnaryOp Negation of size
+60	InsertUnaryOp	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:116 - InsertUnaryOp IINC 1 size
+61	InsertUnaryOp	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:116 - InsertUnaryOp IINC -1 size
+62	InsertUnaryOp	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:117 - InsertUnaryOp Negation of size
+63	InsertUnaryOp	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:117 - InsertUnaryOp IINC 1 size
+64	InsertUnaryOp	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:117 - InsertUnaryOp IINC -1 size
+65	InsertUnaryOp	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:119 - InsertUnaryOp Negation of size
+66	InsertUnaryOp	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:119 - InsertUnaryOp IINC 1 size
+67	InsertUnaryOp	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:119 - InsertUnaryOp IINC -1 size
+68	ReplaceConstant	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:121 - ReplaceConstant - -1 -> 0
+69	ReplaceConstant	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:121 - ReplaceConstant - -1 -> 1
+70	ReplaceConstant	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:121 - ReplaceConstant - -1 -> -2
+71	ReplaceComparisonOperator	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:121 - ReplaceComparisonOperator == -> -2
+72	ReplaceComparisonOperator	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:121 - ReplaceComparisonOperator == -> >=
+73	ReplaceComparisonOperator	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:121 - ReplaceComparisonOperator == -> <=
+74	ReplaceConstant	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:122 - ReplaceConstant - 0 -> 1
+75	InsertUnaryOp	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:122 - InsertUnaryOp Negation of numRead
+76	InsertUnaryOp	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:122 - InsertUnaryOp IINC 1 numRead
+77	InsertUnaryOp	com.graphhopper.util.Downloader.downloadFile(Ljava/lang/String;Ljava/lang/String;)V:122 - InsertUnaryOp IINC -1 numRead
+78	ReplaceConstant	com.graphhopper.util.Downloader.downloadAndUnzip(Ljava/lang/String;Ljava/lang/String;Lcom/graphhopper/util/ProgressListener;)V:133 - ReplaceConstant - 0 -> 1
+79	InsertUnaryOp	com.graphhopper.util.Downloader.downloadAndUnzip(Ljava/lang/String;Ljava/lang/String;Lcom/graphhopper/util/ProgressListener;)V:135 - InsertUnaryOp Negation of length
+80	InsertUnaryOp	com.graphhopper.util.Downloader.downloadAndUnzip(Ljava/lang/String;Ljava/lang/String;Lcom/graphhopper/util/ProgressListener;)V:135 - InsertUnaryOp IINC 1 length
+81	InsertUnaryOp	com.graphhopper.util.Downloader.downloadAndUnzip(Ljava/lang/String;Ljava/lang/String;Lcom/graphhopper/util/ProgressListener;)V:135 - InsertUnaryOp IINC -1 length
+82	InsertUnaryOp	com.graphhopper.util.Downloader.downloadAsString(Ljava/lang/String;Z)Ljava/lang/String;:144 - InsertUnaryOp Negation of readErrorStreamNoException
+83	InsertUnaryOp	com.graphhopper.util.Downloader.downloadAsString(Ljava/lang/String;Z)Ljava/lang/String;:144 - InsertUnaryOp IINC 1 readErrorStreamNoException
+84	InsertUnaryOp	com.graphhopper.util.Downloader.downloadAsString(Ljava/lang/String;Z)Ljava/lang/String;:144 - InsertUnaryOp IINC -1 readErrorStreamNoException

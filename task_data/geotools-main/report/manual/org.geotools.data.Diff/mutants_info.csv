@@ -1,0 +1,36 @@
+0	ReplaceConstant	org.geotools.data.Diff.<init>()V:116 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.geotools.data.Diff.<init>(Lorg/geotools/data/Diff;)V:116 - ReplaceConstant - 0 -> 1
+2	InsertUnaryOp	org.geotools.data.Diff.<init>(Lorg/geotools/data/Diff;)V:156 - InsertUnaryOp Negation
+3	InsertUnaryOp	org.geotools.data.Diff.<init>(Lorg/geotools/data/Diff;)V:156 - InsertUnaryOp +1
+4	InsertUnaryOp	org.geotools.data.Diff.<init>(Lorg/geotools/data/Diff;)V:156 - InsertUnaryOp -1
+5	ReplaceComparisonOperator	org.geotools.data.Diff.isEmpty()Z:167 - ReplaceComparisonOperator == -> -2
+6	ReplaceComparisonOperator	org.geotools.data.Diff.isEmpty()Z:167 - ReplaceComparisonOperator == -> >=
+7	ReplaceComparisonOperator	org.geotools.data.Diff.isEmpty()Z:167 - ReplaceComparisonOperator == -> <=
+8	ReplaceComparisonOperator	org.geotools.data.Diff.isEmpty()Z:167 - ReplaceComparisonOperator == -> -2
+9	ReplaceComparisonOperator	org.geotools.data.Diff.isEmpty()Z:167 - ReplaceComparisonOperator == -> >=
+10	ReplaceComparisonOperator	org.geotools.data.Diff.isEmpty()Z:167 - ReplaceComparisonOperator == -> <=
+11	ReplaceConstant	org.geotools.data.Diff.isEmpty()Z:167 - ReplaceConstant - 1 -> 0
+12	ReplaceConstant	org.geotools.data.Diff.isEmpty()Z:167 - ReplaceConstant - 0 -> 1
+13	ReplaceConstant	org.geotools.data.Diff.clear()V:175 - ReplaceConstant - 0 -> 1
+14	ReplaceComparisonOperator	org.geotools.data.Diff.modify(Ljava/lang/String;Lorg/opengis/feature/simple/SimpleFeature;)V:192 - ReplaceComparisonOperator == -> -2
+15	ReplaceComparisonOperator	org.geotools.data.Diff.modify(Ljava/lang/String;Lorg/opengis/feature/simple/SimpleFeature;)V:192 - ReplaceComparisonOperator == -> >=
+16	ReplaceComparisonOperator	org.geotools.data.Diff.modify(Ljava/lang/String;Lorg/opengis/feature/simple/SimpleFeature;)V:192 - ReplaceComparisonOperator == -> <=
+17	ReplaceComparisonOperator	org.geotools.data.Diff.modify(Ljava/lang/String;Lorg/opengis/feature/simple/SimpleFeature;)V:194 - ReplaceComparisonOperator != null -> = null
+18	ReplaceComparisonOperator	org.geotools.data.Diff.modify(Ljava/lang/String;Lorg/opengis/feature/simple/SimpleFeature;)V:206 - ReplaceComparisonOperator = null -> != null
+19	ReplaceComparisonOperator	org.geotools.data.Diff.addToSpatialIndex(Lorg/opengis/feature/simple/SimpleFeature;)V:222 - ReplaceComparisonOperator = null -> != null
+20	ReplaceComparisonOperator	org.geotools.data.Diff.addToSpatialIndex(Lorg/opengis/feature/simple/SimpleFeature;)V:224 - ReplaceComparisonOperator != -> -1
+21	ReplaceComparisonOperator	org.geotools.data.Diff.addToSpatialIndex(Lorg/opengis/feature/simple/SimpleFeature;)V:224 - ReplaceComparisonOperator != -> <
+22	ReplaceComparisonOperator	org.geotools.data.Diff.addToSpatialIndex(Lorg/opengis/feature/simple/SimpleFeature;)V:224 - ReplaceComparisonOperator != -> >
+23	ReplaceComparisonOperator	org.geotools.data.Diff.remove(Ljava/lang/String;)V:233 - ReplaceComparisonOperator == -> -2
+24	ReplaceComparisonOperator	org.geotools.data.Diff.remove(Ljava/lang/String;)V:233 - ReplaceComparisonOperator == -> >=
+25	ReplaceComparisonOperator	org.geotools.data.Diff.remove(Ljava/lang/String;)V:233 - ReplaceComparisonOperator == -> <=
+26	ReplaceComparisonOperator	org.geotools.data.Diff.remove(Ljava/lang/String;)V:241 - ReplaceComparisonOperator = null -> != null
+27	ReplaceComparisonOperator	org.geotools.data.Diff.copySTRtreeFrom(Lorg/geotools/data/Diff;)Lcom/vividsolutions/jts/index/quadtree/Quadtree;:313 - ReplaceComparisonOperator == -> -2
+28	ReplaceComparisonOperator	org.geotools.data.Diff.copySTRtreeFrom(Lorg/geotools/data/Diff;)Lcom/vividsolutions/jts/index/quadtree/Quadtree;:313 - ReplaceComparisonOperator == -> >=
+29	ReplaceComparisonOperator	org.geotools.data.Diff.copySTRtreeFrom(Lorg/geotools/data/Diff;)Lcom/vividsolutions/jts/index/quadtree/Quadtree;:313 - ReplaceComparisonOperator == -> <=
+30	ReplaceComparisonOperator	org.geotools.data.Diff.copySTRtreeFrom(Lorg/geotools/data/Diff;)Lcom/vividsolutions/jts/index/quadtree/Quadtree;:316 - ReplaceComparisonOperator != -> -1
+31	ReplaceComparisonOperator	org.geotools.data.Diff.copySTRtreeFrom(Lorg/geotools/data/Diff;)Lcom/vividsolutions/jts/index/quadtree/Quadtree;:316 - ReplaceComparisonOperator != -> <
+32	ReplaceComparisonOperator	org.geotools.data.Diff.copySTRtreeFrom(Lorg/geotools/data/Diff;)Lcom/vividsolutions/jts/index/quadtree/Quadtree;:316 - ReplaceComparisonOperator != -> >
+33	ReplaceComparisonOperator	org.geotools.data.Diff.copySTRtreeFrom(Lorg/geotools/data/Diff;)Lcom/vividsolutions/jts/index/quadtree/Quadtree;:321 - ReplaceComparisonOperator == -> -2
+34	ReplaceComparisonOperator	org.geotools.data.Diff.copySTRtreeFrom(Lorg/geotools/data/Diff;)Lcom/vividsolutions/jts/index/quadtree/Quadtree;:321 - ReplaceComparisonOperator == -> >=
+35	ReplaceComparisonOperator	org.geotools.data.Diff.copySTRtreeFrom(Lorg/geotools/data/Diff;)Lcom/vividsolutions/jts/index/quadtree/Quadtree;:321 - ReplaceComparisonOperator == -> <=

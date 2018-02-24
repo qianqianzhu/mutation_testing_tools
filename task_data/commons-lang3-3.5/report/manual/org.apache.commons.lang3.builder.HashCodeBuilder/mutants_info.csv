@@ -1,0 +1,511 @@
+0	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.isRegistered(Ljava/lang/Object;)Z:165 - ReplaceComparisonOperator = null -> != null
+1	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.isRegistered(Ljava/lang/Object;)Z:165 - ReplaceComparisonOperator == -> -2
+2	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.isRegistered(Ljava/lang/Object;)Z:165 - ReplaceComparisonOperator == -> >=
+3	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.isRegistered(Ljava/lang/Object;)Z:165 - ReplaceComparisonOperator == -> <=
+4	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.isRegistered(Ljava/lang/Object;)Z:165 - ReplaceConstant - 1 -> 0
+5	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.isRegistered(Ljava/lang/Object;)Z:165 - ReplaceConstant - 0 -> 1
+6	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:186 - ReplaceComparisonOperator == -> -2
+7	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:186 - ReplaceComparisonOperator == -> >=
+8	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:186 - ReplaceComparisonOperator == -> <=
+9	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:192 - ReplaceConstant - 1 -> 0
+10	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:193 - ReplaceConstant - 0 -> 1
+11	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:193 - ReplaceComparisonOperator >= -> -1
+12	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:193 - ReplaceComparisonOperator >= -> >
+13	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:193 - ReplaceComparisonOperator >= -> ==
+14	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:194 - ReplaceComparisonOperator != -> -1
+15	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:194 - ReplaceComparisonOperator != -> <
+16	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:194 - ReplaceComparisonOperator != -> >
+17	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:195 - ReplaceConstant - $ -> 
+18	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:195 - ReplaceComparisonOperator != -> -1
+19	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:195 - ReplaceComparisonOperator != -> <
+20	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:195 - ReplaceComparisonOperator != -> >
+21	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:195 - InsertUnaryOp Negation of useTransients
+22	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:195 - InsertUnaryOp IINC 1 useTransients
+23	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:195 - InsertUnaryOp IINC -1 useTransients
+24	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:195 - ReplaceComparisonOperator != -> -1
+25	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:195 - ReplaceComparisonOperator != -> <
+26	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:195 - ReplaceComparisonOperator != -> >
+27	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:196 - ReplaceComparisonOperator != -> -1
+28	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:196 - ReplaceComparisonOperator != -> <
+29	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:196 - ReplaceComparisonOperator != -> >
+30	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:197 - ReplaceComparisonOperator != -> -1
+31	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:197 - ReplaceComparisonOperator != -> <
+32	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:197 - ReplaceComparisonOperator != -> >
+33	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:198 - ReplaceComparisonOperator != -> -1
+34	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:198 - ReplaceComparisonOperator != -> <
+35	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:198 - ReplaceComparisonOperator != -> >
+36	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionAppend(Ljava/lang/Object;Ljava/lang/Class;Lorg/apache/commons/lang3/builder/HashCodeBuilder;Z[Ljava/lang/String;)V:205 - ReplaceConstant - Unexpected IllegalAccessException -> 
+37	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;)I:255 - InsertUnaryOp Negation of initialNonZeroOddNumber
+38	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;)I:255 - InsertUnaryOp IINC 1 initialNonZeroOddNumber
+39	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;)I:255 - InsertUnaryOp IINC -1 initialNonZeroOddNumber
+40	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;)I:255 - InsertUnaryOp Negation of multiplierNonZeroOddNumber
+41	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;)I:255 - InsertUnaryOp IINC 1 multiplierNonZeroOddNumber
+42	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;)I:255 - InsertUnaryOp IINC -1 multiplierNonZeroOddNumber
+43	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;)I:255 - ReplaceConstant - 0 -> 1
+44	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;)I:255 - ReplaceConstant - 0 -> 1
+45	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;Z)I:302 - InsertUnaryOp Negation of initialNonZeroOddNumber
+46	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;Z)I:302 - InsertUnaryOp IINC 1 initialNonZeroOddNumber
+47	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;Z)I:302 - InsertUnaryOp IINC -1 initialNonZeroOddNumber
+48	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;Z)I:302 - InsertUnaryOp Negation of multiplierNonZeroOddNumber
+49	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;Z)I:302 - InsertUnaryOp IINC 1 multiplierNonZeroOddNumber
+50	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;Z)I:302 - InsertUnaryOp IINC -1 multiplierNonZeroOddNumber
+51	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;Z)I:302 - InsertUnaryOp Negation of testTransients
+52	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;Z)I:302 - InsertUnaryOp IINC 1 testTransients
+53	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;Z)I:302 - InsertUnaryOp IINC -1 testTransients
+54	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;Z)I:302 - ReplaceConstant - 0 -> 1
+55	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;ZLjava/lang/Class;[Ljava/lang/String;)I:358 - ReplaceComparisonOperator != null -> = null
+56	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;ZLjava/lang/Class;[Ljava/lang/String;)I:359 - ReplaceConstant - The object to build a hash code for must not be null -> 
+57	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;ZLjava/lang/Class;[Ljava/lang/String;)I:361 - InsertUnaryOp Negation of initialNonZeroOddNumber
+58	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;ZLjava/lang/Class;[Ljava/lang/String;)I:361 - InsertUnaryOp IINC 1 initialNonZeroOddNumber
+59	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;ZLjava/lang/Class;[Ljava/lang/String;)I:361 - InsertUnaryOp IINC -1 initialNonZeroOddNumber
+60	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;ZLjava/lang/Class;[Ljava/lang/String;)I:361 - InsertUnaryOp Negation of multiplierNonZeroOddNumber
+61	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;ZLjava/lang/Class;[Ljava/lang/String;)I:361 - InsertUnaryOp IINC 1 multiplierNonZeroOddNumber
+62	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;ZLjava/lang/Class;[Ljava/lang/String;)I:361 - InsertUnaryOp IINC -1 multiplierNonZeroOddNumber
+63	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;ZLjava/lang/Class;[Ljava/lang/String;)I:363 - InsertUnaryOp Negation of testTransients
+64	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;ZLjava/lang/Class;[Ljava/lang/String;)I:363 - InsertUnaryOp IINC 1 testTransients
+65	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;ZLjava/lang/Class;[Ljava/lang/String;)I:363 - InsertUnaryOp IINC -1 testTransients
+66	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;ZLjava/lang/Class;[Ljava/lang/String;)I:364 - ReplaceComparisonOperator = null -> != null
+67	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;ZLjava/lang/Class;[Ljava/lang/String;)I:364 - ReplaceComparisonOperator == -> !=
+68	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;ZLjava/lang/Class;[Ljava/lang/String;)I:366 - InsertUnaryOp Negation of testTransients
+69	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;ZLjava/lang/Class;[Ljava/lang/String;)I:366 - InsertUnaryOp IINC 1 testTransients
+70	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(IILjava/lang/Object;ZLjava/lang/Class;[Ljava/lang/String;)I:366 - InsertUnaryOp IINC -1 testTransients
+71	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;Z)I:407 - ReplaceConstant - 17 -> 0
+72	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;Z)I:407 - ReplaceConstant - 17 -> 1
+73	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;Z)I:407 - ReplaceConstant - 17 -> -1
+74	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;Z)I:407 - ReplaceConstant - 17 -> 16
+75	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;Z)I:407 - ReplaceConstant - 17 -> 18
+76	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;Z)I:407 - ReplaceConstant - 37 -> 0
+77	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;Z)I:407 - ReplaceConstant - 37 -> 1
+78	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;Z)I:407 - ReplaceConstant - 37 -> -1
+79	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;Z)I:407 - ReplaceConstant - 37 -> 36
+80	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;Z)I:407 - ReplaceConstant - 37 -> 38
+81	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;Z)I:407 - InsertUnaryOp Negation of testTransients
+82	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;Z)I:407 - InsertUnaryOp IINC 1 testTransients
+83	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;Z)I:407 - InsertUnaryOp IINC -1 testTransients
+84	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;Z)I:407 - ReplaceConstant - 0 -> 1
+85	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;[Ljava/lang/String;)I:488 - ReplaceConstant - 17 -> 0
+86	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;[Ljava/lang/String;)I:488 - ReplaceConstant - 17 -> 1
+87	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;[Ljava/lang/String;)I:488 - ReplaceConstant - 17 -> -1
+88	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;[Ljava/lang/String;)I:488 - ReplaceConstant - 17 -> 16
+89	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;[Ljava/lang/String;)I:488 - ReplaceConstant - 17 -> 18
+90	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;[Ljava/lang/String;)I:488 - ReplaceConstant - 37 -> 0
+91	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;[Ljava/lang/String;)I:488 - ReplaceConstant - 37 -> 1
+92	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;[Ljava/lang/String;)I:488 - ReplaceConstant - 37 -> -1
+93	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;[Ljava/lang/String;)I:488 - ReplaceConstant - 37 -> 36
+94	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;[Ljava/lang/String;)I:488 - ReplaceConstant - 37 -> 38
+95	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode(Ljava/lang/Object;[Ljava/lang/String;)I:488 - ReplaceConstant - 0 -> 1
+96	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.register(Ljava/lang/Object;)V:502 - ReplaceComparisonOperator != null -> = null
+97	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.unregister(Ljava/lang/Object;)V:523 - ReplaceComparisonOperator = null -> != null
+98	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.unregister(Ljava/lang/Object;)V:525 - ReplaceComparisonOperator == -> -2
+99	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.unregister(Ljava/lang/Object;)V:525 - ReplaceComparisonOperator == -> >=
+100	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.unregister(Ljava/lang/Object;)V:525 - ReplaceComparisonOperator == -> <=
+101	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>()V:539 - ReplaceConstant - 0 -> 1
+102	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>()V:547 - ReplaceConstant - 37 -> 0
+103	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>()V:547 - ReplaceConstant - 37 -> 1
+104	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>()V:547 - ReplaceConstant - 37 -> -1
+105	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>()V:547 - ReplaceConstant - 37 -> 36
+106	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>()V:547 - ReplaceConstant - 37 -> 38
+107	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>()V:548 - ReplaceConstant - 17 -> 0
+108	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>()V:548 - ReplaceConstant - 17 -> 1
+109	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>()V:548 - ReplaceConstant - 17 -> -1
+110	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>()V:548 - ReplaceConstant - 17 -> 16
+111	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>()V:548 - ReplaceConstant - 17 -> 18
+112	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:539 - ReplaceConstant - 0 -> 1
+113	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - InsertUnaryOp Negation of initialOddNumber
+114	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - InsertUnaryOp IINC 1 initialOddNumber
+115	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - InsertUnaryOp IINC -1 initialOddNumber
+116	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - ReplaceConstant - 2 -> 0
+117	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - ReplaceConstant - 2 -> 1
+118	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - ReplaceConstant - 2 -> -1
+119	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - ReplaceConstant - 2 -> 3
+120	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - ReplaceArithmeticOperator % -> +
+121	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - ReplaceArithmeticOperator % -> -
+122	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - ReplaceArithmeticOperator % -> *
+123	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - ReplaceArithmeticOperator % -> /
+124	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - ReplaceComparisonOperator == -> -2
+125	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - ReplaceComparisonOperator == -> >=
+126	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - ReplaceComparisonOperator == -> <=
+127	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - ReplaceConstant - 1 -> 0
+128	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - ReplaceConstant - 0 -> 1
+129	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - ReplaceConstant - HashCodeBuilder requires an odd initial value -> 
+130	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:569 - ReplaceConstant - 0 -> 1
+131	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - InsertUnaryOp Negation of multiplierOddNumber
+132	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - InsertUnaryOp IINC 1 multiplierOddNumber
+133	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - InsertUnaryOp IINC -1 multiplierOddNumber
+134	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - ReplaceConstant - 2 -> 0
+135	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - ReplaceConstant - 2 -> 1
+136	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - ReplaceConstant - 2 -> -1
+137	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - ReplaceConstant - 2 -> 3
+138	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - ReplaceArithmeticOperator % -> +
+139	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - ReplaceArithmeticOperator % -> -
+140	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - ReplaceArithmeticOperator % -> *
+141	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - ReplaceArithmeticOperator % -> /
+142	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - ReplaceComparisonOperator == -> -2
+143	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - ReplaceComparisonOperator == -> >=
+144	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - ReplaceComparisonOperator == -> <=
+145	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - ReplaceConstant - 1 -> 0
+146	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - ReplaceConstant - 0 -> 1
+147	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - ReplaceConstant - HashCodeBuilder requires an odd multiplier -> 
+148	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:570 - ReplaceConstant - 0 -> 1
+149	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:571 - InsertUnaryOp Negation of multiplierOddNumber
+150	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:571 - InsertUnaryOp IINC 1 multiplierOddNumber
+151	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:571 - InsertUnaryOp IINC -1 multiplierOddNumber
+152	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:572 - InsertUnaryOp Negation of initialOddNumber
+153	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:572 - InsertUnaryOp IINC 1 initialOddNumber
+154	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.<init>(II)V:572 - InsertUnaryOp IINC -1 initialOddNumber
+155	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - InsertUnaryOp Negation
+156	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - InsertUnaryOp +1
+157	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - InsertUnaryOp -1
+158	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - InsertUnaryOp Negation
+159	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - InsertUnaryOp +1
+160	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - InsertUnaryOp -1
+161	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - ReplaceArithmeticOperator * -> +
+162	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - ReplaceArithmeticOperator * -> %
+163	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - ReplaceArithmeticOperator * -> -
+164	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - ReplaceArithmeticOperator * -> /
+165	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - InsertUnaryOp Negation of value
+166	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - InsertUnaryOp IINC 1 value
+167	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - InsertUnaryOp IINC -1 value
+168	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - ReplaceComparisonOperator == -> -2
+169	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - ReplaceComparisonOperator == -> >=
+170	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - ReplaceComparisonOperator == -> <=
+171	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - ReplaceConstant - 0 -> 1
+172	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - ReplaceConstant - 1 -> 0
+173	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - ReplaceArithmeticOperator + -> %
+174	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - ReplaceArithmeticOperator + -> -
+175	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - ReplaceArithmeticOperator + -> *
+176	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:597 - ReplaceArithmeticOperator + -> /
+177	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:611 - ReplaceComparisonOperator != null -> = null
+178	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:612 - InsertUnaryOp Negation
+179	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:612 - InsertUnaryOp +1
+180	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:612 - InsertUnaryOp -1
+181	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:612 - InsertUnaryOp Negation
+182	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:612 - InsertUnaryOp +1
+183	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:612 - InsertUnaryOp -1
+184	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:612 - ReplaceArithmeticOperator * -> +
+185	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:612 - ReplaceArithmeticOperator * -> %
+186	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:612 - ReplaceArithmeticOperator * -> -
+187	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:612 - ReplaceArithmeticOperator * -> /
+188	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:614 - ReplaceConstant - 0 -> 1
+189	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:614 - ReplaceComparisonOperator >= -> -1
+190	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:614 - ReplaceComparisonOperator >= -> >
+191	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:614 - ReplaceComparisonOperator >= -> ==
+192	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:615 - InsertUnaryOp Negation of element
+193	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:615 - InsertUnaryOp IINC 1 element
+194	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([Z)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:615 - InsertUnaryOp IINC -1 element
+195	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:633 - InsertUnaryOp Negation
+196	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:633 - InsertUnaryOp +1
+197	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:633 - InsertUnaryOp -1
+198	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:633 - InsertUnaryOp Negation
+199	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:633 - InsertUnaryOp +1
+200	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:633 - InsertUnaryOp -1
+201	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:633 - ReplaceArithmeticOperator * -> +
+202	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:633 - ReplaceArithmeticOperator * -> %
+203	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:633 - ReplaceArithmeticOperator * -> -
+204	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:633 - ReplaceArithmeticOperator * -> /
+205	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:633 - InsertUnaryOp Negation of value
+206	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:633 - InsertUnaryOp IINC 1 value
+207	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:633 - InsertUnaryOp IINC -1 value
+208	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:633 - ReplaceArithmeticOperator + -> %
+209	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:633 - ReplaceArithmeticOperator + -> -
+210	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:633 - ReplaceArithmeticOperator + -> *
+211	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:633 - ReplaceArithmeticOperator + -> /
+212	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:649 - ReplaceComparisonOperator != null -> = null
+213	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:650 - InsertUnaryOp Negation
+214	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:650 - InsertUnaryOp +1
+215	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:650 - InsertUnaryOp -1
+216	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:650 - InsertUnaryOp Negation
+217	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:650 - InsertUnaryOp +1
+218	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:650 - InsertUnaryOp -1
+219	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:650 - ReplaceArithmeticOperator * -> +
+220	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:650 - ReplaceArithmeticOperator * -> %
+221	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:650 - ReplaceArithmeticOperator * -> -
+222	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:650 - ReplaceArithmeticOperator * -> /
+223	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:652 - ReplaceConstant - 0 -> 1
+224	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:652 - ReplaceComparisonOperator >= -> -1
+225	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:652 - ReplaceComparisonOperator >= -> >
+226	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:652 - ReplaceComparisonOperator >= -> ==
+227	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:653 - InsertUnaryOp Negation of element
+228	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:653 - InsertUnaryOp IINC 1 element
+229	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([B)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:653 - InsertUnaryOp IINC -1 element
+230	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:669 - InsertUnaryOp Negation
+231	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:669 - InsertUnaryOp +1
+232	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:669 - InsertUnaryOp -1
+233	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:669 - InsertUnaryOp Negation
+234	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:669 - InsertUnaryOp +1
+235	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:669 - InsertUnaryOp -1
+236	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:669 - ReplaceArithmeticOperator * -> +
+237	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:669 - ReplaceArithmeticOperator * -> %
+238	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:669 - ReplaceArithmeticOperator * -> -
+239	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:669 - ReplaceArithmeticOperator * -> /
+240	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:669 - InsertUnaryOp Negation of value
+241	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:669 - InsertUnaryOp IINC 1 value
+242	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:669 - InsertUnaryOp IINC -1 value
+243	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:669 - ReplaceArithmeticOperator + -> %
+244	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:669 - ReplaceArithmeticOperator + -> -
+245	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:669 - ReplaceArithmeticOperator + -> *
+246	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:669 - ReplaceArithmeticOperator + -> /
+247	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:683 - ReplaceComparisonOperator != null -> = null
+248	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:684 - InsertUnaryOp Negation
+249	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:684 - InsertUnaryOp +1
+250	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:684 - InsertUnaryOp -1
+251	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:684 - InsertUnaryOp Negation
+252	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:684 - InsertUnaryOp +1
+253	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:684 - InsertUnaryOp -1
+254	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:684 - ReplaceArithmeticOperator * -> +
+255	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:684 - ReplaceArithmeticOperator * -> %
+256	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:684 - ReplaceArithmeticOperator * -> -
+257	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:684 - ReplaceArithmeticOperator * -> /
+258	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:686 - ReplaceConstant - 0 -> 1
+259	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:686 - ReplaceComparisonOperator >= -> -1
+260	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:686 - ReplaceComparisonOperator >= -> >
+261	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:686 - ReplaceComparisonOperator >= -> ==
+262	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:687 - InsertUnaryOp Negation of element
+263	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:687 - InsertUnaryOp IINC 1 element
+264	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([C)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:687 - InsertUnaryOp IINC -1 element
+265	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(D)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:703 - InsertUnaryOp Negation of value
+266	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([D)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:716 - ReplaceComparisonOperator != null -> = null
+267	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([D)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:717 - InsertUnaryOp Negation
+268	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([D)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:717 - InsertUnaryOp +1
+269	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([D)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:717 - InsertUnaryOp -1
+270	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([D)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:717 - InsertUnaryOp Negation
+271	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([D)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:717 - InsertUnaryOp +1
+272	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([D)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:717 - InsertUnaryOp -1
+273	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([D)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:717 - ReplaceArithmeticOperator * -> +
+274	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([D)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:717 - ReplaceArithmeticOperator * -> %
+275	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([D)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:717 - ReplaceArithmeticOperator * -> -
+276	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([D)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:717 - ReplaceArithmeticOperator * -> /
+277	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.append([D)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:719 - ReplaceConstant - 0 -> 1
+278	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([D)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:719 - ReplaceComparisonOperator >= -> -1
+279	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([D)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:719 - ReplaceComparisonOperator >= -> >
+280	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([D)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:719 - ReplaceComparisonOperator >= -> ==
+281	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([D)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:720 - InsertUnaryOp Negation of element
+282	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:736 - InsertUnaryOp Negation
+283	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:736 - InsertUnaryOp +1
+284	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:736 - InsertUnaryOp -1
+285	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:736 - InsertUnaryOp Negation
+286	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:736 - InsertUnaryOp +1
+287	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:736 - InsertUnaryOp -1
+288	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:736 - ReplaceArithmeticOperator * -> +
+289	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:736 - ReplaceArithmeticOperator * -> %
+290	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:736 - ReplaceArithmeticOperator * -> -
+291	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:736 - ReplaceArithmeticOperator * -> /
+292	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:736 - InsertUnaryOp Negation of value
+293	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:736 - ReplaceArithmeticOperator + -> %
+294	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:736 - ReplaceArithmeticOperator + -> -
+295	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:736 - ReplaceArithmeticOperator + -> *
+296	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:736 - ReplaceArithmeticOperator + -> /
+297	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:750 - ReplaceComparisonOperator != null -> = null
+298	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:751 - InsertUnaryOp Negation
+299	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:751 - InsertUnaryOp +1
+300	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:751 - InsertUnaryOp -1
+301	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:751 - InsertUnaryOp Negation
+302	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:751 - InsertUnaryOp +1
+303	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:751 - InsertUnaryOp -1
+304	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:751 - ReplaceArithmeticOperator * -> +
+305	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:751 - ReplaceArithmeticOperator * -> %
+306	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:751 - ReplaceArithmeticOperator * -> -
+307	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:751 - ReplaceArithmeticOperator * -> /
+308	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.append([F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:753 - ReplaceConstant - 0 -> 1
+309	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:753 - ReplaceComparisonOperator >= -> -1
+310	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:753 - ReplaceComparisonOperator >= -> >
+311	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:753 - ReplaceComparisonOperator >= -> ==
+312	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([F)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:754 - InsertUnaryOp Negation of element
+313	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:770 - InsertUnaryOp Negation
+314	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:770 - InsertUnaryOp +1
+315	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:770 - InsertUnaryOp -1
+316	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:770 - InsertUnaryOp Negation
+317	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:770 - InsertUnaryOp +1
+318	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:770 - InsertUnaryOp -1
+319	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:770 - ReplaceArithmeticOperator * -> +
+320	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:770 - ReplaceArithmeticOperator * -> %
+321	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:770 - ReplaceArithmeticOperator * -> -
+322	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:770 - ReplaceArithmeticOperator * -> /
+323	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:770 - InsertUnaryOp Negation of value
+324	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:770 - InsertUnaryOp IINC 1 value
+325	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:770 - InsertUnaryOp IINC -1 value
+326	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:770 - ReplaceArithmeticOperator + -> %
+327	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:770 - ReplaceArithmeticOperator + -> -
+328	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:770 - ReplaceArithmeticOperator + -> *
+329	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:770 - ReplaceArithmeticOperator + -> /
+330	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:784 - ReplaceComparisonOperator != null -> = null
+331	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:785 - InsertUnaryOp Negation
+332	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:785 - InsertUnaryOp +1
+333	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:785 - InsertUnaryOp -1
+334	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:785 - InsertUnaryOp Negation
+335	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:785 - InsertUnaryOp +1
+336	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:785 - InsertUnaryOp -1
+337	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:785 - ReplaceArithmeticOperator * -> +
+338	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:785 - ReplaceArithmeticOperator * -> %
+339	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:785 - ReplaceArithmeticOperator * -> -
+340	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:785 - ReplaceArithmeticOperator * -> /
+341	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:787 - ReplaceConstant - 0 -> 1
+342	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:787 - ReplaceComparisonOperator >= -> -1
+343	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:787 - ReplaceComparisonOperator >= -> >
+344	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:787 - ReplaceComparisonOperator >= -> ==
+345	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:788 - InsertUnaryOp Negation of element
+346	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:788 - InsertUnaryOp IINC 1 element
+347	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:788 - InsertUnaryOp IINC -1 element
+348	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - InsertUnaryOp Negation
+349	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - InsertUnaryOp +1
+350	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - InsertUnaryOp -1
+351	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - InsertUnaryOp Negation
+352	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - InsertUnaryOp +1
+353	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - InsertUnaryOp -1
+354	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - ReplaceArithmeticOperator * -> +
+355	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - ReplaceArithmeticOperator * -> %
+356	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - ReplaceArithmeticOperator * -> -
+357	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - ReplaceArithmeticOperator * -> /
+358	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - InsertUnaryOp Negation of value
+359	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - InsertUnaryOp Negation of value
+360	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - ReplaceConstant - 32 -> 0
+361	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - ReplaceConstant - 32 -> 1
+362	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - ReplaceConstant - 32 -> -1
+363	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - ReplaceConstant - 32 -> 31
+364	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - ReplaceConstant - 32 -> 33
+365	ReplaceBitwiseOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - ReplaceBitwiseOperator >> L -> << L
+366	ReplaceBitwiseOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - ReplaceBitwiseOperator >> L -> >>> L
+367	ReplaceBitwiseOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - ReplaceBitwiseOperator ^ -> |
+368	ReplaceBitwiseOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - ReplaceBitwiseOperator ^ -> &
+369	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - ReplaceArithmeticOperator + -> %
+370	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - ReplaceArithmeticOperator + -> -
+371	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - ReplaceArithmeticOperator + -> *
+372	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:808 - ReplaceArithmeticOperator + -> /
+373	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:822 - ReplaceComparisonOperator != null -> = null
+374	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:823 - InsertUnaryOp Negation
+375	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:823 - InsertUnaryOp +1
+376	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:823 - InsertUnaryOp -1
+377	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:823 - InsertUnaryOp Negation
+378	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:823 - InsertUnaryOp +1
+379	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:823 - InsertUnaryOp -1
+380	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:823 - ReplaceArithmeticOperator * -> +
+381	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:823 - ReplaceArithmeticOperator * -> %
+382	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:823 - ReplaceArithmeticOperator * -> -
+383	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:823 - ReplaceArithmeticOperator * -> /
+384	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.append([J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:825 - ReplaceConstant - 0 -> 1
+385	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:825 - ReplaceComparisonOperator >= -> -1
+386	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:825 - ReplaceComparisonOperator >= -> >
+387	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:825 - ReplaceComparisonOperator >= -> ==
+388	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([J)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:826 - InsertUnaryOp Negation of element
+389	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:842 - ReplaceComparisonOperator != null -> = null
+390	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:843 - InsertUnaryOp Negation
+391	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:843 - InsertUnaryOp +1
+392	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:843 - InsertUnaryOp -1
+393	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:843 - InsertUnaryOp Negation
+394	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:843 - InsertUnaryOp +1
+395	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:843 - InsertUnaryOp -1
+396	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:843 - ReplaceArithmeticOperator * -> +
+397	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:843 - ReplaceArithmeticOperator * -> %
+398	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:843 - ReplaceArithmeticOperator * -> -
+399	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:843 - ReplaceArithmeticOperator * -> /
+400	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:846 - ReplaceComparisonOperator == -> -2
+401	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:846 - ReplaceComparisonOperator == -> >=
+402	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:846 - ReplaceComparisonOperator == -> <=
+403	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:851 - InsertUnaryOp Negation
+404	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:851 - InsertUnaryOp +1
+405	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:851 - InsertUnaryOp -1
+406	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:851 - InsertUnaryOp Negation
+407	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:851 - InsertUnaryOp +1
+408	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:851 - InsertUnaryOp -1
+409	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:851 - ReplaceArithmeticOperator * -> +
+410	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:851 - ReplaceArithmeticOperator * -> %
+411	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:851 - ReplaceArithmeticOperator * -> -
+412	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:851 - ReplaceArithmeticOperator * -> /
+413	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:851 - ReplaceArithmeticOperator + -> %
+414	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:851 - ReplaceArithmeticOperator + -> -
+415	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:851 - ReplaceArithmeticOperator + -> *
+416	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:851 - ReplaceArithmeticOperator + -> /
+417	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:868 - ReplaceComparisonOperator == -> -2
+418	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:868 - ReplaceComparisonOperator == -> >=
+419	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:868 - ReplaceComparisonOperator == -> <=
+420	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:870 - ReplaceComparisonOperator == -> -2
+421	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:870 - ReplaceComparisonOperator == -> >=
+422	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:870 - ReplaceComparisonOperator == -> <=
+423	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:872 - ReplaceComparisonOperator == -> -2
+424	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:872 - ReplaceComparisonOperator == -> >=
+425	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:872 - ReplaceComparisonOperator == -> <=
+426	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:874 - ReplaceComparisonOperator == -> -2
+427	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:874 - ReplaceComparisonOperator == -> >=
+428	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:874 - ReplaceComparisonOperator == -> <=
+429	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:876 - ReplaceComparisonOperator == -> -2
+430	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:876 - ReplaceComparisonOperator == -> >=
+431	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:876 - ReplaceComparisonOperator == -> <=
+432	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:878 - ReplaceComparisonOperator == -> -2
+433	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:878 - ReplaceComparisonOperator == -> >=
+434	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:878 - ReplaceComparisonOperator == -> <=
+435	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:880 - ReplaceComparisonOperator == -> -2
+436	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:880 - ReplaceComparisonOperator == -> >=
+437	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:880 - ReplaceComparisonOperator == -> <=
+438	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:882 - ReplaceComparisonOperator == -> -2
+439	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:882 - ReplaceComparisonOperator == -> >=
+440	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendArray(Ljava/lang/Object;)V:882 - ReplaceComparisonOperator == -> <=
+441	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:900 - ReplaceComparisonOperator != null -> = null
+442	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:901 - InsertUnaryOp Negation
+443	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:901 - InsertUnaryOp +1
+444	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:901 - InsertUnaryOp -1
+445	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:901 - InsertUnaryOp Negation
+446	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:901 - InsertUnaryOp +1
+447	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:901 - InsertUnaryOp -1
+448	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:901 - ReplaceArithmeticOperator * -> +
+449	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:901 - ReplaceArithmeticOperator * -> %
+450	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:901 - ReplaceArithmeticOperator * -> -
+451	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:901 - ReplaceArithmeticOperator * -> /
+452	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.append([Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:903 - ReplaceConstant - 0 -> 1
+453	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:903 - ReplaceComparisonOperator >= -> -1
+454	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:903 - ReplaceComparisonOperator >= -> >
+455	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([Ljava/lang/Object;)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:903 - ReplaceComparisonOperator >= -> ==
+456	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:920 - InsertUnaryOp Negation
+457	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:920 - InsertUnaryOp +1
+458	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:920 - InsertUnaryOp -1
+459	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:920 - InsertUnaryOp Negation
+460	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:920 - InsertUnaryOp +1
+461	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:920 - InsertUnaryOp -1
+462	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:920 - ReplaceArithmeticOperator * -> +
+463	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:920 - ReplaceArithmeticOperator * -> %
+464	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:920 - ReplaceArithmeticOperator * -> -
+465	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:920 - ReplaceArithmeticOperator * -> /
+466	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:920 - InsertUnaryOp Negation of value
+467	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:920 - InsertUnaryOp IINC 1 value
+468	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append(S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:920 - InsertUnaryOp IINC -1 value
+469	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:920 - ReplaceArithmeticOperator + -> %
+470	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:920 - ReplaceArithmeticOperator + -> -
+471	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:920 - ReplaceArithmeticOperator + -> *
+472	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append(S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:920 - ReplaceArithmeticOperator + -> /
+473	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:934 - ReplaceComparisonOperator != null -> = null
+474	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:935 - InsertUnaryOp Negation
+475	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:935 - InsertUnaryOp +1
+476	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:935 - InsertUnaryOp -1
+477	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:935 - InsertUnaryOp Negation
+478	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:935 - InsertUnaryOp +1
+479	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:935 - InsertUnaryOp -1
+480	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:935 - ReplaceArithmeticOperator * -> +
+481	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:935 - ReplaceArithmeticOperator * -> %
+482	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:935 - ReplaceArithmeticOperator * -> -
+483	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:935 - ReplaceArithmeticOperator * -> /
+484	ReplaceConstant	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:937 - ReplaceConstant - 0 -> 1
+485	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:937 - ReplaceComparisonOperator >= -> -1
+486	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:937 - ReplaceComparisonOperator >= -> >
+487	ReplaceComparisonOperator	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:937 - ReplaceComparisonOperator >= -> ==
+488	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:938 - InsertUnaryOp Negation of element
+489	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:938 - InsertUnaryOp IINC 1 element
+490	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.append([S)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:938 - InsertUnaryOp IINC -1 element
+491	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.appendSuper(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:955 - InsertUnaryOp Negation
+492	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.appendSuper(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:955 - InsertUnaryOp +1
+493	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.appendSuper(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:955 - InsertUnaryOp -1
+494	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.appendSuper(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:955 - InsertUnaryOp Negation
+495	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.appendSuper(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:955 - InsertUnaryOp +1
+496	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.appendSuper(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:955 - InsertUnaryOp -1
+497	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendSuper(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:955 - ReplaceArithmeticOperator * -> +
+498	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendSuper(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:955 - ReplaceArithmeticOperator * -> %
+499	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendSuper(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:955 - ReplaceArithmeticOperator * -> -
+500	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendSuper(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:955 - ReplaceArithmeticOperator * -> /
+501	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.appendSuper(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:955 - InsertUnaryOp Negation of superHashCode
+502	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.appendSuper(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:955 - InsertUnaryOp IINC 1 superHashCode
+503	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.appendSuper(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:955 - InsertUnaryOp IINC -1 superHashCode
+504	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendSuper(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:955 - ReplaceArithmeticOperator + -> %
+505	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendSuper(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:955 - ReplaceArithmeticOperator + -> -
+506	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendSuper(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:955 - ReplaceArithmeticOperator + -> *
+507	ReplaceArithmeticOperator	org.apache.commons.lang3.builder.HashCodeBuilder.appendSuper(I)Lorg/apache/commons/lang3/builder/HashCodeBuilder;:955 - ReplaceArithmeticOperator + -> /
+508	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.toHashCode()I:967 - InsertUnaryOp Negation
+509	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.toHashCode()I:967 - InsertUnaryOp +1
+510	InsertUnaryOp	org.apache.commons.lang3.builder.HashCodeBuilder.toHashCode()I:967 - InsertUnaryOp -1

@@ -1,0 +1,102 @@
+0	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.<init>()V:93 - ReplaceConstant - {3} -> 
+1	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.<init>(Ljava/lang/String;Ljava/text/NumberFormat;Ljava/text/NumberFormat;Ljava/text/NumberFormat;)V:113 - ReplaceConstant - zFormat -> 
+2	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.<init>(Ljava/lang/String;Ljava/text/DateFormat;Ljava/text/DateFormat;Ljava/text/DateFormat;)V:132 - ReplaceConstant - zFormat -> 
+3	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabel(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:165 - InsertUnaryOp Negation of series
+4	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabel(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:165 - InsertUnaryOp IINC 1 series
+5	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabel(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:165 - InsertUnaryOp IINC -1 series
+6	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabel(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:165 - InsertUnaryOp Negation of item
+7	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabel(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:165 - InsertUnaryOp IINC 1 item
+8	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabel(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:165 - InsertUnaryOp IINC -1 item
+9	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabelString(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:181 - ReplaceComparisonOperator == -> -2
+10	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabelString(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:181 - ReplaceComparisonOperator == -> >=
+11	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabelString(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:181 - ReplaceComparisonOperator == -> <=
+12	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabelString(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:182 - InsertUnaryOp Negation of series
+13	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabelString(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:182 - InsertUnaryOp IINC 1 series
+14	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabelString(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:182 - InsertUnaryOp IINC -1 series
+15	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabelString(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:182 - InsertUnaryOp Negation of item
+16	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabelString(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:182 - InsertUnaryOp IINC 1 item
+17	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabelString(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:182 - InsertUnaryOp IINC -1 item
+18	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabelString(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:185 - InsertUnaryOp Negation of series
+19	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabelString(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:185 - InsertUnaryOp IINC 1 series
+20	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabelString(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:185 - InsertUnaryOp IINC -1 series
+21	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabelString(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:185 - InsertUnaryOp Negation of item
+22	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabelString(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:185 - InsertUnaryOp IINC 1 item
+23	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.generateLabelString(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:185 - InsertUnaryOp IINC -1 item
+24	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:204 - ReplaceConstant - 4 -> 0
+25	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:204 - ReplaceConstant - 4 -> 1
+26	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:204 - ReplaceConstant - 4 -> -1
+27	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:204 - ReplaceConstant - 4 -> 3
+28	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:204 - ReplaceConstant - 4 -> 5
+29	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:205 - ReplaceConstant - 0 -> 1
+30	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:205 - InsertUnaryOp Negation of series
+31	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:205 - InsertUnaryOp IINC 1 series
+32	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:205 - InsertUnaryOp IINC -1 series
+33	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:207 - InsertUnaryOp Negation of series
+34	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:207 - InsertUnaryOp IINC 1 series
+35	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:207 - InsertUnaryOp IINC -1 series
+36	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:207 - InsertUnaryOp Negation of item
+37	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:207 - InsertUnaryOp IINC 1 item
+38	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:207 - InsertUnaryOp IINC -1 item
+39	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:209 - ReplaceComparisonOperator = null -> != null
+40	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:210 - ReplaceConstant - 1 -> 0
+41	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:213 - ReplaceConstant - 1 -> 0
+42	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:216 - InsertUnaryOp Negation of series
+43	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:216 - InsertUnaryOp IINC 1 series
+44	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:216 - InsertUnaryOp IINC -1 series
+45	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:216 - InsertUnaryOp Negation of item
+46	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:216 - InsertUnaryOp IINC 1 item
+47	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:216 - InsertUnaryOp IINC -1 item
+48	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:218 - ReplaceComparisonOperator = null -> != null
+49	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:219 - ReplaceConstant - 2 -> 0
+50	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:219 - ReplaceConstant - 2 -> 1
+51	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:219 - ReplaceConstant - 2 -> -1
+52	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:219 - ReplaceConstant - 2 -> 3
+53	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:222 - ReplaceConstant - 2 -> 0
+54	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:222 - ReplaceConstant - 2 -> 1
+55	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:222 - ReplaceConstant - 2 -> -1
+56	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:222 - ReplaceConstant - 2 -> 3
+57	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:225 - InsertUnaryOp Negation of series
+58	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:225 - InsertUnaryOp IINC 1 series
+59	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:225 - InsertUnaryOp IINC -1 series
+60	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:225 - InsertUnaryOp Negation of item
+61	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:225 - InsertUnaryOp IINC 1 item
+62	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:225 - InsertUnaryOp IINC -1 item
+63	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:226 - ReplaceComparisonOperator = null -> != null
+64	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:227 - ReplaceConstant - 3 -> 0
+65	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:227 - ReplaceConstant - 3 -> 1
+66	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:227 - ReplaceConstant - 3 -> -1
+67	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:227 - ReplaceConstant - 3 -> 2
+68	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:227 - ReplaceConstant - 3 -> 4
+69	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:230 - ReplaceConstant - 3 -> 0
+70	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:230 - ReplaceConstant - 3 -> 1
+71	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:230 - ReplaceConstant - 3 -> -1
+72	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:230 - ReplaceConstant - 3 -> 2
+73	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.createItemArray(Lorg/jfree/data/xy/XYZDataset;II)[Ljava/lang/Object;:230 - ReplaceConstant - 3 -> 4
+74	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:246 - ReplaceComparisonOperator != -> ==
+75	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:247 - ReplaceConstant - 1 -> 0
+76	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:249 - ReplaceComparisonOperator != -> -1
+77	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:249 - ReplaceComparisonOperator != -> <
+78	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:249 - ReplaceComparisonOperator != -> >
+79	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:250 - ReplaceConstant - 0 -> 1
+80	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:252 - ReplaceComparisonOperator != -> -1
+81	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:252 - ReplaceComparisonOperator != -> <
+82	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:252 - ReplaceComparisonOperator != -> >
+83	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:253 - ReplaceConstant - 0 -> 1
+84	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:256 - ReplaceComparisonOperator != -> -1
+85	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:256 - ReplaceComparisonOperator != -> <
+86	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:256 - ReplaceComparisonOperator != -> >
+87	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:257 - ReplaceConstant - 0 -> 1
+88	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:259 - ReplaceComparisonOperator != -> -1
+89	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:259 - ReplaceComparisonOperator != -> <
+90	ReplaceComparisonOperator	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:259 - ReplaceComparisonOperator != -> >
+91	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:260 - ReplaceConstant - 0 -> 1
+92	ReplaceConstant	org.jfree.chart.labels.BubbleXYItemLabelGenerator.equals(Ljava/lang/Object;)Z:262 - ReplaceConstant - 1 -> 0
+93	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.hashCode()I:273 - InsertUnaryOp Negation of h
+94	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.hashCode()I:273 - InsertUnaryOp IINC 1 h
+95	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.hashCode()I:273 - InsertUnaryOp IINC -1 h
+96	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.hashCode()I:274 - InsertUnaryOp Negation of h
+97	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.hashCode()I:274 - InsertUnaryOp IINC 1 h
+98	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.hashCode()I:274 - InsertUnaryOp IINC -1 h
+99	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.hashCode()I:275 - InsertUnaryOp Negation of h
+100	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.hashCode()I:275 - InsertUnaryOp IINC 1 h
+101	InsertUnaryOp	org.jfree.chart.labels.BubbleXYItemLabelGenerator.hashCode()I:275 - InsertUnaryOp IINC -1 h

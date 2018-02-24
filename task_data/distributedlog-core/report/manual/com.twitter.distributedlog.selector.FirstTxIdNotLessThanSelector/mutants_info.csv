@@ -1,0 +1,11 @@
+0	ReplaceConstant	com.twitter.distributedlog.selector.FirstTxIdNotLessThanSelector.<init>(J)V:30 - ReplaceConstant - 0 -> 1
+1	InsertUnaryOp	com.twitter.distributedlog.selector.FirstTxIdNotLessThanSelector.<init>(J)V:33 - InsertUnaryOp Negation of txId
+2	InsertUnaryOp	com.twitter.distributedlog.selector.FirstTxIdNotLessThanSelector.process(Lcom/twitter/distributedlog/LogRecordWithDLSN;)V:38 - InsertUnaryOp Negation
+3	ReplaceComparisonOperator	com.twitter.distributedlog.selector.FirstTxIdNotLessThanSelector.process(Lcom/twitter/distributedlog/LogRecordWithDLSN;)V:38 - ReplaceComparisonOperator == -> -2
+4	ReplaceComparisonOperator	com.twitter.distributedlog.selector.FirstTxIdNotLessThanSelector.process(Lcom/twitter/distributedlog/LogRecordWithDLSN;)V:38 - ReplaceComparisonOperator == -> >=
+5	ReplaceComparisonOperator	com.twitter.distributedlog.selector.FirstTxIdNotLessThanSelector.process(Lcom/twitter/distributedlog/LogRecordWithDLSN;)V:38 - ReplaceComparisonOperator == -> <=
+6	InsertUnaryOp	com.twitter.distributedlog.selector.FirstTxIdNotLessThanSelector.process(Lcom/twitter/distributedlog/LogRecordWithDLSN;)V:42 - InsertUnaryOp Negation
+7	ReplaceComparisonOperator	com.twitter.distributedlog.selector.FirstTxIdNotLessThanSelector.process(Lcom/twitter/distributedlog/LogRecordWithDLSN;)V:42 - ReplaceComparisonOperator < -> -2
+8	ReplaceComparisonOperator	com.twitter.distributedlog.selector.FirstTxIdNotLessThanSelector.process(Lcom/twitter/distributedlog/LogRecordWithDLSN;)V:42 - ReplaceComparisonOperator < -> !=
+9	ReplaceComparisonOperator	com.twitter.distributedlog.selector.FirstTxIdNotLessThanSelector.process(Lcom/twitter/distributedlog/LogRecordWithDLSN;)V:42 - ReplaceComparisonOperator < -> <=
+10	ReplaceConstant	com.twitter.distributedlog.selector.FirstTxIdNotLessThanSelector.process(Lcom/twitter/distributedlog/LogRecordWithDLSN;)V:43 - ReplaceConstant - 1 -> 0

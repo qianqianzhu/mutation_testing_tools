@@ -1,0 +1,151 @@
+0	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.<init>()V:78 - ReplaceConstant - 0.0 -> 1.0
+1	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.<init>()V:78 - ReplaceConstant - 0.0 -> -1.0
+2	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.<init>()V:78 - ReplaceConstant - 1.0 -> 0.0
+3	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.<init>()V:78 - ReplaceConstant - 1.0 -> -1.0
+4	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.<init>()V:78 - ReplaceConstant - 1.0 -> 2.0
+5	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.<init>(DD)V:91 - InsertUnaryOp Negation of lowerBound
+6	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.<init>(DD)V:91 - InsertUnaryOp Negation of upperBound
+7	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.<init>(DD)V:91 - ReplaceConstant - 255 -> 0
+8	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.<init>(DD)V:91 - ReplaceConstant - 255 -> 1
+9	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.<init>(DD)V:91 - ReplaceConstant - 255 -> -1
+10	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.<init>(DD)V:91 - ReplaceConstant - 255 -> 254
+11	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.<init>(DD)V:91 - ReplaceConstant - 255 -> 256
+12	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:108 - InsertUnaryOp Negation of lowerBound
+13	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:108 - InsertUnaryOp Negation of upperBound
+14	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:108 - ReplaceComparisonOperator < -> -2
+15	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:108 - ReplaceComparisonOperator < -> !=
+16	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:108 - ReplaceComparisonOperator < -> <=
+17	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:109 - ReplaceConstant - Requires lowerBound < upperBound. -> 
+18	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:112 - InsertUnaryOp Negation of alpha
+19	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:112 - InsertUnaryOp IINC 1 alpha
+20	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:112 - InsertUnaryOp IINC -1 alpha
+21	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:112 - ReplaceComparisonOperator < -> -2
+22	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:112 - ReplaceComparisonOperator < -> !=
+23	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:112 - ReplaceComparisonOperator < -> <=
+24	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:112 - InsertUnaryOp Negation of alpha
+25	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:112 - InsertUnaryOp IINC 1 alpha
+26	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:112 - InsertUnaryOp IINC -1 alpha
+27	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:112 - ReplaceConstant - 255 -> 0
+28	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:112 - ReplaceConstant - 255 -> 1
+29	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:112 - ReplaceConstant - 255 -> -1
+30	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:112 - ReplaceConstant - 255 -> 254
+31	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:112 - ReplaceConstant - 255 -> 256
+32	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:112 - ReplaceComparisonOperator <= -> -1
+33	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:112 - ReplaceComparisonOperator <= -> <
+34	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:112 - ReplaceComparisonOperator <= -> ==
+35	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:113 - ReplaceConstant - Requires alpha in the range 0 to 255. -> 
+36	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:117 - InsertUnaryOp Negation of lowerBound
+37	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:118 - InsertUnaryOp Negation of upperBound
+38	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:119 - InsertUnaryOp Negation of alpha
+39	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:119 - InsertUnaryOp IINC 1 alpha
+40	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.<init>(DDI)V:119 - InsertUnaryOp IINC -1 alpha
+41	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getLowerBound()D:131 - InsertUnaryOp Negation
+42	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getUpperBound()D:143 - InsertUnaryOp Negation
+43	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getAlpha()I:154 - InsertUnaryOp Negation
+44	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getAlpha()I:154 - InsertUnaryOp +1
+45	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getAlpha()I:154 - InsertUnaryOp -1
+46	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:167 - InsertUnaryOp Negation of value
+47	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:167 - InsertUnaryOp Negation
+48	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:168 - InsertUnaryOp Negation of v
+49	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:168 - InsertUnaryOp Negation
+50	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - InsertUnaryOp Negation of v
+51	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - InsertUnaryOp Negation
+52	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceArithmeticOperator - -> +
+53	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceArithmeticOperator - -> %
+54	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceArithmeticOperator - -> *
+55	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceArithmeticOperator - -> /
+56	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - InsertUnaryOp Negation
+57	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - InsertUnaryOp Negation
+58	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceArithmeticOperator - -> +
+59	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceArithmeticOperator - -> %
+60	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceArithmeticOperator - -> *
+61	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceArithmeticOperator - -> /
+62	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceArithmeticOperator / -> +
+63	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceArithmeticOperator / -> %
+64	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceArithmeticOperator / -> -
+65	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceArithmeticOperator / -> *
+66	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceConstant - 255.0 -> 0.0
+67	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceConstant - 255.0 -> 1.0
+68	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceConstant - 255.0 -> -1.0
+69	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceConstant - 255.0 -> 254.0
+70	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceConstant - 255.0 -> 256.0
+71	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceArithmeticOperator * -> +
+72	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceArithmeticOperator * -> %
+73	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceArithmeticOperator * -> -
+74	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:169 - ReplaceArithmeticOperator * -> /
+75	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:173 - InsertUnaryOp Negation of g
+76	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:173 - InsertUnaryOp IINC 1 g
+77	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:173 - InsertUnaryOp IINC -1 g
+78	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:173 - InsertUnaryOp Negation of g
+79	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:173 - InsertUnaryOp IINC 1 g
+80	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:173 - InsertUnaryOp IINC -1 g
+81	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:173 - InsertUnaryOp Negation of g
+82	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:173 - InsertUnaryOp IINC 1 g
+83	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:173 - InsertUnaryOp IINC -1 g
+84	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:173 - InsertUnaryOp Negation
+85	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:173 - InsertUnaryOp +1
+86	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.getPaint(D)Ljava/awt/Paint;:173 - InsertUnaryOp -1
+87	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:191 - ReplaceComparisonOperator != -> ==
+88	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:192 - ReplaceConstant - 1 -> 0
+89	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:194 - ReplaceComparisonOperator != -> -1
+90	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:194 - ReplaceComparisonOperator != -> <
+91	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:194 - ReplaceComparisonOperator != -> >
+92	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:195 - ReplaceConstant - 0 -> 1
+93	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:198 - InsertUnaryOp Negation
+94	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:198 - InsertUnaryOp Negation
+95	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:198 - ReplaceComparisonOperator == -> -2
+96	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:198 - ReplaceComparisonOperator == -> >=
+97	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:198 - ReplaceComparisonOperator == -> <=
+98	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:199 - ReplaceConstant - 0 -> 1
+99	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:201 - InsertUnaryOp Negation
+100	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:201 - InsertUnaryOp Negation
+101	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:201 - ReplaceComparisonOperator == -> -2
+102	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:201 - ReplaceComparisonOperator == -> >=
+103	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:201 - ReplaceComparisonOperator == -> <=
+104	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:202 - ReplaceConstant - 0 -> 1
+105	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:204 - InsertUnaryOp Negation
+106	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:204 - InsertUnaryOp +1
+107	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:204 - InsertUnaryOp -1
+108	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:204 - InsertUnaryOp Negation
+109	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:204 - InsertUnaryOp +1
+110	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:204 - InsertUnaryOp -1
+111	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:204 - ReplaceComparisonOperator == -> -2
+112	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:204 - ReplaceComparisonOperator == -> >=
+113	ReplaceComparisonOperator	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:204 - ReplaceComparisonOperator == -> <=
+114	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:205 - ReplaceConstant - 0 -> 1
+115	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.equals(Ljava/lang/Object;)Z:207 - ReplaceConstant - 1 -> 0
+116	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:217 - ReplaceConstant - 7 -> 0
+117	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:217 - ReplaceConstant - 7 -> 1
+118	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:217 - ReplaceConstant - 7 -> -1
+119	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:217 - ReplaceConstant - 7 -> 6
+120	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:217 - ReplaceConstant - 7 -> 8
+121	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:218 - InsertUnaryOp Negation of hash
+122	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:218 - InsertUnaryOp IINC 1 hash
+123	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:218 - InsertUnaryOp IINC -1 hash
+124	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:218 - InsertUnaryOp Negation
+125	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:219 - InsertUnaryOp Negation of hash
+126	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:219 - InsertUnaryOp IINC 1 hash
+127	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:219 - InsertUnaryOp IINC -1 hash
+128	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:219 - InsertUnaryOp Negation
+129	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - ReplaceConstant - 43 -> 0
+130	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - ReplaceConstant - 43 -> 1
+131	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - ReplaceConstant - 43 -> -1
+132	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - ReplaceConstant - 43 -> 42
+133	ReplaceConstant	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - ReplaceConstant - 43 -> 44
+134	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - InsertUnaryOp Negation of hash
+135	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - InsertUnaryOp IINC 1 hash
+136	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - InsertUnaryOp IINC -1 hash
+137	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - ReplaceArithmeticOperator * -> +
+138	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - ReplaceArithmeticOperator * -> %
+139	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - ReplaceArithmeticOperator * -> -
+140	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - ReplaceArithmeticOperator * -> /
+141	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - InsertUnaryOp Negation
+142	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - InsertUnaryOp +1
+143	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - InsertUnaryOp -1
+144	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - ReplaceArithmeticOperator + -> %
+145	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - ReplaceArithmeticOperator + -> -
+146	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - ReplaceArithmeticOperator + -> *
+147	ReplaceArithmeticOperator	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:220 - ReplaceArithmeticOperator + -> /
+148	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:221 - InsertUnaryOp Negation of hash
+149	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:221 - InsertUnaryOp IINC 1 hash
+150	InsertUnaryOp	org.jfree.chart.renderer.GrayPaintScale.hashCode()I:221 - InsertUnaryOp IINC -1 hash

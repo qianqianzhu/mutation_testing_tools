@@ -1,0 +1,177 @@
+0	ReplaceConstant	org.jfree.chart.entity.ChartEntity.<init>(Ljava/awt/Shape;Ljava/lang/String;Ljava/lang/String;)V:140 - ReplaceConstant - area -> 
+1	ReplaceConstant	org.jfree.chart.entity.ChartEntity.setArea(Ljava/awt/Shape;)V:165 - ReplaceConstant - area -> 
+2	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getShapeType()Ljava/lang/String;:217 - ReplaceComparisonOperator == -> -2
+3	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getShapeType()Ljava/lang/String;:217 - ReplaceComparisonOperator == -> >=
+4	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getShapeType()Ljava/lang/String;:217 - ReplaceComparisonOperator == -> <=
+5	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getShapeType()Ljava/lang/String;:218 - ReplaceConstant - rect -> 
+6	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getShapeType()Ljava/lang/String;:221 - ReplaceConstant - poly -> 
+7	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getShapeCoords()Ljava/lang/String;:231 - ReplaceComparisonOperator == -> -2
+8	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getShapeCoords()Ljava/lang/String;:231 - ReplaceComparisonOperator == -> >=
+9	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getShapeCoords()Ljava/lang/String;:231 - ReplaceComparisonOperator == -> <=
+10	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:248 - ReplaceConstant - rectangle -> 
+11	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:251 - InsertUnaryOp Negation of x1
+12	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:251 - InsertUnaryOp IINC 1 x1
+13	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:251 - InsertUnaryOp IINC -1 x1
+14	ReplaceArithmeticOperator	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:251 - ReplaceArithmeticOperator + -> %
+15	ReplaceArithmeticOperator	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:251 - ReplaceArithmeticOperator + -> -
+16	ReplaceArithmeticOperator	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:251 - ReplaceArithmeticOperator + -> *
+17	ReplaceArithmeticOperator	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:251 - ReplaceArithmeticOperator + -> /
+18	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:252 - InsertUnaryOp Negation of y1
+19	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:252 - InsertUnaryOp IINC 1 y1
+20	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:252 - InsertUnaryOp IINC -1 y1
+21	ReplaceArithmeticOperator	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:252 - ReplaceArithmeticOperator + -> %
+22	ReplaceArithmeticOperator	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:252 - ReplaceArithmeticOperator + -> -
+23	ReplaceArithmeticOperator	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:252 - ReplaceArithmeticOperator + -> *
+24	ReplaceArithmeticOperator	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:252 - ReplaceArithmeticOperator + -> /
+25	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:254 - InsertUnaryOp Negation of x2
+26	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:254 - InsertUnaryOp IINC 1 x2
+27	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:254 - InsertUnaryOp IINC -1 x2
+28	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:254 - InsertUnaryOp Negation of x1
+29	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:254 - InsertUnaryOp IINC 1 x1
+30	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:254 - InsertUnaryOp IINC -1 x1
+31	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:254 - ReplaceComparisonOperator != -> -1
+32	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:254 - ReplaceComparisonOperator != -> <
+33	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:254 - ReplaceComparisonOperator != -> >
+34	ReplaceVariable	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:255 - ReplaceVariable x2 -> y1
+35	ReplaceVariable	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:255 - ReplaceVariable x2 -> x1
+36	ReplaceVariable	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:255 - ReplaceVariable x2 -> y2
+37	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:257 - InsertUnaryOp Negation of y2
+38	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:257 - InsertUnaryOp IINC 1 y2
+39	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:257 - InsertUnaryOp IINC -1 y2
+40	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:257 - InsertUnaryOp Negation of y1
+41	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:257 - InsertUnaryOp IINC 1 y1
+42	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:257 - InsertUnaryOp IINC -1 y1
+43	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:257 - ReplaceComparisonOperator != -> -1
+44	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:257 - ReplaceComparisonOperator != -> <
+45	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:257 - ReplaceComparisonOperator != -> >
+46	ReplaceVariable	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:258 - ReplaceVariable y2 -> y1
+47	ReplaceVariable	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:258 - ReplaceVariable y2 -> x1
+48	ReplaceVariable	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:258 - ReplaceVariable y2 -> x2
+49	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:261 - InsertUnaryOp Negation of x1
+50	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:261 - InsertUnaryOp IINC 1 x1
+51	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:261 - InsertUnaryOp IINC -1 x1
+52	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:261 - ReplaceConstant - , -> 
+53	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:261 - InsertUnaryOp Negation of y1
+54	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:261 - InsertUnaryOp IINC 1 y1
+55	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:261 - InsertUnaryOp IINC -1 y1
+56	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:261 - ReplaceConstant - , -> 
+57	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:261 - InsertUnaryOp Negation of x2
+58	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:261 - InsertUnaryOp IINC 1 x2
+59	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:261 - InsertUnaryOp IINC -1 x2
+60	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:261 - ReplaceConstant - , -> 
+61	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:261 - InsertUnaryOp Negation of y2
+62	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:261 - InsertUnaryOp IINC 1 y2
+63	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getRectCoords(Ljava/awt/geom/Rectangle2D;)Ljava/lang/String;:261 - InsertUnaryOp IINC -1 y2
+64	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:273 - ReplaceConstant - shape -> 
+65	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:275 - ReplaceConstant - 1 -> 0
+66	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:276 - ReplaceConstant - 6 -> 0
+67	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:276 - ReplaceConstant - 6 -> 1
+68	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:276 - ReplaceConstant - 6 -> -1
+69	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:276 - ReplaceConstant - 6 -> 5
+70	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:276 - ReplaceConstant - 6 -> 7
+71	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:277 - ReplaceConstant - 1.0 -> 0.0
+72	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:277 - ReplaceConstant - 1.0 -> -1.0
+73	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:277 - ReplaceConstant - 1.0 -> 2.0
+74	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:278 - ReplaceComparisonOperator != -> -1
+75	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:278 - ReplaceComparisonOperator != -> <
+76	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:278 - ReplaceComparisonOperator != -> >
+77	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:280 - InsertUnaryOp Negation of first
+78	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:280 - InsertUnaryOp IINC 1 first
+79	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:280 - InsertUnaryOp IINC -1 first
+80	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:280 - ReplaceComparisonOperator == -> -2
+81	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:280 - ReplaceComparisonOperator == -> >=
+82	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:280 - ReplaceComparisonOperator == -> <=
+83	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:281 - ReplaceConstant - 0 -> 1
+84	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:282 - ReplaceConstant - 0 -> 1
+85	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:283 - ReplaceConstant - , -> 
+86	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:283 - ReplaceConstant - 1 -> 0
+87	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:286 - ReplaceConstant - , -> 
+88	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:287 - ReplaceConstant - 0 -> 1
+89	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:288 - ReplaceConstant - , -> 
+90	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getPolyCoords(Ljava/awt/Shape;)Ljava/lang/String;:289 - ReplaceConstant - 1 -> 0
+91	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:314 - ReplaceComparisonOperator != null -> = null
+92	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:314 - ReplaceConstant - 0 -> 1
+93	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:315 - ReplaceComparisonOperator != -> -1
+94	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:315 - ReplaceComparisonOperator != -> <
+95	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:315 - ReplaceComparisonOperator != -> >
+96	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:315 - ReplaceConstant - 1 -> 0
+97	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:315 - ReplaceConstant - 0 -> 1
+98	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:316 - ReplaceComparisonOperator != null -> = null
+99	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:316 - ReplaceConstant - 0 -> 1
+100	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:317 - ReplaceComparisonOperator != -> -1
+101	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:317 - ReplaceComparisonOperator != -> <
+102	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:317 - ReplaceComparisonOperator != -> >
+103	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:317 - ReplaceConstant - 1 -> 0
+104	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:317 - ReplaceConstant - 0 -> 1
+105	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:318 - InsertUnaryOp Negation of hasURL
+106	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:318 - InsertUnaryOp IINC 1 hasURL
+107	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:318 - InsertUnaryOp IINC -1 hasURL
+108	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:318 - ReplaceComparisonOperator != -> -1
+109	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:318 - ReplaceComparisonOperator != -> <
+110	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:318 - ReplaceComparisonOperator != -> >
+111	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:318 - InsertUnaryOp Negation of hasToolTip
+112	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:318 - InsertUnaryOp IINC 1 hasToolTip
+113	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:318 - InsertUnaryOp IINC -1 hasToolTip
+114	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:318 - ReplaceComparisonOperator == -> -2
+115	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:318 - ReplaceComparisonOperator == -> >=
+116	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:318 - ReplaceComparisonOperator == -> <=
+117	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:319 - ReplaceConstant - <area shape=" -> 
+118	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:319 - ReplaceConstant - " -> 
+119	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:319 - ReplaceConstant -  coords=" -> 
+120	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:320 - ReplaceConstant - " -> 
+121	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:321 - InsertUnaryOp Negation of hasToolTip
+122	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:321 - InsertUnaryOp IINC 1 hasToolTip
+123	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:321 - InsertUnaryOp IINC -1 hasToolTip
+124	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:321 - ReplaceComparisonOperator == -> -2
+125	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:321 - ReplaceComparisonOperator == -> >=
+126	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:321 - ReplaceComparisonOperator == -> <=
+127	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:325 - InsertUnaryOp Negation of hasURL
+128	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:325 - InsertUnaryOp IINC 1 hasURL
+129	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:325 - InsertUnaryOp IINC -1 hasURL
+130	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:325 - ReplaceComparisonOperator == -> -2
+131	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:325 - ReplaceComparisonOperator == -> >=
+132	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:325 - ReplaceComparisonOperator == -> <=
+133	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:330 - ReplaceConstant -  nohref="nohref" -> 
+134	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:334 - InsertUnaryOp Negation of hasToolTip
+135	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:334 - InsertUnaryOp IINC 1 hasToolTip
+136	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:334 - InsertUnaryOp IINC -1 hasToolTip
+137	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:334 - ReplaceComparisonOperator != -> -1
+138	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:334 - ReplaceComparisonOperator != -> <
+139	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:334 - ReplaceComparisonOperator != -> >
+140	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:335 - ReplaceConstant -  alt="" -> 
+141	ReplaceConstant	org.jfree.chart.entity.ChartEntity.getImageMapAreaTag(Lorg/jfree/chart/imagemap/ToolTipTagFragmentGenerator;Lorg/jfree/chart/imagemap/URLTagFragmentGenerator;)Ljava/lang/String;:337 - ReplaceConstant - /> -> 
+142	ReplaceConstant	org.jfree.chart.entity.ChartEntity.toString()Ljava/lang/String;:350 - ReplaceConstant - ChartEntity:  -> 
+143	ReplaceConstant	org.jfree.chart.entity.ChartEntity.toString()Ljava/lang/String;:351 - ReplaceConstant - tooltip =  -> 
+144	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:365 - ReplaceComparisonOperator != -> ==
+145	ReplaceConstant	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:366 - ReplaceConstant - 1 -> 0
+146	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:368 - ReplaceComparisonOperator != -> -1
+147	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:368 - ReplaceComparisonOperator != -> <
+148	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:368 - ReplaceComparisonOperator != -> >
+149	ReplaceConstant	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:369 - ReplaceConstant - 0 -> 1
+150	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:372 - ReplaceComparisonOperator != -> -1
+151	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:372 - ReplaceComparisonOperator != -> <
+152	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:372 - ReplaceComparisonOperator != -> >
+153	ReplaceConstant	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:373 - ReplaceConstant - 0 -> 1
+154	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:375 - ReplaceComparisonOperator != -> -1
+155	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:375 - ReplaceComparisonOperator != -> <
+156	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:375 - ReplaceComparisonOperator != -> >
+157	ReplaceConstant	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:376 - ReplaceConstant - 0 -> 1
+158	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:378 - ReplaceComparisonOperator != -> -1
+159	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:378 - ReplaceComparisonOperator != -> <
+160	ReplaceComparisonOperator	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:378 - ReplaceComparisonOperator != -> >
+161	ReplaceConstant	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:379 - ReplaceConstant - 0 -> 1
+162	ReplaceConstant	org.jfree.chart.entity.ChartEntity.equals(Ljava/lang/Object;)Z:381 - ReplaceConstant - 1 -> 0
+163	ReplaceConstant	org.jfree.chart.entity.ChartEntity.hashCode()I:391 - ReplaceConstant - 37 -> 0
+164	ReplaceConstant	org.jfree.chart.entity.ChartEntity.hashCode()I:391 - ReplaceConstant - 37 -> 1
+165	ReplaceConstant	org.jfree.chart.entity.ChartEntity.hashCode()I:391 - ReplaceConstant - 37 -> -1
+166	ReplaceConstant	org.jfree.chart.entity.ChartEntity.hashCode()I:391 - ReplaceConstant - 37 -> 36
+167	ReplaceConstant	org.jfree.chart.entity.ChartEntity.hashCode()I:391 - ReplaceConstant - 37 -> 38
+168	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.hashCode()I:392 - InsertUnaryOp Negation of result
+169	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.hashCode()I:392 - InsertUnaryOp IINC 1 result
+170	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.hashCode()I:392 - InsertUnaryOp IINC -1 result
+171	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.hashCode()I:393 - InsertUnaryOp Negation of result
+172	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.hashCode()I:393 - InsertUnaryOp IINC 1 result
+173	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.hashCode()I:393 - InsertUnaryOp IINC -1 result
+174	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.hashCode()I:394 - InsertUnaryOp Negation of result
+175	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.hashCode()I:394 - InsertUnaryOp IINC 1 result
+176	InsertUnaryOp	org.jfree.chart.entity.ChartEntity.hashCode()I:394 - InsertUnaryOp IINC -1 result

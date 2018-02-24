@@ -1,0 +1,21 @@
+0	ReplaceConstant	org.jfree.chart.plot.PiePlotState.<init>(Lorg/jfree/chart/plot/PlotRenderingInfo;)V:90 - ReplaceConstant - 1 -> 0
+1	ReplaceConstant	org.jfree.chart.plot.PiePlotState.<init>(Lorg/jfree/chart/plot/PlotRenderingInfo;)V:91 - ReplaceConstant - 0.0 -> 1.0
+2	ReplaceConstant	org.jfree.chart.plot.PiePlotState.<init>(Lorg/jfree/chart/plot/PlotRenderingInfo;)V:91 - ReplaceConstant - 0.0 -> -1.0
+3	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.getPassesRequired()I:100 - InsertUnaryOp Negation
+4	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.getPassesRequired()I:100 - InsertUnaryOp +1
+5	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.getPassesRequired()I:100 - InsertUnaryOp -1
+6	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.setPassesRequired(I)V:109 - InsertUnaryOp Negation of passes
+7	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.setPassesRequired(I)V:109 - InsertUnaryOp IINC 1 passes
+8	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.setPassesRequired(I)V:109 - InsertUnaryOp IINC -1 passes
+9	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.getTotal()D:118 - InsertUnaryOp Negation
+10	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.setTotal(D)V:127 - InsertUnaryOp Negation of total
+11	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.getLatestAngle()D:136 - InsertUnaryOp Negation
+12	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.setLatestAngle(D)V:145 - InsertUnaryOp Negation of angle
+13	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.getPieCenterX()D:190 - InsertUnaryOp Negation
+14	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.setPieCenterX(D)V:199 - InsertUnaryOp Negation of x
+15	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.getPieCenterY()D:210 - InsertUnaryOp Negation
+16	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.setPieCenterY(D)V:220 - InsertUnaryOp Negation of y
+17	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.getPieHRadius()D:249 - InsertUnaryOp Negation
+18	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.setPieHRadius(D)V:258 - InsertUnaryOp Negation of radius
+19	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.getPieWRadius()D:267 - InsertUnaryOp Negation
+20	InsertUnaryOp	org.jfree.chart.plot.PiePlotState.setPieWRadius(D)V:276 - InsertUnaryOp Negation of radius

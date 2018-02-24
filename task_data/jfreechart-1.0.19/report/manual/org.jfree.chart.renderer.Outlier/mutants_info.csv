@@ -1,0 +1,119 @@
+0	InsertUnaryOp	org.jfree.chart.renderer.Outlier.<init>(DDD)V:74 - InsertUnaryOp Negation of xCoord
+1	InsertUnaryOp	org.jfree.chart.renderer.Outlier.<init>(DDD)V:74 - InsertUnaryOp Negation of radius
+2	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.<init>(DDD)V:74 - ReplaceArithmeticOperator - -> +
+3	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.<init>(DDD)V:74 - ReplaceArithmeticOperator - -> %
+4	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.<init>(DDD)V:74 - ReplaceArithmeticOperator - -> *
+5	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.<init>(DDD)V:74 - ReplaceArithmeticOperator - -> /
+6	InsertUnaryOp	org.jfree.chart.renderer.Outlier.<init>(DDD)V:74 - InsertUnaryOp Negation of yCoord
+7	InsertUnaryOp	org.jfree.chart.renderer.Outlier.<init>(DDD)V:74 - InsertUnaryOp Negation of radius
+8	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.<init>(DDD)V:74 - ReplaceArithmeticOperator - -> +
+9	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.<init>(DDD)V:74 - ReplaceArithmeticOperator - -> %
+10	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.<init>(DDD)V:74 - ReplaceArithmeticOperator - -> *
+11	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.<init>(DDD)V:74 - ReplaceArithmeticOperator - -> /
+12	InsertUnaryOp	org.jfree.chart.renderer.Outlier.<init>(DDD)V:75 - InsertUnaryOp Negation of radius
+13	InsertUnaryOp	org.jfree.chart.renderer.Outlier.getRadius()D:124 - InsertUnaryOp Negation
+14	InsertUnaryOp	org.jfree.chart.renderer.Outlier.setRadius(D)V:133 - InsertUnaryOp Negation of radius
+15	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.compareTo(Ljava/lang/Object;)I:150 - ReplaceComparisonOperator == -> -2
+16	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.compareTo(Ljava/lang/Object;)I:150 - ReplaceComparisonOperator == -> >=
+17	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.compareTo(Ljava/lang/Object;)I:150 - ReplaceComparisonOperator == -> <=
+18	ReplaceConstant	org.jfree.chart.renderer.Outlier.compareTo(Ljava/lang/Object;)I:151 - ReplaceConstant - 0 -> 1
+19	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.compareTo(Ljava/lang/Object;)I:153 - ReplaceComparisonOperator < -> -2
+20	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.compareTo(Ljava/lang/Object;)I:153 - ReplaceComparisonOperator < -> !=
+21	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.compareTo(Ljava/lang/Object;)I:153 - ReplaceComparisonOperator < -> <=
+22	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.compareTo(Ljava/lang/Object;)I:153 - ReplaceComparisonOperator >= -> -1
+23	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.compareTo(Ljava/lang/Object;)I:153 - ReplaceComparisonOperator >= -> ==
+24	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.compareTo(Ljava/lang/Object;)I:153 - ReplaceComparisonOperator >= -> >
+25	ReplaceConstant	org.jfree.chart.renderer.Outlier.compareTo(Ljava/lang/Object;)I:154 - ReplaceConstant - -1 -> 0
+26	ReplaceConstant	org.jfree.chart.renderer.Outlier.compareTo(Ljava/lang/Object;)I:154 - ReplaceConstant - -1 -> 1
+27	ReplaceConstant	org.jfree.chart.renderer.Outlier.compareTo(Ljava/lang/Object;)I:154 - ReplaceConstant - -1 -> -2
+28	ReplaceConstant	org.jfree.chart.renderer.Outlier.compareTo(Ljava/lang/Object;)I:157 - ReplaceConstant - 1 -> 0
+29	InsertUnaryOp	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:172 - InsertUnaryOp Negation
+30	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:172 - ReplaceConstant - 1.1 -> 0.0
+31	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:172 - ReplaceConstant - 1.1 -> 1.0
+32	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:172 - ReplaceConstant - 1.1 -> -1.0
+33	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:172 - ReplaceConstant - 1.1 -> 0.10000000000000009
+34	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:172 - ReplaceConstant - 1.1 -> 2.1
+35	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:172 - ReplaceArithmeticOperator * -> +
+36	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:172 - ReplaceArithmeticOperator * -> %
+37	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:172 - ReplaceArithmeticOperator * -> -
+38	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:172 - ReplaceArithmeticOperator * -> /
+39	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:172 - ReplaceArithmeticOperator - -> +
+40	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:172 - ReplaceArithmeticOperator - -> %
+41	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:172 - ReplaceArithmeticOperator - -> *
+42	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:172 - ReplaceArithmeticOperator - -> /
+43	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:172 - ReplaceComparisonOperator < -> -2
+44	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:172 - ReplaceComparisonOperator < -> !=
+45	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:172 - ReplaceComparisonOperator < -> <=
+46	InsertUnaryOp	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:173 - InsertUnaryOp Negation
+47	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:173 - ReplaceConstant - 1.1 -> 0.0
+48	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:173 - ReplaceConstant - 1.1 -> 1.0
+49	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:173 - ReplaceConstant - 1.1 -> -1.0
+50	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:173 - ReplaceConstant - 1.1 -> 0.10000000000000009
+51	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:173 - ReplaceConstant - 1.1 -> 2.1
+52	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:173 - ReplaceArithmeticOperator * -> +
+53	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:173 - ReplaceArithmeticOperator * -> %
+54	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:173 - ReplaceArithmeticOperator * -> -
+55	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:173 - ReplaceArithmeticOperator * -> /
+56	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:173 - ReplaceArithmeticOperator + -> %
+57	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:173 - ReplaceArithmeticOperator + -> -
+58	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:173 - ReplaceArithmeticOperator + -> *
+59	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:173 - ReplaceArithmeticOperator + -> /
+60	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:173 - ReplaceComparisonOperator > -> -2
+61	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:173 - ReplaceComparisonOperator > -> !=
+62	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:173 - ReplaceComparisonOperator > -> >=
+63	InsertUnaryOp	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:174 - InsertUnaryOp Negation
+64	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:174 - ReplaceConstant - 1.1 -> 0.0
+65	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:174 - ReplaceConstant - 1.1 -> 1.0
+66	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:174 - ReplaceConstant - 1.1 -> -1.0
+67	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:174 - ReplaceConstant - 1.1 -> 0.10000000000000009
+68	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:174 - ReplaceConstant - 1.1 -> 2.1
+69	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:174 - ReplaceArithmeticOperator * -> +
+70	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:174 - ReplaceArithmeticOperator * -> %
+71	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:174 - ReplaceArithmeticOperator * -> -
+72	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:174 - ReplaceArithmeticOperator * -> /
+73	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:174 - ReplaceArithmeticOperator - -> +
+74	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:174 - ReplaceArithmeticOperator - -> %
+75	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:174 - ReplaceArithmeticOperator - -> *
+76	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:174 - ReplaceArithmeticOperator - -> /
+77	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:174 - ReplaceComparisonOperator < -> -2
+78	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:174 - ReplaceComparisonOperator < -> !=
+79	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:174 - ReplaceComparisonOperator < -> <=
+80	InsertUnaryOp	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - InsertUnaryOp Negation
+81	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceConstant - 1.1 -> 0.0
+82	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceConstant - 1.1 -> 1.0
+83	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceConstant - 1.1 -> -1.0
+84	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceConstant - 1.1 -> 0.10000000000000009
+85	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceConstant - 1.1 -> 2.1
+86	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceArithmeticOperator * -> +
+87	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceArithmeticOperator * -> %
+88	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceArithmeticOperator * -> -
+89	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceArithmeticOperator * -> /
+90	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceArithmeticOperator + -> %
+91	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceArithmeticOperator + -> -
+92	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceArithmeticOperator + -> *
+93	ReplaceArithmeticOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceArithmeticOperator + -> /
+94	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceComparisonOperator > -> -2
+95	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceComparisonOperator > -> !=
+96	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceComparisonOperator > -> >=
+97	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceConstant - 1 -> 0
+98	ReplaceConstant	org.jfree.chart.renderer.Outlier.overlaps(Lorg/jfree/chart/renderer/Outlier;)Z:175 - ReplaceConstant - 0 -> 1
+99	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.equals(Ljava/lang/Object;)Z:187 - ReplaceComparisonOperator != -> ==
+100	ReplaceConstant	org.jfree.chart.renderer.Outlier.equals(Ljava/lang/Object;)Z:188 - ReplaceConstant - 1 -> 0
+101	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.equals(Ljava/lang/Object;)Z:190 - ReplaceComparisonOperator != -> -1
+102	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.equals(Ljava/lang/Object;)Z:190 - ReplaceComparisonOperator != -> <
+103	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.equals(Ljava/lang/Object;)Z:190 - ReplaceComparisonOperator != -> >
+104	ReplaceConstant	org.jfree.chart.renderer.Outlier.equals(Ljava/lang/Object;)Z:191 - ReplaceConstant - 0 -> 1
+105	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.equals(Ljava/lang/Object;)Z:194 - ReplaceComparisonOperator != -> -1
+106	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.equals(Ljava/lang/Object;)Z:194 - ReplaceComparisonOperator != -> <
+107	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.equals(Ljava/lang/Object;)Z:194 - ReplaceComparisonOperator != -> >
+108	ReplaceConstant	org.jfree.chart.renderer.Outlier.equals(Ljava/lang/Object;)Z:195 - ReplaceConstant - 0 -> 1
+109	InsertUnaryOp	org.jfree.chart.renderer.Outlier.equals(Ljava/lang/Object;)Z:197 - InsertUnaryOp Negation
+110	InsertUnaryOp	org.jfree.chart.renderer.Outlier.equals(Ljava/lang/Object;)Z:197 - InsertUnaryOp Negation
+111	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.equals(Ljava/lang/Object;)Z:197 - ReplaceComparisonOperator == -> -2
+112	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.equals(Ljava/lang/Object;)Z:197 - ReplaceComparisonOperator == -> >=
+113	ReplaceComparisonOperator	org.jfree.chart.renderer.Outlier.equals(Ljava/lang/Object;)Z:197 - ReplaceComparisonOperator == -> <=
+114	ReplaceConstant	org.jfree.chart.renderer.Outlier.equals(Ljava/lang/Object;)Z:198 - ReplaceConstant - 0 -> 1
+115	ReplaceConstant	org.jfree.chart.renderer.Outlier.equals(Ljava/lang/Object;)Z:200 - ReplaceConstant - 1 -> 0
+116	ReplaceConstant	org.jfree.chart.renderer.Outlier.toString()Ljava/lang/String;:210 - ReplaceConstant - { -> 
+117	ReplaceConstant	org.jfree.chart.renderer.Outlier.toString()Ljava/lang/String;:210 - ReplaceConstant - , -> 
+118	ReplaceConstant	org.jfree.chart.renderer.Outlier.toString()Ljava/lang/String;:210 - ReplaceConstant - } -> 

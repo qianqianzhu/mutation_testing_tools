@@ -1,0 +1,81 @@
+0|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getIncludes()Lcom/google/common/collect/Multimap;:71 - ReplaceComparisonOperator != null -> = null
+1|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getExcludes()Lcom/google/common/collect/Multimap;:79 - ReplaceComparisonOperator != null -> = null
+2|InsertUnaryOp|br.com.caelum.vraptor.serialization.Serializee.isRecursive()Z:95 - InsertUnaryOp Negation
+3|InsertUnaryOp|br.com.caelum.vraptor.serialization.Serializee.setRecursive(Z)V:99 - InsertUnaryOp Negation of recursive
+4|InsertUnaryOp|br.com.caelum.vraptor.serialization.Serializee.setRecursive(Z)V:99 - InsertUnaryOp IINC 1 recursive
+5|InsertUnaryOp|br.com.caelum.vraptor.serialization.Serializee.setRecursive(Z)V:99 - InsertUnaryOp IINC -1 recursive
+6|ReplaceConstant|br.com.caelum.vraptor.serialization.Serializee.excludeAll([Ljava/lang/String;)V:103 - ReplaceConstant - 0 -> 1
+7|ReplaceConstant|br.com.caelum.vraptor.serialization.Serializee.excludeAll([Ljava/lang/String;)V:104 - ReplaceConstant - \? -> 
+8|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.excludeAll([Ljava/lang/String;)V:103 - ReplaceComparisonOperator < -> !=
+9|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.excludeAll([Ljava/lang/String;)V:103 - ReplaceComparisonOperator < -> -2
+10|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.excludeAll([Ljava/lang/String;)V:103 - ReplaceComparisonOperator < -> <=
+11|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.excludeAll()V:111 - ReplaceComparisonOperator == -> -2
+12|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.excludeAll()V:111 - ReplaceComparisonOperator == -> >=
+13|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.excludeAll()V:111 - ReplaceComparisonOperator == -> <=
+14|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.excludeAll()V:118 - ReplaceComparisonOperator != -> -1
+15|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.excludeAll()V:118 - ReplaceComparisonOperator != -> <
+16|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.excludeAll()V:118 - ReplaceComparisonOperator != -> >
+17|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.excludeAll()V:117 - ReplaceComparisonOperator != -> -1
+18|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.excludeAll()V:117 - ReplaceComparisonOperator != -> <
+19|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.excludeAll()V:117 - ReplaceComparisonOperator != -> >
+20|ReplaceConstant|br.com.caelum.vraptor.serialization.Serializee.includeAll([Ljava/lang/String;)V:125 - ReplaceConstant - 0 -> 1
+21|ReplaceConstant|br.com.caelum.vraptor.serialization.Serializee.includeAll([Ljava/lang/String;)V:126 - ReplaceConstant - \? -> 
+22|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.includeAll([Ljava/lang/String;)V:125 - ReplaceComparisonOperator < -> !=
+23|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.includeAll([Ljava/lang/String;)V:125 - ReplaceComparisonOperator < -> -2
+24|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.includeAll([Ljava/lang/String;)V:125 - ReplaceComparisonOperator < -> <=
+25|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getParentTypesFor(Ljava/lang/String;)Ljava/util/Set;:131 - ReplaceComparisonOperator != null -> = null
+26|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getParentTypesFor(Ljava/lang/String;)Ljava/util/Set;:136 - ReplaceComparisonOperator != -> -1
+27|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getParentTypesFor(Ljava/lang/String;)Ljava/util/Set;:136 - ReplaceComparisonOperator != -> <
+28|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getParentTypesFor(Ljava/lang/String;)Ljava/util/Set;:136 - ReplaceComparisonOperator != -> >
+29|ReplaceConstant|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:144 - ReplaceConstant - \. -> 
+30|ReplaceConstant|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:147 - ReplaceConstant - 0 -> 1
+31|InsertUnaryOp|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:148 - InsertUnaryOp Negation of i
+32|InsertUnaryOp|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:148 - InsertUnaryOp IINC 1 i
+33|InsertUnaryOp|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:148 - InsertUnaryOp IINC -1 i
+34|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:149 - ReplaceComparisonOperator != null -> = null
+35|InsertUnaryOp|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:150 - InsertUnaryOp Negation of i
+36|InsertUnaryOp|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:150 - InsertUnaryOp IINC 1 i
+37|InsertUnaryOp|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:150 - InsertUnaryOp IINC -1 i
+38|ReplaceConstant|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:150 - ReplaceConstant - 1 -> 0
+39|ReplaceArithmeticOperator|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:150 - ReplaceArithmeticOperator - -> +
+40|ReplaceArithmeticOperator|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:150 - ReplaceArithmeticOperator - -> %
+41|ReplaceArithmeticOperator|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:150 - ReplaceArithmeticOperator - -> *
+42|ReplaceArithmeticOperator|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:150 - ReplaceArithmeticOperator - -> /
+43|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:150 - ReplaceComparisonOperator >= -> -1
+44|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:150 - ReplaceComparisonOperator >= -> >
+45|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:150 - ReplaceComparisonOperator >= -> ==
+46|InsertUnaryOp|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:147 - InsertUnaryOp Negation of i
+47|InsertUnaryOp|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:147 - InsertUnaryOp IINC 1 i
+48|InsertUnaryOp|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:147 - InsertUnaryOp IINC -1 i
+49|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:147 - ReplaceComparisonOperator < -> !=
+50|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:147 - ReplaceComparisonOperator < -> -2
+51|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:147 - ReplaceComparisonOperator < -> <=
+52|ReplaceConstant|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:153 - ReplaceConstant - Field path ' -> 
+53|ReplaceConstant|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:153 - ReplaceConstant - ' doesn't exists in  -> 
+54|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getParentTypes(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Set;:157 - ReplaceComparisonOperator != -> ==
+55|ReplaceConstant|br.com.caelum.vraptor.serialization.Serializee.reflectField(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/reflect/Field;:165 - ReplaceConstant - \? -> 
+56|ReplaceConstant|br.com.caelum.vraptor.serialization.Serializee.reflectField(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/reflect/Field;:166 - ReplaceConstant - ? -> 
+57|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.reflectField(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/reflect/Field;:166 - ReplaceComparisonOperator != -> -1
+58|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.reflectField(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/reflect/Field;:166 - ReplaceComparisonOperator != -> <
+59|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.reflectField(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/reflect/Field;:166 - ReplaceComparisonOperator != -> >
+60|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getActualType(Ljava/lang/reflect/Field;)Ljava/lang/Class;:175 - ReplaceComparisonOperator == -> -2
+61|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getActualType(Ljava/lang/reflect/Field;)Ljava/lang/Class;:175 - ReplaceComparisonOperator == -> >=
+62|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getActualType(Ljava/lang/reflect/Field;)Ljava/lang/Class;:175 - ReplaceComparisonOperator == -> <=
+63|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getActualType(Ljava/lang/reflect/Field;)Ljava/lang/Class;:178 - ReplaceComparisonOperator == -> -2
+64|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getActualType(Ljava/lang/reflect/Field;)Ljava/lang/Class;:178 - ReplaceComparisonOperator == -> >=
+65|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getActualType(Ljava/lang/reflect/Field;)Ljava/lang/Class;:178 - ReplaceComparisonOperator == -> <=
+66|ReplaceConstant|br.com.caelum.vraptor.serialization.Serializee.getActualType(Ljava/lang/reflect/Field;)Ljava/lang/Class;:179 - ReplaceConstant - 0 -> 1
+67|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getActualType(Ljava/lang/reflect/Field;)Ljava/lang/Class;:181 - ReplaceComparisonOperator == -> -2
+68|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getActualType(Ljava/lang/reflect/Field;)Ljava/lang/Class;:181 - ReplaceComparisonOperator == -> >=
+69|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.getActualType(Ljava/lang/reflect/Field;)Ljava/lang/Class;:181 - ReplaceComparisonOperator == -> <=
+70|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.isCollection(Ljava/lang/reflect/Type;)Z:193 - ReplaceComparisonOperator == -> -2
+71|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.isCollection(Ljava/lang/reflect/Type;)Z:193 - ReplaceComparisonOperator == -> >=
+72|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.isCollection(Ljava/lang/reflect/Type;)Z:193 - ReplaceComparisonOperator == -> <=
+73|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.isCollection(Ljava/lang/reflect/Type;)Z:195 - ReplaceComparisonOperator != -> -1
+74|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.isCollection(Ljava/lang/reflect/Type;)Z:195 - ReplaceComparisonOperator != -> <
+75|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.isCollection(Ljava/lang/reflect/Type;)Z:195 - ReplaceComparisonOperator != -> >
+76|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.isCollection(Ljava/lang/reflect/Type;)Z:196 - ReplaceComparisonOperator != -> -1
+77|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.isCollection(Ljava/lang/reflect/Type;)Z:196 - ReplaceComparisonOperator != -> <
+78|ReplaceComparisonOperator|br.com.caelum.vraptor.serialization.Serializee.isCollection(Ljava/lang/reflect/Type;)Z:196 - ReplaceComparisonOperator != -> >
+79|ReplaceConstant|br.com.caelum.vraptor.serialization.Serializee.isCollection(Ljava/lang/reflect/Type;)Z:195 - ReplaceConstant - 0 -> 1
+80|ReplaceConstant|br.com.caelum.vraptor.serialization.Serializee.isCollection(Ljava/lang/reflect/Type;)Z:195 - ReplaceConstant - 1 -> 0

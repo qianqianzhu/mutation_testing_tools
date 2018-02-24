@@ -1,0 +1,378 @@
+0	ReplaceComparisonOperator	org.assertj.core.internal.Strings.getComparator()Ljava/util/Comparator;:101 - ReplaceComparisonOperator == -> -2
+1	ReplaceComparisonOperator	org.assertj.core.internal.Strings.getComparator()Ljava/util/Comparator;:101 - ReplaceComparisonOperator == -> >=
+2	ReplaceComparisonOperator	org.assertj.core.internal.Strings.getComparator()Ljava/util/Comparator;:101 - ReplaceComparisonOperator == -> <=
+3	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNullOrEmpty(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:115 - ReplaceComparisonOperator = null -> != null
+4	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNullOrEmpty(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:115 - ReplaceComparisonOperator == -> -2
+5	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNullOrEmpty(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:115 - ReplaceComparisonOperator == -> >=
+6	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNullOrEmpty(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:115 - ReplaceComparisonOperator == -> <=
+7	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertEmpty(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:128 - ReplaceComparisonOperator == -> -2
+8	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertEmpty(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:128 - ReplaceComparisonOperator == -> >=
+9	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertEmpty(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:128 - ReplaceComparisonOperator == -> <=
+10	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNotEmpty(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:141 - ReplaceComparisonOperator != -> -1
+11	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNotEmpty(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:141 - ReplaceComparisonOperator != -> <
+12	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNotEmpty(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:141 - ReplaceComparisonOperator != -> >
+13	ReplaceComparisonOperator	org.assertj.core.internal.Strings.hasContent(Ljava/lang/CharSequence;)Z:145 - ReplaceComparisonOperator <= -> -1
+14	ReplaceComparisonOperator	org.assertj.core.internal.Strings.hasContent(Ljava/lang/CharSequence;)Z:145 - ReplaceComparisonOperator <= -> ==
+15	ReplaceComparisonOperator	org.assertj.core.internal.Strings.hasContent(Ljava/lang/CharSequence;)Z:145 - ReplaceComparisonOperator <= -> <
+16	ReplaceConstant	org.assertj.core.internal.Strings.hasContent(Ljava/lang/CharSequence;)Z:145 - ReplaceConstant - 1 -> 0
+17	ReplaceConstant	org.assertj.core.internal.Strings.hasContent(Ljava/lang/CharSequence;)Z:145 - ReplaceConstant - 0 -> 1
+18	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertBlank(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:157 - ReplaceComparisonOperator != -> -1
+19	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertBlank(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:157 - ReplaceComparisonOperator != -> <
+20	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertBlank(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:157 - ReplaceComparisonOperator != -> >
+21	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNotBlank(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:169 - ReplaceComparisonOperator == -> -2
+22	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNotBlank(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:169 - ReplaceComparisonOperator == -> >=
+23	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNotBlank(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:169 - ReplaceComparisonOperator == -> <=
+24	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:173 - ReplaceComparisonOperator = null -> != null
+25	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:173 - ReplaceComparisonOperator != -> -1
+26	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:173 - ReplaceComparisonOperator != -> <
+27	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:173 - ReplaceComparisonOperator != -> >
+28	ReplaceConstant	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:173 - ReplaceConstant - 0 -> 1
+29	ReplaceConstant	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:174 - ReplaceConstant - 0 -> 1
+30	InsertUnaryOp	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:174 - InsertUnaryOp Negation of i
+31	InsertUnaryOp	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:174 - InsertUnaryOp IINC 1 i
+32	InsertUnaryOp	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:174 - InsertUnaryOp IINC -1 i
+33	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:174 - ReplaceComparisonOperator >= -> -1
+34	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:174 - ReplaceComparisonOperator >= -> >
+35	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:174 - ReplaceComparisonOperator >= -> ==
+36	InsertUnaryOp	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:175 - InsertUnaryOp Negation of i
+37	InsertUnaryOp	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:175 - InsertUnaryOp IINC 1 i
+38	InsertUnaryOp	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:175 - InsertUnaryOp IINC -1 i
+39	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:175 - ReplaceComparisonOperator != -> -1
+40	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:175 - ReplaceComparisonOperator != -> <
+41	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:175 - ReplaceComparisonOperator != -> >
+42	ReplaceConstant	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:175 - ReplaceConstant - 0 -> 1
+43	ReplaceConstant	org.assertj.core.internal.Strings.isBlank(Ljava/lang/CharSequence;)Z:177 - ReplaceConstant - 1 -> 0
+44	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertJavaBlank(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:189 - ReplaceComparisonOperator != -> -1
+45	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertJavaBlank(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:189 - ReplaceComparisonOperator != -> <
+46	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertJavaBlank(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:189 - ReplaceComparisonOperator != -> >
+47	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNotJavaBlank(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:201 - ReplaceComparisonOperator == -> -2
+48	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNotJavaBlank(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:201 - ReplaceComparisonOperator == -> >=
+49	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNotJavaBlank(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:201 - ReplaceComparisonOperator == -> <=
+50	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:205 - ReplaceComparisonOperator = null -> != null
+51	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:205 - ReplaceComparisonOperator != -> -1
+52	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:205 - ReplaceComparisonOperator != -> <
+53	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:205 - ReplaceComparisonOperator != -> >
+54	ReplaceConstant	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:205 - ReplaceConstant - 0 -> 1
+55	ReplaceConstant	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:206 - ReplaceConstant - 0 -> 1
+56	InsertUnaryOp	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:206 - InsertUnaryOp Negation of i
+57	InsertUnaryOp	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:206 - InsertUnaryOp IINC 1 i
+58	InsertUnaryOp	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:206 - InsertUnaryOp IINC -1 i
+59	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:206 - ReplaceComparisonOperator >= -> -1
+60	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:206 - ReplaceComparisonOperator >= -> >
+61	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:206 - ReplaceComparisonOperator >= -> ==
+62	InsertUnaryOp	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:207 - InsertUnaryOp Negation of i
+63	InsertUnaryOp	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:207 - InsertUnaryOp IINC 1 i
+64	InsertUnaryOp	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:207 - InsertUnaryOp IINC -1 i
+65	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:207 - ReplaceComparisonOperator != -> -1
+66	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:207 - ReplaceComparisonOperator != -> <
+67	ReplaceComparisonOperator	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:207 - ReplaceComparisonOperator != -> >
+68	ReplaceConstant	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:207 - ReplaceConstant - 0 -> 1
+69	ReplaceConstant	org.assertj.core.internal.Strings.isJavaBlank(Ljava/lang/CharSequence;)Z:209 - ReplaceConstant - 1 -> 0
+70	InsertUnaryOp	org.assertj.core.internal.Strings.assertHasSize(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;I)V:223 - InsertUnaryOp Negation of expectedSize
+71	InsertUnaryOp	org.assertj.core.internal.Strings.assertHasSize(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;I)V:223 - InsertUnaryOp IINC 1 expectedSize
+72	InsertUnaryOp	org.assertj.core.internal.Strings.assertHasSize(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;I)V:223 - InsertUnaryOp IINC -1 expectedSize
+73	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertHasLineCount(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;I)V:239 - ReplaceComparisonOperator = null -> != null
+74	ReplaceConstant	org.assertj.core.internal.Strings.assertHasLineCount(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;I)V:241 - ReplaceConstant - Unable to count lines in `%s` -> 
+75	ReplaceConstant	org.assertj.core.internal.Strings.assertHasLineCount(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;I)V:241 - ReplaceConstant - 1 -> 0
+76	ReplaceConstant	org.assertj.core.internal.Strings.assertHasLineCount(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;I)V:241 - ReplaceConstant - 0 -> 1
+77	InsertUnaryOp	org.assertj.core.internal.Strings.assertHasLineCount(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;I)V:243 - InsertUnaryOp Negation of expectedLineCount
+78	InsertUnaryOp	org.assertj.core.internal.Strings.assertHasLineCount(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;I)V:243 - InsertUnaryOp IINC 1 expectedLineCount
+79	InsertUnaryOp	org.assertj.core.internal.Strings.assertHasLineCount(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;I)V:243 - InsertUnaryOp IINC -1 expectedLineCount
+80	ReplaceConstant	org.assertj.core.internal.Strings.assertHasSameSizeAs(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:280 - ReplaceConstant - CharSequence or String -> 
+81	ReplaceConstant	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:301 - ReplaceConstant - 0 -> 1
+82	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:301 - ReplaceComparisonOperator >= -> -1
+83	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:301 - ReplaceComparisonOperator >= -> >
+84	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:301 - ReplaceComparisonOperator >= -> ==
+85	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:302 - ReplaceComparisonOperator != -> -1
+86	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:302 - ReplaceComparisonOperator != -> <
+87	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:302 - ReplaceComparisonOperator != -> >
+88	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:306 - ReplaceComparisonOperator == -> -2
+89	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:306 - ReplaceComparisonOperator == -> >=
+90	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:306 - ReplaceComparisonOperator == -> <=
+91	ReplaceConstant	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:307 - ReplaceConstant - 1 -> 0
+92	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:307 - ReplaceComparisonOperator != -> -1
+93	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:307 - ReplaceComparisonOperator != -> <
+94	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:307 - ReplaceComparisonOperator != -> >
+95	ReplaceConstant	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:307 - ReplaceConstant - 1 -> 0
+96	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:307 - ReplaceComparisonOperator != -> -1
+97	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:307 - ReplaceComparisonOperator != -> <
+98	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:307 - ReplaceComparisonOperator != -> >
+99	ReplaceConstant	org.assertj.core.internal.Strings.assertContains(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:308 - ReplaceConstant - 0 -> 1
+100	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:323 - ReplaceComparisonOperator != -> -1
+101	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:323 - ReplaceComparisonOperator != -> <
+102	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:323 - ReplaceComparisonOperator != -> >
+103	ReplaceConstant	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:324 - ReplaceConstant - 0 -> 1
+104	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:324 - InsertUnaryOp Negation of index
+105	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:324 - InsertUnaryOp IINC 1 index
+106	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:324 - InsertUnaryOp IINC -1 index
+107	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:324 - ReplaceComparisonOperator >= -> -1
+108	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:324 - ReplaceComparisonOperator >= -> >
+109	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:324 - ReplaceComparisonOperator >= -> ==
+110	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:325 - InsertUnaryOp Negation of index
+111	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:325 - InsertUnaryOp IINC 1 index
+112	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:325 - InsertUnaryOp IINC -1 index
+113	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:326 - InsertUnaryOp Negation of character
+114	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:326 - InsertUnaryOp IINC 1 character
+115	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:326 - InsertUnaryOp IINC -1 character
+116	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:326 - ReplaceComparisonOperator != -> -1
+117	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:326 - ReplaceComparisonOperator != -> <
+118	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:326 - ReplaceComparisonOperator != -> >
+119	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:326 - InsertUnaryOp Negation of character
+120	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:326 - InsertUnaryOp IINC 1 character
+121	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:326 - InsertUnaryOp IINC -1 character
+122	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:326 - InsertUnaryOp Negation of index
+123	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:326 - InsertUnaryOp IINC 1 index
+124	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyDigits(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;)V:326 - InsertUnaryOp IINC -1 index
+125	ReplaceComparisonOperator	org.assertj.core.internal.Strings.checkIsNotNull([Ljava/lang/CharSequence;)V:331 - ReplaceComparisonOperator != null -> = null
+126	ReplaceComparisonOperator	org.assertj.core.internal.Strings.checkIsNotEmpty([Ljava/lang/CharSequence;)V:335 - ReplaceComparisonOperator != -> -1
+127	ReplaceComparisonOperator	org.assertj.core.internal.Strings.checkIsNotEmpty([Ljava/lang/CharSequence;)V:335 - ReplaceComparisonOperator != -> <
+128	ReplaceComparisonOperator	org.assertj.core.internal.Strings.checkIsNotEmpty([Ljava/lang/CharSequence;)V:335 - ReplaceComparisonOperator != -> >
+129	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsIgnoringCase(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:358 - ReplaceComparisonOperator != -> -1
+130	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsIgnoringCase(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:358 - ReplaceComparisonOperator != -> <
+131	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsIgnoringCase(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:358 - ReplaceComparisonOperator != -> >
+132	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertDoesNotContain(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:375 - ReplaceComparisonOperator == -> -2
+133	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertDoesNotContain(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:375 - ReplaceComparisonOperator == -> >=
+134	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertDoesNotContain(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:375 - ReplaceComparisonOperator == -> <=
+135	ReplaceConstant	org.assertj.core.internal.Strings.checkCharSequenceIsNotNull(Ljava/lang/CharSequence;)V:380 - ReplaceConstant - The char sequence to look for should not be null -> 
+136	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertEqualsIgnoringCase(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:392 - ReplaceComparisonOperator != -> -1
+137	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertEqualsIgnoringCase(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:392 - ReplaceComparisonOperator != -> <
+138	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertEqualsIgnoringCase(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:392 - ReplaceComparisonOperator != -> >
+139	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNotEqualsIgnoringCase(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:404 - ReplaceComparisonOperator == -> -2
+140	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNotEqualsIgnoringCase(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:404 - ReplaceComparisonOperator == -> >=
+141	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNotEqualsIgnoringCase(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:404 - ReplaceComparisonOperator == -> <=
+142	ReplaceComparisonOperator	org.assertj.core.internal.Strings.areEqualIgnoringCase(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z:409 - ReplaceComparisonOperator != null -> = null
+143	ReplaceComparisonOperator	org.assertj.core.internal.Strings.areEqualIgnoringCase(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z:409 - ReplaceComparisonOperator != null -> = null
+144	ReplaceConstant	org.assertj.core.internal.Strings.areEqualIgnoringCase(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z:409 - ReplaceConstant - 1 -> 0
+145	ReplaceConstant	org.assertj.core.internal.Strings.areEqualIgnoringCase(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z:409 - ReplaceConstant - 0 -> 1
+146	ReplaceComparisonOperator	org.assertj.core.internal.Strings.areEqualIgnoringCase(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z:410 - ReplaceComparisonOperator != null -> = null
+147	ReplaceConstant	org.assertj.core.internal.Strings.areEqualIgnoringCase(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z:410 - ReplaceConstant - 0 -> 1
+148	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertEqualsIgnoringWhitespace(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:423 - ReplaceComparisonOperator != -> -1
+149	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertEqualsIgnoringWhitespace(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:423 - ReplaceComparisonOperator != -> <
+150	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertEqualsIgnoringWhitespace(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:423 - ReplaceComparisonOperator != -> >
+151	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNotEqualsIgnoringWhitespace(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:436 - ReplaceComparisonOperator == -> -2
+152	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNotEqualsIgnoringWhitespace(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:436 - ReplaceComparisonOperator == -> >=
+153	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertNotEqualsIgnoringWhitespace(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:436 - ReplaceComparisonOperator == -> <=
+154	ReplaceComparisonOperator	org.assertj.core.internal.Strings.areEqualIgnoringWhitespace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z:441 - ReplaceComparisonOperator != null -> = null
+155	ReplaceComparisonOperator	org.assertj.core.internal.Strings.areEqualIgnoringWhitespace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z:441 - ReplaceComparisonOperator != null -> = null
+156	ReplaceConstant	org.assertj.core.internal.Strings.areEqualIgnoringWhitespace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z:441 - ReplaceConstant - 1 -> 0
+157	ReplaceConstant	org.assertj.core.internal.Strings.areEqualIgnoringWhitespace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z:441 - ReplaceConstant - 0 -> 1
+158	ReplaceConstant	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:449 - ReplaceConstant - 1 -> 0
+159	ReplaceConstant	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:450 - ReplaceConstant - 0 -> 1
+160	InsertUnaryOp	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:450 - InsertUnaryOp Negation of i
+161	InsertUnaryOp	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:450 - InsertUnaryOp IINC 1 i
+162	InsertUnaryOp	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:450 - InsertUnaryOp IINC -1 i
+163	ReplaceComparisonOperator	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:450 - ReplaceComparisonOperator >= -> -1
+164	ReplaceComparisonOperator	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:450 - ReplaceComparisonOperator >= -> >
+165	ReplaceComparisonOperator	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:450 - ReplaceComparisonOperator >= -> ==
+166	InsertUnaryOp	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:451 - InsertUnaryOp Negation of i
+167	InsertUnaryOp	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:451 - InsertUnaryOp IINC 1 i
+168	InsertUnaryOp	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:451 - InsertUnaryOp IINC -1 i
+169	InsertUnaryOp	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:452 - InsertUnaryOp Negation of c
+170	InsertUnaryOp	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:452 - InsertUnaryOp IINC 1 c
+171	InsertUnaryOp	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:452 - InsertUnaryOp IINC -1 c
+172	ReplaceComparisonOperator	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:452 - ReplaceComparisonOperator == -> -2
+173	ReplaceComparisonOperator	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:452 - ReplaceComparisonOperator == -> >=
+174	ReplaceComparisonOperator	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:452 - ReplaceComparisonOperator == -> <=
+175	InsertUnaryOp	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:453 - InsertUnaryOp Negation of lastWasSpace
+176	InsertUnaryOp	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:453 - InsertUnaryOp IINC 1 lastWasSpace
+177	InsertUnaryOp	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:453 - InsertUnaryOp IINC -1 lastWasSpace
+178	ReplaceComparisonOperator	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:453 - ReplaceComparisonOperator != -> -1
+179	ReplaceComparisonOperator	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:453 - ReplaceComparisonOperator != -> <
+180	ReplaceComparisonOperator	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:453 - ReplaceComparisonOperator != -> >
+181	ReplaceConstant	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:453 - ReplaceConstant - 32 -> 0
+182	ReplaceConstant	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:453 - ReplaceConstant - 32 -> 1
+183	ReplaceConstant	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:453 - ReplaceConstant - 32 -> -1
+184	ReplaceConstant	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:453 - ReplaceConstant - 32 -> 31
+185	ReplaceConstant	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:453 - ReplaceConstant - 32 -> 33
+186	ReplaceConstant	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:454 - ReplaceConstant - 1 -> 0
+187	InsertUnaryOp	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:456 - InsertUnaryOp Negation of c
+188	InsertUnaryOp	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:456 - InsertUnaryOp IINC 1 c
+189	InsertUnaryOp	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:456 - InsertUnaryOp IINC -1 c
+190	ReplaceConstant	org.assertj.core.internal.Strings.removeAllWhitespaces(Ljava/lang/CharSequence;)Ljava/lang/String;:457 - ReplaceConstant - 0 -> 1
+191	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyOnce(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:478 - InsertUnaryOp Negation of sequenceOccurencesInActual
+192	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyOnce(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:478 - InsertUnaryOp IINC 1 sequenceOccurencesInActual
+193	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyOnce(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:478 - InsertUnaryOp IINC -1 sequenceOccurencesInActual
+194	ReplaceConstant	org.assertj.core.internal.Strings.assertContainsOnlyOnce(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:478 - ReplaceConstant - 1 -> 0
+195	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsOnlyOnce(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:478 - ReplaceComparisonOperator != -> -1
+196	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsOnlyOnce(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:478 - ReplaceComparisonOperator != -> <
+197	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsOnlyOnce(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:478 - ReplaceComparisonOperator != -> >
+198	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyOnce(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:479 - InsertUnaryOp Negation of sequenceOccurencesInActual
+199	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyOnce(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:479 - InsertUnaryOp IINC 1 sequenceOccurencesInActual
+200	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsOnlyOnce(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:479 - InsertUnaryOp IINC -1 sequenceOccurencesInActual
+201	ReplaceConstant	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:493 - ReplaceConstant - 0 -> 1
+202	ReplaceConstant	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:494 - ReplaceConstant - 0 -> 1
+203	InsertUnaryOp	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:494 - InsertUnaryOp Negation of i
+204	InsertUnaryOp	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:494 - InsertUnaryOp IINC 1 i
+205	InsertUnaryOp	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:494 - InsertUnaryOp IINC -1 i
+206	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:494 - ReplaceArithmeticOperator - -> +
+207	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:494 - ReplaceArithmeticOperator - -> %
+208	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:494 - ReplaceArithmeticOperator - -> *
+209	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:494 - ReplaceArithmeticOperator - -> /
+210	ReplaceComparisonOperator	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:494 - ReplaceComparisonOperator > -> !=
+211	ReplaceComparisonOperator	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:494 - ReplaceComparisonOperator > -> -2
+212	ReplaceComparisonOperator	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:494 - ReplaceComparisonOperator > -> >=
+213	InsertUnaryOp	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:495 - InsertUnaryOp Negation of i
+214	InsertUnaryOp	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:495 - InsertUnaryOp IINC 1 i
+215	InsertUnaryOp	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:495 - InsertUnaryOp IINC -1 i
+216	InsertUnaryOp	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:495 - InsertUnaryOp Negation of i
+217	InsertUnaryOp	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:495 - InsertUnaryOp IINC 1 i
+218	InsertUnaryOp	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:495 - InsertUnaryOp IINC -1 i
+219	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:495 - ReplaceArithmeticOperator + -> %
+220	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:495 - ReplaceArithmeticOperator + -> -
+221	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:495 - ReplaceArithmeticOperator + -> *
+222	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:495 - ReplaceArithmeticOperator + -> /
+223	ReplaceComparisonOperator	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:495 - ReplaceComparisonOperator == -> -2
+224	ReplaceComparisonOperator	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:495 - ReplaceComparisonOperator == -> >=
+225	ReplaceComparisonOperator	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:495 - ReplaceComparisonOperator == -> <=
+226	ReplaceVariable	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:496 - ReplaceVariable occurences -> i
+227	ReplaceVariable	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:494 - ReplaceVariable i -> occurences
+228	InsertUnaryOp	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:499 - InsertUnaryOp Negation of occurences
+229	InsertUnaryOp	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:499 - InsertUnaryOp IINC 1 occurences
+230	InsertUnaryOp	org.assertj.core.internal.Strings.countOccurences(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I:499 - InsertUnaryOp IINC -1 occurences
+231	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertStartsWith(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:515 - ReplaceComparisonOperator != -> -1
+232	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertStartsWith(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:515 - ReplaceComparisonOperator != -> <
+233	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertStartsWith(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:515 - ReplaceComparisonOperator != -> >
+234	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertDoesNotStartWith(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:532 - ReplaceComparisonOperator == -> -2
+235	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertDoesNotStartWith(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:532 - ReplaceComparisonOperator == -> >=
+236	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertDoesNotStartWith(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:532 - ReplaceComparisonOperator == -> <=
+237	ReplaceConstant	org.assertj.core.internal.Strings.failIfPrefixIsNull(Ljava/lang/CharSequence;)V:537 - ReplaceConstant - The given prefix should not be null -> 
+238	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertEndsWith(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:553 - ReplaceComparisonOperator != -> -1
+239	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertEndsWith(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:553 - ReplaceComparisonOperator != -> <
+240	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertEndsWith(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:553 - ReplaceComparisonOperator != -> >
+241	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertDoesNotEndWith(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:570 - ReplaceComparisonOperator == -> -2
+242	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertDoesNotEndWith(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:570 - ReplaceComparisonOperator == -> >=
+243	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertDoesNotEndWith(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:570 - ReplaceComparisonOperator == -> <=
+244	ReplaceConstant	org.assertj.core.internal.Strings.failIfSuffixIsNull(Ljava/lang/CharSequence;)V:575 - ReplaceConstant - The given suffix should not be null -> 
+245	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertMatches(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:592 - ReplaceComparisonOperator != -> -1
+246	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertMatches(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:592 - ReplaceComparisonOperator != -> <
+247	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertMatches(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:592 - ReplaceComparisonOperator != -> >
+248	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertDoesNotMatch(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:609 - ReplaceComparisonOperator == -> -2
+249	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertDoesNotMatch(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:609 - ReplaceComparisonOperator == -> >=
+250	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertDoesNotMatch(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:609 - ReplaceComparisonOperator == -> <=
+251	ReplaceComparisonOperator	org.assertj.core.internal.Strings.checkRegexIsNotNull(Ljava/lang/CharSequence;)V:613 - ReplaceComparisonOperator != null -> = null
+252	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertMatches(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/util/regex/Pattern;)V:629 - ReplaceComparisonOperator != -> -1
+253	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertMatches(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/util/regex/Pattern;)V:629 - ReplaceComparisonOperator != -> <
+254	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertMatches(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/util/regex/Pattern;)V:629 - ReplaceComparisonOperator != -> >
+255	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertDoesNotMatch(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/util/regex/Pattern;)V:643 - ReplaceComparisonOperator = null -> != null
+256	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertDoesNotMatch(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/util/regex/Pattern;)V:643 - ReplaceComparisonOperator == -> -2
+257	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertDoesNotMatch(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/util/regex/Pattern;)V:643 - ReplaceComparisonOperator == -> >=
+258	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertDoesNotMatch(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/util/regex/Pattern;)V:643 - ReplaceComparisonOperator == -> <=
+259	ReplaceComparisonOperator	org.assertj.core.internal.Strings.checkIsNotNull(Ljava/util/regex/Pattern;)V:648 - ReplaceComparisonOperator != null -> = null
+260	ReplaceConstant	org.assertj.core.internal.Strings.patternToMatchIsNull()Ljava/lang/NullPointerException;:652 - ReplaceConstant - The regular expression pattern to match should not be null -> 
+261	ReplaceConstant	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:666 - ReplaceConstant - 0 -> 1
+262	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:666 - ReplaceComparisonOperator >= -> -1
+263	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:666 - ReplaceComparisonOperator >= -> >
+264	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:666 - ReplaceComparisonOperator >= -> ==
+265	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:667 - ReplaceComparisonOperator != -> -1
+266	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:667 - ReplaceComparisonOperator != -> <
+267	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:667 - ReplaceComparisonOperator != -> >
+268	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:670 - ReplaceComparisonOperator != -> -1
+269	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:670 - ReplaceComparisonOperator != -> <
+270	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:670 - ReplaceComparisonOperator != -> >
+271	ReplaceConstant	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:672 - ReplaceConstant - 1 -> 0
+272	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:672 - ReplaceComparisonOperator != -> -1
+273	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:672 - ReplaceComparisonOperator != -> <
+274	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:672 - ReplaceComparisonOperator != -> >
+275	ReplaceConstant	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:672 - ReplaceConstant - 1 -> 0
+276	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:672 - ReplaceComparisonOperator != -> -1
+277	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:672 - ReplaceComparisonOperator != -> <
+278	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:672 - ReplaceComparisonOperator != -> >
+279	ReplaceConstant	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:673 - ReplaceConstant - 0 -> 1
+280	ReplaceConstant	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:679 - ReplaceConstant - 1 -> 0
+281	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:679 - ReplaceComparisonOperator != -> -1
+282	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:679 - ReplaceComparisonOperator != -> <
+283	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:679 - ReplaceComparisonOperator != -> >
+284	ReplaceConstant	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:683 - ReplaceConstant - 1 -> 0
+285	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:683 - InsertUnaryOp Negation of i
+286	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:683 - InsertUnaryOp IINC 1 i
+287	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:683 - InsertUnaryOp IINC -1 i
+288	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:683 - ReplaceComparisonOperator >= -> -1
+289	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:683 - ReplaceComparisonOperator >= -> >
+290	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:683 - ReplaceComparisonOperator >= -> ==
+291	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:684 - InsertUnaryOp Negation of i
+292	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:684 - InsertUnaryOp IINC 1 i
+293	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:684 - InsertUnaryOp IINC -1 i
+294	ReplaceConstant	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:684 - ReplaceConstant - 1 -> 0
+295	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:684 - ReplaceArithmeticOperator - -> +
+296	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:684 - ReplaceArithmeticOperator - -> %
+297	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:684 - ReplaceArithmeticOperator - -> *
+298	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:684 - ReplaceArithmeticOperator - -> /
+299	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:685 - InsertUnaryOp Negation of i
+300	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:685 - InsertUnaryOp IINC 1 i
+301	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:685 - InsertUnaryOp IINC -1 i
+302	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:686 - InsertUnaryOp Negation of indexOfCurrentSequenceValue
+303	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:686 - InsertUnaryOp IINC 1 indexOfCurrentSequenceValue
+304	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:686 - InsertUnaryOp IINC -1 indexOfCurrentSequenceValue
+305	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:686 - InsertUnaryOp Negation of indexOfNextSequenceValue
+306	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:686 - InsertUnaryOp IINC 1 indexOfNextSequenceValue
+307	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:686 - InsertUnaryOp IINC -1 indexOfNextSequenceValue
+308	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:686 - ReplaceComparisonOperator <= -> -1
+309	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:686 - ReplaceComparisonOperator <= -> <
+310	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:686 - ReplaceComparisonOperator <= -> ==
+311	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:687 - InsertUnaryOp Negation of i
+312	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:687 - InsertUnaryOp IINC 1 i
+313	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:687 - InsertUnaryOp IINC -1 i
+314	ReplaceConstant	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:687 - ReplaceConstant - 1 -> 0
+315	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:687 - ReplaceArithmeticOperator - -> +
+316	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:687 - ReplaceArithmeticOperator - -> %
+317	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:687 - ReplaceArithmeticOperator - -> *
+318	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:687 - ReplaceArithmeticOperator - -> /
+319	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:691 - InsertUnaryOp Negation of indexOfCurrentSequenceValue
+320	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:691 - InsertUnaryOp IINC 1 indexOfCurrentSequenceValue
+321	InsertUnaryOp	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:691 - InsertUnaryOp IINC -1 indexOfCurrentSequenceValue
+322	ReplaceConstant	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:691 - ReplaceConstant - 1 -> 0
+323	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:691 - ReplaceArithmeticOperator + -> %
+324	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:691 - ReplaceArithmeticOperator + -> -
+325	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:691 - ReplaceArithmeticOperator + -> *
+326	ReplaceArithmeticOperator	org.assertj.core.internal.Strings.assertContainsSequence(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)V:691 - ReplaceArithmeticOperator + -> /
+327	ReplaceConstant	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:696 - ReplaceConstant - 0 -> 1
+328	InsertUnaryOp	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:696 - InsertUnaryOp Negation of i
+329	InsertUnaryOp	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:696 - InsertUnaryOp IINC 1 i
+330	InsertUnaryOp	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:696 - InsertUnaryOp IINC -1 i
+331	ReplaceComparisonOperator	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:696 - ReplaceComparisonOperator >= -> -1
+332	ReplaceComparisonOperator	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:696 - ReplaceComparisonOperator >= -> >
+333	ReplaceComparisonOperator	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:696 - ReplaceComparisonOperator >= -> ==
+334	InsertUnaryOp	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:697 - InsertUnaryOp Negation of i
+335	InsertUnaryOp	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:697 - InsertUnaryOp IINC 1 i
+336	InsertUnaryOp	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:697 - InsertUnaryOp IINC -1 i
+337	ReplaceComparisonOperator	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:697 - ReplaceComparisonOperator == -> -2
+338	ReplaceComparisonOperator	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:697 - ReplaceComparisonOperator == -> >=
+339	ReplaceComparisonOperator	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:697 - ReplaceComparisonOperator == -> <=
+340	InsertUnaryOp	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:697 - InsertUnaryOp Negation of i
+341	InsertUnaryOp	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:697 - InsertUnaryOp IINC 1 i
+342	InsertUnaryOp	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:697 - InsertUnaryOp IINC -1 i
+343	ReplaceConstant	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:699 - ReplaceConstant - -1 -> 0
+344	ReplaceConstant	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:699 - ReplaceConstant - -1 -> 1
+345	ReplaceConstant	org.assertj.core.internal.Strings.indexOf(Ljava/lang/String;Ljava/lang/String;)I:699 - ReplaceConstant - -1 -> -2
+346	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertXmlEqualsTo(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:710 - ReplaceComparisonOperator != -> -1
+347	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertXmlEqualsTo(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:710 - ReplaceComparisonOperator != -> <
+348	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertXmlEqualsTo(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:710 - ReplaceComparisonOperator != -> >
+349	ReplaceConstant	org.assertj.core.internal.Strings.assertIsSubstringOf(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:717 - ReplaceConstant - Expecting CharSequence not to be null -> 
+350	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertIsSubstringOf(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:718 - ReplaceComparisonOperator == -> -2
+351	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertIsSubstringOf(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:718 - ReplaceComparisonOperator == -> >=
+352	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertIsSubstringOf(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:718 - ReplaceComparisonOperator == -> <=
+353	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsPattern(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:738 - ReplaceComparisonOperator != -> -1
+354	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsPattern(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:738 - ReplaceComparisonOperator != -> <
+355	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsPattern(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V:738 - ReplaceComparisonOperator != -> >
+356	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsPattern(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/util/regex/Pattern;)V:755 - ReplaceComparisonOperator != -> -1
+357	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsPattern(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/util/regex/Pattern;)V:755 - ReplaceComparisonOperator != -> <
+358	ReplaceComparisonOperator	org.assertj.core.internal.Strings.assertContainsPattern(Lorg/assertj/core/api/AssertionInfo;Ljava/lang/CharSequence;Ljava/util/regex/Pattern;)V:755 - ReplaceComparisonOperator != -> >
+359	ReplaceConstant	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:759 - ReplaceConstant - 1 -> 0
+360	ReplaceComparisonOperator	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:759 - ReplaceComparisonOperator != -> -1
+361	ReplaceComparisonOperator	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:759 - ReplaceComparisonOperator != -> <
+362	ReplaceComparisonOperator	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:759 - ReplaceComparisonOperator != -> >
+363	ReplaceConstant	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:760 - ReplaceConstant - 0 -> 1
+364	ReplaceConstant	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:762 - ReplaceConstant - 0 -> 1
+365	InsertUnaryOp	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:762 - InsertUnaryOp Negation of i
+366	InsertUnaryOp	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:762 - InsertUnaryOp IINC 1 i
+367	InsertUnaryOp	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:762 - InsertUnaryOp IINC -1 i
+368	ReplaceComparisonOperator	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:762 - ReplaceComparisonOperator >= -> -1
+369	ReplaceComparisonOperator	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:762 - ReplaceComparisonOperator >= -> >
+370	ReplaceComparisonOperator	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:762 - ReplaceComparisonOperator >= -> ==
+371	InsertUnaryOp	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:763 - InsertUnaryOp Negation of i
+372	InsertUnaryOp	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:763 - InsertUnaryOp IINC 1 i
+373	InsertUnaryOp	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:763 - InsertUnaryOp IINC -1 i
+374	ReplaceConstant	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:763 - ReplaceConstant - Expecting CharSequence elements not to be null but found one at index  -> 
+375	InsertUnaryOp	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:763 - InsertUnaryOp Negation of i
+376	InsertUnaryOp	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:763 - InsertUnaryOp IINC 1 i
+377	InsertUnaryOp	org.assertj.core.internal.Strings.checkCharSequenceArrayDoesNotHaveNullElements([Ljava/lang/CharSequence;)V:763 - InsertUnaryOp IINC -1 i

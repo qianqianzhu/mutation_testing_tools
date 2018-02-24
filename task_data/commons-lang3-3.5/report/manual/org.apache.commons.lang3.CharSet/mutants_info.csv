@@ -1,0 +1,210 @@
+0	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.getInstance([Ljava/lang/String;)Lorg/apache/commons/lang3/CharSet;:156 - ReplaceComparisonOperator != null -> = null
+1	ReplaceConstant	org.apache.commons.lang3.CharSet.getInstance([Ljava/lang/String;)Lorg/apache/commons/lang3/CharSet;:159 - ReplaceConstant - 1 -> 0
+2	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.getInstance([Ljava/lang/String;)Lorg/apache/commons/lang3/CharSet;:159 - ReplaceComparisonOperator != -> -1
+3	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.getInstance([Ljava/lang/String;)Lorg/apache/commons/lang3/CharSet;:159 - ReplaceComparisonOperator != -> <
+4	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.getInstance([Ljava/lang/String;)Lorg/apache/commons/lang3/CharSet;:159 - ReplaceComparisonOperator != -> >
+5	ReplaceConstant	org.apache.commons.lang3.CharSet.getInstance([Ljava/lang/String;)Lorg/apache/commons/lang3/CharSet;:160 - ReplaceConstant - 0 -> 1
+6	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.getInstance([Ljava/lang/String;)Lorg/apache/commons/lang3/CharSet;:161 - ReplaceComparisonOperator = null -> != null
+7	ReplaceConstant	org.apache.commons.lang3.CharSet.<init>([Ljava/lang/String;)V:179 - ReplaceConstant - 0 -> 1
+8	InsertUnaryOp	org.apache.commons.lang3.CharSet.<init>([Ljava/lang/String;)V:179 - InsertUnaryOp Negation of i
+9	InsertUnaryOp	org.apache.commons.lang3.CharSet.<init>([Ljava/lang/String;)V:179 - InsertUnaryOp IINC 1 i
+10	InsertUnaryOp	org.apache.commons.lang3.CharSet.<init>([Ljava/lang/String;)V:179 - InsertUnaryOp IINC -1 i
+11	InsertUnaryOp	org.apache.commons.lang3.CharSet.<init>([Ljava/lang/String;)V:179 - InsertUnaryOp Negation of sz
+12	InsertUnaryOp	org.apache.commons.lang3.CharSet.<init>([Ljava/lang/String;)V:179 - InsertUnaryOp IINC 1 sz
+13	InsertUnaryOp	org.apache.commons.lang3.CharSet.<init>([Ljava/lang/String;)V:179 - InsertUnaryOp IINC -1 sz
+14	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.<init>([Ljava/lang/String;)V:179 - ReplaceComparisonOperator >= -> -1
+15	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.<init>([Ljava/lang/String;)V:179 - ReplaceComparisonOperator >= -> >
+16	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.<init>([Ljava/lang/String;)V:179 - ReplaceComparisonOperator >= -> ==
+17	InsertUnaryOp	org.apache.commons.lang3.CharSet.<init>([Ljava/lang/String;)V:180 - InsertUnaryOp Negation of i
+18	InsertUnaryOp	org.apache.commons.lang3.CharSet.<init>([Ljava/lang/String;)V:180 - InsertUnaryOp IINC 1 i
+19	InsertUnaryOp	org.apache.commons.lang3.CharSet.<init>([Ljava/lang/String;)V:180 - InsertUnaryOp IINC -1 i
+20	ReplaceVariable	org.apache.commons.lang3.CharSet.<init>([Ljava/lang/String;)V:179 - ReplaceVariable i -> sz
+21	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:191 - ReplaceComparisonOperator != null -> = null
+22	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:196 - ReplaceConstant - 0 -> 1
+23	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:197 - InsertUnaryOp Negation of pos
+24	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:197 - InsertUnaryOp IINC 1 pos
+25	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:197 - InsertUnaryOp IINC -1 pos
+26	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:197 - InsertUnaryOp Negation of len
+27	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:197 - InsertUnaryOp IINC 1 len
+28	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:197 - InsertUnaryOp IINC -1 len
+29	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:197 - ReplaceComparisonOperator >= -> -1
+30	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:197 - ReplaceComparisonOperator >= -> >
+31	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:197 - ReplaceComparisonOperator >= -> ==
+32	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:198 - InsertUnaryOp Negation of len
+33	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:198 - InsertUnaryOp IINC 1 len
+34	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:198 - InsertUnaryOp IINC -1 len
+35	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:198 - InsertUnaryOp Negation of pos
+36	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:198 - InsertUnaryOp IINC 1 pos
+37	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:198 - InsertUnaryOp IINC -1 pos
+38	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:198 - ReplaceArithmeticOperator - -> +
+39	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:198 - ReplaceArithmeticOperator - -> %
+40	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:198 - ReplaceArithmeticOperator - -> *
+41	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:198 - ReplaceArithmeticOperator - -> /
+42	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - InsertUnaryOp Negation of remainder
+43	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - InsertUnaryOp IINC 1 remainder
+44	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - InsertUnaryOp IINC -1 remainder
+45	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 4 -> 0
+46	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 4 -> 1
+47	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 4 -> -1
+48	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 4 -> 3
+49	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 4 -> 5
+50	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceComparisonOperator < -> !=
+51	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceComparisonOperator < -> -2
+52	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceComparisonOperator < -> <=
+53	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - InsertUnaryOp Negation of pos
+54	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - InsertUnaryOp IINC 1 pos
+55	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - InsertUnaryOp IINC -1 pos
+56	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 94 -> 0
+57	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 94 -> 1
+58	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 94 -> -1
+59	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 94 -> 93
+60	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 94 -> 95
+61	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceComparisonOperator != -> -1
+62	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceComparisonOperator != -> <
+63	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceComparisonOperator != -> >
+64	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - InsertUnaryOp Negation of pos
+65	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - InsertUnaryOp IINC 1 pos
+66	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - InsertUnaryOp IINC -1 pos
+67	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 2 -> 0
+68	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 2 -> 1
+69	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 2 -> -1
+70	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 2 -> 3
+71	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceArithmeticOperator + -> %
+72	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceArithmeticOperator + -> -
+73	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceArithmeticOperator + -> *
+74	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceArithmeticOperator + -> /
+75	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 45 -> 0
+76	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 45 -> 1
+77	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 45 -> -1
+78	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 45 -> 44
+79	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceConstant - 45 -> 46
+80	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceComparisonOperator != -> -1
+81	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceComparisonOperator != -> <
+82	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:199 - ReplaceComparisonOperator != -> >
+83	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - InsertUnaryOp Negation of pos
+84	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - InsertUnaryOp IINC 1 pos
+85	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - InsertUnaryOp IINC -1 pos
+86	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - ReplaceConstant - 1 -> 0
+87	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - ReplaceArithmeticOperator + -> %
+88	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - ReplaceArithmeticOperator + -> -
+89	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - ReplaceArithmeticOperator + -> *
+90	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - ReplaceArithmeticOperator + -> /
+91	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - InsertUnaryOp Negation of pos
+92	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - InsertUnaryOp IINC 1 pos
+93	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - InsertUnaryOp IINC -1 pos
+94	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - ReplaceConstant - 3 -> 0
+95	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - ReplaceConstant - 3 -> 1
+96	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - ReplaceConstant - 3 -> -1
+97	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - ReplaceConstant - 3 -> 2
+98	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - ReplaceConstant - 3 -> 4
+99	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - ReplaceArithmeticOperator + -> %
+100	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - ReplaceArithmeticOperator + -> -
+101	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - ReplaceArithmeticOperator + -> *
+102	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:201 - ReplaceArithmeticOperator + -> /
+103	ReplaceVariable	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:202 - ReplaceVariable pos -> len
+104	ReplaceVariable	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:202 - ReplaceVariable pos -> remainder
+105	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - InsertUnaryOp Negation of remainder
+106	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - InsertUnaryOp IINC 1 remainder
+107	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - InsertUnaryOp IINC -1 remainder
+108	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceConstant - 3 -> 0
+109	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceConstant - 3 -> 1
+110	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceConstant - 3 -> -1
+111	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceConstant - 3 -> 2
+112	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceConstant - 3 -> 4
+113	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceComparisonOperator < -> !=
+114	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceComparisonOperator < -> -2
+115	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceComparisonOperator < -> <=
+116	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - InsertUnaryOp Negation of pos
+117	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - InsertUnaryOp IINC 1 pos
+118	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - InsertUnaryOp IINC -1 pos
+119	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceConstant - 1 -> 0
+120	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceArithmeticOperator + -> %
+121	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceArithmeticOperator + -> -
+122	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceArithmeticOperator + -> *
+123	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceArithmeticOperator + -> /
+124	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceConstant - 45 -> 0
+125	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceConstant - 45 -> 1
+126	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceConstant - 45 -> -1
+127	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceConstant - 45 -> 44
+128	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceConstant - 45 -> 46
+129	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceComparisonOperator != -> -1
+130	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceComparisonOperator != -> <
+131	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:203 - ReplaceComparisonOperator != -> >
+132	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:205 - InsertUnaryOp Negation of pos
+133	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:205 - InsertUnaryOp IINC 1 pos
+134	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:205 - InsertUnaryOp IINC -1 pos
+135	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:205 - InsertUnaryOp Negation of pos
+136	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:205 - InsertUnaryOp IINC 1 pos
+137	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:205 - InsertUnaryOp IINC -1 pos
+138	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:205 - ReplaceConstant - 2 -> 0
+139	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:205 - ReplaceConstant - 2 -> 1
+140	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:205 - ReplaceConstant - 2 -> -1
+141	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:205 - ReplaceConstant - 2 -> 3
+142	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:205 - ReplaceArithmeticOperator + -> %
+143	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:205 - ReplaceArithmeticOperator + -> -
+144	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:205 - ReplaceArithmeticOperator + -> *
+145	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:205 - ReplaceArithmeticOperator + -> /
+146	ReplaceVariable	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:206 - ReplaceVariable pos -> len
+147	ReplaceVariable	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:206 - ReplaceVariable pos -> remainder
+148	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - InsertUnaryOp Negation of remainder
+149	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - InsertUnaryOp IINC 1 remainder
+150	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - InsertUnaryOp IINC -1 remainder
+151	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - ReplaceConstant - 2 -> 0
+152	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - ReplaceConstant - 2 -> 1
+153	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - ReplaceConstant - 2 -> -1
+154	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - ReplaceConstant - 2 -> 3
+155	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - ReplaceComparisonOperator < -> !=
+156	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - ReplaceComparisonOperator < -> -2
+157	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - ReplaceComparisonOperator < -> <=
+158	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - InsertUnaryOp Negation of pos
+159	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - InsertUnaryOp IINC 1 pos
+160	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - InsertUnaryOp IINC -1 pos
+161	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - ReplaceConstant - 94 -> 0
+162	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - ReplaceConstant - 94 -> 1
+163	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - ReplaceConstant - 94 -> -1
+164	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - ReplaceConstant - 94 -> 93
+165	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - ReplaceConstant - 94 -> 95
+166	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - ReplaceComparisonOperator != -> -1
+167	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - ReplaceComparisonOperator != -> <
+168	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:207 - ReplaceComparisonOperator != -> >
+169	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:209 - InsertUnaryOp Negation of pos
+170	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:209 - InsertUnaryOp IINC 1 pos
+171	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:209 - InsertUnaryOp IINC -1 pos
+172	ReplaceConstant	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:209 - ReplaceConstant - 1 -> 0
+173	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:209 - ReplaceArithmeticOperator + -> %
+174	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:209 - ReplaceArithmeticOperator + -> -
+175	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:209 - ReplaceArithmeticOperator + -> *
+176	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:209 - ReplaceArithmeticOperator + -> /
+177	ReplaceVariable	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:210 - ReplaceVariable pos -> len
+178	ReplaceVariable	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:210 - ReplaceVariable pos -> remainder
+179	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:213 - InsertUnaryOp Negation of pos
+180	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:213 - InsertUnaryOp IINC 1 pos
+181	InsertUnaryOp	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:213 - InsertUnaryOp IINC -1 pos
+182	ReplaceVariable	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:214 - ReplaceVariable pos -> len
+183	ReplaceVariable	org.apache.commons.lang3.CharSet.add(Ljava/lang/String;)V:214 - ReplaceVariable pos -> remainder
+184	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.contains(C)Z:241 - ReplaceComparisonOperator == -> -2
+185	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.contains(C)Z:241 - ReplaceComparisonOperator == -> >=
+186	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.contains(C)Z:241 - ReplaceComparisonOperator == -> <=
+187	InsertUnaryOp	org.apache.commons.lang3.CharSet.contains(C)Z:242 - InsertUnaryOp Negation of ch
+188	InsertUnaryOp	org.apache.commons.lang3.CharSet.contains(C)Z:242 - InsertUnaryOp IINC 1 ch
+189	InsertUnaryOp	org.apache.commons.lang3.CharSet.contains(C)Z:242 - InsertUnaryOp IINC -1 ch
+190	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.contains(C)Z:242 - ReplaceComparisonOperator == -> -2
+191	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.contains(C)Z:242 - ReplaceComparisonOperator == -> >=
+192	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.contains(C)Z:242 - ReplaceComparisonOperator == -> <=
+193	ReplaceConstant	org.apache.commons.lang3.CharSet.contains(C)Z:243 - ReplaceConstant - 1 -> 0
+194	ReplaceConstant	org.apache.commons.lang3.CharSet.contains(C)Z:246 - ReplaceConstant - 0 -> 1
+195	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.equals(Ljava/lang/Object;)Z:264 - ReplaceComparisonOperator != -> ==
+196	ReplaceConstant	org.apache.commons.lang3.CharSet.equals(Ljava/lang/Object;)Z:265 - ReplaceConstant - 1 -> 0
+197	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.equals(Ljava/lang/Object;)Z:267 - ReplaceComparisonOperator != -> -1
+198	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.equals(Ljava/lang/Object;)Z:267 - ReplaceComparisonOperator != -> <
+199	ReplaceComparisonOperator	org.apache.commons.lang3.CharSet.equals(Ljava/lang/Object;)Z:267 - ReplaceComparisonOperator != -> >
+200	ReplaceConstant	org.apache.commons.lang3.CharSet.equals(Ljava/lang/Object;)Z:268 - ReplaceConstant - 0 -> 1
+201	ReplaceConstant	org.apache.commons.lang3.CharSet.hashCode()I:282 - ReplaceConstant - 89 -> 0
+202	ReplaceConstant	org.apache.commons.lang3.CharSet.hashCode()I:282 - ReplaceConstant - 89 -> 1
+203	ReplaceConstant	org.apache.commons.lang3.CharSet.hashCode()I:282 - ReplaceConstant - 89 -> -1
+204	ReplaceConstant	org.apache.commons.lang3.CharSet.hashCode()I:282 - ReplaceConstant - 89 -> 88
+205	ReplaceConstant	org.apache.commons.lang3.CharSet.hashCode()I:282 - ReplaceConstant - 89 -> 90
+206	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.hashCode()I:282 - ReplaceArithmeticOperator + -> %
+207	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.hashCode()I:282 - ReplaceArithmeticOperator + -> -
+208	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.hashCode()I:282 - ReplaceArithmeticOperator + -> *
+209	ReplaceArithmeticOperator	org.apache.commons.lang3.CharSet.hashCode()I:282 - ReplaceArithmeticOperator + -> /

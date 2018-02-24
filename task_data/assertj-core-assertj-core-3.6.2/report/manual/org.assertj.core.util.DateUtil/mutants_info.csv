@@ -1,0 +1,322 @@
+0	ReplaceConstant	org.assertj.core.util.DateUtil.newIsoDateFormat()Ljava/text/DateFormat;:54 - ReplaceConstant - yyyy-MM-dd -> 
+1	ReplaceConstant	org.assertj.core.util.DateUtil.newIsoDateTimeFormat()Ljava/text/DateFormat;:61 - ReplaceConstant - yyyy-MM-dd'T'HH:mm:ss -> 
+2	ReplaceConstant	org.assertj.core.util.DateUtil.newIsoDateTimeWithMsFormat()Ljava/text/DateFormat;:69 - ReplaceConstant - yyyy-MM-dd'T'HH:mm:ss.SSS -> 
+3	ReplaceConstant	org.assertj.core.util.DateUtil.newTimestampDateFormat()Ljava/text/DateFormat;:77 - ReplaceConstant - yyyy-MM-dd HH:mm:ss.SSS -> 
+4	ReplaceConstant	org.assertj.core.util.DateUtil.strictDateFormatForPattern(Ljava/lang/String;)Ljava/text/DateFormat;:82 - ReplaceConstant - 0 -> 1
+5	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatAsDatetime(Ljava/util/Date;)Ljava/lang/String;:97 - ReplaceComparisonOperator != null -> = null
+6	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatAsDatetimeWithMs(Ljava/util/Date;)Ljava/lang/String;:111 - ReplaceComparisonOperator != null -> = null
+7	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatAsDatetime(Ljava/util/Calendar;)Ljava/lang/String;:124 - ReplaceComparisonOperator != null -> = null
+8	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.parse(Ljava/lang/String;)Ljava/util/Date;:136 - ReplaceComparisonOperator != null -> = null
+9	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.parseDatetime(Ljava/lang/String;)Ljava/util/Date;:155 - ReplaceComparisonOperator != null -> = null
+10	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.parseDatetimeWithMs(Ljava/lang/String;)Ljava/util/Date;:175 - ReplaceComparisonOperator != null -> = null
+11	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.toCalendar(Ljava/util/Date;)Ljava/util/Calendar;:188 - ReplaceComparisonOperator != null -> = null
+12	ReplaceConstant	org.assertj.core.util.DateUtil.yearOf(Ljava/util/Date;)I:204 - ReplaceConstant - 1 -> 0
+13	ReplaceConstant	org.assertj.core.util.DateUtil.monthOf(Ljava/util/Date;)I:215 - ReplaceConstant - 2 -> 0
+14	ReplaceConstant	org.assertj.core.util.DateUtil.monthOf(Ljava/util/Date;)I:215 - ReplaceConstant - 2 -> 1
+15	ReplaceConstant	org.assertj.core.util.DateUtil.monthOf(Ljava/util/Date;)I:215 - ReplaceConstant - 2 -> -1
+16	ReplaceConstant	org.assertj.core.util.DateUtil.monthOf(Ljava/util/Date;)I:215 - ReplaceConstant - 2 -> 3
+17	ReplaceConstant	org.assertj.core.util.DateUtil.monthOf(Ljava/util/Date;)I:215 - ReplaceConstant - 1 -> 0
+18	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.monthOf(Ljava/util/Date;)I:215 - ReplaceArithmeticOperator + -> %
+19	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.monthOf(Ljava/util/Date;)I:215 - ReplaceArithmeticOperator + -> -
+20	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.monthOf(Ljava/util/Date;)I:215 - ReplaceArithmeticOperator + -> *
+21	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.monthOf(Ljava/util/Date;)I:215 - ReplaceArithmeticOperator + -> /
+22	ReplaceConstant	org.assertj.core.util.DateUtil.dayOfMonthOf(Ljava/util/Date;)I:226 - ReplaceConstant - 5 -> 0
+23	ReplaceConstant	org.assertj.core.util.DateUtil.dayOfMonthOf(Ljava/util/Date;)I:226 - ReplaceConstant - 5 -> 1
+24	ReplaceConstant	org.assertj.core.util.DateUtil.dayOfMonthOf(Ljava/util/Date;)I:226 - ReplaceConstant - 5 -> -1
+25	ReplaceConstant	org.assertj.core.util.DateUtil.dayOfMonthOf(Ljava/util/Date;)I:226 - ReplaceConstant - 5 -> 4
+26	ReplaceConstant	org.assertj.core.util.DateUtil.dayOfMonthOf(Ljava/util/Date;)I:226 - ReplaceConstant - 5 -> 6
+27	ReplaceConstant	org.assertj.core.util.DateUtil.dayOfWeekOf(Ljava/util/Date;)I:237 - ReplaceConstant - 7 -> 0
+28	ReplaceConstant	org.assertj.core.util.DateUtil.dayOfWeekOf(Ljava/util/Date;)I:237 - ReplaceConstant - 7 -> 1
+29	ReplaceConstant	org.assertj.core.util.DateUtil.dayOfWeekOf(Ljava/util/Date;)I:237 - ReplaceConstant - 7 -> -1
+30	ReplaceConstant	org.assertj.core.util.DateUtil.dayOfWeekOf(Ljava/util/Date;)I:237 - ReplaceConstant - 7 -> 6
+31	ReplaceConstant	org.assertj.core.util.DateUtil.dayOfWeekOf(Ljava/util/Date;)I:237 - ReplaceConstant - 7 -> 8
+32	ReplaceConstant	org.assertj.core.util.DateUtil.hourOfDayOf(Ljava/util/Date;)I:248 - ReplaceConstant - 11 -> 0
+33	ReplaceConstant	org.assertj.core.util.DateUtil.hourOfDayOf(Ljava/util/Date;)I:248 - ReplaceConstant - 11 -> 1
+34	ReplaceConstant	org.assertj.core.util.DateUtil.hourOfDayOf(Ljava/util/Date;)I:248 - ReplaceConstant - 11 -> -1
+35	ReplaceConstant	org.assertj.core.util.DateUtil.hourOfDayOf(Ljava/util/Date;)I:248 - ReplaceConstant - 11 -> 10
+36	ReplaceConstant	org.assertj.core.util.DateUtil.hourOfDayOf(Ljava/util/Date;)I:248 - ReplaceConstant - 11 -> 12
+37	ReplaceConstant	org.assertj.core.util.DateUtil.minuteOf(Ljava/util/Date;)I:259 - ReplaceConstant - 12 -> 0
+38	ReplaceConstant	org.assertj.core.util.DateUtil.minuteOf(Ljava/util/Date;)I:259 - ReplaceConstant - 12 -> 1
+39	ReplaceConstant	org.assertj.core.util.DateUtil.minuteOf(Ljava/util/Date;)I:259 - ReplaceConstant - 12 -> -1
+40	ReplaceConstant	org.assertj.core.util.DateUtil.minuteOf(Ljava/util/Date;)I:259 - ReplaceConstant - 12 -> 11
+41	ReplaceConstant	org.assertj.core.util.DateUtil.minuteOf(Ljava/util/Date;)I:259 - ReplaceConstant - 12 -> 13
+42	ReplaceConstant	org.assertj.core.util.DateUtil.secondOf(Ljava/util/Date;)I:270 - ReplaceConstant - 13 -> 0
+43	ReplaceConstant	org.assertj.core.util.DateUtil.secondOf(Ljava/util/Date;)I:270 - ReplaceConstant - 13 -> 1
+44	ReplaceConstant	org.assertj.core.util.DateUtil.secondOf(Ljava/util/Date;)I:270 - ReplaceConstant - 13 -> -1
+45	ReplaceConstant	org.assertj.core.util.DateUtil.secondOf(Ljava/util/Date;)I:270 - ReplaceConstant - 13 -> 12
+46	ReplaceConstant	org.assertj.core.util.DateUtil.secondOf(Ljava/util/Date;)I:270 - ReplaceConstant - 13 -> 14
+47	ReplaceConstant	org.assertj.core.util.DateUtil.millisecondOf(Ljava/util/Date;)I:281 - ReplaceConstant - 14 -> 0
+48	ReplaceConstant	org.assertj.core.util.DateUtil.millisecondOf(Ljava/util/Date;)I:281 - ReplaceConstant - 14 -> 1
+49	ReplaceConstant	org.assertj.core.util.DateUtil.millisecondOf(Ljava/util/Date;)I:281 - ReplaceConstant - 14 -> -1
+50	ReplaceConstant	org.assertj.core.util.DateUtil.millisecondOf(Ljava/util/Date;)I:281 - ReplaceConstant - 14 -> 13
+51	ReplaceConstant	org.assertj.core.util.DateUtil.millisecondOf(Ljava/util/Date;)I:281 - ReplaceConstant - 14 -> 15
+52	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.timeDifference(Ljava/util/Date;Ljava/util/Date;)J:293 - ReplaceComparisonOperator = null -> != null
+53	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.timeDifference(Ljava/util/Date;Ljava/util/Date;)J:293 - ReplaceComparisonOperator != null -> = null
+54	ReplaceConstant	org.assertj.core.util.DateUtil.timeDifference(Ljava/util/Date;Ljava/util/Date;)J:293 - ReplaceConstant - Expecting date parameter not to be null -> 
+55	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.timeDifference(Ljava/util/Date;Ljava/util/Date;)J:294 - ReplaceArithmeticOperator - -> +
+56	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.timeDifference(Ljava/util/Date;Ljava/util/Date;)J:294 - ReplaceArithmeticOperator - -> %
+57	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.timeDifference(Ljava/util/Date;Ljava/util/Date;)J:294 - ReplaceArithmeticOperator - -> *
+58	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.timeDifference(Ljava/util/Date;Ljava/util/Date;)J:294 - ReplaceArithmeticOperator - -> /
+59	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:307 - ReplaceComparisonOperator != null -> = null
+60	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:309 - ReplaceConstant - 11 -> 0
+61	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:309 - ReplaceConstant - 11 -> 1
+62	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:309 - ReplaceConstant - 11 -> -1
+63	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:309 - ReplaceConstant - 11 -> 10
+64	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:309 - ReplaceConstant - 11 -> 12
+65	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:309 - ReplaceConstant - 0 -> 1
+66	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:310 - ReplaceConstant - 12 -> 0
+67	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:310 - ReplaceConstant - 12 -> 1
+68	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:310 - ReplaceConstant - 12 -> -1
+69	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:310 - ReplaceConstant - 12 -> 11
+70	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:310 - ReplaceConstant - 12 -> 13
+71	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:310 - ReplaceConstant - 0 -> 1
+72	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:311 - ReplaceConstant - 13 -> 0
+73	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:311 - ReplaceConstant - 13 -> 1
+74	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:311 - ReplaceConstant - 13 -> -1
+75	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:311 - ReplaceConstant - 13 -> 12
+76	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:311 - ReplaceConstant - 13 -> 14
+77	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:311 - ReplaceConstant - 0 -> 1
+78	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:312 - ReplaceConstant - 14 -> 0
+79	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:312 - ReplaceConstant - 14 -> 1
+80	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:312 - ReplaceConstant - 14 -> -1
+81	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:312 - ReplaceConstant - 14 -> 13
+82	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:312 - ReplaceConstant - 14 -> 15
+83	ReplaceConstant	org.assertj.core.util.DateUtil.truncateTime(Ljava/util/Date;)Ljava/util/Date;:312 - ReplaceConstant - 0 -> 1
+84	ReplaceConstant	org.assertj.core.util.DateUtil.yesterday()Ljava/util/Date;:322 - ReplaceConstant - 5 -> 0
+85	ReplaceConstant	org.assertj.core.util.DateUtil.yesterday()Ljava/util/Date;:322 - ReplaceConstant - 5 -> 1
+86	ReplaceConstant	org.assertj.core.util.DateUtil.yesterday()Ljava/util/Date;:322 - ReplaceConstant - 5 -> -1
+87	ReplaceConstant	org.assertj.core.util.DateUtil.yesterday()Ljava/util/Date;:322 - ReplaceConstant - 5 -> 4
+88	ReplaceConstant	org.assertj.core.util.DateUtil.yesterday()Ljava/util/Date;:322 - ReplaceConstant - 5 -> 6
+89	ReplaceConstant	org.assertj.core.util.DateUtil.yesterday()Ljava/util/Date;:322 - ReplaceConstant - -1 -> 0
+90	ReplaceConstant	org.assertj.core.util.DateUtil.yesterday()Ljava/util/Date;:322 - ReplaceConstant - -1 -> 1
+91	ReplaceConstant	org.assertj.core.util.DateUtil.yesterday()Ljava/util/Date;:322 - ReplaceConstant - -1 -> -2
+92	ReplaceConstant	org.assertj.core.util.DateUtil.tomorrow()Ljava/util/Date;:328 - ReplaceConstant - 5 -> 0
+93	ReplaceConstant	org.assertj.core.util.DateUtil.tomorrow()Ljava/util/Date;:328 - ReplaceConstant - 5 -> 1
+94	ReplaceConstant	org.assertj.core.util.DateUtil.tomorrow()Ljava/util/Date;:328 - ReplaceConstant - 5 -> -1
+95	ReplaceConstant	org.assertj.core.util.DateUtil.tomorrow()Ljava/util/Date;:328 - ReplaceConstant - 5 -> 4
+96	ReplaceConstant	org.assertj.core.util.DateUtil.tomorrow()Ljava/util/Date;:328 - ReplaceConstant - 5 -> 6
+97	ReplaceConstant	org.assertj.core.util.DateUtil.tomorrow()Ljava/util/Date;:328 - ReplaceConstant - 1 -> 0
+98	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:343 - InsertUnaryOp Negation of millisecondsDiff
+99	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:343 - ReplaceConstant - 1 -> 0
+100	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:343 - ReplaceConstant - 1 -> -1
+101	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:343 - ReplaceConstant - 1 -> 2
+102	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:343 - ReplaceArithmeticOperator / -> +
+103	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:343 - ReplaceArithmeticOperator / -> %
+104	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:343 - ReplaceArithmeticOperator / -> -
+105	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:343 - ReplaceArithmeticOperator / -> *
+106	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:344 - InsertUnaryOp Negation of millisecondsDiff
+107	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:344 - ReplaceConstant - 1 -> 0
+108	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:344 - ReplaceConstant - 1 -> -1
+109	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:344 - ReplaceConstant - 1 -> 2
+110	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:344 - ReplaceArithmeticOperator / -> +
+111	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:344 - ReplaceArithmeticOperator / -> %
+112	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:344 - ReplaceArithmeticOperator / -> -
+113	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:344 - ReplaceArithmeticOperator / -> *
+114	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:345 - InsertUnaryOp Negation of millisecondsDiff
+115	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:345 - ReplaceConstant - 1 -> 0
+116	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:345 - ReplaceConstant - 1 -> -1
+117	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:345 - ReplaceConstant - 1 -> 2
+118	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:345 - ReplaceArithmeticOperator / -> +
+119	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:345 - ReplaceArithmeticOperator / -> %
+120	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:345 - ReplaceArithmeticOperator / -> -
+121	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:345 - ReplaceArithmeticOperator / -> *
+122	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:346 - InsertUnaryOp Negation of millisecondsDiff
+123	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:346 - ReplaceConstant - 1 -> 0
+124	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:346 - ReplaceConstant - 1 -> -1
+125	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:346 - ReplaceConstant - 1 -> 2
+126	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:346 - ReplaceArithmeticOperator / -> +
+127	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:346 - ReplaceArithmeticOperator / -> %
+128	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:346 - ReplaceArithmeticOperator / -> -
+129	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:346 - ReplaceArithmeticOperator / -> *
+130	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:349 - InsertUnaryOp Negation of hoursDiff
+131	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:349 - InsertUnaryOp Negation of daysDiff
+132	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:349 - ReplaceArithmeticOperator - -> +
+133	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:349 - ReplaceArithmeticOperator - -> %
+134	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:349 - ReplaceArithmeticOperator - -> *
+135	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:349 - ReplaceArithmeticOperator - -> /
+136	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:350 - InsertUnaryOp Negation of minutesDiff
+137	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:350 - InsertUnaryOp Negation of hoursDiff
+138	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:350 - ReplaceArithmeticOperator - -> +
+139	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:350 - ReplaceArithmeticOperator - -> %
+140	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:350 - ReplaceArithmeticOperator - -> *
+141	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:350 - ReplaceArithmeticOperator - -> /
+142	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:351 - InsertUnaryOp Negation of secondsDiff
+143	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:351 - InsertUnaryOp Negation of minutesDiff
+144	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:351 - ReplaceArithmeticOperator - -> +
+145	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:351 - ReplaceArithmeticOperator - -> %
+146	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:351 - ReplaceArithmeticOperator - -> *
+147	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:351 - ReplaceArithmeticOperator - -> /
+148	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:352 - InsertUnaryOp Negation of millisecondsDiff
+149	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:352 - ReplaceConstant - 1 -> 0
+150	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:352 - ReplaceConstant - 1 -> -1
+151	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:352 - ReplaceConstant - 1 -> 2
+152	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:352 - ReplaceArithmeticOperator % -> +
+153	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:352 - ReplaceArithmeticOperator % -> -
+154	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:352 - ReplaceArithmeticOperator % -> *
+155	ReplaceArithmeticOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:352 - ReplaceArithmeticOperator % -> /
+156	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:356 - InsertUnaryOp Negation of daysDiff
+157	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:356 - ReplaceConstant - 0 -> 1
+158	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:356 - ReplaceConstant - 0 -> -1
+159	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:356 - ReplaceComparisonOperator <= -> -1
+160	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:356 - ReplaceComparisonOperator <= -> ==
+161	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:356 - ReplaceComparisonOperator <= -> <
+162	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:356 - ReplaceConstant - %dd -> 
+163	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:356 - ReplaceConstant - 1 -> 0
+164	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:356 - ReplaceConstant - 0 -> 1
+165	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:356 - InsertUnaryOp Negation of daysDiff
+166	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:358 - InsertUnaryOp Negation of hourFieldDiff
+167	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:358 - ReplaceConstant - 0 -> 1
+168	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:358 - ReplaceConstant - 0 -> -1
+169	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:358 - ReplaceComparisonOperator <= -> -1
+170	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:358 - ReplaceComparisonOperator <= -> ==
+171	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:358 - ReplaceComparisonOperator <= -> <
+172	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - InsertUnaryOp Negation of daysDiff
+173	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceConstant - 0 -> 1
+174	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceConstant - 0 -> -1
+175	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceComparisonOperator <= -> -1
+176	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceComparisonOperator <= -> ==
+177	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceComparisonOperator <= -> <
+178	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - InsertUnaryOp Negation of minuteFieldDiff
+179	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceConstant - 0 -> 1
+180	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceConstant - 0 -> -1
+181	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceComparisonOperator != -> -1
+182	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceComparisonOperator != -> <
+183	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceComparisonOperator != -> >
+184	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - InsertUnaryOp Negation of secondFieldDiff
+185	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceConstant - 0 -> 1
+186	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceConstant - 0 -> -1
+187	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceComparisonOperator != -> -1
+188	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceComparisonOperator != -> <
+189	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceComparisonOperator != -> >
+190	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - InsertUnaryOp Negation of millisecondsFieldDiff
+191	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceConstant - 0 -> 1
+192	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceConstant - 0 -> -1
+193	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceComparisonOperator != -> -1
+194	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceComparisonOperator != -> <
+195	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:359 - ReplaceComparisonOperator != -> >
+196	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:361 - ReplaceConstant -  and  -> 
+197	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:362 - InsertUnaryOp Negation of daysDiff
+198	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:362 - ReplaceConstant - 0 -> 1
+199	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:362 - ReplaceConstant - 0 -> -1
+200	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:362 - ReplaceComparisonOperator <= -> -1
+201	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:362 - ReplaceComparisonOperator <= -> ==
+202	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:362 - ReplaceComparisonOperator <= -> <
+203	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:363 - ReplaceConstant -   -> 
+204	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:365 - ReplaceConstant - %dh -> 
+205	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:365 - ReplaceConstant - 1 -> 0
+206	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:365 - ReplaceConstant - 0 -> 1
+207	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:365 - InsertUnaryOp Negation of hourFieldDiff
+208	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:368 - InsertUnaryOp Negation of minuteFieldDiff
+209	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:368 - ReplaceConstant - 0 -> 1
+210	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:368 - ReplaceConstant - 0 -> -1
+211	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:368 - ReplaceComparisonOperator <= -> -1
+212	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:368 - ReplaceComparisonOperator <= -> ==
+213	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:368 - ReplaceComparisonOperator <= -> <
+214	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:369 - InsertUnaryOp Negation of daysDiff
+215	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:369 - ReplaceConstant - 0 -> 1
+216	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:369 - ReplaceConstant - 0 -> -1
+217	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:369 - ReplaceComparisonOperator > -> -2
+218	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:369 - ReplaceComparisonOperator > -> !=
+219	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:369 - ReplaceComparisonOperator > -> >=
+220	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:369 - InsertUnaryOp Negation of hourFieldDiff
+221	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:369 - ReplaceConstant - 0 -> 1
+222	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:369 - ReplaceConstant - 0 -> -1
+223	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:369 - ReplaceComparisonOperator <= -> -1
+224	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:369 - ReplaceComparisonOperator <= -> ==
+225	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:369 - ReplaceComparisonOperator <= -> <
+226	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:369 - ReplaceConstant - 1 -> 0
+227	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:369 - ReplaceConstant - 0 -> 1
+228	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - InsertUnaryOp Negation of notFirstDiff
+229	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - InsertUnaryOp IINC 1 notFirstDiff
+230	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - InsertUnaryOp IINC -1 notFirstDiff
+231	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - ReplaceComparisonOperator == -> -2
+232	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - ReplaceComparisonOperator == -> >=
+233	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - ReplaceComparisonOperator == -> <=
+234	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - InsertUnaryOp Negation of secondFieldDiff
+235	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - ReplaceConstant - 0 -> 1
+236	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - ReplaceConstant - 0 -> -1
+237	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - ReplaceComparisonOperator != -> -1
+238	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - ReplaceComparisonOperator != -> <
+239	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - ReplaceComparisonOperator != -> >
+240	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - InsertUnaryOp Negation of millisecondsFieldDiff
+241	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - ReplaceConstant - 0 -> 1
+242	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - ReplaceConstant - 0 -> -1
+243	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - ReplaceComparisonOperator != -> -1
+244	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - ReplaceComparisonOperator != -> <
+245	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:370 - ReplaceComparisonOperator != -> >
+246	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:372 - ReplaceConstant -  and  -> 
+247	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:373 - InsertUnaryOp Negation of notFirstDiff
+248	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:373 - InsertUnaryOp IINC 1 notFirstDiff
+249	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:373 - InsertUnaryOp IINC -1 notFirstDiff
+250	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:373 - ReplaceComparisonOperator == -> -2
+251	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:373 - ReplaceComparisonOperator == -> >=
+252	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:373 - ReplaceComparisonOperator == -> <=
+253	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:374 - ReplaceConstant -   -> 
+254	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:376 - ReplaceConstant - %dm -> 
+255	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:376 - ReplaceConstant - 1 -> 0
+256	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:376 - ReplaceConstant - 0 -> 1
+257	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:376 - InsertUnaryOp Negation of minuteFieldDiff
+258	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:379 - InsertUnaryOp Negation of secondFieldDiff
+259	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:379 - ReplaceConstant - 0 -> 1
+260	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:379 - ReplaceConstant - 0 -> -1
+261	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:379 - ReplaceComparisonOperator <= -> -1
+262	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:379 - ReplaceComparisonOperator <= -> ==
+263	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:379 - ReplaceComparisonOperator <= -> <
+264	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - InsertUnaryOp Negation of daysDiff
+265	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - ReplaceConstant - 0 -> 1
+266	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - ReplaceConstant - 0 -> -1
+267	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - ReplaceComparisonOperator > -> -2
+268	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - ReplaceComparisonOperator > -> !=
+269	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - ReplaceComparisonOperator > -> >=
+270	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - InsertUnaryOp Negation of hourFieldDiff
+271	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - ReplaceConstant - 0 -> 1
+272	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - ReplaceConstant - 0 -> -1
+273	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - ReplaceComparisonOperator > -> -2
+274	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - ReplaceComparisonOperator > -> !=
+275	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - ReplaceComparisonOperator > -> >=
+276	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - InsertUnaryOp Negation of minuteFieldDiff
+277	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - ReplaceConstant - 0 -> 1
+278	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - ReplaceConstant - 0 -> -1
+279	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - ReplaceComparisonOperator <= -> -1
+280	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - ReplaceComparisonOperator <= -> ==
+281	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - ReplaceComparisonOperator <= -> <
+282	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - ReplaceConstant - 1 -> 0
+283	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:380 - ReplaceConstant - 0 -> 1
+284	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:381 - InsertUnaryOp Negation of notFirstDiff
+285	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:381 - InsertUnaryOp IINC 1 notFirstDiff
+286	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:381 - InsertUnaryOp IINC -1 notFirstDiff
+287	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:381 - ReplaceComparisonOperator == -> -2
+288	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:381 - ReplaceComparisonOperator == -> >=
+289	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:381 - ReplaceComparisonOperator == -> <=
+290	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:381 - InsertUnaryOp Negation of millisecondsFieldDiff
+291	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:381 - ReplaceConstant - 0 -> 1
+292	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:381 - ReplaceConstant - 0 -> -1
+293	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:381 - ReplaceComparisonOperator != -> -1
+294	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:381 - ReplaceComparisonOperator != -> <
+295	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:381 - ReplaceComparisonOperator != -> >
+296	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:383 - ReplaceConstant -  and  -> 
+297	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:384 - InsertUnaryOp Negation of notFirstDiff
+298	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:384 - InsertUnaryOp IINC 1 notFirstDiff
+299	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:384 - InsertUnaryOp IINC -1 notFirstDiff
+300	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:384 - ReplaceComparisonOperator == -> -2
+301	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:384 - ReplaceComparisonOperator == -> >=
+302	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:384 - ReplaceComparisonOperator == -> <=
+303	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:385 - ReplaceConstant -   -> 
+304	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:387 - ReplaceConstant - %ds -> 
+305	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:387 - ReplaceConstant - 1 -> 0
+306	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:387 - ReplaceConstant - 0 -> 1
+307	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:387 - InsertUnaryOp Negation of secondFieldDiff
+308	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:390 - InsertUnaryOp Negation of millisecondsFieldDiff
+309	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:390 - ReplaceConstant - 0 -> 1
+310	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:390 - ReplaceConstant - 0 -> -1
+311	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:390 - ReplaceComparisonOperator <= -> -1
+312	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:390 - ReplaceComparisonOperator <= -> ==
+313	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:390 - ReplaceComparisonOperator <= -> <
+314	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:391 - ReplaceComparisonOperator <= -> -1
+315	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:391 - ReplaceComparisonOperator <= -> ==
+316	ReplaceComparisonOperator	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:391 - ReplaceComparisonOperator <= -> <
+317	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:391 - ReplaceConstant -  and  -> 
+318	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:392 - ReplaceConstant - %dms -> 
+319	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:392 - ReplaceConstant - 1 -> 0
+320	ReplaceConstant	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:392 - ReplaceConstant - 0 -> 1
+321	InsertUnaryOp	org.assertj.core.util.DateUtil.formatTimeDifference(Ljava/util/Date;Ljava/util/Date;)Ljava/lang/String;:392 - InsertUnaryOp Negation of millisecondsFieldDiff

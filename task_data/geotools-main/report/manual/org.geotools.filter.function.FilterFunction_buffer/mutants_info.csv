@@ -1,0 +1,12 @@
+0	ReplaceConstant	org.geotools.filter.function.FilterFunction_buffer.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:55 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.geotools.filter.function.FilterFunction_buffer.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:58 - ReplaceConstant - Filter Function problem for function buffer argument #0 - expected type Geometry -> 
+2	ReplaceConstant	org.geotools.filter.function.FilterFunction_buffer.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:63 - ReplaceConstant - 1 -> 0
+3	ReplaceConstant	org.geotools.filter.function.FilterFunction_buffer.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:66 - ReplaceConstant - Filter Function problem for function buffer argument #1 - expected type double -> 
+4	InsertUnaryOp	org.geotools.filter.function.FilterFunction_buffer.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:70 - InsertUnaryOp Negation of arg1
+5	ReplaceConstant	org.geotools.filter.function.FilterFunction_buffer.invert(Lorg/geotools/geometry/jts/ReferencedEnvelope;)Lorg/geotools/geometry/jts/ReferencedEnvelope;:79 - ReplaceConstant - 1 -> 0
+6	ReplaceComparisonOperator	org.geotools.filter.function.FilterFunction_buffer.invert(Lorg/geotools/geometry/jts/ReferencedEnvelope;)Lorg/geotools/geometry/jts/ReferencedEnvelope;:80 - ReplaceComparisonOperator = null -> != null
+7	ReplaceConstant	org.geotools.filter.function.FilterFunction_buffer.invert(Lorg/geotools/geometry/jts/ReferencedEnvelope;)Lorg/geotools/geometry/jts/ReferencedEnvelope;:80 - ReplaceConstant - 0.0 -> 1.0
+8	ReplaceConstant	org.geotools.filter.function.FilterFunction_buffer.invert(Lorg/geotools/geometry/jts/ReferencedEnvelope;)Lorg/geotools/geometry/jts/ReferencedEnvelope;:80 - ReplaceConstant - 0.0 -> -1.0
+9	ReplaceComparisonOperator	org.geotools.filter.function.FilterFunction_buffer.invert(Lorg/geotools/geometry/jts/ReferencedEnvelope;)Lorg/geotools/geometry/jts/ReferencedEnvelope;:80 - ReplaceComparisonOperator > -> -2
+10	ReplaceComparisonOperator	org.geotools.filter.function.FilterFunction_buffer.invert(Lorg/geotools/geometry/jts/ReferencedEnvelope;)Lorg/geotools/geometry/jts/ReferencedEnvelope;:80 - ReplaceComparisonOperator > -> !=
+11	ReplaceComparisonOperator	org.geotools.filter.function.FilterFunction_buffer.invert(Lorg/geotools/geometry/jts/ReferencedEnvelope;)Lorg/geotools/geometry/jts/ReferencedEnvelope;:80 - ReplaceComparisonOperator > -> >=

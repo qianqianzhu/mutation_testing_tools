@@ -1,0 +1,68 @@
+0	InsertUnaryOp	com.graphhopper.storage.NativeFSLockFactory$NativeLock.<init>(Ljava/io/File;Ljava/lang/String;Z)V:98 - InsertUnaryOp Negation of writeLock
+1	InsertUnaryOp	com.graphhopper.storage.NativeFSLockFactory$NativeLock.<init>(Ljava/io/File;Ljava/lang/String;Z)V:98 - InsertUnaryOp IINC 1 writeLock
+2	InsertUnaryOp	com.graphhopper.storage.NativeFSLockFactory$NativeLock.<init>(Ljava/io/File;Ljava/lang/String;Z)V:98 - InsertUnaryOp IINC -1 writeLock
+3	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:104 - ReplaceComparisonOperator == -> -2
+4	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:104 - ReplaceComparisonOperator == -> >=
+5	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:104 - ReplaceComparisonOperator == -> <=
+6	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:105 - ReplaceConstant - 0 -> 1
+7	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:108 - ReplaceComparisonOperator != -> -1
+8	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:108 - ReplaceComparisonOperator != -> <
+9	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:108 - ReplaceComparisonOperator != -> >
+10	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:109 - ReplaceComparisonOperator != -> -1
+11	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:109 - ReplaceComparisonOperator != -> <
+12	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:109 - ReplaceComparisonOperator != -> >
+13	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:110 - ReplaceConstant - Directory  -> 
+14	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:110 - ReplaceConstant -  does not exist and cannot created to place lock file there:  -> 
+15	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:113 - ReplaceComparisonOperator != -> -1
+16	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:113 - ReplaceComparisonOperator != -> <
+17	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:113 - ReplaceComparisonOperator != -> >
+18	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:114 - ReplaceConstant - lockDir has to be a directory:  -> 
+19	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:119 - ReplaceConstant - rw -> 
+20	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:122 - ReplaceConstant - 0 -> 1
+21	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:128 - ReplaceConstant - 0 -> 1
+22	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:128 - ReplaceConstant - 0 -> -1
+23	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:128 - ReplaceConstant - 9223372036854775807 -> 0
+24	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:128 - ReplaceConstant - 9223372036854775807 -> 1
+25	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:128 - ReplaceConstant - 9223372036854775807 -> -1
+26	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:128 - ReplaceConstant - 9223372036854775807 -> 9223372036854775806
+27	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:128 - ReplaceConstant - 9223372036854775807 -> -9223372036854775808
+28	InsertUnaryOp	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:128 - InsertUnaryOp Negation
+29	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:128 - ReplaceComparisonOperator != -> -1
+30	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:128 - ReplaceComparisonOperator != -> <
+31	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:128 - ReplaceComparisonOperator != -> >
+32	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:128 - ReplaceConstant - 1 -> 0
+33	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:128 - ReplaceConstant - 0 -> 1
+34	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:133 - ReplaceComparisonOperator != null -> = null
+35	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:133 - ReplaceComparisonOperator != null -> = null
+36	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:133 - ReplaceComparisonOperator != null -> = null
+37	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:139 - ReplaceComparisonOperator != null -> = null
+38	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.tryLock()Z:139 - ReplaceComparisonOperator != null -> = null
+39	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.lockExists()Z:148 - ReplaceComparisonOperator = null -> != null
+40	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.lockExists()Z:148 - ReplaceConstant - 1 -> 0
+41	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.lockExists()Z:148 - ReplaceConstant - 0 -> 1
+42	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:153 - ReplaceComparisonOperator != -> -1
+43	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:153 - ReplaceComparisonOperator != -> <
+44	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:153 - ReplaceComparisonOperator != -> >
+45	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:154 - ReplaceConstant - 0 -> 1
+46	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:156 - ReplaceComparisonOperator == -> -2
+47	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:156 - ReplaceComparisonOperator == -> >=
+48	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:156 - ReplaceComparisonOperator == -> <=
+49	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:157 - ReplaceConstant - 1 -> 0
+50	InsertUnaryOp	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:161 - InsertUnaryOp Negation of obtained
+51	InsertUnaryOp	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:161 - InsertUnaryOp IINC 1 obtained
+52	InsertUnaryOp	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:161 - InsertUnaryOp IINC -1 obtained
+53	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:161 - ReplaceComparisonOperator == -> -2
+54	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:161 - ReplaceComparisonOperator == -> >=
+55	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:161 - ReplaceComparisonOperator == -> <=
+56	InsertUnaryOp	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:163 - InsertUnaryOp Negation of obtained
+57	InsertUnaryOp	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:163 - InsertUnaryOp IINC 1 obtained
+58	InsertUnaryOp	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:163 - InsertUnaryOp IINC -1 obtained
+59	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:163 - ReplaceComparisonOperator != -> -1
+60	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:163 - ReplaceComparisonOperator != -> <
+61	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:163 - ReplaceComparisonOperator != -> >
+62	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:163 - ReplaceConstant - 1 -> 0
+63	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:163 - ReplaceConstant - 0 -> 1
+64	ReplaceConstant	com.graphhopper.storage.NativeFSLockFactory$NativeLock.isLocked()Z:165 - ReplaceConstant - 0 -> 1
+65	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.release()V:171 - ReplaceComparisonOperator == -> -2
+66	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.release()V:171 - ReplaceComparisonOperator == -> >=
+67	ReplaceComparisonOperator	com.graphhopper.storage.NativeFSLockFactory$NativeLock.release()V:171 - ReplaceComparisonOperator == -> <=

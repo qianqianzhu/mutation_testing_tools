@@ -1,0 +1,25 @@
+0	ReplaceConstant	org.dynjs.parser.ast.AssignmentExpression.<init>(Lorg/dynjs/parser/ast/Expression;Lorg/dynjs/parser/ast/Expression;)V:31 - ReplaceConstant - = -> 
+1	InsertUnaryOp	org.dynjs.parser.ast.AssignmentExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:36 - InsertUnaryOp Negation of strict
+2	InsertUnaryOp	org.dynjs.parser.ast.AssignmentExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:36 - InsertUnaryOp IINC 1 strict
+3	InsertUnaryOp	org.dynjs.parser.ast.AssignmentExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:36 - InsertUnaryOp IINC -1 strict
+4	ReplaceConstant	org.dynjs.parser.ast.AssignmentExpression.toString()Ljava/lang/String;:40 - ReplaceConstant -  =  -> 
+5	ReplaceComparisonOperator	org.dynjs.parser.ast.AssignmentExpression.getFunctionDeclarations()Ljava/util/List;:45 - ReplaceComparisonOperator == -> -2
+6	ReplaceComparisonOperator	org.dynjs.parser.ast.AssignmentExpression.getFunctionDeclarations()Ljava/util/List;:45 - ReplaceComparisonOperator == -> >=
+7	ReplaceComparisonOperator	org.dynjs.parser.ast.AssignmentExpression.getFunctionDeclarations()Ljava/util/List;:45 - ReplaceComparisonOperator == -> <=
+8	InsertUnaryOp	org.dynjs.parser.ast.AssignmentExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:54 - InsertUnaryOp Negation of debug
+9	InsertUnaryOp	org.dynjs.parser.ast.AssignmentExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:54 - InsertUnaryOp IINC 1 debug
+10	InsertUnaryOp	org.dynjs.parser.ast.AssignmentExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:54 - InsertUnaryOp IINC -1 debug
+11	ReplaceComparisonOperator	org.dynjs.parser.ast.AssignmentExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:55 - ReplaceComparisonOperator != -> -1
+12	ReplaceComparisonOperator	org.dynjs.parser.ast.AssignmentExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:55 - ReplaceComparisonOperator != -> <
+13	ReplaceComparisonOperator	org.dynjs.parser.ast.AssignmentExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:55 - ReplaceComparisonOperator != -> >
+14	ReplaceConstant	org.dynjs.parser.ast.AssignmentExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:56 - ReplaceConstant -  is not a reference -> 
+15	InsertUnaryOp	org.dynjs.parser.ast.AssignmentExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:60 - InsertUnaryOp Negation of debug
+16	InsertUnaryOp	org.dynjs.parser.ast.AssignmentExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:60 - InsertUnaryOp IINC 1 debug
+17	InsertUnaryOp	org.dynjs.parser.ast.AssignmentExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:60 - InsertUnaryOp IINC -1 debug
+18	ReplaceComparisonOperator	org.dynjs.parser.ast.AssignmentExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:62 - ReplaceComparisonOperator == -> -2
+19	ReplaceComparisonOperator	org.dynjs.parser.ast.AssignmentExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:62 - ReplaceComparisonOperator == -> >=
+20	ReplaceComparisonOperator	org.dynjs.parser.ast.AssignmentExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:62 - ReplaceComparisonOperator == -> <=
+21	ReplaceComparisonOperator	org.dynjs.parser.ast.AssignmentExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:62 - ReplaceComparisonOperator == -> -2
+22	ReplaceComparisonOperator	org.dynjs.parser.ast.AssignmentExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:62 - ReplaceComparisonOperator == -> >=
+23	ReplaceComparisonOperator	org.dynjs.parser.ast.AssignmentExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:62 - ReplaceComparisonOperator == -> <=
+24	ReplaceConstant	org.dynjs.parser.ast.AssignmentExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:63 - ReplaceConstant -  is not defined -> 

@@ -1,0 +1,110 @@
+0	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.<init>(Ljava/lang/Comparable;)V:104 - ReplaceConstant - 1.5 -> 0.0
+1	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.<init>(Ljava/lang/Comparable;)V:104 - ReplaceConstant - 1.5 -> 1.0
+2	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.<init>(Ljava/lang/Comparable;)V:104 - ReplaceConstant - 1.5 -> -1.0
+3	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.<init>(Ljava/lang/Comparable;)V:104 - ReplaceConstant - 1.5 -> 0.5
+4	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.<init>(Ljava/lang/Comparable;)V:104 - ReplaceConstant - 1.5 -> 2.5
+5	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.<init>(Ljava/lang/Comparable;)V:112 - ReplaceConstant - 2.0 -> 0.0
+6	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.<init>(Ljava/lang/Comparable;)V:112 - ReplaceConstant - 2.0 -> 1.0
+7	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.<init>(Ljava/lang/Comparable;)V:112 - ReplaceConstant - 2.0 -> -1.0
+8	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.<init>(Ljava/lang/Comparable;)V:112 - ReplaceConstant - 2.0 -> 3.0
+9	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getOutlierCoefficient()D:145 - InsertUnaryOp Negation
+10	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.setOutlierCoefficient(D)V:157 - InsertUnaryOp Negation of outlierCoefficient
+11	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getFaroutCoefficient()D:171 - InsertUnaryOp Negation
+12	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.setFaroutCoefficient(D)V:185 - InsertUnaryOp Negation of faroutCoefficient
+13	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.setFaroutCoefficient(D)V:185 - ReplaceComparisonOperator <= -> -1
+14	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.setFaroutCoefficient(D)V:185 - ReplaceComparisonOperator <= -> ==
+15	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.setFaroutCoefficient(D)V:185 - ReplaceComparisonOperator <= -> <
+16	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.setFaroutCoefficient(D)V:186 - InsertUnaryOp Negation of faroutCoefficient
+17	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.setFaroutCoefficient(D)V:189 - ReplaceConstant - Farout value must be greater than the outlier value, which is currently set at: ( -> 
+18	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.setFaroutCoefficient(D)V:191 - ReplaceConstant - ) -> 
+19	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getSeriesCount()I:204 - ReplaceConstant - 1 -> 0
+20	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.add(Ljava/util/Date;Lorg/jfree/data/statistics/BoxAndWhiskerItem;)V:229 - ReplaceComparisonOperator != null -> = null
+21	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.add(Ljava/util/Date;Lorg/jfree/data/statistics/BoxAndWhiskerItem;)V:234 - ReplaceComparisonOperator >= -> -1
+22	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.add(Ljava/util/Date;Lorg/jfree/data/statistics/BoxAndWhiskerItem;)V:234 - ReplaceComparisonOperator >= -> ==
+23	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.add(Ljava/util/Date;Lorg/jfree/data/statistics/BoxAndWhiskerItem;)V:234 - ReplaceComparisonOperator >= -> >
+24	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.add(Ljava/util/Date;Lorg/jfree/data/statistics/BoxAndWhiskerItem;)V:238 - ReplaceComparisonOperator != null -> = null
+25	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.add(Ljava/util/Date;Lorg/jfree/data/statistics/BoxAndWhiskerItem;)V:243 - ReplaceComparisonOperator <= -> -1
+26	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.add(Ljava/util/Date;Lorg/jfree/data/statistics/BoxAndWhiskerItem;)V:243 - ReplaceComparisonOperator <= -> ==
+27	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.add(Ljava/util/Date;Lorg/jfree/data/statistics/BoxAndWhiskerItem;)V:243 - ReplaceComparisonOperator <= -> <
+28	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getItem(II)Lorg/jfree/data/statistics/BoxAndWhiskerItem;:274 - InsertUnaryOp Negation of item
+29	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getItem(II)Lorg/jfree/data/statistics/BoxAndWhiskerItem;:274 - InsertUnaryOp IINC 1 item
+30	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getItem(II)Lorg/jfree/data/statistics/BoxAndWhiskerItem;:274 - InsertUnaryOp IINC -1 item
+31	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getX(II)Ljava/lang/Number;:290 - InsertUnaryOp Negation of item
+32	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getX(II)Ljava/lang/Number;:290 - InsertUnaryOp IINC 1 item
+33	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getX(II)Ljava/lang/Number;:290 - InsertUnaryOp IINC -1 item
+34	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getXDate(II)Ljava/util/Date;:304 - InsertUnaryOp Negation of item
+35	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getXDate(II)Ljava/util/Date;:304 - InsertUnaryOp IINC 1 item
+36	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getXDate(II)Ljava/util/Date;:304 - InsertUnaryOp IINC -1 item
+37	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getY(II)Ljava/lang/Number;:320 - InsertUnaryOp Negation of series
+38	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getY(II)Ljava/lang/Number;:320 - InsertUnaryOp IINC 1 series
+39	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getY(II)Ljava/lang/Number;:320 - InsertUnaryOp IINC -1 series
+40	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getY(II)Ljava/lang/Number;:320 - InsertUnaryOp Negation of item
+41	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getY(II)Ljava/lang/Number;:320 - InsertUnaryOp IINC 1 item
+42	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getY(II)Ljava/lang/Number;:320 - InsertUnaryOp IINC -1 item
+43	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMeanValue(II)Ljava/lang/Number;:334 - InsertUnaryOp Negation of item
+44	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMeanValue(II)Ljava/lang/Number;:334 - InsertUnaryOp IINC 1 item
+45	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMeanValue(II)Ljava/lang/Number;:334 - InsertUnaryOp IINC -1 item
+46	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMeanValue(II)Ljava/lang/Number;:335 - ReplaceComparisonOperator = null -> != null
+47	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMedianValue(II)Ljava/lang/Number;:352 - InsertUnaryOp Negation of item
+48	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMedianValue(II)Ljava/lang/Number;:352 - InsertUnaryOp IINC 1 item
+49	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMedianValue(II)Ljava/lang/Number;:352 - InsertUnaryOp IINC -1 item
+50	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMedianValue(II)Ljava/lang/Number;:353 - ReplaceComparisonOperator = null -> != null
+51	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getQ1Value(II)Ljava/lang/Number;:370 - InsertUnaryOp Negation of item
+52	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getQ1Value(II)Ljava/lang/Number;:370 - InsertUnaryOp IINC 1 item
+53	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getQ1Value(II)Ljava/lang/Number;:370 - InsertUnaryOp IINC -1 item
+54	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getQ1Value(II)Ljava/lang/Number;:371 - ReplaceComparisonOperator = null -> != null
+55	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getQ3Value(II)Ljava/lang/Number;:388 - InsertUnaryOp Negation of item
+56	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getQ3Value(II)Ljava/lang/Number;:388 - InsertUnaryOp IINC 1 item
+57	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getQ3Value(II)Ljava/lang/Number;:388 - InsertUnaryOp IINC -1 item
+58	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getQ3Value(II)Ljava/lang/Number;:389 - ReplaceComparisonOperator = null -> != null
+59	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMinRegularValue(II)Ljava/lang/Number;:406 - InsertUnaryOp Negation of item
+60	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMinRegularValue(II)Ljava/lang/Number;:406 - InsertUnaryOp IINC 1 item
+61	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMinRegularValue(II)Ljava/lang/Number;:406 - InsertUnaryOp IINC -1 item
+62	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMinRegularValue(II)Ljava/lang/Number;:407 - ReplaceComparisonOperator = null -> != null
+63	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMaxRegularValue(II)Ljava/lang/Number;:424 - InsertUnaryOp Negation of item
+64	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMaxRegularValue(II)Ljava/lang/Number;:424 - InsertUnaryOp IINC 1 item
+65	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMaxRegularValue(II)Ljava/lang/Number;:424 - InsertUnaryOp IINC -1 item
+66	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMaxRegularValue(II)Ljava/lang/Number;:425 - ReplaceComparisonOperator = null -> != null
+67	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMinOutlier(II)Ljava/lang/Number;:441 - InsertUnaryOp Negation of item
+68	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMinOutlier(II)Ljava/lang/Number;:441 - InsertUnaryOp IINC 1 item
+69	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMinOutlier(II)Ljava/lang/Number;:441 - InsertUnaryOp IINC -1 item
+70	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMinOutlier(II)Ljava/lang/Number;:442 - ReplaceComparisonOperator = null -> != null
+71	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMaxOutlier(II)Ljava/lang/Number;:460 - InsertUnaryOp Negation of item
+72	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMaxOutlier(II)Ljava/lang/Number;:460 - InsertUnaryOp IINC 1 item
+73	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMaxOutlier(II)Ljava/lang/Number;:460 - InsertUnaryOp IINC -1 item
+74	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getMaxOutlier(II)Ljava/lang/Number;:461 - ReplaceComparisonOperator = null -> != null
+75	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getOutliers(II)Ljava/util/List;:479 - InsertUnaryOp Negation of item
+76	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getOutliers(II)Ljava/util/List;:479 - InsertUnaryOp IINC 1 item
+77	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getOutliers(II)Ljava/util/List;:479 - InsertUnaryOp IINC -1 item
+78	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getOutliers(II)Ljava/util/List;:480 - ReplaceComparisonOperator = null -> != null
+79	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getRangeLowerBound(Z)D:496 - ReplaceConstant - NaN -> 0.0
+80	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getRangeLowerBound(Z)D:496 - ReplaceConstant - NaN -> 1.0
+81	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getRangeLowerBound(Z)D:496 - ReplaceConstant - NaN -> -1.0
+82	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getRangeLowerBound(Z)D:496 - ReplaceConstant - NaN -> NaN
+83	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getRangeLowerBound(Z)D:497 - ReplaceComparisonOperator = null -> != null
+84	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getRangeLowerBound(Z)D:500 - InsertUnaryOp Negation of result
+85	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getRangeUpperBound(Z)D:513 - ReplaceConstant - NaN -> 0.0
+86	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getRangeUpperBound(Z)D:513 - ReplaceConstant - NaN -> 1.0
+87	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getRangeUpperBound(Z)D:513 - ReplaceConstant - NaN -> -1.0
+88	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getRangeUpperBound(Z)D:513 - ReplaceConstant - NaN -> NaN
+89	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getRangeUpperBound(Z)D:514 - ReplaceComparisonOperator = null -> != null
+90	InsertUnaryOp	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.getRangeUpperBound(Z)D:517 - InsertUnaryOp Negation of result
+91	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:542 - ReplaceComparisonOperator != -> ==
+92	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:543 - ReplaceConstant - 1 -> 0
+93	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:545 - ReplaceComparisonOperator != -> -1
+94	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:545 - ReplaceComparisonOperator != -> <
+95	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:545 - ReplaceComparisonOperator != -> >
+96	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:546 - ReplaceConstant - 0 -> 1
+97	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:550 - ReplaceComparisonOperator != -> -1
+98	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:550 - ReplaceComparisonOperator != -> <
+99	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:550 - ReplaceComparisonOperator != -> >
+100	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:551 - ReplaceConstant - 0 -> 1
+101	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:553 - ReplaceComparisonOperator != -> -1
+102	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:553 - ReplaceComparisonOperator != -> <
+103	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:553 - ReplaceComparisonOperator != -> >
+104	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:554 - ReplaceConstant - 0 -> 1
+105	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:556 - ReplaceComparisonOperator != -> -1
+106	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:556 - ReplaceComparisonOperator != -> <
+107	ReplaceComparisonOperator	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:556 - ReplaceComparisonOperator != -> >
+108	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:557 - ReplaceConstant - 0 -> 1
+109	ReplaceConstant	org.jfree.data.statistics.DefaultBoxAndWhiskerXYDataset.equals(Ljava/lang/Object;)Z:559 - ReplaceConstant - 1 -> 0

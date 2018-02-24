@@ -1,0 +1,5 @@
+0	ReplaceComparisonOperator	org.geotools.util.DelegateProgressListener.<init>(Lorg/opengis/util/ProgressListener;)V:32 - ReplaceComparisonOperator != null -> = null
+1	InsertUnaryOp	org.geotools.util.DelegateProgressListener.progress(F)V:65 - InsertUnaryOp Negation of progress
+2	InsertUnaryOp	org.geotools.util.DelegateProgressListener.setCanceled(Z)V:73 - InsertUnaryOp Negation of cancel
+3	InsertUnaryOp	org.geotools.util.DelegateProgressListener.setCanceled(Z)V:73 - InsertUnaryOp IINC 1 cancel
+4	InsertUnaryOp	org.geotools.util.DelegateProgressListener.setCanceled(Z)V:73 - InsertUnaryOp IINC -1 cancel

@@ -1,0 +1,75 @@
+0	ReplaceConstant	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.<init>()V:94 - ReplaceConstant - 1 -> 0
+1	ReplaceConstant	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.<init>()V:99 - ReplaceConstant - 1 -> 0
+2	ReplaceConstant	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.<init>()V:102 - ReplaceConstant - SUPPRESS CHECKSTYLE (\w+) -> 
+3	ReplaceConstant	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.<init>()V:105 - ReplaceConstant - .* -> 
+4	ReplaceConstant	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.<init>()V:111 - ReplaceConstant - 0 -> 
+5	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.setCheckCPP(Z)V:176 - InsertUnaryOp Negation of checkCpp
+6	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.setCheckCPP(Z)V:176 - InsertUnaryOp IINC 1 checkCpp
+7	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.setCheckCPP(Z)V:176 - InsertUnaryOp IINC -1 checkCpp
+8	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.setCheckC(Z)V:184 - InsertUnaryOp Negation of checkC
+9	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.setCheckC(Z)V:184 - InsertUnaryOp IINC 1 checkC
+10	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.setCheckC(Z)V:184 - InsertUnaryOp IINC -1 checkC
+11	ReplaceConstant	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.accept(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:189 - ReplaceConstant - 1 -> 0
+12	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.accept(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:191 - ReplaceComparisonOperator = null -> != null
+13	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.accept(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:196 - ReplaceComparisonOperator == -> !=
+14	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.accept(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:200 - ReplaceComparisonOperator == -> -2
+15	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.accept(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:200 - ReplaceComparisonOperator == -> >=
+16	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.accept(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:200 - ReplaceComparisonOperator == -> <=
+17	ReplaceConstant	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.accept(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:201 - ReplaceConstant - 0 -> 1
+18	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.accept(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:204 - InsertUnaryOp Negation of accepted
+19	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.accept(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:204 - InsertUnaryOp IINC 1 accepted
+20	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.accept(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:204 - InsertUnaryOp IINC -1 accepted
+21	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.matchesTag(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:214 - ReplaceComparisonOperator == -> -2
+22	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.matchesTag(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:214 - ReplaceComparisonOperator == -> >=
+23	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.matchesTag(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:214 - ReplaceComparisonOperator == -> <=
+24	ReplaceConstant	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.matchesTag(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:215 - ReplaceConstant - 1 -> 0
+25	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.matchesTag(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:213 - ReplaceComparisonOperator != -> -1
+26	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.matchesTag(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:213 - ReplaceComparisonOperator != -> <
+27	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.matchesTag(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:213 - ReplaceComparisonOperator != -> >
+28	ReplaceConstant	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.matchesTag(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)Z:218 - ReplaceConstant - 0 -> 1
+29	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions()V:228 - InsertUnaryOp Negation
+30	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions()V:228 - ReplaceComparisonOperator == -> -2
+31	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions()V:228 - ReplaceComparisonOperator == -> >=
+32	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions()V:228 - ReplaceComparisonOperator == -> <=
+33	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions()V:231 - InsertUnaryOp Negation
+34	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions()V:231 - ReplaceComparisonOperator == -> -2
+35	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions()V:231 - ReplaceComparisonOperator == -> >=
+36	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions()V:231 - ReplaceComparisonOperator == -> <=
+37	ReplaceConstant	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:248 - ReplaceConstant - 0 -> 1
+38	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:248 - InsertUnaryOp Negation of startLineNo
+39	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:248 - InsertUnaryOp IINC 1 startLineNo
+40	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:248 - InsertUnaryOp IINC -1 startLineNo
+41	ReplaceConstant	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:249 - ReplaceConstant - 1 -> 0
+42	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:250 - InsertUnaryOp Negation of i
+43	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:250 - InsertUnaryOp IINC 1 i
+44	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:250 - InsertUnaryOp IINC -1 i
+45	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:250 - InsertUnaryOp Negation of startLineNo
+46	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:250 - InsertUnaryOp IINC 1 startLineNo
+47	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:250 - InsertUnaryOp IINC -1 startLineNo
+48	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:250 - InsertUnaryOp Negation of i
+49	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:250 - InsertUnaryOp IINC 1 i
+50	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:250 - InsertUnaryOp IINC -1 i
+51	ReplaceArithmeticOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:250 - ReplaceArithmeticOperator + -> %
+52	ReplaceArithmeticOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:250 - ReplaceArithmeticOperator + -> -
+53	ReplaceArithmeticOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:250 - ReplaceArithmeticOperator + -> *
+54	ReplaceArithmeticOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:250 - ReplaceArithmeticOperator + -> /
+55	ReplaceVariable	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:249 - ReplaceVariable i -> startLineNo
+56	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:249 - InsertUnaryOp Negation of i
+57	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:249 - InsertUnaryOp IINC 1 i
+58	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:249 - InsertUnaryOp IINC -1 i
+59	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:249 - ReplaceComparisonOperator < -> !=
+60	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:249 - ReplaceComparisonOperator < -> -2
+61	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:249 - ReplaceComparisonOperator < -> <=
+62	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:245 - ReplaceComparisonOperator != -> -1
+63	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:245 - ReplaceComparisonOperator != -> <
+64	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagSuppressions(Ljava/util/Collection;)V:245 - ReplaceComparisonOperator != -> >
+65	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagCommentLine(Ljava/lang/String;I)V:263 - ReplaceComparisonOperator == -> -2
+66	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagCommentLine(Ljava/lang/String;I)V:263 - ReplaceComparisonOperator == -> >=
+67	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagCommentLine(Ljava/lang/String;I)V:263 - ReplaceComparisonOperator == -> <=
+68	ReplaceConstant	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagCommentLine(Ljava/lang/String;I)V:264 - ReplaceConstant - 0 -> 1
+69	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagCommentLine(Ljava/lang/String;I)V:264 - InsertUnaryOp Negation of line
+70	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagCommentLine(Ljava/lang/String;I)V:264 - InsertUnaryOp IINC 1 line
+71	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.tagCommentLine(Ljava/lang/String;I)V:264 - InsertUnaryOp IINC -1 line
+72	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.addTag(Ljava/lang/String;I)V:274 - InsertUnaryOp Negation of line
+73	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.addTag(Ljava/lang/String;I)V:274 - InsertUnaryOp IINC 1 line
+74	InsertUnaryOp	com.puppycrawl.tools.checkstyle.filters.SuppressWithNearbyCommentFilter.addTag(Ljava/lang/String;I)V:274 - InsertUnaryOp IINC -1 line

@@ -1,0 +1,45 @@
+0	ReplaceConstant	org.apache.commons.lang3.SystemUtils.getJavaHome()Ljava/io/File;:1493 - ReplaceConstant - java.home -> 
+1	ReplaceConstant	org.apache.commons.lang3.SystemUtils.getJavaIoTmpDir()Ljava/io/File;:1508 - ReplaceConstant - java.io.tmpdir -> 
+2	ReplaceConstant	org.apache.commons.lang3.SystemUtils.getSystemProperty(Ljava/lang/String;)Ljava/lang/String;:1562 - ReplaceConstant - Caught a SecurityException reading the system property ' -> 
+3	ReplaceConstant	org.apache.commons.lang3.SystemUtils.getSystemProperty(Ljava/lang/String;)Ljava/lang/String;:1562 - ReplaceConstant - '; the SystemUtils property value will default to null. -> 
+4	ReplaceConstant	org.apache.commons.lang3.SystemUtils.getUserDir()Ljava/io/File;:1580 - ReplaceConstant - user.dir -> 
+5	ReplaceConstant	org.apache.commons.lang3.SystemUtils.getUserHome()Ljava/io/File;:1595 - ReplaceConstant - user.home -> 
+6	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isJavaVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1642 - ReplaceComparisonOperator != null -> = null
+7	ReplaceConstant	org.apache.commons.lang3.SystemUtils.isJavaVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1643 - ReplaceConstant - 0 -> 1
+8	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSMatch(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:1661 - ReplaceComparisonOperator = null -> != null
+9	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSMatch(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:1661 - ReplaceComparisonOperator != null -> = null
+10	ReplaceConstant	org.apache.commons.lang3.SystemUtils.isOSMatch(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:1662 - ReplaceConstant - 0 -> 1
+11	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSMatch(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:1664 - ReplaceComparisonOperator == -> -2
+12	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSMatch(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:1664 - ReplaceComparisonOperator == -> >=
+13	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSMatch(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:1664 - ReplaceComparisonOperator == -> <=
+14	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSMatch(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:1664 - ReplaceComparisonOperator == -> -2
+15	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSMatch(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:1664 - ReplaceComparisonOperator == -> >=
+16	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSMatch(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:1664 - ReplaceComparisonOperator == -> <=
+17	ReplaceConstant	org.apache.commons.lang3.SystemUtils.isOSMatch(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:1664 - ReplaceConstant - 1 -> 0
+18	ReplaceConstant	org.apache.commons.lang3.SystemUtils.isOSMatch(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:1664 - ReplaceConstant - 0 -> 1
+19	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSNameMatch(Ljava/lang/String;Ljava/lang/String;)Z:1678 - ReplaceComparisonOperator != null -> = null
+20	ReplaceConstant	org.apache.commons.lang3.SystemUtils.isOSNameMatch(Ljava/lang/String;Ljava/lang/String;)Z:1679 - ReplaceConstant - 0 -> 1
+21	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1695 - ReplaceComparisonOperator == -> -2
+22	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1695 - ReplaceComparisonOperator == -> >=
+23	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1695 - ReplaceComparisonOperator == -> <=
+24	ReplaceConstant	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1696 - ReplaceConstant - 0 -> 1
+25	ReplaceConstant	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1700 - ReplaceConstant - \. -> 
+26	ReplaceConstant	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1701 - ReplaceConstant - \. -> 
+27	ReplaceConstant	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1702 - ReplaceConstant - 0 -> 1
+28	InsertUnaryOp	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1702 - InsertUnaryOp Negation of i
+29	InsertUnaryOp	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1702 - InsertUnaryOp IINC 1 i
+30	InsertUnaryOp	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1702 - InsertUnaryOp IINC -1 i
+31	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1702 - ReplaceComparisonOperator >= -> -1
+32	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1702 - ReplaceComparisonOperator >= -> >
+33	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1702 - ReplaceComparisonOperator >= -> ==
+34	InsertUnaryOp	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1703 - InsertUnaryOp Negation of i
+35	InsertUnaryOp	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1703 - InsertUnaryOp IINC 1 i
+36	InsertUnaryOp	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1703 - InsertUnaryOp IINC -1 i
+37	InsertUnaryOp	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1703 - InsertUnaryOp Negation of i
+38	InsertUnaryOp	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1703 - InsertUnaryOp IINC 1 i
+39	InsertUnaryOp	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1703 - InsertUnaryOp IINC -1 i
+40	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1703 - ReplaceComparisonOperator != -> -1
+41	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1703 - ReplaceComparisonOperator != -> <
+42	ReplaceComparisonOperator	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1703 - ReplaceComparisonOperator != -> >
+43	ReplaceConstant	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1704 - ReplaceConstant - 0 -> 1
+44	ReplaceConstant	org.apache.commons.lang3.SystemUtils.isOSVersionMatch(Ljava/lang/String;Ljava/lang/String;)Z:1707 - ReplaceConstant - 1 -> 0

@@ -1,0 +1,57 @@
+0	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.<init>(I)V:26 - InsertUnaryOp Negation of capacity
+1	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.<init>(I)V:26 - InsertUnaryOp IINC 1 capacity
+2	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.<init>(I)V:26 - InsertUnaryOp IINC -1 capacity
+3	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.<init>(I)V:27 - InsertUnaryOp Negation of actualCapacity
+4	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.<init>(I)V:27 - InsertUnaryOp IINC 1 actualCapacity
+5	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.<init>(I)V:27 - InsertUnaryOp IINC -1 actualCapacity
+6	ReplaceConstant	org.jctools.queues.atomic.AtomicReferenceArrayQueue.<init>(I)V:27 - ReplaceConstant - 1 -> 0
+7	ReplaceArithmeticOperator	org.jctools.queues.atomic.AtomicReferenceArrayQueue.<init>(I)V:27 - ReplaceArithmeticOperator - -> +
+8	ReplaceArithmeticOperator	org.jctools.queues.atomic.AtomicReferenceArrayQueue.<init>(I)V:27 - ReplaceArithmeticOperator - -> %
+9	ReplaceArithmeticOperator	org.jctools.queues.atomic.AtomicReferenceArrayQueue.<init>(I)V:27 - ReplaceArithmeticOperator - -> *
+10	ReplaceArithmeticOperator	org.jctools.queues.atomic.AtomicReferenceArrayQueue.<init>(I)V:27 - ReplaceArithmeticOperator - -> /
+11	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.<init>(I)V:28 - InsertUnaryOp Negation of actualCapacity
+12	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.<init>(I)V:28 - InsertUnaryOp IINC 1 actualCapacity
+13	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.<init>(I)V:28 - InsertUnaryOp IINC -1 actualCapacity
+14	ReplaceComparisonOperator	org.jctools.queues.atomic.AtomicReferenceArrayQueue.clear()V:44 - ReplaceComparisonOperator != null -> = null
+15	ReplaceComparisonOperator	org.jctools.queues.atomic.AtomicReferenceArrayQueue.clear()V:44 - ReplaceComparisonOperator != -> -1
+16	ReplaceComparisonOperator	org.jctools.queues.atomic.AtomicReferenceArrayQueue.clear()V:44 - ReplaceComparisonOperator != -> <
+17	ReplaceComparisonOperator	org.jctools.queues.atomic.AtomicReferenceArrayQueue.clear()V:44 - ReplaceComparisonOperator != -> >
+18	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.calcElementOffset(JI)I:48 - InsertUnaryOp Negation of index
+19	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.calcElementOffset(JI)I:48 - InsertUnaryOp Negation of mask
+20	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.calcElementOffset(JI)I:48 - InsertUnaryOp IINC 1 mask
+21	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.calcElementOffset(JI)I:48 - InsertUnaryOp IINC -1 mask
+22	ReplaceBitwiseOperator	org.jctools.queues.atomic.AtomicReferenceArrayQueue.calcElementOffset(JI)I:48 - ReplaceBitwiseOperator & -> |
+23	ReplaceBitwiseOperator	org.jctools.queues.atomic.AtomicReferenceArrayQueue.calcElementOffset(JI)I:48 - ReplaceBitwiseOperator & -> ^
+24	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.calcElementOffset(J)I:51 - InsertUnaryOp Negation of index
+25	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.calcElementOffset(J)I:51 - InsertUnaryOp Negation
+26	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.calcElementOffset(J)I:51 - InsertUnaryOp +1
+27	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.calcElementOffset(J)I:51 - InsertUnaryOp -1
+28	ReplaceBitwiseOperator	org.jctools.queues.atomic.AtomicReferenceArrayQueue.calcElementOffset(J)I:51 - ReplaceBitwiseOperator & -> |
+29	ReplaceBitwiseOperator	org.jctools.queues.atomic.AtomicReferenceArrayQueue.calcElementOffset(J)I:51 - ReplaceBitwiseOperator & -> ^
+30	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.lvElement(Ljava/util/concurrent/atomic/AtomicReferenceArray;I)Ljava/lang/Object;:54 - InsertUnaryOp Negation of offset
+31	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.lvElement(Ljava/util/concurrent/atomic/AtomicReferenceArray;I)Ljava/lang/Object;:54 - InsertUnaryOp IINC 1 offset
+32	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.lvElement(Ljava/util/concurrent/atomic/AtomicReferenceArray;I)Ljava/lang/Object;:54 - InsertUnaryOp IINC -1 offset
+33	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.lpElement(Ljava/util/concurrent/atomic/AtomicReferenceArray;I)Ljava/lang/Object;:57 - InsertUnaryOp Negation of offset
+34	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.lpElement(Ljava/util/concurrent/atomic/AtomicReferenceArray;I)Ljava/lang/Object;:57 - InsertUnaryOp IINC 1 offset
+35	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.lpElement(Ljava/util/concurrent/atomic/AtomicReferenceArray;I)Ljava/lang/Object;:57 - InsertUnaryOp IINC -1 offset
+36	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.lpElement(I)Ljava/lang/Object;:60 - InsertUnaryOp Negation of offset
+37	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.lpElement(I)Ljava/lang/Object;:60 - InsertUnaryOp IINC 1 offset
+38	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.lpElement(I)Ljava/lang/Object;:60 - InsertUnaryOp IINC -1 offset
+39	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.spElement(Ljava/util/concurrent/atomic/AtomicReferenceArray;ILjava/lang/Object;)V:63 - InsertUnaryOp Negation of offset
+40	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.spElement(Ljava/util/concurrent/atomic/AtomicReferenceArray;ILjava/lang/Object;)V:63 - InsertUnaryOp IINC 1 offset
+41	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.spElement(Ljava/util/concurrent/atomic/AtomicReferenceArray;ILjava/lang/Object;)V:63 - InsertUnaryOp IINC -1 offset
+42	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.spElement(ILjava/lang/Object;)V:66 - InsertUnaryOp Negation of offset
+43	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.spElement(ILjava/lang/Object;)V:66 - InsertUnaryOp IINC 1 offset
+44	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.spElement(ILjava/lang/Object;)V:66 - InsertUnaryOp IINC -1 offset
+45	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.soElement(Ljava/util/concurrent/atomic/AtomicReferenceArray;ILjava/lang/Object;)V:69 - InsertUnaryOp Negation of offset
+46	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.soElement(Ljava/util/concurrent/atomic/AtomicReferenceArray;ILjava/lang/Object;)V:69 - InsertUnaryOp IINC 1 offset
+47	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.soElement(Ljava/util/concurrent/atomic/AtomicReferenceArray;ILjava/lang/Object;)V:69 - InsertUnaryOp IINC -1 offset
+48	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.soElement(ILjava/lang/Object;)V:72 - InsertUnaryOp Negation of offset
+49	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.soElement(ILjava/lang/Object;)V:72 - InsertUnaryOp IINC 1 offset
+50	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.soElement(ILjava/lang/Object;)V:72 - InsertUnaryOp IINC -1 offset
+51	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.svElement(Ljava/util/concurrent/atomic/AtomicReferenceArray;ILjava/lang/Object;)V:75 - InsertUnaryOp Negation of offset
+52	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.svElement(Ljava/util/concurrent/atomic/AtomicReferenceArray;ILjava/lang/Object;)V:75 - InsertUnaryOp IINC 1 offset
+53	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.svElement(Ljava/util/concurrent/atomic/AtomicReferenceArray;ILjava/lang/Object;)V:75 - InsertUnaryOp IINC -1 offset
+54	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.lvElement(I)Ljava/lang/Object;:78 - InsertUnaryOp Negation of offset
+55	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.lvElement(I)Ljava/lang/Object;:78 - InsertUnaryOp IINC 1 offset
+56	InsertUnaryOp	org.jctools.queues.atomic.AtomicReferenceArrayQueue.lvElement(I)Ljava/lang/Object;:78 - InsertUnaryOp IINC -1 offset

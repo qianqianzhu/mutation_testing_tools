@@ -1,0 +1,59 @@
+0	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:45 - ReplaceComparisonOperator != -> ==
+1	ReplaceConstant	org.geotools.feature.visitor.AbstractCalcResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:45 - ReplaceConstant - 1 -> 0
+2	ReplaceConstant	org.geotools.feature.visitor.AbstractCalcResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:45 - ReplaceConstant - 0 -> 1
+3	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:49 - ReplaceComparisonOperator != -> ==
+4	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:52 - ReplaceComparisonOperator != -> -1
+5	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:52 - ReplaceComparisonOperator != -> <
+6	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:52 - ReplaceComparisonOperator != -> >
+7	ReplaceConstant	org.geotools.feature.visitor.AbstractCalcResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:53 - ReplaceConstant - Parameter is not a compatible type -> 
+8	ReplaceConstant	org.geotools.feature.visitor.AbstractCalcResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:56 - ReplaceConstant - The CalcResults claim to be compatible, but the appropriate merge method has not been implemented. -> 
+9	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toInt()I:69 - ReplaceComparisonOperator == -> -2
+10	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toInt()I:69 - ReplaceComparisonOperator == -> >=
+11	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toInt()I:69 - ReplaceComparisonOperator == -> <=
+12	ReplaceConstant	org.geotools.feature.visitor.AbstractCalcResult.toInt()I:73 - ReplaceConstant - 0 -> 1
+13	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toDouble()D:79 - ReplaceComparisonOperator == -> -2
+14	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toDouble()D:79 - ReplaceComparisonOperator == -> >=
+15	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toDouble()D:79 - ReplaceComparisonOperator == -> <=
+16	ReplaceConstant	org.geotools.feature.visitor.AbstractCalcResult.toDouble()D:83 - ReplaceConstant - 0.0 -> 1.0
+17	ReplaceConstant	org.geotools.feature.visitor.AbstractCalcResult.toDouble()D:83 - ReplaceConstant - 0.0 -> -1.0
+18	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toLong()J:89 - ReplaceComparisonOperator == -> -2
+19	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toLong()J:89 - ReplaceComparisonOperator == -> >=
+20	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toLong()J:89 - ReplaceComparisonOperator == -> <=
+21	ReplaceConstant	org.geotools.feature.visitor.AbstractCalcResult.toLong()J:93 - ReplaceConstant - 0 -> 1
+22	ReplaceConstant	org.geotools.feature.visitor.AbstractCalcResult.toLong()J:93 - ReplaceConstant - 0 -> -1
+23	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toFloat()F:99 - ReplaceComparisonOperator == -> -2
+24	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toFloat()F:99 - ReplaceComparisonOperator == -> >=
+25	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toFloat()F:99 - ReplaceComparisonOperator == -> <=
+26	ReplaceConstant	org.geotools.feature.visitor.AbstractCalcResult.toFloat()F:103 - ReplaceConstant - 0.0 -> 1.0
+27	ReplaceConstant	org.geotools.feature.visitor.AbstractCalcResult.toFloat()F:103 - ReplaceConstant - 0.0 -> -1.0
+28	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toGeometry()Lcom/vividsolutions/jts/geom/Geometry;:109 - ReplaceComparisonOperator == -> -2
+29	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toGeometry()Lcom/vividsolutions/jts/geom/Geometry;:109 - ReplaceComparisonOperator == -> >=
+30	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toGeometry()Lcom/vividsolutions/jts/geom/Geometry;:109 - ReplaceComparisonOperator == -> <=
+31	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toEnvelope()Lcom/vividsolutions/jts/geom/Envelope;:117 - ReplaceComparisonOperator == -> -2
+32	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toEnvelope()Lcom/vividsolutions/jts/geom/Envelope;:117 - ReplaceComparisonOperator == -> >=
+33	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toEnvelope()Lcom/vividsolutions/jts/geom/Envelope;:117 - ReplaceComparisonOperator == -> <=
+34	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toSet()Ljava/util/Set;:131 - ReplaceComparisonOperator != null -> = null
+35	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toSet()Ljava/util/Set;:135 - ReplaceComparisonOperator == -> -2
+36	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toSet()Ljava/util/Set;:135 - ReplaceComparisonOperator == -> >=
+37	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toSet()Ljava/util/Set;:135 - ReplaceComparisonOperator == -> <=
+38	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toSet()Ljava/util/Set;:141 - ReplaceComparisonOperator == -> -2
+39	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toSet()Ljava/util/Set;:141 - ReplaceComparisonOperator == -> >=
+40	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toSet()Ljava/util/Set;:141 - ReplaceComparisonOperator == -> <=
+41	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toSet()Ljava/util/Set;:147 - ReplaceComparisonOperator == -> -2
+42	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toSet()Ljava/util/Set;:147 - ReplaceComparisonOperator == -> >=
+43	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toSet()Ljava/util/Set;:147 - ReplaceComparisonOperator == -> <=
+44	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toList()Ljava/util/List;:159 - ReplaceComparisonOperator != null -> = null
+45	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toList()Ljava/util/List;:163 - ReplaceComparisonOperator == -> -2
+46	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toList()Ljava/util/List;:163 - ReplaceComparisonOperator == -> >=
+47	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toList()Ljava/util/List;:163 - ReplaceComparisonOperator == -> <=
+48	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toList()Ljava/util/List;:169 - ReplaceComparisonOperator == -> -2
+49	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toList()Ljava/util/List;:169 - ReplaceComparisonOperator == -> >=
+50	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toList()Ljava/util/List;:169 - ReplaceComparisonOperator == -> <=
+51	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toList()Ljava/util/List;:173 - ReplaceComparisonOperator == -> -2
+52	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toList()Ljava/util/List;:173 - ReplaceComparisonOperator == -> >=
+53	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toList()Ljava/util/List;:173 - ReplaceComparisonOperator == -> <=
+54	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toList()Ljava/util/List;:183 - ReplaceComparisonOperator == -> -2
+55	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toList()Ljava/util/List;:183 - ReplaceComparisonOperator == -> >=
+56	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toList()Ljava/util/List;:183 - ReplaceComparisonOperator == -> <=
+57	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toArray()[Ljava/lang/Object;:193 - ReplaceComparisonOperator != null -> = null
+58	ReplaceComparisonOperator	org.geotools.feature.visitor.AbstractCalcResult.toStringArray()[Ljava/lang/String;:203 - ReplaceComparisonOperator != null -> = null

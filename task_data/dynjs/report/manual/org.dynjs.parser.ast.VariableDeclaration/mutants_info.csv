@@ -1,0 +1,39 @@
+0	ReplaceComparisonOperator	org.dynjs.parser.ast.VariableDeclaration.<init>(Lorg/dynjs/parser/js/Position;Ljava/lang/String;Lorg/dynjs/parser/ast/Expression;)V:27 - ReplaceComparisonOperator = null -> != null
+1	ReplaceConstant	org.dynjs.parser.ast.VariableDeclaration.dump(Ljava/lang/String;)Ljava/lang/String;:47 - ReplaceConstant - ( -> 
+2	ReplaceConstant	org.dynjs.parser.ast.VariableDeclaration.dump(Ljava/lang/String;)Ljava/lang/String;:47 - ReplaceConstant - )
+3	ReplaceComparisonOperator	org.dynjs.parser.ast.VariableDeclaration.dump(Ljava/lang/String;)Ljava/lang/String;:48 - ReplaceComparisonOperator = null -> != null
+4	ReplaceConstant	org.dynjs.parser.ast.VariableDeclaration.dump(Ljava/lang/String;)Ljava/lang/String;:49 - ReplaceConstant -    -> 
+5	InsertUnaryOp	org.dynjs.parser.ast.VariableDeclaration.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:56 - InsertUnaryOp Negation of strict
+6	InsertUnaryOp	org.dynjs.parser.ast.VariableDeclaration.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:56 - InsertUnaryOp IINC 1 strict
+7	InsertUnaryOp	org.dynjs.parser.ast.VariableDeclaration.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:56 - InsertUnaryOp IINC -1 strict
+8	ReplaceComparisonOperator	org.dynjs.parser.ast.VariableDeclaration.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/String;:60 - ReplaceComparisonOperator = null -> != null
+9	InsertUnaryOp	org.dynjs.parser.ast.VariableDeclaration.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/String;:61 - InsertUnaryOp Negation of debug
+10	InsertUnaryOp	org.dynjs.parser.ast.VariableDeclaration.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/String;:61 - InsertUnaryOp IINC 1 debug
+11	InsertUnaryOp	org.dynjs.parser.ast.VariableDeclaration.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/String;:61 - InsertUnaryOp IINC -1 debug
+12	ReplaceComparisonOperator	org.dynjs.parser.ast.VariableDeclaration.getSizeMetric()I:70 - ReplaceComparisonOperator = null -> != null
+13	ReplaceConstant	org.dynjs.parser.ast.VariableDeclaration.getSizeMetric()I:71 - ReplaceConstant - 3 -> 0
+14	ReplaceConstant	org.dynjs.parser.ast.VariableDeclaration.getSizeMetric()I:71 - ReplaceConstant - 3 -> 1
+15	ReplaceConstant	org.dynjs.parser.ast.VariableDeclaration.getSizeMetric()I:71 - ReplaceConstant - 3 -> -1
+16	ReplaceConstant	org.dynjs.parser.ast.VariableDeclaration.getSizeMetric()I:71 - ReplaceConstant - 3 -> 2
+17	ReplaceConstant	org.dynjs.parser.ast.VariableDeclaration.getSizeMetric()I:71 - ReplaceConstant - 3 -> 4
+18	ReplaceArithmeticOperator	org.dynjs.parser.ast.VariableDeclaration.getSizeMetric()I:71 - ReplaceArithmeticOperator + -> %
+19	ReplaceArithmeticOperator	org.dynjs.parser.ast.VariableDeclaration.getSizeMetric()I:71 - ReplaceArithmeticOperator + -> -
+20	ReplaceArithmeticOperator	org.dynjs.parser.ast.VariableDeclaration.getSizeMetric()I:71 - ReplaceArithmeticOperator + -> *
+21	ReplaceArithmeticOperator	org.dynjs.parser.ast.VariableDeclaration.getSizeMetric()I:71 - ReplaceArithmeticOperator + -> /
+22	ReplaceConstant	org.dynjs.parser.ast.VariableDeclaration.getSizeMetric()I:73 - ReplaceConstant - 3 -> 0
+23	ReplaceConstant	org.dynjs.parser.ast.VariableDeclaration.getSizeMetric()I:73 - ReplaceConstant - 3 -> 1
+24	ReplaceConstant	org.dynjs.parser.ast.VariableDeclaration.getSizeMetric()I:73 - ReplaceConstant - 3 -> -1
+25	ReplaceConstant	org.dynjs.parser.ast.VariableDeclaration.getSizeMetric()I:73 - ReplaceConstant - 3 -> 2
+26	ReplaceConstant	org.dynjs.parser.ast.VariableDeclaration.getSizeMetric()I:73 - ReplaceConstant - 3 -> 4
+27	ReplaceComparisonOperator	org.dynjs.parser.ast.VariableDeclaration.toString()Ljava/lang/String;:79 - ReplaceComparisonOperator = null -> != null
+28	ReplaceConstant	org.dynjs.parser.ast.VariableDeclaration.toString()Ljava/lang/String;:80 - ReplaceConstant -  =  -> 
+29	ReplaceComparisonOperator	org.dynjs.parser.ast.VariableDeclaration.getValue(Ljava/lang/invoke/CallSite;Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Ljava/lang/Object;:88 - ReplaceComparisonOperator == -> -2
+30	ReplaceComparisonOperator	org.dynjs.parser.ast.VariableDeclaration.getValue(Ljava/lang/invoke/CallSite;Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Ljava/lang/Object;:88 - ReplaceComparisonOperator == -> >=
+31	ReplaceComparisonOperator	org.dynjs.parser.ast.VariableDeclaration.getValue(Ljava/lang/invoke/CallSite;Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Ljava/lang/Object;:88 - ReplaceComparisonOperator == -> <=
+32	ReplaceComparisonOperator	org.dynjs.parser.ast.VariableDeclaration.getValue(Ljava/lang/invoke/CallSite;Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Ljava/lang/Object;:97 - ReplaceComparisonOperator == -> -2
+33	ReplaceComparisonOperator	org.dynjs.parser.ast.VariableDeclaration.getValue(Ljava/lang/invoke/CallSite;Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Ljava/lang/Object;:97 - ReplaceComparisonOperator == -> >=
+34	ReplaceComparisonOperator	org.dynjs.parser.ast.VariableDeclaration.getValue(Ljava/lang/invoke/CallSite;Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Ljava/lang/Object;:97 - ReplaceComparisonOperator == -> <=
+35	ReplaceComparisonOperator	org.dynjs.parser.ast.VariableDeclaration.getValue(Ljava/lang/invoke/CallSite;Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Ljava/lang/Object;:97 - ReplaceComparisonOperator != -> -1
+36	ReplaceComparisonOperator	org.dynjs.parser.ast.VariableDeclaration.getValue(Ljava/lang/invoke/CallSite;Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Ljava/lang/Object;:97 - ReplaceComparisonOperator != -> <
+37	ReplaceComparisonOperator	org.dynjs.parser.ast.VariableDeclaration.getValue(Ljava/lang/invoke/CallSite;Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Ljava/lang/Object;:97 - ReplaceComparisonOperator != -> >
+38	ReplaceConstant	org.dynjs.parser.ast.VariableDeclaration.getValue(Ljava/lang/invoke/CallSite;Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/Object;)Ljava/lang/Object;:100 - ReplaceConstant - unable to reference:  -> 

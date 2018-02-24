@@ -1,0 +1,12 @@
+0	InsertUnaryOp	org.geotools.styling.visitor.DpiRescaleStyleVisitor.<init>(D)V:42 - InsertUnaryOp Negation of scale
+1	InsertUnaryOp	org.geotools.styling.visitor.DpiRescaleStyleVisitor.<init>(Lorg/opengis/filter/FilterFactory2;D)V:46 - InsertUnaryOp Negation of scale
+2	ReplaceComparisonOperator	org.geotools.styling.visitor.DpiRescaleStyleVisitor.rescale(Lorg/opengis/filter/expression/Expression;)Lorg/opengis/filter/expression/Expression;:52 - ReplaceComparisonOperator != null -> = null
+3	ReplaceComparisonOperator	org.geotools.styling.visitor.DpiRescaleStyleVisitor.rescale(Lorg/opengis/filter/expression/Expression;)Lorg/opengis/filter/expression/Expression;:55 - ReplaceComparisonOperator != -> ==
+4	ReplaceComparisonOperator	org.geotools.styling.visitor.DpiRescaleStyleVisitor.rescaleOption(Ljava/util/Map;Ljava/lang/String;D)V:69 - ReplaceComparisonOperator != null -> = null
+5	InsertUnaryOp	org.geotools.styling.visitor.DpiRescaleStyleVisitor.rescaleOption(Ljava/util/Map;Ljava/lang/String;D)V:70 - InsertUnaryOp Negation of defaultValue
+6	InsertUnaryOp	org.geotools.styling.visitor.DpiRescaleStyleVisitor.rescaleOption(Ljava/util/Map;Ljava/lang/String;D)V:74 - InsertUnaryOp Negation of scaleFactor
+7	ReplaceComparisonOperator	org.geotools.styling.visitor.DpiRescaleStyleVisitor.rescaleOption(Ljava/util/Map;Ljava/lang/String;I)V:82 - ReplaceComparisonOperator != null -> = null
+8	InsertUnaryOp	org.geotools.styling.visitor.DpiRescaleStyleVisitor.rescaleOption(Ljava/util/Map;Ljava/lang/String;I)V:83 - InsertUnaryOp Negation of defaultValue
+9	InsertUnaryOp	org.geotools.styling.visitor.DpiRescaleStyleVisitor.rescaleOption(Ljava/util/Map;Ljava/lang/String;I)V:83 - InsertUnaryOp IINC 1 defaultValue
+10	InsertUnaryOp	org.geotools.styling.visitor.DpiRescaleStyleVisitor.rescaleOption(Ljava/util/Map;Ljava/lang/String;I)V:83 - InsertUnaryOp IINC -1 defaultValue
+11	InsertUnaryOp	org.geotools.styling.visitor.DpiRescaleStyleVisitor.rescaleOption(Ljava/util/Map;Ljava/lang/String;I)V:87 - InsertUnaryOp Negation of scaleFactor

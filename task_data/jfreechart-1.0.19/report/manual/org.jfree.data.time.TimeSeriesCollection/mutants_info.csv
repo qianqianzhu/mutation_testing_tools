@@ -1,0 +1,344 @@
+0	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.<init>(Lorg/jfree/data/time/TimeSeries;Ljava/util/TimeZone;)V:189 - ReplaceComparisonOperator != null -> = null
+1	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.<init>(Lorg/jfree/data/time/TimeSeries;Ljava/util/TimeZone;)V:194 - ReplaceComparisonOperator = null -> != null
+2	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.<init>(Lorg/jfree/data/time/TimeSeries;Ljava/util/TimeZone;)V:199 - ReplaceConstant - 1 -> 0
+3	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainIsPointsInTime()Z:215 - InsertUnaryOp Negation
+4	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.setDomainIsPointsInTime(Z)V:229 - InsertUnaryOp Negation of flag
+5	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.setDomainIsPointsInTime(Z)V:229 - InsertUnaryOp IINC 1 flag
+6	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.setDomainIsPointsInTime(Z)V:229 - InsertUnaryOp IINC -1 flag
+7	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.setXPosition(Lorg/jfree/data/time/TimePeriodAnchor;)V:262 - ReplaceConstant - anchor -> 
+8	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.indexOf(Lorg/jfree/data/time/TimeSeries;)I:297 - ReplaceConstant - series -> 
+9	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:309 - InsertUnaryOp Negation of series
+10	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:309 - InsertUnaryOp IINC 1 series
+11	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:309 - InsertUnaryOp IINC -1 series
+12	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:309 - ReplaceComparisonOperator < -> -2
+13	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:309 - ReplaceComparisonOperator < -> !=
+14	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:309 - ReplaceComparisonOperator < -> <=
+15	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:309 - InsertUnaryOp Negation of series
+16	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:309 - InsertUnaryOp IINC 1 series
+17	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:309 - InsertUnaryOp IINC -1 series
+18	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:309 - ReplaceComparisonOperator < -> !=
+19	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:309 - ReplaceComparisonOperator < -> -2
+20	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:309 - ReplaceComparisonOperator < -> <=
+21	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:310 - ReplaceConstant - The 'series' argument is out of bounds ( -> 
+22	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:310 - InsertUnaryOp Negation of series
+23	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:310 - InsertUnaryOp IINC 1 series
+24	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:310 - InsertUnaryOp IINC -1 series
+25	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:310 - ReplaceConstant - ). -> 
+26	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:313 - InsertUnaryOp Negation of series
+27	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:313 - InsertUnaryOp IINC 1 series
+28	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeries(I)Lorg/jfree/data/time/TimeSeries;:313 - InsertUnaryOp IINC -1 series
+29	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeries(Ljava/lang/Comparable;)Lorg/jfree/data/time/TimeSeries;:327 - ReplaceComparisonOperator == -> -2
+30	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeries(Ljava/lang/Comparable;)Lorg/jfree/data/time/TimeSeries;:327 - ReplaceComparisonOperator == -> >=
+31	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeries(Ljava/lang/Comparable;)Lorg/jfree/data/time/TimeSeries;:327 - ReplaceComparisonOperator == -> <=
+32	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeries(Ljava/lang/Comparable;)Lorg/jfree/data/time/TimeSeries;:330 - ReplaceComparisonOperator = null -> != null
+33	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeries(Ljava/lang/Comparable;)Lorg/jfree/data/time/TimeSeries;:330 - ReplaceComparisonOperator == -> -2
+34	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeries(Ljava/lang/Comparable;)Lorg/jfree/data/time/TimeSeries;:330 - ReplaceComparisonOperator == -> >=
+35	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeries(Ljava/lang/Comparable;)Lorg/jfree/data/time/TimeSeries;:330 - ReplaceComparisonOperator == -> <=
+36	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeriesKey(I)Ljava/lang/Comparable;:348 - InsertUnaryOp Negation of series
+37	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeriesKey(I)Ljava/lang/Comparable;:348 - InsertUnaryOp IINC 1 series
+38	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeriesKey(I)Ljava/lang/Comparable;:348 - InsertUnaryOp IINC -1 series
+39	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:362 - ReplaceConstant - key -> 
+40	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:364 - ReplaceConstant - 0 -> 1
+41	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:364 - InsertUnaryOp Negation of i
+42	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:364 - InsertUnaryOp IINC 1 i
+43	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:364 - InsertUnaryOp IINC -1 i
+44	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:364 - InsertUnaryOp Negation of seriesCount
+45	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:364 - InsertUnaryOp IINC 1 seriesCount
+46	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:364 - InsertUnaryOp IINC -1 seriesCount
+47	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:364 - ReplaceComparisonOperator >= -> -1
+48	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:364 - ReplaceComparisonOperator >= -> >
+49	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:364 - ReplaceComparisonOperator >= -> ==
+50	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:365 - InsertUnaryOp Negation of i
+51	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:365 - InsertUnaryOp IINC 1 i
+52	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:365 - InsertUnaryOp IINC -1 i
+53	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:366 - ReplaceComparisonOperator == -> -2
+54	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:366 - ReplaceComparisonOperator == -> >=
+55	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:366 - ReplaceComparisonOperator == -> <=
+56	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:367 - InsertUnaryOp Negation of i
+57	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:367 - InsertUnaryOp IINC 1 i
+58	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:367 - InsertUnaryOp IINC -1 i
+59	ReplaceVariable	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:364 - ReplaceVariable i -> seriesCount
+60	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:370 - ReplaceConstant - -1 -> 0
+61	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:370 - ReplaceConstant - -1 -> 1
+62	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSeriesIndex(Ljava/lang/Comparable;)I:370 - ReplaceConstant - -1 -> -2
+63	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.addSeries(Lorg/jfree/data/time/TimeSeries;)V:380 - ReplaceConstant - series -> 
+64	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.removeSeries(Lorg/jfree/data/time/TimeSeries;)V:394 - ReplaceConstant - series -> 
+65	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.removeSeries(I)V:407 - InsertUnaryOp Negation of index
+66	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.removeSeries(I)V:407 - InsertUnaryOp IINC 1 index
+67	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.removeSeries(I)V:407 - InsertUnaryOp IINC -1 index
+68	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.removeSeries(I)V:408 - ReplaceComparisonOperator = null -> != null
+69	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.removeAllSeries()V:421 - ReplaceConstant - 0 -> 1
+70	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.removeAllSeries()V:421 - InsertUnaryOp Negation of i
+71	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.removeAllSeries()V:421 - InsertUnaryOp IINC 1 i
+72	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.removeAllSeries()V:421 - InsertUnaryOp IINC -1 i
+73	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.removeAllSeries()V:421 - ReplaceComparisonOperator >= -> -1
+74	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.removeAllSeries()V:421 - ReplaceComparisonOperator >= -> >
+75	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.removeAllSeries()V:421 - ReplaceComparisonOperator >= -> ==
+76	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.removeAllSeries()V:422 - InsertUnaryOp Negation of i
+77	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.removeAllSeries()V:422 - InsertUnaryOp IINC 1 i
+78	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.removeAllSeries()V:422 - InsertUnaryOp IINC -1 i
+79	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getItemCount(I)I:443 - InsertUnaryOp Negation of series
+80	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getItemCount(I)I:443 - InsertUnaryOp IINC 1 series
+81	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getItemCount(I)I:443 - InsertUnaryOp IINC -1 series
+82	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getXValue(II)D:456 - InsertUnaryOp Negation of series
+83	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getXValue(II)D:456 - InsertUnaryOp IINC 1 series
+84	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getXValue(II)D:456 - InsertUnaryOp IINC -1 series
+85	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getXValue(II)D:457 - InsertUnaryOp Negation of item
+86	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getXValue(II)D:457 - InsertUnaryOp IINC 1 item
+87	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getXValue(II)D:457 - InsertUnaryOp IINC -1 item
+88	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getX(II)Ljava/lang/Number;:471 - InsertUnaryOp Negation of series
+89	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getX(II)Ljava/lang/Number;:471 - InsertUnaryOp IINC 1 series
+90	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getX(II)Ljava/lang/Number;:471 - InsertUnaryOp IINC -1 series
+91	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getX(II)Ljava/lang/Number;:472 - InsertUnaryOp Negation of item
+92	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getX(II)Ljava/lang/Number;:472 - InsertUnaryOp IINC 1 item
+93	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getX(II)Ljava/lang/Number;:472 - InsertUnaryOp IINC -1 item
+94	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getX(Lorg/jfree/data/time/RegularTimePeriod;)J:484 - ReplaceConstant - 0 -> 1
+95	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getX(Lorg/jfree/data/time/RegularTimePeriod;)J:484 - ReplaceConstant - 0 -> -1
+96	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getX(Lorg/jfree/data/time/RegularTimePeriod;)J:485 - ReplaceComparisonOperator != -> ==
+97	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getX(Lorg/jfree/data/time/RegularTimePeriod;)J:488 - ReplaceComparisonOperator != -> ==
+98	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getX(Lorg/jfree/data/time/RegularTimePeriod;)J:491 - ReplaceComparisonOperator != -> ==
+99	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getX(Lorg/jfree/data/time/RegularTimePeriod;)J:494 - InsertUnaryOp Negation of result
+100	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getStartX(II)Ljava/lang/Number;:507 - InsertUnaryOp Negation of series
+101	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getStartX(II)Ljava/lang/Number;:507 - InsertUnaryOp IINC 1 series
+102	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getStartX(II)Ljava/lang/Number;:507 - InsertUnaryOp IINC -1 series
+103	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getStartX(II)Ljava/lang/Number;:508 - InsertUnaryOp Negation of item
+104	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getStartX(II)Ljava/lang/Number;:508 - InsertUnaryOp IINC 1 item
+105	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getStartX(II)Ljava/lang/Number;:508 - InsertUnaryOp IINC -1 item
+106	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getEndX(II)Ljava/lang/Number;:522 - InsertUnaryOp Negation of series
+107	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getEndX(II)Ljava/lang/Number;:522 - InsertUnaryOp IINC 1 series
+108	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getEndX(II)Ljava/lang/Number;:522 - InsertUnaryOp IINC -1 series
+109	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getEndX(II)Ljava/lang/Number;:523 - InsertUnaryOp Negation of item
+110	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getEndX(II)Ljava/lang/Number;:523 - InsertUnaryOp IINC 1 item
+111	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getEndX(II)Ljava/lang/Number;:523 - InsertUnaryOp IINC -1 item
+112	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getY(II)Ljava/lang/Number;:537 - InsertUnaryOp Negation of series
+113	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getY(II)Ljava/lang/Number;:537 - InsertUnaryOp IINC 1 series
+114	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getY(II)Ljava/lang/Number;:537 - InsertUnaryOp IINC -1 series
+115	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getY(II)Ljava/lang/Number;:538 - InsertUnaryOp Negation of item
+116	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getY(II)Ljava/lang/Number;:538 - InsertUnaryOp IINC 1 item
+117	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getY(II)Ljava/lang/Number;:538 - InsertUnaryOp IINC -1 item
+118	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getStartY(II)Ljava/lang/Number;:551 - InsertUnaryOp Negation of series
+119	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getStartY(II)Ljava/lang/Number;:551 - InsertUnaryOp IINC 1 series
+120	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getStartY(II)Ljava/lang/Number;:551 - InsertUnaryOp IINC -1 series
+121	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getStartY(II)Ljava/lang/Number;:551 - InsertUnaryOp Negation of item
+122	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getStartY(II)Ljava/lang/Number;:551 - InsertUnaryOp IINC 1 item
+123	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getStartY(II)Ljava/lang/Number;:551 - InsertUnaryOp IINC -1 item
+124	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getEndY(II)Ljava/lang/Number;:564 - InsertUnaryOp Negation of series
+125	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getEndY(II)Ljava/lang/Number;:564 - InsertUnaryOp IINC 1 series
+126	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getEndY(II)Ljava/lang/Number;:564 - InsertUnaryOp IINC -1 series
+127	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getEndY(II)Ljava/lang/Number;:564 - InsertUnaryOp Negation of item
+128	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getEndY(II)Ljava/lang/Number;:564 - InsertUnaryOp IINC 1 item
+129	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getEndY(II)Ljava/lang/Number;:564 - InsertUnaryOp IINC -1 item
+130	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:579 - ReplaceConstant - 2 -> 0
+131	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:579 - ReplaceConstant - 2 -> 1
+132	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:579 - ReplaceConstant - 2 -> -1
+133	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:579 - ReplaceConstant - 2 -> 3
+134	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:579 - ReplaceConstant - 0 -> 1
+135	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:579 - ReplaceConstant - -1 -> 0
+136	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:579 - ReplaceConstant - -1 -> 1
+137	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:579 - ReplaceConstant - -1 -> -2
+138	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:579 - ReplaceConstant - 1 -> 0
+139	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:579 - ReplaceConstant - -1 -> 0
+140	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:579 - ReplaceConstant - -1 -> 1
+141	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:579 - ReplaceConstant - -1 -> -2
+142	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:580 - InsertUnaryOp Negation of series
+143	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:580 - InsertUnaryOp IINC 1 series
+144	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:580 - InsertUnaryOp IINC -1 series
+145	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:581 - ReplaceConstant - 0 -> 1
+146	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:581 - InsertUnaryOp Negation of i
+147	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:581 - InsertUnaryOp IINC 1 i
+148	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:581 - InsertUnaryOp IINC -1 i
+149	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:581 - ReplaceComparisonOperator >= -> -1
+150	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:581 - ReplaceComparisonOperator >= -> >
+151	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:581 - ReplaceComparisonOperator >= -> ==
+152	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:582 - InsertUnaryOp Negation of series
+153	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:582 - InsertUnaryOp IINC 1 series
+154	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:582 - InsertUnaryOp IINC -1 series
+155	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:582 - InsertUnaryOp Negation of i
+156	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:582 - InsertUnaryOp IINC 1 i
+157	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:582 - InsertUnaryOp IINC -1 i
+158	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:584 - InsertUnaryOp Negation of m
+159	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:584 - InsertUnaryOp Negation of milliseconds
+160	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:584 - ReplaceComparisonOperator > -> -2
+161	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:584 - ReplaceComparisonOperator > -> !=
+162	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:584 - ReplaceComparisonOperator > -> >=
+163	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:585 - ReplaceConstant - 0 -> 1
+164	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:585 - InsertUnaryOp Negation of i
+165	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:585 - InsertUnaryOp IINC 1 i
+166	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:585 - InsertUnaryOp IINC -1 i
+167	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:587 - InsertUnaryOp Negation of m
+168	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:587 - InsertUnaryOp Negation of milliseconds
+169	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:587 - ReplaceComparisonOperator < -> -2
+170	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:587 - ReplaceComparisonOperator < -> !=
+171	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:587 - ReplaceComparisonOperator < -> <=
+172	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:588 - ReplaceConstant - 1 -> 0
+173	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:588 - InsertUnaryOp Negation of i
+174	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:588 - InsertUnaryOp IINC 1 i
+175	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:588 - InsertUnaryOp IINC -1 i
+176	ReplaceVariable	org.jfree.data.time.TimeSeriesCollection.getSurroundingItems(IJ)[I:581 - ReplaceVariable i -> series
+177	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getDomainLowerBound(Z)D:605 - ReplaceConstant - NaN -> 0.0
+178	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getDomainLowerBound(Z)D:605 - ReplaceConstant - NaN -> 1.0
+179	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getDomainLowerBound(Z)D:605 - ReplaceConstant - NaN -> -1.0
+180	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getDomainLowerBound(Z)D:605 - ReplaceConstant - NaN -> NaN
+181	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainLowerBound(Z)D:606 - InsertUnaryOp Negation of includeInterval
+182	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainLowerBound(Z)D:606 - InsertUnaryOp IINC 1 includeInterval
+183	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainLowerBound(Z)D:606 - InsertUnaryOp IINC -1 includeInterval
+184	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainLowerBound(Z)D:607 - ReplaceComparisonOperator = null -> != null
+185	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainLowerBound(Z)D:610 - InsertUnaryOp Negation of result
+186	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getDomainUpperBound(Z)D:623 - ReplaceConstant - NaN -> 0.0
+187	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getDomainUpperBound(Z)D:623 - ReplaceConstant - NaN -> 1.0
+188	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getDomainUpperBound(Z)D:623 - ReplaceConstant - NaN -> -1.0
+189	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getDomainUpperBound(Z)D:623 - ReplaceConstant - NaN -> NaN
+190	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainUpperBound(Z)D:624 - InsertUnaryOp Negation of includeInterval
+191	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainUpperBound(Z)D:624 - InsertUnaryOp IINC 1 includeInterval
+192	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainUpperBound(Z)D:624 - InsertUnaryOp IINC -1 includeInterval
+193	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainUpperBound(Z)D:625 - ReplaceComparisonOperator = null -> != null
+194	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainUpperBound(Z)D:628 - InsertUnaryOp Negation of result
+195	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:643 - ReplaceComparisonOperator == -> -2
+196	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:643 - ReplaceComparisonOperator == -> >=
+197	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:643 - ReplaceComparisonOperator == -> <=
+198	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:646 - InsertUnaryOp Negation of count
+199	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:646 - InsertUnaryOp IINC 1 count
+200	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:646 - InsertUnaryOp IINC -1 count
+201	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:646 - ReplaceComparisonOperator <= -> -1
+202	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:646 - ReplaceComparisonOperator <= -> ==
+203	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:646 - ReplaceComparisonOperator <= -> <
+204	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:647 - ReplaceConstant - 0 -> 1
+205	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:648 - InsertUnaryOp Negation of count
+206	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:648 - InsertUnaryOp IINC 1 count
+207	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:648 - InsertUnaryOp IINC -1 count
+208	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:648 - ReplaceConstant - 1 -> 0
+209	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:648 - ReplaceArithmeticOperator - -> +
+210	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:648 - ReplaceArithmeticOperator - -> %
+211	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:648 - ReplaceArithmeticOperator - -> *
+212	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:648 - ReplaceArithmeticOperator - -> /
+213	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:650 - InsertUnaryOp Negation of includeInterval
+214	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:650 - InsertUnaryOp IINC 1 includeInterval
+215	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:650 - InsertUnaryOp IINC -1 includeInterval
+216	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:650 - ReplaceComparisonOperator != -> -1
+217	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:650 - ReplaceComparisonOperator != -> <
+218	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Z)Lorg/jfree/data/Range;:650 - ReplaceComparisonOperator != -> >
+219	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:679 - ReplaceComparisonOperator == -> -2
+220	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:679 - ReplaceComparisonOperator == -> >=
+221	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:679 - ReplaceComparisonOperator == -> <=
+222	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:683 - InsertUnaryOp Negation of count
+223	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:683 - InsertUnaryOp IINC 1 count
+224	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:683 - InsertUnaryOp IINC -1 count
+225	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:683 - ReplaceComparisonOperator <= -> -1
+226	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:683 - ReplaceComparisonOperator <= -> ==
+227	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:683 - ReplaceComparisonOperator <= -> <
+228	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:684 - ReplaceConstant - 0 -> 1
+229	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:685 - InsertUnaryOp Negation of count
+230	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:685 - InsertUnaryOp IINC 1 count
+231	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:685 - InsertUnaryOp IINC -1 count
+232	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:685 - ReplaceConstant - 1 -> 0
+233	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:685 - ReplaceArithmeticOperator - -> +
+234	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:685 - ReplaceArithmeticOperator - -> %
+235	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:685 - ReplaceArithmeticOperator - -> *
+236	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:685 - ReplaceArithmeticOperator - -> /
+237	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:687 - InsertUnaryOp Negation of includeInterval
+238	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:687 - InsertUnaryOp IINC 1 includeInterval
+239	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:687 - InsertUnaryOp IINC -1 includeInterval
+240	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:687 - ReplaceComparisonOperator != -> -1
+241	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:687 - ReplaceComparisonOperator != -> <
+242	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getDomainBounds(Ljava/util/List;Z)Lorg/jfree/data/Range;:687 - ReplaceComparisonOperator != -> >
+243	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getRangeBounds(Z)Lorg/jfree/data/Range;:713 - ReplaceComparisonOperator == -> -2
+244	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getRangeBounds(Z)Lorg/jfree/data/Range;:713 - ReplaceComparisonOperator == -> >=
+245	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getRangeBounds(Z)Lorg/jfree/data/Range;:713 - ReplaceComparisonOperator == -> <=
+246	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getRangeBounds(Ljava/util/List;Lorg/jfree/data/Range;Z)Lorg/jfree/data/Range;:737 - ReplaceComparisonOperator == -> -2
+247	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getRangeBounds(Ljava/util/List;Lorg/jfree/data/Range;Z)Lorg/jfree/data/Range;:737 - ReplaceComparisonOperator == -> >=
+248	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.getRangeBounds(Ljava/util/List;Lorg/jfree/data/Range;Z)Lorg/jfree/data/Range;:737 - ReplaceComparisonOperator == -> <=
+249	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.vetoableChange(Ljava/beans/PropertyChangeEvent;)V:760 - ReplaceConstant - Key -> 
+250	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.vetoableChange(Ljava/beans/PropertyChangeEvent;)V:760 - ReplaceComparisonOperator != -> -1
+251	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.vetoableChange(Ljava/beans/PropertyChangeEvent;)V:760 - ReplaceComparisonOperator != -> <
+252	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.vetoableChange(Ljava/beans/PropertyChangeEvent;)V:760 - ReplaceComparisonOperator != -> >
+253	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.vetoableChange(Ljava/beans/PropertyChangeEvent;)V:767 - ReplaceConstant - -1 -> 0
+254	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.vetoableChange(Ljava/beans/PropertyChangeEvent;)V:767 - ReplaceConstant - -1 -> 1
+255	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.vetoableChange(Ljava/beans/PropertyChangeEvent;)V:767 - ReplaceConstant - -1 -> -2
+256	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.vetoableChange(Ljava/beans/PropertyChangeEvent;)V:767 - ReplaceComparisonOperator != -> -1
+257	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.vetoableChange(Ljava/beans/PropertyChangeEvent;)V:767 - ReplaceComparisonOperator != -> <
+258	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.vetoableChange(Ljava/beans/PropertyChangeEvent;)V:767 - ReplaceComparisonOperator != -> >
+259	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.vetoableChange(Ljava/beans/PropertyChangeEvent;)V:768 - ReplaceConstant - Receiving events from a series that does not belong to this collection. -> 
+260	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.vetoableChange(Ljava/beans/PropertyChangeEvent;)V:773 - ReplaceComparisonOperator < -> -2
+261	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.vetoableChange(Ljava/beans/PropertyChangeEvent;)V:773 - ReplaceComparisonOperator < -> !=
+262	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.vetoableChange(Ljava/beans/PropertyChangeEvent;)V:773 - ReplaceComparisonOperator < -> <=
+263	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.vetoableChange(Ljava/beans/PropertyChangeEvent;)V:774 - ReplaceConstant - Duplicate key2 -> 
+264	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:787 - ReplaceComparisonOperator != -> ==
+265	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:788 - ReplaceConstant - 1 -> 0
+266	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:790 - ReplaceComparisonOperator != -> -1
+267	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:790 - ReplaceComparisonOperator != -> <
+268	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:790 - ReplaceComparisonOperator != -> >
+269	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:791 - ReplaceConstant - 0 -> 1
+270	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:794 - ReplaceComparisonOperator == -> !=
+271	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:795 - ReplaceConstant - 0 -> 1
+272	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:797 - InsertUnaryOp Negation
+273	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:797 - InsertUnaryOp Negation
+274	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:797 - ReplaceComparisonOperator == -> -2
+275	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:797 - ReplaceComparisonOperator == -> >=
+276	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:797 - ReplaceComparisonOperator == -> <=
+277	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:798 - ReplaceConstant - 0 -> 1
+278	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:800 - ReplaceComparisonOperator != -> -1
+279	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:800 - ReplaceComparisonOperator != -> <
+280	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:800 - ReplaceComparisonOperator != -> >
+281	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:801 - ReplaceConstant - 0 -> 1
+282	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.equals(Ljava/lang/Object;)Z:803 - ReplaceConstant - 1 -> 0
+283	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:815 - ReplaceConstant - 29 -> 0
+284	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:815 - ReplaceConstant - 29 -> 1
+285	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:815 - ReplaceConstant - 29 -> -1
+286	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:815 - ReplaceConstant - 29 -> 28
+287	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:815 - ReplaceConstant - 29 -> 30
+288	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.hashCode()I:815 - InsertUnaryOp Negation of result
+289	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.hashCode()I:815 - InsertUnaryOp IINC 1 result
+290	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.hashCode()I:815 - InsertUnaryOp IINC -1 result
+291	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:815 - ReplaceArithmeticOperator * -> +
+292	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:815 - ReplaceArithmeticOperator * -> %
+293	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:815 - ReplaceArithmeticOperator * -> -
+294	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:815 - ReplaceArithmeticOperator * -> /
+295	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:815 - ReplaceComparisonOperator = null -> != null
+296	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:816 - ReplaceConstant - 0 -> 1
+297	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:816 - ReplaceArithmeticOperator + -> %
+298	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:816 - ReplaceArithmeticOperator + -> -
+299	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:816 - ReplaceArithmeticOperator + -> *
+300	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:816 - ReplaceArithmeticOperator + -> /
+301	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:817 - ReplaceConstant - 29 -> 0
+302	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:817 - ReplaceConstant - 29 -> 1
+303	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:817 - ReplaceConstant - 29 -> -1
+304	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:817 - ReplaceConstant - 29 -> 28
+305	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:817 - ReplaceConstant - 29 -> 30
+306	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.hashCode()I:817 - InsertUnaryOp Negation of result
+307	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.hashCode()I:817 - InsertUnaryOp IINC 1 result
+308	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.hashCode()I:817 - InsertUnaryOp IINC -1 result
+309	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:817 - ReplaceArithmeticOperator * -> +
+310	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:817 - ReplaceArithmeticOperator * -> %
+311	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:817 - ReplaceArithmeticOperator * -> -
+312	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:817 - ReplaceArithmeticOperator * -> /
+313	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:817 - ReplaceComparisonOperator = null -> != null
+314	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:818 - ReplaceConstant - 0 -> 1
+315	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:818 - ReplaceArithmeticOperator + -> %
+316	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:818 - ReplaceArithmeticOperator + -> -
+317	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:818 - ReplaceArithmeticOperator + -> *
+318	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:818 - ReplaceArithmeticOperator + -> /
+319	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceConstant - 29 -> 0
+320	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceConstant - 29 -> 1
+321	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceConstant - 29 -> -1
+322	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceConstant - 29 -> 28
+323	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceConstant - 29 -> 30
+324	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - InsertUnaryOp Negation of result
+325	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - InsertUnaryOp IINC 1 result
+326	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - InsertUnaryOp IINC -1 result
+327	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceArithmeticOperator * -> +
+328	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceArithmeticOperator * -> %
+329	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceArithmeticOperator * -> -
+330	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceArithmeticOperator * -> /
+331	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - InsertUnaryOp Negation
+332	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceComparisonOperator == -> -2
+333	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceComparisonOperator == -> >=
+334	ReplaceComparisonOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceComparisonOperator == -> <=
+335	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceConstant - 1 -> 0
+336	ReplaceConstant	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceConstant - 0 -> 1
+337	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceArithmeticOperator + -> %
+338	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceArithmeticOperator + -> -
+339	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceArithmeticOperator + -> *
+340	ReplaceArithmeticOperator	org.jfree.data.time.TimeSeriesCollection.hashCode()I:819 - ReplaceArithmeticOperator + -> /
+341	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.hashCode()I:820 - InsertUnaryOp Negation of result
+342	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.hashCode()I:820 - InsertUnaryOp IINC 1 result
+343	InsertUnaryOp	org.jfree.data.time.TimeSeriesCollection.hashCode()I:820 - InsertUnaryOp IINC -1 result

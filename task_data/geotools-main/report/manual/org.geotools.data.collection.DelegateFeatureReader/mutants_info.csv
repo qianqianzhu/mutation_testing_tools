@@ -1,0 +1,10 @@
+0	ReplaceComparisonOperator	org.geotools.data.collection.DelegateFeatureReader.next()Lorg/opengis/feature/Feature;:58 - ReplaceComparisonOperator != null -> = null
+1	ReplaceConstant	org.geotools.data.collection.DelegateFeatureReader.next()Lorg/opengis/feature/Feature;:59 - ReplaceConstant - Feature Reader has been closed -> 
+2	ReplaceConstant	org.geotools.data.collection.DelegateFeatureReader.next()Lorg/opengis/feature/Feature;:66 - ReplaceConstant - There are no more Features -> 
+3	ReplaceComparisonOperator	org.geotools.data.collection.DelegateFeatureReader.hasNext()Z:71 - ReplaceComparisonOperator = null -> != null
+4	ReplaceComparisonOperator	org.geotools.data.collection.DelegateFeatureReader.hasNext()Z:71 - ReplaceComparisonOperator == -> -2
+5	ReplaceComparisonOperator	org.geotools.data.collection.DelegateFeatureReader.hasNext()Z:71 - ReplaceComparisonOperator == -> >=
+6	ReplaceComparisonOperator	org.geotools.data.collection.DelegateFeatureReader.hasNext()Z:71 - ReplaceComparisonOperator == -> <=
+7	ReplaceConstant	org.geotools.data.collection.DelegateFeatureReader.hasNext()Z:71 - ReplaceConstant - 1 -> 0
+8	ReplaceConstant	org.geotools.data.collection.DelegateFeatureReader.hasNext()Z:71 - ReplaceConstant - 0 -> 1
+9	ReplaceComparisonOperator	org.geotools.data.collection.DelegateFeatureReader.close()V:75 - ReplaceComparisonOperator = null -> != null

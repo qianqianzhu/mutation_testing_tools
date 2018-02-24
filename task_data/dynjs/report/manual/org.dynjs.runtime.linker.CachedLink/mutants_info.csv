@@ -1,0 +1,21 @@
+0	ReplaceComparisonOperator	org.dynjs.runtime.linker.CachedLink.test([Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;:25 - ReplaceComparisonOperator != -> -1
+1	ReplaceComparisonOperator	org.dynjs.runtime.linker.CachedLink.test([Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;:25 - ReplaceComparisonOperator != -> <
+2	ReplaceComparisonOperator	org.dynjs.runtime.linker.CachedLink.test([Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;:25 - ReplaceComparisonOperator != -> >
+3	ReplaceConstant	org.dynjs.runtime.linker.CachedLink.tryInvoke([Ljava/lang/Object;)Ljava/lang/Object;:34 - ReplaceConstant - 0 -> 1
+4	InsertUnaryOp	org.dynjs.runtime.linker.CachedLink.tryInvoke([Ljava/lang/Object;)Ljava/lang/Object;:34 - InsertUnaryOp Negation of i
+5	InsertUnaryOp	org.dynjs.runtime.linker.CachedLink.tryInvoke([Ljava/lang/Object;)Ljava/lang/Object;:34 - InsertUnaryOp IINC 1 i
+6	InsertUnaryOp	org.dynjs.runtime.linker.CachedLink.tryInvoke([Ljava/lang/Object;)Ljava/lang/Object;:34 - InsertUnaryOp IINC -1 i
+7	ReplaceComparisonOperator	org.dynjs.runtime.linker.CachedLink.tryInvoke([Ljava/lang/Object;)Ljava/lang/Object;:34 - ReplaceComparisonOperator >= -> -1
+8	ReplaceComparisonOperator	org.dynjs.runtime.linker.CachedLink.tryInvoke([Ljava/lang/Object;)Ljava/lang/Object;:34 - ReplaceComparisonOperator >= -> >
+9	ReplaceComparisonOperator	org.dynjs.runtime.linker.CachedLink.tryInvoke([Ljava/lang/Object;)Ljava/lang/Object;:34 - ReplaceComparisonOperator >= -> ==
+10	InsertUnaryOp	org.dynjs.runtime.linker.CachedLink.tryInvoke([Ljava/lang/Object;)Ljava/lang/Object;:35 - InsertUnaryOp Negation of i
+11	InsertUnaryOp	org.dynjs.runtime.linker.CachedLink.tryInvoke([Ljava/lang/Object;)Ljava/lang/Object;:35 - InsertUnaryOp IINC 1 i
+12	InsertUnaryOp	org.dynjs.runtime.linker.CachedLink.tryInvoke([Ljava/lang/Object;)Ljava/lang/Object;:35 - InsertUnaryOp IINC -1 i
+13	InsertUnaryOp	org.dynjs.runtime.linker.CachedLink.tryInvoke([Ljava/lang/Object;)Ljava/lang/Object;:35 - InsertUnaryOp Negation of i
+14	InsertUnaryOp	org.dynjs.runtime.linker.CachedLink.tryInvoke([Ljava/lang/Object;)Ljava/lang/Object;:35 - InsertUnaryOp IINC 1 i
+15	InsertUnaryOp	org.dynjs.runtime.linker.CachedLink.tryInvoke([Ljava/lang/Object;)Ljava/lang/Object;:35 - InsertUnaryOp IINC -1 i
+16	ReplaceComparisonOperator	org.dynjs.runtime.linker.CachedLink.tryInvoke([Ljava/lang/Object;)Ljava/lang/Object;:39 - ReplaceComparisonOperator != null -> = null
+17	ReplaceComparisonOperator	org.dynjs.runtime.linker.CachedLink.guard()Ljava/lang/invoke/MethodHandle;:47 - ReplaceComparisonOperator != null -> = null
+18	ReplaceComparisonOperator	org.dynjs.runtime.linker.CachedLink.target()Ljava/lang/invoke/MethodHandle;:55 - ReplaceComparisonOperator != null -> = null
+19	ReplaceConstant	org.dynjs.runtime.linker.CachedLink.toString()Ljava/lang/String;:62 - ReplaceConstant - [CachedLink: delegate= -> 
+20	ReplaceConstant	org.dynjs.runtime.linker.CachedLink.toString()Ljava/lang/String;:62 - ReplaceConstant - ] -> 

@@ -1,0 +1,365 @@
+0	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>()V:150 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>()V:150 - ReplaceConstant - 0 -> -1
+2	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:169 - InsertUnaryOp Negation of baseMillis
+3	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:170 - ReplaceConstant - 0 -> 1
+4	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:171 - ReplaceConstant - 1 -> 0
+5	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:174 - ReplaceConstant - d -> 
+6	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:176 - ReplaceConstant - h -> 
+7	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:178 - ReplaceConstant - m -> 
+8	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:180 - ReplaceConstant - 3 -> 0
+9	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:180 - ReplaceConstant - 3 -> 1
+10	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:180 - ReplaceConstant - 3 -> -1
+11	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:180 - ReplaceConstant - 3 -> 2
+12	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:180 - ReplaceConstant - 3 -> 4
+13	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:181 - ReplaceConstant - 3 -> 0
+14	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:181 - ReplaceConstant - 3 -> 1
+15	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:181 - ReplaceConstant - 3 -> -1
+16	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:181 - ReplaceConstant - 3 -> 2
+17	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:181 - ReplaceConstant - 3 -> 4
+18	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:182 - ReplaceConstant - s -> 
+19	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.<init>(J)V:187 - ReplaceConstant - 0 -> 
+20	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.getBaseMillis()J:199 - InsertUnaryOp Negation
+21	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.setBaseMillis(J)V:212 - InsertUnaryOp Negation of baseMillis
+22	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.getShowZeroDays()Z:224 - InsertUnaryOp Negation
+23	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.setShowZeroDays(Z)V:236 - InsertUnaryOp Negation of show
+24	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.setShowZeroDays(Z)V:236 - InsertUnaryOp IINC 1 show
+25	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.setShowZeroDays(Z)V:236 - InsertUnaryOp IINC -1 show
+26	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.getShowZeroHours()Z:250 - InsertUnaryOp Negation
+27	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.setShowZeroHours(Z)V:264 - InsertUnaryOp Negation of show
+28	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.setShowZeroHours(Z)V:264 - InsertUnaryOp IINC 1 show
+29	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.setShowZeroHours(Z)V:264 - InsertUnaryOp IINC -1 show
+30	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.setPositivePrefix(Ljava/lang/String;)V:292 - ReplaceConstant - prefix -> 
+31	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.setDayFormatter(Ljava/text/NumberFormat;)V:304 - ReplaceConstant - formatter -> 
+32	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.setDaySuffix(Ljava/lang/String;)V:327 - ReplaceConstant - suffix -> 
+33	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.setHourFormatter(Ljava/text/NumberFormat;)V:339 - ReplaceConstant - formatter -> 
+34	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.setHourSuffix(Ljava/lang/String;)V:362 - ReplaceConstant - suffix -> 
+35	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.setMinuteFormatter(Ljava/text/NumberFormat;)V:374 - ReplaceConstant - formatter -> 
+36	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.setMinuteSuffix(Ljava/lang/String;)V:397 - ReplaceConstant - suffix -> 
+37	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.setSecondSuffix(Ljava/lang/String;)V:420 - ReplaceConstant - suffix -> 
+38	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.setSecondFormatter(Ljava/text/NumberFormat;)V:430 - ReplaceConstant - formatter -> 
+39	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:448 - InsertUnaryOp Negation of currentMillis
+40	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:448 - InsertUnaryOp Negation
+41	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:448 - ReplaceArithmeticOperator - -> +
+42	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:448 - ReplaceArithmeticOperator - -> %
+43	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:448 - ReplaceArithmeticOperator - -> *
+44	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:448 - ReplaceArithmeticOperator - -> /
+45	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:450 - InsertUnaryOp Negation of elapsed
+46	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:450 - ReplaceConstant - 0 -> 1
+47	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:450 - ReplaceConstant - 0 -> -1
+48	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:450 - ReplaceComparisonOperator >= -> -1
+49	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:450 - ReplaceComparisonOperator >= -> ==
+50	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:450 - ReplaceComparisonOperator >= -> >
+51	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:451 - InsertUnaryOp Negation of elapsed
+52	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:451 - ReplaceConstant - -1 -> 0
+53	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:451 - ReplaceConstant - -1 -> 1
+54	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:451 - ReplaceConstant - -1 -> -2
+55	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:451 - ReplaceArithmeticOperator * -> +
+56	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:451 - ReplaceArithmeticOperator * -> %
+57	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:451 - ReplaceArithmeticOperator * -> -
+58	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:451 - ReplaceArithmeticOperator * -> /
+59	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:452 - ReplaceConstant - - -> 
+60	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:458 - InsertUnaryOp Negation of elapsed
+61	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:458 - ReplaceConstant - 86400000 -> 0
+62	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:458 - ReplaceConstant - 86400000 -> 1
+63	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:458 - ReplaceConstant - 86400000 -> -1
+64	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:458 - ReplaceConstant - 86400000 -> 86399999
+65	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:458 - ReplaceConstant - 86400000 -> 86400001
+66	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:458 - ReplaceArithmeticOperator / -> +
+67	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:458 - ReplaceArithmeticOperator / -> %
+68	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:458 - ReplaceArithmeticOperator / -> -
+69	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:458 - ReplaceArithmeticOperator / -> *
+70	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:459 - InsertUnaryOp Negation of elapsed
+71	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:459 - InsertUnaryOp Negation of days
+72	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:459 - ReplaceConstant - 86400000 -> 0
+73	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:459 - ReplaceConstant - 86400000 -> 1
+74	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:459 - ReplaceConstant - 86400000 -> -1
+75	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:459 - ReplaceConstant - 86400000 -> 86399999
+76	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:459 - ReplaceConstant - 86400000 -> 86400001
+77	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:459 - ReplaceArithmeticOperator * -> +
+78	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:459 - ReplaceArithmeticOperator * -> %
+79	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:459 - ReplaceArithmeticOperator * -> -
+80	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:459 - ReplaceArithmeticOperator * -> /
+81	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:459 - ReplaceArithmeticOperator - -> +
+82	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:459 - ReplaceArithmeticOperator - -> %
+83	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:459 - ReplaceArithmeticOperator - -> *
+84	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:459 - ReplaceArithmeticOperator - -> /
+85	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:460 - InsertUnaryOp Negation of elapsed
+86	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:460 - ReplaceConstant - 3600000 -> 0
+87	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:460 - ReplaceConstant - 3600000 -> 1
+88	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:460 - ReplaceConstant - 3600000 -> -1
+89	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:460 - ReplaceConstant - 3600000 -> 3599999
+90	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:460 - ReplaceConstant - 3600000 -> 3600001
+91	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:460 - ReplaceArithmeticOperator / -> +
+92	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:460 - ReplaceArithmeticOperator / -> %
+93	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:460 - ReplaceArithmeticOperator / -> -
+94	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:460 - ReplaceArithmeticOperator / -> *
+95	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:461 - InsertUnaryOp Negation of elapsed
+96	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:461 - InsertUnaryOp Negation of hours
+97	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:461 - ReplaceConstant - 3600000 -> 0
+98	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:461 - ReplaceConstant - 3600000 -> 1
+99	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:461 - ReplaceConstant - 3600000 -> -1
+100	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:461 - ReplaceConstant - 3600000 -> 3599999
+101	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:461 - ReplaceConstant - 3600000 -> 3600001
+102	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:461 - ReplaceArithmeticOperator * -> +
+103	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:461 - ReplaceArithmeticOperator * -> %
+104	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:461 - ReplaceArithmeticOperator * -> -
+105	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:461 - ReplaceArithmeticOperator * -> /
+106	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:461 - ReplaceArithmeticOperator - -> +
+107	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:461 - ReplaceArithmeticOperator - -> %
+108	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:461 - ReplaceArithmeticOperator - -> *
+109	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:461 - ReplaceArithmeticOperator - -> /
+110	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:462 - InsertUnaryOp Negation of elapsed
+111	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:462 - ReplaceConstant - 60000 -> 0
+112	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:462 - ReplaceConstant - 60000 -> 1
+113	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:462 - ReplaceConstant - 60000 -> -1
+114	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:462 - ReplaceConstant - 60000 -> 59999
+115	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:462 - ReplaceConstant - 60000 -> 60001
+116	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:462 - ReplaceArithmeticOperator / -> +
+117	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:462 - ReplaceArithmeticOperator / -> %
+118	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:462 - ReplaceArithmeticOperator / -> -
+119	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:462 - ReplaceArithmeticOperator / -> *
+120	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:463 - InsertUnaryOp Negation of elapsed
+121	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:463 - InsertUnaryOp Negation of minutes
+122	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:463 - ReplaceConstant - 60000 -> 0
+123	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:463 - ReplaceConstant - 60000 -> 1
+124	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:463 - ReplaceConstant - 60000 -> -1
+125	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:463 - ReplaceConstant - 60000 -> 59999
+126	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:463 - ReplaceConstant - 60000 -> 60001
+127	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:463 - ReplaceArithmeticOperator * -> +
+128	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:463 - ReplaceArithmeticOperator * -> %
+129	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:463 - ReplaceArithmeticOperator * -> -
+130	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:463 - ReplaceArithmeticOperator * -> /
+131	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:463 - ReplaceArithmeticOperator - -> +
+132	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:463 - ReplaceArithmeticOperator - -> %
+133	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:463 - ReplaceArithmeticOperator - -> *
+134	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:463 - ReplaceArithmeticOperator - -> /
+135	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:464 - InsertUnaryOp Negation of elapsed
+136	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:464 - ReplaceConstant - 1000.0 -> 0.0
+137	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:464 - ReplaceConstant - 1000.0 -> 1.0
+138	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:464 - ReplaceConstant - 1000.0 -> -1.0
+139	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:464 - ReplaceConstant - 1000.0 -> 999.0
+140	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:464 - ReplaceConstant - 1000.0 -> 1001.0
+141	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:464 - ReplaceArithmeticOperator / -> +
+142	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:464 - ReplaceArithmeticOperator / -> %
+143	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:464 - ReplaceArithmeticOperator / -> -
+144	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:464 - ReplaceArithmeticOperator / -> *
+145	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:467 - InsertUnaryOp Negation of days
+146	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:467 - ReplaceConstant - 0 -> 1
+147	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:467 - ReplaceConstant - 0 -> -1
+148	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:467 - ReplaceComparisonOperator != -> -1
+149	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:467 - ReplaceComparisonOperator != -> <
+150	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:467 - ReplaceComparisonOperator != -> >
+151	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:467 - InsertUnaryOp Negation
+152	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:467 - ReplaceComparisonOperator == -> -2
+153	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:467 - ReplaceComparisonOperator == -> >=
+154	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:467 - ReplaceComparisonOperator == -> <=
+155	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:468 - InsertUnaryOp Negation of days
+156	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:471 - InsertUnaryOp Negation of hours
+157	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:471 - ReplaceConstant - 0 -> 1
+158	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:471 - ReplaceConstant - 0 -> -1
+159	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:471 - ReplaceComparisonOperator != -> -1
+160	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:471 - ReplaceComparisonOperator != -> <
+161	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:471 - ReplaceComparisonOperator != -> >
+162	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:471 - InsertUnaryOp Negation
+163	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:471 - ReplaceComparisonOperator == -> -2
+164	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:471 - ReplaceComparisonOperator == -> >=
+165	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:471 - ReplaceComparisonOperator == -> <=
+166	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:472 - InsertUnaryOp Negation of hours
+167	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:475 - InsertUnaryOp Negation of minutes
+168	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.format(Ljava/util/Date;Ljava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:477 - InsertUnaryOp Negation of seconds
+169	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:504 - ReplaceComparisonOperator != -> ==
+170	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:505 - ReplaceConstant - 1 -> 0
+171	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:507 - ReplaceComparisonOperator != -> -1
+172	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:507 - ReplaceComparisonOperator != -> <
+173	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:507 - ReplaceComparisonOperator != -> >
+174	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:508 - ReplaceConstant - 0 -> 1
+175	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:510 - ReplaceComparisonOperator != -> -1
+176	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:510 - ReplaceComparisonOperator != -> <
+177	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:510 - ReplaceComparisonOperator != -> >
+178	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:511 - ReplaceConstant - 0 -> 1
+179	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:514 - InsertUnaryOp Negation
+180	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:514 - InsertUnaryOp Negation
+181	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:514 - ReplaceComparisonOperator == -> -2
+182	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:514 - ReplaceComparisonOperator == -> >=
+183	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:514 - ReplaceComparisonOperator == -> <=
+184	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:515 - ReplaceConstant - 0 -> 1
+185	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:517 - InsertUnaryOp Negation
+186	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:517 - InsertUnaryOp Negation
+187	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:517 - ReplaceComparisonOperator == -> -2
+188	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:517 - ReplaceComparisonOperator == -> >=
+189	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:517 - ReplaceComparisonOperator == -> <=
+190	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:518 - ReplaceConstant - 0 -> 1
+191	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:520 - InsertUnaryOp Negation
+192	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:520 - InsertUnaryOp Negation
+193	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:520 - ReplaceComparisonOperator == -> -2
+194	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:520 - ReplaceComparisonOperator == -> >=
+195	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:520 - ReplaceComparisonOperator == -> <=
+196	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:521 - ReplaceConstant - 0 -> 1
+197	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:523 - ReplaceComparisonOperator != -> -1
+198	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:523 - ReplaceComparisonOperator != -> <
+199	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:523 - ReplaceComparisonOperator != -> >
+200	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:524 - ReplaceConstant - 0 -> 1
+201	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:526 - ReplaceComparisonOperator != -> -1
+202	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:526 - ReplaceComparisonOperator != -> <
+203	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:526 - ReplaceComparisonOperator != -> >
+204	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:527 - ReplaceConstant - 0 -> 1
+205	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:529 - ReplaceComparisonOperator != -> -1
+206	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:529 - ReplaceComparisonOperator != -> <
+207	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:529 - ReplaceComparisonOperator != -> >
+208	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:530 - ReplaceConstant - 0 -> 1
+209	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:532 - ReplaceComparisonOperator != -> -1
+210	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:532 - ReplaceComparisonOperator != -> <
+211	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:532 - ReplaceComparisonOperator != -> >
+212	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:533 - ReplaceConstant - 0 -> 1
+213	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:535 - ReplaceComparisonOperator != -> -1
+214	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:535 - ReplaceComparisonOperator != -> <
+215	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:535 - ReplaceComparisonOperator != -> >
+216	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:536 - ReplaceConstant - 0 -> 1
+217	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:538 - ReplaceComparisonOperator != -> -1
+218	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:538 - ReplaceComparisonOperator != -> <
+219	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:538 - ReplaceComparisonOperator != -> >
+220	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:539 - ReplaceConstant - 0 -> 1
+221	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:541 - ReplaceComparisonOperator != -> -1
+222	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:541 - ReplaceComparisonOperator != -> <
+223	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:541 - ReplaceComparisonOperator != -> >
+224	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:542 - ReplaceConstant - 0 -> 1
+225	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:544 - ReplaceComparisonOperator != -> -1
+226	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:544 - ReplaceComparisonOperator != -> <
+227	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:544 - ReplaceComparisonOperator != -> >
+228	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:545 - ReplaceConstant - 0 -> 1
+229	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:547 - ReplaceComparisonOperator != -> -1
+230	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:547 - ReplaceComparisonOperator != -> <
+231	ReplaceComparisonOperator	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:547 - ReplaceComparisonOperator != -> >
+232	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:548 - ReplaceConstant - 0 -> 1
+233	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.equals(Ljava/lang/Object;)Z:550 - ReplaceConstant - 1 -> 0
+234	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:560 - ReplaceConstant - 193 -> 0
+235	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:560 - ReplaceConstant - 193 -> 1
+236	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:560 - ReplaceConstant - 193 -> -1
+237	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:560 - ReplaceConstant - 193 -> 192
+238	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:560 - ReplaceConstant - 193 -> 194
+239	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceConstant - 37 -> 0
+240	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceConstant - 37 -> 1
+241	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceConstant - 37 -> -1
+242	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceConstant - 37 -> 36
+243	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceConstant - 37 -> 38
+244	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - InsertUnaryOp Negation of result
+245	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - InsertUnaryOp IINC 1 result
+246	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - InsertUnaryOp IINC -1 result
+247	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceArithmeticOperator * -> +
+248	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceArithmeticOperator * -> %
+249	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceArithmeticOperator * -> -
+250	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceArithmeticOperator * -> /
+251	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - InsertUnaryOp Negation
+252	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - InsertUnaryOp Negation
+253	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceConstant - 32 -> 0
+254	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceConstant - 32 -> 1
+255	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceConstant - 32 -> -1
+256	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceConstant - 32 -> 31
+257	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceConstant - 32 -> 33
+258	ReplaceBitwiseOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceBitwiseOperator >>> L -> << L
+259	ReplaceBitwiseOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceBitwiseOperator >>> L -> >> L
+260	ReplaceBitwiseOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceBitwiseOperator ^ -> |
+261	ReplaceBitwiseOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceBitwiseOperator ^ -> &
+262	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceArithmeticOperator + -> %
+263	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceArithmeticOperator + -> -
+264	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceArithmeticOperator + -> *
+265	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:561 - ReplaceArithmeticOperator + -> /
+266	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:563 - ReplaceConstant - 37 -> 0
+267	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:563 - ReplaceConstant - 37 -> 1
+268	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:563 - ReplaceConstant - 37 -> -1
+269	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:563 - ReplaceConstant - 37 -> 36
+270	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:563 - ReplaceConstant - 37 -> 38
+271	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:563 - InsertUnaryOp Negation of result
+272	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:563 - InsertUnaryOp IINC 1 result
+273	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:563 - InsertUnaryOp IINC -1 result
+274	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:563 - ReplaceArithmeticOperator * -> +
+275	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:563 - ReplaceArithmeticOperator * -> %
+276	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:563 - ReplaceArithmeticOperator * -> -
+277	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:563 - ReplaceArithmeticOperator * -> /
+278	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:563 - ReplaceArithmeticOperator + -> %
+279	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:563 - ReplaceArithmeticOperator + -> -
+280	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:563 - ReplaceArithmeticOperator + -> *
+281	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:563 - ReplaceArithmeticOperator + -> /
+282	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:564 - ReplaceConstant - 37 -> 0
+283	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:564 - ReplaceConstant - 37 -> 1
+284	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:564 - ReplaceConstant - 37 -> -1
+285	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:564 - ReplaceConstant - 37 -> 36
+286	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:564 - ReplaceConstant - 37 -> 38
+287	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:564 - InsertUnaryOp Negation of result
+288	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:564 - InsertUnaryOp IINC 1 result
+289	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:564 - InsertUnaryOp IINC -1 result
+290	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:564 - ReplaceArithmeticOperator * -> +
+291	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:564 - ReplaceArithmeticOperator * -> %
+292	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:564 - ReplaceArithmeticOperator * -> -
+293	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:564 - ReplaceArithmeticOperator * -> /
+294	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:564 - ReplaceArithmeticOperator + -> %
+295	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:564 - ReplaceArithmeticOperator + -> -
+296	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:564 - ReplaceArithmeticOperator + -> *
+297	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:564 - ReplaceArithmeticOperator + -> /
+298	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:565 - ReplaceConstant - 37 -> 0
+299	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:565 - ReplaceConstant - 37 -> 1
+300	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:565 - ReplaceConstant - 37 -> -1
+301	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:565 - ReplaceConstant - 37 -> 36
+302	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:565 - ReplaceConstant - 37 -> 38
+303	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:565 - InsertUnaryOp Negation of result
+304	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:565 - InsertUnaryOp IINC 1 result
+305	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:565 - InsertUnaryOp IINC -1 result
+306	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:565 - ReplaceArithmeticOperator * -> +
+307	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:565 - ReplaceArithmeticOperator * -> %
+308	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:565 - ReplaceArithmeticOperator * -> -
+309	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:565 - ReplaceArithmeticOperator * -> /
+310	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:565 - ReplaceArithmeticOperator + -> %
+311	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:565 - ReplaceArithmeticOperator + -> -
+312	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:565 - ReplaceArithmeticOperator + -> *
+313	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:565 - ReplaceArithmeticOperator + -> /
+314	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:566 - ReplaceConstant - 37 -> 0
+315	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:566 - ReplaceConstant - 37 -> 1
+316	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:566 - ReplaceConstant - 37 -> -1
+317	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:566 - ReplaceConstant - 37 -> 36
+318	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:566 - ReplaceConstant - 37 -> 38
+319	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:566 - InsertUnaryOp Negation of result
+320	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:566 - InsertUnaryOp IINC 1 result
+321	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:566 - InsertUnaryOp IINC -1 result
+322	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:566 - ReplaceArithmeticOperator * -> +
+323	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:566 - ReplaceArithmeticOperator * -> %
+324	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:566 - ReplaceArithmeticOperator * -> -
+325	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:566 - ReplaceArithmeticOperator * -> /
+326	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:566 - ReplaceArithmeticOperator + -> %
+327	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:566 - ReplaceArithmeticOperator + -> -
+328	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:566 - ReplaceArithmeticOperator + -> *
+329	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:566 - ReplaceArithmeticOperator + -> /
+330	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:567 - ReplaceConstant - 37 -> 0
+331	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:567 - ReplaceConstant - 37 -> 1
+332	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:567 - ReplaceConstant - 37 -> -1
+333	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:567 - ReplaceConstant - 37 -> 36
+334	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:567 - ReplaceConstant - 37 -> 38
+335	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:567 - InsertUnaryOp Negation of result
+336	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:567 - InsertUnaryOp IINC 1 result
+337	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:567 - InsertUnaryOp IINC -1 result
+338	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:567 - ReplaceArithmeticOperator * -> +
+339	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:567 - ReplaceArithmeticOperator * -> %
+340	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:567 - ReplaceArithmeticOperator * -> -
+341	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:567 - ReplaceArithmeticOperator * -> /
+342	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:567 - ReplaceArithmeticOperator + -> %
+343	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:567 - ReplaceArithmeticOperator + -> -
+344	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:567 - ReplaceArithmeticOperator + -> *
+345	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:567 - ReplaceArithmeticOperator + -> /
+346	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:568 - ReplaceConstant - 37 -> 0
+347	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:568 - ReplaceConstant - 37 -> 1
+348	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:568 - ReplaceConstant - 37 -> -1
+349	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:568 - ReplaceConstant - 37 -> 36
+350	ReplaceConstant	org.jfree.chart.util.RelativeDateFormat.hashCode()I:568 - ReplaceConstant - 37 -> 38
+351	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:568 - InsertUnaryOp Negation of result
+352	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:568 - InsertUnaryOp IINC 1 result
+353	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:568 - InsertUnaryOp IINC -1 result
+354	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:568 - ReplaceArithmeticOperator * -> +
+355	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:568 - ReplaceArithmeticOperator * -> %
+356	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:568 - ReplaceArithmeticOperator * -> -
+357	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:568 - ReplaceArithmeticOperator * -> /
+358	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:568 - ReplaceArithmeticOperator + -> %
+359	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:568 - ReplaceArithmeticOperator + -> -
+360	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:568 - ReplaceArithmeticOperator + -> *
+361	ReplaceArithmeticOperator	org.jfree.chart.util.RelativeDateFormat.hashCode()I:568 - ReplaceArithmeticOperator + -> /
+362	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:569 - InsertUnaryOp Negation of result
+363	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:569 - InsertUnaryOp IINC 1 result
+364	InsertUnaryOp	org.jfree.chart.util.RelativeDateFormat.hashCode()I:569 - InsertUnaryOp IINC -1 result

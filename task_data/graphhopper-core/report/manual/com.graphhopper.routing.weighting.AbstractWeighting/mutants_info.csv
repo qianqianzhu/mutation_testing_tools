@@ -1,0 +1,127 @@
+0	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.<init>(Lcom/graphhopper/routing/util/FlagEncoder;)V:32 - ReplaceComparisonOperator != -> -1
+1	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.<init>(Lcom/graphhopper/routing/util/FlagEncoder;)V:32 - ReplaceComparisonOperator != -> <
+2	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.<init>(Lcom/graphhopper/routing/util/FlagEncoder;)V:32 - ReplaceComparisonOperator != -> >
+3	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.<init>(Lcom/graphhopper/routing/util/FlagEncoder;)V:33 - ReplaceConstant - Make sure you add the FlagEncoder  -> 
+4	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.<init>(Lcom/graphhopper/routing/util/FlagEncoder;)V:33 - ReplaceConstant -  to an EncodingManager before using it elsewhere -> 
+5	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.<init>(Lcom/graphhopper/routing/util/FlagEncoder;)V:34 - ReplaceComparisonOperator != -> -1
+6	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.<init>(Lcom/graphhopper/routing/util/FlagEncoder;)V:34 - ReplaceComparisonOperator != -> <
+7	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.<init>(Lcom/graphhopper/routing/util/FlagEncoder;)V:34 - ReplaceComparisonOperator != -> >
+8	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.<init>(Lcom/graphhopper/routing/util/FlagEncoder;)V:35 - ReplaceConstant - Not a valid name for a Weighting:  -> 
+9	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:41 - InsertUnaryOp Negation of reverse
+10	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:41 - InsertUnaryOp IINC 1 reverse
+11	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:41 - InsertUnaryOp IINC -1 reverse
+12	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:41 - ReplaceComparisonOperator == -> -2
+13	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:41 - ReplaceComparisonOperator == -> >=
+14	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:41 - ReplaceComparisonOperator == -> <=
+15	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:41 - InsertUnaryOp Negation of flags
+16	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:41 - ReplaceComparisonOperator == -> -2
+17	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:41 - ReplaceComparisonOperator == -> >=
+18	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:41 - ReplaceComparisonOperator == -> <=
+19	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:41 - InsertUnaryOp Negation of reverse
+20	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:41 - InsertUnaryOp IINC 1 reverse
+21	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:41 - InsertUnaryOp IINC -1 reverse
+22	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:41 - ReplaceComparisonOperator != -> -1
+23	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:41 - ReplaceComparisonOperator != -> <
+24	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:41 - ReplaceComparisonOperator != -> >
+25	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:41 - InsertUnaryOp Negation of flags
+26	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:42 - ReplaceComparisonOperator != -> -1
+27	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:42 - ReplaceComparisonOperator != -> <
+28	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:42 - ReplaceComparisonOperator != -> >
+29	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:43 - ReplaceConstant - Calculating time should not require to read speed from edge in wrong direction. Reverse: -> 
+30	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:43 - InsertUnaryOp Negation of reverse
+31	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:43 - InsertUnaryOp IINC 1 reverse
+32	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:43 - InsertUnaryOp IINC -1 reverse
+33	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:43 - ReplaceConstant - , fwd: -> 
+34	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:43 - InsertUnaryOp Negation of flags
+35	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:44 - ReplaceConstant - , bwd: -> 
+36	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:44 - InsertUnaryOp Negation of flags
+37	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:46 - InsertUnaryOp Negation of reverse
+38	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:46 - InsertUnaryOp IINC 1 reverse
+39	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:46 - InsertUnaryOp IINC -1 reverse
+40	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:46 - ReplaceComparisonOperator == -> -2
+41	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:46 - ReplaceComparisonOperator == -> >=
+42	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:46 - ReplaceComparisonOperator == -> <=
+43	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:46 - InsertUnaryOp Negation of flags
+44	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:46 - InsertUnaryOp Negation of flags
+45	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:47 - InsertUnaryOp Negation of speed
+46	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:47 - ReplaceComparisonOperator != -> -1
+47	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:47 - ReplaceComparisonOperator != -> <
+48	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:47 - ReplaceComparisonOperator != -> >
+49	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:47 - InsertUnaryOp Negation of speed
+50	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:47 - ReplaceComparisonOperator != -> -1
+51	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:47 - ReplaceComparisonOperator != -> <
+52	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:47 - ReplaceComparisonOperator != -> >
+53	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:47 - InsertUnaryOp Negation of speed
+54	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:47 - ReplaceConstant - 0.0 -> 1.0
+55	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:47 - ReplaceConstant - 0.0 -> -1.0
+56	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:47 - ReplaceComparisonOperator >= -> -1
+57	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:47 - ReplaceComparisonOperator >= -> ==
+58	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:47 - ReplaceComparisonOperator >= -> >
+59	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:48 - ReplaceConstant - Invalid speed stored in edge!  -> 
+60	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:48 - InsertUnaryOp Negation of speed
+61	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:49 - InsertUnaryOp Negation of speed
+62	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:49 - ReplaceConstant - 0.0 -> 1.0
+63	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:49 - ReplaceConstant - 0.0 -> -1.0
+64	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:49 - ReplaceComparisonOperator != -> -1
+65	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:49 - ReplaceComparisonOperator != -> <
+66	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:49 - ReplaceComparisonOperator != -> >
+67	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:50 - ReplaceConstant - Speed cannot be 0 for unblocked edge, use access properties to mark edge blocked! Should only occur for shortest path calculation. See #242. -> 
+68	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:52 - ReplaceConstant - 3600.0 -> 0.0
+69	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:52 - ReplaceConstant - 3600.0 -> 1.0
+70	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:52 - ReplaceConstant - 3600.0 -> -1.0
+71	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:52 - ReplaceConstant - 3600.0 -> 3599.0
+72	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:52 - ReplaceConstant - 3600.0 -> 3601.0
+73	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:52 - ReplaceArithmeticOperator * -> +
+74	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:52 - ReplaceArithmeticOperator * -> %
+75	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:52 - ReplaceArithmeticOperator * -> -
+76	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:52 - ReplaceArithmeticOperator * -> /
+77	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:52 - InsertUnaryOp Negation of speed
+78	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:52 - ReplaceArithmeticOperator / -> +
+79	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:52 - ReplaceArithmeticOperator / -> %
+80	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:52 - ReplaceArithmeticOperator / -> -
+81	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AbstractWeighting.calcMillis(Lcom/graphhopper/util/EdgeIteratorState;ZI)J:52 - ReplaceArithmeticOperator / -> *
+82	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.matches(Lcom/graphhopper/routing/util/HintsMap;)Z:57 - ReplaceComparisonOperator == -> -2
+83	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.matches(Lcom/graphhopper/routing/util/HintsMap;)Z:57 - ReplaceComparisonOperator == -> >=
+84	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.matches(Lcom/graphhopper/routing/util/HintsMap;)Z:57 - ReplaceComparisonOperator == -> <=
+85	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.matches(Lcom/graphhopper/routing/util/HintsMap;)Z:58 - ReplaceComparisonOperator == -> -2
+86	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.matches(Lcom/graphhopper/routing/util/HintsMap;)Z:58 - ReplaceComparisonOperator == -> >=
+87	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.matches(Lcom/graphhopper/routing/util/HintsMap;)Z:58 - ReplaceComparisonOperator == -> <=
+88	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.matches(Lcom/graphhopper/routing/util/HintsMap;)Z:58 - ReplaceConstant - 1 -> 0
+89	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.matches(Lcom/graphhopper/routing/util/HintsMap;)Z:58 - ReplaceConstant - 0 -> 1
+90	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:68 - ReplaceConstant - 7 -> 0
+91	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:68 - ReplaceConstant - 7 -> 1
+92	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:68 - ReplaceConstant - 7 -> -1
+93	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:68 - ReplaceConstant - 7 -> 6
+94	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:68 - ReplaceConstant - 7 -> 8
+95	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:69 - ReplaceConstant - 71 -> 0
+96	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:69 - ReplaceConstant - 71 -> 1
+97	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:69 - ReplaceConstant - 71 -> -1
+98	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:69 - ReplaceConstant - 71 -> 70
+99	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:69 - ReplaceConstant - 71 -> 72
+100	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:69 - InsertUnaryOp Negation of hash
+101	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:69 - InsertUnaryOp IINC 1 hash
+102	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:69 - InsertUnaryOp IINC -1 hash
+103	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:69 - ReplaceArithmeticOperator * -> +
+104	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:69 - ReplaceArithmeticOperator * -> %
+105	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:69 - ReplaceArithmeticOperator * -> -
+106	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:69 - ReplaceArithmeticOperator * -> /
+107	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:69 - ReplaceArithmeticOperator + -> %
+108	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:69 - ReplaceArithmeticOperator + -> -
+109	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:69 - ReplaceArithmeticOperator + -> *
+110	ReplaceArithmeticOperator	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:69 - ReplaceArithmeticOperator + -> /
+111	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:70 - InsertUnaryOp Negation of hash
+112	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:70 - InsertUnaryOp IINC 1 hash
+113	InsertUnaryOp	com.graphhopper.routing.weighting.AbstractWeighting.hashCode()I:70 - InsertUnaryOp IINC -1 hash
+114	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.equals(Ljava/lang/Object;)Z:75 - ReplaceComparisonOperator != null -> = null
+115	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.equals(Ljava/lang/Object;)Z:76 - ReplaceConstant - 0 -> 1
+116	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.equals(Ljava/lang/Object;)Z:77 - ReplaceComparisonOperator == -> !=
+117	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.equals(Ljava/lang/Object;)Z:78 - ReplaceConstant - 0 -> 1
+118	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.isValidName(Ljava/lang/String;)Z:84 - ReplaceComparisonOperator = null -> != null
+119	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.isValidName(Ljava/lang/String;)Z:84 - ReplaceComparisonOperator == -> -2
+120	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.isValidName(Ljava/lang/String;)Z:84 - ReplaceComparisonOperator == -> >=
+121	ReplaceComparisonOperator	com.graphhopper.routing.weighting.AbstractWeighting.isValidName(Ljava/lang/String;)Z:84 - ReplaceComparisonOperator == -> <=
+122	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.isValidName(Ljava/lang/String;)Z:85 - ReplaceConstant - 0 -> 1
+123	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.isValidName(Ljava/lang/String;)Z:87 - ReplaceConstant - [\|_a-z]+ -> 
+124	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.weightingToFileName(Lcom/graphhopper/routing/weighting/Weighting;)Ljava/lang/String;:94 - ReplaceConstant - \| -> 
+125	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.weightingToFileName(Lcom/graphhopper/routing/weighting/Weighting;)Ljava/lang/String;:94 - ReplaceConstant - _ -> 
+126	ReplaceConstant	com.graphhopper.routing.weighting.AbstractWeighting.toString()Ljava/lang/String;:99 - ReplaceConstant - | -> 

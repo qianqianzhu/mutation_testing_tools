@@ -1,0 +1,19 @@
+0	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.WeakCacheKey.equals(Ljava/lang/Object;)Z:24 - ReplaceComparisonOperator != -> -1
+1	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.WeakCacheKey.equals(Ljava/lang/Object;)Z:24 - ReplaceComparisonOperator != -> <
+2	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.WeakCacheKey.equals(Ljava/lang/Object;)Z:24 - ReplaceComparisonOperator != -> >
+3	ReplaceConstant	org.assertj.core.internal.cglib.core.WeakCacheKey.equals(Ljava/lang/Object;)Z:25 - ReplaceConstant - 0 -> 1
+4	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.WeakCacheKey.equals(Ljava/lang/Object;)Z:29 - ReplaceComparisonOperator = null -> != null
+5	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.WeakCacheKey.equals(Ljava/lang/Object;)Z:29 - ReplaceComparisonOperator = null -> != null
+6	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.WeakCacheKey.equals(Ljava/lang/Object;)Z:29 - ReplaceComparisonOperator == -> -2
+7	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.WeakCacheKey.equals(Ljava/lang/Object;)Z:29 - ReplaceComparisonOperator == -> >=
+8	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.WeakCacheKey.equals(Ljava/lang/Object;)Z:29 - ReplaceComparisonOperator == -> <=
+9	ReplaceConstant	org.assertj.core.internal.cglib.core.WeakCacheKey.equals(Ljava/lang/Object;)Z:29 - ReplaceConstant - 1 -> 0
+10	ReplaceConstant	org.assertj.core.internal.cglib.core.WeakCacheKey.equals(Ljava/lang/Object;)Z:29 - ReplaceConstant - 0 -> 1
+11	InsertUnaryOp	org.assertj.core.internal.cglib.core.WeakCacheKey.hashCode()I:34 - InsertUnaryOp Negation
+12	InsertUnaryOp	org.assertj.core.internal.cglib.core.WeakCacheKey.hashCode()I:34 - InsertUnaryOp +1
+13	InsertUnaryOp	org.assertj.core.internal.cglib.core.WeakCacheKey.hashCode()I:34 - InsertUnaryOp -1
+14	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.WeakCacheKey.toString()Ljava/lang/String;:40 - ReplaceComparisonOperator != null -> = null
+15	ReplaceConstant	org.assertj.core.internal.cglib.core.WeakCacheKey.toString()Ljava/lang/String;:40 - ReplaceConstant - Clean WeakIdentityKey, hash:  -> 
+16	InsertUnaryOp	org.assertj.core.internal.cglib.core.WeakCacheKey.toString()Ljava/lang/String;:40 - InsertUnaryOp Negation
+17	InsertUnaryOp	org.assertj.core.internal.cglib.core.WeakCacheKey.toString()Ljava/lang/String;:40 - InsertUnaryOp +1
+18	InsertUnaryOp	org.assertj.core.internal.cglib.core.WeakCacheKey.toString()Ljava/lang/String;:40 - InsertUnaryOp -1

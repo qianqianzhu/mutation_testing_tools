@@ -1,0 +1,26 @@
+0	InsertUnaryOp	org.geotools.data.sort.FeatureBlockReader.<init>(Lorg/geotools/data/sort/SimpleFeatureIO;JI)V:40 - InsertUnaryOp Negation of start
+1	InsertUnaryOp	org.geotools.data.sort.FeatureBlockReader.<init>(Lorg/geotools/data/sort/SimpleFeatureIO;JI)V:41 - InsertUnaryOp Negation of count
+2	InsertUnaryOp	org.geotools.data.sort.FeatureBlockReader.<init>(Lorg/geotools/data/sort/SimpleFeatureIO;JI)V:41 - InsertUnaryOp IINC 1 count
+3	InsertUnaryOp	org.geotools.data.sort.FeatureBlockReader.<init>(Lorg/geotools/data/sort/SimpleFeatureIO;JI)V:41 - InsertUnaryOp IINC -1 count
+4	ReplaceComparisonOperator	org.geotools.data.sort.FeatureBlockReader.feature()Lorg/opengis/feature/simple/SimpleFeature;:46 - ReplaceComparisonOperator != null -> = null
+5	InsertUnaryOp	org.geotools.data.sort.FeatureBlockReader.feature()Lorg/opengis/feature/simple/SimpleFeature;:46 - InsertUnaryOp Negation
+6	InsertUnaryOp	org.geotools.data.sort.FeatureBlockReader.feature()Lorg/opengis/feature/simple/SimpleFeature;:46 - InsertUnaryOp +1
+7	InsertUnaryOp	org.geotools.data.sort.FeatureBlockReader.feature()Lorg/opengis/feature/simple/SimpleFeature;:46 - InsertUnaryOp -1
+8	ReplaceComparisonOperator	org.geotools.data.sort.FeatureBlockReader.feature()Lorg/opengis/feature/simple/SimpleFeature;:46 - ReplaceComparisonOperator <= -> -1
+9	ReplaceComparisonOperator	org.geotools.data.sort.FeatureBlockReader.feature()Lorg/opengis/feature/simple/SimpleFeature;:46 - ReplaceComparisonOperator <= -> ==
+10	ReplaceComparisonOperator	org.geotools.data.sort.FeatureBlockReader.feature()Lorg/opengis/feature/simple/SimpleFeature;:46 - ReplaceComparisonOperator <= -> <
+11	InsertUnaryOp	org.geotools.data.sort.FeatureBlockReader.readNextFeature()Lorg/opengis/feature/simple/SimpleFeature;:58 - InsertUnaryOp Negation
+12	InsertUnaryOp	org.geotools.data.sort.FeatureBlockReader.readNextFeature()Lorg/opengis/feature/simple/SimpleFeature;:58 - InsertUnaryOp +1
+13	InsertUnaryOp	org.geotools.data.sort.FeatureBlockReader.readNextFeature()Lorg/opengis/feature/simple/SimpleFeature;:58 - InsertUnaryOp -1
+14	ReplaceComparisonOperator	org.geotools.data.sort.FeatureBlockReader.readNextFeature()Lorg/opengis/feature/simple/SimpleFeature;:58 - ReplaceComparisonOperator > -> -2
+15	ReplaceComparisonOperator	org.geotools.data.sort.FeatureBlockReader.readNextFeature()Lorg/opengis/feature/simple/SimpleFeature;:58 - ReplaceComparisonOperator > -> !=
+16	ReplaceComparisonOperator	org.geotools.data.sort.FeatureBlockReader.readNextFeature()Lorg/opengis/feature/simple/SimpleFeature;:58 - ReplaceComparisonOperator > -> >=
+17	InsertUnaryOp	org.geotools.data.sort.FeatureBlockReader.readNextFeature()Lorg/opengis/feature/simple/SimpleFeature;:63 - InsertUnaryOp Negation
+18	InsertUnaryOp	org.geotools.data.sort.FeatureBlockReader.readNextFeature()Lorg/opengis/feature/simple/SimpleFeature;:70 - InsertUnaryOp Negation
+19	InsertUnaryOp	org.geotools.data.sort.FeatureBlockReader.readNextFeature()Lorg/opengis/feature/simple/SimpleFeature;:70 - InsertUnaryOp +1
+20	InsertUnaryOp	org.geotools.data.sort.FeatureBlockReader.readNextFeature()Lorg/opengis/feature/simple/SimpleFeature;:70 - InsertUnaryOp -1
+21	ReplaceConstant	org.geotools.data.sort.FeatureBlockReader.readNextFeature()Lorg/opengis/feature/simple/SimpleFeature;:70 - ReplaceConstant - 1 -> 0
+22	ReplaceArithmeticOperator	org.geotools.data.sort.FeatureBlockReader.readNextFeature()Lorg/opengis/feature/simple/SimpleFeature;:70 - ReplaceArithmeticOperator - -> +
+23	ReplaceArithmeticOperator	org.geotools.data.sort.FeatureBlockReader.readNextFeature()Lorg/opengis/feature/simple/SimpleFeature;:70 - ReplaceArithmeticOperator - -> %
+24	ReplaceArithmeticOperator	org.geotools.data.sort.FeatureBlockReader.readNextFeature()Lorg/opengis/feature/simple/SimpleFeature;:70 - ReplaceArithmeticOperator - -> *
+25	ReplaceArithmeticOperator	org.geotools.data.sort.FeatureBlockReader.readNextFeature()Lorg/opengis/feature/simple/SimpleFeature;:70 - ReplaceArithmeticOperator - -> /

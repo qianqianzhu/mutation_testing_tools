@@ -1,0 +1,14 @@
+0	ReplaceComparisonOperator	org.dynjs.runtime.DynJS.loadKernel()V:47 - ReplaceComparisonOperator != -> -1
+1	ReplaceComparisonOperator	org.dynjs.runtime.DynJS.loadKernel()V:47 - ReplaceComparisonOperator != -> <
+2	ReplaceComparisonOperator	org.dynjs.runtime.DynJS.loadKernel()V:47 - ReplaceComparisonOperator != -> >
+3	ReplaceConstant	org.dynjs.runtime.DynJS.loadKernel()V:53 - ReplaceConstant - dynjs/kernel.js -> 
+4	ReplaceConstant	org.dynjs.runtime.DynJS.loadKernel()V:56 - ReplaceConstant - src/main/resources/dynjs/kernel.js -> 
+5	InsertUnaryOp	org.dynjs.runtime.DynJS.newRunner(Z)Lorg/dynjs/runtime/Runner;:82 - InsertUnaryOp Negation of debug
+6	InsertUnaryOp	org.dynjs.runtime.DynJS.newRunner(Z)Lorg/dynjs/runtime/Runner;:82 - InsertUnaryOp IINC 1 debug
+7	InsertUnaryOp	org.dynjs.runtime.DynJS.newRunner(Z)Lorg/dynjs/runtime/Runner;:82 - InsertUnaryOp IINC -1 debug
+8	ReplaceConstant	org.dynjs.runtime.DynJS.evaluate([Ljava/lang/String;)Ljava/lang/Object;:114 - ReplaceConstant - 0 -> 1
+9	ReplaceComparisonOperator	org.dynjs.runtime.DynJS.evaluate([Ljava/lang/String;)Ljava/lang/Object;:114 - ReplaceComparisonOperator >= -> -1
+10	ReplaceComparisonOperator	org.dynjs.runtime.DynJS.evaluate([Ljava/lang/String;)Ljava/lang/Object;:114 - ReplaceComparisonOperator >= -> >
+11	ReplaceComparisonOperator	org.dynjs.runtime.DynJS.evaluate([Ljava/lang/String;)Ljava/lang/Object;:114 - ReplaceComparisonOperator >= -> ==
+12	ReplaceConstant	org.dynjs.runtime.DynJS.evaluate([Ljava/lang/String;)Ljava/lang/Object;:115 - ReplaceConstant - 
+ -> 

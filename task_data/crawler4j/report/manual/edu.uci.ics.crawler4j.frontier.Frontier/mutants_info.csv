@@ -1,0 +1,133 @@
+0	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:48 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:58 - ReplaceConstant - PendingURLsDB -> 
+2	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:59 - ReplaceComparisonOperator == -> -2
+3	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:59 - ReplaceComparisonOperator == -> >=
+4	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:59 - ReplaceComparisonOperator == -> <=
+5	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:60 - ReplaceConstant - Scheduled-Pages -> 
+6	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:63 - InsertUnaryOp Negation of numPreviouslyInProcessPages
+7	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:63 - ReplaceConstant - 0 -> 1
+8	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:63 - ReplaceConstant - 0 -> -1
+9	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:63 - ReplaceComparisonOperator <= -> -1
+10	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:63 - ReplaceComparisonOperator <= -> ==
+11	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:63 - ReplaceComparisonOperator <= -> <
+12	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:64 - ReplaceConstant - Rescheduling {} URLs from previous crawl. -> 
+13	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:64 - InsertUnaryOp Negation of numPreviouslyInProcessPages
+14	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:66 - InsertUnaryOp Negation
+15	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:66 - InsertUnaryOp Negation of numPreviouslyInProcessPages
+16	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:66 - ReplaceArithmeticOperator - -> +
+17	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:66 - ReplaceArithmeticOperator - -> %
+18	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:66 - ReplaceArithmeticOperator - -> *
+19	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:66 - ReplaceArithmeticOperator - -> /
+20	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:68 - ReplaceConstant - 100 -> 0
+21	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:68 - ReplaceConstant - 100 -> 1
+22	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:68 - ReplaceConstant - 100 -> -1
+23	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:68 - ReplaceConstant - 100 -> 99
+24	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:68 - ReplaceConstant - 100 -> 101
+25	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:69 - ReplaceComparisonOperator != -> -1
+26	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:69 - ReplaceComparisonOperator != -> <
+27	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:69 - ReplaceComparisonOperator != -> >
+28	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:72 - ReplaceConstant - 100 -> 0
+29	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:72 - ReplaceConstant - 100 -> 1
+30	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:72 - ReplaceConstant - 100 -> -1
+31	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:72 - ReplaceConstant - 100 -> 99
+32	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:72 - ReplaceConstant - 100 -> 101
+33	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:77 - ReplaceConstant - 0 -> 1
+34	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:77 - ReplaceConstant - 0 -> -1
+35	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.<init>(Lcom/sleepycat/je/Environment;Ledu/uci/ics/crawler4j/crawler/CrawlConfig;)V:80 - ReplaceConstant - Error while initializing the Frontier -> 
+36	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:88 - ReplaceConstant - 0 -> 1
+37	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:89 - ReplaceComparisonOperator == -> -2
+38	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:89 - ReplaceComparisonOperator == -> >=
+39	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:89 - ReplaceComparisonOperator == -> <=
+40	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - InsertUnaryOp Negation of maxPagesToFetch
+41	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - InsertUnaryOp IINC 1 maxPagesToFetch
+42	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - InsertUnaryOp IINC -1 maxPagesToFetch
+43	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - ReplaceComparisonOperator <= -> -1
+44	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - ReplaceComparisonOperator <= -> ==
+45	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - ReplaceComparisonOperator <= -> <
+46	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - InsertUnaryOp Negation
+47	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - InsertUnaryOp Negation of newScheduledPage
+48	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - InsertUnaryOp IINC 1 newScheduledPage
+49	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - InsertUnaryOp IINC -1 newScheduledPage
+50	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - ReplaceArithmeticOperator + -> %
+51	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - ReplaceArithmeticOperator + -> -
+52	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - ReplaceArithmeticOperator + -> *
+53	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - ReplaceArithmeticOperator + -> /
+54	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - InsertUnaryOp Negation of maxPagesToFetch
+55	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - InsertUnaryOp IINC 1 maxPagesToFetch
+56	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - InsertUnaryOp IINC -1 maxPagesToFetch
+57	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - ReplaceComparisonOperator < -> -2
+58	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - ReplaceComparisonOperator < -> !=
+59	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:90 - ReplaceComparisonOperator < -> <=
+60	ReplaceVariable	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:97 - ReplaceVariable newScheduledPage -> maxPagesToFetch
+61	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:99 - ReplaceConstant - Error while putting the url in the work queue -> 
+62	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:102 - InsertUnaryOp Negation of newScheduledPage
+63	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:102 - InsertUnaryOp IINC 1 newScheduledPage
+64	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:102 - InsertUnaryOp IINC -1 newScheduledPage
+65	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:102 - ReplaceComparisonOperator <= -> -1
+66	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:102 - ReplaceComparisonOperator <= -> ==
+67	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:102 - ReplaceComparisonOperator <= -> <
+68	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:103 - InsertUnaryOp Negation
+69	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:103 - InsertUnaryOp Negation of newScheduledPage
+70	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:103 - InsertUnaryOp IINC 1 newScheduledPage
+71	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:103 - InsertUnaryOp IINC -1 newScheduledPage
+72	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:103 - ReplaceArithmeticOperator + -> %
+73	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:103 - ReplaceArithmeticOperator + -> -
+74	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:103 - ReplaceArithmeticOperator + -> *
+75	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:103 - ReplaceArithmeticOperator + -> /
+76	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:104 - ReplaceConstant - Scheduled-Pages -> 
+77	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:104 - InsertUnaryOp Negation of newScheduledPage
+78	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:104 - InsertUnaryOp IINC 1 newScheduledPage
+79	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.scheduleAll(Ljava/util/List;)V:104 - InsertUnaryOp IINC -1 newScheduledPage
+80	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:116 - InsertUnaryOp Negation of maxPagesToFetch
+81	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:116 - InsertUnaryOp IINC 1 maxPagesToFetch
+82	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:116 - InsertUnaryOp IINC -1 maxPagesToFetch
+83	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:116 - ReplaceComparisonOperator < -> -2
+84	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:116 - ReplaceComparisonOperator < -> !=
+85	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:116 - ReplaceComparisonOperator < -> <=
+86	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:116 - InsertUnaryOp Negation
+87	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:116 - InsertUnaryOp Negation of maxPagesToFetch
+88	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:116 - InsertUnaryOp IINC 1 maxPagesToFetch
+89	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:116 - InsertUnaryOp IINC -1 maxPagesToFetch
+90	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:116 - ReplaceComparisonOperator >= -> -1
+91	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:116 - ReplaceComparisonOperator >= -> ==
+92	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:116 - ReplaceComparisonOperator >= -> >
+93	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:118 - InsertUnaryOp Negation
+94	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:118 - ReplaceConstant - 1 -> 0
+95	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:118 - ReplaceConstant - 1 -> -1
+96	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:118 - ReplaceConstant - 1 -> 2
+97	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:118 - ReplaceArithmeticOperator + -> %
+98	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:118 - ReplaceArithmeticOperator + -> -
+99	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:118 - ReplaceArithmeticOperator + -> *
+100	ReplaceArithmeticOperator	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:118 - ReplaceArithmeticOperator + -> /
+101	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:119 - ReplaceConstant - Scheduled-Pages -> 
+102	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.schedule(Ledu/uci/ics/crawler4j/url/WebURL;)V:122 - ReplaceConstant - Error while putting the url in the work queue -> 
+103	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:130 - InsertUnaryOp Negation
+104	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:130 - ReplaceComparisonOperator == -> -2
+105	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:130 - ReplaceComparisonOperator == -> >=
+106	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:130 - ReplaceComparisonOperator == -> <=
+107	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:134 - InsertUnaryOp Negation of max
+108	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:134 - InsertUnaryOp IINC 1 max
+109	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:134 - InsertUnaryOp IINC -1 max
+110	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:136 - ReplaceComparisonOperator = null -> != null
+111	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:137 - ReplaceComparisonOperator == -> -2
+112	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:137 - ReplaceComparisonOperator == -> >=
+113	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:137 - ReplaceComparisonOperator == -> <=
+114	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:143 - ReplaceConstant - Error while getting next urls -> 
+115	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:146 - ReplaceComparisonOperator <= -> -1
+116	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:146 - ReplaceComparisonOperator <= -> ==
+117	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:146 - ReplaceComparisonOperator <= -> <
+118	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:158 - InsertUnaryOp Negation
+119	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:158 - ReplaceComparisonOperator == -> -2
+120	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:158 - ReplaceComparisonOperator == -> >=
+121	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.getNextURLs(ILjava/util/List;)V:158 - ReplaceComparisonOperator == -> <=
+122	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.setProcessed(Ledu/uci/ics/crawler4j/url/WebURL;)V:165 - ReplaceConstant - Processed-Pages -> 
+123	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.setProcessed(Ledu/uci/ics/crawler4j/url/WebURL;)V:166 - ReplaceComparisonOperator = null -> != null
+124	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.setProcessed(Ledu/uci/ics/crawler4j/url/WebURL;)V:167 - ReplaceComparisonOperator != -> -1
+125	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.setProcessed(Ledu/uci/ics/crawler4j/url/WebURL;)V:167 - ReplaceComparisonOperator != -> <
+126	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.setProcessed(Ledu/uci/ics/crawler4j/url/WebURL;)V:167 - ReplaceComparisonOperator != -> >
+127	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.setProcessed(Ledu/uci/ics/crawler4j/url/WebURL;)V:168 - ReplaceConstant - Could not remove: {} from list of processed pages. -> 
+128	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.getNumberOfProcessedPages()J:182 - ReplaceConstant - Processed-Pages -> 
+129	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.getNumberOfScheduledPages()J:186 - ReplaceConstant - Scheduled-Pages -> 
+130	InsertUnaryOp	edu.uci.ics.crawler4j.frontier.Frontier.isFinished()Z:190 - InsertUnaryOp Negation
+131	ReplaceComparisonOperator	edu.uci.ics.crawler4j.frontier.Frontier.close()V:196 - ReplaceComparisonOperator = null -> != null
+132	ReplaceConstant	edu.uci.ics.crawler4j.frontier.Frontier.finish()V:202 - ReplaceConstant - 1 -> 0

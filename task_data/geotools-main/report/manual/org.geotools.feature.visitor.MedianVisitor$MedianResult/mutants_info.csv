@@ -1,0 +1,94 @@
+0	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.getValue()Ljava/lang/Object;:180 - ReplaceComparisonOperator = null -> != null
+1	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:189 - ReplaceComparisonOperator != -> -1
+2	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:189 - ReplaceComparisonOperator != -> <
+3	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:189 - ReplaceComparisonOperator != -> >
+4	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:189 - ReplaceComparisonOperator != -> ==
+5	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor$MedianResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:189 - ReplaceConstant - 1 -> 0
+6	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor$MedianResult.isCompatible(Lorg/geotools/feature/visitor/CalcResult;)Z:190 - ReplaceConstant - 0 -> 1
+7	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.isOptimized()Z:194 - ReplaceComparisonOperator = null -> != null
+8	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor$MedianResult.isOptimized()Z:194 - ReplaceConstant - 1 -> 0
+9	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor$MedianResult.isOptimized()Z:195 - ReplaceConstant - 0 -> 1
+10	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:199 - ReplaceComparisonOperator != -> -1
+11	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:199 - ReplaceComparisonOperator != -> <
+12	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:199 - ReplaceComparisonOperator != -> >
+13	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:200 - ReplaceConstant - Parameter is not a compatible type -> 
+14	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:204 - ReplaceComparisonOperator != -> ==
+15	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:208 - ReplaceComparisonOperator == -> -2
+16	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:208 - ReplaceComparisonOperator == -> >=
+17	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:208 - ReplaceComparisonOperator == -> <=
+18	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:211 - ReplaceComparisonOperator != -> -1
+19	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:211 - ReplaceComparisonOperator != -> <
+20	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:211 - ReplaceComparisonOperator != -> >
+21	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:211 - ReplaceComparisonOperator == -> -2
+22	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:211 - ReplaceComparisonOperator == -> >=
+23	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:211 - ReplaceComparisonOperator == -> <=
+24	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:212 - ReplaceConstant - Optimized median results cannot be merged. -> 
+25	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:218 - ReplaceArithmeticOperator + -> %
+26	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:218 - ReplaceArithmeticOperator + -> -
+27	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:218 - ReplaceArithmeticOperator + -> *
+28	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:218 - ReplaceArithmeticOperator + -> /
+29	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:219 - InsertUnaryOp Negation of size
+30	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:219 - InsertUnaryOp IINC 1 size
+31	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:219 - InsertUnaryOp IINC -1 size
+32	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:221 - ReplaceConstant - 0 -> 1
+33	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:221 - InsertUnaryOp Negation of i
+34	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:221 - InsertUnaryOp IINC 1 i
+35	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:221 - InsertUnaryOp IINC -1 i
+36	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:221 - ReplaceComparisonOperator >= -> -1
+37	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:221 - ReplaceComparisonOperator >= -> >
+38	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:221 - ReplaceComparisonOperator >= -> ==
+39	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:222 - InsertUnaryOp Negation of i
+40	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:222 - InsertUnaryOp IINC 1 i
+41	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:222 - InsertUnaryOp IINC -1 i
+42	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:222 - InsertUnaryOp Negation of i
+43	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:222 - InsertUnaryOp IINC 1 i
+44	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:222 - InsertUnaryOp IINC -1 i
+45	ReplaceVariable	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:221 - ReplaceVariable i -> size
+46	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:223 - ReplaceConstant - 0 -> 1
+47	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:223 - InsertUnaryOp Negation of j
+48	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:223 - InsertUnaryOp IINC 1 j
+49	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:223 - InsertUnaryOp IINC -1 j
+50	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:223 - ReplaceComparisonOperator >= -> -1
+51	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:223 - ReplaceComparisonOperator >= -> >
+52	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:223 - ReplaceComparisonOperator >= -> ==
+53	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:224 - InsertUnaryOp Negation of i
+54	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:224 - InsertUnaryOp IINC 1 i
+55	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:224 - InsertUnaryOp IINC -1 i
+56	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:224 - InsertUnaryOp Negation of j
+57	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:224 - InsertUnaryOp IINC 1 j
+58	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:224 - InsertUnaryOp IINC -1 j
+59	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:224 - ReplaceArithmeticOperator + -> %
+60	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:224 - ReplaceArithmeticOperator + -> -
+61	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:224 - ReplaceArithmeticOperator + -> *
+62	ReplaceArithmeticOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:224 - ReplaceArithmeticOperator + -> /
+63	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:224 - InsertUnaryOp Negation of j
+64	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:224 - InsertUnaryOp IINC 1 j
+65	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:224 - InsertUnaryOp IINC -1 j
+66	ReplaceVariable	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:223 - ReplaceVariable j -> size
+67	ReplaceVariable	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:223 - ReplaceVariable j -> i
+68	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:226 - ReplaceConstant - 0 -> 1
+69	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:226 - InsertUnaryOp Negation of k
+70	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:226 - InsertUnaryOp IINC 1 k
+71	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:226 - InsertUnaryOp IINC -1 k
+72	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:226 - InsertUnaryOp Negation of size
+73	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:226 - InsertUnaryOp IINC 1 size
+74	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:226 - InsertUnaryOp IINC -1 size
+75	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:226 - ReplaceComparisonOperator >= -> -1
+76	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:226 - ReplaceComparisonOperator >= -> >
+77	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:226 - ReplaceComparisonOperator >= -> ==
+78	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:227 - InsertUnaryOp Negation of k
+79	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:227 - InsertUnaryOp IINC 1 k
+80	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:227 - InsertUnaryOp IINC -1 k
+81	ReplaceComparisonOperator	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:227 - ReplaceComparisonOperator == -> !=
+82	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:228 - InsertUnaryOp Negation of k
+83	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:228 - InsertUnaryOp IINC 1 k
+84	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:228 - InsertUnaryOp IINC -1 k
+85	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:228 - InsertUnaryOp Negation of k
+86	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:228 - InsertUnaryOp IINC 1 k
+87	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:228 - InsertUnaryOp IINC -1 k
+88	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:229 - InsertUnaryOp Negation of k
+89	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:229 - InsertUnaryOp IINC 1 k
+90	InsertUnaryOp	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:229 - InsertUnaryOp IINC -1 k
+91	ReplaceVariable	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:226 - ReplaceVariable k -> size
+92	ReplaceVariable	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:226 - ReplaceVariable k -> i
+93	ReplaceConstant	org.geotools.feature.visitor.MedianVisitor$MedianResult.merge(Lorg/geotools/feature/visitor/CalcResult;)Lorg/geotools/feature/visitor/CalcResult;:233 - ReplaceConstant - The CalcResults claim to be compatible, but the appropriate merge method has not been implemented. -> 

@@ -1,0 +1,16 @@
+0	ReplaceComparisonOperator	org.geotools.geometry.jts.LiteCoordinateSequenceFactory.create(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Lcom/vividsolutions/jts/geom/CoordinateSequence;:49 - ReplaceComparisonOperator == -> -2
+1	ReplaceComparisonOperator	org.geotools.geometry.jts.LiteCoordinateSequenceFactory.create(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Lcom/vividsolutions/jts/geom/CoordinateSequence;:49 - ReplaceComparisonOperator == -> >=
+2	ReplaceComparisonOperator	org.geotools.geometry.jts.LiteCoordinateSequenceFactory.create(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Lcom/vividsolutions/jts/geom/CoordinateSequence;:49 - ReplaceComparisonOperator == -> <=
+3	InsertUnaryOp	org.geotools.geometry.jts.LiteCoordinateSequenceFactory.create(II)Lcom/vividsolutions/jts/geom/CoordinateSequence;:58 - InsertUnaryOp Negation of size
+4	InsertUnaryOp	org.geotools.geometry.jts.LiteCoordinateSequenceFactory.create(II)Lcom/vividsolutions/jts/geom/CoordinateSequence;:58 - InsertUnaryOp IINC 1 size
+5	InsertUnaryOp	org.geotools.geometry.jts.LiteCoordinateSequenceFactory.create(II)Lcom/vividsolutions/jts/geom/CoordinateSequence;:58 - InsertUnaryOp IINC -1 size
+6	InsertUnaryOp	org.geotools.geometry.jts.LiteCoordinateSequenceFactory.create(II)Lcom/vividsolutions/jts/geom/CoordinateSequence;:58 - InsertUnaryOp Negation of dimension
+7	InsertUnaryOp	org.geotools.geometry.jts.LiteCoordinateSequenceFactory.create(II)Lcom/vividsolutions/jts/geom/CoordinateSequence;:58 - InsertUnaryOp IINC 1 dimension
+8	InsertUnaryOp	org.geotools.geometry.jts.LiteCoordinateSequenceFactory.create(II)Lcom/vividsolutions/jts/geom/CoordinateSequence;:58 - InsertUnaryOp IINC -1 dimension
+9	InsertUnaryOp	org.geotools.geometry.jts.LiteCoordinateSequenceFactory.create([DI)Lcom/vividsolutions/jts/geom/CoordinateSequence;:72 - InsertUnaryOp Negation of dimension
+10	InsertUnaryOp	org.geotools.geometry.jts.LiteCoordinateSequenceFactory.create([DI)Lcom/vividsolutions/jts/geom/CoordinateSequence;:72 - InsertUnaryOp IINC 1 dimension
+11	InsertUnaryOp	org.geotools.geometry.jts.LiteCoordinateSequenceFactory.create([DI)Lcom/vividsolutions/jts/geom/CoordinateSequence;:72 - InsertUnaryOp IINC -1 dimension
+12	ReplaceComparisonOperator	org.geotools.geometry.jts.LiteCoordinateSequenceFactory.lite(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Lorg/geotools/geometry/jts/LiteCoordinateSequence;:90 - ReplaceComparisonOperator == -> -2
+13	ReplaceComparisonOperator	org.geotools.geometry.jts.LiteCoordinateSequenceFactory.lite(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Lorg/geotools/geometry/jts/LiteCoordinateSequence;:90 - ReplaceComparisonOperator == -> >=
+14	ReplaceComparisonOperator	org.geotools.geometry.jts.LiteCoordinateSequenceFactory.lite(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Lorg/geotools/geometry/jts/LiteCoordinateSequence;:90 - ReplaceComparisonOperator == -> <=
+15	ReplaceComparisonOperator	org.geotools.geometry.jts.LiteCoordinateSequenceFactory.lite(Lcom/vividsolutions/jts/geom/CoordinateSequence;)Lorg/geotools/geometry/jts/LiteCoordinateSequence;:92 - ReplaceComparisonOperator != null -> = null

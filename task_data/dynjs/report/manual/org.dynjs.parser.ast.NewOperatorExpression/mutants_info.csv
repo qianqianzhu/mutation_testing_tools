@@ -1,0 +1,43 @@
+0	ReplaceConstant	org.dynjs.parser.ast.NewOperatorExpression.<init>(Lorg/dynjs/parser/ast/Expression;Ljava/util/List;)V:44 - ReplaceConstant - new -> 
+1	ReplaceComparisonOperator	org.dynjs.parser.ast.NewOperatorExpression.<init>(Lorg/dynjs/parser/ast/Expression;Ljava/util/List;)V:49 - ReplaceComparisonOperator == -> -2
+2	ReplaceComparisonOperator	org.dynjs.parser.ast.NewOperatorExpression.<init>(Lorg/dynjs/parser/ast/Expression;Ljava/util/List;)V:49 - ReplaceComparisonOperator == -> >=
+3	ReplaceComparisonOperator	org.dynjs.parser.ast.NewOperatorExpression.<init>(Lorg/dynjs/parser/ast/Expression;Ljava/util/List;)V:49 - ReplaceComparisonOperator == -> <=
+4	ReplaceConstant	org.dynjs.parser.ast.NewOperatorExpression.toString()Ljava/lang/String;:59 - ReplaceConstant - new  -> 
+5	ReplaceConstant	org.dynjs.parser.ast.NewOperatorExpression.dump(Ljava/lang/String;)Ljava/lang/String;:63 - ReplaceConstant - new  -> 
+6	ReplaceConstant	org.dynjs.parser.ast.NewOperatorExpression.dump(Ljava/lang/String;)Ljava/lang/String;:63 - ReplaceConstant -    -> 
+7	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:68 - InsertUnaryOp Negation of strict
+8	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:68 - InsertUnaryOp IINC 1 strict
+9	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:68 - InsertUnaryOp IINC -1 strict
+10	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:73 - InsertUnaryOp Negation of debug
+11	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:73 - InsertUnaryOp IINC 1 debug
+12	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:73 - InsertUnaryOp IINC -1 debug
+13	ReplaceConstant	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:79 - ReplaceConstant - 0 -> 1
+14	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:79 - InsertUnaryOp Negation of i
+15	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:79 - InsertUnaryOp IINC 1 i
+16	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:79 - InsertUnaryOp IINC -1 i
+17	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:79 - InsertUnaryOp Negation of numArgs
+18	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:79 - InsertUnaryOp IINC 1 numArgs
+19	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:79 - InsertUnaryOp IINC -1 numArgs
+20	ReplaceComparisonOperator	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:79 - ReplaceComparisonOperator >= -> -1
+21	ReplaceComparisonOperator	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:79 - ReplaceComparisonOperator >= -> >
+22	ReplaceComparisonOperator	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:79 - ReplaceComparisonOperator >= -> ==
+23	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:80 - InsertUnaryOp Negation of i
+24	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:80 - InsertUnaryOp IINC 1 i
+25	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:80 - InsertUnaryOp IINC -1 i
+26	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:81 - InsertUnaryOp Negation of i
+27	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:81 - InsertUnaryOp IINC 1 i
+28	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:81 - InsertUnaryOp IINC -1 i
+29	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:82 - InsertUnaryOp Negation of i
+30	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:82 - InsertUnaryOp IINC 1 i
+31	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:82 - InsertUnaryOp IINC -1 i
+32	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:82 - InsertUnaryOp Negation of debug
+33	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:82 - InsertUnaryOp IINC 1 debug
+34	InsertUnaryOp	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:82 - InsertUnaryOp IINC -1 debug
+35	ReplaceVariable	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:79 - ReplaceVariable i -> numArgs
+36	ReplaceComparisonOperator	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:87 - ReplaceComparisonOperator == -> -2
+37	ReplaceComparisonOperator	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:87 - ReplaceComparisonOperator == -> >=
+38	ReplaceComparisonOperator	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:87 - ReplaceComparisonOperator == -> <=
+39	ReplaceComparisonOperator	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:87 - ReplaceComparisonOperator == -> -2
+40	ReplaceComparisonOperator	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:87 - ReplaceComparisonOperator == -> >=
+41	ReplaceComparisonOperator	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:87 - ReplaceComparisonOperator == -> <=
+42	ReplaceConstant	org.dynjs.parser.ast.NewOperatorExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:95 - ReplaceConstant - cannot construct with:  -> 

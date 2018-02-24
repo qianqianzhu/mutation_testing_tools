@@ -1,0 +1,10 @@
+0	InsertUnaryOp	org.dynjs.parser.ast.PropertySet.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:24 - InsertUnaryOp Negation of strict
+1	InsertUnaryOp	org.dynjs.parser.ast.PropertySet.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:24 - InsertUnaryOp IINC 1 strict
+2	InsertUnaryOp	org.dynjs.parser.ast.PropertySet.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:24 - InsertUnaryOp IINC -1 strict
+3	ReplaceConstant	org.dynjs.parser.ast.PropertySet.getSizeMetric()I:28 - ReplaceConstant - 1 -> 0
+4	ReplaceArithmeticOperator	org.dynjs.parser.ast.PropertySet.getSizeMetric()I:28 - ReplaceArithmeticOperator + -> %
+5	ReplaceArithmeticOperator	org.dynjs.parser.ast.PropertySet.getSizeMetric()I:28 - ReplaceArithmeticOperator + -> -
+6	ReplaceArithmeticOperator	org.dynjs.parser.ast.PropertySet.getSizeMetric()I:28 - ReplaceArithmeticOperator + -> *
+7	ReplaceArithmeticOperator	org.dynjs.parser.ast.PropertySet.getSizeMetric()I:28 - ReplaceArithmeticOperator + -> /
+8	ReplaceConstant	org.dynjs.parser.ast.PropertySet.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:33 - ReplaceConstant - 1 -> 0
+9	ReplaceConstant	org.dynjs.parser.ast.PropertySet.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:33 - ReplaceConstant - 0 -> 1

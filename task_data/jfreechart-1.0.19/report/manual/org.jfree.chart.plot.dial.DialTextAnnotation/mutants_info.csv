@@ -1,0 +1,202 @@
+0	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:105 - ReplaceConstant - label -> 
+1	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:106 - ReplaceConstant - -90.0 -> 0.0
+2	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:106 - ReplaceConstant - -90.0 -> 1.0
+3	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:106 - ReplaceConstant - -90.0 -> -1.0
+4	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:106 - ReplaceConstant - -90.0 -> -91.0
+5	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:106 - ReplaceConstant - -90.0 -> -89.0
+6	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:107 - ReplaceConstant - 0.3 -> 0.0
+7	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:107 - ReplaceConstant - 0.3 -> 1.0
+8	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:107 - ReplaceConstant - 0.3 -> -1.0
+9	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:107 - ReplaceConstant - 0.3 -> -0.7
+10	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:107 - ReplaceConstant - 0.3 -> 1.3
+11	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:108 - ReplaceConstant - Dialog -> 
+12	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:108 - ReplaceConstant - 1 -> 0
+13	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:108 - ReplaceConstant - 14 -> 0
+14	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:108 - ReplaceConstant - 14 -> 1
+15	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:108 - ReplaceConstant - 14 -> -1
+16	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:108 - ReplaceConstant - 14 -> 13
+17	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.<init>(Ljava/lang/String;)V:108 - ReplaceConstant - 14 -> 15
+18	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.setLabel(Ljava/lang/String;)V:134 - ReplaceConstant - label -> 
+19	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.setFont(Ljava/awt/Font;)V:159 - ReplaceConstant - font -> 
+20	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.setPaint(Ljava/awt/Paint;)V:184 - ReplaceConstant - paint -> 
+21	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.getAngle()D:198 - InsertUnaryOp Negation
+22	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.setAngle(D)V:211 - InsertUnaryOp Negation of angle
+23	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.getRadius()D:225 - InsertUnaryOp Negation
+24	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.setRadius(D)V:239 - InsertUnaryOp Negation of radius
+25	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.setRadius(D)V:239 - ReplaceConstant - 0.0 -> 1.0
+26	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.setRadius(D)V:239 - ReplaceConstant - 0.0 -> -1.0
+27	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.setRadius(D)V:239 - ReplaceComparisonOperator >= -> -1
+28	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.setRadius(D)V:239 - ReplaceComparisonOperator >= -> ==
+29	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.setRadius(D)V:239 - ReplaceComparisonOperator >= -> >
+30	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.setRadius(D)V:240 - ReplaceConstant - The 'radius' cannot be negative. -> 
+31	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.setRadius(D)V:243 - InsertUnaryOp Negation of radius
+32	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.setAnchor(Lorg/jfree/ui/TextAnchor;)V:268 - ReplaceConstant - anchor -> 
+33	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.isClippedToWindow()Z:281 - ReplaceConstant - 1 -> 0
+34	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/dial/DialPlot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;)V:299 - InsertUnaryOp Negation
+35	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/dial/DialPlot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;)V:299 - InsertUnaryOp Negation
+36	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/dial/DialPlot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;)V:301 - InsertUnaryOp Negation
+37	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/dial/DialPlot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;)V:301 - ReplaceConstant - 0.0 -> 1.0
+38	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/dial/DialPlot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;)V:301 - ReplaceConstant - 0.0 -> -1.0
+39	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/dial/DialPlot;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;)V:301 - ReplaceConstant - 0 -> 1
+40	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:319 - ReplaceComparisonOperator != -> ==
+41	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:320 - ReplaceConstant - 1 -> 0
+42	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:322 - ReplaceComparisonOperator != -> -1
+43	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:322 - ReplaceComparisonOperator != -> <
+44	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:322 - ReplaceComparisonOperator != -> >
+45	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:323 - ReplaceConstant - 0 -> 1
+46	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:326 - ReplaceComparisonOperator != -> -1
+47	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:326 - ReplaceComparisonOperator != -> <
+48	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:326 - ReplaceComparisonOperator != -> >
+49	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:327 - ReplaceConstant - 0 -> 1
+50	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:329 - ReplaceComparisonOperator != -> -1
+51	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:329 - ReplaceComparisonOperator != -> <
+52	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:329 - ReplaceComparisonOperator != -> >
+53	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:330 - ReplaceConstant - 0 -> 1
+54	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:332 - ReplaceComparisonOperator != -> -1
+55	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:332 - ReplaceComparisonOperator != -> <
+56	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:332 - ReplaceComparisonOperator != -> >
+57	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:333 - ReplaceConstant - 0 -> 1
+58	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:335 - InsertUnaryOp Negation
+59	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:335 - InsertUnaryOp Negation
+60	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:335 - ReplaceComparisonOperator == -> -2
+61	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:335 - ReplaceComparisonOperator == -> >=
+62	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:335 - ReplaceComparisonOperator == -> <=
+63	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:336 - ReplaceConstant - 0 -> 1
+64	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:338 - InsertUnaryOp Negation
+65	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:338 - InsertUnaryOp Negation
+66	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:338 - ReplaceComparisonOperator == -> -2
+67	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:338 - ReplaceComparisonOperator == -> >=
+68	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:338 - ReplaceComparisonOperator == -> <=
+69	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:339 - ReplaceConstant - 0 -> 1
+70	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:341 - ReplaceComparisonOperator != -> -1
+71	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:341 - ReplaceComparisonOperator != -> <
+72	ReplaceComparisonOperator	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:341 - ReplaceComparisonOperator != -> >
+73	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.equals(Ljava/lang/Object;)Z:342 - ReplaceConstant - 0 -> 1
+74	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:354 - ReplaceConstant - 193 -> 0
+75	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:354 - ReplaceConstant - 193 -> 1
+76	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:354 - ReplaceConstant - 193 -> -1
+77	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:354 - ReplaceConstant - 193 -> 192
+78	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:354 - ReplaceConstant - 193 -> 194
+79	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:355 - ReplaceConstant - 37 -> 0
+80	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:355 - ReplaceConstant - 37 -> 1
+81	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:355 - ReplaceConstant - 37 -> -1
+82	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:355 - ReplaceConstant - 37 -> 36
+83	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:355 - ReplaceConstant - 37 -> 38
+84	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:355 - InsertUnaryOp Negation of result
+85	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:355 - InsertUnaryOp IINC 1 result
+86	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:355 - InsertUnaryOp IINC -1 result
+87	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:355 - ReplaceArithmeticOperator * -> +
+88	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:355 - ReplaceArithmeticOperator * -> %
+89	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:355 - ReplaceArithmeticOperator * -> -
+90	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:355 - ReplaceArithmeticOperator * -> /
+91	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:355 - ReplaceArithmeticOperator + -> %
+92	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:355 - ReplaceArithmeticOperator + -> -
+93	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:355 - ReplaceArithmeticOperator + -> *
+94	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:355 - ReplaceArithmeticOperator + -> /
+95	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:356 - ReplaceConstant - 37 -> 0
+96	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:356 - ReplaceConstant - 37 -> 1
+97	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:356 - ReplaceConstant - 37 -> -1
+98	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:356 - ReplaceConstant - 37 -> 36
+99	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:356 - ReplaceConstant - 37 -> 38
+100	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:356 - InsertUnaryOp Negation of result
+101	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:356 - InsertUnaryOp IINC 1 result
+102	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:356 - InsertUnaryOp IINC -1 result
+103	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:356 - ReplaceArithmeticOperator * -> +
+104	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:356 - ReplaceArithmeticOperator * -> %
+105	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:356 - ReplaceArithmeticOperator * -> -
+106	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:356 - ReplaceArithmeticOperator * -> /
+107	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:356 - ReplaceArithmeticOperator + -> %
+108	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:356 - ReplaceArithmeticOperator + -> -
+109	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:356 - ReplaceArithmeticOperator + -> *
+110	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:356 - ReplaceArithmeticOperator + -> /
+111	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:357 - ReplaceConstant - 37 -> 0
+112	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:357 - ReplaceConstant - 37 -> 1
+113	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:357 - ReplaceConstant - 37 -> -1
+114	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:357 - ReplaceConstant - 37 -> 36
+115	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:357 - ReplaceConstant - 37 -> 38
+116	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:357 - InsertUnaryOp Negation of result
+117	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:357 - InsertUnaryOp IINC 1 result
+118	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:357 - InsertUnaryOp IINC -1 result
+119	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:357 - ReplaceArithmeticOperator * -> +
+120	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:357 - ReplaceArithmeticOperator * -> %
+121	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:357 - ReplaceArithmeticOperator * -> -
+122	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:357 - ReplaceArithmeticOperator * -> /
+123	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:357 - ReplaceArithmeticOperator + -> %
+124	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:357 - ReplaceArithmeticOperator + -> -
+125	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:357 - ReplaceArithmeticOperator + -> *
+126	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:357 - ReplaceArithmeticOperator + -> /
+127	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:358 - ReplaceConstant - 37 -> 0
+128	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:358 - ReplaceConstant - 37 -> 1
+129	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:358 - ReplaceConstant - 37 -> -1
+130	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:358 - ReplaceConstant - 37 -> 36
+131	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:358 - ReplaceConstant - 37 -> 38
+132	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:358 - InsertUnaryOp Negation of result
+133	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:358 - InsertUnaryOp IINC 1 result
+134	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:358 - InsertUnaryOp IINC -1 result
+135	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:358 - ReplaceArithmeticOperator * -> +
+136	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:358 - ReplaceArithmeticOperator * -> %
+137	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:358 - ReplaceArithmeticOperator * -> -
+138	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:358 - ReplaceArithmeticOperator * -> /
+139	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:358 - ReplaceArithmeticOperator + -> %
+140	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:358 - ReplaceArithmeticOperator + -> -
+141	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:358 - ReplaceArithmeticOperator + -> *
+142	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:358 - ReplaceArithmeticOperator + -> /
+143	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:359 - InsertUnaryOp Negation
+144	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceConstant - 37 -> 0
+145	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceConstant - 37 -> 1
+146	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceConstant - 37 -> -1
+147	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceConstant - 37 -> 36
+148	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceConstant - 37 -> 38
+149	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - InsertUnaryOp Negation of result
+150	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - InsertUnaryOp IINC 1 result
+151	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - InsertUnaryOp IINC -1 result
+152	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceArithmeticOperator * -> +
+153	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceArithmeticOperator * -> %
+154	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceArithmeticOperator * -> -
+155	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceArithmeticOperator * -> /
+156	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - InsertUnaryOp Negation of temp
+157	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - InsertUnaryOp Negation of temp
+158	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceConstant - 32 -> 0
+159	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceConstant - 32 -> 1
+160	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceConstant - 32 -> -1
+161	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceConstant - 32 -> 31
+162	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceConstant - 32 -> 33
+163	ReplaceBitwiseOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceBitwiseOperator >>> L -> << L
+164	ReplaceBitwiseOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceBitwiseOperator >>> L -> >> L
+165	ReplaceBitwiseOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceBitwiseOperator ^ -> |
+166	ReplaceBitwiseOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceBitwiseOperator ^ -> &
+167	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceArithmeticOperator + -> %
+168	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceArithmeticOperator + -> -
+169	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceArithmeticOperator + -> *
+170	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:360 - ReplaceArithmeticOperator + -> /
+171	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:361 - InsertUnaryOp Negation
+172	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceConstant - 37 -> 0
+173	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceConstant - 37 -> 1
+174	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceConstant - 37 -> -1
+175	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceConstant - 37 -> 36
+176	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceConstant - 37 -> 38
+177	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - InsertUnaryOp Negation of result
+178	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - InsertUnaryOp IINC 1 result
+179	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - InsertUnaryOp IINC -1 result
+180	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceArithmeticOperator * -> +
+181	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceArithmeticOperator * -> %
+182	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceArithmeticOperator * -> -
+183	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceArithmeticOperator * -> /
+184	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - InsertUnaryOp Negation of temp
+185	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - InsertUnaryOp Negation of temp
+186	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceConstant - 32 -> 0
+187	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceConstant - 32 -> 1
+188	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceConstant - 32 -> -1
+189	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceConstant - 32 -> 31
+190	ReplaceConstant	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceConstant - 32 -> 33
+191	ReplaceBitwiseOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceBitwiseOperator >>> L -> << L
+192	ReplaceBitwiseOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceBitwiseOperator >>> L -> >> L
+193	ReplaceBitwiseOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceBitwiseOperator ^ -> |
+194	ReplaceBitwiseOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceBitwiseOperator ^ -> &
+195	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceArithmeticOperator + -> %
+196	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceArithmeticOperator + -> -
+197	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceArithmeticOperator + -> *
+198	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:362 - ReplaceArithmeticOperator + -> /
+199	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:363 - InsertUnaryOp Negation of result
+200	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:363 - InsertUnaryOp IINC 1 result
+201	InsertUnaryOp	org.jfree.chart.plot.dial.DialTextAnnotation.hashCode()I:363 - InsertUnaryOp IINC -1 result

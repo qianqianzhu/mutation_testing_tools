@@ -1,0 +1,34 @@
+0	ReplaceComparisonOperator	org.dynjs.parser.ast.IfStatement.getVariableDeclarations()Ljava/util/List;:61 - ReplaceComparisonOperator = null -> != null
+1	ReplaceComparisonOperator	org.dynjs.parser.ast.IfStatement.getVariableDeclarations()Ljava/util/List;:64 - ReplaceComparisonOperator = null -> != null
+2	ReplaceConstant	org.dynjs.parser.ast.IfStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:73 - ReplaceConstant - if ( -> 
+3	ReplaceConstant	org.dynjs.parser.ast.IfStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:73 - ReplaceConstant - ) {
+4	ReplaceConstant	org.dynjs.parser.ast.IfStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:74 - ReplaceConstant -    -> 
+5	ReplaceComparisonOperator	org.dynjs.parser.ast.IfStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:75 - ReplaceComparisonOperator = null -> != null
+6	ReplaceConstant	org.dynjs.parser.ast.IfStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:76 - ReplaceConstant - } else {
+7	ReplaceConstant	org.dynjs.parser.ast.IfStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:76 - ReplaceConstant -    -> 
+8	ReplaceConstant	org.dynjs.parser.ast.IfStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:78 - ReplaceConstant - } -> 
+9	ReplaceConstant	org.dynjs.parser.ast.IfStatement.dump(Ljava/lang/String;)Ljava/lang/String;:86 - ReplaceConstant -    -> 
+10	ReplaceConstant	org.dynjs.parser.ast.IfStatement.dump(Ljava/lang/String;)Ljava/lang/String;:87 - ReplaceConstant -    -> 
+11	ReplaceComparisonOperator	org.dynjs.parser.ast.IfStatement.dump(Ljava/lang/String;)Ljava/lang/String;:88 - ReplaceComparisonOperator = null -> != null
+12	ReplaceConstant	org.dynjs.parser.ast.IfStatement.dump(Ljava/lang/String;)Ljava/lang/String;:89 - ReplaceConstant -    -> 
+13	ReplaceConstant	org.dynjs.parser.ast.IfStatement.getSizeMetric()I:96 - ReplaceConstant - 7 -> 0
+14	ReplaceConstant	org.dynjs.parser.ast.IfStatement.getSizeMetric()I:96 - ReplaceConstant - 7 -> 1
+15	ReplaceConstant	org.dynjs.parser.ast.IfStatement.getSizeMetric()I:96 - ReplaceConstant - 7 -> -1
+16	ReplaceConstant	org.dynjs.parser.ast.IfStatement.getSizeMetric()I:96 - ReplaceConstant - 7 -> 6
+17	ReplaceConstant	org.dynjs.parser.ast.IfStatement.getSizeMetric()I:96 - ReplaceConstant - 7 -> 8
+18	ReplaceArithmeticOperator	org.dynjs.parser.ast.IfStatement.getSizeMetric()I:96 - ReplaceArithmeticOperator + -> %
+19	ReplaceArithmeticOperator	org.dynjs.parser.ast.IfStatement.getSizeMetric()I:96 - ReplaceArithmeticOperator + -> -
+20	ReplaceArithmeticOperator	org.dynjs.parser.ast.IfStatement.getSizeMetric()I:96 - ReplaceArithmeticOperator + -> *
+21	ReplaceArithmeticOperator	org.dynjs.parser.ast.IfStatement.getSizeMetric()I:96 - ReplaceArithmeticOperator + -> /
+22	InsertUnaryOp	org.dynjs.parser.ast.IfStatement.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:101 - InsertUnaryOp Negation of strict
+23	InsertUnaryOp	org.dynjs.parser.ast.IfStatement.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:101 - InsertUnaryOp IINC 1 strict
+24	InsertUnaryOp	org.dynjs.parser.ast.IfStatement.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:101 - InsertUnaryOp IINC -1 strict
+25	InsertUnaryOp	org.dynjs.parser.ast.IfStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:105 - InsertUnaryOp Negation of debug
+26	InsertUnaryOp	org.dynjs.parser.ast.IfStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:105 - InsertUnaryOp IINC 1 debug
+27	InsertUnaryOp	org.dynjs.parser.ast.IfStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:105 - InsertUnaryOp IINC -1 debug
+28	ReplaceComparisonOperator	org.dynjs.parser.ast.IfStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:107 - ReplaceComparisonOperator == -> -2
+29	ReplaceComparisonOperator	org.dynjs.parser.ast.IfStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:107 - ReplaceComparisonOperator == -> >=
+30	ReplaceComparisonOperator	org.dynjs.parser.ast.IfStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:107 - ReplaceComparisonOperator == -> <=
+31	ReplaceConstant	org.dynjs.parser.ast.IfStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:108 - ReplaceConstant - Then -> 
+32	ReplaceComparisonOperator	org.dynjs.parser.ast.IfStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:109 - ReplaceComparisonOperator = null -> != null
+33	ReplaceConstant	org.dynjs.parser.ast.IfStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:110 - ReplaceConstant - Else -> 

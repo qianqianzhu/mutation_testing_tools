@@ -1,0 +1,9 @@
+0	ReplaceConstant	org.assertj.core.api.AbstractBooleanAssert.isTrue()Lorg/assertj/core/api/AbstractBooleanAssert;:59 - ReplaceConstant - 1 -> 0
+1	ReplaceConstant	org.assertj.core.api.AbstractBooleanAssert.isFalse()Lorg/assertj/core/api/AbstractBooleanAssert;:79 - ReplaceConstant - 0 -> 1
+2	InsertUnaryOp	org.assertj.core.api.AbstractBooleanAssert.isEqualTo(Z)Lorg/assertj/core/api/AbstractBooleanAssert;:100 - InsertUnaryOp Negation of expected
+3	InsertUnaryOp	org.assertj.core.api.AbstractBooleanAssert.isEqualTo(Z)Lorg/assertj/core/api/AbstractBooleanAssert;:100 - InsertUnaryOp IINC 1 expected
+4	InsertUnaryOp	org.assertj.core.api.AbstractBooleanAssert.isEqualTo(Z)Lorg/assertj/core/api/AbstractBooleanAssert;:100 - InsertUnaryOp IINC -1 expected
+5	InsertUnaryOp	org.assertj.core.api.AbstractBooleanAssert.isNotEqualTo(Z)Lorg/assertj/core/api/AbstractBooleanAssert;:122 - InsertUnaryOp Negation of other
+6	InsertUnaryOp	org.assertj.core.api.AbstractBooleanAssert.isNotEqualTo(Z)Lorg/assertj/core/api/AbstractBooleanAssert;:122 - InsertUnaryOp IINC 1 other
+7	InsertUnaryOp	org.assertj.core.api.AbstractBooleanAssert.isNotEqualTo(Z)Lorg/assertj/core/api/AbstractBooleanAssert;:122 - InsertUnaryOp IINC -1 other
+8	ReplaceConstant	org.assertj.core.api.AbstractBooleanAssert.usingComparator(Ljava/util/Comparator;)Lorg/assertj/core/api/AbstractBooleanAssert;:135 - ReplaceConstant - custom Comparator is not supported for Boolean comparison -> 

@@ -1,0 +1,5 @@
+0	ReplaceComparisonOperator	org.geotools.geometry.jts.coordinatesequence.CoordinateSequences$CoordinateSequenceFinder.filter(Lcom/vividsolutions/jts/geom/CoordinateSequence;I)V:264 - ReplaceComparisonOperator != null -> = null
+1	ReplaceComparisonOperator	org.geotools.geometry.jts.coordinatesequence.CoordinateSequences$CoordinateSequenceFinder.isDone()Z:270 - ReplaceComparisonOperator = null -> != null
+2	ReplaceConstant	org.geotools.geometry.jts.coordinatesequence.CoordinateSequences$CoordinateSequenceFinder.isDone()Z:270 - ReplaceConstant - 1 -> 0
+3	ReplaceConstant	org.geotools.geometry.jts.coordinatesequence.CoordinateSequences$CoordinateSequenceFinder.isDone()Z:270 - ReplaceConstant - 0 -> 1
+4	ReplaceConstant	org.geotools.geometry.jts.coordinatesequence.CoordinateSequences$CoordinateSequenceFinder.isGeometryChanged()Z:274 - ReplaceConstant - 0 -> 1

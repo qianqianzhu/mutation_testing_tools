@@ -1,0 +1,116 @@
+0	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.<init>(I)V:37 - InsertUnaryOp Negation of edgeCount
+1	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.<init>(I)V:37 - InsertUnaryOp IINC 1 edgeCount
+2	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.<init>(I)V:37 - InsertUnaryOp IINC -1 edgeCount
+3	ReplaceConstant	com.graphhopper.routing.VirtualEdgeIterator.reset()Lcom/graphhopper/util/EdgeIterator;:46 - ReplaceConstant - -1 -> 0
+4	ReplaceConstant	com.graphhopper.routing.VirtualEdgeIterator.reset()Lcom/graphhopper/util/EdgeIterator;:46 - ReplaceConstant - -1 -> 1
+5	ReplaceConstant	com.graphhopper.routing.VirtualEdgeIterator.reset()Lcom/graphhopper/util/EdgeIterator;:46 - ReplaceConstant - -1 -> -2
+6	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.next()Z:56 - InsertUnaryOp Negation
+7	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.next()Z:56 - InsertUnaryOp +1
+8	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.next()Z:56 - InsertUnaryOp -1
+9	ReplaceConstant	com.graphhopper.routing.VirtualEdgeIterator.next()Z:56 - ReplaceConstant - 1 -> 0
+10	ReplaceArithmeticOperator	com.graphhopper.routing.VirtualEdgeIterator.next()Z:56 - ReplaceArithmeticOperator + -> %
+11	ReplaceArithmeticOperator	com.graphhopper.routing.VirtualEdgeIterator.next()Z:56 - ReplaceArithmeticOperator + -> -
+12	ReplaceArithmeticOperator	com.graphhopper.routing.VirtualEdgeIterator.next()Z:56 - ReplaceArithmeticOperator + -> *
+13	ReplaceArithmeticOperator	com.graphhopper.routing.VirtualEdgeIterator.next()Z:56 - ReplaceArithmeticOperator + -> /
+14	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.next()Z:57 - InsertUnaryOp Negation
+15	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.next()Z:57 - InsertUnaryOp +1
+16	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.next()Z:57 - InsertUnaryOp -1
+17	ReplaceComparisonOperator	com.graphhopper.routing.VirtualEdgeIterator.next()Z:57 - ReplaceComparisonOperator >= -> -1
+18	ReplaceComparisonOperator	com.graphhopper.routing.VirtualEdgeIterator.next()Z:57 - ReplaceComparisonOperator >= -> >
+19	ReplaceComparisonOperator	com.graphhopper.routing.VirtualEdgeIterator.next()Z:57 - ReplaceComparisonOperator >= -> ==
+20	ReplaceConstant	com.graphhopper.routing.VirtualEdgeIterator.next()Z:57 - ReplaceConstant - 1 -> 0
+21	ReplaceConstant	com.graphhopper.routing.VirtualEdgeIterator.next()Z:57 - ReplaceConstant - 0 -> 1
+22	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.detach(Z)Lcom/graphhopper/util/EdgeIteratorState;:62 - InsertUnaryOp Negation of reverse
+23	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.detach(Z)Lcom/graphhopper/util/EdgeIteratorState;:62 - InsertUnaryOp IINC 1 reverse
+24	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.detach(Z)Lcom/graphhopper/util/EdgeIteratorState;:62 - InsertUnaryOp IINC -1 reverse
+25	ReplaceComparisonOperator	com.graphhopper.routing.VirtualEdgeIterator.detach(Z)Lcom/graphhopper/util/EdgeIteratorState;:62 - ReplaceComparisonOperator == -> -2
+26	ReplaceComparisonOperator	com.graphhopper.routing.VirtualEdgeIterator.detach(Z)Lcom/graphhopper/util/EdgeIteratorState;:62 - ReplaceComparisonOperator == -> >=
+27	ReplaceComparisonOperator	com.graphhopper.routing.VirtualEdgeIterator.detach(Z)Lcom/graphhopper/util/EdgeIteratorState;:62 - ReplaceComparisonOperator == -> <=
+28	ReplaceConstant	com.graphhopper.routing.VirtualEdgeIterator.detach(Z)Lcom/graphhopper/util/EdgeIteratorState;:63 - ReplaceConstant - Not yet supported -> 
+29	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.detach(Z)Lcom/graphhopper/util/EdgeIteratorState;:64 - InsertUnaryOp Negation
+30	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.detach(Z)Lcom/graphhopper/util/EdgeIteratorState;:64 - InsertUnaryOp +1
+31	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.detach(Z)Lcom/graphhopper/util/EdgeIteratorState;:64 - InsertUnaryOp -1
+32	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getEdge()I:69 - InsertUnaryOp Negation
+33	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getEdge()I:69 - InsertUnaryOp +1
+34	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getEdge()I:69 - InsertUnaryOp -1
+35	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getBaseNode()I:74 - InsertUnaryOp Negation
+36	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getBaseNode()I:74 - InsertUnaryOp +1
+37	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getBaseNode()I:74 - InsertUnaryOp -1
+38	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getAdjNode()I:79 - InsertUnaryOp Negation
+39	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getAdjNode()I:79 - InsertUnaryOp +1
+40	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getAdjNode()I:79 - InsertUnaryOp -1
+41	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.fetchWayGeometry(I)Lcom/graphhopper/util/PointList;:84 - InsertUnaryOp Negation
+42	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.fetchWayGeometry(I)Lcom/graphhopper/util/PointList;:84 - InsertUnaryOp +1
+43	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.fetchWayGeometry(I)Lcom/graphhopper/util/PointList;:84 - InsertUnaryOp -1
+44	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.fetchWayGeometry(I)Lcom/graphhopper/util/PointList;:84 - InsertUnaryOp Negation of mode
+45	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.fetchWayGeometry(I)Lcom/graphhopper/util/PointList;:84 - InsertUnaryOp IINC 1 mode
+46	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.fetchWayGeometry(I)Lcom/graphhopper/util/PointList;:84 - InsertUnaryOp IINC -1 mode
+47	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setWayGeometry(Lcom/graphhopper/util/PointList;)Lcom/graphhopper/util/EdgeIteratorState;:89 - InsertUnaryOp Negation
+48	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setWayGeometry(Lcom/graphhopper/util/PointList;)Lcom/graphhopper/util/EdgeIteratorState;:89 - InsertUnaryOp +1
+49	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setWayGeometry(Lcom/graphhopper/util/PointList;)Lcom/graphhopper/util/EdgeIteratorState;:89 - InsertUnaryOp -1
+50	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getDistance()D:94 - InsertUnaryOp Negation
+51	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getDistance()D:94 - InsertUnaryOp +1
+52	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getDistance()D:94 - InsertUnaryOp -1
+53	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setDistance(D)Lcom/graphhopper/util/EdgeIteratorState;:99 - InsertUnaryOp Negation
+54	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setDistance(D)Lcom/graphhopper/util/EdgeIteratorState;:99 - InsertUnaryOp +1
+55	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setDistance(D)Lcom/graphhopper/util/EdgeIteratorState;:99 - InsertUnaryOp -1
+56	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setDistance(D)Lcom/graphhopper/util/EdgeIteratorState;:99 - InsertUnaryOp Negation of dist
+57	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getFlags()J:104 - InsertUnaryOp Negation
+58	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getFlags()J:104 - InsertUnaryOp +1
+59	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getFlags()J:104 - InsertUnaryOp -1
+60	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setFlags(J)Lcom/graphhopper/util/EdgeIteratorState;:109 - InsertUnaryOp Negation
+61	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setFlags(J)Lcom/graphhopper/util/EdgeIteratorState;:109 - InsertUnaryOp +1
+62	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setFlags(J)Lcom/graphhopper/util/EdgeIteratorState;:109 - InsertUnaryOp -1
+63	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setFlags(J)Lcom/graphhopper/util/EdgeIteratorState;:109 - InsertUnaryOp Negation of flags
+64	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getName()Ljava/lang/String;:114 - InsertUnaryOp Negation
+65	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getName()Ljava/lang/String;:114 - InsertUnaryOp +1
+66	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getName()Ljava/lang/String;:114 - InsertUnaryOp -1
+67	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setName(Ljava/lang/String;)Lcom/graphhopper/util/EdgeIteratorState;:119 - InsertUnaryOp Negation
+68	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setName(Ljava/lang/String;)Lcom/graphhopper/util/EdgeIteratorState;:119 - InsertUnaryOp +1
+69	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setName(Ljava/lang/String;)Lcom/graphhopper/util/EdgeIteratorState;:119 - InsertUnaryOp -1
+70	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getBool(IZ)Z:124 - InsertUnaryOp Negation
+71	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getBool(IZ)Z:124 - InsertUnaryOp +1
+72	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getBool(IZ)Z:124 - InsertUnaryOp -1
+73	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getBool(IZ)Z:124 - InsertUnaryOp Negation of key
+74	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getBool(IZ)Z:124 - InsertUnaryOp IINC 1 key
+75	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getBool(IZ)Z:124 - InsertUnaryOp IINC -1 key
+76	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getBool(IZ)Z:124 - InsertUnaryOp Negation of _default
+77	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getBool(IZ)Z:124 - InsertUnaryOp IINC 1 _default
+78	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getBool(IZ)Z:124 - InsertUnaryOp IINC -1 _default
+79	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getAdditionalField()I:134 - InsertUnaryOp Negation
+80	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getAdditionalField()I:134 - InsertUnaryOp +1
+81	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getAdditionalField()I:134 - InsertUnaryOp -1
+82	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setAdditionalField(I)Lcom/graphhopper/util/EdgeIteratorState;:139 - InsertUnaryOp Negation
+83	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setAdditionalField(I)Lcom/graphhopper/util/EdgeIteratorState;:139 - InsertUnaryOp +1
+84	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setAdditionalField(I)Lcom/graphhopper/util/EdgeIteratorState;:139 - InsertUnaryOp -1
+85	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setAdditionalField(I)Lcom/graphhopper/util/EdgeIteratorState;:139 - InsertUnaryOp Negation of value
+86	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setAdditionalField(I)Lcom/graphhopper/util/EdgeIteratorState;:139 - InsertUnaryOp IINC 1 value
+87	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.setAdditionalField(I)Lcom/graphhopper/util/EdgeIteratorState;:139 - InsertUnaryOp IINC -1 value
+88	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.copyPropertiesTo(Lcom/graphhopper/util/EdgeIteratorState;)Lcom/graphhopper/util/EdgeIteratorState;:144 - InsertUnaryOp Negation
+89	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.copyPropertiesTo(Lcom/graphhopper/util/EdgeIteratorState;)Lcom/graphhopper/util/EdgeIteratorState;:144 - InsertUnaryOp +1
+90	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.copyPropertiesTo(Lcom/graphhopper/util/EdgeIteratorState;)Lcom/graphhopper/util/EdgeIteratorState;:144 - InsertUnaryOp -1
+91	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:149 - InsertUnaryOp Negation
+92	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:149 - InsertUnaryOp +1
+93	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.isBackward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:149 - InsertUnaryOp -1
+94	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:154 - InsertUnaryOp Negation
+95	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:154 - InsertUnaryOp +1
+96	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.isForward(Lcom/graphhopper/routing/util/FlagEncoder;)Z:154 - InsertUnaryOp -1
+97	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.isShortcut()Z:159 - InsertUnaryOp Negation
+98	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.isShortcut()Z:159 - InsertUnaryOp +1
+99	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.isShortcut()Z:159 - InsertUnaryOp -1
+100	ReplaceComparisonOperator	com.graphhopper.routing.VirtualEdgeIterator.isShortcut()Z:160 - ReplaceComparisonOperator == -> -2
+101	ReplaceComparisonOperator	com.graphhopper.routing.VirtualEdgeIterator.isShortcut()Z:160 - ReplaceComparisonOperator == -> >=
+102	ReplaceComparisonOperator	com.graphhopper.routing.VirtualEdgeIterator.isShortcut()Z:160 - ReplaceComparisonOperator == -> <=
+103	ReplaceComparisonOperator	com.graphhopper.routing.VirtualEdgeIterator.isShortcut()Z:160 - ReplaceComparisonOperator == -> -2
+104	ReplaceComparisonOperator	com.graphhopper.routing.VirtualEdgeIterator.isShortcut()Z:160 - ReplaceComparisonOperator == -> >=
+105	ReplaceComparisonOperator	com.graphhopper.routing.VirtualEdgeIterator.isShortcut()Z:160 - ReplaceComparisonOperator == -> <=
+106	ReplaceConstant	com.graphhopper.routing.VirtualEdgeIterator.isShortcut()Z:160 - ReplaceConstant - 1 -> 0
+107	ReplaceConstant	com.graphhopper.routing.VirtualEdgeIterator.isShortcut()Z:160 - ReplaceConstant - 0 -> 1
+108	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getWeight()D:166 - InsertUnaryOp Negation
+109	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getWeight()D:166 - InsertUnaryOp +1
+110	InsertUnaryOp	com.graphhopper.routing.VirtualEdgeIterator.getWeight()D:166 - InsertUnaryOp -1
+111	ReplaceConstant	com.graphhopper.routing.VirtualEdgeIterator.setWeight(D)Lcom/graphhopper/util/CHEdgeIteratorState;:171 - ReplaceConstant - Not supported. -> 
+112	ReplaceConstant	com.graphhopper.routing.VirtualEdgeIterator.getSkippedEdge1()I:176 - ReplaceConstant - Not supported. -> 
+113	ReplaceConstant	com.graphhopper.routing.VirtualEdgeIterator.getSkippedEdge2()I:181 - ReplaceConstant - Not supported. -> 
+114	ReplaceConstant	com.graphhopper.routing.VirtualEdgeIterator.setSkippedEdges(II)V:186 - ReplaceConstant - Not supported. -> 
+115	ReplaceConstant	com.graphhopper.routing.VirtualEdgeIterator.getMergeStatus(J)I:191 - ReplaceConstant - Not supported. -> 

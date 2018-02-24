@@ -1,0 +1,216 @@
+0	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.<init>(Lorg/opengis/filter/capability/FunctionName;)V:51 - ReplaceConstant - 2 -> 0
+1	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.<init>(Lorg/opengis/filter/capability/FunctionName;)V:51 - ReplaceConstant - 2 -> 1
+2	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.<init>(Lorg/opengis/filter/capability/FunctionName;)V:51 - ReplaceConstant - 2 -> -1
+3	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.<init>(Lorg/opengis/filter/capability/FunctionName;)V:51 - ReplaceConstant - 2 -> 3
+4	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.getClasses()I:123 - ReplaceConstant - 1 -> 0
+5	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.setNumberOfClasses(I)V:131 - InsertUnaryOp Negation of classes
+6	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.setNumberOfClasses(I)V:131 - InsertUnaryOp IINC 1 classes
+7	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.setNumberOfClasses(I)V:131 - InsertUnaryOp IINC -1 classes
+8	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.setClasses(I)V:136 - InsertUnaryOp Negation of classes
+9	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.setClasses(I)V:136 - InsertUnaryOp IINC 1 classes
+10	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.setClasses(I)V:136 - InsertUnaryOp IINC -1 classes
+11	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.setClasses(I)V:137 - ReplaceConstant - 1 -> 0
+12	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:154 - InsertUnaryOp Negation of slotWidth
+13	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:155 - ReplaceConstant - . -> 
+14	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:155 - ReplaceConstant - -1 -> 0
+15	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:155 - ReplaceConstant - -1 -> 1
+16	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:155 - ReplaceConstant - -1 -> -2
+17	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:155 - ReplaceComparisonOperator <= -> -1
+18	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:155 - ReplaceComparisonOperator <= -> <
+19	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:155 - ReplaceComparisonOperator <= -> ==
+20	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:156 - ReplaceConstant - 0 -> 
+21	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:156 - ReplaceComparisonOperator == -> -2
+22	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:156 - ReplaceComparisonOperator == -> >=
+23	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:156 - ReplaceComparisonOperator == -> <=
+24	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:157 - ReplaceConstant - 0 -> 1
+25	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:157 - ReplaceConstant - 1 -> 0
+26	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:157 - ReplaceArithmeticOperator - -> +
+27	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:157 - ReplaceArithmeticOperator - -> %
+28	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:157 - ReplaceArithmeticOperator - -> *
+29	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:157 - ReplaceArithmeticOperator - -> /
+30	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:160 - InsertUnaryOp Negation of slotWidth
+31	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:161 - InsertUnaryOp Negation of slotWidth
+32	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:161 - InsertUnaryOp Negation of intPart
+33	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:161 - InsertUnaryOp IINC 1 intPart
+34	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:161 - InsertUnaryOp IINC -1 intPart
+35	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:161 - ReplaceArithmeticOperator - -> +
+36	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:161 - ReplaceArithmeticOperator - -> %
+37	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:161 - ReplaceArithmeticOperator - -> *
+38	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:161 - ReplaceArithmeticOperator - -> /
+39	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:162 - InsertUnaryOp Negation of intPart
+40	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:162 - InsertUnaryOp IINC 1 intPart
+41	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:162 - InsertUnaryOp IINC -1 intPart
+42	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:163 - InsertUnaryOp Negation of intPoints
+43	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:163 - InsertUnaryOp IINC 1 intPoints
+44	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:163 - InsertUnaryOp IINC -1 intPoints
+45	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:163 - ReplaceArithmeticOperator - -> +
+46	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:163 - ReplaceArithmeticOperator - -> %
+47	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:163 - ReplaceArithmeticOperator - -> *
+48	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:163 - ReplaceArithmeticOperator - -> /
+49	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:164 - ReplaceConstant - . -> 
+50	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:164 - ReplaceConstant - -1 -> 0
+51	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:164 - ReplaceConstant - -1 -> 1
+52	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:164 - ReplaceConstant - -1 -> -2
+53	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:164 - ReplaceComparisonOperator <= -> -1
+54	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:164 - ReplaceComparisonOperator <= -> <
+55	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:164 - ReplaceComparisonOperator <= -> ==
+56	ReplaceVariable	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:165 - ReplaceVariable decPoints -> intPoints
+57	ReplaceVariable	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:165 - ReplaceVariable decPoints -> intPart
+58	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:167 - InsertUnaryOp Negation of decPart
+59	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:167 - ReplaceConstant - 0.0 -> 1.0
+60	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:167 - ReplaceConstant - 0.0 -> -1.0
+61	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:167 - ReplaceComparisonOperator != -> -1
+62	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:167 - ReplaceComparisonOperator != -> <
+63	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:167 - ReplaceComparisonOperator != -> >
+64	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:168 - ReplaceConstant - 0 -> 1
+65	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:171 - InsertUnaryOp Negation of intPart
+66	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:171 - InsertUnaryOp IINC 1 intPart
+67	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:171 - InsertUnaryOp IINC -1 intPart
+68	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:171 - ReplaceComparisonOperator != -> -1
+69	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:171 - ReplaceComparisonOperator != -> <
+70	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:171 - ReplaceComparisonOperator != -> >
+71	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:172 - InsertUnaryOp Negation of decPoints
+72	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:172 - InsertUnaryOp IINC 1 decPoints
+73	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:172 - InsertUnaryOp IINC -1 decPoints
+74	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:172 - ReplaceConstant - 6 -> 0
+75	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:172 - ReplaceConstant - 6 -> 1
+76	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:172 - ReplaceConstant - 6 -> -1
+77	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:172 - ReplaceConstant - 6 -> 5
+78	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:172 - ReplaceConstant - 6 -> 7
+79	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:172 - ReplaceComparisonOperator <= -> -1
+80	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:172 - ReplaceComparisonOperator <= -> <
+81	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:172 - ReplaceComparisonOperator <= -> ==
+82	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:173 - ReplaceConstant - 5 -> 0
+83	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:173 - ReplaceConstant - 5 -> 1
+84	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:173 - ReplaceConstant - 5 -> -1
+85	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:173 - ReplaceConstant - 5 -> 4
+86	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:173 - ReplaceConstant - 5 -> 6
+87	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:174 - InsertUnaryOp Negation of decPoints
+88	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:174 - InsertUnaryOp IINC 1 decPoints
+89	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:174 - InsertUnaryOp IINC -1 decPoints
+90	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:174 - ReplaceComparisonOperator <= -> -1
+91	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:174 - ReplaceComparisonOperator <= -> ==
+92	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:174 - ReplaceComparisonOperator <= -> <
+93	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:175 - InsertUnaryOp Negation of decPoints
+94	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:175 - InsertUnaryOp IINC 1 decPoints
+95	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:175 - InsertUnaryOp IINC -1 decPoints
+96	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:177 - ReplaceConstant - 1 -> 0
+97	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:179 - InsertUnaryOp Negation of decPoints
+98	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:179 - InsertUnaryOp IINC 1 decPoints
+99	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:179 - InsertUnaryOp IINC -1 decPoints
+100	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:179 - ReplaceComparisonOperator != -> -1
+101	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:179 - ReplaceComparisonOperator != -> <
+102	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:179 - ReplaceComparisonOperator != -> >
+103	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:180 - ReplaceConstant - 0 -> 1
+104	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:182 - InsertUnaryOp Negation of intPoints
+105	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:182 - InsertUnaryOp IINC 1 intPoints
+106	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:182 - InsertUnaryOp IINC -1 intPoints
+107	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:182 - InsertUnaryOp Negation of decPoints
+108	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:182 - InsertUnaryOp IINC 1 decPoints
+109	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:182 - InsertUnaryOp IINC -1 decPoints
+110	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:182 - ReplaceArithmeticOperator + -> %
+111	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:182 - ReplaceArithmeticOperator + -> -
+112	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:182 - ReplaceArithmeticOperator + -> *
+113	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:182 - ReplaceArithmeticOperator + -> /
+114	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:183 - InsertUnaryOp Negation of chars
+115	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:183 - InsertUnaryOp IINC 1 chars
+116	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:183 - InsertUnaryOp IINC -1 chars
+117	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:183 - ReplaceConstant - 6 -> 0
+118	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:183 - ReplaceConstant - 6 -> 1
+119	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:183 - ReplaceConstant - 6 -> -1
+120	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:183 - ReplaceConstant - 6 -> 5
+121	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:183 - ReplaceConstant - 6 -> 7
+122	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:183 - ReplaceComparisonOperator >= -> -1
+123	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:183 - ReplaceComparisonOperator >= -> >
+124	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:183 - ReplaceComparisonOperator >= -> ==
+125	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:184 - InsertUnaryOp Negation of decPoints
+126	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:184 - InsertUnaryOp IINC 1 decPoints
+127	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:184 - InsertUnaryOp IINC -1 decPoints
+128	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:185 - InsertUnaryOp Negation of intPoints
+129	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:185 - InsertUnaryOp IINC 1 intPoints
+130	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:185 - InsertUnaryOp IINC -1 intPoints
+131	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:185 - ReplaceConstant - 4 -> 0
+132	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:185 - ReplaceConstant - 4 -> 1
+133	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:185 - ReplaceConstant - 4 -> -1
+134	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:185 - ReplaceConstant - 4 -> 3
+135	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:185 - ReplaceConstant - 4 -> 5
+136	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:185 - ReplaceComparisonOperator <= -> -1
+137	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:185 - ReplaceComparisonOperator <= -> <
+138	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:185 - ReplaceComparisonOperator <= -> ==
+139	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:186 - ReplaceConstant - 1 -> 0
+140	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:188 - ReplaceConstant - 5 -> 0
+141	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:188 - ReplaceConstant - 5 -> 1
+142	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:188 - ReplaceConstant - 5 -> -1
+143	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:188 - ReplaceConstant - 5 -> 4
+144	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:188 - ReplaceConstant - 5 -> 6
+145	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:188 - InsertUnaryOp Negation of intPoints
+146	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:188 - InsertUnaryOp IINC 1 intPoints
+147	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:188 - InsertUnaryOp IINC -1 intPoints
+148	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:188 - ReplaceArithmeticOperator - -> +
+149	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:188 - ReplaceArithmeticOperator - -> %
+150	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:188 - ReplaceArithmeticOperator - -> *
+151	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.decimalPlaces(D)I:188 - ReplaceArithmeticOperator - -> /
+152	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.round(DI)D:205 - ReplaceConstant - 10.0 -> 0.0
+153	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.round(DI)D:205 - ReplaceConstant - 10.0 -> 1.0
+154	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.round(DI)D:205 - ReplaceConstant - 10.0 -> -1.0
+155	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.round(DI)D:205 - ReplaceConstant - 10.0 -> 9.0
+156	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.round(DI)D:205 - ReplaceConstant - 10.0 -> 11.0
+157	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.round(DI)D:205 - InsertUnaryOp Negation of decimalPlaces
+158	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.round(DI)D:205 - InsertUnaryOp IINC 1 decimalPlaces
+159	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.round(DI)D:205 - InsertUnaryOp IINC -1 decimalPlaces
+160	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.round(DI)D:206 - InsertUnaryOp Negation of value
+161	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.round(DI)D:206 - InsertUnaryOp Negation of divisor
+162	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.round(DI)D:206 - ReplaceArithmeticOperator * -> +
+163	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.round(DI)D:206 - ReplaceArithmeticOperator * -> %
+164	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.round(DI)D:206 - ReplaceArithmeticOperator * -> -
+165	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.round(DI)D:206 - ReplaceArithmeticOperator * -> /
+166	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.round(DI)D:207 - InsertUnaryOp Negation of newVal
+167	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.round(DI)D:207 - InsertUnaryOp Negation of divisor
+168	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.round(DI)D:207 - ReplaceArithmeticOperator / -> +
+169	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.round(DI)D:207 - ReplaceArithmeticOperator / -> %
+170	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.round(DI)D:207 - ReplaceArithmeticOperator / -> -
+171	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.round(DI)D:207 - ReplaceArithmeticOperator / -> *
+172	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.round(DI)D:208 - InsertUnaryOp Negation of newVal
+173	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:223 - ReplaceConstant - 10.0 -> 0.0
+174	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:223 - ReplaceConstant - 10.0 -> 1.0
+175	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:223 - ReplaceConstant - 10.0 -> -1.0
+176	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:223 - ReplaceConstant - 10.0 -> 9.0
+177	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:223 - ReplaceConstant - 10.0 -> 11.0
+178	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:223 - InsertUnaryOp Negation of decimalPlaces
+179	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:223 - InsertUnaryOp IINC 1 decimalPlaces
+180	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:223 - InsertUnaryOp IINC -1 decimalPlaces
+181	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:224 - InsertUnaryOp Negation of value
+182	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:224 - InsertUnaryOp Negation of divisor
+183	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:224 - ReplaceArithmeticOperator * -> +
+184	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:224 - ReplaceArithmeticOperator * -> %
+185	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:224 - ReplaceArithmeticOperator * -> -
+186	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:224 - ReplaceArithmeticOperator * -> /
+187	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:225 - InsertUnaryOp Negation of up
+188	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:225 - InsertUnaryOp IINC 1 up
+189	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:225 - InsertUnaryOp IINC -1 up
+190	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:225 - ReplaceComparisonOperator == -> -2
+191	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:225 - ReplaceComparisonOperator == -> >=
+192	ReplaceComparisonOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:225 - ReplaceComparisonOperator == -> <=
+193	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:225 - InsertUnaryOp Negation of newVal
+194	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:225 - ReplaceConstant - 1.0 -> 0.0
+195	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:225 - ReplaceConstant - 1.0 -> -1.0
+196	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:225 - ReplaceConstant - 1.0 -> 2.0
+197	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:225 - ReplaceArithmeticOperator + -> %
+198	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:225 - ReplaceArithmeticOperator + -> -
+199	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:225 - ReplaceArithmeticOperator + -> *
+200	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:225 - ReplaceArithmeticOperator + -> /
+201	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:226 - InsertUnaryOp Negation of newVal
+202	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:226 - ReplaceConstant - 1.0 -> 0.0
+203	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:226 - ReplaceConstant - 1.0 -> -1.0
+204	ReplaceConstant	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:226 - ReplaceConstant - 1.0 -> 2.0
+205	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:226 - ReplaceArithmeticOperator - -> +
+206	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:226 - ReplaceArithmeticOperator - -> %
+207	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:226 - ReplaceArithmeticOperator - -> *
+208	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:226 - ReplaceArithmeticOperator - -> /
+209	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:227 - InsertUnaryOp Negation of newVal
+210	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:227 - InsertUnaryOp Negation of divisor
+211	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:227 - ReplaceArithmeticOperator / -> +
+212	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:227 - ReplaceArithmeticOperator / -> %
+213	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:227 - ReplaceArithmeticOperator / -> -
+214	ReplaceArithmeticOperator	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:227 - ReplaceArithmeticOperator / -> *
+215	InsertUnaryOp	org.geotools.filter.function.ClassificationFunction.fixRound(DIZ)D:228 - InsertUnaryOp Negation of newVal

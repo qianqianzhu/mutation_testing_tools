@@ -1,0 +1,104 @@
+0	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.<init>()V:38 - ReplaceConstant - 0 -> 1
+1	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.<init>(ZLorg/opengis/filter/capability/Functions;)V:43 - InsertUnaryOp Negation of simpleArtithmetic
+2	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.<init>(ZLorg/opengis/filter/capability/Functions;)V:43 - InsertUnaryOp IINC 1 simpleArtithmetic
+3	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.<init>(ZLorg/opengis/filter/capability/Functions;)V:43 - InsertUnaryOp IINC -1 simpleArtithmetic
+4	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.<init>(Lorg/opengis/filter/capability/ArithmeticOperators;)V:49 - ReplaceComparisonOperator != null -> = null
+5	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.setSimpleArithmetic(Z)V:54 - InsertUnaryOp Negation of simpleArithmetic
+6	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.setSimpleArithmetic(Z)V:54 - InsertUnaryOp IINC 1 simpleArithmetic
+7	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.setSimpleArithmetic(Z)V:54 - InsertUnaryOp IINC -1 simpleArithmetic
+8	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.hasSimpleArithmetic()Z:57 - InsertUnaryOp Negation
+9	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.toFunctionsImpl(Lorg/opengis/filter/capability/Functions;)Lorg/geotools/filter/capability/FunctionsImpl;:65 - ReplaceComparisonOperator != null -> = null
+10	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.toFunctionsImpl(Lorg/opengis/filter/capability/Functions;)Lorg/geotools/filter/capability/FunctionsImpl;:68 - ReplaceComparisonOperator == -> -2
+11	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.toFunctionsImpl(Lorg/opengis/filter/capability/Functions;)Lorg/geotools/filter/capability/FunctionsImpl;:68 - ReplaceComparisonOperator == -> >=
+12	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.toFunctionsImpl(Lorg/opengis/filter/capability/Functions;)Lorg/geotools/filter/capability/FunctionsImpl;:68 - ReplaceComparisonOperator == -> <=
+13	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.addAll(Lorg/opengis/filter/capability/ArithmeticOperators;)V:77 - ReplaceComparisonOperator != null -> = null
+14	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.addAll(Lorg/opengis/filter/capability/ArithmeticOperators;)V:79 - ReplaceComparisonOperator == -> -2
+15	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.addAll(Lorg/opengis/filter/capability/ArithmeticOperators;)V:79 - ReplaceComparisonOperator == -> >=
+16	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.addAll(Lorg/opengis/filter/capability/ArithmeticOperators;)V:79 - ReplaceComparisonOperator == -> <=
+17	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.addAll(Lorg/opengis/filter/capability/ArithmeticOperators;)V:80 - ReplaceConstant - 1 -> 0
+18	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.toString()Ljava/lang/String;:86 - ReplaceConstant - ArithmeticOperators[ -> 
+19	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.toString()Ljava/lang/String;:87 - InsertUnaryOp Negation
+20	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.toString()Ljava/lang/String;:87 - ReplaceComparisonOperator == -> -2
+21	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.toString()Ljava/lang/String;:87 - ReplaceComparisonOperator == -> >=
+22	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.toString()Ljava/lang/String;:87 - ReplaceComparisonOperator == -> <=
+23	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.toString()Ljava/lang/String;:88 - ReplaceConstant - simpleArithmetic=true -> 
+24	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.toString()Ljava/lang/String;:90 - ReplaceConstant - ] -> 
+25	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.toString()Ljava/lang/String;:91 - ReplaceComparisonOperator = null -> != null
+26	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.toString()Ljava/lang/String;:92 - ReplaceConstant -  with functions -> 
+27	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:99 - ReplaceConstant - 31 -> 0
+28	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:99 - ReplaceConstant - 31 -> 1
+29	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:99 - ReplaceConstant - 31 -> -1
+30	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:99 - ReplaceConstant - 31 -> 30
+31	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:99 - ReplaceConstant - 31 -> 32
+32	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:100 - ReplaceConstant - 1 -> 0
+33	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - ReplaceConstant - 31 -> 0
+34	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - ReplaceConstant - 31 -> 1
+35	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - ReplaceConstant - 31 -> -1
+36	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - ReplaceConstant - 31 -> 30
+37	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - ReplaceConstant - 31 -> 32
+38	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - InsertUnaryOp Negation of result
+39	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - InsertUnaryOp IINC 1 result
+40	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - InsertUnaryOp IINC -1 result
+41	ReplaceArithmeticOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - ReplaceArithmeticOperator * -> +
+42	ReplaceArithmeticOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - ReplaceArithmeticOperator * -> %
+43	ReplaceArithmeticOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - ReplaceArithmeticOperator * -> -
+44	ReplaceArithmeticOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - ReplaceArithmeticOperator * -> /
+45	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - ReplaceComparisonOperator != null -> = null
+46	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - ReplaceConstant - 0 -> 1
+47	ReplaceArithmeticOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - ReplaceArithmeticOperator + -> %
+48	ReplaceArithmeticOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - ReplaceArithmeticOperator + -> -
+49	ReplaceArithmeticOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - ReplaceArithmeticOperator + -> *
+50	ReplaceArithmeticOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:101 - ReplaceArithmeticOperator + -> /
+51	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceConstant - 31 -> 0
+52	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceConstant - 31 -> 1
+53	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceConstant - 31 -> -1
+54	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceConstant - 31 -> 30
+55	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceConstant - 31 -> 32
+56	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - InsertUnaryOp Negation of result
+57	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - InsertUnaryOp IINC 1 result
+58	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - InsertUnaryOp IINC -1 result
+59	ReplaceArithmeticOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceArithmeticOperator * -> +
+60	ReplaceArithmeticOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceArithmeticOperator * -> %
+61	ReplaceArithmeticOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceArithmeticOperator * -> -
+62	ReplaceArithmeticOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceArithmeticOperator * -> /
+63	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - InsertUnaryOp Negation
+64	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceComparisonOperator == -> -2
+65	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceComparisonOperator == -> >=
+66	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceComparisonOperator == -> <=
+67	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceConstant - 1231 -> 0
+68	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceConstant - 1231 -> 1
+69	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceConstant - 1231 -> -1
+70	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceConstant - 1231 -> 1230
+71	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceConstant - 1231 -> 1232
+72	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceConstant - 1237 -> 0
+73	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceConstant - 1237 -> 1
+74	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceConstant - 1237 -> -1
+75	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceConstant - 1237 -> 1236
+76	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceConstant - 1237 -> 1238
+77	ReplaceArithmeticOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceArithmeticOperator + -> %
+78	ReplaceArithmeticOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceArithmeticOperator + -> -
+79	ReplaceArithmeticOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceArithmeticOperator + -> *
+80	ReplaceArithmeticOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:102 - ReplaceArithmeticOperator + -> /
+81	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:103 - InsertUnaryOp Negation of result
+82	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:103 - InsertUnaryOp IINC 1 result
+83	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.hashCode()I:103 - InsertUnaryOp IINC -1 result
+84	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:108 - ReplaceComparisonOperator != -> ==
+85	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:109 - ReplaceConstant - 1 -> 0
+86	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:110 - ReplaceComparisonOperator != null -> = null
+87	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:111 - ReplaceConstant - 0 -> 1
+88	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:112 - ReplaceComparisonOperator == -> !=
+89	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:113 - ReplaceConstant - 0 -> 1
+90	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:115 - ReplaceComparisonOperator != null -> = null
+91	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:116 - ReplaceComparisonOperator = null -> != null
+92	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:117 - ReplaceConstant - 0 -> 1
+93	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:118 - ReplaceComparisonOperator != -> -1
+94	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:118 - ReplaceComparisonOperator != -> <
+95	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:118 - ReplaceComparisonOperator != -> >
+96	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:119 - ReplaceConstant - 0 -> 1
+97	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:120 - InsertUnaryOp Negation
+98	InsertUnaryOp	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:120 - InsertUnaryOp Negation
+99	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:120 - ReplaceComparisonOperator == -> -2
+100	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:120 - ReplaceComparisonOperator == -> >=
+101	ReplaceComparisonOperator	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:120 - ReplaceComparisonOperator == -> <=
+102	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:121 - ReplaceConstant - 0 -> 1
+103	ReplaceConstant	org.geotools.filter.capability.ArithmeticOperatorsImpl.equals(Ljava/lang/Object;)Z:122 - ReplaceConstant - 1 -> 0

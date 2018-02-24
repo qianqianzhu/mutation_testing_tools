@@ -1,0 +1,30 @@
+0	InsertUnaryOp	com.clearspring.analytics.stream.ScoredItem.<init>(Ljava/lang/Object;JJ)V:34 - InsertUnaryOp Negation of error
+1	InsertUnaryOp	com.clearspring.analytics.stream.ScoredItem.<init>(Ljava/lang/Object;JJ)V:35 - InsertUnaryOp Negation of count
+2	ReplaceConstant	com.clearspring.analytics.stream.ScoredItem.<init>(Ljava/lang/Object;JJ)V:36 - ReplaceConstant - 1 -> 0
+3	InsertUnaryOp	com.clearspring.analytics.stream.ScoredItem.<init>(Ljava/lang/Object;J)V:40 - InsertUnaryOp Negation of count
+4	ReplaceConstant	com.clearspring.analytics.stream.ScoredItem.<init>(Ljava/lang/Object;J)V:40 - ReplaceConstant - 0 -> 1
+5	ReplaceConstant	com.clearspring.analytics.stream.ScoredItem.<init>(Ljava/lang/Object;J)V:40 - ReplaceConstant - 0 -> -1
+6	InsertUnaryOp	com.clearspring.analytics.stream.ScoredItem.addAndGetCount(J)J:44 - InsertUnaryOp Negation of delta
+7	InsertUnaryOp	com.clearspring.analytics.stream.ScoredItem.setError(J)V:48 - InsertUnaryOp Negation of newError
+8	InsertUnaryOp	com.clearspring.analytics.stream.ScoredItem.compareTo(Lcom/clearspring/analytics/stream/ScoredItem;)I:71 - InsertUnaryOp Negation of x
+9	InsertUnaryOp	com.clearspring.analytics.stream.ScoredItem.compareTo(Lcom/clearspring/analytics/stream/ScoredItem;)I:71 - InsertUnaryOp Negation of y
+10	ReplaceComparisonOperator	com.clearspring.analytics.stream.ScoredItem.compareTo(Lcom/clearspring/analytics/stream/ScoredItem;)I:71 - ReplaceComparisonOperator >= -> -1
+11	ReplaceComparisonOperator	com.clearspring.analytics.stream.ScoredItem.compareTo(Lcom/clearspring/analytics/stream/ScoredItem;)I:71 - ReplaceComparisonOperator >= -> ==
+12	ReplaceComparisonOperator	com.clearspring.analytics.stream.ScoredItem.compareTo(Lcom/clearspring/analytics/stream/ScoredItem;)I:71 - ReplaceComparisonOperator >= -> >
+13	ReplaceConstant	com.clearspring.analytics.stream.ScoredItem.compareTo(Lcom/clearspring/analytics/stream/ScoredItem;)I:71 - ReplaceConstant - -1 -> 0
+14	ReplaceConstant	com.clearspring.analytics.stream.ScoredItem.compareTo(Lcom/clearspring/analytics/stream/ScoredItem;)I:71 - ReplaceConstant - -1 -> 1
+15	ReplaceConstant	com.clearspring.analytics.stream.ScoredItem.compareTo(Lcom/clearspring/analytics/stream/ScoredItem;)I:71 - ReplaceConstant - -1 -> -2
+16	InsertUnaryOp	com.clearspring.analytics.stream.ScoredItem.compareTo(Lcom/clearspring/analytics/stream/ScoredItem;)I:71 - InsertUnaryOp Negation of x
+17	InsertUnaryOp	com.clearspring.analytics.stream.ScoredItem.compareTo(Lcom/clearspring/analytics/stream/ScoredItem;)I:71 - InsertUnaryOp Negation of y
+18	ReplaceComparisonOperator	com.clearspring.analytics.stream.ScoredItem.compareTo(Lcom/clearspring/analytics/stream/ScoredItem;)I:71 - ReplaceComparisonOperator != -> -1
+19	ReplaceComparisonOperator	com.clearspring.analytics.stream.ScoredItem.compareTo(Lcom/clearspring/analytics/stream/ScoredItem;)I:71 - ReplaceComparisonOperator != -> <
+20	ReplaceComparisonOperator	com.clearspring.analytics.stream.ScoredItem.compareTo(Lcom/clearspring/analytics/stream/ScoredItem;)I:71 - ReplaceComparisonOperator != -> >
+21	ReplaceConstant	com.clearspring.analytics.stream.ScoredItem.compareTo(Lcom/clearspring/analytics/stream/ScoredItem;)I:71 - ReplaceConstant - 0 -> 1
+22	ReplaceConstant	com.clearspring.analytics.stream.ScoredItem.compareTo(Lcom/clearspring/analytics/stream/ScoredItem;)I:71 - ReplaceConstant - 1 -> 0
+23	ReplaceConstant	com.clearspring.analytics.stream.ScoredItem.toString()Ljava/lang/String;:76 - ReplaceConstant - Value:  -> 
+24	ReplaceConstant	com.clearspring.analytics.stream.ScoredItem.toString()Ljava/lang/String;:78 - ReplaceConstant - , Count:  -> 
+25	ReplaceConstant	com.clearspring.analytics.stream.ScoredItem.toString()Ljava/lang/String;:80 - ReplaceConstant - , Error:  -> 
+26	ReplaceConstant	com.clearspring.analytics.stream.ScoredItem.toString()Ljava/lang/String;:82 - ReplaceConstant - , object:  -> 
+27	InsertUnaryOp	com.clearspring.analytics.stream.ScoredItem.setNewItem(Z)V:89 - InsertUnaryOp Negation of newItem
+28	InsertUnaryOp	com.clearspring.analytics.stream.ScoredItem.setNewItem(Z)V:89 - InsertUnaryOp IINC 1 newItem
+29	InsertUnaryOp	com.clearspring.analytics.stream.ScoredItem.setNewItem(Z)V:89 - InsertUnaryOp IINC -1 newItem

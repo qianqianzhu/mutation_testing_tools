@@ -1,0 +1,160 @@
+0	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.<init>(Ledu/uci/ics/crawler4j/robotstxt/RobotstxtConfig;Ledu/uci/ics/crawler4j/fetcher/PageFetcher;)V:54 - ReplaceConstant - 16384 -> 0
+1	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.<init>(Ledu/uci/ics/crawler4j/robotstxt/RobotstxtConfig;Ledu/uci/ics/crawler4j/fetcher/PageFetcher;)V:54 - ReplaceConstant - 16384 -> 1
+2	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.<init>(Ledu/uci/ics/crawler4j/robotstxt/RobotstxtConfig;Ledu/uci/ics/crawler4j/fetcher/PageFetcher;)V:54 - ReplaceConstant - 16384 -> -1
+3	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.<init>(Ledu/uci/ics/crawler4j/robotstxt/RobotstxtConfig;Ledu/uci/ics/crawler4j/fetcher/PageFetcher;)V:54 - ReplaceConstant - 16384 -> 16383
+4	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.<init>(Ledu/uci/ics/crawler4j/robotstxt/RobotstxtConfig;Ledu/uci/ics/crawler4j/fetcher/PageFetcher;)V:54 - ReplaceConstant - 16384 -> 16385
+5	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.<init>(Ledu/uci/ics/crawler4j/robotstxt/RobotstxtConfig;Ledu/uci/ics/crawler4j/fetcher/PageFetcher;I)V:60 - InsertUnaryOp Negation of maxBytes
+6	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.<init>(Ledu/uci/ics/crawler4j/robotstxt/RobotstxtConfig;Ledu/uci/ics/crawler4j/fetcher/PageFetcher;I)V:60 - InsertUnaryOp IINC 1 maxBytes
+7	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.<init>(Ledu/uci/ics/crawler4j/robotstxt/RobotstxtConfig;Ledu/uci/ics/crawler4j/fetcher/PageFetcher;I)V:60 - InsertUnaryOp IINC -1 maxBytes
+8	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.allows(Ledu/uci/ics/crawler4j/url/WebURL;)Z:69 - ReplaceComparisonOperator != -> -1
+9	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.allows(Ledu/uci/ics/crawler4j/url/WebURL;)Z:69 - ReplaceComparisonOperator != -> <
+10	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.allows(Ledu/uci/ics/crawler4j/url/WebURL;)Z:69 - ReplaceComparisonOperator != -> >
+11	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.allows(Ledu/uci/ics/crawler4j/url/WebURL;)Z:70 - ReplaceConstant - 1 -> 0
+12	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.allows(Ledu/uci/ics/crawler4j/url/WebURL;)Z:79 - ReplaceComparisonOperator = null -> != null
+13	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.allows(Ledu/uci/ics/crawler4j/url/WebURL;)Z:79 - ReplaceComparisonOperator == -> -2
+14	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.allows(Ledu/uci/ics/crawler4j/url/WebURL;)Z:79 - ReplaceComparisonOperator == -> >=
+15	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.allows(Ledu/uci/ics/crawler4j/url/WebURL;)Z:79 - ReplaceComparisonOperator == -> <=
+16	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.allows(Ledu/uci/ics/crawler4j/url/WebURL;)Z:85 - ReplaceComparisonOperator != null -> = null
+17	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.allows(Ledu/uci/ics/crawler4j/url/WebURL;)Z:90 - ReplaceConstant - Bad URL in Robots.txt:  -> 
+18	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.allows(Ledu/uci/ics/crawler4j/url/WebURL;)Z:93 - ReplaceConstant - RobotstxtServer: default: allow -> 
+19	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.allows(Ledu/uci/ics/crawler4j/url/WebURL;)Z:94 - ReplaceConstant - 1 -> 0
+20	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:100 - ReplaceComparisonOperator == -> -2
+21	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:100 - ReplaceComparisonOperator == -> >=
+22	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:100 - ReplaceComparisonOperator == -> <=
+23	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:100 - ReplaceConstant - -1 -> 0
+24	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:100 - ReplaceConstant - -1 -> 1
+25	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:100 - ReplaceConstant - -1 -> -2
+26	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:100 - ReplaceComparisonOperator != -> -1
+27	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:100 - ReplaceComparisonOperator != -> <
+28	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:100 - ReplaceComparisonOperator != -> >
+29	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:100 - ReplaceConstant - : -> 
+30	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:103 - ReplaceConstant - :// -> 
+31	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:103 - ReplaceConstant - /robots.txt -> 
+32	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:107 - ReplaceConstant - 0 -> 1
+33	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:107 - InsertUnaryOp Negation of redir
+34	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:107 - InsertUnaryOp IINC 1 redir
+35	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:107 - InsertUnaryOp IINC -1 redir
+36	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:107 - ReplaceConstant - 3 -> 0
+37	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:107 - ReplaceConstant - 3 -> 1
+38	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:107 - ReplaceConstant - 3 -> -1
+39	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:107 - ReplaceConstant - 3 -> 2
+40	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:107 - ReplaceConstant - 3 -> 4
+41	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:107 - ReplaceComparisonOperator >= -> -1
+42	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:107 - ReplaceComparisonOperator >= -> >
+43	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:107 - ReplaceComparisonOperator >= -> ==
+44	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp Negation of status
+45	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp IINC 1 status
+46	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp IINC -1 status
+47	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 300 -> 0
+48	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 300 -> 1
+49	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 300 -> -1
+50	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 300 -> 299
+51	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 300 -> 301
+52	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator == -> -2
+53	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator == -> >=
+54	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator == -> <=
+55	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp Negation of status
+56	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp IINC 1 status
+57	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp IINC -1 status
+58	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 301 -> 0
+59	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 301 -> 1
+60	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 301 -> -1
+61	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 301 -> 300
+62	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 301 -> 302
+63	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator == -> -2
+64	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator == -> >=
+65	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator == -> <=
+66	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp Negation of status
+67	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp IINC 1 status
+68	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp IINC -1 status
+69	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 302 -> 0
+70	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 302 -> 1
+71	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 302 -> -1
+72	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 302 -> 301
+73	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 302 -> 303
+74	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator == -> -2
+75	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator == -> >=
+76	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator == -> <=
+77	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp Negation of status
+78	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp IINC 1 status
+79	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp IINC -1 status
+80	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 303 -> 0
+81	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 303 -> 1
+82	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 303 -> -1
+83	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 303 -> 302
+84	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 303 -> 304
+85	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator == -> -2
+86	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator == -> >=
+87	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator == -> <=
+88	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp Negation of status
+89	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp IINC 1 status
+90	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp IINC -1 status
+91	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 307 -> 0
+92	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 307 -> 1
+93	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 307 -> -1
+94	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 307 -> 306
+95	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 307 -> 308
+96	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator == -> -2
+97	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator == -> >=
+98	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator == -> <=
+99	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp Negation of status
+100	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp IINC 1 status
+101	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - InsertUnaryOp IINC -1 status
+102	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 308 -> 0
+103	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 308 -> 1
+104	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 308 -> -1
+105	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 308 -> 307
+106	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceConstant - 308 -> 309
+107	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator != -> -1
+108	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator != -> <
+109	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:111 - ReplaceComparisonOperator != -> >
+110	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:117 - ReplaceComparisonOperator = null -> != null
+111	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:126 - ReplaceConstant - 200 -> 0
+112	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:126 - ReplaceConstant - 200 -> 1
+113	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:126 - ReplaceConstant - 200 -> -1
+114	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:126 - ReplaceConstant - 200 -> 199
+115	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:126 - ReplaceConstant - 200 -> 201
+116	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:126 - ReplaceComparisonOperator != -> -1
+117	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:126 - ReplaceComparisonOperator != -> <
+118	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:126 - ReplaceComparisonOperator != -> >
+119	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:130 - ReplaceConstant - 10240000 -> 0
+120	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:130 - ReplaceConstant - 10240000 -> 1
+121	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:130 - ReplaceConstant - 10240000 -> -1
+122	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:130 - ReplaceConstant - 10240000 -> 10239999
+123	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:130 - ReplaceConstant - 10240000 -> 10240001
+124	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:131 - ReplaceComparisonOperator == -> -2
+125	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:131 - ReplaceComparisonOperator == -> >=
+126	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:131 - ReplaceComparisonOperator == -> <=
+127	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:133 - ReplaceComparisonOperator != null -> = null
+128	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:139 - ReplaceConstant - html -> 
+129	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:140 - ReplaceComparisonOperator == -> -2
+130	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:140 - ReplaceComparisonOperator == -> >=
+131	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:140 - ReplaceComparisonOperator == -> <=
+132	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:146 - ReplaceConstant - Can't read this robots.txt: {}  as it is not written in plain text, contentType: {} -> 
+133	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:151 - ReplaceConstant - Can't read this robots.txt: {}  as it's status code is {} -> 
+134	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:165 - ReplaceComparisonOperator = null -> != null
+135	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:158 - ReplaceConstant - robots.txt probably does not exist. -> 
+136	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:165 - ReplaceComparisonOperator = null -> != null
+137	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:160 - ReplaceConstant - Error occurred while fetching (robots) url: {}, {} -> 
+138	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:165 - ReplaceComparisonOperator = null -> != null
+139	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:163 - ReplaceConstant - Error occurred while fetching (robots) url:  -> 
+140	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:165 - ReplaceComparisonOperator = null -> != null
+141	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:165 - ReplaceComparisonOperator = null -> != null
+142	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:170 - ReplaceComparisonOperator != null -> = null
+143	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:175 - ReplaceComparisonOperator != -> -1
+144	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:175 - ReplaceComparisonOperator != -> <
+145	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:175 - ReplaceComparisonOperator != -> >
+146	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:177 - ReplaceConstant - 9223372036854775807 -> 0
+147	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:177 - ReplaceConstant - 9223372036854775807 -> 1
+148	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:177 - ReplaceConstant - 9223372036854775807 -> -1
+149	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:177 - ReplaceConstant - 9223372036854775807 -> 9223372036854775806
+150	ReplaceConstant	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:177 - ReplaceConstant - 9223372036854775807 -> -9223372036854775808
+151	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:178 - ReplaceComparisonOperator == -> -2
+152	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:178 - ReplaceComparisonOperator == -> >=
+153	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:178 - ReplaceComparisonOperator == -> <=
+154	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:180 - InsertUnaryOp Negation of entryAccessTime
+155	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:180 - InsertUnaryOp Negation of minAccessTime
+156	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:180 - ReplaceComparisonOperator >= -> -1
+157	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:180 - ReplaceComparisonOperator >= -> ==
+158	ReplaceComparisonOperator	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:180 - ReplaceComparisonOperator >= -> >
+159	InsertUnaryOp	edu.uci.ics.crawler4j.robotstxt.RobotstxtServer.fetchDirectives(Ljava/net/URL;)Ledu/uci/ics/crawler4j/robotstxt/HostDirectives;:181 - InsertUnaryOp Negation of entryAccessTime

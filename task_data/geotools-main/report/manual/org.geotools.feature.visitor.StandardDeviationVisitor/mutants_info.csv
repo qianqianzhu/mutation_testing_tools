@@ -1,0 +1,117 @@
+0	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.<init>(Lorg/opengis/filter/expression/Expression;D)V:64 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.<init>(Lorg/opengis/filter/expression/Expression;D)V:65 - ReplaceConstant - 0 -> 1
+2	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.<init>(Lorg/opengis/filter/expression/Expression;D)V:66 - ReplaceConstant - 0 -> 1
+3	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.<init>(Lorg/opengis/filter/expression/Expression;D)V:67 - ReplaceConstant - 0 -> 1
+4	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.<init>(Lorg/opengis/filter/expression/Expression;D)V:68 - ReplaceConstant - 0.0 -> 1.0
+5	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.<init>(Lorg/opengis/filter/expression/Expression;D)V:68 - ReplaceConstant - 0.0 -> -1.0
+6	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.<init>(Lorg/opengis/filter/expression/Expression;D)V:69 - ReplaceConstant - 0.0 -> 1.0
+7	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.<init>(Lorg/opengis/filter/expression/Expression;D)V:69 - ReplaceConstant - 0.0 -> -1.0
+8	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.<init>(Lorg/opengis/filter/expression/Expression;)V:64 - ReplaceConstant - 0 -> 1
+9	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.<init>(Lorg/opengis/filter/expression/Expression;)V:65 - ReplaceConstant - 0 -> 1
+10	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.<init>(Lorg/opengis/filter/expression/Expression;)V:66 - ReplaceConstant - 0 -> 1
+11	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.<init>(Lorg/opengis/filter/expression/Expression;)V:67 - ReplaceConstant - 0 -> 1
+12	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.<init>(Lorg/opengis/filter/expression/Expression;)V:68 - ReplaceConstant - 0.0 -> 1.0
+13	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.<init>(Lorg/opengis/filter/expression/Expression;)V:68 - ReplaceConstant - 0.0 -> -1.0
+14	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.<init>(Lorg/opengis/filter/expression/Expression;)V:69 - ReplaceConstant - 0.0 -> 1.0
+15	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.<init>(Lorg/opengis/filter/expression/Expression;)V:69 - ReplaceConstant - 0.0 -> -1.0
+16	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.getExpressions()Ljava/util/List;:99 - ReplaceConstant - 1 -> 0
+17	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.getExpressions()Ljava/util/List;:99 - ReplaceConstant - 0 -> 1
+18	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:103 - InsertUnaryOp Negation
+19	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:103 - InsertUnaryOp +1
+20	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:103 - InsertUnaryOp -1
+21	ReplaceComparisonOperator	org.geotools.feature.visitor.StandardDeviationVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:103 - ReplaceComparisonOperator != -> -1
+22	ReplaceComparisonOperator	org.geotools.feature.visitor.StandardDeviationVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:103 - ReplaceComparisonOperator != -> <
+23	ReplaceComparisonOperator	org.geotools.feature.visitor.StandardDeviationVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:103 - ReplaceComparisonOperator != -> >
+24	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:106 - InsertUnaryOp Negation
+25	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:106 - InsertUnaryOp Negation
+26	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:106 - InsertUnaryOp +1
+27	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:106 - InsertUnaryOp -1
+28	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:106 - ReplaceArithmeticOperator / -> +
+29	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:106 - ReplaceArithmeticOperator / -> %
+30	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:106 - ReplaceArithmeticOperator / -> -
+31	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:106 - ReplaceArithmeticOperator / -> *
+32	ReplaceComparisonOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:115 - ReplaceComparisonOperator != null -> = null
+33	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:116 - InsertUnaryOp Negation
+34	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:116 - InsertUnaryOp +1
+35	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:116 - InsertUnaryOp -1
+36	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:116 - ReplaceConstant - 1 -> 0
+37	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:116 - ReplaceArithmeticOperator + -> %
+38	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:116 - ReplaceArithmeticOperator + -> -
+39	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:116 - ReplaceArithmeticOperator + -> *
+40	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:116 - ReplaceArithmeticOperator + -> /
+41	ReplaceComparisonOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:120 - ReplaceComparisonOperator == -> -2
+42	ReplaceComparisonOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:120 - ReplaceComparisonOperator == -> >=
+43	ReplaceComparisonOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:120 - ReplaceComparisonOperator == -> <=
+44	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:122 - InsertUnaryOp Negation of doubleVal
+45	ReplaceComparisonOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:122 - ReplaceComparisonOperator != -> -1
+46	ReplaceComparisonOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:122 - ReplaceComparisonOperator != -> <
+47	ReplaceComparisonOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:122 - ReplaceComparisonOperator != -> >
+48	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:122 - InsertUnaryOp Negation of doubleVal
+49	ReplaceComparisonOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:122 - ReplaceComparisonOperator == -> -2
+50	ReplaceComparisonOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:122 - ReplaceComparisonOperator == -> >=
+51	ReplaceComparisonOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:122 - ReplaceComparisonOperator == -> <=
+52	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:123 - InsertUnaryOp Negation
+53	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:123 - InsertUnaryOp +1
+54	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:123 - InsertUnaryOp -1
+55	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:123 - ReplaceConstant - 1 -> 0
+56	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:123 - ReplaceArithmeticOperator + -> %
+57	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:123 - ReplaceArithmeticOperator + -> -
+58	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:123 - ReplaceArithmeticOperator + -> *
+59	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:123 - ReplaceArithmeticOperator + -> /
+60	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:129 - InsertUnaryOp Negation
+61	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:129 - InsertUnaryOp +1
+62	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:129 - InsertUnaryOp -1
+63	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:129 - ReplaceConstant - 1 -> 0
+64	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:129 - ReplaceArithmeticOperator + -> %
+65	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:129 - ReplaceArithmeticOperator + -> -
+66	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:129 - ReplaceArithmeticOperator + -> *
+67	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:129 - ReplaceArithmeticOperator + -> /
+68	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:130 - InsertUnaryOp Negation of x
+69	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:130 - InsertUnaryOp Negation
+70	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:130 - ReplaceArithmeticOperator - -> +
+71	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:130 - ReplaceArithmeticOperator - -> %
+72	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:130 - ReplaceArithmeticOperator - -> *
+73	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:130 - ReplaceArithmeticOperator - -> /
+74	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:131 - InsertUnaryOp Negation
+75	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:131 - InsertUnaryOp Negation of delta
+76	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:131 - InsertUnaryOp Negation
+77	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:131 - InsertUnaryOp +1
+78	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:131 - InsertUnaryOp -1
+79	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:131 - ReplaceArithmeticOperator / -> +
+80	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:131 - ReplaceArithmeticOperator / -> %
+81	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:131 - ReplaceArithmeticOperator / -> -
+82	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:131 - ReplaceArithmeticOperator / -> *
+83	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:131 - ReplaceArithmeticOperator + -> %
+84	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:131 - ReplaceArithmeticOperator + -> -
+85	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:131 - ReplaceArithmeticOperator + -> *
+86	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:131 - ReplaceArithmeticOperator + -> /
+87	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:132 - InsertUnaryOp Negation
+88	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:132 - InsertUnaryOp Negation of delta
+89	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:132 - InsertUnaryOp Negation of x
+90	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:132 - InsertUnaryOp Negation
+91	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:132 - ReplaceArithmeticOperator - -> +
+92	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:132 - ReplaceArithmeticOperator - -> %
+93	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:132 - ReplaceArithmeticOperator - -> *
+94	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:132 - ReplaceArithmeticOperator - -> /
+95	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:132 - ReplaceArithmeticOperator * -> +
+96	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:132 - ReplaceArithmeticOperator * -> %
+97	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:132 - ReplaceArithmeticOperator * -> -
+98	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:132 - ReplaceArithmeticOperator * -> /
+99	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:132 - ReplaceArithmeticOperator + -> %
+100	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:132 - ReplaceArithmeticOperator + -> -
+101	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:132 - ReplaceArithmeticOperator + -> *
+102	ReplaceArithmeticOperator	org.geotools.feature.visitor.StandardDeviationVisitor.visit(Lorg/opengis/feature/Feature;)V:132 - ReplaceArithmeticOperator + -> /
+103	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.reset()V:136 - ReplaceConstant - 0 -> 1
+104	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.reset()V:137 - ReplaceConstant - 0 -> 1
+105	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.reset()V:138 - ReplaceConstant - 0 -> 1
+106	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.reset()V:139 - ReplaceConstant - 0.0 -> 1.0
+107	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.reset()V:139 - ReplaceConstant - 0.0 -> -1.0
+108	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.reset()V:140 - ReplaceConstant - 0.0 -> 1.0
+109	ReplaceConstant	org.geotools.feature.visitor.StandardDeviationVisitor.reset()V:140 - ReplaceConstant - 0.0 -> -1.0
+110	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.getMean()D:145 - InsertUnaryOp Negation
+111	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.getNaNCount()I:151 - InsertUnaryOp Negation
+112	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.getNaNCount()I:151 - InsertUnaryOp +1
+113	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.getNaNCount()I:151 - InsertUnaryOp -1
+114	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.getNullCount()I:158 - InsertUnaryOp Negation
+115	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.getNullCount()I:158 - InsertUnaryOp +1
+116	InsertUnaryOp	org.geotools.feature.visitor.StandardDeviationVisitor.getNullCount()I:158 - InsertUnaryOp -1

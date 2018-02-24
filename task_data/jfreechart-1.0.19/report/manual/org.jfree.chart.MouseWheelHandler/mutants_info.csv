@@ -1,0 +1,53 @@
+0	ReplaceConstant	org.jfree.chart.MouseWheelHandler.<init>(Lorg/jfree/chart/ChartPanel;)V:78 - ReplaceConstant - 0.1 -> 0.0
+1	ReplaceConstant	org.jfree.chart.MouseWheelHandler.<init>(Lorg/jfree/chart/ChartPanel;)V:78 - ReplaceConstant - 0.1 -> 1.0
+2	ReplaceConstant	org.jfree.chart.MouseWheelHandler.<init>(Lorg/jfree/chart/ChartPanel;)V:78 - ReplaceConstant - 0.1 -> -1.0
+3	ReplaceConstant	org.jfree.chart.MouseWheelHandler.<init>(Lorg/jfree/chart/ChartPanel;)V:78 - ReplaceConstant - 0.1 -> -0.9
+4	ReplaceConstant	org.jfree.chart.MouseWheelHandler.<init>(Lorg/jfree/chart/ChartPanel;)V:78 - ReplaceConstant - 0.1 -> 1.1
+5	InsertUnaryOp	org.jfree.chart.MouseWheelHandler.getZoomFactor()D:91 - InsertUnaryOp Negation
+6	InsertUnaryOp	org.jfree.chart.MouseWheelHandler.setZoomFactor(D)V:102 - InsertUnaryOp Negation of zoomFactor
+7	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.mouseWheelMoved(Ljava/awt/event/MouseWheelEvent;)V:113 - ReplaceComparisonOperator != null -> = null
+8	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.mouseWheelMoved(Ljava/awt/event/MouseWheelEvent;)V:117 - ReplaceComparisonOperator == -> -2
+9	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.mouseWheelMoved(Ljava/awt/event/MouseWheelEvent;)V:117 - ReplaceComparisonOperator == -> >=
+10	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.mouseWheelMoved(Ljava/awt/event/MouseWheelEvent;)V:117 - ReplaceComparisonOperator == -> <=
+11	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.mouseWheelMoved(Ljava/awt/event/MouseWheelEvent;)V:121 - ReplaceComparisonOperator == -> -2
+12	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.mouseWheelMoved(Ljava/awt/event/MouseWheelEvent;)V:121 - ReplaceComparisonOperator == -> >=
+13	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.mouseWheelMoved(Ljava/awt/event/MouseWheelEvent;)V:121 - ReplaceComparisonOperator == -> <=
+14	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:138 - ReplaceComparisonOperator != -> -1
+15	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:138 - ReplaceComparisonOperator != -> <
+16	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:138 - ReplaceComparisonOperator != -> >
+17	ReplaceConstant	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:145 - ReplaceConstant - 0 -> 1
+18	ReplaceConstant	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:147 - ReplaceConstant - 1.0 -> 0.0
+19	ReplaceConstant	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:147 - ReplaceConstant - 1.0 -> -1.0
+20	ReplaceConstant	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:147 - ReplaceConstant - 1.0 -> 2.0
+21	InsertUnaryOp	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:147 - InsertUnaryOp Negation
+22	ReplaceArithmeticOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:147 - ReplaceArithmeticOperator + -> %
+23	ReplaceArithmeticOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:147 - ReplaceArithmeticOperator + -> -
+24	ReplaceArithmeticOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:147 - ReplaceArithmeticOperator + -> *
+25	ReplaceArithmeticOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:147 - ReplaceArithmeticOperator + -> /
+26	InsertUnaryOp	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:148 - InsertUnaryOp Negation of clicks
+27	InsertUnaryOp	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:148 - InsertUnaryOp IINC 1 clicks
+28	InsertUnaryOp	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:148 - InsertUnaryOp IINC -1 clicks
+29	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:148 - ReplaceComparisonOperator >= -> -1
+30	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:148 - ReplaceComparisonOperator >= -> ==
+31	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:148 - ReplaceComparisonOperator >= -> >
+32	ReplaceConstant	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:149 - ReplaceConstant - 1.0 -> 0.0
+33	ReplaceConstant	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:149 - ReplaceConstant - 1.0 -> -1.0
+34	ReplaceConstant	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:149 - ReplaceConstant - 1.0 -> 2.0
+35	InsertUnaryOp	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:149 - InsertUnaryOp Negation of zf
+36	ReplaceArithmeticOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:149 - ReplaceArithmeticOperator / -> +
+37	ReplaceArithmeticOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:149 - ReplaceArithmeticOperator / -> %
+38	ReplaceArithmeticOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:149 - ReplaceArithmeticOperator / -> -
+39	ReplaceArithmeticOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:149 - ReplaceArithmeticOperator / -> *
+40	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:151 - ReplaceComparisonOperator == -> -2
+41	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:151 - ReplaceComparisonOperator == -> >=
+42	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:151 - ReplaceComparisonOperator == -> <=
+43	InsertUnaryOp	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:152 - InsertUnaryOp Negation of zf
+44	ReplaceConstant	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:152 - ReplaceConstant - 1 -> 0
+45	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:154 - ReplaceComparisonOperator == -> -2
+46	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:154 - ReplaceComparisonOperator == -> >=
+47	ReplaceComparisonOperator	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:154 - ReplaceComparisonOperator == -> <=
+48	InsertUnaryOp	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:155 - InsertUnaryOp Negation of zf
+49	ReplaceConstant	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:155 - ReplaceConstant - 1 -> 0
+50	InsertUnaryOp	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:157 - InsertUnaryOp Negation of notifyState
+51	InsertUnaryOp	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:157 - InsertUnaryOp IINC 1 notifyState
+52	InsertUnaryOp	org.jfree.chart.MouseWheelHandler.handleZoomable(Lorg/jfree/chart/plot/Zoomable;Ljava/awt/event/MouseWheelEvent;)V:157 - InsertUnaryOp IINC -1 notifyState

@@ -1,0 +1,15 @@
+0|ReplaceConstant|br.com.caelum.vraptor.observer.download.FileDownload.<init>(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)V:46 - ReplaceConstant - 0 -> 1
+1|ReplaceConstant|br.com.caelum.vraptor.observer.download.FileDownload.<init>(Ljava/io/File;Ljava/lang/String;)V:50 - ReplaceConstant - 0 -> 1
+2|InsertUnaryOp|br.com.caelum.vraptor.observer.download.FileDownload.<init>(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Z)V:57 - InsertUnaryOp Negation of doDownload
+3|InsertUnaryOp|br.com.caelum.vraptor.observer.download.FileDownload.<init>(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Z)V:57 - InsertUnaryOp IINC 1 doDownload
+4|InsertUnaryOp|br.com.caelum.vraptor.observer.download.FileDownload.<init>(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Z)V:57 - InsertUnaryOp IINC -1 doDownload
+5|InsertUnaryOp|br.com.caelum.vraptor.observer.download.FileDownload.write(Ljavax/servlet/http/HttpServletResponse;)V:63 - InsertUnaryOp Negation
+6|ReplaceComparisonOperator|br.com.caelum.vraptor.observer.download.FileDownload.write(Ljavax/servlet/http/HttpServletResponse;)V:65 - ReplaceComparisonOperator = null -> != null
+7|ReplaceComparisonOperator|br.com.caelum.vraptor.observer.download.FileDownload.write(Ljavax/servlet/http/HttpServletResponse;)V:65 - ReplaceComparisonOperator = null -> != null
+8|ReplaceComparisonOperator|br.com.caelum.vraptor.observer.download.FileDownload.write(Ljavax/servlet/http/HttpServletResponse;)V:65 - ReplaceComparisonOperator != null -> = null
+9|ReplaceComparisonOperator|br.com.caelum.vraptor.observer.download.FileDownload.write(Ljavax/servlet/http/HttpServletResponse;)V:65 - ReplaceComparisonOperator == -> !=
+10|ReplaceComparisonOperator|br.com.caelum.vraptor.observer.download.FileDownload.checkFile(Ljava/io/File;)Ljava/io/File;:69 - ReplaceComparisonOperator != -> -1
+11|ReplaceComparisonOperator|br.com.caelum.vraptor.observer.download.FileDownload.checkFile(Ljava/io/File;)Ljava/io/File;:69 - ReplaceComparisonOperator != -> <
+12|ReplaceComparisonOperator|br.com.caelum.vraptor.observer.download.FileDownload.checkFile(Ljava/io/File;)Ljava/io/File;:69 - ReplaceComparisonOperator != -> >
+13|ReplaceConstant|br.com.caelum.vraptor.observer.download.FileDownload.checkFile(Ljava/io/File;)Ljava/io/File;:70 - ReplaceConstant - File  -> 
+14|ReplaceConstant|br.com.caelum.vraptor.observer.download.FileDownload.checkFile(Ljava/io/File;)Ljava/io/File;:70 - ReplaceConstant -  doesn't exists -> 

@@ -1,0 +1,13 @@
+0	ReplaceConstant	com.twitter.distributedlog.rate.SampledMovingAverageRate.<init>(I)V:33 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	com.twitter.distributedlog.rate.SampledMovingAverageRate.<init>(I)V:33 - ReplaceConstant - 0 -> -1
+2	ReplaceConstant	com.twitter.distributedlog.rate.SampledMovingAverageRate.<init>(I)V:34 - ReplaceConstant - Ignore -> 
+3	InsertUnaryOp	com.twitter.distributedlog.rate.SampledMovingAverageRate.<init>(I)V:34 - InsertUnaryOp Negation of intervalSecs
+4	InsertUnaryOp	com.twitter.distributedlog.rate.SampledMovingAverageRate.<init>(I)V:34 - InsertUnaryOp IINC 1 intervalSecs
+5	InsertUnaryOp	com.twitter.distributedlog.rate.SampledMovingAverageRate.<init>(I)V:34 - InsertUnaryOp IINC -1 intervalSecs
+6	ReplaceConstant	com.twitter.distributedlog.rate.SampledMovingAverageRate.<init>(I)V:37 - ReplaceConstant - 0.0 -> 1.0
+7	ReplaceConstant	com.twitter.distributedlog.rate.SampledMovingAverageRate.<init>(I)V:37 - ReplaceConstant - 0.0 -> -1.0
+8	InsertUnaryOp	com.twitter.distributedlog.rate.SampledMovingAverageRate.get()D:42 - InsertUnaryOp Negation
+9	InsertUnaryOp	com.twitter.distributedlog.rate.SampledMovingAverageRate.add(J)V:47 - InsertUnaryOp Negation of amount
+10	ReplaceConstant	com.twitter.distributedlog.rate.SampledMovingAverageRate.inc()V:52 - ReplaceConstant - 1 -> 0
+11	ReplaceConstant	com.twitter.distributedlog.rate.SampledMovingAverageRate.inc()V:52 - ReplaceConstant - 1 -> -1
+12	ReplaceConstant	com.twitter.distributedlog.rate.SampledMovingAverageRate.inc()V:52 - ReplaceConstant - 1 -> 2

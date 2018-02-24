@@ -1,0 +1,70 @@
+0	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.<init>(Lcom/notnoop/apns/internal/ApnsConnection;Lcom/notnoop/apns/internal/ApnsFeedbackConnection;IILjava/util/concurrent/ThreadFactory;)V:22 - ReplaceConstant - 5 -> 0
+1	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.<init>(Lcom/notnoop/apns/internal/ApnsConnection;Lcom/notnoop/apns/internal/ApnsFeedbackConnection;IILjava/util/concurrent/ThreadFactory;)V:22 - ReplaceConstant - 5 -> 1
+2	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.<init>(Lcom/notnoop/apns/internal/ApnsConnection;Lcom/notnoop/apns/internal/ApnsFeedbackConnection;IILjava/util/concurrent/ThreadFactory;)V:22 - ReplaceConstant - 5 -> -1
+3	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.<init>(Lcom/notnoop/apns/internal/ApnsConnection;Lcom/notnoop/apns/internal/ApnsFeedbackConnection;IILjava/util/concurrent/ThreadFactory;)V:22 - ReplaceConstant - 5 -> 4
+4	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.<init>(Lcom/notnoop/apns/internal/ApnsConnection;Lcom/notnoop/apns/internal/ApnsFeedbackConnection;IILjava/util/concurrent/ThreadFactory;)V:22 - ReplaceConstant - 5 -> 6
+5	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.<init>(Lcom/notnoop/apns/internal/ApnsConnection;Lcom/notnoop/apns/internal/ApnsFeedbackConnection;IILjava/util/concurrent/ThreadFactory;)V:28 - ReplaceConstant - 10 -> 0
+6	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.<init>(Lcom/notnoop/apns/internal/ApnsConnection;Lcom/notnoop/apns/internal/ApnsFeedbackConnection;IILjava/util/concurrent/ThreadFactory;)V:28 - ReplaceConstant - 10 -> 1
+7	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.<init>(Lcom/notnoop/apns/internal/ApnsConnection;Lcom/notnoop/apns/internal/ApnsFeedbackConnection;IILjava/util/concurrent/ThreadFactory;)V:28 - ReplaceConstant - 10 -> -1
+8	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.<init>(Lcom/notnoop/apns/internal/ApnsConnection;Lcom/notnoop/apns/internal/ApnsFeedbackConnection;IILjava/util/concurrent/ThreadFactory;)V:28 - ReplaceConstant - 10 -> 9
+9	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.<init>(Lcom/notnoop/apns/internal/ApnsConnection;Lcom/notnoop/apns/internal/ApnsFeedbackConnection;IILjava/util/concurrent/ThreadFactory;)V:28 - ReplaceConstant - 10 -> 11
+10	InsertUnaryOp	com.notnoop.apns.internal.BatchApnsService.<init>(Lcom/notnoop/apns/internal/ApnsConnection;Lcom/notnoop/apns/internal/ApnsFeedbackConnection;IILjava/util/concurrent/ThreadFactory;)V:44 - InsertUnaryOp Negation of batchWaitTimeInSec
+11	InsertUnaryOp	com.notnoop.apns.internal.BatchApnsService.<init>(Lcom/notnoop/apns/internal/ApnsConnection;Lcom/notnoop/apns/internal/ApnsFeedbackConnection;IILjava/util/concurrent/ThreadFactory;)V:44 - InsertUnaryOp IINC 1 batchWaitTimeInSec
+12	InsertUnaryOp	com.notnoop.apns.internal.BatchApnsService.<init>(Lcom/notnoop/apns/internal/ApnsConnection;Lcom/notnoop/apns/internal/ApnsFeedbackConnection;IILjava/util/concurrent/ThreadFactory;)V:44 - InsertUnaryOp IINC -1 batchWaitTimeInSec
+13	InsertUnaryOp	com.notnoop.apns.internal.BatchApnsService.<init>(Lcom/notnoop/apns/internal/ApnsConnection;Lcom/notnoop/apns/internal/ApnsFeedbackConnection;IILjava/util/concurrent/ThreadFactory;)V:45 - InsertUnaryOp Negation of maxBachWaitTimeInSec
+14	InsertUnaryOp	com.notnoop.apns.internal.BatchApnsService.<init>(Lcom/notnoop/apns/internal/ApnsConnection;Lcom/notnoop/apns/internal/ApnsFeedbackConnection;IILjava/util/concurrent/ThreadFactory;)V:45 - InsertUnaryOp IINC 1 maxBachWaitTimeInSec
+15	InsertUnaryOp	com.notnoop.apns.internal.BatchApnsService.<init>(Lcom/notnoop/apns/internal/ApnsConnection;Lcom/notnoop/apns/internal/ApnsFeedbackConnection;IILjava/util/concurrent/ThreadFactory;)V:45 - InsertUnaryOp IINC -1 maxBachWaitTimeInSec
+16	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.<init>(Lcom/notnoop/apns/internal/ApnsConnection;Lcom/notnoop/apns/internal/ApnsFeedbackConnection;IILjava/util/concurrent/ThreadFactory;)V:46 - ReplaceConstant - 1 -> 0
+17	ReplaceComparisonOperator	com.notnoop.apns.internal.BatchApnsService.stop()V:55 - ReplaceComparisonOperator = null -> != null
+18	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.stop()V:56 - ReplaceConstant - 1 -> 0
+19	ReplaceComparisonOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:67 - ReplaceComparisonOperator == -> -2
+20	ReplaceComparisonOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:67 - ReplaceComparisonOperator == -> >=
+21	ReplaceComparisonOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:67 - ReplaceComparisonOperator == -> <=
+22	InsertUnaryOp	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - InsertUnaryOp Negation
+23	ReplaceArithmeticOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceArithmeticOperator - -> +
+24	ReplaceArithmeticOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceArithmeticOperator - -> %
+25	ReplaceArithmeticOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceArithmeticOperator - -> *
+26	ReplaceArithmeticOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceArithmeticOperator - -> /
+27	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceConstant - 1000 -> 0
+28	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceConstant - 1000 -> 1
+29	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceConstant - 1000 -> -1
+30	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceConstant - 1000 -> 999
+31	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceConstant - 1000 -> 1001
+32	ReplaceArithmeticOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceArithmeticOperator / -> +
+33	ReplaceArithmeticOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceArithmeticOperator / -> %
+34	ReplaceArithmeticOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceArithmeticOperator / -> -
+35	ReplaceArithmeticOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceArithmeticOperator / -> *
+36	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceConstant - 1000 -> 0
+37	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceConstant - 1000 -> 1
+38	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceConstant - 1000 -> -1
+39	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceConstant - 1000 -> 999
+40	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceConstant - 1000 -> 1001
+41	ReplaceArithmeticOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceArithmeticOperator / -> +
+42	ReplaceArithmeticOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceArithmeticOperator / -> %
+43	ReplaceArithmeticOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceArithmeticOperator / -> -
+44	ReplaceArithmeticOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceArithmeticOperator / -> *
+45	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceConstant - 1000 -> 0
+46	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceConstant - 1000 -> 1
+47	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceConstant - 1000 -> -1
+48	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceConstant - 1000 -> 999
+49	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceConstant - 1000 -> 1001
+50	ReplaceArithmeticOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceArithmeticOperator / -> +
+51	ReplaceArithmeticOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceArithmeticOperator / -> %
+52	ReplaceArithmeticOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceArithmeticOperator / -> -
+53	ReplaceArithmeticOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:71 - ReplaceArithmeticOperator / -> *
+54	ReplaceComparisonOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:73 - ReplaceComparisonOperator = null -> != null
+55	InsertUnaryOp	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:73 - InsertUnaryOp Negation of sincFirstMessageSec
+56	InsertUnaryOp	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:73 - InsertUnaryOp Negation
+57	InsertUnaryOp	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:73 - InsertUnaryOp +1
+58	InsertUnaryOp	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:73 - InsertUnaryOp -1
+59	ReplaceComparisonOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:73 - ReplaceComparisonOperator >= -> -1
+60	ReplaceComparisonOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:73 - ReplaceComparisonOperator >= -> ==
+61	ReplaceComparisonOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:73 - ReplaceComparisonOperator >= -> >
+62	ReplaceConstant	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:74 - ReplaceConstant - 0 -> 1
+63	ReplaceComparisonOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:79 - ReplaceComparisonOperator = null -> != null
+64	ReplaceComparisonOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:79 - ReplaceComparisonOperator == -> -2
+65	ReplaceComparisonOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:79 - ReplaceComparisonOperator == -> >=
+66	ReplaceComparisonOperator	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:79 - ReplaceComparisonOperator == -> <=
+67	InsertUnaryOp	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:80 - InsertUnaryOp Negation
+68	InsertUnaryOp	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:80 - InsertUnaryOp +1
+69	InsertUnaryOp	com.notnoop.apns.internal.BatchApnsService.push(Lcom/notnoop/apns/ApnsNotification;)V:80 - InsertUnaryOp -1

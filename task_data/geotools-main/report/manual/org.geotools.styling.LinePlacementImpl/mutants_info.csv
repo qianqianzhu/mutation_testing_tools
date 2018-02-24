@@ -1,0 +1,182 @@
+0	ReplaceConstant	org.geotools.styling.LinePlacementImpl.<init>(Lorg/opengis/filter/FilterFactory;)V:66 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.geotools.styling.LinePlacementImpl.<init>(Lorg/opengis/filter/FilterFactory;)V:66 - ReplaceConstant - 0 -> 1
+2	ReplaceConstant	org.geotools.styling.LinePlacementImpl.<init>(Lorg/opengis/filter/FilterFactory;)V:66 - ReplaceConstant - 0 -> 1
+3	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.<init>(Lorg/opengis/filter/FilterFactory;ZZZLorg/opengis/filter/expression/Expression;Lorg/opengis/filter/expression/Expression;)V:73 - InsertUnaryOp Negation of generalized
+4	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.<init>(Lorg/opengis/filter/FilterFactory;ZZZLorg/opengis/filter/expression/Expression;Lorg/opengis/filter/expression/Expression;)V:73 - InsertUnaryOp IINC 1 generalized
+5	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.<init>(Lorg/opengis/filter/FilterFactory;ZZZLorg/opengis/filter/expression/Expression;Lorg/opengis/filter/expression/Expression;)V:73 - InsertUnaryOp IINC -1 generalized
+6	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.<init>(Lorg/opengis/filter/FilterFactory;ZZZLorg/opengis/filter/expression/Expression;Lorg/opengis/filter/expression/Expression;)V:74 - InsertUnaryOp Negation of aligned
+7	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.<init>(Lorg/opengis/filter/FilterFactory;ZZZLorg/opengis/filter/expression/Expression;Lorg/opengis/filter/expression/Expression;)V:74 - InsertUnaryOp IINC 1 aligned
+8	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.<init>(Lorg/opengis/filter/FilterFactory;ZZZLorg/opengis/filter/expression/Expression;Lorg/opengis/filter/expression/Expression;)V:74 - InsertUnaryOp IINC -1 aligned
+9	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.<init>(Lorg/opengis/filter/FilterFactory;ZZZLorg/opengis/filter/expression/Expression;Lorg/opengis/filter/expression/Expression;)V:75 - InsertUnaryOp Negation of repeated
+10	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.<init>(Lorg/opengis/filter/FilterFactory;ZZZLorg/opengis/filter/expression/Expression;Lorg/opengis/filter/expression/Expression;)V:75 - InsertUnaryOp IINC 1 repeated
+11	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.<init>(Lorg/opengis/filter/FilterFactory;ZZZLorg/opengis/filter/expression/Expression;Lorg/opengis/filter/expression/Expression;)V:75 - InsertUnaryOp IINC -1 repeated
+12	ReplaceConstant	org.geotools.styling.LinePlacementImpl.init()V:90 - ReplaceConstant - 0 -> 1
+13	ReplaceConstant	org.geotools.styling.LinePlacementImpl.init()V:92 - ReplaceConstant - Failed to build defaultLinePlacement:  -> 
+14	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.isRepeated()Z:123 - InsertUnaryOp Negation
+15	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.IsAligned()Z:127 - InsertUnaryOp Negation
+16	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.isAligned()Z:131 - InsertUnaryOp Negation
+17	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.isGeneralizeLine()Z:135 - InsertUnaryOp Negation
+18	ReplaceConstant	org.geotools.styling.LinePlacementImpl.clone()Ljava/lang/Object;:153 - ReplaceConstant - This can not happen -> 
+19	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:161 - ReplaceComparisonOperator != -> ==
+20	ReplaceConstant	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:162 - ReplaceConstant - 1 -> 0
+21	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:165 - ReplaceComparisonOperator == -> -2
+22	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:165 - ReplaceComparisonOperator == -> >=
+23	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:165 - ReplaceComparisonOperator == -> <=
+24	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:169 - ReplaceComparisonOperator == -> -2
+25	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:169 - ReplaceComparisonOperator == -> >=
+26	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:169 - ReplaceComparisonOperator == -> <=
+27	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:169 - InsertUnaryOp Negation
+28	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:169 - InsertUnaryOp Negation
+29	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:170 - ReplaceComparisonOperator == -> -2
+30	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:170 - ReplaceComparisonOperator == -> >=
+31	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:170 - ReplaceComparisonOperator == -> <=
+32	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:170 - InsertUnaryOp Negation
+33	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:170 - InsertUnaryOp Negation
+34	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:171 - ReplaceComparisonOperator == -> -2
+35	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:171 - ReplaceComparisonOperator == -> >=
+36	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:171 - ReplaceComparisonOperator == -> <=
+37	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:171 - InsertUnaryOp Negation
+38	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:171 - InsertUnaryOp Negation
+39	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:172 - ReplaceComparisonOperator == -> -2
+40	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:172 - ReplaceComparisonOperator == -> >=
+41	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:172 - ReplaceComparisonOperator == -> <=
+42	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:173 - ReplaceComparisonOperator == -> -2
+43	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:173 - ReplaceComparisonOperator == -> >=
+44	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:173 - ReplaceComparisonOperator == -> <=
+45	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:174 - ReplaceComparisonOperator == -> -2
+46	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:174 - ReplaceComparisonOperator == -> >=
+47	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:174 - ReplaceComparisonOperator == -> <=
+48	ReplaceConstant	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:174 - ReplaceConstant - 1 -> 0
+49	ReplaceConstant	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:174 - ReplaceConstant - 0 -> 1
+50	ReplaceConstant	org.geotools.styling.LinePlacementImpl.equals(Ljava/lang/Object;)Z:177 - ReplaceConstant - 0 -> 1
+51	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:184 - ReplaceConstant - 37 -> 0
+52	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:184 - ReplaceConstant - 37 -> 1
+53	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:184 - ReplaceConstant - 37 -> -1
+54	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:184 - ReplaceConstant - 37 -> 36
+55	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:184 - ReplaceConstant - 37 -> 38
+56	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:185 - ReplaceConstant - 17 -> 0
+57	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:185 - ReplaceConstant - 17 -> 1
+58	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:185 - ReplaceConstant - 17 -> -1
+59	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:185 - ReplaceConstant - 17 -> 16
+60	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:185 - ReplaceConstant - 17 -> 18
+61	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:187 - ReplaceComparisonOperator = null -> != null
+62	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:188 - InsertUnaryOp Negation of result
+63	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:188 - InsertUnaryOp IINC 1 result
+64	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:188 - InsertUnaryOp IINC -1 result
+65	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:188 - ReplaceConstant - 37 -> 0
+66	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:188 - ReplaceConstant - 37 -> 1
+67	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:188 - ReplaceConstant - 37 -> -1
+68	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:188 - ReplaceConstant - 37 -> 36
+69	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:188 - ReplaceConstant - 37 -> 38
+70	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:188 - ReplaceArithmeticOperator * -> +
+71	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:188 - ReplaceArithmeticOperator * -> %
+72	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:188 - ReplaceArithmeticOperator * -> -
+73	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:188 - ReplaceArithmeticOperator * -> /
+74	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:188 - ReplaceArithmeticOperator + -> %
+75	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:188 - ReplaceArithmeticOperator + -> -
+76	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:188 - ReplaceArithmeticOperator + -> *
+77	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:188 - ReplaceArithmeticOperator + -> /
+78	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:191 - ReplaceComparisonOperator = null -> != null
+79	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:192 - InsertUnaryOp Negation of result
+80	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:192 - InsertUnaryOp IINC 1 result
+81	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:192 - InsertUnaryOp IINC -1 result
+82	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:192 - ReplaceConstant - 37 -> 0
+83	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:192 - ReplaceConstant - 37 -> 1
+84	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:192 - ReplaceConstant - 37 -> -1
+85	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:192 - ReplaceConstant - 37 -> 36
+86	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:192 - ReplaceConstant - 37 -> 38
+87	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:192 - ReplaceArithmeticOperator * -> +
+88	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:192 - ReplaceArithmeticOperator * -> %
+89	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:192 - ReplaceArithmeticOperator * -> -
+90	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:192 - ReplaceArithmeticOperator * -> /
+91	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:192 - ReplaceArithmeticOperator + -> %
+92	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:192 - ReplaceArithmeticOperator + -> -
+93	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:192 - ReplaceArithmeticOperator + -> *
+94	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:192 - ReplaceArithmeticOperator + -> /
+95	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:195 - ReplaceComparisonOperator = null -> != null
+96	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:196 - InsertUnaryOp Negation of result
+97	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:196 - InsertUnaryOp IINC 1 result
+98	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:196 - InsertUnaryOp IINC -1 result
+99	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:196 - ReplaceConstant - 37 -> 0
+100	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:196 - ReplaceConstant - 37 -> 1
+101	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:196 - ReplaceConstant - 37 -> -1
+102	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:196 - ReplaceConstant - 37 -> 36
+103	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:196 - ReplaceConstant - 37 -> 38
+104	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:196 - ReplaceArithmeticOperator * -> +
+105	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:196 - ReplaceArithmeticOperator * -> %
+106	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:196 - ReplaceArithmeticOperator * -> -
+107	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:196 - ReplaceArithmeticOperator * -> /
+108	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:196 - ReplaceArithmeticOperator + -> %
+109	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:196 - ReplaceArithmeticOperator + -> -
+110	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:196 - ReplaceArithmeticOperator + -> *
+111	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:196 - ReplaceArithmeticOperator + -> /
+112	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:199 - InsertUnaryOp Negation of result
+113	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:199 - InsertUnaryOp IINC 1 result
+114	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:199 - InsertUnaryOp IINC -1 result
+115	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:199 - ReplaceConstant - 37 -> 0
+116	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:199 - ReplaceConstant - 37 -> 1
+117	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:199 - ReplaceConstant - 37 -> -1
+118	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:199 - ReplaceConstant - 37 -> 36
+119	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:199 - ReplaceConstant - 37 -> 38
+120	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:199 - ReplaceArithmeticOperator * -> +
+121	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:199 - ReplaceArithmeticOperator * -> %
+122	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:199 - ReplaceArithmeticOperator * -> -
+123	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:199 - ReplaceArithmeticOperator * -> /
+124	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:199 - InsertUnaryOp Negation
+125	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:199 - ReplaceArithmeticOperator + -> %
+126	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:199 - ReplaceArithmeticOperator + -> -
+127	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:199 - ReplaceArithmeticOperator + -> *
+128	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:199 - ReplaceArithmeticOperator + -> /
+129	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:200 - InsertUnaryOp Negation of result
+130	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:200 - InsertUnaryOp IINC 1 result
+131	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:200 - InsertUnaryOp IINC -1 result
+132	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:200 - ReplaceConstant - 37 -> 0
+133	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:200 - ReplaceConstant - 37 -> 1
+134	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:200 - ReplaceConstant - 37 -> -1
+135	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:200 - ReplaceConstant - 37 -> 36
+136	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:200 - ReplaceConstant - 37 -> 38
+137	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:200 - ReplaceArithmeticOperator * -> +
+138	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:200 - ReplaceArithmeticOperator * -> %
+139	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:200 - ReplaceArithmeticOperator * -> -
+140	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:200 - ReplaceArithmeticOperator * -> /
+141	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:200 - InsertUnaryOp Negation
+142	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:200 - ReplaceArithmeticOperator + -> %
+143	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:200 - ReplaceArithmeticOperator + -> -
+144	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:200 - ReplaceArithmeticOperator + -> *
+145	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:200 - ReplaceArithmeticOperator + -> /
+146	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:201 - InsertUnaryOp Negation of result
+147	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:201 - InsertUnaryOp IINC 1 result
+148	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:201 - InsertUnaryOp IINC -1 result
+149	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:201 - ReplaceConstant - 37 -> 0
+150	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:201 - ReplaceConstant - 37 -> 1
+151	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:201 - ReplaceConstant - 37 -> -1
+152	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:201 - ReplaceConstant - 37 -> 36
+153	ReplaceConstant	org.geotools.styling.LinePlacementImpl.hashCode()I:201 - ReplaceConstant - 37 -> 38
+154	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:201 - ReplaceArithmeticOperator * -> +
+155	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:201 - ReplaceArithmeticOperator * -> %
+156	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:201 - ReplaceArithmeticOperator * -> -
+157	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:201 - ReplaceArithmeticOperator * -> /
+158	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:201 - InsertUnaryOp Negation
+159	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:201 - ReplaceArithmeticOperator + -> %
+160	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:201 - ReplaceArithmeticOperator + -> -
+161	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:201 - ReplaceArithmeticOperator + -> *
+162	ReplaceArithmeticOperator	org.geotools.styling.LinePlacementImpl.hashCode()I:201 - ReplaceArithmeticOperator + -> /
+163	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:203 - InsertUnaryOp Negation of result
+164	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:203 - InsertUnaryOp IINC 1 result
+165	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.hashCode()I:203 - InsertUnaryOp IINC -1 result
+166	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.cast(Lorg/opengis/style/LabelPlacement;)Lorg/geotools/styling/LinePlacementImpl;:207 - ReplaceComparisonOperator != null -> = null
+167	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.cast(Lorg/opengis/style/LabelPlacement;)Lorg/geotools/styling/LinePlacementImpl;:210 - ReplaceComparisonOperator == -> -2
+168	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.cast(Lorg/opengis/style/LabelPlacement;)Lorg/geotools/styling/LinePlacementImpl;:210 - ReplaceComparisonOperator == -> >=
+169	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.cast(Lorg/opengis/style/LabelPlacement;)Lorg/geotools/styling/LinePlacementImpl;:210 - ReplaceComparisonOperator == -> <=
+170	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.cast(Lorg/opengis/style/LabelPlacement;)Lorg/geotools/styling/LinePlacementImpl;:213 - ReplaceComparisonOperator == -> -2
+171	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.cast(Lorg/opengis/style/LabelPlacement;)Lorg/geotools/styling/LinePlacementImpl;:213 - ReplaceComparisonOperator == -> >=
+172	ReplaceComparisonOperator	org.geotools.styling.LinePlacementImpl.cast(Lorg/opengis/style/LabelPlacement;)Lorg/geotools/styling/LinePlacementImpl;:213 - ReplaceComparisonOperator == -> <=
+173	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.setRepeated(Z)V:221 - InsertUnaryOp Negation of repeated
+174	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.setRepeated(Z)V:221 - InsertUnaryOp IINC 1 repeated
+175	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.setRepeated(Z)V:221 - InsertUnaryOp IINC -1 repeated
+176	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.setGeneralized(Z)V:225 - InsertUnaryOp Negation of generalized
+177	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.setGeneralized(Z)V:225 - InsertUnaryOp IINC 1 generalized
+178	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.setGeneralized(Z)V:225 - InsertUnaryOp IINC -1 generalized
+179	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.setAligned(Z)V:229 - InsertUnaryOp Negation of aligned
+180	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.setAligned(Z)V:229 - InsertUnaryOp IINC 1 aligned
+181	InsertUnaryOp	org.geotools.styling.LinePlacementImpl.setAligned(Z)V:229 - InsertUnaryOp IINC -1 aligned

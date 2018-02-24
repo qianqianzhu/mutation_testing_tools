@@ -1,0 +1,590 @@
+0	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.<init>(Ljava/lang/String;[Ljava/lang/String;)V:161 - ReplaceConstant - 1 -> 0
+1	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.<init>(Ljava/lang/String;[Ljava/lang/String;)V:164 - ReplaceConstant - 0 -> 1
+2	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.<init>(Ljava/lang/String;[Ljava/lang/String;)V:164 - ReplaceConstant - 0 -> 1
+3	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.<init>(Ljava/lang/String;[Ljava/lang/String;)V:165 - ReplaceConstant - 0 -> 1
+4	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.isGridBandsVisible()Z:190 - InsertUnaryOp Negation
+5	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.setGridBandsVisible(Z)V:202 - InsertUnaryOp Negation of flag
+6	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.setGridBandsVisible(Z)V:202 - InsertUnaryOp IINC 1 flag
+7	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.setGridBandsVisible(Z)V:202 - InsertUnaryOp IINC -1 flag
+8	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.setGridBandPaint(Ljava/awt/Paint;)V:227 - ReplaceConstant - paint -> 
+9	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.setGridBandAlternatePaint(Ljava/awt/Paint;)V:258 - ReplaceConstant - paint -> 
+10	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;:297 - InsertUnaryOp Negation of cursor
+11	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;:298 - ReplaceComparisonOperator == -> -2
+12	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;:298 - ReplaceComparisonOperator == -> >=
+13	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;:298 - ReplaceComparisonOperator == -> <=
+14	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;:299 - InsertUnaryOp Negation of cursor
+15	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;:301 - InsertUnaryOp Negation
+16	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;:301 - ReplaceComparisonOperator == -> -2
+17	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;:301 - ReplaceComparisonOperator == -> >=
+18	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.draw(Ljava/awt/Graphics2D;DLjava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Lorg/jfree/chart/plot/PlotRenderingInfo;)Lorg/jfree/chart/axis/AxisState;:301 - ReplaceComparisonOperator == -> <=
+19	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBands(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Ljava/util/List;)V:326 - ReplaceComparisonOperator == -> -2
+20	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBands(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Ljava/util/List;)V:326 - ReplaceComparisonOperator == -> >=
+21	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBands(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Ljava/util/List;)V:326 - ReplaceComparisonOperator == -> <=
+22	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBands(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Ljava/util/List;)V:327 - ReplaceConstant - 1 -> 0
+23	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBands(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Ljava/util/List;)V:328 - ReplaceComparisonOperator == -> -2
+24	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBands(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Ljava/util/List;)V:328 - ReplaceComparisonOperator == -> >=
+25	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBands(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Ljava/util/List;)V:328 - ReplaceComparisonOperator == -> <=
+26	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBands(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;Ljava/util/List;)V:329 - ReplaceConstant - 1 -> 0
+27	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:352 - InsertUnaryOp Negation of firstGridBandIsDark
+28	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:352 - InsertUnaryOp IINC 1 firstGridBandIsDark
+29	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:352 - InsertUnaryOp IINC -1 firstGridBandIsDark
+30	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:357 - ReplaceConstant - 1.0 -> 0.0
+31	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:357 - ReplaceConstant - 1.0 -> -1.0
+32	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:357 - ReplaceConstant - 1.0 -> 2.0
+33	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:359 - ReplaceComparisonOperator = null -> != null
+34	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:359 - ReplaceComparisonOperator == -> -2
+35	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:359 - ReplaceComparisonOperator == -> >=
+36	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:359 - ReplaceComparisonOperator == -> <=
+37	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:366 - ReplaceComparisonOperator == -> -2
+38	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:366 - ReplaceComparisonOperator == -> >=
+39	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:366 - ReplaceComparisonOperator == -> <=
+40	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:368 - ReplaceConstant - 0.5 -> 0.0
+41	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:368 - ReplaceConstant - 0.5 -> 1.0
+42	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:368 - ReplaceConstant - 0.5 -> -1.0
+43	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:368 - ReplaceConstant - 0.5 -> -0.5
+44	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:368 - ReplaceConstant - 0.5 -> 1.5
+45	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:368 - ReplaceArithmeticOperator - -> +
+46	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:368 - ReplaceArithmeticOperator - -> %
+47	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:368 - ReplaceArithmeticOperator - -> *
+48	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:368 - ReplaceArithmeticOperator - -> /
+49	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:370 - ReplaceConstant - 0.5 -> 0.0
+50	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:370 - ReplaceConstant - 0.5 -> 1.0
+51	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:370 - ReplaceConstant - 0.5 -> -1.0
+52	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:370 - ReplaceConstant - 0.5 -> -0.5
+53	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:370 - ReplaceConstant - 0.5 -> 1.5
+54	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:370 - ReplaceArithmeticOperator + -> %
+55	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:370 - ReplaceArithmeticOperator + -> -
+56	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:370 - ReplaceArithmeticOperator + -> *
+57	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:370 - ReplaceArithmeticOperator + -> /
+58	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:372 - InsertUnaryOp Negation of currentGridBandIsDark
+59	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:372 - InsertUnaryOp IINC 1 currentGridBandIsDark
+60	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:372 - InsertUnaryOp IINC -1 currentGridBandIsDark
+61	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:372 - ReplaceComparisonOperator == -> -2
+62	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:372 - ReplaceComparisonOperator == -> >=
+63	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:372 - ReplaceComparisonOperator == -> <=
+64	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:378 - InsertUnaryOp Negation of xx1
+65	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:378 - InsertUnaryOp Negation of xx2
+66	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:378 - InsertUnaryOp Negation of yy
+67	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:378 - InsertUnaryOp Negation of outlineStrokeWidth
+68	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:378 - ReplaceArithmeticOperator + -> %
+69	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:378 - ReplaceArithmeticOperator + -> -
+70	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:378 - ReplaceArithmeticOperator + -> *
+71	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:378 - ReplaceArithmeticOperator + -> /
+72	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:378 - InsertUnaryOp Negation of xx2
+73	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:378 - InsertUnaryOp Negation of xx1
+74	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:378 - ReplaceArithmeticOperator - -> +
+75	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:378 - ReplaceArithmeticOperator - -> %
+76	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:378 - ReplaceArithmeticOperator - -> *
+77	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:378 - ReplaceArithmeticOperator - -> /
+78	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:380 - InsertUnaryOp Negation of yy
+79	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:380 - ReplaceArithmeticOperator - -> +
+80	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:380 - ReplaceArithmeticOperator - -> %
+81	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:380 - ReplaceArithmeticOperator - -> *
+82	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:380 - ReplaceArithmeticOperator - -> /
+83	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:380 - InsertUnaryOp Negation of outlineStrokeWidth
+84	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:380 - ReplaceArithmeticOperator - -> +
+85	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:380 - ReplaceArithmeticOperator - -> %
+86	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:380 - ReplaceArithmeticOperator - -> *
+87	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:380 - ReplaceArithmeticOperator - -> /
+88	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:382 - InsertUnaryOp Negation of currentGridBandIsDark
+89	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:382 - InsertUnaryOp IINC 1 currentGridBandIsDark
+90	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:382 - InsertUnaryOp IINC -1 currentGridBandIsDark
+91	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:382 - ReplaceComparisonOperator != -> -1
+92	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:382 - ReplaceComparisonOperator != -> <
+93	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:382 - ReplaceComparisonOperator != -> >
+94	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:382 - ReplaceConstant - 1 -> 0
+95	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:382 - ReplaceConstant - 0 -> 1
+96	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:404 - InsertUnaryOp Negation of firstGridBandIsDark
+97	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:404 - InsertUnaryOp IINC 1 firstGridBandIsDark
+98	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:404 - InsertUnaryOp IINC -1 firstGridBandIsDark
+99	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:409 - ReplaceConstant - 1.0 -> 0.0
+100	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:409 - ReplaceConstant - 1.0 -> -1.0
+101	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:409 - ReplaceConstant - 1.0 -> 2.0
+102	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:411 - ReplaceComparisonOperator = null -> != null
+103	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:411 - ReplaceComparisonOperator == -> -2
+104	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:411 - ReplaceComparisonOperator == -> >=
+105	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:411 - ReplaceComparisonOperator == -> <=
+106	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:418 - ReplaceComparisonOperator == -> -2
+107	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:418 - ReplaceComparisonOperator == -> >=
+108	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:418 - ReplaceComparisonOperator == -> <=
+109	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:420 - ReplaceConstant - 0.5 -> 0.0
+110	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:420 - ReplaceConstant - 0.5 -> 1.0
+111	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:420 - ReplaceConstant - 0.5 -> -1.0
+112	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:420 - ReplaceConstant - 0.5 -> -0.5
+113	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:420 - ReplaceConstant - 0.5 -> 1.5
+114	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:420 - ReplaceArithmeticOperator + -> %
+115	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:420 - ReplaceArithmeticOperator + -> -
+116	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:420 - ReplaceArithmeticOperator + -> *
+117	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:420 - ReplaceArithmeticOperator + -> /
+118	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:422 - ReplaceConstant - 0.5 -> 0.0
+119	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:422 - ReplaceConstant - 0.5 -> 1.0
+120	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:422 - ReplaceConstant - 0.5 -> -1.0
+121	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:422 - ReplaceConstant - 0.5 -> -0.5
+122	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:422 - ReplaceConstant - 0.5 -> 1.5
+123	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:422 - ReplaceArithmeticOperator - -> +
+124	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:422 - ReplaceArithmeticOperator - -> %
+125	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:422 - ReplaceArithmeticOperator - -> *
+126	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:422 - ReplaceArithmeticOperator - -> /
+127	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:424 - InsertUnaryOp Negation of currentGridBandIsDark
+128	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:424 - InsertUnaryOp IINC 1 currentGridBandIsDark
+129	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:424 - InsertUnaryOp IINC -1 currentGridBandIsDark
+130	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:424 - ReplaceComparisonOperator == -> -2
+131	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:424 - ReplaceComparisonOperator == -> >=
+132	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:424 - ReplaceComparisonOperator == -> <=
+133	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:430 - InsertUnaryOp Negation of xx
+134	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:430 - InsertUnaryOp Negation of outlineStrokeWidth
+135	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:430 - ReplaceArithmeticOperator + -> %
+136	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:430 - ReplaceArithmeticOperator + -> -
+137	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:430 - ReplaceArithmeticOperator + -> *
+138	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:430 - ReplaceArithmeticOperator + -> /
+139	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:430 - InsertUnaryOp Negation of yy1
+140	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:430 - InsertUnaryOp Negation of yy2
+141	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:431 - InsertUnaryOp Negation of xx
+142	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:431 - ReplaceArithmeticOperator - -> +
+143	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:431 - ReplaceArithmeticOperator - -> %
+144	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:431 - ReplaceArithmeticOperator - -> *
+145	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:431 - ReplaceArithmeticOperator - -> /
+146	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:431 - InsertUnaryOp Negation of outlineStrokeWidth
+147	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:431 - ReplaceArithmeticOperator - -> +
+148	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:431 - ReplaceArithmeticOperator - -> %
+149	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:431 - ReplaceArithmeticOperator - -> *
+150	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:431 - ReplaceArithmeticOperator - -> /
+151	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:431 - InsertUnaryOp Negation of yy2
+152	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:431 - InsertUnaryOp Negation of yy1
+153	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:431 - ReplaceArithmeticOperator - -> +
+154	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:431 - ReplaceArithmeticOperator - -> %
+155	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:431 - ReplaceArithmeticOperator - -> *
+156	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:431 - ReplaceArithmeticOperator - -> /
+157	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:434 - InsertUnaryOp Negation of currentGridBandIsDark
+158	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:434 - InsertUnaryOp IINC 1 currentGridBandIsDark
+159	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:434 - InsertUnaryOp IINC -1 currentGridBandIsDark
+160	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:434 - ReplaceComparisonOperator != -> -1
+161	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:434 - ReplaceComparisonOperator != -> <
+162	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:434 - ReplaceComparisonOperator != -> >
+163	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:434 - ReplaceConstant - 1 -> 0
+164	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.drawGridBandsVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Ljava/awt/geom/Rectangle2D;ZLjava/util/List;)V:434 - ReplaceConstant - 0 -> 1
+165	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:444 - ReplaceComparisonOperator != null -> = null
+166	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:448 - ReplaceComparisonOperator == -> -2
+167	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:448 - ReplaceComparisonOperator == -> >=
+168	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:448 - ReplaceComparisonOperator == -> <=
+169	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:451 - ReplaceConstant - 1 -> 0
+170	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:451 - ReplaceArithmeticOperator - -> +
+171	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:451 - ReplaceArithmeticOperator - -> %
+172	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:451 - ReplaceArithmeticOperator - -> *
+173	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:451 - ReplaceArithmeticOperator - -> /
+174	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:452 - ReplaceConstant - 0.0 -> 1.0
+175	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:452 - ReplaceConstant - 0.0 -> -1.0
+176	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:453 - InsertUnaryOp Negation of upper
+177	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:453 - InsertUnaryOp Negation of lower
+178	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:453 - ReplaceArithmeticOperator - -> +
+179	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:453 - ReplaceArithmeticOperator - -> %
+180	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:453 - ReplaceArithmeticOperator - -> *
+181	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:453 - ReplaceArithmeticOperator - -> /
+182	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:457 - InsertUnaryOp Negation of range
+183	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:457 - InsertUnaryOp Negation of minRange
+184	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:457 - ReplaceComparisonOperator >= -> -1
+185	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:457 - ReplaceComparisonOperator >= -> ==
+186	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:457 - ReplaceComparisonOperator >= -> >
+187	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - InsertUnaryOp Negation of upper
+188	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - InsertUnaryOp Negation of lower
+189	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - ReplaceArithmeticOperator + -> %
+190	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - ReplaceArithmeticOperator + -> -
+191	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - ReplaceArithmeticOperator + -> *
+192	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - ReplaceArithmeticOperator + -> /
+193	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - InsertUnaryOp Negation of minRange
+194	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - ReplaceArithmeticOperator + -> %
+195	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - ReplaceArithmeticOperator + -> -
+196	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - ReplaceArithmeticOperator + -> *
+197	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - ReplaceArithmeticOperator + -> /
+198	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - ReplaceConstant - 2.0 -> 0.0
+199	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - ReplaceConstant - 2.0 -> 1.0
+200	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - ReplaceConstant - 2.0 -> -1.0
+201	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - ReplaceConstant - 2.0 -> 3.0
+202	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - ReplaceArithmeticOperator / -> +
+203	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - ReplaceArithmeticOperator / -> %
+204	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - ReplaceArithmeticOperator / -> -
+205	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:458 - ReplaceArithmeticOperator / -> *
+206	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - InsertUnaryOp Negation of upper
+207	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - InsertUnaryOp Negation of lower
+208	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - ReplaceArithmeticOperator + -> %
+209	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - ReplaceArithmeticOperator + -> -
+210	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - ReplaceArithmeticOperator + -> *
+211	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - ReplaceArithmeticOperator + -> /
+212	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - InsertUnaryOp Negation of minRange
+213	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - ReplaceArithmeticOperator - -> +
+214	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - ReplaceArithmeticOperator - -> %
+215	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - ReplaceArithmeticOperator - -> *
+216	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - ReplaceArithmeticOperator - -> /
+217	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - ReplaceConstant - 2.0 -> 0.0
+218	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - ReplaceConstant - 2.0 -> 1.0
+219	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - ReplaceConstant - 2.0 -> -1.0
+220	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - ReplaceConstant - 2.0 -> 3.0
+221	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - ReplaceArithmeticOperator / -> +
+222	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - ReplaceArithmeticOperator / -> %
+223	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - ReplaceArithmeticOperator / -> -
+224	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:459 - ReplaceArithmeticOperator / -> *
+225	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:463 - ReplaceConstant - 0.5 -> 0.0
+226	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:463 - ReplaceConstant - 0.5 -> 1.0
+227	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:463 - ReplaceConstant - 0.5 -> -1.0
+228	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:463 - ReplaceConstant - 0.5 -> -0.5
+229	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:463 - ReplaceConstant - 0.5 -> 1.5
+230	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:464 - ReplaceConstant - 0.5 -> 0.0
+231	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:464 - ReplaceConstant - 0.5 -> 1.0
+232	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:464 - ReplaceConstant - 0.5 -> -1.0
+233	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:464 - ReplaceConstant - 0.5 -> -0.5
+234	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:464 - ReplaceConstant - 0.5 -> 1.5
+235	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:466 - ReplaceComparisonOperator == -> -2
+236	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:466 - ReplaceComparisonOperator == -> >=
+237	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:466 - ReplaceComparisonOperator == -> <=
+238	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:467 - ReplaceComparisonOperator == -> -2
+239	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:467 - ReplaceComparisonOperator == -> >=
+240	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:467 - ReplaceComparisonOperator == -> <=
+241	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:468 - InsertUnaryOp Negation of upper
+242	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:468 - ReplaceConstant - 0.0 -> 1.0
+243	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:468 - ReplaceConstant - 0.0 -> -1.0
+244	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:468 - ReplaceComparisonOperator > -> -2
+245	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:468 - ReplaceComparisonOperator > -> !=
+246	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:468 - ReplaceComparisonOperator > -> >=
+247	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:469 - ReplaceConstant - 0.0 -> 1.0
+248	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:469 - ReplaceConstant - 0.0 -> -1.0
+249	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:471 - InsertUnaryOp Negation of upper
+250	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:471 - InsertUnaryOp Negation of upperMargin
+251	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:471 - ReplaceArithmeticOperator + -> %
+252	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:471 - ReplaceArithmeticOperator + -> -
+253	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:471 - ReplaceArithmeticOperator + -> *
+254	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:471 - ReplaceArithmeticOperator + -> /
+255	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:473 - InsertUnaryOp Negation of lower
+256	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:473 - ReplaceConstant - 0.0 -> 1.0
+257	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:473 - ReplaceConstant - 0.0 -> -1.0
+258	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:473 - ReplaceComparisonOperator < -> -2
+259	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:473 - ReplaceComparisonOperator < -> !=
+260	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:473 - ReplaceComparisonOperator < -> <=
+261	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:474 - ReplaceConstant - 0.0 -> 1.0
+262	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:474 - ReplaceConstant - 0.0 -> -1.0
+263	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:476 - InsertUnaryOp Negation of lower
+264	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:476 - InsertUnaryOp Negation of lowerMargin
+265	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:476 - ReplaceArithmeticOperator - -> +
+266	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:476 - ReplaceArithmeticOperator - -> %
+267	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:476 - ReplaceArithmeticOperator - -> *
+268	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:476 - ReplaceArithmeticOperator - -> /
+269	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:479 - ReplaceConstant - 0.0 -> 1.0
+270	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:479 - ReplaceConstant - 0.0 -> -1.0
+271	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:479 - InsertUnaryOp Negation of upper
+272	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:479 - InsertUnaryOp Negation of upperMargin
+273	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:479 - ReplaceArithmeticOperator + -> %
+274	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:479 - ReplaceArithmeticOperator + -> -
+275	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:479 - ReplaceArithmeticOperator + -> *
+276	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:479 - ReplaceArithmeticOperator + -> /
+277	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:480 - ReplaceConstant - 0.0 -> 1.0
+278	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:480 - ReplaceConstant - 0.0 -> -1.0
+279	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:480 - InsertUnaryOp Negation of lower
+280	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:480 - InsertUnaryOp Negation of lowerMargin
+281	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:480 - ReplaceArithmeticOperator - -> +
+282	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:480 - ReplaceArithmeticOperator - -> %
+283	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:480 - ReplaceArithmeticOperator - -> *
+284	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:480 - ReplaceArithmeticOperator - -> /
+285	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:483 - ReplaceComparisonOperator == -> -2
+286	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:483 - ReplaceComparisonOperator == -> >=
+287	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:483 - ReplaceComparisonOperator == -> <=
+288	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:484 - InsertUnaryOp Negation of upper
+289	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:484 - ReplaceConstant - 0.0 -> 1.0
+290	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:484 - ReplaceConstant - 0.0 -> -1.0
+291	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:484 - ReplaceComparisonOperator > -> -2
+292	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:484 - ReplaceComparisonOperator > -> !=
+293	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:484 - ReplaceComparisonOperator > -> >=
+294	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:485 - ReplaceConstant - 0.0 -> 1.0
+295	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:485 - ReplaceConstant - 0.0 -> -1.0
+296	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:485 - InsertUnaryOp Negation of upper
+297	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:485 - InsertUnaryOp Negation of upperMargin
+298	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:485 - ReplaceArithmeticOperator + -> %
+299	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:485 - ReplaceArithmeticOperator + -> -
+300	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:485 - ReplaceArithmeticOperator + -> *
+301	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:485 - ReplaceArithmeticOperator + -> /
+302	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:487 - InsertUnaryOp Negation of upper
+303	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:487 - InsertUnaryOp Negation of upperMargin
+304	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:487 - InsertUnaryOp Negation of range
+305	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:487 - ReplaceArithmeticOperator * -> +
+306	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:487 - ReplaceArithmeticOperator * -> %
+307	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:487 - ReplaceArithmeticOperator * -> -
+308	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:487 - ReplaceArithmeticOperator * -> /
+309	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:487 - ReplaceArithmeticOperator + -> %
+310	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:487 - ReplaceArithmeticOperator + -> -
+311	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:487 - ReplaceArithmeticOperator + -> *
+312	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:487 - ReplaceArithmeticOperator + -> /
+313	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:489 - InsertUnaryOp Negation of lower
+314	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:489 - ReplaceConstant - 0.0 -> 1.0
+315	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:489 - ReplaceConstant - 0.0 -> -1.0
+316	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:489 - ReplaceComparisonOperator < -> -2
+317	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:489 - ReplaceComparisonOperator < -> !=
+318	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:489 - ReplaceComparisonOperator < -> <=
+319	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:490 - ReplaceConstant - 0.0 -> 1.0
+320	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:490 - ReplaceConstant - 0.0 -> -1.0
+321	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:490 - InsertUnaryOp Negation of lower
+322	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:490 - InsertUnaryOp Negation of lowerMargin
+323	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:490 - ReplaceArithmeticOperator - -> +
+324	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:490 - ReplaceArithmeticOperator - -> %
+325	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:490 - ReplaceArithmeticOperator - -> *
+326	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:490 - ReplaceArithmeticOperator - -> /
+327	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:492 - InsertUnaryOp Negation of lower
+328	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:492 - InsertUnaryOp Negation of lowerMargin
+329	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:492 - ReplaceArithmeticOperator - -> +
+330	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:492 - ReplaceArithmeticOperator - -> %
+331	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:492 - ReplaceArithmeticOperator - -> *
+332	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:492 - ReplaceArithmeticOperator - -> /
+333	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:495 - InsertUnaryOp Negation of upper
+334	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:495 - InsertUnaryOp Negation of upperMargin
+335	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:495 - ReplaceArithmeticOperator + -> %
+336	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:495 - ReplaceArithmeticOperator + -> -
+337	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:495 - ReplaceArithmeticOperator + -> *
+338	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:495 - ReplaceArithmeticOperator + -> /
+339	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:496 - InsertUnaryOp Negation of lower
+340	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:496 - InsertUnaryOp Negation of lowerMargin
+341	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:496 - ReplaceArithmeticOperator - -> +
+342	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:496 - ReplaceArithmeticOperator - -> %
+343	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:496 - ReplaceArithmeticOperator - -> *
+344	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:496 - ReplaceArithmeticOperator - -> /
+345	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:499 - InsertUnaryOp Negation of lower
+346	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:499 - InsertUnaryOp Negation of upper
+347	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:499 - ReplaceConstant - 0 -> 1
+348	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.autoAdjustRange()V:499 - ReplaceConstant - 0 -> 1
+349	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicks(Ljava/awt/Graphics2D;Lorg/jfree/chart/axis/AxisState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:518 - ReplaceComparisonOperator == -> -2
+350	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicks(Ljava/awt/Graphics2D;Lorg/jfree/chart/axis/AxisState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:518 - ReplaceComparisonOperator == -> >=
+351	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicks(Ljava/awt/Graphics2D;Lorg/jfree/chart/axis/AxisState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:518 - ReplaceComparisonOperator == -> <=
+352	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicks(Ljava/awt/Graphics2D;Lorg/jfree/chart/axis/AxisState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:520 - ReplaceComparisonOperator == -> -2
+353	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicks(Ljava/awt/Graphics2D;Lorg/jfree/chart/axis/AxisState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:520 - ReplaceComparisonOperator == -> >=
+354	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicks(Ljava/awt/Graphics2D;Lorg/jfree/chart/axis/AxisState;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:520 - ReplaceComparisonOperator == -> <=
+355	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:549 - ReplaceConstant - 0.0 -> 1.0
+356	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:549 - ReplaceConstant - 0.0 -> -1.0
+357	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:550 - ReplaceConstant - 0.0 -> 1.0
+358	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:550 - ReplaceConstant - 0.0 -> -1.0
+359	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:552 - InsertUnaryOp Negation of count
+360	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:552 - InsertUnaryOp IINC 1 count
+361	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:552 - InsertUnaryOp IINC -1 count
+362	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:552 - ReplaceConstant - 500 -> 0
+363	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:552 - ReplaceConstant - 500 -> 1
+364	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:552 - ReplaceConstant - 500 -> -1
+365	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:552 - ReplaceConstant - 500 -> 499
+366	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:552 - ReplaceConstant - 500 -> 501
+367	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:552 - ReplaceComparisonOperator > -> !=
+368	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:552 - ReplaceComparisonOperator > -> -2
+369	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:552 - ReplaceComparisonOperator > -> >=
+370	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:553 - ReplaceConstant - 0 -> 1
+371	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:553 - InsertUnaryOp Negation of i
+372	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:553 - InsertUnaryOp IINC 1 i
+373	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:553 - InsertUnaryOp IINC -1 i
+374	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:553 - InsertUnaryOp Negation of count
+375	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:553 - InsertUnaryOp IINC 1 count
+376	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:553 - InsertUnaryOp IINC -1 count
+377	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:553 - ReplaceComparisonOperator >= -> -1
+378	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:553 - ReplaceComparisonOperator >= -> >
+379	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:553 - ReplaceComparisonOperator >= -> ==
+380	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:554 - InsertUnaryOp Negation of lowestTickValue
+381	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:554 - InsertUnaryOp Negation of i
+382	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:554 - InsertUnaryOp IINC 1 i
+383	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:554 - InsertUnaryOp IINC -1 i
+384	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:554 - InsertUnaryOp Negation of size
+385	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:554 - ReplaceArithmeticOperator * -> +
+386	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:554 - ReplaceArithmeticOperator * -> %
+387	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:554 - ReplaceArithmeticOperator * -> -
+388	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:554 - ReplaceArithmeticOperator * -> /
+389	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:554 - ReplaceArithmeticOperator + -> %
+390	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:554 - ReplaceArithmeticOperator + -> -
+391	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:554 - ReplaceArithmeticOperator + -> *
+392	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:554 - ReplaceArithmeticOperator + -> /
+393	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:555 - InsertUnaryOp Negation of currentTickValue
+394	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:558 - ReplaceComparisonOperator = null -> != null
+395	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:559 - InsertUnaryOp Negation of currentTickValue
+396	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:562 - InsertUnaryOp Negation of currentTickValue
+397	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:568 - ReplaceComparisonOperator == -> -2
+398	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:568 - ReplaceComparisonOperator == -> >=
+399	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:568 - ReplaceComparisonOperator == -> <=
+400	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:570 - ReplaceConstant - 0 -> 1
+401	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:571 - InsertUnaryOp Negation of i
+402	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:571 - InsertUnaryOp IINC 1 i
+403	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:571 - InsertUnaryOp IINC -1 i
+404	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:571 - ReplaceComparisonOperator <= -> -1
+405	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:571 - ReplaceComparisonOperator <= -> ==
+406	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:571 - ReplaceComparisonOperator <= -> <
+407	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:572 - InsertUnaryOp Negation of previousDrawnTickLabelLength
+408	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:572 - InsertUnaryOp Negation of tickLabelLength
+409	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:572 - ReplaceArithmeticOperator + -> %
+410	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:572 - ReplaceArithmeticOperator + -> -
+411	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:572 - ReplaceArithmeticOperator + -> *
+412	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:572 - ReplaceArithmeticOperator + -> /
+413	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:572 - ReplaceConstant - 2.0 -> 0.0
+414	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:572 - ReplaceConstant - 2.0 -> 1.0
+415	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:572 - ReplaceConstant - 2.0 -> -1.0
+416	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:572 - ReplaceConstant - 2.0 -> 3.0
+417	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:572 - ReplaceArithmeticOperator / -> +
+418	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:572 - ReplaceArithmeticOperator / -> %
+419	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:572 - ReplaceArithmeticOperator / -> -
+420	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:572 - ReplaceArithmeticOperator / -> *
+421	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:574 - InsertUnaryOp Negation of xx
+422	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:574 - InsertUnaryOp Negation of previousDrawnTickLabelPos
+423	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:574 - ReplaceArithmeticOperator - -> +
+424	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:574 - ReplaceArithmeticOperator - -> %
+425	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:574 - ReplaceArithmeticOperator - -> *
+426	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:574 - ReplaceArithmeticOperator - -> /
+427	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:574 - InsertUnaryOp Negation of avgTickLabelLength
+428	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:574 - ReplaceComparisonOperator >= -> -1
+429	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:574 - ReplaceComparisonOperator >= -> ==
+430	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:574 - ReplaceComparisonOperator >= -> >
+431	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:576 - ReplaceConstant - 1 -> 0
+432	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:579 - InsertUnaryOp Negation of tickLabelsOverlapping
+433	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:579 - InsertUnaryOp IINC 1 tickLabelsOverlapping
+434	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:579 - InsertUnaryOp IINC -1 tickLabelsOverlapping
+435	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:579 - ReplaceComparisonOperator == -> -2
+436	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:579 - ReplaceComparisonOperator == -> >=
+437	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:579 - ReplaceComparisonOperator == -> <=
+438	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:584 - InsertUnaryOp Negation of xx
+439	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:585 - InsertUnaryOp Negation of tickLabelLength
+440	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:590 - ReplaceConstant - 0.0 -> 1.0
+441	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:590 - ReplaceConstant - 0.0 -> -1.0
+442	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:591 - ReplaceComparisonOperator == -> -2
+443	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:591 - ReplaceComparisonOperator == -> >=
+444	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:591 - ReplaceComparisonOperator == -> <=
+445	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:594 - ReplaceComparisonOperator != -> ==
+446	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:595 - ReplaceConstant - 1.5707963267948966 -> 0.0
+447	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:595 - ReplaceConstant - 1.5707963267948966 -> 1.0
+448	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:595 - ReplaceConstant - 1.5707963267948966 -> -1.0
+449	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:595 - ReplaceConstant - 1.5707963267948966 -> 0.5707963267948966
+450	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:595 - ReplaceConstant - 1.5707963267948966 -> 2.5707963267948966
+451	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:598 - ReplaceConstant - -1.5707963267948966 -> 0.0
+452	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:598 - ReplaceConstant - -1.5707963267948966 -> 1.0
+453	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:598 - ReplaceConstant - -1.5707963267948966 -> -1.0
+454	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:598 - ReplaceConstant - -1.5707963267948966 -> -2.5707963267948966
+455	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:598 - ReplaceConstant - -1.5707963267948966 -> -0.5707963267948966
+456	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:602 - ReplaceComparisonOperator != -> ==
+457	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:611 - InsertUnaryOp Negation of currentTickValue
+458	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:611 - InsertUnaryOp Negation of angle
+459	ReplaceVariable	org.jfree.chart.axis.SymbolAxis.refreshTicksHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:553 - ReplaceVariable i -> count
+460	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:643 - ReplaceConstant - 0.0 -> 1.0
+461	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:643 - ReplaceConstant - 0.0 -> -1.0
+462	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:644 - ReplaceConstant - 0.0 -> 1.0
+463	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:644 - ReplaceConstant - 0.0 -> -1.0
+464	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:646 - InsertUnaryOp Negation of count
+465	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:646 - InsertUnaryOp IINC 1 count
+466	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:646 - InsertUnaryOp IINC -1 count
+467	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:646 - ReplaceConstant - 500 -> 0
+468	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:646 - ReplaceConstant - 500 -> 1
+469	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:646 - ReplaceConstant - 500 -> -1
+470	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:646 - ReplaceConstant - 500 -> 499
+471	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:646 - ReplaceConstant - 500 -> 501
+472	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:646 - ReplaceComparisonOperator > -> !=
+473	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:646 - ReplaceComparisonOperator > -> -2
+474	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:646 - ReplaceComparisonOperator > -> >=
+475	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:647 - ReplaceConstant - 0 -> 1
+476	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:647 - InsertUnaryOp Negation of i
+477	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:647 - InsertUnaryOp IINC 1 i
+478	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:647 - InsertUnaryOp IINC -1 i
+479	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:647 - InsertUnaryOp Negation of count
+480	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:647 - InsertUnaryOp IINC 1 count
+481	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:647 - InsertUnaryOp IINC -1 count
+482	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:647 - ReplaceComparisonOperator >= -> -1
+483	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:647 - ReplaceComparisonOperator >= -> >
+484	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:647 - ReplaceComparisonOperator >= -> ==
+485	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:648 - InsertUnaryOp Negation of lowestTickValue
+486	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:648 - InsertUnaryOp Negation of i
+487	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:648 - InsertUnaryOp IINC 1 i
+488	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:648 - InsertUnaryOp IINC -1 i
+489	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:648 - InsertUnaryOp Negation of size
+490	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:648 - ReplaceArithmeticOperator * -> +
+491	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:648 - ReplaceArithmeticOperator * -> %
+492	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:648 - ReplaceArithmeticOperator * -> -
+493	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:648 - ReplaceArithmeticOperator * -> /
+494	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:648 - ReplaceArithmeticOperator + -> %
+495	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:648 - ReplaceArithmeticOperator + -> -
+496	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:648 - ReplaceArithmeticOperator + -> *
+497	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:648 - ReplaceArithmeticOperator + -> /
+498	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:649 - InsertUnaryOp Negation of currentTickValue
+499	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:652 - ReplaceComparisonOperator = null -> != null
+500	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:653 - InsertUnaryOp Negation of currentTickValue
+501	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:656 - InsertUnaryOp Negation of currentTickValue
+502	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:662 - ReplaceComparisonOperator == -> -2
+503	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:662 - ReplaceComparisonOperator == -> >=
+504	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:662 - ReplaceComparisonOperator == -> <=
+505	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:664 - ReplaceConstant - 0 -> 1
+506	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:665 - InsertUnaryOp Negation of i
+507	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:665 - InsertUnaryOp IINC 1 i
+508	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:665 - InsertUnaryOp IINC -1 i
+509	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:665 - ReplaceComparisonOperator <= -> -1
+510	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:665 - ReplaceComparisonOperator <= -> ==
+511	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:665 - ReplaceComparisonOperator <= -> <
+512	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:666 - InsertUnaryOp Negation of previousDrawnTickLabelLength
+513	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:666 - InsertUnaryOp Negation of tickLabelLength
+514	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:666 - ReplaceArithmeticOperator + -> %
+515	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:666 - ReplaceArithmeticOperator + -> -
+516	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:666 - ReplaceArithmeticOperator + -> *
+517	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:666 - ReplaceArithmeticOperator + -> /
+518	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:666 - ReplaceConstant - 2.0 -> 0.0
+519	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:666 - ReplaceConstant - 2.0 -> 1.0
+520	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:666 - ReplaceConstant - 2.0 -> -1.0
+521	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:666 - ReplaceConstant - 2.0 -> 3.0
+522	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:666 - ReplaceArithmeticOperator / -> +
+523	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:666 - ReplaceArithmeticOperator / -> %
+524	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:666 - ReplaceArithmeticOperator / -> -
+525	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:666 - ReplaceArithmeticOperator / -> *
+526	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:668 - InsertUnaryOp Negation of yy
+527	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:668 - InsertUnaryOp Negation of previousDrawnTickLabelPos
+528	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:668 - ReplaceArithmeticOperator - -> +
+529	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:668 - ReplaceArithmeticOperator - -> %
+530	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:668 - ReplaceArithmeticOperator - -> *
+531	ReplaceArithmeticOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:668 - ReplaceArithmeticOperator - -> /
+532	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:668 - InsertUnaryOp Negation of avgTickLabelLength
+533	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:668 - ReplaceComparisonOperator >= -> -1
+534	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:668 - ReplaceComparisonOperator >= -> ==
+535	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:668 - ReplaceComparisonOperator >= -> >
+536	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:670 - ReplaceConstant - 1 -> 0
+537	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:673 - InsertUnaryOp Negation of tickLabelsOverlapping
+538	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:673 - InsertUnaryOp IINC 1 tickLabelsOverlapping
+539	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:673 - InsertUnaryOp IINC -1 tickLabelsOverlapping
+540	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:673 - ReplaceComparisonOperator == -> -2
+541	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:673 - ReplaceComparisonOperator == -> >=
+542	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:673 - ReplaceComparisonOperator == -> <=
+543	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:678 - InsertUnaryOp Negation of yy
+544	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:679 - InsertUnaryOp Negation of tickLabelLength
+545	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:684 - ReplaceConstant - 0.0 -> 1.0
+546	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:684 - ReplaceConstant - 0.0 -> -1.0
+547	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:685 - ReplaceComparisonOperator == -> -2
+548	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:685 - ReplaceComparisonOperator == -> >=
+549	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:685 - ReplaceComparisonOperator == -> <=
+550	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:688 - ReplaceComparisonOperator != -> ==
+551	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:689 - ReplaceConstant - -1.5707963267948966 -> 0.0
+552	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:689 - ReplaceConstant - -1.5707963267948966 -> 1.0
+553	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:689 - ReplaceConstant - -1.5707963267948966 -> -1.0
+554	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:689 - ReplaceConstant - -1.5707963267948966 -> -2.5707963267948966
+555	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:689 - ReplaceConstant - -1.5707963267948966 -> -0.5707963267948966
+556	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:692 - ReplaceConstant - 1.5707963267948966 -> 0.0
+557	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:692 - ReplaceConstant - 1.5707963267948966 -> 1.0
+558	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:692 - ReplaceConstant - 1.5707963267948966 -> -1.0
+559	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:692 - ReplaceConstant - 1.5707963267948966 -> 0.5707963267948966
+560	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:692 - ReplaceConstant - 1.5707963267948966 -> 2.5707963267948966
+561	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:696 - ReplaceComparisonOperator != -> ==
+562	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:705 - InsertUnaryOp Negation of currentTickValue
+563	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:705 - InsertUnaryOp Negation of angle
+564	ReplaceVariable	org.jfree.chart.axis.SymbolAxis.refreshTicksVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;Lorg/jfree/ui/RectangleEdge;)Ljava/util/List;:647 - ReplaceVariable i -> count
+565	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.valueToString(D)Ljava/lang/String;:724 - InsertUnaryOp Negation of value
+566	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:741 - ReplaceComparisonOperator != -> ==
+567	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:742 - ReplaceConstant - 1 -> 0
+568	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:744 - ReplaceComparisonOperator != -> -1
+569	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:744 - ReplaceComparisonOperator != -> <
+570	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:744 - ReplaceComparisonOperator != -> >
+571	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:745 - ReplaceConstant - 0 -> 1
+572	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:748 - ReplaceComparisonOperator != -> -1
+573	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:748 - ReplaceComparisonOperator != -> <
+574	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:748 - ReplaceComparisonOperator != -> >
+575	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:749 - ReplaceConstant - 0 -> 1
+576	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:751 - InsertUnaryOp Negation
+577	InsertUnaryOp	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:751 - InsertUnaryOp Negation
+578	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:751 - ReplaceComparisonOperator == -> -2
+579	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:751 - ReplaceComparisonOperator == -> >=
+580	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:751 - ReplaceComparisonOperator == -> <=
+581	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:752 - ReplaceConstant - 0 -> 1
+582	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:754 - ReplaceComparisonOperator != -> -1
+583	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:754 - ReplaceComparisonOperator != -> <
+584	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:754 - ReplaceComparisonOperator != -> >
+585	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:755 - ReplaceConstant - 0 -> 1
+586	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:757 - ReplaceComparisonOperator != -> -1
+587	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:757 - ReplaceComparisonOperator != -> <
+588	ReplaceComparisonOperator	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:757 - ReplaceComparisonOperator != -> >
+589	ReplaceConstant	org.jfree.chart.axis.SymbolAxis.equals(Ljava/lang/Object;)Z:759 - ReplaceConstant - 0 -> 1

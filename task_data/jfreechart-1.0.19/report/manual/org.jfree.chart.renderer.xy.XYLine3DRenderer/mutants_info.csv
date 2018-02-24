@@ -1,0 +1,98 @@
+0	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.<init>()V:91 - ReplaceConstant - 12.0 -> 0.0
+1	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.<init>()V:91 - ReplaceConstant - 12.0 -> 1.0
+2	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.<init>()V:91 - ReplaceConstant - 12.0 -> -1.0
+3	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.<init>()V:91 - ReplaceConstant - 12.0 -> 11.0
+4	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.<init>()V:91 - ReplaceConstant - 12.0 -> 13.0
+5	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.<init>()V:92 - ReplaceConstant - 8.0 -> 0.0
+6	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.<init>()V:92 - ReplaceConstant - 8.0 -> 1.0
+7	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.<init>()V:92 - ReplaceConstant - 8.0 -> -1.0
+8	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.<init>()V:92 - ReplaceConstant - 8.0 -> 7.0
+9	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.<init>()V:92 - ReplaceConstant - 8.0 -> 9.0
+10	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.getXOffset()D:102 - InsertUnaryOp Negation
+11	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.getYOffset()D:112 - InsertUnaryOp Negation
+12	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.setXOffset(D)V:122 - InsertUnaryOp Negation of xOffset
+13	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.setYOffset(D)V:133 - InsertUnaryOp Negation of yOffset
+14	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.getPassCount()I:168 - ReplaceConstant - 3 -> 0
+15	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.getPassCount()I:168 - ReplaceConstant - 3 -> 1
+16	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.getPassCount()I:168 - ReplaceConstant - 3 -> -1
+17	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.getPassCount()I:168 - ReplaceConstant - 3 -> 2
+18	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.getPassCount()I:168 - ReplaceConstant - 3 -> 4
+19	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.isLinePass(I)Z:180 - InsertUnaryOp Negation of pass
+20	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.isLinePass(I)Z:180 - InsertUnaryOp IINC 1 pass
+21	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.isLinePass(I)Z:180 - InsertUnaryOp IINC -1 pass
+22	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.isLinePass(I)Z:180 - ReplaceComparisonOperator == -> -2
+23	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.isLinePass(I)Z:180 - ReplaceComparisonOperator == -> >=
+24	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.isLinePass(I)Z:180 - ReplaceComparisonOperator == -> <=
+25	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.isLinePass(I)Z:180 - InsertUnaryOp Negation of pass
+26	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.isLinePass(I)Z:180 - InsertUnaryOp IINC 1 pass
+27	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.isLinePass(I)Z:180 - InsertUnaryOp IINC -1 pass
+28	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.isLinePass(I)Z:180 - ReplaceConstant - 1 -> 0
+29	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.isLinePass(I)Z:180 - ReplaceComparisonOperator != -> -1
+30	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.isLinePass(I)Z:180 - ReplaceComparisonOperator != -> <
+31	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.isLinePass(I)Z:180 - ReplaceComparisonOperator != -> >
+32	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.isLinePass(I)Z:180 - ReplaceConstant - 1 -> 0
+33	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.isLinePass(I)Z:180 - ReplaceConstant - 0 -> 1
+34	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.isItemPass(I)Z:192 - InsertUnaryOp Negation of pass
+35	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.isItemPass(I)Z:192 - InsertUnaryOp IINC 1 pass
+36	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.isItemPass(I)Z:192 - InsertUnaryOp IINC -1 pass
+37	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.isItemPass(I)Z:192 - ReplaceConstant - 2 -> 0
+38	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.isItemPass(I)Z:192 - ReplaceConstant - 2 -> 1
+39	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.isItemPass(I)Z:192 - ReplaceConstant - 2 -> -1
+40	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.isItemPass(I)Z:192 - ReplaceConstant - 2 -> 3
+41	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.isItemPass(I)Z:192 - ReplaceComparisonOperator != -> -1
+42	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.isItemPass(I)Z:192 - ReplaceComparisonOperator != -> <
+43	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.isItemPass(I)Z:192 - ReplaceComparisonOperator != -> >
+44	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.isItemPass(I)Z:192 - ReplaceConstant - 1 -> 0
+45	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.isItemPass(I)Z:192 - ReplaceConstant - 0 -> 1
+46	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.isShadowPass(I)Z:203 - InsertUnaryOp Negation of pass
+47	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.isShadowPass(I)Z:203 - InsertUnaryOp IINC 1 pass
+48	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.isShadowPass(I)Z:203 - InsertUnaryOp IINC -1 pass
+49	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.isShadowPass(I)Z:203 - ReplaceComparisonOperator != -> -1
+50	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.isShadowPass(I)Z:203 - ReplaceComparisonOperator != -> <
+51	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.isShadowPass(I)Z:203 - ReplaceComparisonOperator != -> >
+52	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.isShadowPass(I)Z:203 - ReplaceConstant - 1 -> 0
+53	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.isShadowPass(I)Z:203 - ReplaceConstant - 0 -> 1
+54	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:218 - InsertUnaryOp Negation of pass
+55	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:218 - InsertUnaryOp IINC 1 pass
+56	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:218 - InsertUnaryOp IINC -1 pass
+57	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:218 - ReplaceComparisonOperator == -> -2
+58	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:218 - ReplaceComparisonOperator == -> >=
+59	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:218 - ReplaceComparisonOperator == -> <=
+60	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:219 - ReplaceComparisonOperator = null -> != null
+61	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:220 - InsertUnaryOp Negation of series
+62	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:220 - InsertUnaryOp IINC 1 series
+63	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:220 - InsertUnaryOp IINC -1 series
+64	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:220 - InsertUnaryOp Negation of item
+65	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:220 - InsertUnaryOp IINC 1 item
+66	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:220 - InsertUnaryOp IINC -1 item
+67	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:229 - InsertUnaryOp Negation of pass
+68	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:229 - InsertUnaryOp IINC 1 pass
+69	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:229 - InsertUnaryOp IINC -1 pass
+70	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:229 - InsertUnaryOp Negation of series
+71	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:229 - InsertUnaryOp IINC 1 series
+72	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:229 - InsertUnaryOp IINC -1 series
+73	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:229 - InsertUnaryOp Negation of item
+74	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:229 - InsertUnaryOp IINC 1 item
+75	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.drawFirstPassShape(Ljava/awt/Graphics2D;IIILjava/awt/Shape;)V:229 - InsertUnaryOp IINC -1 item
+76	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:242 - ReplaceComparisonOperator != -> ==
+77	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:243 - ReplaceConstant - 1 -> 0
+78	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:245 - ReplaceComparisonOperator != -> -1
+79	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:245 - ReplaceComparisonOperator != -> <
+80	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:245 - ReplaceComparisonOperator != -> >
+81	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:246 - ReplaceConstant - 0 -> 1
+82	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:249 - InsertUnaryOp Negation
+83	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:249 - InsertUnaryOp Negation
+84	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:249 - ReplaceComparisonOperator == -> -2
+85	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:249 - ReplaceComparisonOperator == -> >=
+86	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:249 - ReplaceComparisonOperator == -> <=
+87	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:250 - ReplaceConstant - 0 -> 1
+88	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:252 - InsertUnaryOp Negation
+89	InsertUnaryOp	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:252 - InsertUnaryOp Negation
+90	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:252 - ReplaceComparisonOperator == -> -2
+91	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:252 - ReplaceComparisonOperator == -> >=
+92	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:252 - ReplaceComparisonOperator == -> <=
+93	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:253 - ReplaceConstant - 0 -> 1
+94	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:255 - ReplaceComparisonOperator != -> -1
+95	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:255 - ReplaceComparisonOperator != -> <
+96	ReplaceComparisonOperator	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:255 - ReplaceComparisonOperator != -> >
+97	ReplaceConstant	org.jfree.chart.renderer.xy.XYLine3DRenderer.equals(Ljava/lang/Object;)Z:256 - ReplaceConstant - 0 -> 1

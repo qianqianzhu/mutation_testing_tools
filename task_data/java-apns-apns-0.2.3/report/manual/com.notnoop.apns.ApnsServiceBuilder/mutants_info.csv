@@ -1,0 +1,149 @@
+0	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.<init>()V:78 - ReplaceConstant - -1 -> 0
+1	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.<init>()V:78 - ReplaceConstant - -1 -> 1
+2	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.<init>()V:78 - ReplaceConstant - -1 -> -2
+3	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.<init>()V:82 - ReplaceConstant - 1 -> 0
+4	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.<init>()V:83 - ReplaceConstant - 100 -> 0
+5	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.<init>()V:83 - ReplaceConstant - 100 -> 1
+6	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.<init>()V:83 - ReplaceConstant - 100 -> -1
+7	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.<init>()V:83 - ReplaceConstant - 100 -> 99
+8	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.<init>()V:83 - ReplaceConstant - 100 -> 101
+9	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.<init>()V:84 - ReplaceConstant - 1 -> 0
+10	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.<init>()V:88 - ReplaceConstant - 0 -> 1
+11	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.<init>()V:90 - ReplaceConstant - 0 -> 1
+12	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.<init>()V:97 - ReplaceConstant - 1 -> 0
+13	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withCert(Ljava/io/InputStream;Ljava/lang/String;)Lcom/notnoop/apns/ApnsServiceBuilder;:167 - ReplaceConstant - PKCS12 -> 
+14	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withCert(Ljava/io/InputStream;Ljava/lang/String;)Lcom/notnoop/apns/ApnsServiceBuilder;:167 - ReplaceConstant - sunx509 -> 
+15	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withCert(Ljava/security/KeyStore;Ljava/lang/String;)Lcom/notnoop/apns/ApnsServiceBuilder;:193 - ReplaceConstant - sunx509 -> 
+16	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.assertPasswordNotEmpty(Ljava/lang/String;)V:198 - ReplaceComparisonOperator = null -> != null
+17	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.assertPasswordNotEmpty(Ljava/lang/String;)V:198 - ReplaceComparisonOperator != -> -1
+18	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.assertPasswordNotEmpty(Ljava/lang/String;)V:198 - ReplaceComparisonOperator != -> <
+19	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.assertPasswordNotEmpty(Ljava/lang/String;)V:198 - ReplaceComparisonOperator != -> >
+20	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.assertPasswordNotEmpty(Ljava/lang/String;)V:199 - ReplaceConstant - Passwords must be specified.Oracle Java SDK does not support passwordless p12 certificates -> 
+21	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withGatewayDestination(Ljava/lang/String;I)Lcom/notnoop/apns/ApnsServiceBuilder;:235 - InsertUnaryOp Negation of port
+22	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withGatewayDestination(Ljava/lang/String;I)Lcom/notnoop/apns/ApnsServiceBuilder;:235 - InsertUnaryOp IINC 1 port
+23	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withGatewayDestination(Ljava/lang/String;I)Lcom/notnoop/apns/ApnsServiceBuilder;:235 - InsertUnaryOp IINC -1 port
+24	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withFeedbackDestination(Ljava/lang/String;I)Lcom/notnoop/apns/ApnsServiceBuilder;:253 - InsertUnaryOp Negation of port
+25	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withFeedbackDestination(Ljava/lang/String;I)Lcom/notnoop/apns/ApnsServiceBuilder;:253 - InsertUnaryOp IINC 1 port
+26	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withFeedbackDestination(Ljava/lang/String;I)Lcom/notnoop/apns/ApnsServiceBuilder;:253 - InsertUnaryOp IINC -1 port
+27	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withAppleDestination(Z)Lcom/notnoop/apns/ApnsServiceBuilder;:268 - InsertUnaryOp Negation of isProduction
+28	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withAppleDestination(Z)Lcom/notnoop/apns/ApnsServiceBuilder;:268 - InsertUnaryOp IINC 1 isProduction
+29	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withAppleDestination(Z)Lcom/notnoop/apns/ApnsServiceBuilder;:268 - InsertUnaryOp IINC -1 isProduction
+30	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.withAppleDestination(Z)Lcom/notnoop/apns/ApnsServiceBuilder;:268 - ReplaceComparisonOperator == -> -2
+31	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.withAppleDestination(Z)Lcom/notnoop/apns/ApnsServiceBuilder;:268 - ReplaceComparisonOperator == -> >=
+32	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.withAppleDestination(Z)Lcom/notnoop/apns/ApnsServiceBuilder;:268 - ReplaceComparisonOperator == -> <=
+33	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withSandboxDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:285 - ReplaceConstant - gateway.sandbox.push.apple.com -> 
+34	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withSandboxDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:285 - ReplaceConstant - 2195 -> 0
+35	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withSandboxDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:285 - ReplaceConstant - 2195 -> 1
+36	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withSandboxDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:285 - ReplaceConstant - 2195 -> -1
+37	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withSandboxDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:285 - ReplaceConstant - 2195 -> 2194
+38	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withSandboxDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:285 - ReplaceConstant - 2195 -> 2196
+39	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withSandboxDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:285 - ReplaceConstant - feedback.sandbox.push.apple.com -> 
+40	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withSandboxDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:285 - ReplaceConstant - 2196 -> 0
+41	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withSandboxDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:285 - ReplaceConstant - 2196 -> 1
+42	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withSandboxDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:285 - ReplaceConstant - 2196 -> -1
+43	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withSandboxDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:285 - ReplaceConstant - 2196 -> 2195
+44	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withSandboxDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:285 - ReplaceConstant - 2196 -> 2197
+45	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withProductionDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:300 - ReplaceConstant - gateway.push.apple.com -> 
+46	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withProductionDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:300 - ReplaceConstant - 2195 -> 0
+47	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withProductionDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:300 - ReplaceConstant - 2195 -> 1
+48	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withProductionDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:300 - ReplaceConstant - 2195 -> -1
+49	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withProductionDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:300 - ReplaceConstant - 2195 -> 2194
+50	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withProductionDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:300 - ReplaceConstant - 2195 -> 2196
+51	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withProductionDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:300 - ReplaceConstant - feedback.push.apple.com -> 
+52	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withProductionDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:300 - ReplaceConstant - 2196 -> 0
+53	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withProductionDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:300 - ReplaceConstant - 2196 -> 1
+54	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withProductionDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:300 - ReplaceConstant - 2196 -> -1
+55	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withProductionDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:300 - ReplaceConstant - 2196 -> 2195
+56	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withProductionDestination()Lcom/notnoop/apns/ApnsServiceBuilder;:300 - ReplaceConstant - 2196 -> 2197
+57	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withAutoAdjustCacheLength(Z)Lcom/notnoop/apns/ApnsServiceBuilder;:323 - InsertUnaryOp Negation of autoAdjustCacheLength
+58	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withAutoAdjustCacheLength(Z)Lcom/notnoop/apns/ApnsServiceBuilder;:323 - InsertUnaryOp IINC 1 autoAdjustCacheLength
+59	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withAutoAdjustCacheLength(Z)Lcom/notnoop/apns/ApnsServiceBuilder;:323 - InsertUnaryOp IINC -1 autoAdjustCacheLength
+60	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withSocksProxy(Ljava/lang/String;I)Lcom/notnoop/apns/ApnsServiceBuilder;:354 - InsertUnaryOp Negation of port
+61	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withSocksProxy(Ljava/lang/String;I)Lcom/notnoop/apns/ApnsServiceBuilder;:354 - InsertUnaryOp IINC 1 port
+62	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withSocksProxy(Ljava/lang/String;I)Lcom/notnoop/apns/ApnsServiceBuilder;:354 - InsertUnaryOp IINC -1 port
+63	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withCacheLength(I)Lcom/notnoop/apns/ApnsServiceBuilder;:383 - InsertUnaryOp Negation of cacheLength
+64	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withCacheLength(I)Lcom/notnoop/apns/ApnsServiceBuilder;:383 - InsertUnaryOp IINC 1 cacheLength
+65	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.withCacheLength(I)Lcom/notnoop/apns/ApnsServiceBuilder;:383 - InsertUnaryOp IINC -1 cacheLength
+66	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asPool(I)Lcom/notnoop/apns/ApnsServiceBuilder;:413 - InsertUnaryOp Negation of maxConnections
+67	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asPool(I)Lcom/notnoop/apns/ApnsServiceBuilder;:413 - InsertUnaryOp IINC 1 maxConnections
+68	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asPool(I)Lcom/notnoop/apns/ApnsServiceBuilder;:413 - InsertUnaryOp IINC -1 maxConnections
+69	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asPool(I)Lcom/notnoop/apns/ApnsServiceBuilder;:413 - InsertUnaryOp Negation of maxConnections
+70	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asPool(I)Lcom/notnoop/apns/ApnsServiceBuilder;:413 - InsertUnaryOp IINC 1 maxConnections
+71	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asPool(I)Lcom/notnoop/apns/ApnsServiceBuilder;:413 - InsertUnaryOp IINC -1 maxConnections
+72	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asPool(Ljava/util/concurrent/ExecutorService;I)Lcom/notnoop/apns/ApnsServiceBuilder;:429 - InsertUnaryOp Negation of maxConnections
+73	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asPool(Ljava/util/concurrent/ExecutorService;I)Lcom/notnoop/apns/ApnsServiceBuilder;:429 - InsertUnaryOp IINC 1 maxConnections
+74	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asPool(Ljava/util/concurrent/ExecutorService;I)Lcom/notnoop/apns/ApnsServiceBuilder;:429 - InsertUnaryOp IINC -1 maxConnections
+75	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.asQueued()Lcom/notnoop/apns/ApnsServiceBuilder;:441 - ReplaceConstant - 1 -> 0
+76	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.asBatched()Lcom/notnoop/apns/ApnsServiceBuilder;:453 - ReplaceConstant - 5 -> 0
+77	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.asBatched()Lcom/notnoop/apns/ApnsServiceBuilder;:453 - ReplaceConstant - 5 -> 1
+78	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.asBatched()Lcom/notnoop/apns/ApnsServiceBuilder;:453 - ReplaceConstant - 5 -> -1
+79	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.asBatched()Lcom/notnoop/apns/ApnsServiceBuilder;:453 - ReplaceConstant - 5 -> 4
+80	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.asBatched()Lcom/notnoop/apns/ApnsServiceBuilder;:453 - ReplaceConstant - 5 -> 6
+81	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.asBatched()Lcom/notnoop/apns/ApnsServiceBuilder;:453 - ReplaceConstant - 10 -> 0
+82	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.asBatched()Lcom/notnoop/apns/ApnsServiceBuilder;:453 - ReplaceConstant - 10 -> 1
+83	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.asBatched()Lcom/notnoop/apns/ApnsServiceBuilder;:453 - ReplaceConstant - 10 -> -1
+84	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.asBatched()Lcom/notnoop/apns/ApnsServiceBuilder;:453 - ReplaceConstant - 10 -> 9
+85	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.asBatched()Lcom/notnoop/apns/ApnsServiceBuilder;:453 - ReplaceConstant - 10 -> 11
+86	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asBatched(II)Lcom/notnoop/apns/ApnsServiceBuilder;:470 - InsertUnaryOp Negation of waitTimeInSec
+87	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asBatched(II)Lcom/notnoop/apns/ApnsServiceBuilder;:470 - InsertUnaryOp IINC 1 waitTimeInSec
+88	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asBatched(II)Lcom/notnoop/apns/ApnsServiceBuilder;:470 - InsertUnaryOp IINC -1 waitTimeInSec
+89	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asBatched(II)Lcom/notnoop/apns/ApnsServiceBuilder;:470 - InsertUnaryOp Negation of maxWaitTimeInSec
+90	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asBatched(II)Lcom/notnoop/apns/ApnsServiceBuilder;:470 - InsertUnaryOp IINC 1 maxWaitTimeInSec
+91	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asBatched(II)Lcom/notnoop/apns/ApnsServiceBuilder;:470 - InsertUnaryOp IINC -1 maxWaitTimeInSec
+92	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.asBatched(IILjava/util/concurrent/ThreadFactory;)Lcom/notnoop/apns/ApnsServiceBuilder;:493 - ReplaceConstant - 1 -> 0
+93	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asBatched(IILjava/util/concurrent/ThreadFactory;)Lcom/notnoop/apns/ApnsServiceBuilder;:494 - InsertUnaryOp Negation of waitTimeInSec
+94	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asBatched(IILjava/util/concurrent/ThreadFactory;)Lcom/notnoop/apns/ApnsServiceBuilder;:494 - InsertUnaryOp IINC 1 waitTimeInSec
+95	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asBatched(IILjava/util/concurrent/ThreadFactory;)Lcom/notnoop/apns/ApnsServiceBuilder;:494 - InsertUnaryOp IINC -1 waitTimeInSec
+96	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asBatched(IILjava/util/concurrent/ThreadFactory;)Lcom/notnoop/apns/ApnsServiceBuilder;:495 - InsertUnaryOp Negation of maxWaitTimeInSec
+97	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asBatched(IILjava/util/concurrent/ThreadFactory;)Lcom/notnoop/apns/ApnsServiceBuilder;:495 - InsertUnaryOp IINC 1 maxWaitTimeInSec
+98	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.asBatched(IILjava/util/concurrent/ThreadFactory;)Lcom/notnoop/apns/ApnsServiceBuilder;:495 - InsertUnaryOp IINC -1 maxWaitTimeInSec
+99	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.withDelegate(Lcom/notnoop/apns/ApnsDelegate;)Lcom/notnoop/apns/ApnsServiceBuilder;:509 - ReplaceComparisonOperator != null -> = null
+100	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.withNoErrorDetection()Lcom/notnoop/apns/ApnsServiceBuilder;:524 - ReplaceConstant - 0 -> 1
+101	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:539 - InsertUnaryOp Negation
+102	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:539 - InsertUnaryOp +1
+103	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:539 - InsertUnaryOp -1
+104	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:541 - InsertUnaryOp Negation
+105	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:541 - InsertUnaryOp +1
+106	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:541 - InsertUnaryOp -1
+107	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:541 - InsertUnaryOp Negation
+108	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:541 - InsertUnaryOp Negation
+109	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:541 - InsertUnaryOp +1
+110	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:541 - InsertUnaryOp -1
+111	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:541 - InsertUnaryOp Negation
+112	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:544 - InsertUnaryOp Negation
+113	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:544 - InsertUnaryOp +1
+114	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:544 - InsertUnaryOp -1
+115	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:544 - ReplaceConstant - 1 -> 0
+116	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:544 - ReplaceComparisonOperator == -> -2
+117	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:544 - ReplaceComparisonOperator == -> >=
+118	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:544 - ReplaceComparisonOperator == -> <=
+119	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:545 - InsertUnaryOp Negation
+120	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:545 - InsertUnaryOp +1
+121	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:545 - InsertUnaryOp -1
+122	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:550 - InsertUnaryOp Negation
+123	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:550 - ReplaceComparisonOperator == -> -2
+124	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:550 - ReplaceComparisonOperator == -> >=
+125	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:550 - ReplaceComparisonOperator == -> <=
+126	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:554 - InsertUnaryOp Negation
+127	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:554 - ReplaceComparisonOperator == -> -2
+128	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:554 - ReplaceComparisonOperator == -> >=
+129	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:554 - ReplaceComparisonOperator == -> <=
+130	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:555 - InsertUnaryOp Negation
+131	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:555 - InsertUnaryOp +1
+132	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:555 - InsertUnaryOp -1
+133	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:555 - InsertUnaryOp Negation
+134	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:555 - InsertUnaryOp +1
+135	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.build()Lcom/notnoop/apns/ApnsService;:555 - InsertUnaryOp -1
+136	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.checkInitialization()V:564 - ReplaceComparisonOperator != null -> = null
+137	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.checkInitialization()V:565 - ReplaceConstant - SSL Certificates and attribute are not initialized Use .withCert() methods. -> 
+138	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.checkInitialization()V:568 - ReplaceComparisonOperator = null -> != null
+139	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.checkInitialization()V:568 - InsertUnaryOp Negation
+140	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.checkInitialization()V:568 - InsertUnaryOp +1
+141	InsertUnaryOp	com.notnoop.apns.ApnsServiceBuilder.checkInitialization()V:568 - InsertUnaryOp -1
+142	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.checkInitialization()V:568 - ReplaceConstant - -1 -> 0
+143	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.checkInitialization()V:568 - ReplaceConstant - -1 -> 1
+144	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.checkInitialization()V:568 - ReplaceConstant - -1 -> -2
+145	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.checkInitialization()V:568 - ReplaceComparisonOperator != -> -1
+146	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.checkInitialization()V:568 - ReplaceComparisonOperator != -> <
+147	ReplaceComparisonOperator	com.notnoop.apns.ApnsServiceBuilder.checkInitialization()V:568 - ReplaceComparisonOperator != -> >
+148	ReplaceConstant	com.notnoop.apns.ApnsServiceBuilder.checkInitialization()V:569 - ReplaceConstant - The Destination APNS server is not stated Use .withDestination(), withSandboxDestination(), or withProductionDestination(). -> 

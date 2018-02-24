@@ -1,0 +1,144 @@
+0	ReplaceConstant	org.dynjs.debugger.Debugger.<init>()V:53 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.dynjs.debugger.Debugger.<init>()V:58 - ReplaceConstant - version -> 
+2	ReplaceConstant	org.dynjs.debugger.Debugger.<init>()V:59 - ReplaceConstant - scripts -> 
+3	ReplaceConstant	org.dynjs.debugger.Debugger.<init>()V:60 - ReplaceConstant - source -> 
+4	ReplaceConstant	org.dynjs.debugger.Debugger.<init>()V:61 - ReplaceConstant - suspend -> 
+5	ReplaceConstant	org.dynjs.debugger.Debugger.<init>()V:62 - ReplaceConstant - continue -> 
+6	ReplaceConstant	org.dynjs.debugger.Debugger.<init>()V:63 - ReplaceConstant - evaluate -> 
+7	ReplaceConstant	org.dynjs.debugger.Debugger.<init>()V:64 - ReplaceConstant - lookup -> 
+8	ReplaceConstant	org.dynjs.debugger.Debugger.<init>()V:65 - ReplaceConstant - setbreakpoint -> 
+9	ReplaceConstant	org.dynjs.debugger.Debugger.<init>()V:66 - ReplaceConstant - listbreakpoints -> 
+10	ReplaceConstant	org.dynjs.debugger.Debugger.<init>()V:67 - ReplaceConstant - clearbreakpoint -> 
+11	ReplaceConstant	org.dynjs.debugger.Debugger.<init>()V:68 - ReplaceConstant - backtrace -> 
+12	ReplaceConstant	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:110 - ReplaceConstant - 0 -> 1
+13	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:113 - ReplaceComparisonOperator == -> -2
+14	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:113 - ReplaceComparisonOperator == -> >=
+15	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:113 - ReplaceComparisonOperator == -> <=
+16	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - InsertUnaryOp Negation of frameIndex
+17	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - InsertUnaryOp IINC 1 frameIndex
+18	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - InsertUnaryOp IINC -1 frameIndex
+19	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - InsertUnaryOp Negation of fromFrame
+20	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - InsertUnaryOp IINC 1 fromFrame
+21	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - InsertUnaryOp IINC -1 fromFrame
+22	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - ReplaceComparisonOperator < -> !=
+23	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - ReplaceComparisonOperator < -> -2
+24	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - ReplaceComparisonOperator < -> <=
+25	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - InsertUnaryOp Negation of frameIndex
+26	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - InsertUnaryOp IINC 1 frameIndex
+27	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - InsertUnaryOp IINC -1 frameIndex
+28	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - InsertUnaryOp Negation of toFrame
+29	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - InsertUnaryOp IINC 1 toFrame
+30	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - InsertUnaryOp IINC -1 toFrame
+31	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - ReplaceComparisonOperator > -> !=
+32	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - ReplaceComparisonOperator > -> -2
+33	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:114 - ReplaceComparisonOperator > -> >=
+34	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:115 - InsertUnaryOp Negation of frameIndex
+35	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:115 - InsertUnaryOp IINC 1 frameIndex
+36	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:115 - InsertUnaryOp IINC -1 frameIndex
+37	ReplaceVariable	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:117 - ReplaceVariable frameIndex -> fromFrame
+38	ReplaceVariable	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:117 - ReplaceVariable frameIndex -> toFrame
+39	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:118 - InsertUnaryOp Negation of frameIndex
+40	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:118 - InsertUnaryOp IINC 1 frameIndex
+41	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:118 - InsertUnaryOp IINC -1 frameIndex
+42	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:118 - InsertUnaryOp Negation of toFrame
+43	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:118 - InsertUnaryOp IINC 1 toFrame
+44	InsertUnaryOp	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:118 - InsertUnaryOp IINC -1 toFrame
+45	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:118 - ReplaceComparisonOperator <= -> -1
+46	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:118 - ReplaceComparisonOperator <= -> <
+47	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.getFrames(II)Ljava/util/List;:118 - ReplaceComparisonOperator <= -> ==
+48	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.getCurrentContext()Lorg/dynjs/runtime/ExecutionContext;:127 - ReplaceComparisonOperator == -> -2
+49	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.getCurrentContext()Lorg/dynjs/runtime/ExecutionContext;:127 - ReplaceComparisonOperator == -> >=
+50	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.getCurrentContext()Lorg/dynjs/runtime/ExecutionContext;:127 - ReplaceComparisonOperator == -> <=
+51	ReplaceConstant	org.dynjs.debugger.Debugger.getCurrentContext()Lorg/dynjs/runtime/ExecutionContext;:130 - ReplaceConstant - 0 -> 1
+52	InsertUnaryOp	org.dynjs.debugger.Debugger.getContext(I)Lorg/dynjs/runtime/ExecutionContext;:134 - InsertUnaryOp Negation of frame
+53	InsertUnaryOp	org.dynjs.debugger.Debugger.getContext(I)Lorg/dynjs/runtime/ExecutionContext;:134 - InsertUnaryOp IINC 1 frame
+54	InsertUnaryOp	org.dynjs.debugger.Debugger.getContext(I)Lorg/dynjs/runtime/ExecutionContext;:134 - InsertUnaryOp IINC -1 frame
+55	ReplaceConstant	org.dynjs.debugger.Debugger.enterContext(Lorg/dynjs/runtime/ExecutionContext;)V:138 - ReplaceConstant - 0 -> 1
+56	ReplaceConstant	org.dynjs.debugger.Debugger.exitContext(Lorg/dynjs/runtime/ExecutionContext;)V:143 - ReplaceConstant - 0 -> 1
+57	InsertUnaryOp	org.dynjs.debugger.Debugger.isRunning()Z:151 - InsertUnaryOp Negation
+58	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.isRunning()Z:151 - ReplaceComparisonOperator != -> -1
+59	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.isRunning()Z:151 - ReplaceComparisonOperator != -> <
+60	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.isRunning()Z:151 - ReplaceComparisonOperator != -> >
+61	ReplaceConstant	org.dynjs.debugger.Debugger.isRunning()Z:151 - ReplaceConstant - 1 -> 0
+62	ReplaceConstant	org.dynjs.debugger.Debugger.isRunning()Z:151 - ReplaceConstant - 0 -> 1
+63	InsertUnaryOp	org.dynjs.debugger.Debugger.debug(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)V:155 - InsertUnaryOp Negation
+64	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.debug(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)V:155 - ReplaceComparisonOperator == -> -2
+65	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.debug(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)V:155 - ReplaceComparisonOperator == -> >=
+66	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.debug(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)V:155 - ReplaceComparisonOperator == -> <=
+67	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.debug(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)V:162 - ReplaceComparisonOperator = null -> != null
+68	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.debug(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)V:165 - ReplaceComparisonOperator == -> -2
+69	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.debug(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)V:165 - ReplaceComparisonOperator == -> >=
+70	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.debug(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)V:165 - ReplaceComparisonOperator == -> <=
+71	ReplaceConstant	org.dynjs.debugger.Debugger.debug(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)V:166 - ReplaceConstant - 1 -> 0
+72	ReplaceConstant	org.dynjs.debugger.Debugger.debug(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)V:170 - ReplaceConstant - 0 -> 1
+73	ReplaceConstant	org.dynjs.debugger.Debugger.debug(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)V:170 - ReplaceConstant - 0 -> 1
+74	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.removeBreakpoint(J)Z:182 - ReplaceComparisonOperator == -> -2
+75	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.removeBreakpoint(J)Z:182 - ReplaceComparisonOperator == -> >=
+76	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.removeBreakpoint(J)Z:182 - ReplaceComparisonOperator == -> <=
+77	InsertUnaryOp	org.dynjs.debugger.Debugger.removeBreakpoint(J)Z:184 - InsertUnaryOp Negation of number
+78	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.removeBreakpoint(J)Z:184 - ReplaceComparisonOperator != -> -1
+79	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.removeBreakpoint(J)Z:184 - ReplaceComparisonOperator != -> <
+80	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.removeBreakpoint(J)Z:184 - ReplaceComparisonOperator != -> >
+81	ReplaceConstant	org.dynjs.debugger.Debugger.removeBreakpoint(J)Z:186 - ReplaceConstant - 1 -> 0
+82	ReplaceConstant	org.dynjs.debugger.Debugger.removeBreakpoint(J)Z:190 - ReplaceConstant - 0 -> 1
+83	ReplaceConstant	org.dynjs.debugger.Debugger.unbreak()V:200 - ReplaceConstant - 0 -> 1
+84	InsertUnaryOp	org.dynjs.debugger.Debugger.suspend()V:223 - InsertUnaryOp Negation
+85	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.suspend()V:223 - ReplaceComparisonOperator == -> -2
+86	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.suspend()V:223 - ReplaceComparisonOperator == -> >=
+87	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.suspend()V:223 - ReplaceComparisonOperator == -> <=
+88	ReplaceConstant	org.dynjs.debugger.Debugger.suspend()V:224 - ReplaceConstant - 1 -> 0
+89	ReplaceArithmeticOperator	org.dynjs.debugger.Debugger.suspend()V:224 - ReplaceArithmeticOperator - -> +
+90	ReplaceArithmeticOperator	org.dynjs.debugger.Debugger.suspend()V:224 - ReplaceArithmeticOperator - -> %
+91	ReplaceArithmeticOperator	org.dynjs.debugger.Debugger.suspend()V:224 - ReplaceArithmeticOperator - -> *
+92	ReplaceArithmeticOperator	org.dynjs.debugger.Debugger.suspend()V:224 - ReplaceArithmeticOperator - -> /
+93	ReplaceConstant	org.dynjs.debugger.Debugger.suspend()V:224 - ReplaceConstant - 0 -> 1
+94	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.handle(Lorg/dynjs/debugger/requests/Request;)Lorg/dynjs/debugger/requests/Response;:234 - ReplaceComparisonOperator = null -> != null
+95	ReplaceConstant	org.dynjs.debugger.Debugger.doBreak(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;)V:242 - ReplaceConstant - 1 -> 0
+96	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.doBreak(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;)V:256 - ReplaceComparisonOperator = null -> != null
+97	ReplaceConstant	org.dynjs.debugger.Debugger.doBreak(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;)V:257 - ReplaceConstant - 1 -> 0
+98	ReplaceArithmeticOperator	org.dynjs.debugger.Debugger.doBreak(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;)V:257 - ReplaceArithmeticOperator - -> +
+99	ReplaceArithmeticOperator	org.dynjs.debugger.Debugger.doBreak(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;)V:257 - ReplaceArithmeticOperator - -> %
+100	ReplaceArithmeticOperator	org.dynjs.debugger.Debugger.doBreak(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;)V:257 - ReplaceArithmeticOperator - -> *
+101	ReplaceArithmeticOperator	org.dynjs.debugger.Debugger.doBreak(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;)V:257 - ReplaceArithmeticOperator - -> /
+102	ReplaceConstant	org.dynjs.debugger.Debugger.doBreak(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;)V:257 - ReplaceConstant - 0 -> 1
+103	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.doBreak(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;)V:260 - ReplaceComparisonOperator == -> -2
+104	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.doBreak(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;)V:260 - ReplaceComparisonOperator == -> >=
+105	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.doBreak(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;)V:260 - ReplaceComparisonOperator == -> <=
+106	ReplaceConstant	org.dynjs.debugger.Debugger.doBreak(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;)V:263 - ReplaceConstant - 0 -> 1
+107	ReplaceConstant	org.dynjs.debugger.Debugger.doBreak(Lorg/dynjs/runtime/ExecutionContext;Lorg/dynjs/parser/Statement;)V:265 - ReplaceConstant - 0 -> 1
+108	ReplaceConstant	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:270 - ReplaceConstant - 0 -> 1
+109	ReplaceConstant	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:273 - ReplaceConstant - 1 -> 0
+110	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:279 - ReplaceComparisonOperator != -> -1
+111	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:279 - ReplaceComparisonOperator != -> <
+112	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:279 - ReplaceComparisonOperator != -> >
+113	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:279 - ReplaceComparisonOperator == -> -2
+114	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:279 - ReplaceComparisonOperator == -> >=
+115	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:279 - ReplaceComparisonOperator == -> <=
+116	ReplaceConstant	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:279 - ReplaceConstant - 1 -> 0
+117	ReplaceConstant	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:279 - ReplaceConstant - 0 -> 1
+118	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:282 - ReplaceComparisonOperator != -> -1
+119	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:282 - ReplaceComparisonOperator != -> <
+120	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:282 - ReplaceComparisonOperator != -> >
+121	ReplaceConstant	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:282 - ReplaceConstant - 1 -> 0
+122	ReplaceConstant	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:282 - ReplaceConstant - 0 -> 1
+123	InsertUnaryOp	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:288 - InsertUnaryOp Negation of result
+124	InsertUnaryOp	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:288 - InsertUnaryOp IINC 1 result
+125	InsertUnaryOp	org.dynjs.debugger.Debugger.shouldBreak(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:288 - InsertUnaryOp IINC -1 result
+126	ReplaceConstant	org.dynjs.debugger.Debugger.setBreak()V:293 - ReplaceConstant - 1 -> 0
+127	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.checkBreakpoints(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:298 - ReplaceComparisonOperator == -> -2
+128	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.checkBreakpoints(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:298 - ReplaceComparisonOperator == -> >=
+129	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.checkBreakpoints(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:298 - ReplaceComparisonOperator == -> <=
+130	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.checkBreakpoints(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:299 - ReplaceComparisonOperator == -> -2
+131	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.checkBreakpoints(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:299 - ReplaceComparisonOperator == -> >=
+132	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.checkBreakpoints(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:299 - ReplaceComparisonOperator == -> <=
+133	ReplaceConstant	org.dynjs.debugger.Debugger.checkBreakpoints(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:300 - ReplaceConstant - 1 -> 0
+134	ReplaceConstant	org.dynjs.debugger.Debugger.checkBreakpoints(Lorg/dynjs/parser/Statement;Lorg/dynjs/parser/Statement;)Z:304 - ReplaceConstant - 0 -> 1
+135	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.isCurrentlyInBasisContext()Z:312 - ReplaceComparisonOperator != -> ==
+136	ReplaceConstant	org.dynjs.debugger.Debugger.isCurrentlyInBasisContext()Z:312 - ReplaceConstant - 1 -> 0
+137	ReplaceConstant	org.dynjs.debugger.Debugger.isCurrentlyInBasisContext()Z:312 - ReplaceConstant - 0 -> 1
+138	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.hasExitedBasisContext()Z:317 - ReplaceComparisonOperator == -> -2
+139	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.hasExitedBasisContext()Z:317 - ReplaceComparisonOperator == -> >=
+140	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.hasExitedBasisContext()Z:317 - ReplaceComparisonOperator == -> <=
+141	ReplaceComparisonOperator	org.dynjs.debugger.Debugger.hasExitedBasisContext()Z:318 - ReplaceComparisonOperator != -> ==
+142	ReplaceConstant	org.dynjs.debugger.Debugger.hasExitedBasisContext()Z:319 - ReplaceConstant - 0 -> 1
+143	ReplaceConstant	org.dynjs.debugger.Debugger.hasExitedBasisContext()Z:323 - ReplaceConstant - 1 -> 0

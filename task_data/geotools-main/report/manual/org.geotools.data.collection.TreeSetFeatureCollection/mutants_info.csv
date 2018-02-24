@@ -1,0 +1,127 @@
+0	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.<init>(Ljava/lang/String;Lorg/opengis/feature/simple/SimpleFeatureType;)V:146 - ReplaceComparisonOperator != null -> = null
+1	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.<init>(Ljava/lang/String;Lorg/opengis/feature/simple/SimpleFeatureType;)V:146 - ReplaceConstant - featureCollection -> 
+2	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.getBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:156 - ReplaceComparisonOperator != null -> = null
+3	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.getBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:159 - ReplaceComparisonOperator == -> -2
+4	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.getBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:159 - ReplaceComparisonOperator == -> >=
+5	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.getBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:159 - ReplaceComparisonOperator == -> <=
+6	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.getBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:164 - ReplaceComparisonOperator != -> -1
+7	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.getBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:164 - ReplaceComparisonOperator != -> <
+8	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.getBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:164 - ReplaceComparisonOperator != -> >
+9	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.add(Lorg/opengis/feature/simple/SimpleFeature;)Z:200 - ReplaceComparisonOperator != null -> = null
+10	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.add(Lorg/opengis/feature/simple/SimpleFeature;)Z:201 - ReplaceConstant - 0 -> 1
+11	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.add(Lorg/opengis/feature/simple/SimpleFeature;)Z:203 - ReplaceComparisonOperator != null -> = null
+12	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.add(Lorg/opengis/feature/simple/SimpleFeature;)Z:204 - ReplaceConstant - 0 -> 1
+13	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.add(Lorg/opengis/feature/simple/SimpleFeature;)Z:205 - ReplaceComparisonOperator == -> -2
+14	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.add(Lorg/opengis/feature/simple/SimpleFeature;)Z:205 - ReplaceComparisonOperator == -> >=
+15	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.add(Lorg/opengis/feature/simple/SimpleFeature;)Z:205 - ReplaceComparisonOperator == -> <=
+16	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.add(Lorg/opengis/feature/simple/SimpleFeature;)Z:206 - ReplaceConstant - 0 -> 1
+17	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.add(Lorg/opengis/feature/simple/SimpleFeature;)Z:208 - ReplaceComparisonOperator != null -> = null
+18	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.add(Lorg/opengis/feature/simple/SimpleFeature;)Z:215 - ReplaceComparisonOperator != -> -1
+19	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.add(Lorg/opengis/feature/simple/SimpleFeature;)Z:215 - ReplaceComparisonOperator != -> <
+20	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.add(Lorg/opengis/feature/simple/SimpleFeature;)Z:215 - ReplaceComparisonOperator != -> >
+21	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.add(Lorg/opengis/feature/simple/SimpleFeature;)Z:216 - ReplaceConstant - Feature Collection contains a heterogeneous mix of features -> 
+22	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.add(Lorg/opengis/feature/simple/SimpleFeature;)Z:221 - ReplaceConstant - 1 -> 0
+23	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:245 - ReplaceConstant - 0 -> 1
+24	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:250 - ReplaceComparisonOperator == -> -2
+25	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:250 - ReplaceComparisonOperator == -> >=
+26	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:250 - ReplaceComparisonOperator == -> <=
+27	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:253 - InsertUnaryOp Negation of changed
+28	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:253 - InsertUnaryOp IINC 1 changed
+29	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:253 - InsertUnaryOp IINC -1 changed
+30	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:253 - InsertUnaryOp Negation of added
+31	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:253 - InsertUnaryOp IINC 1 added
+32	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:253 - InsertUnaryOp IINC -1 added
+33	ReplaceBitwiseOperator	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:253 - ReplaceBitwiseOperator | -> ^
+34	ReplaceBitwiseOperator	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:253 - ReplaceBitwiseOperator | -> &
+35	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:255 - InsertUnaryOp Negation of added
+36	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:255 - InsertUnaryOp IINC 1 added
+37	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:255 - InsertUnaryOp IINC -1 added
+38	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:255 - ReplaceComparisonOperator == -> -2
+39	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:255 - ReplaceComparisonOperator == -> >=
+40	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:255 - ReplaceComparisonOperator == -> <=
+41	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:258 - InsertUnaryOp Negation of changed
+42	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:258 - InsertUnaryOp IINC 1 changed
+43	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Ljava/util/Collection;)Z:258 - InsertUnaryOp IINC -1 changed
+44	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:267 - ReplaceConstant - 0 -> 1
+45	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:272 - ReplaceComparisonOperator == -> -2
+46	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:272 - ReplaceComparisonOperator == -> >=
+47	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:272 - ReplaceComparisonOperator == -> <=
+48	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:275 - InsertUnaryOp Negation of changed
+49	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:275 - InsertUnaryOp IINC 1 changed
+50	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:275 - InsertUnaryOp IINC -1 changed
+51	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:275 - InsertUnaryOp Negation of added
+52	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:275 - InsertUnaryOp IINC 1 added
+53	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:275 - InsertUnaryOp IINC -1 added
+54	ReplaceBitwiseOperator	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:275 - ReplaceBitwiseOperator | -> ^
+55	ReplaceBitwiseOperator	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:275 - ReplaceBitwiseOperator | -> &
+56	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:277 - InsertUnaryOp Negation of added
+57	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:277 - InsertUnaryOp IINC 1 added
+58	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:277 - InsertUnaryOp IINC -1 added
+59	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:277 - ReplaceComparisonOperator == -> -2
+60	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:277 - ReplaceComparisonOperator == -> >=
+61	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:277 - ReplaceComparisonOperator == -> <=
+62	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:280 - InsertUnaryOp Negation of changed
+63	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:280 - InsertUnaryOp IINC 1 changed
+64	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.addAll(Lorg/geotools/feature/FeatureCollection;)Z:280 - InsertUnaryOp IINC -1 changed
+65	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.clear()V:291 - ReplaceComparisonOperator == -> -2
+66	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.clear()V:291 - ReplaceComparisonOperator == -> >=
+67	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.clear()V:291 - ReplaceComparisonOperator == -> <=
+68	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.contains(Ljava/lang/Object;)Z:316 - ReplaceComparisonOperator != -> -1
+69	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.contains(Ljava/lang/Object;)Z:316 - ReplaceComparisonOperator != -> <
+70	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.contains(Ljava/lang/Object;)Z:316 - ReplaceComparisonOperator != -> >
+71	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.contains(Ljava/lang/Object;)Z:317 - ReplaceConstant - 0 -> 1
+72	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.containsAll(Ljava/util/Collection;)Z:334 - ReplaceComparisonOperator == -> -2
+73	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.containsAll(Ljava/util/Collection;)Z:334 - ReplaceComparisonOperator == -> >=
+74	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.containsAll(Ljava/util/Collection;)Z:334 - ReplaceComparisonOperator == -> <=
+75	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.containsAll(Ljava/util/Collection;)Z:336 - ReplaceComparisonOperator != -> -1
+76	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.containsAll(Ljava/util/Collection;)Z:336 - ReplaceComparisonOperator != -> <
+77	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.containsAll(Ljava/util/Collection;)Z:336 - ReplaceComparisonOperator != -> >
+78	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.containsAll(Ljava/util/Collection;)Z:337 - ReplaceConstant - 0 -> 1
+79	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.containsAll(Ljava/util/Collection;)Z:340 - ReplaceConstant - 1 -> 0
+80	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.remove(Ljava/lang/Object;)Z:408 - ReplaceComparisonOperator != -> -1
+81	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.remove(Ljava/lang/Object;)Z:408 - ReplaceComparisonOperator != -> <
+82	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.remove(Ljava/lang/Object;)Z:408 - ReplaceComparisonOperator != -> >
+83	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.remove(Ljava/lang/Object;)Z:409 - ReplaceConstant - 0 -> 1
+84	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.remove(Ljava/lang/Object;)Z:417 - InsertUnaryOp Negation of changed
+85	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.remove(Ljava/lang/Object;)Z:417 - InsertUnaryOp IINC 1 changed
+86	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.remove(Ljava/lang/Object;)Z:417 - InsertUnaryOp IINC -1 changed
+87	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.removeAll(Ljava/util/Collection;)Z:435 - ReplaceConstant - 0 -> 1
+88	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.removeAll(Ljava/util/Collection;)Z:439 - ReplaceComparisonOperator == -> -2
+89	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.removeAll(Ljava/util/Collection;)Z:439 - ReplaceComparisonOperator == -> >=
+90	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.removeAll(Ljava/util/Collection;)Z:439 - ReplaceComparisonOperator == -> <=
+91	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.removeAll(Ljava/util/Collection;)Z:443 - InsertUnaryOp Negation of removed
+92	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.removeAll(Ljava/util/Collection;)Z:443 - InsertUnaryOp IINC 1 removed
+93	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.removeAll(Ljava/util/Collection;)Z:443 - InsertUnaryOp IINC -1 removed
+94	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.removeAll(Ljava/util/Collection;)Z:443 - ReplaceComparisonOperator == -> -2
+95	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.removeAll(Ljava/util/Collection;)Z:443 - ReplaceComparisonOperator == -> >=
+96	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.removeAll(Ljava/util/Collection;)Z:443 - ReplaceComparisonOperator == -> <=
+97	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.removeAll(Ljava/util/Collection;)Z:444 - ReplaceConstant - 1 -> 0
+98	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.removeAll(Ljava/util/Collection;)Z:448 - InsertUnaryOp Negation of changed
+99	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.removeAll(Ljava/util/Collection;)Z:448 - InsertUnaryOp IINC 1 changed
+100	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.removeAll(Ljava/util/Collection;)Z:448 - InsertUnaryOp IINC -1 changed
+101	ReplaceArithmeticOperator	org.geotools.data.collection.TreeSetFeatureCollection.retainAll(Ljava/util/Collection;)Z:469 - ReplaceArithmeticOperator - -> +
+102	ReplaceArithmeticOperator	org.geotools.data.collection.TreeSetFeatureCollection.retainAll(Ljava/util/Collection;)Z:469 - ReplaceArithmeticOperator - -> %
+103	ReplaceArithmeticOperator	org.geotools.data.collection.TreeSetFeatureCollection.retainAll(Ljava/util/Collection;)Z:469 - ReplaceArithmeticOperator - -> *
+104	ReplaceArithmeticOperator	org.geotools.data.collection.TreeSetFeatureCollection.retainAll(Ljava/util/Collection;)Z:469 - ReplaceArithmeticOperator - -> /
+105	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.retainAll(Ljava/util/Collection;)Z:470 - ReplaceConstant - 0 -> 1
+106	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.retainAll(Ljava/util/Collection;)Z:472 - ReplaceComparisonOperator == -> -2
+107	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.retainAll(Ljava/util/Collection;)Z:472 - ReplaceComparisonOperator == -> >=
+108	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.retainAll(Ljava/util/Collection;)Z:472 - ReplaceComparisonOperator == -> <=
+109	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.retainAll(Ljava/util/Collection;)Z:474 - ReplaceComparisonOperator != -> -1
+110	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.retainAll(Ljava/util/Collection;)Z:474 - ReplaceComparisonOperator != -> <
+111	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.retainAll(Ljava/util/Collection;)Z:474 - ReplaceComparisonOperator != -> >
+112	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.retainAll(Ljava/util/Collection;)Z:476 - ReplaceConstant - 1 -> 0
+113	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.retainAll(Ljava/util/Collection;)Z:480 - InsertUnaryOp Negation of modified
+114	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.retainAll(Ljava/util/Collection;)Z:480 - InsertUnaryOp IINC 1 modified
+115	InsertUnaryOp	org.geotools.data.collection.TreeSetFeatureCollection.retainAll(Ljava/util/Collection;)Z:480 - InsertUnaryOp IINC -1 modified
+116	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.toArray([Ljava/lang/Object;)[Ljava/lang/Object;:562 - ReplaceComparisonOperator = null -> != null
+117	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.close(Lorg/geotools/feature/FeatureIterator;)V:566 - ReplaceComparisonOperator == -> -2
+118	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.close(Lorg/geotools/feature/FeatureIterator;)V:566 - ReplaceComparisonOperator == -> >=
+119	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.close(Lorg/geotools/feature/FeatureIterator;)V:566 - ReplaceComparisonOperator == -> <=
+120	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.collection()Lorg/geotools/data/simple/SimpleFeatureCollection;:607 - ReplaceComparisonOperator == -> -2
+121	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.collection()Lorg/geotools/data/simple/SimpleFeatureCollection;:607 - ReplaceComparisonOperator == -> >=
+122	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.collection()Lorg/geotools/data/simple/SimpleFeatureCollection;:607 - ReplaceComparisonOperator == -> <=
+123	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.collection()Lorg/geotools/data/simple/SimpleFeatureCollection;:613 - ReplaceConstant - Unable to copy  -> 
+124	ReplaceComparisonOperator	org.geotools.data.collection.TreeSetFeatureCollection.subCollection(Lorg/opengis/filter/Filter;)Lorg/geotools/data/simple/SimpleFeatureCollection;:653 - ReplaceComparisonOperator != -> ==
+125	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.sort(Lorg/opengis/filter/sort/SortBy;)Lorg/geotools/data/simple/SimpleFeatureCollection;:662 - ReplaceConstant - 1 -> 0
+126	ReplaceConstant	org.geotools.data.collection.TreeSetFeatureCollection.sort(Lorg/opengis/filter/sort/SortBy;)Lorg/geotools/data/simple/SimpleFeatureCollection;:662 - ReplaceConstant - 0 -> 1

@@ -1,0 +1,77 @@
+0	ReplaceConstant	org.jfree.data.xy.XYDataItem.<init>(Ljava/lang/Number;Ljava/lang/Number;)V:77 - ReplaceConstant - x -> 
+1	InsertUnaryOp	org.jfree.data.xy.XYDataItem.<init>(DD)V:89 - InsertUnaryOp Negation of x
+2	InsertUnaryOp	org.jfree.data.xy.XYDataItem.<init>(DD)V:89 - InsertUnaryOp Negation of y
+3	ReplaceConstant	org.jfree.data.xy.XYDataItem.getYValue()D:136 - ReplaceConstant - NaN -> 0.0
+4	ReplaceConstant	org.jfree.data.xy.XYDataItem.getYValue()D:136 - ReplaceConstant - NaN -> 1.0
+5	ReplaceConstant	org.jfree.data.xy.XYDataItem.getYValue()D:136 - ReplaceConstant - NaN -> -1.0
+6	ReplaceConstant	org.jfree.data.xy.XYDataItem.getYValue()D:136 - ReplaceConstant - NaN -> NaN
+7	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.getYValue()D:137 - ReplaceComparisonOperator = null -> != null
+8	InsertUnaryOp	org.jfree.data.xy.XYDataItem.getYValue()D:140 - InsertUnaryOp Negation of result
+9	InsertUnaryOp	org.jfree.data.xy.XYDataItem.setY(D)V:150 - InsertUnaryOp Negation of y
+10	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:182 - ReplaceComparisonOperator == -> -2
+11	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:182 - ReplaceComparisonOperator == -> >=
+12	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:182 - ReplaceComparisonOperator == -> <=
+13	ReplaceArithmeticOperator	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:185 - ReplaceArithmeticOperator - -> +
+14	ReplaceArithmeticOperator	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:185 - ReplaceArithmeticOperator - -> %
+15	ReplaceArithmeticOperator	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:185 - ReplaceArithmeticOperator - -> *
+16	ReplaceArithmeticOperator	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:185 - ReplaceArithmeticOperator - -> /
+17	InsertUnaryOp	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:186 - InsertUnaryOp Negation of compare
+18	ReplaceConstant	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:186 - ReplaceConstant - 0.0 -> 1.0
+19	ReplaceConstant	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:186 - ReplaceConstant - 0.0 -> -1.0
+20	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:186 - ReplaceComparisonOperator <= -> -1
+21	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:186 - ReplaceComparisonOperator <= -> ==
+22	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:186 - ReplaceComparisonOperator <= -> <
+23	ReplaceConstant	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:187 - ReplaceConstant - 1 -> 0
+24	InsertUnaryOp	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:190 - InsertUnaryOp Negation of compare
+25	ReplaceConstant	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:190 - ReplaceConstant - 0.0 -> 1.0
+26	ReplaceConstant	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:190 - ReplaceConstant - 0.0 -> -1.0
+27	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:190 - ReplaceComparisonOperator >= -> -1
+28	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:190 - ReplaceComparisonOperator >= -> ==
+29	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:190 - ReplaceComparisonOperator >= -> >
+30	ReplaceConstant	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:191 - ReplaceConstant - -1 -> 0
+31	ReplaceConstant	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:191 - ReplaceConstant - -1 -> 1
+32	ReplaceConstant	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:191 - ReplaceConstant - -1 -> -2
+33	ReplaceConstant	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:194 - ReplaceConstant - 0 -> 1
+34	ReplaceConstant	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:203 - ReplaceConstant - 1 -> 0
+35	InsertUnaryOp	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:206 - InsertUnaryOp Negation of result
+36	InsertUnaryOp	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:206 - InsertUnaryOp IINC 1 result
+37	InsertUnaryOp	org.jfree.data.xy.XYDataItem.compareTo(Ljava/lang/Object;)I:206 - InsertUnaryOp IINC -1 result
+38	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.equals(Ljava/lang/Object;)Z:237 - ReplaceComparisonOperator != -> ==
+39	ReplaceConstant	org.jfree.data.xy.XYDataItem.equals(Ljava/lang/Object;)Z:238 - ReplaceConstant - 1 -> 0
+40	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.equals(Ljava/lang/Object;)Z:240 - ReplaceComparisonOperator != -> -1
+41	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.equals(Ljava/lang/Object;)Z:240 - ReplaceComparisonOperator != -> <
+42	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.equals(Ljava/lang/Object;)Z:240 - ReplaceComparisonOperator != -> >
+43	ReplaceConstant	org.jfree.data.xy.XYDataItem.equals(Ljava/lang/Object;)Z:241 - ReplaceConstant - 0 -> 1
+44	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.equals(Ljava/lang/Object;)Z:244 - ReplaceComparisonOperator != -> -1
+45	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.equals(Ljava/lang/Object;)Z:244 - ReplaceComparisonOperator != -> <
+46	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.equals(Ljava/lang/Object;)Z:244 - ReplaceComparisonOperator != -> >
+47	ReplaceConstant	org.jfree.data.xy.XYDataItem.equals(Ljava/lang/Object;)Z:245 - ReplaceConstant - 0 -> 1
+48	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.equals(Ljava/lang/Object;)Z:247 - ReplaceComparisonOperator != -> -1
+49	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.equals(Ljava/lang/Object;)Z:247 - ReplaceComparisonOperator != -> <
+50	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.equals(Ljava/lang/Object;)Z:247 - ReplaceComparisonOperator != -> >
+51	ReplaceConstant	org.jfree.data.xy.XYDataItem.equals(Ljava/lang/Object;)Z:248 - ReplaceConstant - 0 -> 1
+52	ReplaceConstant	org.jfree.data.xy.XYDataItem.equals(Ljava/lang/Object;)Z:250 - ReplaceConstant - 1 -> 0
+53	ReplaceConstant	org.jfree.data.xy.XYDataItem.hashCode()I:262 - ReplaceConstant - 29 -> 0
+54	ReplaceConstant	org.jfree.data.xy.XYDataItem.hashCode()I:262 - ReplaceConstant - 29 -> 1
+55	ReplaceConstant	org.jfree.data.xy.XYDataItem.hashCode()I:262 - ReplaceConstant - 29 -> -1
+56	ReplaceConstant	org.jfree.data.xy.XYDataItem.hashCode()I:262 - ReplaceConstant - 29 -> 28
+57	ReplaceConstant	org.jfree.data.xy.XYDataItem.hashCode()I:262 - ReplaceConstant - 29 -> 30
+58	InsertUnaryOp	org.jfree.data.xy.XYDataItem.hashCode()I:262 - InsertUnaryOp Negation of result
+59	InsertUnaryOp	org.jfree.data.xy.XYDataItem.hashCode()I:262 - InsertUnaryOp IINC 1 result
+60	InsertUnaryOp	org.jfree.data.xy.XYDataItem.hashCode()I:262 - InsertUnaryOp IINC -1 result
+61	ReplaceArithmeticOperator	org.jfree.data.xy.XYDataItem.hashCode()I:262 - ReplaceArithmeticOperator * -> +
+62	ReplaceArithmeticOperator	org.jfree.data.xy.XYDataItem.hashCode()I:262 - ReplaceArithmeticOperator * -> %
+63	ReplaceArithmeticOperator	org.jfree.data.xy.XYDataItem.hashCode()I:262 - ReplaceArithmeticOperator * -> -
+64	ReplaceArithmeticOperator	org.jfree.data.xy.XYDataItem.hashCode()I:262 - ReplaceArithmeticOperator * -> /
+65	ReplaceComparisonOperator	org.jfree.data.xy.XYDataItem.hashCode()I:262 - ReplaceComparisonOperator = null -> != null
+66	ReplaceConstant	org.jfree.data.xy.XYDataItem.hashCode()I:262 - ReplaceConstant - 0 -> 1
+67	ReplaceArithmeticOperator	org.jfree.data.xy.XYDataItem.hashCode()I:262 - ReplaceArithmeticOperator + -> %
+68	ReplaceArithmeticOperator	org.jfree.data.xy.XYDataItem.hashCode()I:262 - ReplaceArithmeticOperator + -> -
+69	ReplaceArithmeticOperator	org.jfree.data.xy.XYDataItem.hashCode()I:262 - ReplaceArithmeticOperator + -> *
+70	ReplaceArithmeticOperator	org.jfree.data.xy.XYDataItem.hashCode()I:262 - ReplaceArithmeticOperator + -> /
+71	InsertUnaryOp	org.jfree.data.xy.XYDataItem.hashCode()I:263 - InsertUnaryOp Negation of result
+72	InsertUnaryOp	org.jfree.data.xy.XYDataItem.hashCode()I:263 - InsertUnaryOp IINC 1 result
+73	InsertUnaryOp	org.jfree.data.xy.XYDataItem.hashCode()I:263 - InsertUnaryOp IINC -1 result
+74	ReplaceConstant	org.jfree.data.xy.XYDataItem.toString()Ljava/lang/String;:274 - ReplaceConstant - [ -> 
+75	ReplaceConstant	org.jfree.data.xy.XYDataItem.toString()Ljava/lang/String;:274 - ReplaceConstant - ,  -> 
+76	ReplaceConstant	org.jfree.data.xy.XYDataItem.toString()Ljava/lang/String;:274 - ReplaceConstant - ] -> 

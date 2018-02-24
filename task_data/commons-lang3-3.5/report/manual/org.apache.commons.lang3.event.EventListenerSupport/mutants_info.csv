@@ -1,0 +1,27 @@
+0	ReplaceConstant	org.apache.commons.lang3.event.EventListenerSupport.<init>(Ljava/lang/Class;Ljava/lang/ClassLoader;)V:143 - ReplaceConstant - Listener interface cannot be null. -> 
+1	ReplaceConstant	org.apache.commons.lang3.event.EventListenerSupport.<init>(Ljava/lang/Class;Ljava/lang/ClassLoader;)V:143 - ReplaceConstant - 0 -> 1
+2	ReplaceConstant	org.apache.commons.lang3.event.EventListenerSupport.<init>(Ljava/lang/Class;Ljava/lang/ClassLoader;)V:144 - ReplaceConstant - ClassLoader cannot be null. -> 
+3	ReplaceConstant	org.apache.commons.lang3.event.EventListenerSupport.<init>(Ljava/lang/Class;Ljava/lang/ClassLoader;)V:144 - ReplaceConstant - 0 -> 1
+4	ReplaceConstant	org.apache.commons.lang3.event.EventListenerSupport.<init>(Ljava/lang/Class;Ljava/lang/ClassLoader;)V:145 - ReplaceConstant - Class {0} is not an interface -> 
+5	ReplaceConstant	org.apache.commons.lang3.event.EventListenerSupport.<init>(Ljava/lang/Class;Ljava/lang/ClassLoader;)V:145 - ReplaceConstant - 1 -> 0
+6	ReplaceConstant	org.apache.commons.lang3.event.EventListenerSupport.<init>(Ljava/lang/Class;Ljava/lang/ClassLoader;)V:145 - ReplaceConstant - 0 -> 1
+7	ReplaceConstant	org.apache.commons.lang3.event.EventListenerSupport.addListener(Ljava/lang/Object;)V:182 - ReplaceConstant - 1 -> 0
+8	ReplaceConstant	org.apache.commons.lang3.event.EventListenerSupport.addListener(Ljava/lang/Object;Z)V:197 - ReplaceConstant - Listener object cannot be null. -> 
+9	ReplaceConstant	org.apache.commons.lang3.event.EventListenerSupport.addListener(Ljava/lang/Object;Z)V:197 - ReplaceConstant - 0 -> 1
+10	InsertUnaryOp	org.apache.commons.lang3.event.EventListenerSupport.addListener(Ljava/lang/Object;Z)V:198 - InsertUnaryOp Negation of allowDuplicate
+11	InsertUnaryOp	org.apache.commons.lang3.event.EventListenerSupport.addListener(Ljava/lang/Object;Z)V:198 - InsertUnaryOp IINC 1 allowDuplicate
+12	InsertUnaryOp	org.apache.commons.lang3.event.EventListenerSupport.addListener(Ljava/lang/Object;Z)V:198 - InsertUnaryOp IINC -1 allowDuplicate
+13	ReplaceComparisonOperator	org.apache.commons.lang3.event.EventListenerSupport.addListener(Ljava/lang/Object;Z)V:198 - ReplaceComparisonOperator == -> -2
+14	ReplaceComparisonOperator	org.apache.commons.lang3.event.EventListenerSupport.addListener(Ljava/lang/Object;Z)V:198 - ReplaceComparisonOperator == -> >=
+15	ReplaceComparisonOperator	org.apache.commons.lang3.event.EventListenerSupport.addListener(Ljava/lang/Object;Z)V:198 - ReplaceComparisonOperator == -> <=
+16	ReplaceComparisonOperator	org.apache.commons.lang3.event.EventListenerSupport.addListener(Ljava/lang/Object;Z)V:200 - ReplaceComparisonOperator != -> -1
+17	ReplaceComparisonOperator	org.apache.commons.lang3.event.EventListenerSupport.addListener(Ljava/lang/Object;Z)V:200 - ReplaceComparisonOperator != -> <
+18	ReplaceComparisonOperator	org.apache.commons.lang3.event.EventListenerSupport.addListener(Ljava/lang/Object;Z)V:200 - ReplaceComparisonOperator != -> >
+19	ReplaceConstant	org.apache.commons.lang3.event.EventListenerSupport.removeListener(Ljava/lang/Object;)V:223 - ReplaceConstant - Listener object cannot be null. -> 
+20	ReplaceConstant	org.apache.commons.lang3.event.EventListenerSupport.removeListener(Ljava/lang/Object;)V:223 - ReplaceConstant - 0 -> 1
+21	ReplaceComparisonOperator	org.apache.commons.lang3.event.EventListenerSupport.writeObject(Ljava/io/ObjectOutputStream;)V:247 - ReplaceComparisonOperator == -> -2
+22	ReplaceComparisonOperator	org.apache.commons.lang3.event.EventListenerSupport.writeObject(Ljava/io/ObjectOutputStream;)V:247 - ReplaceComparisonOperator == -> >=
+23	ReplaceComparisonOperator	org.apache.commons.lang3.event.EventListenerSupport.writeObject(Ljava/io/ObjectOutputStream;)V:247 - ReplaceComparisonOperator == -> <=
+24	ReplaceConstant	org.apache.commons.lang3.event.EventListenerSupport.initializeTransientFields(Ljava/lang/Class;Ljava/lang/ClassLoader;)V:291 - ReplaceConstant - 0 -> 1
+25	ReplaceConstant	org.apache.commons.lang3.event.EventListenerSupport.createProxy(Ljava/lang/Class;Ljava/lang/ClassLoader;)V:302 - ReplaceConstant - 1 -> 0
+26	ReplaceConstant	org.apache.commons.lang3.event.EventListenerSupport.createProxy(Ljava/lang/Class;Ljava/lang/ClassLoader;)V:302 - ReplaceConstant - 0 -> 1

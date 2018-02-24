@@ -1,0 +1,40 @@
+0	ReplaceConstant	org.dynjs.parser.js.ParserContext.<init>(Lorg/dynjs/parser/js/ParserContext;Lorg/dynjs/parser/js/ParserContext$ContextType;)V:19 - ReplaceConstant - 1 -> 0
+1	ReplaceConstant	org.dynjs.parser.js.ParserContext.<init>(Lorg/dynjs/parser/js/ParserContext;Lorg/dynjs/parser/js/ParserContext$ContextType;)V:29 - ReplaceConstant - 0 -> 1
+2	InsertUnaryOp	org.dynjs.parser.js.ParserContext.isStrict()Z:45 - InsertUnaryOp Negation
+3	InsertUnaryOp	org.dynjs.parser.js.ParserContext.setStrict(Z)V:49 - InsertUnaryOp Negation of strict
+4	InsertUnaryOp	org.dynjs.parser.js.ParserContext.setStrict(Z)V:49 - InsertUnaryOp IINC 1 strict
+5	InsertUnaryOp	org.dynjs.parser.js.ParserContext.setStrict(Z)V:49 - InsertUnaryOp IINC -1 strict
+6	InsertUnaryOp	org.dynjs.parser.js.ParserContext.isInProlog()Z:53 - InsertUnaryOp Negation
+7	InsertUnaryOp	org.dynjs.parser.js.ParserContext.setInProlog(Z)V:57 - InsertUnaryOp Negation of inProlog
+8	InsertUnaryOp	org.dynjs.parser.js.ParserContext.setInProlog(Z)V:57 - InsertUnaryOp IINC 1 inProlog
+9	InsertUnaryOp	org.dynjs.parser.js.ParserContext.setInProlog(Z)V:57 - InsertUnaryOp IINC -1 inProlog
+10	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidReturn()Z:61 - ReplaceComparisonOperator != -> ==
+11	ReplaceConstant	org.dynjs.parser.js.ParserContext.isValidReturn()Z:62 - ReplaceConstant - 0 -> 1
+12	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidReturn()Z:65 - ReplaceComparisonOperator != -> ==
+13	ReplaceConstant	org.dynjs.parser.js.ParserContext.isValidReturn()Z:66 - ReplaceConstant - 1 -> 0
+14	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidReturn()Z:69 - ReplaceComparisonOperator = null -> != null
+15	ReplaceConstant	org.dynjs.parser.js.ParserContext.isValidReturn()Z:73 - ReplaceConstant - 0 -> 1
+16	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidBreak(Ljava/lang/String;)Z:77 - ReplaceComparisonOperator != null -> = null
+17	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidBreak(Ljava/lang/String;)Z:78 - ReplaceComparisonOperator == -> !=
+18	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidBreak(Ljava/lang/String;)Z:78 - ReplaceComparisonOperator != -> ==
+19	ReplaceConstant	org.dynjs.parser.js.ParserContext.isValidBreak(Ljava/lang/String;)Z:79 - ReplaceConstant - 1 -> 0
+20	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidBreak(Ljava/lang/String;)Z:81 - ReplaceComparisonOperator == -> !=
+21	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidBreak(Ljava/lang/String;)Z:81 - ReplaceComparisonOperator = null -> != null
+22	ReplaceConstant	org.dynjs.parser.js.ParserContext.isValidBreak(Ljava/lang/String;)Z:84 - ReplaceConstant - 0 -> 1
+23	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidContinue(Ljava/lang/String;)Z:92 - ReplaceComparisonOperator != -> ==
+24	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidContinue(Ljava/lang/String;)Z:92 - ReplaceComparisonOperator = null -> != null
+25	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidContinue(Ljava/lang/String;)Z:96 - ReplaceComparisonOperator == -> !=
+26	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidContinue(Ljava/lang/String;)Z:97 - ReplaceComparisonOperator == -> !=
+27	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidContinue(Ljava/lang/String;)Z:97 - ReplaceComparisonOperator = null -> != null
+28	ReplaceConstant	org.dynjs.parser.js.ParserContext.isValidContinue(Ljava/lang/String;)Z:100 - ReplaceConstant - 0 -> 1
+29	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidLabel(Ljava/lang/String;)Z:107 - ReplaceComparisonOperator != null -> = null
+30	ReplaceConstant	org.dynjs.parser.js.ParserContext.isValidLabel(Ljava/lang/String;)Z:108 - ReplaceConstant - 1 -> 0
+31	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidLabel(Ljava/lang/String;)Z:110 - ReplaceComparisonOperator == -> -2
+32	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidLabel(Ljava/lang/String;)Z:110 - ReplaceComparisonOperator == -> >=
+33	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidLabel(Ljava/lang/String;)Z:110 - ReplaceComparisonOperator == -> <=
+34	ReplaceConstant	org.dynjs.parser.js.ParserContext.isValidLabel(Ljava/lang/String;)Z:111 - ReplaceConstant - 1 -> 0
+35	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidLabel(Ljava/lang/String;)Z:114 - ReplaceComparisonOperator == -> !=
+36	ReplaceComparisonOperator	org.dynjs.parser.js.ParserContext.isValidLabel(Ljava/lang/String;)Z:114 - ReplaceComparisonOperator = null -> != null
+37	ReplaceConstant	org.dynjs.parser.js.ParserContext.isValidLabel(Ljava/lang/String;)Z:117 - ReplaceConstant - 0 -> 1
+38	ReplaceConstant	org.dynjs.parser.js.ParserContext.toString()Ljava/lang/String;:121 - ReplaceConstant - [Context: type= -> 
+39	ReplaceConstant	org.dynjs.parser.js.ParserContext.toString()Ljava/lang/String;:121 - ReplaceConstant - ] -> 

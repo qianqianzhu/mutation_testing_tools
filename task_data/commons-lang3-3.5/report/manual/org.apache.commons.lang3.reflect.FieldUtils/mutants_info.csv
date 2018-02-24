@@ -1,0 +1,318 @@
+0	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;:62 - ReplaceConstant - 0 -> 1
+1	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:85 - ReplaceComparisonOperator = null -> != null
+2	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:85 - ReplaceConstant - 1 -> 0
+3	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:85 - ReplaceConstant - 0 -> 1
+4	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:85 - ReplaceConstant - The class must not be null -> 
+5	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:85 - ReplaceConstant - 0 -> 1
+6	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:86 - ReplaceConstant - The field name must not be blank/empty -> 
+7	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:86 - ReplaceConstant - 0 -> 1
+8	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:102 - ReplaceComparisonOperator = null -> != null
+9	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:107 - ReplaceComparisonOperator != -> -1
+10	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:107 - ReplaceComparisonOperator != -> <
+11	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:107 - ReplaceComparisonOperator != -> >
+12	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:108 - InsertUnaryOp Negation of forceAccess
+13	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:108 - InsertUnaryOp IINC 1 forceAccess
+14	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:108 - InsertUnaryOp IINC -1 forceAccess
+15	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:108 - ReplaceComparisonOperator == -> -2
+16	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:108 - ReplaceComparisonOperator == -> >=
+17	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:108 - ReplaceComparisonOperator == -> <=
+18	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:109 - ReplaceConstant - 1 -> 0
+19	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:123 - ReplaceComparisonOperator == -> -2
+20	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:123 - ReplaceComparisonOperator == -> >=
+21	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:123 - ReplaceComparisonOperator == -> <=
+22	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:126 - ReplaceComparisonOperator != null -> = null
+23	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:126 - ReplaceConstant - 1 -> 0
+24	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:126 - ReplaceConstant - 0 -> 1
+25	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:126 - ReplaceConstant - Reference to field %s is ambiguous relative to %s; a matching field exists on two or more implemented interfaces. -> 
+26	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:126 - ReplaceConstant - 2 -> 0
+27	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:126 - ReplaceConstant - 2 -> 1
+28	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:126 - ReplaceConstant - 2 -> -1
+29	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:126 - ReplaceConstant - 2 -> 3
+30	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:126 - ReplaceConstant - 0 -> 1
+31	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:126 - ReplaceConstant - 1 -> 0
+32	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;:148 - ReplaceConstant - 0 -> 1
+33	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:168 - ReplaceComparisonOperator = null -> != null
+34	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:168 - ReplaceConstant - 1 -> 0
+35	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:168 - ReplaceConstant - 0 -> 1
+36	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:168 - ReplaceConstant - The class must not be null -> 
+37	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:168 - ReplaceConstant - 0 -> 1
+38	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:169 - ReplaceConstant - The field name must not be blank/empty -> 
+39	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:169 - ReplaceConstant - 0 -> 1
+40	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:173 - ReplaceComparisonOperator != -> -1
+41	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:173 - ReplaceComparisonOperator != -> <
+42	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:173 - ReplaceComparisonOperator != -> >
+43	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:174 - InsertUnaryOp Negation of forceAccess
+44	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:174 - InsertUnaryOp IINC 1 forceAccess
+45	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:174 - InsertUnaryOp IINC -1 forceAccess
+46	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:174 - ReplaceComparisonOperator == -> -2
+47	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:174 - ReplaceComparisonOperator == -> >=
+48	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:174 - ReplaceComparisonOperator == -> <=
+49	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getDeclaredField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/reflect/Field;:175 - ReplaceConstant - 1 -> 0
+50	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getAllFieldsList(Ljava/lang/Class;)Ljava/util/List;:213 - ReplaceComparisonOperator = null -> != null
+51	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getAllFieldsList(Ljava/lang/Class;)Ljava/util/List;:213 - ReplaceConstant - 1 -> 0
+52	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getAllFieldsList(Ljava/lang/Class;)Ljava/util/List;:213 - ReplaceConstant - 0 -> 1
+53	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getAllFieldsList(Ljava/lang/Class;)Ljava/util/List;:213 - ReplaceConstant - The class must not be null -> 
+54	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getAllFieldsList(Ljava/lang/Class;)Ljava/util/List;:213 - ReplaceConstant - 0 -> 1
+55	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getAllFieldsList(Ljava/lang/Class;)Ljava/util/List;:216 - ReplaceComparisonOperator = null -> != null
+56	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getAllFieldsList(Ljava/lang/Class;)Ljava/util/List;:218 - ReplaceConstant - 0 -> 1
+57	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getAllFieldsList(Ljava/lang/Class;)Ljava/util/List;:218 - ReplaceComparisonOperator >= -> -1
+58	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getAllFieldsList(Ljava/lang/Class;)Ljava/util/List;:218 - ReplaceComparisonOperator >= -> >
+59	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getAllFieldsList(Ljava/lang/Class;)Ljava/util/List;:218 - ReplaceComparisonOperator >= -> ==
+60	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getFieldsListWithAnnotation(Ljava/lang/Class;Ljava/lang/Class;)Ljava/util/List;:254 - ReplaceComparisonOperator = null -> != null
+61	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getFieldsListWithAnnotation(Ljava/lang/Class;Ljava/lang/Class;)Ljava/util/List;:254 - ReplaceConstant - 1 -> 0
+62	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getFieldsListWithAnnotation(Ljava/lang/Class;Ljava/lang/Class;)Ljava/util/List;:254 - ReplaceConstant - 0 -> 1
+63	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getFieldsListWithAnnotation(Ljava/lang/Class;Ljava/lang/Class;)Ljava/util/List;:254 - ReplaceConstant - The annotation class must not be null -> 
+64	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.getFieldsListWithAnnotation(Ljava/lang/Class;Ljava/lang/Class;)Ljava/util/List;:254 - ReplaceConstant - 0 -> 1
+65	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getFieldsListWithAnnotation(Ljava/lang/Class;Ljava/lang/Class;)Ljava/util/List;:257 - ReplaceComparisonOperator == -> -2
+66	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getFieldsListWithAnnotation(Ljava/lang/Class;Ljava/lang/Class;)Ljava/util/List;:257 - ReplaceComparisonOperator == -> >=
+67	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getFieldsListWithAnnotation(Ljava/lang/Class;Ljava/lang/Class;)Ljava/util/List;:257 - ReplaceComparisonOperator == -> <=
+68	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.getFieldsListWithAnnotation(Ljava/lang/Class;Ljava/lang/Class;)Ljava/util/List;:258 - ReplaceComparisonOperator = null -> != null
+69	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/reflect/Field;)Ljava/lang/Object;:277 - ReplaceConstant - 0 -> 1
+70	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/reflect/Field;Z)Ljava/lang/Object;:295 - ReplaceComparisonOperator = null -> != null
+71	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/reflect/Field;Z)Ljava/lang/Object;:295 - ReplaceConstant - 1 -> 0
+72	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/reflect/Field;Z)Ljava/lang/Object;:295 - ReplaceConstant - 0 -> 1
+73	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/reflect/Field;Z)Ljava/lang/Object;:295 - ReplaceConstant - The field must not be null -> 
+74	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/reflect/Field;Z)Ljava/lang/Object;:295 - ReplaceConstant - 0 -> 1
+75	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/reflect/Field;Z)Ljava/lang/Object;:296 - ReplaceConstant - The field '%s' is not static -> 
+76	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/reflect/Field;Z)Ljava/lang/Object;:296 - ReplaceConstant - 1 -> 0
+77	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/reflect/Field;Z)Ljava/lang/Object;:296 - ReplaceConstant - 0 -> 1
+78	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/reflect/Field;Z)Ljava/lang/Object;:297 - InsertUnaryOp Negation of forceAccess
+79	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/reflect/Field;Z)Ljava/lang/Object;:297 - InsertUnaryOp IINC 1 forceAccess
+80	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/reflect/Field;Z)Ljava/lang/Object;:297 - InsertUnaryOp IINC -1 forceAccess
+81	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;:315 - ReplaceConstant - 0 -> 1
+82	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:337 - InsertUnaryOp Negation of forceAccess
+83	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:337 - InsertUnaryOp IINC 1 forceAccess
+84	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:337 - InsertUnaryOp IINC -1 forceAccess
+85	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:338 - ReplaceComparisonOperator = null -> != null
+86	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:338 - ReplaceConstant - 1 -> 0
+87	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:338 - ReplaceConstant - 0 -> 1
+88	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:338 - ReplaceConstant - Cannot locate field '%s' on %s -> 
+89	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:338 - ReplaceConstant - 2 -> 0
+90	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:338 - ReplaceConstant - 2 -> 1
+91	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:338 - ReplaceConstant - 2 -> -1
+92	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:338 - ReplaceConstant - 2 -> 3
+93	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:338 - ReplaceConstant - 0 -> 1
+94	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:338 - ReplaceConstant - 1 -> 0
+95	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:340 - ReplaceConstant - 0 -> 1
+96	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;:359 - ReplaceConstant - 0 -> 1
+97	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:381 - InsertUnaryOp Negation of forceAccess
+98	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:381 - InsertUnaryOp IINC 1 forceAccess
+99	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:381 - InsertUnaryOp IINC -1 forceAccess
+100	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:382 - ReplaceComparisonOperator = null -> != null
+101	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:382 - ReplaceConstant - 1 -> 0
+102	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:382 - ReplaceConstant - 0 -> 1
+103	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:382 - ReplaceConstant - Cannot locate declared field %s.%s -> 
+104	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:382 - ReplaceConstant - 2 -> 0
+105	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:382 - ReplaceConstant - 2 -> 1
+106	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:382 - ReplaceConstant - 2 -> -1
+107	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:382 - ReplaceConstant - 2 -> 3
+108	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:382 - ReplaceConstant - 0 -> 1
+109	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:382 - ReplaceConstant - 1 -> 0
+110	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Z)Ljava/lang/Object;:384 - ReplaceConstant - 0 -> 1
+111	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/reflect/Field;Ljava/lang/Object;)Ljava/lang/Object;:401 - ReplaceConstant - 0 -> 1
+112	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)Ljava/lang/Object;:421 - ReplaceComparisonOperator = null -> != null
+113	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)Ljava/lang/Object;:421 - ReplaceConstant - 1 -> 0
+114	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)Ljava/lang/Object;:421 - ReplaceConstant - 0 -> 1
+115	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)Ljava/lang/Object;:421 - ReplaceConstant - The field must not be null -> 
+116	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)Ljava/lang/Object;:421 - ReplaceConstant - 0 -> 1
+117	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)Ljava/lang/Object;:422 - InsertUnaryOp Negation of forceAccess
+118	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)Ljava/lang/Object;:422 - InsertUnaryOp IINC 1 forceAccess
+119	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)Ljava/lang/Object;:422 - InsertUnaryOp IINC -1 forceAccess
+120	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)Ljava/lang/Object;:422 - ReplaceComparisonOperator == -> -2
+121	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)Ljava/lang/Object;:422 - ReplaceComparisonOperator == -> >=
+122	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)Ljava/lang/Object;:422 - ReplaceComparisonOperator == -> <=
+123	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)Ljava/lang/Object;:422 - ReplaceComparisonOperator != -> -1
+124	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)Ljava/lang/Object;:422 - ReplaceComparisonOperator != -> <
+125	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)Ljava/lang/Object;:422 - ReplaceComparisonOperator != -> >
+126	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)Ljava/lang/Object;:423 - ReplaceConstant - 1 -> 0
+127	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;:444 - ReplaceConstant - 0 -> 1
+128	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:465 - ReplaceComparisonOperator = null -> != null
+129	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:465 - ReplaceConstant - 1 -> 0
+130	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:465 - ReplaceConstant - 0 -> 1
+131	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:465 - ReplaceConstant - target object must not be null -> 
+132	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:465 - ReplaceConstant - 0 -> 1
+133	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:467 - InsertUnaryOp Negation of forceAccess
+134	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:467 - InsertUnaryOp IINC 1 forceAccess
+135	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:467 - InsertUnaryOp IINC -1 forceAccess
+136	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:468 - ReplaceComparisonOperator = null -> != null
+137	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:468 - ReplaceConstant - 1 -> 0
+138	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:468 - ReplaceConstant - 0 -> 1
+139	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:468 - ReplaceConstant - Cannot locate field %s on %s -> 
+140	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:468 - ReplaceConstant - 2 -> 0
+141	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:468 - ReplaceConstant - 2 -> 1
+142	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:468 - ReplaceConstant - 2 -> -1
+143	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:468 - ReplaceConstant - 2 -> 3
+144	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:468 - ReplaceConstant - 0 -> 1
+145	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:468 - ReplaceConstant - 1 -> 0
+146	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:470 - ReplaceConstant - 0 -> 1
+147	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;:487 - ReplaceConstant - 0 -> 1
+148	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:508 - ReplaceComparisonOperator = null -> != null
+149	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:508 - ReplaceConstant - 1 -> 0
+150	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:508 - ReplaceConstant - 0 -> 1
+151	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:508 - ReplaceConstant - target object must not be null -> 
+152	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:508 - ReplaceConstant - 0 -> 1
+153	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:510 - InsertUnaryOp Negation of forceAccess
+154	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:510 - InsertUnaryOp IINC 1 forceAccess
+155	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:510 - InsertUnaryOp IINC -1 forceAccess
+156	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:511 - ReplaceComparisonOperator = null -> != null
+157	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:511 - ReplaceConstant - 1 -> 0
+158	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:511 - ReplaceConstant - 0 -> 1
+159	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:511 - ReplaceConstant - Cannot locate declared field %s.%s -> 
+160	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:511 - ReplaceConstant - 2 -> 0
+161	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:511 - ReplaceConstant - 2 -> 1
+162	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:511 - ReplaceConstant - 2 -> -1
+163	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:511 - ReplaceConstant - 2 -> 3
+164	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:511 - ReplaceConstant - 0 -> 1
+165	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:511 - ReplaceConstant - 1 -> 0
+166	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.readDeclaredField(Ljava/lang/Object;Ljava/lang/String;Z)Ljava/lang/Object;:513 - ReplaceConstant - 0 -> 1
+167	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/reflect/Field;Ljava/lang/Object;)V:529 - ReplaceConstant - 0 -> 1
+168	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)V:549 - ReplaceComparisonOperator = null -> != null
+169	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)V:549 - ReplaceConstant - 1 -> 0
+170	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)V:549 - ReplaceConstant - 0 -> 1
+171	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)V:549 - ReplaceConstant - The field must not be null -> 
+172	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)V:549 - ReplaceConstant - 0 -> 1
+173	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)V:550 - ReplaceConstant - The field %s.%s is not static -> 
+174	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)V:550 - ReplaceConstant - 2 -> 0
+175	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)V:550 - ReplaceConstant - 2 -> 1
+176	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)V:550 - ReplaceConstant - 2 -> -1
+177	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)V:550 - ReplaceConstant - 2 -> 3
+178	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)V:550 - ReplaceConstant - 0 -> 1
+179	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)V:550 - ReplaceConstant - 1 -> 0
+180	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)V:552 - InsertUnaryOp Negation of forceAccess
+181	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)V:552 - InsertUnaryOp IINC 1 forceAccess
+182	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/reflect/Field;Ljava/lang/Object;Z)V:552 - InsertUnaryOp IINC -1 forceAccess
+183	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;)V:571 - ReplaceConstant - 0 -> 1
+184	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:595 - InsertUnaryOp Negation of forceAccess
+185	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:595 - InsertUnaryOp IINC 1 forceAccess
+186	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:595 - InsertUnaryOp IINC -1 forceAccess
+187	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:596 - ReplaceComparisonOperator = null -> != null
+188	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:596 - ReplaceConstant - 1 -> 0
+189	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:596 - ReplaceConstant - 0 -> 1
+190	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:596 - ReplaceConstant - Cannot locate field %s on %s -> 
+191	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:596 - ReplaceConstant - 2 -> 0
+192	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:596 - ReplaceConstant - 2 -> 1
+193	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:596 - ReplaceConstant - 2 -> -1
+194	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:596 - ReplaceConstant - 2 -> 3
+195	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:596 - ReplaceConstant - 0 -> 1
+196	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:596 - ReplaceConstant - 1 -> 0
+197	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:598 - ReplaceConstant - 0 -> 1
+198	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;)V:617 - ReplaceConstant - 0 -> 1
+199	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:640 - InsertUnaryOp Negation of forceAccess
+200	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:640 - InsertUnaryOp IINC 1 forceAccess
+201	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:640 - InsertUnaryOp IINC -1 forceAccess
+202	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:641 - ReplaceComparisonOperator = null -> != null
+203	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:641 - ReplaceConstant - 1 -> 0
+204	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:641 - ReplaceConstant - 0 -> 1
+205	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:641 - ReplaceConstant - Cannot locate declared field %s.%s -> 
+206	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:641 - ReplaceConstant - 2 -> 0
+207	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:641 - ReplaceConstant - 2 -> 1
+208	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:641 - ReplaceConstant - 2 -> -1
+209	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:641 - ReplaceConstant - 2 -> 3
+210	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:641 - ReplaceConstant - 0 -> 1
+211	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:641 - ReplaceConstant - 1 -> 0
+212	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredStaticField(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Object;Z)V:643 - ReplaceConstant - 0 -> 1
+213	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Object;)V:660 - ReplaceConstant - 0 -> 1
+214	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Object;Z)V:683 - ReplaceComparisonOperator = null -> != null
+215	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Object;Z)V:683 - ReplaceConstant - 1 -> 0
+216	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Object;Z)V:683 - ReplaceConstant - 0 -> 1
+217	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Object;Z)V:683 - ReplaceConstant - The field must not be null -> 
+218	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Object;Z)V:683 - ReplaceConstant - 0 -> 1
+219	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Object;Z)V:684 - InsertUnaryOp Negation of forceAccess
+220	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Object;Z)V:684 - InsertUnaryOp IINC 1 forceAccess
+221	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Object;Z)V:684 - InsertUnaryOp IINC -1 forceAccess
+222	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Object;Z)V:684 - ReplaceComparisonOperator == -> -2
+223	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Object;Z)V:684 - ReplaceComparisonOperator == -> >=
+224	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Object;Z)V:684 - ReplaceComparisonOperator == -> <=
+225	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Object;Z)V:684 - ReplaceComparisonOperator != -> -1
+226	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Object;Z)V:684 - ReplaceComparisonOperator != -> <
+227	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Object;Z)V:684 - ReplaceComparisonOperator != -> >
+228	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/reflect/Field;Ljava/lang/Object;Ljava/lang/Object;Z)V:685 - ReplaceConstant - 1 -> 0
+229	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;)V:702 - ReplaceConstant - 1 -> 0
+230	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:719 - ReplaceComparisonOperator = null -> != null
+231	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:719 - ReplaceConstant - 1 -> 0
+232	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:719 - ReplaceConstant - 0 -> 1
+233	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:719 - ReplaceConstant - The field must not be null -> 
+234	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:719 - ReplaceConstant - 0 -> 1
+235	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:722 - ReplaceComparisonOperator == -> -2
+236	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:722 - ReplaceComparisonOperator == -> >=
+237	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:722 - ReplaceComparisonOperator == -> <=
+238	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:724 - ReplaceConstant - modifiers -> 
+239	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:725 - InsertUnaryOp Negation of forceAccess
+240	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:725 - InsertUnaryOp IINC 1 forceAccess
+241	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:725 - InsertUnaryOp IINC -1 forceAccess
+242	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:725 - ReplaceComparisonOperator == -> -2
+243	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:725 - ReplaceComparisonOperator == -> >=
+244	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:725 - ReplaceComparisonOperator == -> <=
+245	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:725 - ReplaceComparisonOperator != -> -1
+246	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:725 - ReplaceComparisonOperator != -> <
+247	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:725 - ReplaceComparisonOperator != -> >
+248	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:725 - ReplaceConstant - 1 -> 0
+249	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:725 - ReplaceConstant - 0 -> 1
+250	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:726 - InsertUnaryOp Negation of doForceAccess
+251	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:726 - InsertUnaryOp IINC 1 doForceAccess
+252	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:726 - InsertUnaryOp IINC -1 doForceAccess
+253	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:726 - ReplaceComparisonOperator == -> -2
+254	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:726 - ReplaceComparisonOperator == -> >=
+255	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:726 - ReplaceComparisonOperator == -> <=
+256	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:727 - ReplaceConstant - 1 -> 0
+257	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:730 - ReplaceConstant - -17 -> 0
+258	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:730 - ReplaceConstant - -17 -> 1
+259	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:730 - ReplaceConstant - -17 -> -1
+260	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:730 - ReplaceConstant - -17 -> -18
+261	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:730 - ReplaceConstant - -17 -> -16
+262	ReplaceBitwiseOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:730 - ReplaceBitwiseOperator & -> |
+263	ReplaceBitwiseOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:730 - ReplaceBitwiseOperator & -> ^
+264	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:732 - InsertUnaryOp Negation of doForceAccess
+265	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:732 - InsertUnaryOp IINC 1 doForceAccess
+266	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:732 - InsertUnaryOp IINC -1 doForceAccess
+267	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:732 - ReplaceComparisonOperator == -> -2
+268	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:732 - ReplaceComparisonOperator == -> >=
+269	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:732 - ReplaceComparisonOperator == -> <=
+270	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:733 - ReplaceConstant - 0 -> 1
+271	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:732 - InsertUnaryOp Negation of doForceAccess
+272	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:732 - InsertUnaryOp IINC 1 doForceAccess
+273	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:732 - InsertUnaryOp IINC -1 doForceAccess
+274	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:732 - ReplaceComparisonOperator == -> -2
+275	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:732 - ReplaceComparisonOperator == -> >=
+276	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:732 - ReplaceComparisonOperator == -> <=
+277	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.removeFinalModifier(Ljava/lang/reflect/Field;Z)V:733 - ReplaceConstant - 0 -> 1
+278	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V:760 - ReplaceConstant - 0 -> 1
+279	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:784 - ReplaceComparisonOperator = null -> != null
+280	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:784 - ReplaceConstant - 1 -> 0
+281	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:784 - ReplaceConstant - 0 -> 1
+282	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:784 - ReplaceConstant - target object must not be null -> 
+283	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:784 - ReplaceConstant - 0 -> 1
+284	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:786 - InsertUnaryOp Negation of forceAccess
+285	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:786 - InsertUnaryOp IINC 1 forceAccess
+286	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:786 - InsertUnaryOp IINC -1 forceAccess
+287	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:787 - ReplaceComparisonOperator = null -> != null
+288	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:787 - ReplaceConstant - 1 -> 0
+289	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:787 - ReplaceConstant - 0 -> 1
+290	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:787 - ReplaceConstant - Cannot locate declared field %s.%s -> 
+291	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:787 - ReplaceConstant - 2 -> 0
+292	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:787 - ReplaceConstant - 2 -> 1
+293	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:787 - ReplaceConstant - 2 -> -1
+294	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:787 - ReplaceConstant - 2 -> 3
+295	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:787 - ReplaceConstant - 0 -> 1
+296	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:787 - ReplaceConstant - 1 -> 0
+297	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:789 - ReplaceConstant - 0 -> 1
+298	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V:808 - ReplaceConstant - 0 -> 1
+299	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:832 - ReplaceComparisonOperator = null -> != null
+300	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:832 - ReplaceConstant - 1 -> 0
+301	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:832 - ReplaceConstant - 0 -> 1
+302	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:832 - ReplaceConstant - target object must not be null -> 
+303	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:832 - ReplaceConstant - 0 -> 1
+304	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:834 - InsertUnaryOp Negation of forceAccess
+305	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:834 - InsertUnaryOp IINC 1 forceAccess
+306	InsertUnaryOp	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:834 - InsertUnaryOp IINC -1 forceAccess
+307	ReplaceComparisonOperator	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:835 - ReplaceComparisonOperator = null -> != null
+308	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:835 - ReplaceConstant - 1 -> 0
+309	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:835 - ReplaceConstant - 0 -> 1
+310	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:835 - ReplaceConstant - Cannot locate declared field %s.%s -> 
+311	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:835 - ReplaceConstant - 2 -> 0
+312	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:835 - ReplaceConstant - 2 -> 1
+313	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:835 - ReplaceConstant - 2 -> -1
+314	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:835 - ReplaceConstant - 2 -> 3
+315	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:835 - ReplaceConstant - 0 -> 1
+316	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:835 - ReplaceConstant - 1 -> 0
+317	ReplaceConstant	org.apache.commons.lang3.reflect.FieldUtils.writeDeclaredField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Z)V:837 - ReplaceConstant - 0 -> 1

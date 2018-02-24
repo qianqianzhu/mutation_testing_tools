@@ -1,0 +1,14 @@
+0	ReplaceConstant	org.dynjs.parser.ast.FunctionDeclaration.dump(Ljava/lang/String;)Ljava/lang/String;:73 - ReplaceConstant -    -> 
+1	ReplaceConstant	org.dynjs.parser.ast.FunctionDeclaration.dumpData()Ljava/lang/String;:77 - ReplaceConstant - ( -> 
+2	ReplaceConstant	org.dynjs.parser.ast.FunctionDeclaration.dumpData()Ljava/lang/String;:77 - ReplaceConstant - ) -> 
+3	ReplaceConstant	org.dynjs.parser.ast.FunctionDeclaration.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:83 - ReplaceConstant - function -> 
+4	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionDeclaration.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:83 - ReplaceComparisonOperator != null -> = null
+5	ReplaceConstant	org.dynjs.parser.ast.FunctionDeclaration.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:83 - ReplaceConstant -   -> 
+6	ReplaceConstant	org.dynjs.parser.ast.FunctionDeclaration.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:83 - ReplaceConstant - ( -> 
+7	ReplaceConstant	org.dynjs.parser.ast.FunctionDeclaration.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:85 - ReplaceConstant - ) {
+ -> 
+8	ReplaceConstant	org.dynjs.parser.ast.FunctionDeclaration.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:86 - ReplaceConstant -    -> 
+9	ReplaceConstant	org.dynjs.parser.ast.FunctionDeclaration.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:87 - ReplaceConstant - } -> 
+10	InsertUnaryOp	org.dynjs.parser.ast.FunctionDeclaration.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:93 - InsertUnaryOp Negation of strict
+11	InsertUnaryOp	org.dynjs.parser.ast.FunctionDeclaration.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:93 - InsertUnaryOp IINC 1 strict
+12	InsertUnaryOp	org.dynjs.parser.ast.FunctionDeclaration.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:93 - InsertUnaryOp IINC -1 strict

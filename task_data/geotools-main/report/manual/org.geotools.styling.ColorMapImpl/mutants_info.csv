@@ -1,0 +1,150 @@
+0	ReplaceConstant	org.geotools.styling.ColorMapImpl.<init>()V:39 - ReplaceConstant - 1 -> 0
+1	ReplaceConstant	org.geotools.styling.ColorMapImpl.<init>(Lorg/opengis/filter/expression/Function;)V:39 - ReplaceConstant - 1 -> 0
+2	ReplaceConstant	org.geotools.styling.ColorMapImpl.getColorMapEntries()[Lorg/geotools/styling/ColorMapEntry;:55 - ReplaceConstant - 0 -> 1
+3	InsertUnaryOp	org.geotools.styling.ColorMapImpl.getColorMapEntry(I)Lorg/geotools/styling/ColorMapEntry;:59 - InsertUnaryOp Negation of index
+4	InsertUnaryOp	org.geotools.styling.ColorMapImpl.getColorMapEntry(I)Lorg/geotools/styling/ColorMapEntry;:59 - InsertUnaryOp IINC 1 index
+5	InsertUnaryOp	org.geotools.styling.ColorMapImpl.getColorMapEntry(I)Lorg/geotools/styling/ColorMapEntry;:59 - InsertUnaryOp IINC -1 index
+6	InsertUnaryOp	org.geotools.styling.ColorMapImpl.getType()I:66 - InsertUnaryOp Negation
+7	InsertUnaryOp	org.geotools.styling.ColorMapImpl.getType()I:66 - InsertUnaryOp +1
+8	InsertUnaryOp	org.geotools.styling.ColorMapImpl.getType()I:66 - InsertUnaryOp -1
+9	InsertUnaryOp	org.geotools.styling.ColorMapImpl.setType(I)V:73 - InsertUnaryOp Negation of type
+10	InsertUnaryOp	org.geotools.styling.ColorMapImpl.setType(I)V:73 - InsertUnaryOp IINC 1 type
+11	InsertUnaryOp	org.geotools.styling.ColorMapImpl.setType(I)V:73 - InsertUnaryOp IINC -1 type
+12	ReplaceConstant	org.geotools.styling.ColorMapImpl.setType(I)V:73 - ReplaceConstant - 1 -> 0
+13	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.setType(I)V:73 - ReplaceComparisonOperator < -> !=
+14	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.setType(I)V:73 - ReplaceComparisonOperator < -> -2
+15	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.setType(I)V:73 - ReplaceComparisonOperator < -> <=
+16	InsertUnaryOp	org.geotools.styling.ColorMapImpl.setType(I)V:73 - InsertUnaryOp Negation of type
+17	InsertUnaryOp	org.geotools.styling.ColorMapImpl.setType(I)V:73 - InsertUnaryOp IINC 1 type
+18	InsertUnaryOp	org.geotools.styling.ColorMapImpl.setType(I)V:73 - InsertUnaryOp IINC -1 type
+19	ReplaceConstant	org.geotools.styling.ColorMapImpl.setType(I)V:73 - ReplaceConstant - 3 -> 0
+20	ReplaceConstant	org.geotools.styling.ColorMapImpl.setType(I)V:73 - ReplaceConstant - 3 -> 1
+21	ReplaceConstant	org.geotools.styling.ColorMapImpl.setType(I)V:73 - ReplaceConstant - 3 -> -1
+22	ReplaceConstant	org.geotools.styling.ColorMapImpl.setType(I)V:73 - ReplaceConstant - 3 -> 2
+23	ReplaceConstant	org.geotools.styling.ColorMapImpl.setType(I)V:73 - ReplaceConstant - 3 -> 4
+24	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.setType(I)V:73 - ReplaceComparisonOperator <= -> -1
+25	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.setType(I)V:73 - ReplaceComparisonOperator <= -> <
+26	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.setType(I)V:73 - ReplaceComparisonOperator <= -> ==
+27	InsertUnaryOp	org.geotools.styling.ColorMapImpl.setType(I)V:76 - InsertUnaryOp Negation of type
+28	InsertUnaryOp	org.geotools.styling.ColorMapImpl.setType(I)V:76 - InsertUnaryOp IINC 1 type
+29	InsertUnaryOp	org.geotools.styling.ColorMapImpl.setType(I)V:76 - InsertUnaryOp IINC -1 type
+30	InsertUnaryOp	org.geotools.styling.ColorMapImpl.getExtendedColors()Z:84 - InsertUnaryOp Negation
+31	InsertUnaryOp	org.geotools.styling.ColorMapImpl.setExtendedColors(Z)V:88 - InsertUnaryOp Negation of extended
+32	InsertUnaryOp	org.geotools.styling.ColorMapImpl.setExtendedColors(Z)V:88 - InsertUnaryOp IINC 1 extended
+33	InsertUnaryOp	org.geotools.styling.ColorMapImpl.setExtendedColors(Z)V:88 - InsertUnaryOp IINC -1 extended
+34	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:102 - ReplaceConstant - 1000003 -> 0
+35	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:102 - ReplaceConstant - 1000003 -> 1
+36	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:102 - ReplaceConstant - 1000003 -> -1
+37	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:102 - ReplaceConstant - 1000003 -> 1000002
+38	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:102 - ReplaceConstant - 1000003 -> 1000004
+39	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:103 - ReplaceConstant - 0 -> 1
+40	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.hashCode()I:105 - ReplaceComparisonOperator = null -> != null
+41	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:106 - ReplaceConstant - 1000003 -> 0
+42	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:106 - ReplaceConstant - 1000003 -> 1
+43	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:106 - ReplaceConstant - 1000003 -> -1
+44	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:106 - ReplaceConstant - 1000003 -> 1000002
+45	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:106 - ReplaceConstant - 1000003 -> 1000004
+46	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:106 - InsertUnaryOp Negation of result
+47	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:106 - InsertUnaryOp IINC 1 result
+48	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:106 - InsertUnaryOp IINC -1 result
+49	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:106 - ReplaceArithmeticOperator * -> +
+50	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:106 - ReplaceArithmeticOperator * -> %
+51	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:106 - ReplaceArithmeticOperator * -> -
+52	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:106 - ReplaceArithmeticOperator * -> /
+53	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:106 - ReplaceArithmeticOperator + -> %
+54	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:106 - ReplaceArithmeticOperator + -> -
+55	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:106 - ReplaceArithmeticOperator + -> *
+56	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:106 - ReplaceArithmeticOperator + -> /
+57	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.hashCode()I:109 - ReplaceComparisonOperator = null -> != null
+58	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:110 - ReplaceConstant - 1000003 -> 0
+59	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:110 - ReplaceConstant - 1000003 -> 1
+60	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:110 - ReplaceConstant - 1000003 -> -1
+61	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:110 - ReplaceConstant - 1000003 -> 1000002
+62	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:110 - ReplaceConstant - 1000003 -> 1000004
+63	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:110 - InsertUnaryOp Negation of result
+64	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:110 - InsertUnaryOp IINC 1 result
+65	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:110 - InsertUnaryOp IINC -1 result
+66	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:110 - ReplaceArithmeticOperator * -> +
+67	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:110 - ReplaceArithmeticOperator * -> %
+68	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:110 - ReplaceArithmeticOperator * -> -
+69	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:110 - ReplaceArithmeticOperator * -> /
+70	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:110 - ReplaceArithmeticOperator + -> %
+71	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:110 - ReplaceArithmeticOperator + -> -
+72	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:110 - ReplaceArithmeticOperator + -> *
+73	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:110 - ReplaceArithmeticOperator + -> /
+74	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:113 - ReplaceConstant - 1000003 -> 0
+75	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:113 - ReplaceConstant - 1000003 -> 1
+76	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:113 - ReplaceConstant - 1000003 -> -1
+77	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:113 - ReplaceConstant - 1000003 -> 1000002
+78	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:113 - ReplaceConstant - 1000003 -> 1000004
+79	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:113 - InsertUnaryOp Negation of result
+80	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:113 - InsertUnaryOp IINC 1 result
+81	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:113 - InsertUnaryOp IINC -1 result
+82	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:113 - ReplaceArithmeticOperator * -> +
+83	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:113 - ReplaceArithmeticOperator * -> %
+84	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:113 - ReplaceArithmeticOperator * -> -
+85	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:113 - ReplaceArithmeticOperator * -> /
+86	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:113 - InsertUnaryOp Negation
+87	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:113 - InsertUnaryOp +1
+88	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:113 - InsertUnaryOp -1
+89	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:113 - ReplaceArithmeticOperator + -> %
+90	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:113 - ReplaceArithmeticOperator + -> -
+91	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:113 - ReplaceArithmeticOperator + -> *
+92	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:113 - ReplaceArithmeticOperator + -> /
+93	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceConstant - 1000003 -> 0
+94	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceConstant - 1000003 -> 1
+95	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceConstant - 1000003 -> -1
+96	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceConstant - 1000003 -> 1000002
+97	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceConstant - 1000003 -> 1000004
+98	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:114 - InsertUnaryOp Negation of result
+99	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:114 - InsertUnaryOp IINC 1 result
+100	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:114 - InsertUnaryOp IINC -1 result
+101	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceArithmeticOperator * -> +
+102	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceArithmeticOperator * -> %
+103	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceArithmeticOperator * -> -
+104	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceArithmeticOperator * -> /
+105	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:114 - InsertUnaryOp Negation
+106	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceComparisonOperator == -> -2
+107	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceComparisonOperator == -> >=
+108	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceComparisonOperator == -> <=
+109	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceConstant - 1 -> 0
+110	ReplaceConstant	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceConstant - 0 -> 1
+111	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceArithmeticOperator + -> %
+112	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceArithmeticOperator + -> -
+113	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceArithmeticOperator + -> *
+114	ReplaceArithmeticOperator	org.geotools.styling.ColorMapImpl.hashCode()I:114 - ReplaceArithmeticOperator + -> /
+115	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:116 - InsertUnaryOp Negation of result
+116	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:116 - InsertUnaryOp IINC 1 result
+117	InsertUnaryOp	org.geotools.styling.ColorMapImpl.hashCode()I:116 - InsertUnaryOp IINC -1 result
+118	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:121 - ReplaceComparisonOperator != -> ==
+119	ReplaceConstant	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:122 - ReplaceConstant - 1 -> 0
+120	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:125 - ReplaceComparisonOperator == -> -2
+121	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:125 - ReplaceComparisonOperator == -> >=
+122	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:125 - ReplaceComparisonOperator == -> <=
+123	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:128 - ReplaceComparisonOperator == -> -2
+124	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:128 - ReplaceComparisonOperator == -> >=
+125	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:128 - ReplaceComparisonOperator == -> <=
+126	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:129 - ReplaceComparisonOperator == -> -2
+127	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:129 - ReplaceComparisonOperator == -> >=
+128	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:129 - ReplaceComparisonOperator == -> <=
+129	InsertUnaryOp	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:129 - InsertUnaryOp Negation
+130	InsertUnaryOp	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:129 - InsertUnaryOp +1
+131	InsertUnaryOp	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:129 - InsertUnaryOp -1
+132	InsertUnaryOp	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:129 - InsertUnaryOp Negation
+133	InsertUnaryOp	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:129 - InsertUnaryOp +1
+134	InsertUnaryOp	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:129 - InsertUnaryOp -1
+135	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:130 - ReplaceComparisonOperator == -> -2
+136	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:130 - ReplaceComparisonOperator == -> >=
+137	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:130 - ReplaceComparisonOperator == -> <=
+138	InsertUnaryOp	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:130 - InsertUnaryOp Negation
+139	InsertUnaryOp	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:130 - InsertUnaryOp Negation
+140	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:131 - ReplaceComparisonOperator == -> -2
+141	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:131 - ReplaceComparisonOperator == -> >=
+142	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:131 - ReplaceComparisonOperator == -> <=
+143	ReplaceConstant	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:131 - ReplaceConstant - 1 -> 0
+144	ReplaceConstant	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:131 - ReplaceConstant - 0 -> 1
+145	ReplaceConstant	org.geotools.styling.ColorMapImpl.equals(Ljava/lang/Object;)Z:134 - ReplaceConstant - 0 -> 1
+146	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.cast(Lorg/opengis/style/ColorMap;)Lorg/geotools/styling/ColorMapImpl;:138 - ReplaceComparisonOperator != null -> = null
+147	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.cast(Lorg/opengis/style/ColorMap;)Lorg/geotools/styling/ColorMapImpl;:141 - ReplaceComparisonOperator == -> -2
+148	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.cast(Lorg/opengis/style/ColorMap;)Lorg/geotools/styling/ColorMapImpl;:141 - ReplaceComparisonOperator == -> >=
+149	ReplaceComparisonOperator	org.geotools.styling.ColorMapImpl.cast(Lorg/opengis/style/ColorMap;)Lorg/geotools/styling/ColorMapImpl;:141 - ReplaceComparisonOperator == -> <=

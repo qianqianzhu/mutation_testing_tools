@@ -1,0 +1,73 @@
+0	ReplaceComparisonOperator	org.apache.commons.lang3.time.StopWatch.start()V:193 - ReplaceComparisonOperator != -> ==
+1	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.start()V:194 - ReplaceConstant - Stopwatch must be reset before being restarted.  -> 
+2	ReplaceComparisonOperator	org.apache.commons.lang3.time.StopWatch.start()V:196 - ReplaceComparisonOperator == -> !=
+3	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.start()V:197 - ReplaceConstant - Stopwatch already started.  -> 
+4	ReplaceComparisonOperator	org.apache.commons.lang3.time.StopWatch.stop()V:218 - ReplaceComparisonOperator == -> !=
+5	ReplaceComparisonOperator	org.apache.commons.lang3.time.StopWatch.stop()V:218 - ReplaceComparisonOperator == -> !=
+6	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.stop()V:219 - ReplaceConstant - Stopwatch is not running.  -> 
+7	ReplaceComparisonOperator	org.apache.commons.lang3.time.StopWatch.stop()V:221 - ReplaceComparisonOperator != -> ==
+8	ReplaceComparisonOperator	org.apache.commons.lang3.time.StopWatch.split()V:255 - ReplaceComparisonOperator == -> !=
+9	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.split()V:256 - ReplaceConstant - Stopwatch is not running.  -> 
+10	ReplaceComparisonOperator	org.apache.commons.lang3.time.StopWatch.unsplit()V:276 - ReplaceComparisonOperator == -> !=
+11	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.unsplit()V:277 - ReplaceConstant - Stopwatch has not been split.  -> 
+12	ReplaceComparisonOperator	org.apache.commons.lang3.time.StopWatch.suspend()V:296 - ReplaceComparisonOperator == -> !=
+13	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.suspend()V:297 - ReplaceConstant - Stopwatch must be running to suspend.  -> 
+14	ReplaceComparisonOperator	org.apache.commons.lang3.time.StopWatch.resume()V:317 - ReplaceComparisonOperator == -> !=
+15	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.resume()V:318 - ReplaceConstant - Stopwatch must be suspended to resume.  -> 
+16	InsertUnaryOp	org.apache.commons.lang3.time.StopWatch.resume()V:320 - InsertUnaryOp Negation
+17	InsertUnaryOp	org.apache.commons.lang3.time.StopWatch.resume()V:320 - InsertUnaryOp Negation
+18	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.resume()V:320 - ReplaceArithmeticOperator - -> +
+19	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.resume()V:320 - ReplaceArithmeticOperator - -> %
+20	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.resume()V:320 - ReplaceArithmeticOperator - -> *
+21	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.resume()V:320 - ReplaceArithmeticOperator - -> /
+22	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.resume()V:320 - ReplaceArithmeticOperator + -> %
+23	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.resume()V:320 - ReplaceArithmeticOperator + -> -
+24	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.resume()V:320 - ReplaceArithmeticOperator + -> *
+25	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.resume()V:320 - ReplaceArithmeticOperator + -> /
+26	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.getTime()J:337 - ReplaceConstant - 1000000 -> 0
+27	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.getTime()J:337 - ReplaceConstant - 1000000 -> 1
+28	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.getTime()J:337 - ReplaceConstant - 1000000 -> -1
+29	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.getTime()J:337 - ReplaceConstant - 1000000 -> 999999
+30	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.getTime()J:337 - ReplaceConstant - 1000000 -> 1000001
+31	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getTime()J:337 - ReplaceArithmeticOperator / -> +
+32	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getTime()J:337 - ReplaceArithmeticOperator / -> %
+33	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getTime()J:337 - ReplaceArithmeticOperator / -> -
+34	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getTime()J:337 - ReplaceArithmeticOperator / -> *
+35	ReplaceComparisonOperator	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:374 - ReplaceComparisonOperator == -> !=
+36	ReplaceComparisonOperator	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:374 - ReplaceComparisonOperator != -> ==
+37	InsertUnaryOp	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:375 - InsertUnaryOp Negation
+38	InsertUnaryOp	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:375 - InsertUnaryOp Negation
+39	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:375 - ReplaceArithmeticOperator - -> +
+40	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:375 - ReplaceArithmeticOperator - -> %
+41	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:375 - ReplaceArithmeticOperator - -> *
+42	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:375 - ReplaceArithmeticOperator - -> /
+43	ReplaceComparisonOperator	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:376 - ReplaceComparisonOperator != -> ==
+44	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:377 - ReplaceConstant - 0 -> 1
+45	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:377 - ReplaceConstant - 0 -> -1
+46	ReplaceComparisonOperator	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:378 - ReplaceComparisonOperator != -> ==
+47	InsertUnaryOp	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:379 - InsertUnaryOp Negation
+48	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:379 - ReplaceArithmeticOperator - -> +
+49	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:379 - ReplaceArithmeticOperator - -> %
+50	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:379 - ReplaceArithmeticOperator - -> *
+51	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:379 - ReplaceArithmeticOperator - -> /
+52	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.getNanoTime()J:381 - ReplaceConstant - Illegal running state has occurred. -> 
+53	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.getSplitTime()J:400 - ReplaceConstant - 1000000 -> 0
+54	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.getSplitTime()J:400 - ReplaceConstant - 1000000 -> 1
+55	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.getSplitTime()J:400 - ReplaceConstant - 1000000 -> -1
+56	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.getSplitTime()J:400 - ReplaceConstant - 1000000 -> 999999
+57	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.getSplitTime()J:400 - ReplaceConstant - 1000000 -> 1000001
+58	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getSplitTime()J:400 - ReplaceArithmeticOperator / -> +
+59	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getSplitTime()J:400 - ReplaceArithmeticOperator / -> %
+60	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getSplitTime()J:400 - ReplaceArithmeticOperator / -> -
+61	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getSplitTime()J:400 - ReplaceArithmeticOperator / -> *
+62	ReplaceComparisonOperator	org.apache.commons.lang3.time.StopWatch.getSplitNanoTime()J:418 - ReplaceComparisonOperator == -> !=
+63	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.getSplitNanoTime()J:419 - ReplaceConstant - Stopwatch must be split to get the split time.  -> 
+64	InsertUnaryOp	org.apache.commons.lang3.time.StopWatch.getSplitNanoTime()J:421 - InsertUnaryOp Negation
+65	InsertUnaryOp	org.apache.commons.lang3.time.StopWatch.getSplitNanoTime()J:421 - InsertUnaryOp Negation
+66	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getSplitNanoTime()J:421 - ReplaceArithmeticOperator - -> +
+67	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getSplitNanoTime()J:421 - ReplaceArithmeticOperator - -> %
+68	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getSplitNanoTime()J:421 - ReplaceArithmeticOperator - -> *
+69	ReplaceArithmeticOperator	org.apache.commons.lang3.time.StopWatch.getSplitNanoTime()J:421 - ReplaceArithmeticOperator - -> /
+70	ReplaceComparisonOperator	org.apache.commons.lang3.time.StopWatch.getStartTime()J:433 - ReplaceComparisonOperator != -> ==
+71	ReplaceConstant	org.apache.commons.lang3.time.StopWatch.getStartTime()J:434 - ReplaceConstant - Stopwatch has not been started -> 
+72	InsertUnaryOp	org.apache.commons.lang3.time.StopWatch.getStartTime()J:437 - InsertUnaryOp Negation

@@ -1,0 +1,227 @@
+0	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.<init>(Lorg/jfree/data/gantt/TaskSeriesCollection;)V:83 - ReplaceConstant - tasks -> 
+1	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.<init>(Lorg/jfree/data/gantt/TaskSeriesCollection;)V:85 - ReplaceConstant - 0.8 -> 0.0
+2	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.<init>(Lorg/jfree/data/gantt/TaskSeriesCollection;)V:85 - ReplaceConstant - 0.8 -> 1.0
+3	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.<init>(Lorg/jfree/data/gantt/TaskSeriesCollection;)V:85 - ReplaceConstant - 0.8 -> -1.0
+4	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.<init>(Lorg/jfree/data/gantt/TaskSeriesCollection;)V:85 - ReplaceConstant - 0.8 -> -0.19999999999999996
+5	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.<init>(Lorg/jfree/data/gantt/TaskSeriesCollection;)V:85 - ReplaceConstant - 0.8 -> 1.8
+6	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getSeriesWidth()D:107 - InsertUnaryOp Negation
+7	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.setSeriesWidth(D)V:119 - InsertUnaryOp Negation of w
+8	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.setSeriesWidth(D)V:119 - ReplaceConstant - 0.0 -> 1.0
+9	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.setSeriesWidth(D)V:119 - ReplaceConstant - 0.0 -> -1.0
+10	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.setSeriesWidth(D)V:119 - ReplaceComparisonOperator > -> -2
+11	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.setSeriesWidth(D)V:119 - ReplaceComparisonOperator > -> !=
+12	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.setSeriesWidth(D)V:119 - ReplaceComparisonOperator > -> >=
+13	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.setSeriesWidth(D)V:120 - ReplaceConstant - Requires 'w' > 0.0. -> 
+14	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.setSeriesWidth(D)V:122 - InsertUnaryOp Negation of w
+15	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.isTransposed()Z:138 - InsertUnaryOp Negation
+16	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.setTransposed(Z)V:150 - InsertUnaryOp Negation of transposed
+17	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.setTransposed(Z)V:150 - InsertUnaryOp IINC 1 transposed
+18	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.setTransposed(Z)V:150 - InsertUnaryOp IINC -1 transposed
+19	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getSeriesKey(I)Ljava/lang/Comparable;:173 - InsertUnaryOp Negation of series
+20	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getSeriesKey(I)Ljava/lang/Comparable;:173 - InsertUnaryOp IINC 1 series
+21	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getSeriesKey(I)Ljava/lang/Comparable;:173 - InsertUnaryOp IINC -1 series
+22	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemCount(I)I:185 - InsertUnaryOp Negation of series
+23	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemCount(I)I:185 - InsertUnaryOp IINC 1 series
+24	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemCount(I)I:185 - InsertUnaryOp IINC -1 series
+25	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getXValue(II)D:198 - InsertUnaryOp Negation
+26	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getXValue(II)D:198 - ReplaceComparisonOperator != -> -1
+27	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getXValue(II)D:198 - ReplaceComparisonOperator != -> <
+28	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getXValue(II)D:198 - ReplaceComparisonOperator != -> >
+29	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getXValue(II)D:199 - InsertUnaryOp Negation of series
+30	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getXValue(II)D:199 - InsertUnaryOp IINC 1 series
+31	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getXValue(II)D:199 - InsertUnaryOp IINC -1 series
+32	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getXValue(II)D:202 - InsertUnaryOp Negation of series
+33	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getXValue(II)D:202 - InsertUnaryOp IINC 1 series
+34	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getXValue(II)D:202 - InsertUnaryOp IINC -1 series
+35	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getXValue(II)D:202 - InsertUnaryOp Negation of item
+36	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getXValue(II)D:202 - InsertUnaryOp IINC 1 item
+37	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getXValue(II)D:202 - InsertUnaryOp IINC -1 item
+38	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartXValue(II)D:218 - InsertUnaryOp Negation
+39	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getStartXValue(II)D:218 - ReplaceComparisonOperator != -> -1
+40	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getStartXValue(II)D:218 - ReplaceComparisonOperator != -> <
+41	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getStartXValue(II)D:218 - ReplaceComparisonOperator != -> >
+42	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartXValue(II)D:219 - InsertUnaryOp Negation of series
+43	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartXValue(II)D:219 - InsertUnaryOp IINC 1 series
+44	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartXValue(II)D:219 - InsertUnaryOp IINC -1 series
+45	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartXValue(II)D:222 - InsertUnaryOp Negation of series
+46	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartXValue(II)D:222 - InsertUnaryOp IINC 1 series
+47	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartXValue(II)D:222 - InsertUnaryOp IINC -1 series
+48	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartXValue(II)D:222 - InsertUnaryOp Negation of item
+49	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartXValue(II)D:222 - InsertUnaryOp IINC 1 item
+50	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartXValue(II)D:222 - InsertUnaryOp IINC -1 item
+51	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndXValue(II)D:238 - InsertUnaryOp Negation
+52	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getEndXValue(II)D:238 - ReplaceComparisonOperator != -> -1
+53	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getEndXValue(II)D:238 - ReplaceComparisonOperator != -> <
+54	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getEndXValue(II)D:238 - ReplaceComparisonOperator != -> >
+55	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndXValue(II)D:239 - InsertUnaryOp Negation of series
+56	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndXValue(II)D:239 - InsertUnaryOp IINC 1 series
+57	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndXValue(II)D:239 - InsertUnaryOp IINC -1 series
+58	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndXValue(II)D:242 - InsertUnaryOp Negation of series
+59	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndXValue(II)D:242 - InsertUnaryOp IINC 1 series
+60	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndXValue(II)D:242 - InsertUnaryOp IINC -1 series
+61	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndXValue(II)D:242 - InsertUnaryOp Negation of item
+62	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndXValue(II)D:242 - InsertUnaryOp IINC 1 item
+63	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndXValue(II)D:242 - InsertUnaryOp IINC -1 item
+64	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getX(II)Ljava/lang/Number;:256 - InsertUnaryOp Negation of series
+65	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getX(II)Ljava/lang/Number;:256 - InsertUnaryOp IINC 1 series
+66	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getX(II)Ljava/lang/Number;:256 - InsertUnaryOp IINC -1 series
+67	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getX(II)Ljava/lang/Number;:256 - InsertUnaryOp Negation of item
+68	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getX(II)Ljava/lang/Number;:256 - InsertUnaryOp IINC 1 item
+69	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getX(II)Ljava/lang/Number;:256 - InsertUnaryOp IINC -1 item
+70	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartX(II)Ljava/lang/Number;:271 - InsertUnaryOp Negation of series
+71	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartX(II)Ljava/lang/Number;:271 - InsertUnaryOp IINC 1 series
+72	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartX(II)Ljava/lang/Number;:271 - InsertUnaryOp IINC -1 series
+73	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartX(II)Ljava/lang/Number;:271 - InsertUnaryOp Negation of item
+74	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartX(II)Ljava/lang/Number;:271 - InsertUnaryOp IINC 1 item
+75	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartX(II)Ljava/lang/Number;:271 - InsertUnaryOp IINC -1 item
+76	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndX(II)Ljava/lang/Number;:286 - InsertUnaryOp Negation of series
+77	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndX(II)Ljava/lang/Number;:286 - InsertUnaryOp IINC 1 series
+78	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndX(II)Ljava/lang/Number;:286 - InsertUnaryOp IINC -1 series
+79	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndX(II)Ljava/lang/Number;:286 - InsertUnaryOp Negation of item
+80	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndX(II)Ljava/lang/Number;:286 - InsertUnaryOp IINC 1 item
+81	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndX(II)Ljava/lang/Number;:286 - InsertUnaryOp IINC -1 item
+82	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getYValue(II)D:299 - InsertUnaryOp Negation
+83	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getYValue(II)D:299 - ReplaceComparisonOperator != -> -1
+84	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getYValue(II)D:299 - ReplaceComparisonOperator != -> <
+85	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getYValue(II)D:299 - ReplaceComparisonOperator != -> >
+86	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getYValue(II)D:300 - InsertUnaryOp Negation of series
+87	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getYValue(II)D:300 - InsertUnaryOp IINC 1 series
+88	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getYValue(II)D:300 - InsertUnaryOp IINC -1 series
+89	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getYValue(II)D:300 - InsertUnaryOp Negation of item
+90	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getYValue(II)D:300 - InsertUnaryOp IINC 1 item
+91	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getYValue(II)D:300 - InsertUnaryOp IINC -1 item
+92	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getYValue(II)D:303 - InsertUnaryOp Negation of series
+93	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getYValue(II)D:303 - InsertUnaryOp IINC 1 series
+94	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getYValue(II)D:303 - InsertUnaryOp IINC -1 series
+95	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartYValue(II)D:318 - InsertUnaryOp Negation
+96	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getStartYValue(II)D:318 - ReplaceComparisonOperator != -> -1
+97	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getStartYValue(II)D:318 - ReplaceComparisonOperator != -> <
+98	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getStartYValue(II)D:318 - ReplaceComparisonOperator != -> >
+99	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartYValue(II)D:319 - InsertUnaryOp Negation of series
+100	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartYValue(II)D:319 - InsertUnaryOp IINC 1 series
+101	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartYValue(II)D:319 - InsertUnaryOp IINC -1 series
+102	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartYValue(II)D:319 - InsertUnaryOp Negation of item
+103	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartYValue(II)D:319 - InsertUnaryOp IINC 1 item
+104	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartYValue(II)D:319 - InsertUnaryOp IINC -1 item
+105	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartYValue(II)D:322 - InsertUnaryOp Negation of series
+106	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartYValue(II)D:322 - InsertUnaryOp IINC 1 series
+107	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartYValue(II)D:322 - InsertUnaryOp IINC -1 series
+108	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndYValue(II)D:337 - InsertUnaryOp Negation
+109	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getEndYValue(II)D:337 - ReplaceComparisonOperator != -> -1
+110	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getEndYValue(II)D:337 - ReplaceComparisonOperator != -> <
+111	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.getEndYValue(II)D:337 - ReplaceComparisonOperator != -> >
+112	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndYValue(II)D:338 - InsertUnaryOp Negation of series
+113	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndYValue(II)D:338 - InsertUnaryOp IINC 1 series
+114	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndYValue(II)D:338 - InsertUnaryOp IINC -1 series
+115	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndYValue(II)D:338 - InsertUnaryOp Negation of item
+116	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndYValue(II)D:338 - InsertUnaryOp IINC 1 item
+117	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndYValue(II)D:338 - InsertUnaryOp IINC -1 item
+118	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndYValue(II)D:341 - InsertUnaryOp Negation of series
+119	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndYValue(II)D:341 - InsertUnaryOp IINC 1 series
+120	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndYValue(II)D:341 - InsertUnaryOp IINC -1 series
+121	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getY(II)Ljava/lang/Number;:357 - InsertUnaryOp Negation of series
+122	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getY(II)Ljava/lang/Number;:357 - InsertUnaryOp IINC 1 series
+123	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getY(II)Ljava/lang/Number;:357 - InsertUnaryOp IINC -1 series
+124	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getY(II)Ljava/lang/Number;:357 - InsertUnaryOp Negation of item
+125	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getY(II)Ljava/lang/Number;:357 - InsertUnaryOp IINC 1 item
+126	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getY(II)Ljava/lang/Number;:357 - InsertUnaryOp IINC -1 item
+127	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartY(II)Ljava/lang/Number;:371 - InsertUnaryOp Negation of series
+128	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartY(II)Ljava/lang/Number;:371 - InsertUnaryOp IINC 1 series
+129	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartY(II)Ljava/lang/Number;:371 - InsertUnaryOp IINC -1 series
+130	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartY(II)Ljava/lang/Number;:371 - InsertUnaryOp Negation of item
+131	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartY(II)Ljava/lang/Number;:371 - InsertUnaryOp IINC 1 item
+132	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getStartY(II)Ljava/lang/Number;:371 - InsertUnaryOp IINC -1 item
+133	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndY(II)Ljava/lang/Number;:385 - InsertUnaryOp Negation of series
+134	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndY(II)Ljava/lang/Number;:385 - InsertUnaryOp IINC 1 series
+135	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndY(II)Ljava/lang/Number;:385 - InsertUnaryOp IINC -1 series
+136	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndY(II)Ljava/lang/Number;:385 - InsertUnaryOp Negation of item
+137	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndY(II)Ljava/lang/Number;:385 - InsertUnaryOp IINC 1 item
+138	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getEndY(II)Ljava/lang/Number;:385 - InsertUnaryOp IINC -1 item
+139	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getSeriesValue(I)D:389 - InsertUnaryOp Negation of series
+140	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getSeriesValue(I)D:389 - InsertUnaryOp IINC 1 series
+141	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getSeriesValue(I)D:389 - InsertUnaryOp IINC -1 series
+142	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getSeriesStartValue(I)D:393 - InsertUnaryOp Negation of series
+143	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getSeriesStartValue(I)D:393 - InsertUnaryOp IINC 1 series
+144	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getSeriesStartValue(I)D:393 - InsertUnaryOp IINC -1 series
+145	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getSeriesStartValue(I)D:393 - InsertUnaryOp Negation
+146	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.getSeriesStartValue(I)D:393 - ReplaceConstant - 2.0 -> 0.0
+147	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.getSeriesStartValue(I)D:393 - ReplaceConstant - 2.0 -> 1.0
+148	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.getSeriesStartValue(I)D:393 - ReplaceConstant - 2.0 -> -1.0
+149	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.getSeriesStartValue(I)D:393 - ReplaceConstant - 2.0 -> 3.0
+150	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getSeriesStartValue(I)D:393 - ReplaceArithmeticOperator / -> +
+151	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getSeriesStartValue(I)D:393 - ReplaceArithmeticOperator / -> %
+152	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getSeriesStartValue(I)D:393 - ReplaceArithmeticOperator / -> -
+153	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getSeriesStartValue(I)D:393 - ReplaceArithmeticOperator / -> *
+154	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getSeriesStartValue(I)D:393 - ReplaceArithmeticOperator - -> +
+155	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getSeriesStartValue(I)D:393 - ReplaceArithmeticOperator - -> %
+156	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getSeriesStartValue(I)D:393 - ReplaceArithmeticOperator - -> *
+157	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getSeriesStartValue(I)D:393 - ReplaceArithmeticOperator - -> /
+158	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getSeriesEndValue(I)D:397 - InsertUnaryOp Negation of series
+159	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getSeriesEndValue(I)D:397 - InsertUnaryOp IINC 1 series
+160	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getSeriesEndValue(I)D:397 - InsertUnaryOp IINC -1 series
+161	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getSeriesEndValue(I)D:397 - InsertUnaryOp Negation
+162	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.getSeriesEndValue(I)D:397 - ReplaceConstant - 2.0 -> 0.0
+163	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.getSeriesEndValue(I)D:397 - ReplaceConstant - 2.0 -> 1.0
+164	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.getSeriesEndValue(I)D:397 - ReplaceConstant - 2.0 -> -1.0
+165	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.getSeriesEndValue(I)D:397 - ReplaceConstant - 2.0 -> 3.0
+166	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getSeriesEndValue(I)D:397 - ReplaceArithmeticOperator / -> +
+167	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getSeriesEndValue(I)D:397 - ReplaceArithmeticOperator / -> %
+168	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getSeriesEndValue(I)D:397 - ReplaceArithmeticOperator / -> -
+169	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getSeriesEndValue(I)D:397 - ReplaceArithmeticOperator / -> *
+170	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getSeriesEndValue(I)D:397 - ReplaceArithmeticOperator + -> %
+171	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getSeriesEndValue(I)D:397 - ReplaceArithmeticOperator + -> -
+172	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getSeriesEndValue(I)D:397 - ReplaceArithmeticOperator + -> *
+173	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getSeriesEndValue(I)D:397 - ReplaceArithmeticOperator + -> /
+174	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:401 - InsertUnaryOp Negation of series
+175	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:401 - InsertUnaryOp IINC 1 series
+176	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:401 - InsertUnaryOp IINC -1 series
+177	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:402 - InsertUnaryOp Negation of item
+178	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:402 - InsertUnaryOp IINC 1 item
+179	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:402 - InsertUnaryOp IINC -1 item
+180	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:406 - ReplaceArithmeticOperator + -> %
+181	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:406 - ReplaceArithmeticOperator + -> -
+182	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:406 - ReplaceArithmeticOperator + -> *
+183	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:406 - ReplaceArithmeticOperator + -> /
+184	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:406 - ReplaceConstant - 2.0 -> 0.0
+185	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:406 - ReplaceConstant - 2.0 -> 1.0
+186	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:406 - ReplaceConstant - 2.0 -> -1.0
+187	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:406 - ReplaceConstant - 2.0 -> 3.0
+188	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:406 - ReplaceArithmeticOperator / -> +
+189	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:406 - ReplaceArithmeticOperator / -> %
+190	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:406 - ReplaceArithmeticOperator / -> -
+191	ReplaceArithmeticOperator	org.jfree.data.gantt.XYTaskDataset.getItemValue(II)D:406 - ReplaceArithmeticOperator / -> *
+192	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemStartValue(II)D:410 - InsertUnaryOp Negation of series
+193	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemStartValue(II)D:410 - InsertUnaryOp IINC 1 series
+194	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemStartValue(II)D:410 - InsertUnaryOp IINC -1 series
+195	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemStartValue(II)D:411 - InsertUnaryOp Negation of item
+196	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemStartValue(II)D:411 - InsertUnaryOp IINC 1 item
+197	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemStartValue(II)D:411 - InsertUnaryOp IINC -1 item
+198	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemEndValue(II)D:418 - InsertUnaryOp Negation of series
+199	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemEndValue(II)D:418 - InsertUnaryOp IINC 1 series
+200	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemEndValue(II)D:418 - InsertUnaryOp IINC -1 series
+201	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemEndValue(II)D:419 - InsertUnaryOp Negation of item
+202	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemEndValue(II)D:419 - InsertUnaryOp IINC 1 item
+203	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.getItemEndValue(II)D:419 - InsertUnaryOp IINC -1 item
+204	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:446 - ReplaceComparisonOperator != -> ==
+205	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:447 - ReplaceConstant - 1 -> 0
+206	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:449 - ReplaceComparisonOperator != -> -1
+207	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:449 - ReplaceComparisonOperator != -> <
+208	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:449 - ReplaceComparisonOperator != -> >
+209	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:450 - ReplaceConstant - 0 -> 1
+210	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:453 - InsertUnaryOp Negation
+211	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:453 - InsertUnaryOp Negation
+212	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:453 - ReplaceComparisonOperator == -> -2
+213	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:453 - ReplaceComparisonOperator == -> >=
+214	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:453 - ReplaceComparisonOperator == -> <=
+215	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:454 - ReplaceConstant - 0 -> 1
+216	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:456 - InsertUnaryOp Negation
+217	InsertUnaryOp	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:456 - InsertUnaryOp Negation
+218	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:456 - ReplaceComparisonOperator == -> -2
+219	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:456 - ReplaceComparisonOperator == -> >=
+220	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:456 - ReplaceComparisonOperator == -> <=
+221	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:457 - ReplaceConstant - 0 -> 1
+222	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:459 - ReplaceComparisonOperator != -> -1
+223	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:459 - ReplaceComparisonOperator != -> <
+224	ReplaceComparisonOperator	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:459 - ReplaceComparisonOperator != -> >
+225	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:460 - ReplaceConstant - 0 -> 1
+226	ReplaceConstant	org.jfree.data.gantt.XYTaskDataset.equals(Ljava/lang/Object;)Z:462 - ReplaceConstant - 1 -> 0

@@ -1,0 +1,56 @@
+0	ReplaceConstant	org.jfree.chart.plot.dial.AbstractDialLayer.<init>()V:73 - ReplaceConstant - 1 -> 0
+1	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.isVisible()Z:87 - InsertUnaryOp Negation
+2	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.setVisible(Z)V:100 - InsertUnaryOp Negation of visible
+3	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.setVisible(Z)V:100 - InsertUnaryOp IINC 1 visible
+4	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.setVisible(Z)V:100 - InsertUnaryOp IINC -1 visible
+5	ReplaceComparisonOperator	org.jfree.chart.plot.dial.AbstractDialLayer.equals(Ljava/lang/Object;)Z:113 - ReplaceComparisonOperator != -> ==
+6	ReplaceConstant	org.jfree.chart.plot.dial.AbstractDialLayer.equals(Ljava/lang/Object;)Z:114 - ReplaceConstant - 1 -> 0
+7	ReplaceComparisonOperator	org.jfree.chart.plot.dial.AbstractDialLayer.equals(Ljava/lang/Object;)Z:116 - ReplaceComparisonOperator != -> -1
+8	ReplaceComparisonOperator	org.jfree.chart.plot.dial.AbstractDialLayer.equals(Ljava/lang/Object;)Z:116 - ReplaceComparisonOperator != -> <
+9	ReplaceComparisonOperator	org.jfree.chart.plot.dial.AbstractDialLayer.equals(Ljava/lang/Object;)Z:116 - ReplaceComparisonOperator != -> >
+10	ReplaceConstant	org.jfree.chart.plot.dial.AbstractDialLayer.equals(Ljava/lang/Object;)Z:117 - ReplaceConstant - 0 -> 1
+11	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.equals(Ljava/lang/Object;)Z:120 - InsertUnaryOp Negation
+12	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.equals(Ljava/lang/Object;)Z:120 - InsertUnaryOp Negation
+13	ReplaceComparisonOperator	org.jfree.chart.plot.dial.AbstractDialLayer.equals(Ljava/lang/Object;)Z:120 - ReplaceComparisonOperator != -> -1
+14	ReplaceComparisonOperator	org.jfree.chart.plot.dial.AbstractDialLayer.equals(Ljava/lang/Object;)Z:120 - ReplaceComparisonOperator != -> <
+15	ReplaceComparisonOperator	org.jfree.chart.plot.dial.AbstractDialLayer.equals(Ljava/lang/Object;)Z:120 - ReplaceComparisonOperator != -> >
+16	ReplaceConstant	org.jfree.chart.plot.dial.AbstractDialLayer.equals(Ljava/lang/Object;)Z:120 - ReplaceConstant - 1 -> 0
+17	ReplaceConstant	org.jfree.chart.plot.dial.AbstractDialLayer.equals(Ljava/lang/Object;)Z:120 - ReplaceConstant - 0 -> 1
+18	ReplaceConstant	org.jfree.chart.plot.dial.AbstractDialLayer.hashCode()I:130 - ReplaceConstant - 23 -> 0
+19	ReplaceConstant	org.jfree.chart.plot.dial.AbstractDialLayer.hashCode()I:130 - ReplaceConstant - 23 -> 1
+20	ReplaceConstant	org.jfree.chart.plot.dial.AbstractDialLayer.hashCode()I:130 - ReplaceConstant - 23 -> -1
+21	ReplaceConstant	org.jfree.chart.plot.dial.AbstractDialLayer.hashCode()I:130 - ReplaceConstant - 23 -> 22
+22	ReplaceConstant	org.jfree.chart.plot.dial.AbstractDialLayer.hashCode()I:130 - ReplaceConstant - 23 -> 24
+23	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.hashCode()I:131 - InsertUnaryOp Negation of result
+24	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.hashCode()I:131 - InsertUnaryOp IINC 1 result
+25	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.hashCode()I:131 - InsertUnaryOp IINC -1 result
+26	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.hashCode()I:131 - InsertUnaryOp Negation
+27	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.hashCode()I:132 - InsertUnaryOp Negation of result
+28	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.hashCode()I:132 - InsertUnaryOp IINC 1 result
+29	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.hashCode()I:132 - InsertUnaryOp IINC -1 result
+30	ReplaceConstant	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:198 - ReplaceConstant - 2 -> 0
+31	ReplaceConstant	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:198 - ReplaceConstant - 2 -> 1
+32	ReplaceConstant	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:198 - ReplaceConstant - 2 -> -1
+33	ReplaceConstant	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:198 - ReplaceConstant - 2 -> 3
+34	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:198 - ReplaceArithmeticOperator - -> +
+35	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:198 - ReplaceArithmeticOperator - -> %
+36	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:198 - ReplaceArithmeticOperator - -> *
+37	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:198 - ReplaceArithmeticOperator - -> /
+38	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:198 - InsertUnaryOp Negation of i
+39	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:198 - InsertUnaryOp IINC 1 i
+40	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:198 - InsertUnaryOp IINC -1 i
+41	ReplaceComparisonOperator	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:198 - ReplaceComparisonOperator < -> -2
+42	ReplaceComparisonOperator	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:198 - ReplaceComparisonOperator < -> !=
+43	ReplaceComparisonOperator	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:198 - ReplaceComparisonOperator < -> <=
+44	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:199 - InsertUnaryOp Negation of i
+45	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:199 - InsertUnaryOp IINC 1 i
+46	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:199 - InsertUnaryOp IINC -1 i
+47	ReplaceComparisonOperator	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:199 - ReplaceComparisonOperator != -> ==
+48	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:200 - InsertUnaryOp Negation of i
+49	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:200 - InsertUnaryOp IINC 1 i
+50	InsertUnaryOp	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:200 - InsertUnaryOp IINC -1 i
+51	ReplaceConstant	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:200 - ReplaceConstant - 1 -> 0
+52	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:200 - ReplaceArithmeticOperator + -> %
+53	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:200 - ReplaceArithmeticOperator + -> -
+54	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:200 - ReplaceArithmeticOperator + -> *
+55	ReplaceArithmeticOperator	org.jfree.chart.plot.dial.AbstractDialLayer.notifyListeners(Lorg/jfree/chart/plot/dial/DialLayerChangeEvent;)V:200 - ReplaceArithmeticOperator + -> /

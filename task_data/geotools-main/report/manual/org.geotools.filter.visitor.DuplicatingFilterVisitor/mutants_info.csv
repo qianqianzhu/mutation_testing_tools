@@ -1,0 +1,40 @@
+0	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.getFactory(Ljava/lang/Object;)Lorg/opengis/filter/FilterFactory2;:109 - ReplaceComparisonOperator == -> -2
+1	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.getFactory(Ljava/lang/Object;)Lorg/opengis/filter/FilterFactory2;:109 - ReplaceComparisonOperator == -> >=
+2	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.getFactory(Ljava/lang/Object;)Lorg/opengis/filter/FilterFactory2;:109 - ReplaceComparisonOperator == -> <=
+3	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/expression/Expression;Ljava/lang/Object;)Lorg/opengis/filter/expression/Expression;:130 - ReplaceComparisonOperator != null -> = null
+4	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:138 - ReplaceComparisonOperator == -> -2
+5	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:138 - ReplaceComparisonOperator == -> >=
+6	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:138 - ReplaceComparisonOperator == -> <=
+7	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:140 - ReplaceComparisonOperator = null -> != null
+8	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:159 - ReplaceComparisonOperator == -> -2
+9	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:159 - ReplaceComparisonOperator == -> >=
+10	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:159 - ReplaceComparisonOperator == -> <=
+11	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:161 - ReplaceComparisonOperator = null -> != null
+12	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:180 - InsertUnaryOp Negation of matchCase
+13	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:180 - InsertUnaryOp IINC 1 matchCase
+14	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:180 - InsertUnaryOp IINC -1 matchCase
+15	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNotEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:187 - InsertUnaryOp Negation of matchCase
+16	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNotEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:187 - InsertUnaryOp IINC 1 matchCase
+17	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNotEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:187 - InsertUnaryOp IINC -1 matchCase
+18	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLike;Ljava/lang/Object;)Ljava/lang/Object;:221 - InsertUnaryOp Negation of matchCase
+19	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLike;Ljava/lang/Object;)Ljava/lang/Object;:221 - InsertUnaryOp IINC 1 matchCase
+20	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLike;Ljava/lang/Object;)Ljava/lang/Object;:221 - InsertUnaryOp IINC -1 matchCase
+21	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/spatial/BBOX;Ljava/lang/Object;)Ljava/lang/Object;:237 - ReplaceComparisonOperator != -> -1
+22	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/spatial/BBOX;Ljava/lang/Object;)Ljava/lang/Object;:237 - ReplaceComparisonOperator != -> <
+23	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/spatial/BBOX;Ljava/lang/Object;)Ljava/lang/Object;:237 - ReplaceComparisonOperator != -> >
+24	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/spatial/BBOX;Ljava/lang/Object;)Ljava/lang/Object;:243 - InsertUnaryOp Negation of minx
+25	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/spatial/BBOX;Ljava/lang/Object;)Ljava/lang/Object;:243 - InsertUnaryOp Negation of miny
+26	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/spatial/BBOX;Ljava/lang/Object;)Ljava/lang/Object;:243 - InsertUnaryOp Negation of maxx
+27	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/spatial/BBOX;Ljava/lang/Object;)Ljava/lang/Object;:243 - InsertUnaryOp Negation of maxy
+28	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/spatial/Beyond;Ljava/lang/Object;)Ljava/lang/Object;:254 - InsertUnaryOp Negation of distance
+29	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/spatial/DWithin;Ljava/lang/Object;)Ljava/lang/Object;:280 - InsertUnaryOp Negation of distance
+30	ReplaceConstant	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:336 - ReplaceConstant - 0 -> 1
+31	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:337 - ReplaceComparisonOperator == -> -2
+32	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:337 - ReplaceComparisonOperator == -> >=
+33	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:337 - ReplaceComparisonOperator == -> <=
+34	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:339 - InsertUnaryOp Negation of i
+35	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:339 - InsertUnaryOp IINC 1 i
+36	InsertUnaryOp	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:339 - InsertUnaryOp IINC -1 i
+37	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:342 - ReplaceComparisonOperator == -> -2
+38	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:342 - ReplaceComparisonOperator == -> >=
+39	ReplaceComparisonOperator	org.geotools.filter.visitor.DuplicatingFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:342 - ReplaceComparisonOperator == -> <=

@@ -1,0 +1,887 @@
+0	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.negate(Ljava/lang/Boolean;)Ljava/lang/Boolean;:63 - ReplaceComparisonOperator != null -> = null
+1	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.negate(Ljava/lang/Boolean;)Ljava/lang/Boolean;:66 - ReplaceComparisonOperator == -> -2
+2	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.negate(Ljava/lang/Boolean;)Ljava/lang/Boolean;:66 - ReplaceComparisonOperator == -> >=
+3	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.negate(Ljava/lang/Boolean;)Ljava/lang/Boolean;:66 - ReplaceComparisonOperator == -> <=
+4	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.isNotTrue(Ljava/lang/Boolean;)Z:104 - ReplaceComparisonOperator != -> -1
+5	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.isNotTrue(Ljava/lang/Boolean;)Z:104 - ReplaceComparisonOperator != -> <
+6	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.isNotTrue(Ljava/lang/Boolean;)Z:104 - ReplaceComparisonOperator != -> >
+7	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.isNotTrue(Ljava/lang/Boolean;)Z:104 - ReplaceConstant - 1 -> 0
+8	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.isNotTrue(Ljava/lang/Boolean;)Z:104 - ReplaceConstant - 0 -> 1
+9	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.isNotFalse(Ljava/lang/Boolean;)Z:140 - ReplaceComparisonOperator != -> -1
+10	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.isNotFalse(Ljava/lang/Boolean;)Z:140 - ReplaceComparisonOperator != -> <
+11	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.isNotFalse(Ljava/lang/Boolean;)Z:140 - ReplaceComparisonOperator != -> >
+12	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.isNotFalse(Ljava/lang/Boolean;)Z:140 - ReplaceConstant - 1 -> 0
+13	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.isNotFalse(Ljava/lang/Boolean;)Z:140 - ReplaceConstant - 0 -> 1
+14	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Boolean;)Z:158 - ReplaceComparisonOperator = null -> != null
+15	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Boolean;)Z:158 - ReplaceComparisonOperator == -> -2
+16	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Boolean;)Z:158 - ReplaceComparisonOperator == -> >=
+17	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Boolean;)Z:158 - ReplaceComparisonOperator == -> <=
+18	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Boolean;)Z:158 - ReplaceConstant - 1 -> 0
+19	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Boolean;)Z:158 - ReplaceConstant - 0 -> 1
+20	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanDefaultIfNull(Ljava/lang/Boolean;Z)Z:175 - ReplaceComparisonOperator != null -> = null
+21	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanDefaultIfNull(Ljava/lang/Boolean;Z)Z:176 - InsertUnaryOp Negation of valueIfNull
+22	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanDefaultIfNull(Ljava/lang/Boolean;Z)Z:176 - InsertUnaryOp IINC 1 valueIfNull
+23	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanDefaultIfNull(Ljava/lang/Boolean;Z)Z:176 - InsertUnaryOp IINC -1 valueIfNull
+24	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBoolean(I)Z:198 - InsertUnaryOp Negation of value
+25	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBoolean(I)Z:198 - InsertUnaryOp IINC 1 value
+26	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBoolean(I)Z:198 - InsertUnaryOp IINC -1 value
+27	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(I)Z:198 - ReplaceComparisonOperator == -> -2
+28	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(I)Z:198 - ReplaceComparisonOperator == -> >=
+29	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(I)Z:198 - ReplaceComparisonOperator == -> <=
+30	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(I)Z:198 - ReplaceConstant - 1 -> 0
+31	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(I)Z:198 - ReplaceConstant - 0 -> 1
+32	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(I)Ljava/lang/Boolean;:216 - InsertUnaryOp Negation of value
+33	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(I)Ljava/lang/Boolean;:216 - InsertUnaryOp IINC 1 value
+34	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(I)Ljava/lang/Boolean;:216 - InsertUnaryOp IINC -1 value
+35	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(I)Ljava/lang/Boolean;:216 - ReplaceComparisonOperator != -> -1
+36	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(I)Ljava/lang/Boolean;:216 - ReplaceComparisonOperator != -> <
+37	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(I)Ljava/lang/Boolean;:216 - ReplaceComparisonOperator != -> >
+38	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;)Ljava/lang/Boolean;:238 - ReplaceComparisonOperator != null -> = null
+39	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;)Ljava/lang/Boolean;:241 - ReplaceComparisonOperator != -> -1
+40	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;)Ljava/lang/Boolean;:241 - ReplaceComparisonOperator != -> <
+41	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;)Ljava/lang/Boolean;:241 - ReplaceComparisonOperator != -> >
+42	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:261 - InsertUnaryOp Negation of value
+43	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:261 - InsertUnaryOp IINC 1 value
+44	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:261 - InsertUnaryOp IINC -1 value
+45	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:261 - InsertUnaryOp Negation of trueValue
+46	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:261 - InsertUnaryOp IINC 1 trueValue
+47	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:261 - InsertUnaryOp IINC -1 trueValue
+48	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:261 - ReplaceComparisonOperator != -> -1
+49	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:261 - ReplaceComparisonOperator != -> <
+50	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:261 - ReplaceComparisonOperator != -> >
+51	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:262 - ReplaceConstant - 1 -> 0
+52	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:264 - InsertUnaryOp Negation of value
+53	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:264 - InsertUnaryOp IINC 1 value
+54	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:264 - InsertUnaryOp IINC -1 value
+55	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:264 - InsertUnaryOp Negation of falseValue
+56	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:264 - InsertUnaryOp IINC 1 falseValue
+57	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:264 - InsertUnaryOp IINC -1 falseValue
+58	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:264 - ReplaceComparisonOperator != -> -1
+59	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:264 - ReplaceComparisonOperator != -> <
+60	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:264 - ReplaceComparisonOperator != -> >
+61	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:265 - ReplaceConstant - 0 -> 1
+62	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(III)Z:268 - ReplaceConstant - The Integer did not match either specified value -> 
+63	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Z:289 - ReplaceComparisonOperator != null -> = null
+64	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Z:290 - ReplaceComparisonOperator != null -> = null
+65	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Z:291 - ReplaceConstant - 1 -> 0
+66	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Z:293 - ReplaceComparisonOperator != null -> = null
+67	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Z:294 - ReplaceConstant - 0 -> 1
+68	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Z:296 - ReplaceComparisonOperator == -> -2
+69	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Z:296 - ReplaceComparisonOperator == -> >=
+70	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Z:296 - ReplaceComparisonOperator == -> <=
+71	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Z:297 - ReplaceConstant - 1 -> 0
+72	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Z:298 - ReplaceComparisonOperator == -> -2
+73	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Z:298 - ReplaceComparisonOperator == -> >=
+74	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Z:298 - ReplaceComparisonOperator == -> <=
+75	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Z:299 - ReplaceConstant - 0 -> 1
+76	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Z:302 - ReplaceConstant - The Integer did not match either specified value -> 
+77	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:324 - InsertUnaryOp Negation of value
+78	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:324 - InsertUnaryOp IINC 1 value
+79	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:324 - InsertUnaryOp IINC -1 value
+80	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:324 - InsertUnaryOp Negation of trueValue
+81	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:324 - InsertUnaryOp IINC 1 trueValue
+82	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:324 - InsertUnaryOp IINC -1 trueValue
+83	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:324 - ReplaceComparisonOperator != -> -1
+84	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:324 - ReplaceComparisonOperator != -> <
+85	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:324 - ReplaceComparisonOperator != -> >
+86	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:327 - InsertUnaryOp Negation of value
+87	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:327 - InsertUnaryOp IINC 1 value
+88	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:327 - InsertUnaryOp IINC -1 value
+89	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:327 - InsertUnaryOp Negation of falseValue
+90	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:327 - InsertUnaryOp IINC 1 falseValue
+91	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:327 - InsertUnaryOp IINC -1 falseValue
+92	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:327 - ReplaceComparisonOperator != -> -1
+93	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:327 - ReplaceComparisonOperator != -> <
+94	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:327 - ReplaceComparisonOperator != -> >
+95	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:330 - InsertUnaryOp Negation of value
+96	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:330 - InsertUnaryOp IINC 1 value
+97	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:330 - InsertUnaryOp IINC -1 value
+98	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:330 - InsertUnaryOp Negation of nullValue
+99	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:330 - InsertUnaryOp IINC 1 nullValue
+100	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:330 - InsertUnaryOp IINC -1 nullValue
+101	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:330 - ReplaceComparisonOperator != -> -1
+102	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:330 - ReplaceComparisonOperator != -> <
+103	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:330 - ReplaceComparisonOperator != -> >
+104	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(IIII)Ljava/lang/Boolean;:334 - ReplaceConstant - The Integer did not match any specified value -> 
+105	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Boolean;:356 - ReplaceComparisonOperator != null -> = null
+106	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Boolean;:357 - ReplaceComparisonOperator != null -> = null
+107	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Boolean;:360 - ReplaceComparisonOperator != null -> = null
+108	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Boolean;:363 - ReplaceComparisonOperator != null -> = null
+109	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Boolean;:366 - ReplaceComparisonOperator == -> -2
+110	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Boolean;:366 - ReplaceComparisonOperator == -> >=
+111	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Boolean;:366 - ReplaceComparisonOperator == -> <=
+112	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Boolean;:368 - ReplaceComparisonOperator == -> -2
+113	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Boolean;:368 - ReplaceComparisonOperator == -> >=
+114	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Boolean;:368 - ReplaceComparisonOperator == -> <=
+115	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Boolean;:370 - ReplaceComparisonOperator == -> -2
+116	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Boolean;:370 - ReplaceComparisonOperator == -> >=
+117	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Boolean;:370 - ReplaceComparisonOperator == -> <=
+118	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Boolean;:374 - ReplaceConstant - The Integer did not match any specified value -> 
+119	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(Z)I:392 - InsertUnaryOp Negation of bool
+120	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(Z)I:392 - InsertUnaryOp IINC 1 bool
+121	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(Z)I:392 - InsertUnaryOp IINC -1 bool
+122	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toInteger(Z)I:392 - ReplaceComparisonOperator == -> -2
+123	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toInteger(Z)I:392 - ReplaceComparisonOperator == -> >=
+124	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toInteger(Z)I:392 - ReplaceComparisonOperator == -> <=
+125	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toInteger(Z)I:392 - ReplaceConstant - 1 -> 0
+126	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toInteger(Z)I:392 - ReplaceConstant - 0 -> 1
+127	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toIntegerObject(Z)Ljava/lang/Integer;:408 - InsertUnaryOp Negation of bool
+128	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toIntegerObject(Z)Ljava/lang/Integer;:408 - InsertUnaryOp IINC 1 bool
+129	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toIntegerObject(Z)Ljava/lang/Integer;:408 - InsertUnaryOp IINC -1 bool
+130	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toIntegerObject(Z)Ljava/lang/Integer;:408 - ReplaceComparisonOperator == -> -2
+131	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toIntegerObject(Z)Ljava/lang/Integer;:408 - ReplaceComparisonOperator == -> >=
+132	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toIntegerObject(Z)Ljava/lang/Integer;:408 - ReplaceComparisonOperator == -> <=
+133	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toIntegerObject(Ljava/lang/Boolean;)Ljava/lang/Integer;:426 - ReplaceComparisonOperator != null -> = null
+134	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toIntegerObject(Ljava/lang/Boolean;)Ljava/lang/Integer;:429 - ReplaceComparisonOperator == -> -2
+135	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toIntegerObject(Ljava/lang/Boolean;)Ljava/lang/Integer;:429 - ReplaceComparisonOperator == -> >=
+136	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toIntegerObject(Ljava/lang/Boolean;)Ljava/lang/Integer;:429 - ReplaceComparisonOperator == -> <=
+137	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(ZII)I:446 - InsertUnaryOp Negation of bool
+138	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(ZII)I:446 - InsertUnaryOp IINC 1 bool
+139	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(ZII)I:446 - InsertUnaryOp IINC -1 bool
+140	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toInteger(ZII)I:446 - ReplaceComparisonOperator == -> -2
+141	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toInteger(ZII)I:446 - ReplaceComparisonOperator == -> >=
+142	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toInteger(ZII)I:446 - ReplaceComparisonOperator == -> <=
+143	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(ZII)I:446 - InsertUnaryOp Negation of trueValue
+144	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(ZII)I:446 - InsertUnaryOp IINC 1 trueValue
+145	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(ZII)I:446 - InsertUnaryOp IINC -1 trueValue
+146	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(ZII)I:446 - InsertUnaryOp Negation of falseValue
+147	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(ZII)I:446 - InsertUnaryOp IINC 1 falseValue
+148	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(ZII)I:446 - InsertUnaryOp IINC -1 falseValue
+149	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toInteger(Ljava/lang/Boolean;III)I:465 - ReplaceComparisonOperator != null -> = null
+150	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(Ljava/lang/Boolean;III)I:466 - InsertUnaryOp Negation of nullValue
+151	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(Ljava/lang/Boolean;III)I:466 - InsertUnaryOp IINC 1 nullValue
+152	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(Ljava/lang/Boolean;III)I:466 - InsertUnaryOp IINC -1 nullValue
+153	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toInteger(Ljava/lang/Boolean;III)I:468 - ReplaceComparisonOperator == -> -2
+154	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toInteger(Ljava/lang/Boolean;III)I:468 - ReplaceComparisonOperator == -> >=
+155	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toInteger(Ljava/lang/Boolean;III)I:468 - ReplaceComparisonOperator == -> <=
+156	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(Ljava/lang/Boolean;III)I:468 - InsertUnaryOp Negation of trueValue
+157	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(Ljava/lang/Boolean;III)I:468 - InsertUnaryOp IINC 1 trueValue
+158	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(Ljava/lang/Boolean;III)I:468 - InsertUnaryOp IINC -1 trueValue
+159	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(Ljava/lang/Boolean;III)I:468 - InsertUnaryOp Negation of falseValue
+160	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(Ljava/lang/Boolean;III)I:468 - InsertUnaryOp IINC 1 falseValue
+161	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toInteger(Ljava/lang/Boolean;III)I:468 - InsertUnaryOp IINC -1 falseValue
+162	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toIntegerObject(ZLjava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;:485 - InsertUnaryOp Negation of bool
+163	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toIntegerObject(ZLjava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;:485 - InsertUnaryOp IINC 1 bool
+164	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toIntegerObject(ZLjava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;:485 - InsertUnaryOp IINC -1 bool
+165	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toIntegerObject(ZLjava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;:485 - ReplaceComparisonOperator == -> -2
+166	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toIntegerObject(ZLjava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;:485 - ReplaceComparisonOperator == -> >=
+167	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toIntegerObject(ZLjava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;:485 - ReplaceComparisonOperator == -> <=
+168	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toIntegerObject(Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;:504 - ReplaceComparisonOperator != null -> = null
+169	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toIntegerObject(Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;:507 - ReplaceComparisonOperator == -> -2
+170	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toIntegerObject(Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;:507 - ReplaceComparisonOperator == -> >=
+171	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toIntegerObject(Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/Integer;:507 - ReplaceComparisonOperator == -> <=
+172	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:553 - ReplaceConstant - true -> 
+173	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:553 - ReplaceComparisonOperator != -> ==
+174	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:556 - ReplaceComparisonOperator != null -> = null
+175	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:561 - ReplaceConstant - 0 -> 1
+176	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - InsertUnaryOp Negation of ch0
+177	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - InsertUnaryOp IINC 1 ch0
+178	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - InsertUnaryOp IINC -1 ch0
+179	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 121 -> 0
+180	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 121 -> 1
+181	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 121 -> -1
+182	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 121 -> 120
+183	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 121 -> 122
+184	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceComparisonOperator == -> -2
+185	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceComparisonOperator == -> >=
+186	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceComparisonOperator == -> <=
+187	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - InsertUnaryOp Negation of ch0
+188	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - InsertUnaryOp IINC 1 ch0
+189	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - InsertUnaryOp IINC -1 ch0
+190	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 89 -> 0
+191	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 89 -> 1
+192	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 89 -> -1
+193	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 89 -> 88
+194	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 89 -> 90
+195	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceComparisonOperator == -> -2
+196	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceComparisonOperator == -> >=
+197	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceComparisonOperator == -> <=
+198	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - InsertUnaryOp Negation of ch0
+199	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - InsertUnaryOp IINC 1 ch0
+200	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - InsertUnaryOp IINC -1 ch0
+201	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 116 -> 0
+202	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 116 -> 1
+203	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 116 -> -1
+204	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 116 -> 115
+205	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 116 -> 117
+206	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceComparisonOperator == -> -2
+207	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceComparisonOperator == -> >=
+208	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceComparisonOperator == -> <=
+209	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - InsertUnaryOp Negation of ch0
+210	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - InsertUnaryOp IINC 1 ch0
+211	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - InsertUnaryOp IINC -1 ch0
+212	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 84 -> 0
+213	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 84 -> 1
+214	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 84 -> -1
+215	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 84 -> 83
+216	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceConstant - 84 -> 85
+217	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceComparisonOperator != -> -1
+218	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceComparisonOperator != -> <
+219	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:562 - ReplaceComparisonOperator != -> >
+220	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - InsertUnaryOp Negation of ch0
+221	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - InsertUnaryOp IINC 1 ch0
+222	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - InsertUnaryOp IINC -1 ch0
+223	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 110 -> 0
+224	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 110 -> 1
+225	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 110 -> -1
+226	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 110 -> 109
+227	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 110 -> 111
+228	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceComparisonOperator == -> -2
+229	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceComparisonOperator == -> >=
+230	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceComparisonOperator == -> <=
+231	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - InsertUnaryOp Negation of ch0
+232	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - InsertUnaryOp IINC 1 ch0
+233	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - InsertUnaryOp IINC -1 ch0
+234	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 78 -> 0
+235	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 78 -> 1
+236	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 78 -> -1
+237	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 78 -> 77
+238	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 78 -> 79
+239	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceComparisonOperator == -> -2
+240	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceComparisonOperator == -> >=
+241	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceComparisonOperator == -> <=
+242	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - InsertUnaryOp Negation of ch0
+243	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - InsertUnaryOp IINC 1 ch0
+244	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - InsertUnaryOp IINC -1 ch0
+245	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 102 -> 0
+246	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 102 -> 1
+247	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 102 -> -1
+248	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 102 -> 101
+249	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 102 -> 103
+250	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceComparisonOperator == -> -2
+251	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceComparisonOperator == -> >=
+252	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceComparisonOperator == -> <=
+253	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - InsertUnaryOp Negation of ch0
+254	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - InsertUnaryOp IINC 1 ch0
+255	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - InsertUnaryOp IINC -1 ch0
+256	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 70 -> 0
+257	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 70 -> 1
+258	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 70 -> -1
+259	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 70 -> 69
+260	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceConstant - 70 -> 71
+261	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceComparisonOperator != -> -1
+262	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceComparisonOperator != -> <
+263	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:566 - ReplaceComparisonOperator != -> >
+264	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:573 - ReplaceConstant - 0 -> 1
+265	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:574 - ReplaceConstant - 1 -> 0
+266	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - InsertUnaryOp Negation of ch0
+267	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - InsertUnaryOp IINC 1 ch0
+268	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - InsertUnaryOp IINC -1 ch0
+269	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 111 -> 0
+270	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 111 -> 1
+271	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 111 -> -1
+272	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 111 -> 110
+273	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 111 -> 112
+274	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceComparisonOperator == -> -2
+275	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceComparisonOperator == -> >=
+276	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceComparisonOperator == -> <=
+277	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - InsertUnaryOp Negation of ch0
+278	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - InsertUnaryOp IINC 1 ch0
+279	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - InsertUnaryOp IINC -1 ch0
+280	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 79 -> 0
+281	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 79 -> 1
+282	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 79 -> -1
+283	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 79 -> 78
+284	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 79 -> 80
+285	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceComparisonOperator != -> -1
+286	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceComparisonOperator != -> <
+287	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceComparisonOperator != -> >
+288	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - InsertUnaryOp Negation of ch1
+289	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - InsertUnaryOp IINC 1 ch1
+290	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - InsertUnaryOp IINC -1 ch1
+291	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 110 -> 0
+292	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 110 -> 1
+293	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 110 -> -1
+294	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 110 -> 109
+295	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 110 -> 111
+296	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceComparisonOperator == -> -2
+297	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceComparisonOperator == -> >=
+298	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceComparisonOperator == -> <=
+299	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - InsertUnaryOp Negation of ch1
+300	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - InsertUnaryOp IINC 1 ch1
+301	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - InsertUnaryOp IINC -1 ch1
+302	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 78 -> 0
+303	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 78 -> 1
+304	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 78 -> -1
+305	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 78 -> 77
+306	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceConstant - 78 -> 79
+307	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceComparisonOperator != -> -1
+308	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceComparisonOperator != -> <
+309	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:575 - ReplaceComparisonOperator != -> >
+310	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - InsertUnaryOp Negation of ch0
+311	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - InsertUnaryOp IINC 1 ch0
+312	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - InsertUnaryOp IINC -1 ch0
+313	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 110 -> 0
+314	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 110 -> 1
+315	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 110 -> -1
+316	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 110 -> 109
+317	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 110 -> 111
+318	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceComparisonOperator == -> -2
+319	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceComparisonOperator == -> >=
+320	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceComparisonOperator == -> <=
+321	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - InsertUnaryOp Negation of ch0
+322	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - InsertUnaryOp IINC 1 ch0
+323	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - InsertUnaryOp IINC -1 ch0
+324	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 78 -> 0
+325	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 78 -> 1
+326	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 78 -> -1
+327	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 78 -> 77
+328	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 78 -> 79
+329	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceComparisonOperator != -> -1
+330	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceComparisonOperator != -> <
+331	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceComparisonOperator != -> >
+332	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - InsertUnaryOp Negation of ch1
+333	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - InsertUnaryOp IINC 1 ch1
+334	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - InsertUnaryOp IINC -1 ch1
+335	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 111 -> 0
+336	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 111 -> 1
+337	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 111 -> -1
+338	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 111 -> 110
+339	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 111 -> 112
+340	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceComparisonOperator == -> -2
+341	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceComparisonOperator == -> >=
+342	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceComparisonOperator == -> <=
+343	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - InsertUnaryOp Negation of ch1
+344	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - InsertUnaryOp IINC 1 ch1
+345	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - InsertUnaryOp IINC -1 ch1
+346	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 79 -> 0
+347	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 79 -> 1
+348	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 79 -> -1
+349	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 79 -> 78
+350	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceConstant - 79 -> 80
+351	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceComparisonOperator != -> -1
+352	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceComparisonOperator != -> <
+353	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:579 - ReplaceComparisonOperator != -> >
+354	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:586 - ReplaceConstant - 0 -> 1
+355	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:587 - ReplaceConstant - 1 -> 0
+356	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:588 - ReplaceConstant - 2 -> 0
+357	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:588 - ReplaceConstant - 2 -> 1
+358	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:588 - ReplaceConstant - 2 -> -1
+359	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:588 - ReplaceConstant - 2 -> 3
+360	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp Negation of ch0
+361	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp IINC 1 ch0
+362	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp IINC -1 ch0
+363	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 121 -> 0
+364	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 121 -> 1
+365	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 121 -> -1
+366	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 121 -> 120
+367	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 121 -> 122
+368	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator == -> -2
+369	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator == -> >=
+370	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator == -> <=
+371	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp Negation of ch0
+372	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp IINC 1 ch0
+373	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp IINC -1 ch0
+374	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 89 -> 0
+375	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 89 -> 1
+376	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 89 -> -1
+377	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 89 -> 88
+378	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 89 -> 90
+379	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator != -> -1
+380	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator != -> <
+381	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator != -> >
+382	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp Negation of ch1
+383	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp IINC 1 ch1
+384	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp IINC -1 ch1
+385	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 101 -> 0
+386	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 101 -> 1
+387	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 101 -> -1
+388	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 101 -> 100
+389	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 101 -> 102
+390	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator == -> -2
+391	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator == -> >=
+392	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator == -> <=
+393	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp Negation of ch1
+394	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp IINC 1 ch1
+395	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp IINC -1 ch1
+396	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 69 -> 0
+397	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 69 -> 1
+398	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 69 -> -1
+399	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 69 -> 68
+400	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 69 -> 70
+401	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator != -> -1
+402	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator != -> <
+403	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator != -> >
+404	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp Negation of ch2
+405	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp IINC 1 ch2
+406	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp IINC -1 ch2
+407	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 115 -> 0
+408	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 115 -> 1
+409	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 115 -> -1
+410	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 115 -> 114
+411	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 115 -> 116
+412	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator == -> -2
+413	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator == -> >=
+414	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator == -> <=
+415	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp Negation of ch2
+416	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp IINC 1 ch2
+417	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - InsertUnaryOp IINC -1 ch2
+418	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 83 -> 0
+419	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 83 -> 1
+420	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 83 -> -1
+421	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 83 -> 82
+422	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceConstant - 83 -> 84
+423	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator != -> -1
+424	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator != -> <
+425	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:589 - ReplaceComparisonOperator != -> >
+426	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp Negation of ch0
+427	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp IINC 1 ch0
+428	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp IINC -1 ch0
+429	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 111 -> 0
+430	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 111 -> 1
+431	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 111 -> -1
+432	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 111 -> 110
+433	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 111 -> 112
+434	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator == -> -2
+435	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator == -> >=
+436	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator == -> <=
+437	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp Negation of ch0
+438	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp IINC 1 ch0
+439	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp IINC -1 ch0
+440	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 79 -> 0
+441	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 79 -> 1
+442	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 79 -> -1
+443	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 79 -> 78
+444	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 79 -> 80
+445	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator != -> -1
+446	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator != -> <
+447	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator != -> >
+448	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp Negation of ch1
+449	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp IINC 1 ch1
+450	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp IINC -1 ch1
+451	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 102 -> 0
+452	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 102 -> 1
+453	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 102 -> -1
+454	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 102 -> 101
+455	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 102 -> 103
+456	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator == -> -2
+457	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator == -> >=
+458	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator == -> <=
+459	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp Negation of ch1
+460	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp IINC 1 ch1
+461	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp IINC -1 ch1
+462	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 70 -> 0
+463	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 70 -> 1
+464	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 70 -> -1
+465	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 70 -> 69
+466	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 70 -> 71
+467	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator != -> -1
+468	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator != -> <
+469	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator != -> >
+470	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp Negation of ch2
+471	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp IINC 1 ch2
+472	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp IINC -1 ch2
+473	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 102 -> 0
+474	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 102 -> 1
+475	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 102 -> -1
+476	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 102 -> 101
+477	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 102 -> 103
+478	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator == -> -2
+479	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator == -> >=
+480	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator == -> <=
+481	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp Negation of ch2
+482	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp IINC 1 ch2
+483	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - InsertUnaryOp IINC -1 ch2
+484	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 70 -> 0
+485	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 70 -> 1
+486	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 70 -> -1
+487	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 70 -> 69
+488	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceConstant - 70 -> 71
+489	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator != -> -1
+490	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator != -> <
+491	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:594 - ReplaceComparisonOperator != -> >
+492	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:602 - ReplaceConstant - 0 -> 1
+493	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:603 - ReplaceConstant - 1 -> 0
+494	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:604 - ReplaceConstant - 2 -> 0
+495	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:604 - ReplaceConstant - 2 -> 1
+496	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:604 - ReplaceConstant - 2 -> -1
+497	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:604 - ReplaceConstant - 2 -> 3
+498	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:605 - ReplaceConstant - 3 -> 0
+499	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:605 - ReplaceConstant - 3 -> 1
+500	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:605 - ReplaceConstant - 3 -> -1
+501	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:605 - ReplaceConstant - 3 -> 2
+502	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:605 - ReplaceConstant - 3 -> 4
+503	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp Negation of ch0
+504	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp IINC 1 ch0
+505	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp IINC -1 ch0
+506	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 116 -> 0
+507	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 116 -> 1
+508	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 116 -> -1
+509	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 116 -> 115
+510	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 116 -> 117
+511	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator == -> -2
+512	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator == -> >=
+513	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator == -> <=
+514	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp Negation of ch0
+515	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp IINC 1 ch0
+516	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp IINC -1 ch0
+517	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 84 -> 0
+518	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 84 -> 1
+519	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 84 -> -1
+520	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 84 -> 83
+521	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 84 -> 85
+522	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator != -> -1
+523	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator != -> <
+524	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator != -> >
+525	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp Negation of ch1
+526	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp IINC 1 ch1
+527	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp IINC -1 ch1
+528	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 114 -> 0
+529	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 114 -> 1
+530	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 114 -> -1
+531	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 114 -> 113
+532	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 114 -> 115
+533	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator == -> -2
+534	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator == -> >=
+535	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator == -> <=
+536	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp Negation of ch1
+537	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp IINC 1 ch1
+538	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp IINC -1 ch1
+539	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 82 -> 0
+540	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 82 -> 1
+541	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 82 -> -1
+542	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 82 -> 81
+543	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 82 -> 83
+544	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator != -> -1
+545	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator != -> <
+546	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator != -> >
+547	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp Negation of ch2
+548	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp IINC 1 ch2
+549	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp IINC -1 ch2
+550	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 117 -> 0
+551	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 117 -> 1
+552	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 117 -> -1
+553	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 117 -> 116
+554	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 117 -> 118
+555	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator == -> -2
+556	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator == -> >=
+557	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator == -> <=
+558	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp Negation of ch2
+559	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp IINC 1 ch2
+560	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp IINC -1 ch2
+561	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 85 -> 0
+562	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 85 -> 1
+563	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 85 -> -1
+564	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 85 -> 84
+565	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 85 -> 86
+566	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator != -> -1
+567	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator != -> <
+568	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator != -> >
+569	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp Negation of ch3
+570	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp IINC 1 ch3
+571	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp IINC -1 ch3
+572	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 101 -> 0
+573	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 101 -> 1
+574	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 101 -> -1
+575	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 101 -> 100
+576	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 101 -> 102
+577	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator == -> -2
+578	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator == -> >=
+579	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator == -> <=
+580	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp Negation of ch3
+581	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp IINC 1 ch3
+582	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - InsertUnaryOp IINC -1 ch3
+583	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 69 -> 0
+584	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 69 -> 1
+585	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 69 -> -1
+586	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 69 -> 68
+587	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceConstant - 69 -> 70
+588	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator != -> -1
+589	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator != -> <
+590	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:606 - ReplaceComparisonOperator != -> >
+591	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:615 - ReplaceConstant - 0 -> 1
+592	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:616 - ReplaceConstant - 1 -> 0
+593	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:617 - ReplaceConstant - 2 -> 0
+594	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:617 - ReplaceConstant - 2 -> 1
+595	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:617 - ReplaceConstant - 2 -> -1
+596	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:617 - ReplaceConstant - 2 -> 3
+597	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:618 - ReplaceConstant - 3 -> 0
+598	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:618 - ReplaceConstant - 3 -> 1
+599	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:618 - ReplaceConstant - 3 -> -1
+600	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:618 - ReplaceConstant - 3 -> 2
+601	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:618 - ReplaceConstant - 3 -> 4
+602	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:619 - ReplaceConstant - 4 -> 0
+603	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:619 - ReplaceConstant - 4 -> 1
+604	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:619 - ReplaceConstant - 4 -> -1
+605	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:619 - ReplaceConstant - 4 -> 3
+606	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:619 - ReplaceConstant - 4 -> 5
+607	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp Negation of ch0
+608	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC 1 ch0
+609	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC -1 ch0
+610	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 102 -> 0
+611	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 102 -> 1
+612	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 102 -> -1
+613	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 102 -> 101
+614	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 102 -> 103
+615	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator == -> -2
+616	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator == -> >=
+617	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator == -> <=
+618	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp Negation of ch0
+619	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC 1 ch0
+620	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC -1 ch0
+621	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 70 -> 0
+622	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 70 -> 1
+623	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 70 -> -1
+624	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 70 -> 69
+625	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 70 -> 71
+626	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator != -> -1
+627	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator != -> <
+628	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator != -> >
+629	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp Negation of ch1
+630	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC 1 ch1
+631	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC -1 ch1
+632	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 97 -> 0
+633	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 97 -> 1
+634	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 97 -> -1
+635	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 97 -> 96
+636	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 97 -> 98
+637	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator == -> -2
+638	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator == -> >=
+639	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator == -> <=
+640	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp Negation of ch1
+641	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC 1 ch1
+642	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC -1 ch1
+643	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 65 -> 0
+644	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 65 -> 1
+645	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 65 -> -1
+646	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 65 -> 64
+647	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 65 -> 66
+648	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator != -> -1
+649	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator != -> <
+650	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator != -> >
+651	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp Negation of ch2
+652	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC 1 ch2
+653	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC -1 ch2
+654	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 108 -> 0
+655	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 108 -> 1
+656	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 108 -> -1
+657	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 108 -> 107
+658	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 108 -> 109
+659	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator == -> -2
+660	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator == -> >=
+661	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator == -> <=
+662	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp Negation of ch2
+663	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC 1 ch2
+664	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC -1 ch2
+665	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 76 -> 0
+666	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 76 -> 1
+667	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 76 -> -1
+668	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 76 -> 75
+669	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 76 -> 77
+670	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator != -> -1
+671	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator != -> <
+672	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator != -> >
+673	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp Negation of ch3
+674	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC 1 ch3
+675	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC -1 ch3
+676	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 115 -> 0
+677	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 115 -> 1
+678	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 115 -> -1
+679	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 115 -> 114
+680	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 115 -> 116
+681	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator == -> -2
+682	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator == -> >=
+683	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator == -> <=
+684	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp Negation of ch3
+685	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC 1 ch3
+686	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC -1 ch3
+687	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 83 -> 0
+688	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 83 -> 1
+689	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 83 -> -1
+690	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 83 -> 82
+691	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 83 -> 84
+692	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator != -> -1
+693	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator != -> <
+694	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator != -> >
+695	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp Negation of ch4
+696	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC 1 ch4
+697	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC -1 ch4
+698	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 101 -> 0
+699	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 101 -> 1
+700	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 101 -> -1
+701	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 101 -> 100
+702	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 101 -> 102
+703	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator == -> -2
+704	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator == -> >=
+705	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator == -> <=
+706	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp Negation of ch4
+707	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC 1 ch4
+708	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - InsertUnaryOp IINC -1 ch4
+709	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 69 -> 0
+710	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 69 -> 1
+711	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 69 -> -1
+712	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 69 -> 68
+713	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceConstant - 69 -> 70
+714	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator != -> -1
+715	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator != -> <
+716	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;)Ljava/lang/Boolean;:620 - ReplaceComparisonOperator != -> >
+717	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;:656 - ReplaceComparisonOperator != null -> = null
+718	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;:657 - ReplaceComparisonOperator != null -> = null
+719	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;:660 - ReplaceComparisonOperator != null -> = null
+720	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;:663 - ReplaceComparisonOperator != null -> = null
+721	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;:666 - ReplaceComparisonOperator == -> -2
+722	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;:666 - ReplaceComparisonOperator == -> >=
+723	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;:666 - ReplaceComparisonOperator == -> <=
+724	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;:668 - ReplaceComparisonOperator == -> -2
+725	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;:668 - ReplaceComparisonOperator == -> >=
+726	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;:668 - ReplaceComparisonOperator == -> <=
+727	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;:670 - ReplaceComparisonOperator == -> -2
+728	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;:670 - ReplaceComparisonOperator == -> >=
+729	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;:670 - ReplaceComparisonOperator == -> <=
+730	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBooleanObject(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;:674 - ReplaceConstant - The String did not match any specified value -> 
+731	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/String;)Z:709 - ReplaceComparisonOperator != -> ==
+732	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/String;)Z:709 - ReplaceConstant - 1 -> 0
+733	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/String;)Z:709 - ReplaceConstant - 0 -> 1
+734	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:727 - ReplaceComparisonOperator != -> ==
+735	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:728 - ReplaceConstant - 1 -> 0
+736	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:729 - ReplaceComparisonOperator != -> ==
+737	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:730 - ReplaceConstant - 0 -> 1
+738	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:731 - ReplaceComparisonOperator = null -> != null
+739	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:732 - ReplaceComparisonOperator == -> -2
+740	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:732 - ReplaceComparisonOperator == -> >=
+741	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:732 - ReplaceComparisonOperator == -> <=
+742	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:733 - ReplaceConstant - 1 -> 0
+743	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:734 - ReplaceComparisonOperator == -> -2
+744	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:734 - ReplaceComparisonOperator == -> >=
+745	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:734 - ReplaceComparisonOperator == -> <=
+746	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:735 - ReplaceConstant - 0 -> 1
+747	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toBoolean(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z:739 - ReplaceConstant - The String did not match either specified value -> 
+748	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toStringTrueFalse(Ljava/lang/Boolean;)Ljava/lang/String;:758 - ReplaceConstant - true -> 
+749	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toStringTrueFalse(Ljava/lang/Boolean;)Ljava/lang/String;:758 - ReplaceConstant - false -> 
+750	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toStringOnOff(Ljava/lang/Boolean;)Ljava/lang/String;:775 - ReplaceConstant - on -> 
+751	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toStringOnOff(Ljava/lang/Boolean;)Ljava/lang/String;:775 - ReplaceConstant - off -> 
+752	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toStringYesNo(Ljava/lang/Boolean;)Ljava/lang/String;:792 - ReplaceConstant - yes -> 
+753	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toStringYesNo(Ljava/lang/Boolean;)Ljava/lang/String;:792 - ReplaceConstant - no -> 
+754	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toString(Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;:811 - ReplaceComparisonOperator != null -> = null
+755	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toString(Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;:814 - ReplaceComparisonOperator == -> -2
+756	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toString(Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;:814 - ReplaceComparisonOperator == -> >=
+757	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toString(Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;:814 - ReplaceComparisonOperator == -> <=
+758	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toStringTrueFalse(Z)Ljava/lang/String;:832 - InsertUnaryOp Negation of bool
+759	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toStringTrueFalse(Z)Ljava/lang/String;:832 - InsertUnaryOp IINC 1 bool
+760	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toStringTrueFalse(Z)Ljava/lang/String;:832 - InsertUnaryOp IINC -1 bool
+761	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toStringTrueFalse(Z)Ljava/lang/String;:832 - ReplaceConstant - true -> 
+762	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toStringTrueFalse(Z)Ljava/lang/String;:832 - ReplaceConstant - false -> 
+763	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toStringOnOff(Z)Ljava/lang/String;:848 - InsertUnaryOp Negation of bool
+764	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toStringOnOff(Z)Ljava/lang/String;:848 - InsertUnaryOp IINC 1 bool
+765	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toStringOnOff(Z)Ljava/lang/String;:848 - InsertUnaryOp IINC -1 bool
+766	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toStringOnOff(Z)Ljava/lang/String;:848 - ReplaceConstant - on -> 
+767	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toStringOnOff(Z)Ljava/lang/String;:848 - ReplaceConstant - off -> 
+768	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toStringYesNo(Z)Ljava/lang/String;:864 - InsertUnaryOp Negation of bool
+769	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toStringYesNo(Z)Ljava/lang/String;:864 - InsertUnaryOp IINC 1 bool
+770	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toStringYesNo(Z)Ljava/lang/String;:864 - InsertUnaryOp IINC -1 bool
+771	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toStringYesNo(Z)Ljava/lang/String;:864 - ReplaceConstant - yes -> 
+772	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.toStringYesNo(Z)Ljava/lang/String;:864 - ReplaceConstant - no -> 
+773	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toString(ZLjava/lang/String;Ljava/lang/String;)Ljava/lang/String;:881 - InsertUnaryOp Negation of bool
+774	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toString(ZLjava/lang/String;Ljava/lang/String;)Ljava/lang/String;:881 - InsertUnaryOp IINC 1 bool
+775	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.toString(ZLjava/lang/String;Ljava/lang/String;)Ljava/lang/String;:881 - InsertUnaryOp IINC -1 bool
+776	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toString(ZLjava/lang/String;Ljava/lang/String;)Ljava/lang/String;:881 - ReplaceComparisonOperator == -> -2
+777	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toString(ZLjava/lang/String;Ljava/lang/String;)Ljava/lang/String;:881 - ReplaceComparisonOperator == -> >=
+778	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.toString(ZLjava/lang/String;Ljava/lang/String;)Ljava/lang/String;:881 - ReplaceComparisonOperator == -> <=
+779	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.and([Z)Z:905 - ReplaceComparisonOperator != null -> = null
+780	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.and([Z)Z:906 - ReplaceConstant - The Array must not be null -> 
+781	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.and([Z)Z:908 - ReplaceComparisonOperator != -> -1
+782	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.and([Z)Z:908 - ReplaceComparisonOperator != -> <
+783	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.and([Z)Z:908 - ReplaceComparisonOperator != -> >
+784	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.and([Z)Z:909 - ReplaceConstant - Array is empty -> 
+785	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.and([Z)Z:911 - ReplaceConstant - 0 -> 1
+786	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.and([Z)Z:911 - ReplaceComparisonOperator >= -> -1
+787	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.and([Z)Z:911 - ReplaceComparisonOperator >= -> >
+788	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.and([Z)Z:911 - ReplaceComparisonOperator >= -> ==
+789	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.and([Z)Z:912 - InsertUnaryOp Negation of element
+790	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.and([Z)Z:912 - InsertUnaryOp IINC 1 element
+791	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.and([Z)Z:912 - InsertUnaryOp IINC -1 element
+792	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.and([Z)Z:912 - ReplaceComparisonOperator != -> -1
+793	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.and([Z)Z:912 - ReplaceComparisonOperator != -> <
+794	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.and([Z)Z:912 - ReplaceComparisonOperator != -> >
+795	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.and([Z)Z:913 - ReplaceConstant - 0 -> 1
+796	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.and([Z)Z:916 - ReplaceConstant - 1 -> 0
+797	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.and([Ljava/lang/Boolean;)Ljava/lang/Boolean;:939 - ReplaceComparisonOperator != null -> = null
+798	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.and([Ljava/lang/Boolean;)Ljava/lang/Boolean;:940 - ReplaceConstant - The Array must not be null -> 
+799	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.and([Ljava/lang/Boolean;)Ljava/lang/Boolean;:942 - ReplaceComparisonOperator != -> -1
+800	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.and([Ljava/lang/Boolean;)Ljava/lang/Boolean;:942 - ReplaceComparisonOperator != -> <
+801	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.and([Ljava/lang/Boolean;)Ljava/lang/Boolean;:942 - ReplaceComparisonOperator != -> >
+802	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.and([Ljava/lang/Boolean;)Ljava/lang/Boolean;:943 - ReplaceConstant - Array is empty -> 
+803	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.and([Ljava/lang/Boolean;)Ljava/lang/Boolean;:947 - ReplaceComparisonOperator == -> -2
+804	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.and([Ljava/lang/Boolean;)Ljava/lang/Boolean;:947 - ReplaceComparisonOperator == -> >=
+805	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.and([Ljava/lang/Boolean;)Ljava/lang/Boolean;:947 - ReplaceComparisonOperator == -> <=
+806	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.and([Ljava/lang/Boolean;)Ljava/lang/Boolean;:949 - ReplaceConstant - The array must not contain any null elements -> 
+807	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.or([Z)Z:973 - ReplaceComparisonOperator != null -> = null
+808	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.or([Z)Z:974 - ReplaceConstant - The Array must not be null -> 
+809	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.or([Z)Z:976 - ReplaceComparisonOperator != -> -1
+810	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.or([Z)Z:976 - ReplaceComparisonOperator != -> <
+811	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.or([Z)Z:976 - ReplaceComparisonOperator != -> >
+812	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.or([Z)Z:977 - ReplaceConstant - Array is empty -> 
+813	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.or([Z)Z:979 - ReplaceConstant - 0 -> 1
+814	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.or([Z)Z:979 - ReplaceComparisonOperator >= -> -1
+815	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.or([Z)Z:979 - ReplaceComparisonOperator >= -> >
+816	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.or([Z)Z:979 - ReplaceComparisonOperator >= -> ==
+817	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.or([Z)Z:980 - InsertUnaryOp Negation of element
+818	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.or([Z)Z:980 - InsertUnaryOp IINC 1 element
+819	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.or([Z)Z:980 - InsertUnaryOp IINC -1 element
+820	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.or([Z)Z:980 - ReplaceComparisonOperator == -> -2
+821	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.or([Z)Z:980 - ReplaceComparisonOperator == -> >=
+822	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.or([Z)Z:980 - ReplaceComparisonOperator == -> <=
+823	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.or([Z)Z:981 - ReplaceConstant - 1 -> 0
+824	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.or([Z)Z:984 - ReplaceConstant - 0 -> 1
+825	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.or([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1008 - ReplaceComparisonOperator != null -> = null
+826	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.or([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1009 - ReplaceConstant - The Array must not be null -> 
+827	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.or([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1011 - ReplaceComparisonOperator != -> -1
+828	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.or([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1011 - ReplaceComparisonOperator != -> <
+829	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.or([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1011 - ReplaceComparisonOperator != -> >
+830	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.or([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1012 - ReplaceConstant - Array is empty -> 
+831	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.or([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1016 - ReplaceComparisonOperator == -> -2
+832	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.or([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1016 - ReplaceComparisonOperator == -> >=
+833	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.or([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1016 - ReplaceComparisonOperator == -> <=
+834	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.or([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1018 - ReplaceConstant - The array must not contain any null elements -> 
+835	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1041 - ReplaceComparisonOperator != null -> = null
+836	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1042 - ReplaceConstant - The Array must not be null -> 
+837	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1044 - ReplaceComparisonOperator != -> -1
+838	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1044 - ReplaceComparisonOperator != -> <
+839	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1044 - ReplaceComparisonOperator != -> >
+840	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1045 - ReplaceConstant - Array is empty -> 
+841	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1049 - ReplaceConstant - 0 -> 1
+842	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1050 - ReplaceConstant - 0 -> 1
+843	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1050 - ReplaceComparisonOperator >= -> -1
+844	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1050 - ReplaceComparisonOperator >= -> >
+845	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1050 - ReplaceComparisonOperator >= -> ==
+846	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1051 - InsertUnaryOp Negation of result
+847	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1051 - InsertUnaryOp IINC 1 result
+848	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1051 - InsertUnaryOp IINC -1 result
+849	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1051 - InsertUnaryOp Negation of element
+850	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1051 - InsertUnaryOp IINC 1 element
+851	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1051 - InsertUnaryOp IINC -1 element
+852	ReplaceBitwiseOperator	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1051 - ReplaceBitwiseOperator ^ -> |
+853	ReplaceBitwiseOperator	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1051 - ReplaceBitwiseOperator ^ -> &
+854	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1054 - InsertUnaryOp Negation of result
+855	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1054 - InsertUnaryOp IINC 1 result
+856	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.xor([Z)Z:1054 - InsertUnaryOp IINC -1 result
+857	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.xor([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1073 - ReplaceComparisonOperator != null -> = null
+858	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.xor([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1074 - ReplaceConstant - The Array must not be null -> 
+859	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.xor([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1076 - ReplaceComparisonOperator != -> -1
+860	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.xor([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1076 - ReplaceComparisonOperator != -> <
+861	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.xor([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1076 - ReplaceComparisonOperator != -> >
+862	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.xor([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1077 - ReplaceConstant - Array is empty -> 
+863	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.xor([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1081 - ReplaceComparisonOperator == -> -2
+864	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.xor([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1081 - ReplaceComparisonOperator == -> >=
+865	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.xor([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1081 - ReplaceComparisonOperator == -> <=
+866	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.xor([Ljava/lang/Boolean;)Ljava/lang/Boolean;:1083 - ReplaceConstant - The array must not contain any null elements -> 
+867	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1098 - InsertUnaryOp Negation of x
+868	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1098 - InsertUnaryOp IINC 1 x
+869	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1098 - InsertUnaryOp IINC -1 x
+870	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1098 - InsertUnaryOp Negation of y
+871	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1098 - InsertUnaryOp IINC 1 y
+872	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1098 - InsertUnaryOp IINC -1 y
+873	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1098 - ReplaceComparisonOperator != -> -1
+874	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1098 - ReplaceComparisonOperator != -> <
+875	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1098 - ReplaceComparisonOperator != -> >
+876	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1099 - ReplaceConstant - 0 -> 1
+877	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1101 - InsertUnaryOp Negation of x
+878	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1101 - InsertUnaryOp IINC 1 x
+879	InsertUnaryOp	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1101 - InsertUnaryOp IINC -1 x
+880	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1101 - ReplaceComparisonOperator == -> -2
+881	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1101 - ReplaceComparisonOperator == -> >=
+882	ReplaceComparisonOperator	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1101 - ReplaceComparisonOperator == -> <=
+883	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1101 - ReplaceConstant - 1 -> 0
+884	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1101 - ReplaceConstant - -1 -> 0
+885	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1101 - ReplaceConstant - -1 -> 1
+886	ReplaceConstant	org.apache.commons.lang3.BooleanUtils.compare(ZZ)I:1101 - ReplaceConstant - -1 -> -2

@@ -1,0 +1,30 @@
+0	ReplaceConstant	org.assertj.core.internal.cglib.core.AbstractClassGenerator.<init>(Lorg/assertj/core/internal/cglib/core/AbstractClassGenerator$Source;)V:48 - ReplaceConstant - 1 -> 0
+1	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.AbstractClassGenerator.setNamingPolicy(Lorg/assertj/core/internal/cglib/core/NamingPolicy;)V:176 - ReplaceComparisonOperator != null -> = null
+2	InsertUnaryOp	org.assertj.core.internal.cglib.core.AbstractClassGenerator.setUseCache(Z)V:193 - InsertUnaryOp Negation of useCache
+3	InsertUnaryOp	org.assertj.core.internal.cglib.core.AbstractClassGenerator.setUseCache(Z)V:193 - InsertUnaryOp IINC 1 useCache
+4	InsertUnaryOp	org.assertj.core.internal.cglib.core.AbstractClassGenerator.setUseCache(Z)V:193 - InsertUnaryOp IINC -1 useCache
+5	InsertUnaryOp	org.assertj.core.internal.cglib.core.AbstractClassGenerator.getUseCache()Z:200 - InsertUnaryOp Negation
+6	InsertUnaryOp	org.assertj.core.internal.cglib.core.AbstractClassGenerator.setAttemptLoad(Z)V:209 - InsertUnaryOp Negation of attemptLoad
+7	InsertUnaryOp	org.assertj.core.internal.cglib.core.AbstractClassGenerator.setAttemptLoad(Z)V:209 - InsertUnaryOp IINC 1 attemptLoad
+8	InsertUnaryOp	org.assertj.core.internal.cglib.core.AbstractClassGenerator.setAttemptLoad(Z)V:209 - InsertUnaryOp IINC -1 attemptLoad
+9	InsertUnaryOp	org.assertj.core.internal.cglib.core.AbstractClassGenerator.getAttemptLoad()Z:213 - InsertUnaryOp Negation
+10	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.AbstractClassGenerator.setStrategy(Lorg/assertj/core/internal/cglib/core/GeneratorStrategy;)V:221 - ReplaceComparisonOperator != null -> = null
+11	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.AbstractClassGenerator.getClassLoader()Ljava/lang/ClassLoader;:243 - ReplaceComparisonOperator != null -> = null
+12	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.AbstractClassGenerator.getClassLoader()Ljava/lang/ClassLoader;:246 - ReplaceComparisonOperator != null -> = null
+13	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.AbstractClassGenerator.getClassLoader()Ljava/lang/ClassLoader;:249 - ReplaceComparisonOperator != null -> = null
+14	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.AbstractClassGenerator.getClassLoader()Ljava/lang/ClassLoader;:252 - ReplaceComparisonOperator != null -> = null
+15	ReplaceConstant	org.assertj.core.internal.cglib.core.AbstractClassGenerator.getClassLoader()Ljava/lang/ClassLoader;:253 - ReplaceConstant - Cannot determine classloader -> 
+16	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.AbstractClassGenerator.create(Ljava/lang/Object;)Ljava/lang/Object;:278 - ReplaceComparisonOperator != null -> = null
+17	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.AbstractClassGenerator.create(Ljava/lang/Object;)Ljava/lang/Object;:282 - ReplaceComparisonOperator != null -> = null
+18	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.AbstractClassGenerator.create(Ljava/lang/Object;)Ljava/lang/Object;:292 - ReplaceComparisonOperator == -> -2
+19	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.AbstractClassGenerator.create(Ljava/lang/Object;)Ljava/lang/Object;:292 - ReplaceComparisonOperator == -> >=
+20	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.AbstractClassGenerator.create(Ljava/lang/Object;)Ljava/lang/Object;:292 - ReplaceComparisonOperator == -> <=
+21	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.AbstractClassGenerator.generate(Lorg/assertj/core/internal/cglib/core/AbstractClassGenerator$ClassLoaderData;)Ljava/lang/Class;:311 - ReplaceComparisonOperator != null -> = null
+22	ReplaceConstant	org.assertj.core.internal.cglib.core.AbstractClassGenerator.generate(Lorg/assertj/core/internal/cglib/core/AbstractClassGenerator$ClassLoaderData;)Ljava/lang/Class;:312 - ReplaceConstant - ClassLoader is null while trying to define class  -> 
+23	ReplaceConstant	org.assertj.core.internal.cglib.core.AbstractClassGenerator.generate(Lorg/assertj/core/internal/cglib/core/AbstractClassGenerator$ClassLoaderData;)Ljava/lang/Class;:313 - ReplaceConstant - . It seems that the loader has been expired from a weak reference somehow.  -> 
+24	ReplaceConstant	org.assertj.core.internal.cglib.core.AbstractClassGenerator.generate(Lorg/assertj/core/internal/cglib/core/AbstractClassGenerator$ClassLoaderData;)Ljava/lang/Class;:313 - ReplaceConstant - Please file an issue at cglib's issue tracker. -> 
+25	InsertUnaryOp	org.assertj.core.internal.cglib.core.AbstractClassGenerator.generate(Lorg/assertj/core/internal/cglib/core/AbstractClassGenerator$ClassLoaderData;)Ljava/lang/Class;:321 - InsertUnaryOp Negation
+26	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.AbstractClassGenerator.generate(Lorg/assertj/core/internal/cglib/core/AbstractClassGenerator$ClassLoaderData;)Ljava/lang/Class;:321 - ReplaceComparisonOperator == -> -2
+27	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.AbstractClassGenerator.generate(Lorg/assertj/core/internal/cglib/core/AbstractClassGenerator$ClassLoaderData;)Ljava/lang/Class;:321 - ReplaceComparisonOperator == -> >=
+28	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.AbstractClassGenerator.generate(Lorg/assertj/core/internal/cglib/core/AbstractClassGenerator$ClassLoaderData;)Ljava/lang/Class;:321 - ReplaceComparisonOperator == -> <=
+29	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.AbstractClassGenerator.generate(Lorg/assertj/core/internal/cglib/core/AbstractClassGenerator$ClassLoaderData;)Ljava/lang/Class;:333 - ReplaceComparisonOperator != null -> = null

@@ -1,0 +1,60 @@
+0	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.<init>(Lorg/dynjs/parser/js/Position;Ljava/util/List;Lorg/dynjs/parser/ast/Expression;Lorg/dynjs/parser/ast/Expression;Lorg/dynjs/parser/Statement;)V:40 - ReplaceComparisonOperator = null -> != null
+1	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.<init>(Lorg/dynjs/parser/js/Position;Ljava/util/List;Lorg/dynjs/parser/ast/Expression;Lorg/dynjs/parser/ast/Expression;Lorg/dynjs/parser/Statement;)V:46 - ReplaceComparisonOperator = null -> != null
+2	ReplaceConstant	org.dynjs.parser.ast.ForVarDeclStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:67 - ReplaceConstant - for ( -> 
+3	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:67 - ReplaceComparisonOperator != null -> = null
+4	ReplaceConstant	org.dynjs.parser.ast.ForVarDeclStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:67 - ReplaceConstant -  ;  -> 
+5	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:68 - ReplaceComparisonOperator != null -> = null
+6	ReplaceConstant	org.dynjs.parser.ast.ForVarDeclStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:68 - ReplaceConstant -  ;  -> 
+7	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:69 - ReplaceComparisonOperator != null -> = null
+8	ReplaceConstant	org.dynjs.parser.ast.ForVarDeclStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:69 - ReplaceConstant - ) {
+9	ReplaceConstant	org.dynjs.parser.ast.ForVarDeclStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:70 - ReplaceConstant -    -> 
+10	ReplaceConstant	org.dynjs.parser.ast.ForVarDeclStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:71 - ReplaceConstant - } -> 
+11	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.getSizeMetric()I:78 - ReplaceComparisonOperator == -> -2
+12	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.getSizeMetric()I:78 - ReplaceComparisonOperator == -> >=
+13	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.getSizeMetric()I:78 - ReplaceComparisonOperator == -> <=
+14	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.getSizeMetric()I:79 - InsertUnaryOp Negation of size
+15	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.getSizeMetric()I:79 - InsertUnaryOp IINC 1 size
+16	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.getSizeMetric()I:79 - InsertUnaryOp IINC -1 size
+17	ReplaceArithmeticOperator	org.dynjs.parser.ast.ForVarDeclStatement.getSizeMetric()I:79 - ReplaceArithmeticOperator + -> %
+18	ReplaceArithmeticOperator	org.dynjs.parser.ast.ForVarDeclStatement.getSizeMetric()I:79 - ReplaceArithmeticOperator + -> -
+19	ReplaceArithmeticOperator	org.dynjs.parser.ast.ForVarDeclStatement.getSizeMetric()I:79 - ReplaceArithmeticOperator + -> *
+20	ReplaceArithmeticOperator	org.dynjs.parser.ast.ForVarDeclStatement.getSizeMetric()I:79 - ReplaceArithmeticOperator + -> /
+21	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.getSizeMetric()I:82 - InsertUnaryOp Negation of size
+22	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.getSizeMetric()I:82 - InsertUnaryOp IINC 1 size
+23	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.getSizeMetric()I:82 - InsertUnaryOp IINC -1 size
+24	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:86 - InsertUnaryOp Negation of strict
+25	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:86 - InsertUnaryOp IINC 1 strict
+26	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:86 - InsertUnaryOp IINC -1 strict
+27	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:91 - ReplaceComparisonOperator == -> -2
+28	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:91 - ReplaceComparisonOperator == -> >=
+29	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:91 - ReplaceComparisonOperator == -> <=
+30	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:92 - InsertUnaryOp Negation of debug
+31	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:92 - InsertUnaryOp IINC 1 debug
+32	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:92 - InsertUnaryOp IINC -1 debug
+33	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:102 - ReplaceComparisonOperator = null -> != null
+34	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - InsertUnaryOp Negation of debug
+35	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - InsertUnaryOp IINC 1 debug
+36	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - InsertUnaryOp IINC -1 debug
+37	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - ReplaceComparisonOperator != -> -1
+38	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - ReplaceComparisonOperator != -> <
+39	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - ReplaceComparisonOperator != -> >
+40	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:108 - InsertUnaryOp Negation of debug
+41	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:108 - InsertUnaryOp IINC 1 debug
+42	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:108 - InsertUnaryOp IINC -1 debug
+43	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:111 - ReplaceComparisonOperator = null -> != null
+44	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:111 - ReplaceComparisonOperator == -> !=
+45	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:115 - ReplaceComparisonOperator != -> ==
+46	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:116 - ReplaceComparisonOperator = null -> != null
+47	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:116 - ReplaceComparisonOperator == -> -2
+48	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:116 - ReplaceComparisonOperator == -> >=
+49	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:116 - ReplaceComparisonOperator == -> <=
+50	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:124 - ReplaceComparisonOperator != -> ==
+51	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:128 - ReplaceComparisonOperator != -> ==
+52	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:129 - ReplaceComparisonOperator = null -> != null
+53	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:129 - ReplaceComparisonOperator != -> -1
+54	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:129 - ReplaceComparisonOperator != -> <
+55	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:129 - ReplaceComparisonOperator != -> >
+56	ReplaceComparisonOperator	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:135 - ReplaceComparisonOperator = null -> != null
+57	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:136 - InsertUnaryOp Negation of debug
+58	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:136 - InsertUnaryOp IINC 1 debug
+59	InsertUnaryOp	org.dynjs.parser.ast.ForVarDeclStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:136 - InsertUnaryOp IINC -1 debug

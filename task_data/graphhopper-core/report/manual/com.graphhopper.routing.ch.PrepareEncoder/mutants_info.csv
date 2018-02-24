@@ -1,0 +1,53 @@
+0	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScDirMask()J:36 - ReplaceConstant - 3 -> 0
+1	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScDirMask()J:36 - ReplaceConstant - 3 -> 1
+2	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScDirMask()J:36 - ReplaceConstant - 3 -> -1
+3	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScDirMask()J:36 - ReplaceConstant - 3 -> 2
+4	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScDirMask()J:36 - ReplaceConstant - 3 -> 4
+5	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScFwdDir()J:43 - ReplaceConstant - 1 -> 0
+6	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScFwdDir()J:43 - ReplaceConstant - 1 -> -1
+7	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScFwdDir()J:43 - ReplaceConstant - 1 -> 2
+8	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScBwdDir()J:50 - ReplaceConstant - 2 -> 0
+9	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScBwdDir()J:50 - ReplaceConstant - 2 -> 1
+10	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScBwdDir()J:50 - ReplaceConstant - 2 -> -1
+11	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScBwdDir()J:50 - ReplaceConstant - 2 -> 3
+12	InsertUnaryOp	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - InsertUnaryOp Negation of existingScFlags
+13	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - ReplaceConstant - 3 -> 0
+14	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - ReplaceConstant - 3 -> 1
+15	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - ReplaceConstant - 3 -> -1
+16	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - ReplaceConstant - 3 -> 2
+17	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - ReplaceConstant - 3 -> 4
+18	ReplaceBitwiseOperator	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - ReplaceBitwiseOperator & -> |
+19	ReplaceBitwiseOperator	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - ReplaceBitwiseOperator & -> ^
+20	InsertUnaryOp	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - InsertUnaryOp Negation of newScFlags
+21	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - ReplaceConstant - 3 -> 0
+22	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - ReplaceConstant - 3 -> 1
+23	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - ReplaceConstant - 3 -> -1
+24	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - ReplaceConstant - 3 -> 2
+25	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - ReplaceConstant - 3 -> 4
+26	ReplaceBitwiseOperator	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - ReplaceBitwiseOperator & -> |
+27	ReplaceBitwiseOperator	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - ReplaceBitwiseOperator & -> ^
+28	ReplaceComparisonOperator	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - ReplaceComparisonOperator != -> -1
+29	ReplaceComparisonOperator	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - ReplaceComparisonOperator != -> <
+30	ReplaceComparisonOperator	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:70 - ReplaceComparisonOperator != -> >
+31	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:71 - ReplaceConstant - 1 -> 0
+32	InsertUnaryOp	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:72 - InsertUnaryOp Negation of newScFlags
+33	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:72 - ReplaceConstant - 3 -> 0
+34	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:72 - ReplaceConstant - 3 -> 1
+35	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:72 - ReplaceConstant - 3 -> -1
+36	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:72 - ReplaceConstant - 3 -> 2
+37	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:72 - ReplaceConstant - 3 -> 4
+38	ReplaceBitwiseOperator	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:72 - ReplaceBitwiseOperator & -> |
+39	ReplaceBitwiseOperator	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:72 - ReplaceBitwiseOperator & -> ^
+40	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:72 - ReplaceConstant - 3 -> 0
+41	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:72 - ReplaceConstant - 3 -> 1
+42	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:72 - ReplaceConstant - 3 -> -1
+43	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:72 - ReplaceConstant - 3 -> 2
+44	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:72 - ReplaceConstant - 3 -> 4
+45	ReplaceComparisonOperator	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:72 - ReplaceComparisonOperator != -> -1
+46	ReplaceComparisonOperator	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:72 - ReplaceComparisonOperator != -> <
+47	ReplaceComparisonOperator	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:72 - ReplaceComparisonOperator != -> >
+48	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:73 - ReplaceConstant - 2 -> 0
+49	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:73 - ReplaceConstant - 2 -> 1
+50	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:73 - ReplaceConstant - 2 -> -1
+51	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:73 - ReplaceConstant - 2 -> 3
+52	ReplaceConstant	com.graphhopper.routing.ch.PrepareEncoder.getScMergeStatus(JJ)I:75 - ReplaceConstant - 0 -> 1

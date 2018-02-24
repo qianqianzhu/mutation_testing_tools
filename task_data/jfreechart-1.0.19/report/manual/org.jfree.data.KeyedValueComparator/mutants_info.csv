@@ -1,0 +1,64 @@
+0	ReplaceConstant	org.jfree.data.KeyedValueComparator.<init>(Lorg/jfree/data/KeyedValueComparatorType;Lorg/jfree/util/SortOrder;)V:73 - ReplaceConstant - type -> 
+1	ReplaceConstant	org.jfree.data.KeyedValueComparator.<init>(Lorg/jfree/data/KeyedValueComparatorType;Lorg/jfree/util/SortOrder;)V:74 - ReplaceConstant - order -> 
+2	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:109 - ReplaceComparisonOperator != null -> = null
+3	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:110 - ReplaceConstant - -1 -> 0
+4	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:110 - ReplaceConstant - -1 -> 1
+5	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:110 - ReplaceConstant - -1 -> -2
+6	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:112 - ReplaceComparisonOperator != null -> = null
+7	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:113 - ReplaceConstant - 1 -> 0
+8	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:121 - ReplaceComparisonOperator != -> ==
+9	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:122 - ReplaceComparisonOperator == -> -2
+10	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:122 - ReplaceComparisonOperator == -> >=
+11	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:122 - ReplaceComparisonOperator == -> <=
+12	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:125 - ReplaceComparisonOperator == -> -2
+13	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:125 - ReplaceComparisonOperator == -> >=
+14	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:125 - ReplaceComparisonOperator == -> <=
+15	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:129 - ReplaceConstant - Unrecognised sort order. -> 
+16	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:132 - ReplaceComparisonOperator != -> ==
+17	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:135 - ReplaceComparisonOperator != null -> = null
+18	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:136 - ReplaceConstant - -1 -> 0
+19	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:136 - ReplaceConstant - -1 -> 1
+20	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:136 - ReplaceConstant - -1 -> -2
+21	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:138 - ReplaceComparisonOperator != null -> = null
+22	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:139 - ReplaceConstant - 1 -> 0
+23	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:143 - ReplaceComparisonOperator == -> -2
+24	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:143 - ReplaceComparisonOperator == -> >=
+25	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:143 - ReplaceComparisonOperator == -> <=
+26	InsertUnaryOp	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:144 - InsertUnaryOp Negation of d1
+27	InsertUnaryOp	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:144 - InsertUnaryOp Negation of d2
+28	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:144 - ReplaceComparisonOperator <= -> -1
+29	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:144 - ReplaceComparisonOperator <= -> ==
+30	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:144 - ReplaceComparisonOperator <= -> <
+31	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:145 - ReplaceConstant - 1 -> 0
+32	InsertUnaryOp	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:147 - InsertUnaryOp Negation of d1
+33	InsertUnaryOp	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:147 - InsertUnaryOp Negation of d2
+34	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:147 - ReplaceComparisonOperator >= -> -1
+35	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:147 - ReplaceComparisonOperator >= -> ==
+36	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:147 - ReplaceComparisonOperator >= -> >
+37	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:148 - ReplaceConstant - -1 -> 0
+38	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:148 - ReplaceConstant - -1 -> 1
+39	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:148 - ReplaceConstant - -1 -> -2
+40	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:151 - ReplaceConstant - 0 -> 1
+41	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:154 - ReplaceComparisonOperator == -> -2
+42	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:154 - ReplaceComparisonOperator == -> >=
+43	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:154 - ReplaceComparisonOperator == -> <=
+44	InsertUnaryOp	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:155 - InsertUnaryOp Negation of d1
+45	InsertUnaryOp	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:155 - InsertUnaryOp Negation of d2
+46	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:155 - ReplaceComparisonOperator <= -> -1
+47	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:155 - ReplaceComparisonOperator <= -> ==
+48	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:155 - ReplaceComparisonOperator <= -> <
+49	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:156 - ReplaceConstant - -1 -> 0
+50	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:156 - ReplaceConstant - -1 -> 1
+51	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:156 - ReplaceConstant - -1 -> -2
+52	InsertUnaryOp	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:158 - InsertUnaryOp Negation of d1
+53	InsertUnaryOp	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:158 - InsertUnaryOp Negation of d2
+54	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:158 - ReplaceComparisonOperator >= -> -1
+55	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:158 - ReplaceComparisonOperator >= -> ==
+56	ReplaceComparisonOperator	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:158 - ReplaceComparisonOperator >= -> >
+57	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:159 - ReplaceConstant - 1 -> 0
+58	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:162 - ReplaceConstant - 0 -> 1
+59	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:166 - ReplaceConstant - Unrecognised sort order. -> 
+60	ReplaceConstant	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:170 - ReplaceConstant - Unrecognised type. -> 
+61	InsertUnaryOp	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:173 - InsertUnaryOp Negation of result
+62	InsertUnaryOp	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:173 - InsertUnaryOp IINC 1 result
+63	InsertUnaryOp	org.jfree.data.KeyedValueComparator.compare(Ljava/lang/Object;Ljava/lang/Object;)I:173 - InsertUnaryOp IINC -1 result

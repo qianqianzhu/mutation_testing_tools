@@ -1,0 +1,8 @@
+0	ReplaceConstant	org.geotools.feature.visitor.SumVisitor$DoubleSumStrategy.<init>()V:145 - ReplaceConstant - 0.0 -> 1.0
+1	ReplaceConstant	org.geotools.feature.visitor.SumVisitor$DoubleSumStrategy.<init>()V:145 - ReplaceConstant - 0.0 -> -1.0
+2	InsertUnaryOp	org.geotools.feature.visitor.SumVisitor$DoubleSumStrategy.add(Ljava/lang/Object;)V:148 - InsertUnaryOp Negation
+3	ReplaceArithmeticOperator	org.geotools.feature.visitor.SumVisitor$DoubleSumStrategy.add(Ljava/lang/Object;)V:148 - ReplaceArithmeticOperator + -> %
+4	ReplaceArithmeticOperator	org.geotools.feature.visitor.SumVisitor$DoubleSumStrategy.add(Ljava/lang/Object;)V:148 - ReplaceArithmeticOperator + -> -
+5	ReplaceArithmeticOperator	org.geotools.feature.visitor.SumVisitor$DoubleSumStrategy.add(Ljava/lang/Object;)V:148 - ReplaceArithmeticOperator + -> *
+6	ReplaceArithmeticOperator	org.geotools.feature.visitor.SumVisitor$DoubleSumStrategy.add(Ljava/lang/Object;)V:148 - ReplaceArithmeticOperator + -> /
+7	InsertUnaryOp	org.geotools.feature.visitor.SumVisitor$DoubleSumStrategy.getResult()Ljava/lang/Object;:152 - InsertUnaryOp Negation

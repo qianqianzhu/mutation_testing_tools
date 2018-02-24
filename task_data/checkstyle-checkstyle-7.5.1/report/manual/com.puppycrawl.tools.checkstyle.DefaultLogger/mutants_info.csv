@@ -1,0 +1,29 @@
+0	InsertUnaryOp	com.puppycrawl.tools.checkstyle.DefaultLogger.<init>(Ljava/io/OutputStream;Z)V:65 - InsertUnaryOp Negation of closeStreamsAfterUse
+1	InsertUnaryOp	com.puppycrawl.tools.checkstyle.DefaultLogger.<init>(Ljava/io/OutputStream;Z)V:65 - InsertUnaryOp IINC 1 closeStreamsAfterUse
+2	InsertUnaryOp	com.puppycrawl.tools.checkstyle.DefaultLogger.<init>(Ljava/io/OutputStream;Z)V:65 - InsertUnaryOp IINC -1 closeStreamsAfterUse
+3	ReplaceConstant	com.puppycrawl.tools.checkstyle.DefaultLogger.<init>(Ljava/io/OutputStream;Z)V:65 - ReplaceConstant - 0 -> 1
+4	InsertUnaryOp	com.puppycrawl.tools.checkstyle.DefaultLogger.<init>(Ljava/io/OutputStream;ZLjava/io/OutputStream;Z)V:79 - InsertUnaryOp Negation of closeInfoAfterUse
+5	InsertUnaryOp	com.puppycrawl.tools.checkstyle.DefaultLogger.<init>(Ljava/io/OutputStream;ZLjava/io/OutputStream;Z)V:79 - InsertUnaryOp IINC 1 closeInfoAfterUse
+6	InsertUnaryOp	com.puppycrawl.tools.checkstyle.DefaultLogger.<init>(Ljava/io/OutputStream;ZLjava/io/OutputStream;Z)V:79 - InsertUnaryOp IINC -1 closeInfoAfterUse
+7	InsertUnaryOp	com.puppycrawl.tools.checkstyle.DefaultLogger.<init>(Ljava/io/OutputStream;ZLjava/io/OutputStream;Z)V:79 - InsertUnaryOp Negation of closeErrorAfterUse
+8	InsertUnaryOp	com.puppycrawl.tools.checkstyle.DefaultLogger.<init>(Ljava/io/OutputStream;ZLjava/io/OutputStream;Z)V:79 - InsertUnaryOp IINC 1 closeErrorAfterUse
+9	InsertUnaryOp	com.puppycrawl.tools.checkstyle.DefaultLogger.<init>(Ljava/io/OutputStream;ZLjava/io/OutputStream;Z)V:79 - InsertUnaryOp IINC -1 closeErrorAfterUse
+10	InsertUnaryOp	com.puppycrawl.tools.checkstyle.DefaultLogger.<init>(Ljava/io/OutputStream;ZLjava/io/OutputStream;ZLcom/puppycrawl/tools/checkstyle/AuditEventFormatter;)V:97 - InsertUnaryOp Negation of closeInfoAfterUse
+11	InsertUnaryOp	com.puppycrawl.tools.checkstyle.DefaultLogger.<init>(Ljava/io/OutputStream;ZLjava/io/OutputStream;ZLcom/puppycrawl/tools/checkstyle/AuditEventFormatter;)V:97 - InsertUnaryOp IINC 1 closeInfoAfterUse
+12	InsertUnaryOp	com.puppycrawl.tools.checkstyle.DefaultLogger.<init>(Ljava/io/OutputStream;ZLjava/io/OutputStream;ZLcom/puppycrawl/tools/checkstyle/AuditEventFormatter;)V:97 - InsertUnaryOp IINC -1 closeInfoAfterUse
+13	InsertUnaryOp	com.puppycrawl.tools.checkstyle.DefaultLogger.<init>(Ljava/io/OutputStream;ZLjava/io/OutputStream;ZLcom/puppycrawl/tools/checkstyle/AuditEventFormatter;)V:98 - InsertUnaryOp Negation of closeErrorAfterUse
+14	InsertUnaryOp	com.puppycrawl.tools.checkstyle.DefaultLogger.<init>(Ljava/io/OutputStream;ZLjava/io/OutputStream;ZLcom/puppycrawl/tools/checkstyle/AuditEventFormatter;)V:98 - InsertUnaryOp IINC 1 closeErrorAfterUse
+15	InsertUnaryOp	com.puppycrawl.tools.checkstyle.DefaultLogger.<init>(Ljava/io/OutputStream;ZLjava/io/OutputStream;ZLcom/puppycrawl/tools/checkstyle/AuditEventFormatter;)V:98 - InsertUnaryOp IINC -1 closeErrorAfterUse
+16	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.DefaultLogger.<init>(Ljava/io/OutputStream;ZLjava/io/OutputStream;ZLcom/puppycrawl/tools/checkstyle/AuditEventFormatter;)V:102 - ReplaceComparisonOperator != -> ==
+17	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.DefaultLogger.addError(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:121 - ReplaceComparisonOperator == -> !=
+18	ReplaceConstant	com.puppycrawl.tools.checkstyle.DefaultLogger.addException(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;Ljava/lang/Throwable;)V:130 - ReplaceConstant - Error auditing  -> 
+19	ReplaceConstant	com.puppycrawl.tools.checkstyle.DefaultLogger.auditStarted(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:137 - ReplaceConstant - Starting audit... -> 
+20	ReplaceConstant	com.puppycrawl.tools.checkstyle.DefaultLogger.auditFinished(Lcom/puppycrawl/tools/checkstyle/api/AuditEvent;)V:143 - ReplaceConstant - Audit done. -> 
+21	InsertUnaryOp	com.puppycrawl.tools.checkstyle.DefaultLogger.closeStreams()V:162 - InsertUnaryOp Negation
+22	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.DefaultLogger.closeStreams()V:162 - ReplaceComparisonOperator == -> -2
+23	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.DefaultLogger.closeStreams()V:162 - ReplaceComparisonOperator == -> >=
+24	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.DefaultLogger.closeStreams()V:162 - ReplaceComparisonOperator == -> <=
+25	InsertUnaryOp	com.puppycrawl.tools.checkstyle.DefaultLogger.closeStreams()V:167 - InsertUnaryOp Negation
+26	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.DefaultLogger.closeStreams()V:167 - ReplaceComparisonOperator == -> -2
+27	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.DefaultLogger.closeStreams()V:167 - ReplaceComparisonOperator == -> >=
+28	ReplaceComparisonOperator	com.puppycrawl.tools.checkstyle.DefaultLogger.closeStreams()V:167 - ReplaceComparisonOperator == -> <=

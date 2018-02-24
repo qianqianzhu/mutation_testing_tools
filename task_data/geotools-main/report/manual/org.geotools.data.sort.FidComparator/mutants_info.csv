@@ -1,0 +1,28 @@
+0	InsertUnaryOp	org.geotools.data.sort.FidComparator.<init>(Z)V:38 - InsertUnaryOp Negation of ascending
+1	InsertUnaryOp	org.geotools.data.sort.FidComparator.<init>(Z)V:38 - InsertUnaryOp IINC 1 ascending
+2	InsertUnaryOp	org.geotools.data.sort.FidComparator.<init>(Z)V:38 - InsertUnaryOp IINC -1 ascending
+3	InsertUnaryOp	org.geotools.data.sort.FidComparator.compare(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:43 - InsertUnaryOp Negation
+4	ReplaceComparisonOperator	org.geotools.data.sort.FidComparator.compare(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:43 - ReplaceComparisonOperator == -> -2
+5	ReplaceComparisonOperator	org.geotools.data.sort.FidComparator.compare(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:43 - ReplaceComparisonOperator == -> >=
+6	ReplaceComparisonOperator	org.geotools.data.sort.FidComparator.compare(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:43 - ReplaceComparisonOperator == -> <=
+7	InsertUnaryOp	org.geotools.data.sort.FidComparator.compare(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:44 - InsertUnaryOp Negation of result
+8	InsertUnaryOp	org.geotools.data.sort.FidComparator.compare(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:44 - InsertUnaryOp IINC 1 result
+9	InsertUnaryOp	org.geotools.data.sort.FidComparator.compare(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:44 - InsertUnaryOp IINC -1 result
+10	InsertUnaryOp	org.geotools.data.sort.FidComparator.compare(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:46 - InsertUnaryOp Negation of result
+11	InsertUnaryOp	org.geotools.data.sort.FidComparator.compare(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:46 - InsertUnaryOp IINC 1 result
+12	InsertUnaryOp	org.geotools.data.sort.FidComparator.compare(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:46 - InsertUnaryOp IINC -1 result
+13	ReplaceConstant	org.geotools.data.sort.FidComparator.compare(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:46 - ReplaceConstant - -1 -> 0
+14	ReplaceConstant	org.geotools.data.sort.FidComparator.compare(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:46 - ReplaceConstant - -1 -> 1
+15	ReplaceConstant	org.geotools.data.sort.FidComparator.compare(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:46 - ReplaceConstant - -1 -> -2
+16	ReplaceArithmeticOperator	org.geotools.data.sort.FidComparator.compare(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:46 - ReplaceArithmeticOperator * -> +
+17	ReplaceArithmeticOperator	org.geotools.data.sort.FidComparator.compare(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:46 - ReplaceArithmeticOperator * -> %
+18	ReplaceArithmeticOperator	org.geotools.data.sort.FidComparator.compare(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:46 - ReplaceArithmeticOperator * -> -
+19	ReplaceArithmeticOperator	org.geotools.data.sort.FidComparator.compare(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:46 - ReplaceArithmeticOperator * -> /
+20	ReplaceComparisonOperator	org.geotools.data.sort.FidComparator.compareAscending(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:54 - ReplaceComparisonOperator != null -> = null
+21	ReplaceComparisonOperator	org.geotools.data.sort.FidComparator.compareAscending(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:55 - ReplaceComparisonOperator != null -> = null
+22	ReplaceConstant	org.geotools.data.sort.FidComparator.compareAscending(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:56 - ReplaceConstant - 0 -> 1
+23	ReplaceConstant	org.geotools.data.sort.FidComparator.compareAscending(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:58 - ReplaceConstant - -1 -> 0
+24	ReplaceConstant	org.geotools.data.sort.FidComparator.compareAscending(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:58 - ReplaceConstant - -1 -> 1
+25	ReplaceConstant	org.geotools.data.sort.FidComparator.compareAscending(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:58 - ReplaceConstant - -1 -> -2
+26	ReplaceComparisonOperator	org.geotools.data.sort.FidComparator.compareAscending(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:60 - ReplaceComparisonOperator != null -> = null
+27	ReplaceConstant	org.geotools.data.sort.FidComparator.compareAscending(Lorg/opengis/feature/simple/SimpleFeature;Lorg/opengis/feature/simple/SimpleFeature;)I:61 - ReplaceConstant - 1 -> 0

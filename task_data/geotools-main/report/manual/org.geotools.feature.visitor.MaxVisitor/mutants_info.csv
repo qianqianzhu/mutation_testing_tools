@@ -1,0 +1,77 @@
+0	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.<init>(Ljava/lang/String;)V:44 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.<init>(Ljava/lang/String;)V:45 - ReplaceConstant - 0 -> 1
+2	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.<init>(Ljava/lang/String;)V:46 - ReplaceConstant - 0 -> 1
+3	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:44 - ReplaceConstant - 0 -> 1
+4	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:45 - ReplaceConstant - 0 -> 1
+5	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:46 - ReplaceConstant - 0 -> 1
+6	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:56 - InsertUnaryOp Negation of attributeTypeIndex
+7	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:56 - InsertUnaryOp IINC 1 attributeTypeIndex
+8	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:56 - InsertUnaryOp IINC -1 attributeTypeIndex
+9	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.<init>(Ljava/lang/String;Lorg/opengis/feature/simple/SimpleFeatureType;)V:44 - ReplaceConstant - 0 -> 1
+10	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.<init>(Ljava/lang/String;Lorg/opengis/feature/simple/SimpleFeatureType;)V:45 - ReplaceConstant - 0 -> 1
+11	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.<init>(Ljava/lang/String;Lorg/opengis/feature/simple/SimpleFeatureType;)V:46 - ReplaceConstant - 0 -> 1
+12	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.<init>(Lorg/opengis/filter/expression/Expression;)V:44 - ReplaceConstant - 0 -> 1
+13	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.<init>(Lorg/opengis/filter/expression/Expression;)V:45 - ReplaceConstant - 0 -> 1
+14	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.<init>(Lorg/opengis/filter/expression/Expression;)V:46 - ReplaceConstant - 0 -> 1
+15	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.getExpressions()Ljava/util/List;:75 - ReplaceConstant - 1 -> 0
+16	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.getExpressions()Ljava/util/List;:75 - ReplaceConstant - 0 -> 1
+17	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:89 - ReplaceComparisonOperator != null -> = null
+18	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:90 - InsertUnaryOp Negation
+19	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:90 - InsertUnaryOp +1
+20	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:90 - InsertUnaryOp -1
+21	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:90 - ReplaceConstant - 1 -> 0
+22	ReplaceArithmeticOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:90 - ReplaceArithmeticOperator + -> %
+23	ReplaceArithmeticOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:90 - ReplaceArithmeticOperator + -> -
+24	ReplaceArithmeticOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:90 - ReplaceArithmeticOperator + -> *
+25	ReplaceArithmeticOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:90 - ReplaceArithmeticOperator + -> /
+26	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:94 - ReplaceComparisonOperator == -> -2
+27	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:94 - ReplaceComparisonOperator == -> >=
+28	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:94 - ReplaceComparisonOperator == -> <=
+29	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:96 - InsertUnaryOp Negation of doubleVal
+30	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:96 - ReplaceComparisonOperator != -> -1
+31	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:96 - ReplaceComparisonOperator != -> <
+32	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:96 - ReplaceComparisonOperator != -> >
+33	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:96 - InsertUnaryOp Negation of doubleVal
+34	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:96 - ReplaceComparisonOperator == -> -2
+35	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:96 - ReplaceComparisonOperator == -> >=
+36	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:96 - ReplaceComparisonOperator == -> <=
+37	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:97 - InsertUnaryOp Negation
+38	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:97 - InsertUnaryOp +1
+39	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:97 - InsertUnaryOp -1
+40	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:97 - ReplaceConstant - 1 -> 0
+41	ReplaceArithmeticOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:97 - ReplaceArithmeticOperator + -> %
+42	ReplaceArithmeticOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:97 - ReplaceArithmeticOperator + -> -
+43	ReplaceArithmeticOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:97 - ReplaceArithmeticOperator + -> *
+44	ReplaceArithmeticOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:97 - ReplaceArithmeticOperator + -> /
+45	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:104 - InsertUnaryOp Negation
+46	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:104 - ReplaceComparisonOperator == -> -2
+47	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:104 - ReplaceComparisonOperator == -> >=
+48	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:104 - ReplaceComparisonOperator == -> <=
+49	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:104 - ReplaceComparisonOperator <= -> -1
+50	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:104 - ReplaceComparisonOperator <= -> ==
+51	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:104 - ReplaceComparisonOperator <= -> <
+52	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.visit(Lorg/opengis/feature/Feature;)V:106 - ReplaceConstant - 1 -> 0
+53	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.getMax()Ljava/lang/Comparable;:120 - InsertUnaryOp Negation
+54	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.getMax()Ljava/lang/Comparable;:120 - ReplaceComparisonOperator != -> -1
+55	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.getMax()Ljava/lang/Comparable;:120 - ReplaceComparisonOperator != -> <
+56	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.getMax()Ljava/lang/Comparable;:120 - ReplaceComparisonOperator != -> >
+57	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.getMax()Ljava/lang/Comparable;:121 - ReplaceConstant - Must visit before max value is ready! -> 
+58	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.getNaNCount()I:132 - InsertUnaryOp Negation
+59	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.getNaNCount()I:132 - InsertUnaryOp +1
+60	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.getNaNCount()I:132 - InsertUnaryOp -1
+61	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.getNullCount()I:139 - InsertUnaryOp Negation
+62	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.getNullCount()I:139 - InsertUnaryOp +1
+63	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.getNullCount()I:139 - InsertUnaryOp -1
+64	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.reset()V:146 - ReplaceConstant - 0 -> 1
+65	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.reset()V:147 - ReplaceConstant - -2147483648 -> 0
+66	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.reset()V:147 - ReplaceConstant - -2147483648 -> 1
+67	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.reset()V:147 - ReplaceConstant - -2147483648 -> -1
+68	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.reset()V:147 - ReplaceConstant - -2147483648 -> 2147483647
+69	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.reset()V:147 - ReplaceConstant - -2147483648 -> -2147483647
+70	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.reset()V:148 - ReplaceConstant - 0 -> 1
+71	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.reset()V:149 - ReplaceConstant - 0 -> 1
+72	InsertUnaryOp	org.geotools.feature.visitor.MaxVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:157 - InsertUnaryOp Negation
+73	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:157 - ReplaceComparisonOperator != -> -1
+74	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:157 - ReplaceComparisonOperator != -> <
+75	ReplaceComparisonOperator	org.geotools.feature.visitor.MaxVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:157 - ReplaceComparisonOperator != -> >
+76	ReplaceConstant	org.geotools.feature.visitor.MaxVisitor.setValue(Ljava/lang/Object;)V:175 - ReplaceConstant - 1 -> 0

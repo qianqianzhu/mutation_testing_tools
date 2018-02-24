@@ -1,0 +1,47 @@
+0	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:307 - ReplaceConstant - 500 -> 0
+1	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:307 - ReplaceConstant - 500 -> 1
+2	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:307 - ReplaceConstant - 500 -> -1
+3	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:307 - ReplaceConstant - 500 -> 499
+4	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:307 - ReplaceConstant - 500 -> 501
+5	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:317 - ReplaceConstant - 0.5 -> 0.0
+6	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:317 - ReplaceConstant - 0.5 -> 1.0
+7	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:317 - ReplaceConstant - 0.5 -> -1.0
+8	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:317 - ReplaceConstant - 0.5 -> -0.5
+9	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:317 - ReplaceConstant - 0.5 -> 1.5
+10	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:320 - ReplaceConstant - 1.5 -> 0.0
+11	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:320 - ReplaceConstant - 1.5 -> 1.0
+12	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:320 - ReplaceConstant - 1.5 -> -1.0
+13	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:320 - ReplaceConstant - 1.5 -> 0.5
+14	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:320 - ReplaceConstant - 1.5 -> 2.5
+15	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:326 - ReplaceConstant - 30000 -> 0
+16	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:326 - ReplaceConstant - 30000 -> 1
+17	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:326 - ReplaceConstant - 30000 -> -1
+18	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:326 - ReplaceConstant - 30000 -> 29999
+19	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:326 - ReplaceConstant - 30000 -> 30001
+20	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:333 - ReplaceConstant - 3600000 -> 0
+21	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:333 - ReplaceConstant - 3600000 -> 1
+22	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:333 - ReplaceConstant - 3600000 -> -1
+23	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:333 - ReplaceConstant - 3600000 -> 3599999
+24	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.<init>()V:333 - ReplaceConstant - 3600000 -> 3600001
+25	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.getInitialIntervalMillis()I:348 - InsertUnaryOp Negation
+26	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.getInitialIntervalMillis()I:348 - InsertUnaryOp +1
+27	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.getInitialIntervalMillis()I:348 - InsertUnaryOp -1
+28	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.setInitialIntervalMillis(I)Lorg/telegram/telegrambots/updatesreceivers/ExponentialBackOff$Builder;:361 - InsertUnaryOp Negation of initialIntervalMillis
+29	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.setInitialIntervalMillis(I)Lorg/telegram/telegrambots/updatesreceivers/ExponentialBackOff$Builder;:361 - InsertUnaryOp IINC 1 initialIntervalMillis
+30	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.setInitialIntervalMillis(I)Lorg/telegram/telegrambots/updatesreceivers/ExponentialBackOff$Builder;:361 - InsertUnaryOp IINC -1 initialIntervalMillis
+31	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.getRandomizationFactor()D:380 - InsertUnaryOp Negation
+32	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.setRandomizationFactor(D)Lorg/telegram/telegrambots/updatesreceivers/ExponentialBackOff$Builder;:399 - InsertUnaryOp Negation of randomizationFactor
+33	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.getMultiplier()D:408 - InsertUnaryOp Negation
+34	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.setMultiplier(D)Lorg/telegram/telegrambots/updatesreceivers/ExponentialBackOff$Builder;:421 - InsertUnaryOp Negation of multiplier
+35	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.getMaxIntervalMillis()I:431 - InsertUnaryOp Negation
+36	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.getMaxIntervalMillis()I:431 - InsertUnaryOp +1
+37	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.getMaxIntervalMillis()I:431 - InsertUnaryOp -1
+38	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.setMaxIntervalMillis(I)Lorg/telegram/telegrambots/updatesreceivers/ExponentialBackOff$Builder;:445 - InsertUnaryOp Negation of maxIntervalMillis
+39	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.setMaxIntervalMillis(I)Lorg/telegram/telegrambots/updatesreceivers/ExponentialBackOff$Builder;:445 - InsertUnaryOp IINC 1 maxIntervalMillis
+40	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.setMaxIntervalMillis(I)Lorg/telegram/telegrambots/updatesreceivers/ExponentialBackOff$Builder;:445 - InsertUnaryOp IINC -1 maxIntervalMillis
+41	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.getMaxElapsedTimeMillis()I:460 - InsertUnaryOp Negation
+42	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.getMaxElapsedTimeMillis()I:460 - InsertUnaryOp +1
+43	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.getMaxElapsedTimeMillis()I:460 - InsertUnaryOp -1
+44	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.setMaxElapsedTimeMillis(I)Lorg/telegram/telegrambots/updatesreceivers/ExponentialBackOff$Builder;:479 - InsertUnaryOp Negation of maxElapsedTimeMillis
+45	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.setMaxElapsedTimeMillis(I)Lorg/telegram/telegrambots/updatesreceivers/ExponentialBackOff$Builder;:479 - InsertUnaryOp IINC 1 maxElapsedTimeMillis
+46	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.ExponentialBackOff$Builder.setMaxElapsedTimeMillis(I)Lorg/telegram/telegrambots/updatesreceivers/ExponentialBackOff$Builder;:479 - InsertUnaryOp IINC -1 maxElapsedTimeMillis

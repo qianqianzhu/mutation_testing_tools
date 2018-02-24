@@ -1,0 +1,128 @@
+0	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.<init>(Lorg/dynjs/parser/js/Position;Lorg/dynjs/parser/ast/Expression;Ljava/util/List;)V:42 - ReplaceComparisonOperator == -> -2
+1	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.<init>(Lorg/dynjs/parser/js/Position;Lorg/dynjs/parser/ast/Expression;Ljava/util/List;)V:42 - ReplaceComparisonOperator == -> >=
+2	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.<init>(Lorg/dynjs/parser/js/Position;Lorg/dynjs/parser/ast/Expression;Ljava/util/List;)V:42 - ReplaceComparisonOperator == -> <=
+3	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.getVariableDeclarations()Ljava/util/List;:57 - ReplaceComparisonOperator == -> -2
+4	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.getVariableDeclarations()Ljava/util/List;:57 - ReplaceComparisonOperator == -> >=
+5	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.getVariableDeclarations()Ljava/util/List;:57 - ReplaceComparisonOperator == -> <=
+6	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:66 - ReplaceComparisonOperator == -> -2
+7	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:66 - ReplaceComparisonOperator == -> >=
+8	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:66 - ReplaceComparisonOperator == -> <=
+9	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:67 - InsertUnaryOp Negation of size
+10	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:67 - InsertUnaryOp IINC 1 size
+11	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:67 - InsertUnaryOp IINC -1 size
+12	ReplaceArithmeticOperator	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:67 - ReplaceArithmeticOperator + -> %
+13	ReplaceArithmeticOperator	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:67 - ReplaceArithmeticOperator + -> -
+14	ReplaceArithmeticOperator	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:67 - ReplaceArithmeticOperator + -> *
+15	ReplaceArithmeticOperator	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:67 - ReplaceArithmeticOperator + -> /
+16	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:70 - InsertUnaryOp Negation of size
+17	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:70 - InsertUnaryOp IINC 1 size
+18	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:70 - InsertUnaryOp IINC -1 size
+19	ReplaceConstant	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:70 - ReplaceConstant - 11 -> 0
+20	ReplaceConstant	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:70 - ReplaceConstant - 11 -> 1
+21	ReplaceConstant	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:70 - ReplaceConstant - 11 -> -1
+22	ReplaceConstant	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:70 - ReplaceConstant - 11 -> 10
+23	ReplaceConstant	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:70 - ReplaceConstant - 11 -> 12
+24	ReplaceArithmeticOperator	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:70 - ReplaceArithmeticOperator + -> %
+25	ReplaceArithmeticOperator	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:70 - ReplaceArithmeticOperator + -> -
+26	ReplaceArithmeticOperator	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:70 - ReplaceArithmeticOperator + -> *
+27	ReplaceArithmeticOperator	org.dynjs.parser.ast.SwitchStatement.getSizeMetric()I:70 - ReplaceArithmeticOperator + -> /
+28	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:75 - InsertUnaryOp Negation of debug
+29	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:75 - InsertUnaryOp IINC 1 debug
+30	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:75 - InsertUnaryOp IINC -1 debug
+31	ReplaceConstant	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:80 - ReplaceConstant - -1 -> 0
+32	ReplaceConstant	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:80 - ReplaceConstant - -1 -> 1
+33	ReplaceConstant	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:80 - ReplaceConstant - -1 -> -2
+34	ReplaceConstant	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:81 - ReplaceConstant - -1 -> 0
+35	ReplaceConstant	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:81 - ReplaceConstant - -1 -> 1
+36	ReplaceConstant	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:81 - ReplaceConstant - -1 -> -2
+37	ReplaceConstant	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:83 - ReplaceConstant - 0 -> 1
+38	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:83 - InsertUnaryOp Negation of i
+39	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:83 - InsertUnaryOp IINC 1 i
+40	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:83 - InsertUnaryOp IINC -1 i
+41	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:83 - InsertUnaryOp Negation of numClauses
+42	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:83 - InsertUnaryOp IINC 1 numClauses
+43	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:83 - InsertUnaryOp IINC -1 numClauses
+44	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:83 - ReplaceComparisonOperator >= -> -1
+45	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:83 - ReplaceComparisonOperator >= -> >
+46	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:83 - ReplaceComparisonOperator >= -> ==
+47	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:84 - InsertUnaryOp Negation of i
+48	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:84 - InsertUnaryOp IINC 1 i
+49	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:84 - InsertUnaryOp IINC -1 i
+50	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:85 - InsertUnaryOp Negation of i
+51	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:85 - InsertUnaryOp IINC 1 i
+52	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:85 - InsertUnaryOp IINC -1 i
+53	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:86 - ReplaceComparisonOperator == -> -2
+54	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:86 - ReplaceComparisonOperator == -> >=
+55	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:86 - ReplaceComparisonOperator == -> <=
+56	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:87 - InsertUnaryOp Negation of i
+57	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:87 - InsertUnaryOp IINC 1 i
+58	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:87 - InsertUnaryOp IINC -1 i
+59	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:91 - InsertUnaryOp Negation of debug
+60	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:91 - InsertUnaryOp IINC 1 debug
+61	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:91 - InsertUnaryOp IINC -1 debug
+62	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:92 - ReplaceComparisonOperator == -> -2
+63	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:92 - ReplaceComparisonOperator == -> >=
+64	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:92 - ReplaceComparisonOperator == -> <=
+65	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:93 - InsertUnaryOp Negation of i
+66	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:93 - InsertUnaryOp IINC 1 i
+67	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:93 - InsertUnaryOp IINC -1 i
+68	ReplaceVariable	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:83 - ReplaceVariable i -> startIndex
+69	ReplaceVariable	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:83 - ReplaceVariable i -> defaultIndex
+70	ReplaceVariable	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:83 - ReplaceVariable i -> numClauses
+71	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:98 - InsertUnaryOp Negation of startIndex
+72	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:98 - InsertUnaryOp IINC 1 startIndex
+73	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:98 - InsertUnaryOp IINC -1 startIndex
+74	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:98 - ReplaceComparisonOperator >= -> -1
+75	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:98 - ReplaceComparisonOperator >= -> ==
+76	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:98 - ReplaceComparisonOperator >= -> >
+77	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:98 - InsertUnaryOp Negation of defaultIndex
+78	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:98 - InsertUnaryOp IINC 1 defaultIndex
+79	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:98 - InsertUnaryOp IINC -1 defaultIndex
+80	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:98 - ReplaceComparisonOperator < -> -2
+81	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:98 - ReplaceComparisonOperator < -> !=
+82	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:98 - ReplaceComparisonOperator < -> <=
+83	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:99 - InsertUnaryOp Negation of defaultIndex
+84	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:99 - InsertUnaryOp IINC 1 defaultIndex
+85	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:99 - InsertUnaryOp IINC -1 defaultIndex
+86	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:102 - InsertUnaryOp Negation of startIndex
+87	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:102 - InsertUnaryOp IINC 1 startIndex
+88	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:102 - InsertUnaryOp IINC -1 startIndex
+89	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:102 - ReplaceComparisonOperator < -> -2
+90	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:102 - ReplaceComparisonOperator < -> !=
+91	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:102 - ReplaceComparisonOperator < -> <=
+92	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - InsertUnaryOp Negation of startIndex
+93	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - InsertUnaryOp IINC 1 startIndex
+94	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - InsertUnaryOp IINC -1 startIndex
+95	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - InsertUnaryOp Negation of i
+96	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - InsertUnaryOp IINC 1 i
+97	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - InsertUnaryOp IINC -1 i
+98	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - InsertUnaryOp Negation of numClauses
+99	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - InsertUnaryOp IINC 1 numClauses
+100	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - InsertUnaryOp IINC -1 numClauses
+101	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - ReplaceComparisonOperator >= -> -1
+102	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - ReplaceComparisonOperator >= -> >
+103	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - ReplaceComparisonOperator >= -> ==
+104	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:104 - InsertUnaryOp Negation of i
+105	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:104 - InsertUnaryOp IINC 1 i
+106	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:104 - InsertUnaryOp IINC -1 i
+107	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:105 - ReplaceComparisonOperator = null -> != null
+108	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:106 - InsertUnaryOp Negation of debug
+109	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:106 - InsertUnaryOp IINC 1 debug
+110	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:106 - InsertUnaryOp IINC -1 debug
+111	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:109 - ReplaceComparisonOperator != -> ==
+112	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:111 - ReplaceComparisonOperator != -> ==
+113	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:113 - ReplaceComparisonOperator != -> ==
+114	ReplaceVariable	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - ReplaceVariable i -> startIndex
+115	ReplaceVariable	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - ReplaceVariable i -> defaultIndex
+116	ReplaceVariable	org.dynjs.parser.ast.SwitchStatement.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Lorg/dynjs/runtime/Completion;:103 - ReplaceVariable i -> numClauses
+117	ReplaceConstant	org.dynjs.parser.ast.SwitchStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:128 - ReplaceConstant - switch ( -> 
+118	ReplaceConstant	org.dynjs.parser.ast.SwitchStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:128 - ReplaceConstant -  ) {
+ -> 
+119	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:129 - ReplaceComparisonOperator == -> -2
+120	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:129 - ReplaceComparisonOperator == -> >=
+121	ReplaceComparisonOperator	org.dynjs.parser.ast.SwitchStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:129 - ReplaceComparisonOperator == -> <=
+122	ReplaceConstant	org.dynjs.parser.ast.SwitchStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:130 - ReplaceConstant -    -> 
+123	ReplaceConstant	org.dynjs.parser.ast.SwitchStatement.toIndentedString(Ljava/lang/String;)Ljava/lang/String;:132 - ReplaceConstant - } -> 
+124	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:139 - InsertUnaryOp Negation of strict
+125	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:139 - InsertUnaryOp IINC 1 strict
+126	InsertUnaryOp	org.dynjs.parser.ast.SwitchStatement.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:139 - InsertUnaryOp IINC -1 strict

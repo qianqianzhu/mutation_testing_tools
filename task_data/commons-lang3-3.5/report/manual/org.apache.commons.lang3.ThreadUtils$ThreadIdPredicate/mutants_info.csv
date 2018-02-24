@@ -1,0 +1,15 @@
+0	InsertUnaryOp	org.apache.commons.lang3.ThreadUtils$ThreadIdPredicate.<init>(J)V:346 - InsertUnaryOp Negation of threadId
+1	ReplaceConstant	org.apache.commons.lang3.ThreadUtils$ThreadIdPredicate.<init>(J)V:346 - ReplaceConstant - 0 -> 1
+2	ReplaceConstant	org.apache.commons.lang3.ThreadUtils$ThreadIdPredicate.<init>(J)V:346 - ReplaceConstant - 0 -> -1
+3	ReplaceComparisonOperator	org.apache.commons.lang3.ThreadUtils$ThreadIdPredicate.<init>(J)V:346 - ReplaceComparisonOperator > -> -2
+4	ReplaceComparisonOperator	org.apache.commons.lang3.ThreadUtils$ThreadIdPredicate.<init>(J)V:346 - ReplaceComparisonOperator > -> !=
+5	ReplaceComparisonOperator	org.apache.commons.lang3.ThreadUtils$ThreadIdPredicate.<init>(J)V:346 - ReplaceComparisonOperator > -> >=
+6	ReplaceConstant	org.apache.commons.lang3.ThreadUtils$ThreadIdPredicate.<init>(J)V:347 - ReplaceConstant - The thread id must be greater than zero -> 
+7	InsertUnaryOp	org.apache.commons.lang3.ThreadUtils$ThreadIdPredicate.<init>(J)V:349 - InsertUnaryOp Negation of threadId
+8	ReplaceComparisonOperator	org.apache.commons.lang3.ThreadUtils$ThreadIdPredicate.test(Ljava/lang/Thread;)Z:354 - ReplaceComparisonOperator = null -> != null
+9	InsertUnaryOp	org.apache.commons.lang3.ThreadUtils$ThreadIdPredicate.test(Ljava/lang/Thread;)Z:354 - InsertUnaryOp Negation
+10	ReplaceComparisonOperator	org.apache.commons.lang3.ThreadUtils$ThreadIdPredicate.test(Ljava/lang/Thread;)Z:354 - ReplaceComparisonOperator != -> -1
+11	ReplaceComparisonOperator	org.apache.commons.lang3.ThreadUtils$ThreadIdPredicate.test(Ljava/lang/Thread;)Z:354 - ReplaceComparisonOperator != -> <
+12	ReplaceComparisonOperator	org.apache.commons.lang3.ThreadUtils$ThreadIdPredicate.test(Ljava/lang/Thread;)Z:354 - ReplaceComparisonOperator != -> >
+13	ReplaceConstant	org.apache.commons.lang3.ThreadUtils$ThreadIdPredicate.test(Ljava/lang/Thread;)Z:354 - ReplaceConstant - 1 -> 0
+14	ReplaceConstant	org.apache.commons.lang3.ThreadUtils$ThreadIdPredicate.test(Ljava/lang/Thread;)Z:354 - ReplaceConstant - 0 -> 1

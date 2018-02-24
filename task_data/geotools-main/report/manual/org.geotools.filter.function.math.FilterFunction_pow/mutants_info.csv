@@ -1,0 +1,11 @@
+0	ReplaceConstant	org.geotools.filter.function.math.FilterFunction_pow.<init>()V:42 - ReplaceConstant - pow -> 
+1	ReplaceConstant	org.geotools.filter.function.math.FilterFunction_pow.getArgCount()I:47 - ReplaceConstant - 2 -> 0
+2	ReplaceConstant	org.geotools.filter.function.math.FilterFunction_pow.getArgCount()I:47 - ReplaceConstant - 2 -> 1
+3	ReplaceConstant	org.geotools.filter.function.math.FilterFunction_pow.getArgCount()I:47 - ReplaceConstant - 2 -> -1
+4	ReplaceConstant	org.geotools.filter.function.math.FilterFunction_pow.getArgCount()I:47 - ReplaceConstant - 2 -> 3
+5	ReplaceConstant	org.geotools.filter.function.math.FilterFunction_pow.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:55 - ReplaceConstant - 0 -> 1
+6	ReplaceConstant	org.geotools.filter.function.math.FilterFunction_pow.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:58 - ReplaceConstant - Filter Function problem for function pow argument #0 - expected type double -> 
+7	ReplaceConstant	org.geotools.filter.function.math.FilterFunction_pow.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:63 - ReplaceConstant - 1 -> 0
+8	ReplaceConstant	org.geotools.filter.function.math.FilterFunction_pow.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:66 - ReplaceConstant - Filter Function problem for function pow argument #1 - expected type double -> 
+9	InsertUnaryOp	org.geotools.filter.function.math.FilterFunction_pow.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:70 - InsertUnaryOp Negation of arg0
+10	InsertUnaryOp	org.geotools.filter.function.math.FilterFunction_pow.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:70 - InsertUnaryOp Negation of arg1

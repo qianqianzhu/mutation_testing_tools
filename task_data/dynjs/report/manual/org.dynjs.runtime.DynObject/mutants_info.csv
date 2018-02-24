@@ -1,0 +1,362 @@
+0	ReplaceConstant	org.dynjs.runtime.DynObject.<init>()V:28 - ReplaceConstant - 1 -> 0
+1	ReplaceConstant	org.dynjs.runtime.DynObject.<init>()V:33 - ReplaceConstant - Object -> 
+2	ReplaceConstant	org.dynjs.runtime.DynObject.<init>()V:34 - ReplaceConstant - 1 -> 0
+3	ReplaceConstant	org.dynjs.runtime.DynObject.<init>(Lorg/dynjs/runtime/DynObject;)V:28 - ReplaceConstant - 1 -> 0
+4	InsertUnaryOp	org.dynjs.runtime.DynObject.<init>(Lorg/dynjs/runtime/DynObject;)V:42 - InsertUnaryOp Negation
+5	InsertUnaryOp	org.dynjs.runtime.DynObject.isExtensible()Z:76 - InsertUnaryOp Negation
+6	InsertUnaryOp	org.dynjs.runtime.DynObject.setExtensible(Z)V:80 - InsertUnaryOp Negation of extensible
+7	InsertUnaryOp	org.dynjs.runtime.DynObject.setExtensible(Z)V:80 - InsertUnaryOp IINC 1 extensible
+8	InsertUnaryOp	org.dynjs.runtime.DynObject.setExtensible(Z)V:80 - InsertUnaryOp IINC -1 extensible
+9	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.get(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:85 - ReplaceComparisonOperator = null -> != null
+10	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.get(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:87 - ReplaceComparisonOperator == -> -2
+11	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.get(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:87 - ReplaceComparisonOperator == -> >=
+12	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.get(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:87 - ReplaceComparisonOperator == -> <=
+13	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.get(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:89 - ReplaceComparisonOperator != null -> = null
+14	ReplaceConstant	org.dynjs.runtime.DynObject.get(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:96 - ReplaceConstant - 0 -> 1
+15	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.get(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:97 - ReplaceComparisonOperator != -> ==
+16	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.get(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:102 - ReplaceComparisonOperator == -> -2
+17	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.get(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:102 - ReplaceComparisonOperator == -> >=
+18	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.get(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:102 - ReplaceComparisonOperator == -> <=
+19	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.get(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:104 - ReplaceComparisonOperator != null -> = null
+20	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.get(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:111 - ReplaceComparisonOperator = null -> != null
+21	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.get(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:111 - ReplaceComparisonOperator != -> ==
+22	ReplaceConstant	org.dynjs.runtime.DynObject.get(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:116 - ReplaceConstant - 0 -> 1
+23	ReplaceConstant	org.dynjs.runtime.DynObject.getOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:121 - ReplaceConstant - 1 -> 0
+24	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:132 - ReplaceComparisonOperator != null -> = null
+25	InsertUnaryOp	org.dynjs.runtime.DynObject.getOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:136 - InsertUnaryOp Negation of dupe
+26	InsertUnaryOp	org.dynjs.runtime.DynObject.getOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:136 - InsertUnaryOp IINC 1 dupe
+27	InsertUnaryOp	org.dynjs.runtime.DynObject.getOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:136 - InsertUnaryOp IINC -1 dupe
+28	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:136 - ReplaceComparisonOperator != -> -1
+29	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:136 - ReplaceComparisonOperator != -> <
+30	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:136 - ReplaceComparisonOperator != -> >
+31	ReplaceConstant	org.dynjs.runtime.DynObject.getProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:145 - ReplaceConstant - 1 -> 0
+32	InsertUnaryOp	org.dynjs.runtime.DynObject.getProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:152 - InsertUnaryOp Negation of dupe
+33	InsertUnaryOp	org.dynjs.runtime.DynObject.getProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:152 - InsertUnaryOp IINC 1 dupe
+34	InsertUnaryOp	org.dynjs.runtime.DynObject.getProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:152 - InsertUnaryOp IINC -1 dupe
+35	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:153 - ReplaceComparisonOperator == -> !=
+36	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:157 - ReplaceComparisonOperator != null -> = null
+37	InsertUnaryOp	org.dynjs.runtime.DynObject.getProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:161 - InsertUnaryOp Negation of dupe
+38	InsertUnaryOp	org.dynjs.runtime.DynObject.getProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:161 - InsertUnaryOp IINC 1 dupe
+39	InsertUnaryOp	org.dynjs.runtime.DynObject.getProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Ljava/lang/Object;:161 - InsertUnaryOp IINC -1 dupe
+40	ReplaceConstant	org.dynjs.runtime.DynObject.hasProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:167 - ReplaceConstant - 0 -> 1
+41	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.hasProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:167 - ReplaceComparisonOperator == -> !=
+42	ReplaceConstant	org.dynjs.runtime.DynObject.hasProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:167 - ReplaceConstant - 1 -> 0
+43	ReplaceConstant	org.dynjs.runtime.DynObject.hasProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:167 - ReplaceConstant - 0 -> 1
+44	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:173 - ReplaceComparisonOperator = null -> != null
+45	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:175 - ReplaceComparisonOperator == -> -2
+46	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:175 - ReplaceComparisonOperator == -> >=
+47	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:175 - ReplaceComparisonOperator == -> <=
+48	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:177 - ReplaceComparisonOperator == -> !=
+49	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:177 - ReplaceComparisonOperator != -> ==
+50	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:187 - ReplaceComparisonOperator != -> -1
+51	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:187 - ReplaceComparisonOperator != -> <
+52	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:187 - ReplaceComparisonOperator != -> >
+53	InsertUnaryOp	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:189 - InsertUnaryOp Negation of shouldThrow
+54	InsertUnaryOp	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:189 - InsertUnaryOp IINC 1 shouldThrow
+55	InsertUnaryOp	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:189 - InsertUnaryOp IINC -1 shouldThrow
+56	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:189 - ReplaceComparisonOperator == -> -2
+57	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:189 - ReplaceComparisonOperator == -> >=
+58	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:189 - ReplaceComparisonOperator == -> <=
+59	ReplaceConstant	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:190 - ReplaceConstant - cannot put property ' -> 
+60	ReplaceConstant	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:190 - ReplaceConstant - ' -> 
+61	ReplaceConstant	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:195 - ReplaceConstant - 0 -> 1
+62	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:197 - ReplaceComparisonOperator == -> !=
+63	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:197 - ReplaceComparisonOperator == -> -2
+64	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:197 - ReplaceComparisonOperator == -> >=
+65	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:197 - ReplaceComparisonOperator == -> <=
+66	InsertUnaryOp	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:201 - InsertUnaryOp Negation of shouldThrow
+67	InsertUnaryOp	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:201 - InsertUnaryOp IINC 1 shouldThrow
+68	InsertUnaryOp	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:201 - InsertUnaryOp IINC -1 shouldThrow
+69	ReplaceConstant	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:205 - ReplaceConstant - 0 -> 1
+70	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:207 - ReplaceComparisonOperator == -> !=
+71	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:207 - ReplaceComparisonOperator == -> -2
+72	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:207 - ReplaceComparisonOperator == -> >=
+73	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:207 - ReplaceComparisonOperator == -> <=
+74	ReplaceConstant	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:209 - ReplaceConstant - 1 -> 0
+75	ReplaceConstant	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:209 - ReplaceConstant - 0 -> 1
+76	ReplaceConstant	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:211 - ReplaceConstant - 1 -> 0
+77	ReplaceConstant	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:211 - ReplaceConstant - 1 -> 0
+78	ReplaceConstant	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:211 - ReplaceConstant - 1 -> 0
+79	InsertUnaryOp	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:212 - InsertUnaryOp Negation of shouldThrow
+80	InsertUnaryOp	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:212 - InsertUnaryOp IINC 1 shouldThrow
+81	InsertUnaryOp	org.dynjs.runtime.DynObject.put(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Ljava/lang/Object;Z)V:212 - InsertUnaryOp IINC -1 shouldThrow
+82	ReplaceConstant	org.dynjs.runtime.DynObject.canPut(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:219 - ReplaceConstant - 0 -> 1
+83	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.canPut(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:222 - ReplaceComparisonOperator != -> ==
+84	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.canPut(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:223 - ReplaceComparisonOperator = null -> != null
+85	ReplaceConstant	org.dynjs.runtime.DynObject.canPut(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:224 - ReplaceConstant - 0 -> 1
+86	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.canPut(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:231 - ReplaceComparisonOperator == -> !=
+87	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.canPut(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:233 - ReplaceComparisonOperator == -> -2
+88	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.canPut(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:233 - ReplaceComparisonOperator == -> >=
+89	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.canPut(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:233 - ReplaceComparisonOperator == -> <=
+90	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.canPut(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:234 - ReplaceComparisonOperator != -> ==
+91	ReplaceConstant	org.dynjs.runtime.DynObject.canPut(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:236 - ReplaceConstant - 0 -> 1
+92	ReplaceConstant	org.dynjs.runtime.DynObject.canPut(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:238 - ReplaceConstant - 1 -> 0
+93	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.canPut(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:241 - ReplaceComparisonOperator != -> -1
+94	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.canPut(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:241 - ReplaceComparisonOperator != -> <
+95	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.canPut(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:241 - ReplaceComparisonOperator != -> >
+96	ReplaceConstant	org.dynjs.runtime.DynObject.canPut(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Z:242 - ReplaceConstant - 1 -> 0
+97	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:255 - ReplaceComparisonOperator != -> -1
+98	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:255 - ReplaceComparisonOperator != -> <
+99	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:255 - ReplaceComparisonOperator != -> >
+100	ReplaceConstant	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:256 - ReplaceConstant - 1 -> 0
+101	ReplaceConstant	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:258 - ReplaceConstant - 0 -> 1
+102	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:259 - ReplaceComparisonOperator != -> ==
+103	ReplaceConstant	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:260 - ReplaceConstant - 1 -> 0
+104	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:265 - ReplaceComparisonOperator == -> -2
+105	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:265 - ReplaceComparisonOperator == -> >=
+106	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:265 - ReplaceComparisonOperator == -> <=
+107	ReplaceConstant	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:267 - ReplaceConstant - 1 -> 0
+108	InsertUnaryOp	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:270 - InsertUnaryOp Negation of shouldThrow
+109	InsertUnaryOp	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:270 - InsertUnaryOp IINC 1 shouldThrow
+110	InsertUnaryOp	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:270 - InsertUnaryOp IINC -1 shouldThrow
+111	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:270 - ReplaceComparisonOperator == -> -2
+112	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:270 - ReplaceComparisonOperator == -> >=
+113	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:270 - ReplaceComparisonOperator == -> <=
+114	ReplaceConstant	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:271 - ReplaceConstant - cannot delete unconfigurable property ' -> 
+115	ReplaceConstant	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:271 - ReplaceConstant - ' -> 
+116	ReplaceConstant	org.dynjs.runtime.DynObject.delete(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Z)Z:274 - ReplaceConstant - 0 -> 1
+117	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:281 - ReplaceComparisonOperator != null -> = null
+118	ReplaceConstant	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:282 - ReplaceConstant - Number -> 
+119	ReplaceConstant	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:285 - ReplaceConstant - String -> 
+120	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:285 - ReplaceComparisonOperator == -> -2
+121	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:285 - ReplaceComparisonOperator == -> >=
+122	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:285 - ReplaceComparisonOperator == -> <=
+123	ReplaceConstant	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:286 - ReplaceConstant - toString -> 
+124	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:287 - ReplaceComparisonOperator == -> -2
+125	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:287 - ReplaceComparisonOperator == -> >=
+126	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:287 - ReplaceComparisonOperator == -> <=
+127	ReplaceConstant	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:288 - ReplaceConstant - 0 -> 1
+128	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:289 - ReplaceComparisonOperator != -> -1
+129	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:289 - ReplaceComparisonOperator != -> <
+130	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:289 - ReplaceComparisonOperator != -> >
+131	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:289 - ReplaceComparisonOperator != -> -1
+132	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:289 - ReplaceComparisonOperator != -> <
+133	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:289 - ReplaceComparisonOperator != -> >
+134	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:289 - ReplaceComparisonOperator != -> -1
+135	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:289 - ReplaceComparisonOperator != -> <
+136	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:289 - ReplaceComparisonOperator != -> >
+137	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:289 - ReplaceComparisonOperator == -> !=
+138	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:289 - ReplaceComparisonOperator != -> ==
+139	ReplaceConstant	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:294 - ReplaceConstant - valueOf -> 
+140	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:295 - ReplaceComparisonOperator == -> -2
+141	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:295 - ReplaceComparisonOperator == -> >=
+142	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:295 - ReplaceComparisonOperator == -> <=
+143	ReplaceConstant	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:296 - ReplaceConstant - 0 -> 1
+144	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:297 - ReplaceComparisonOperator != -> -1
+145	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:297 - ReplaceComparisonOperator != -> <
+146	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:297 - ReplaceComparisonOperator != -> >
+147	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:297 - ReplaceComparisonOperator != -> -1
+148	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:297 - ReplaceComparisonOperator != -> <
+149	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:297 - ReplaceComparisonOperator != -> >
+150	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:297 - ReplaceComparisonOperator != -> -1
+151	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:297 - ReplaceComparisonOperator != -> <
+152	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:297 - ReplaceComparisonOperator != -> >
+153	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:297 - ReplaceComparisonOperator == -> !=
+154	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:297 - ReplaceComparisonOperator != -> ==
+155	ReplaceConstant	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:301 - ReplaceConstant - String coercion must return a primitive value -> 
+156	ReplaceConstant	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:302 - ReplaceConstant - Number -> 
+157	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:302 - ReplaceComparisonOperator == -> -2
+158	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:302 - ReplaceComparisonOperator == -> >=
+159	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:302 - ReplaceComparisonOperator == -> <=
+160	ReplaceConstant	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:303 - ReplaceConstant - valueOf -> 
+161	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:304 - ReplaceComparisonOperator == -> -2
+162	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:304 - ReplaceComparisonOperator == -> >=
+163	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:304 - ReplaceComparisonOperator == -> <=
+164	ReplaceConstant	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:305 - ReplaceConstant - 0 -> 1
+165	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:306 - ReplaceComparisonOperator != -> -1
+166	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:306 - ReplaceComparisonOperator != -> <
+167	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:306 - ReplaceComparisonOperator != -> >
+168	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:306 - ReplaceComparisonOperator != -> -1
+169	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:306 - ReplaceComparisonOperator != -> <
+170	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:306 - ReplaceComparisonOperator != -> >
+171	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:306 - ReplaceComparisonOperator != -> -1
+172	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:306 - ReplaceComparisonOperator != -> <
+173	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:306 - ReplaceComparisonOperator != -> >
+174	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:306 - ReplaceComparisonOperator == -> !=
+175	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:306 - ReplaceComparisonOperator != -> ==
+176	ReplaceConstant	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:311 - ReplaceConstant - toString -> 
+177	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:312 - ReplaceComparisonOperator == -> -2
+178	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:312 - ReplaceComparisonOperator == -> >=
+179	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:312 - ReplaceComparisonOperator == -> <=
+180	ReplaceConstant	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:313 - ReplaceConstant - 0 -> 1
+181	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:314 - ReplaceComparisonOperator != -> -1
+182	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:314 - ReplaceComparisonOperator != -> <
+183	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:314 - ReplaceComparisonOperator != -> >
+184	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:314 - ReplaceComparisonOperator != -> -1
+185	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:314 - ReplaceComparisonOperator != -> <
+186	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:314 - ReplaceComparisonOperator != -> >
+187	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:314 - ReplaceComparisonOperator != -> -1
+188	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:314 - ReplaceComparisonOperator != -> <
+189	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:314 - ReplaceComparisonOperator != -> >
+190	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:314 - ReplaceComparisonOperator == -> !=
+191	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:314 - ReplaceComparisonOperator != -> ==
+192	ReplaceConstant	org.dynjs.runtime.DynObject.defaultValue(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;)Ljava/lang/Object;:318 - ReplaceConstant - String coercion must return a primitive value -> 
+193	ReplaceConstant	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:327 - ReplaceConstant - 0 -> 1
+194	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:329 - ReplaceComparisonOperator != -> ==
+195	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:330 - ReplaceComparisonOperator != -> -1
+196	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:330 - ReplaceComparisonOperator != -> <
+197	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:330 - ReplaceComparisonOperator != -> >
+198	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:331 - InsertUnaryOp Negation of shouldThrow
+199	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:331 - InsertUnaryOp IINC 1 shouldThrow
+200	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:331 - InsertUnaryOp IINC -1 shouldThrow
+201	ReplaceConstant	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:335 - ReplaceConstant - 1 -> 0
+202	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:339 - ReplaceComparisonOperator == -> -2
+203	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:339 - ReplaceComparisonOperator == -> >=
+204	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:339 - ReplaceComparisonOperator == -> <=
+205	ReplaceConstant	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:340 - ReplaceConstant - 1 -> 0
+206	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:345 - ReplaceComparisonOperator == -> -2
+207	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:345 - ReplaceComparisonOperator == -> >=
+208	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:345 - ReplaceComparisonOperator == -> <=
+209	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:345 - ReplaceComparisonOperator != -> -1
+210	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:345 - ReplaceComparisonOperator != -> <
+211	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:345 - ReplaceComparisonOperator != -> >
+212	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:346 - ReplaceComparisonOperator == -> -2
+213	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:346 - ReplaceComparisonOperator == -> >=
+214	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:346 - ReplaceComparisonOperator == -> <=
+215	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:346 - ReplaceComparisonOperator == -> -2
+216	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:346 - ReplaceComparisonOperator == -> >=
+217	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:346 - ReplaceComparisonOperator == -> <=
+218	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:347 - InsertUnaryOp Negation of shouldThrow
+219	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:347 - InsertUnaryOp IINC 1 shouldThrow
+220	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:347 - InsertUnaryOp IINC -1 shouldThrow
+221	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:350 - ReplaceComparisonOperator == -> -2
+222	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:350 - ReplaceComparisonOperator == -> >=
+223	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:350 - ReplaceComparisonOperator == -> <=
+224	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:350 - ReplaceComparisonOperator == -> -2
+225	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:350 - ReplaceComparisonOperator == -> >=
+226	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:350 - ReplaceComparisonOperator == -> <=
+227	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:350 - ReplaceComparisonOperator == -> -2
+228	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:350 - ReplaceComparisonOperator == -> >=
+229	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:350 - ReplaceComparisonOperator == -> <=
+230	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:351 - InsertUnaryOp Negation of shouldThrow
+231	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:351 - InsertUnaryOp IINC 1 shouldThrow
+232	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:351 - InsertUnaryOp IINC -1 shouldThrow
+233	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:357 - ReplaceComparisonOperator == -> -2
+234	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:357 - ReplaceComparisonOperator == -> >=
+235	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:357 - ReplaceComparisonOperator == -> <=
+236	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:361 - ReplaceComparisonOperator == -> -2
+237	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:361 - ReplaceComparisonOperator == -> >=
+238	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:361 - ReplaceComparisonOperator == -> <=
+239	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:362 - ReplaceComparisonOperator != -> -1
+240	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:362 - ReplaceComparisonOperator != -> <
+241	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:362 - ReplaceComparisonOperator != -> >
+242	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:363 - InsertUnaryOp Negation of shouldThrow
+243	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:363 - InsertUnaryOp IINC 1 shouldThrow
+244	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:363 - InsertUnaryOp IINC -1 shouldThrow
+245	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:365 - ReplaceComparisonOperator == -> -2
+246	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:365 - ReplaceComparisonOperator == -> >=
+247	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:365 - ReplaceComparisonOperator == -> <=
+248	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:373 - ReplaceComparisonOperator == -> -2
+249	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:373 - ReplaceComparisonOperator == -> >=
+250	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:373 - ReplaceComparisonOperator == -> <=
+251	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:373 - ReplaceComparisonOperator == -> -2
+252	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:373 - ReplaceComparisonOperator == -> >=
+253	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:373 - ReplaceComparisonOperator == -> <=
+254	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:374 - ReplaceComparisonOperator != -> -1
+255	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:374 - ReplaceComparisonOperator != -> <
+256	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:374 - ReplaceComparisonOperator != -> >
+257	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:375 - ReplaceComparisonOperator == -> -2
+258	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:375 - ReplaceComparisonOperator == -> >=
+259	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:375 - ReplaceComparisonOperator == -> <=
+260	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:375 - ReplaceComparisonOperator != -> -1
+261	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:375 - ReplaceComparisonOperator != -> <
+262	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:375 - ReplaceComparisonOperator != -> >
+263	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:376 - ReplaceComparisonOperator == -> -2
+264	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:376 - ReplaceComparisonOperator == -> >=
+265	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:376 - ReplaceComparisonOperator == -> <=
+266	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:377 - InsertUnaryOp Negation of shouldThrow
+267	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:377 - InsertUnaryOp IINC 1 shouldThrow
+268	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:377 - InsertUnaryOp IINC -1 shouldThrow
+269	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:380 - ReplaceComparisonOperator = null -> != null
+270	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:380 - ReplaceComparisonOperator != -> -1
+271	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:380 - ReplaceComparisonOperator != -> <
+272	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:380 - ReplaceComparisonOperator != -> >
+273	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:381 - InsertUnaryOp Negation of shouldThrow
+274	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:381 - InsertUnaryOp IINC 1 shouldThrow
+275	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:381 - InsertUnaryOp IINC -1 shouldThrow
+276	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:387 - ReplaceComparisonOperator == -> -2
+277	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:387 - ReplaceComparisonOperator == -> >=
+278	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:387 - ReplaceComparisonOperator == -> <=
+279	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:390 - ReplaceComparisonOperator == -> -2
+280	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:390 - ReplaceComparisonOperator == -> >=
+281	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:390 - ReplaceComparisonOperator == -> <=
+282	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:394 - ReplaceComparisonOperator == -> -2
+283	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:394 - ReplaceComparisonOperator == -> >=
+284	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:394 - ReplaceComparisonOperator == -> <=
+285	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:394 - ReplaceComparisonOperator == -> -2
+286	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:394 - ReplaceComparisonOperator == -> >=
+287	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:394 - ReplaceComparisonOperator == -> <=
+288	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:395 - ReplaceComparisonOperator != -> -1
+289	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:395 - ReplaceComparisonOperator != -> <
+290	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:395 - ReplaceComparisonOperator != -> >
+291	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:397 - ReplaceComparisonOperator = null -> != null
+292	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:397 - ReplaceComparisonOperator != -> -1
+293	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:397 - ReplaceComparisonOperator != -> <
+294	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:397 - ReplaceComparisonOperator != -> >
+295	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:398 - InsertUnaryOp Negation of shouldThrow
+296	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:398 - InsertUnaryOp IINC 1 shouldThrow
+297	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:398 - InsertUnaryOp IINC -1 shouldThrow
+298	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:401 - ReplaceComparisonOperator = null -> != null
+299	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:401 - ReplaceComparisonOperator != -> -1
+300	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:401 - ReplaceComparisonOperator != -> <
+301	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:401 - ReplaceComparisonOperator != -> >
+302	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:402 - InsertUnaryOp Negation of shouldThrow
+303	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:402 - InsertUnaryOp IINC 1 shouldThrow
+304	InsertUnaryOp	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:402 - InsertUnaryOp IINC -1 shouldThrow
+305	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:406 - ReplaceComparisonOperator == -> -2
+306	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:406 - ReplaceComparisonOperator == -> >=
+307	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:406 - ReplaceComparisonOperator == -> <=
+308	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:409 - ReplaceComparisonOperator == -> -2
+309	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:409 - ReplaceComparisonOperator == -> >=
+310	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:409 - ReplaceComparisonOperator == -> <=
+311	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:415 - ReplaceComparisonOperator == -> -2
+312	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:415 - ReplaceComparisonOperator == -> >=
+313	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:415 - ReplaceComparisonOperator == -> <=
+314	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:418 - ReplaceComparisonOperator == -> -2
+315	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:418 - ReplaceComparisonOperator == -> >=
+316	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:418 - ReplaceComparisonOperator == -> <=
+317	ReplaceConstant	org.dynjs.runtime.DynObject.defineOwnProperty(Lorg/dynjs/runtime/ExecutionContext;Ljava/lang/String;Lorg/dynjs/runtime/PropertyDescriptor;Z)Z:424 - ReplaceConstant - 1 -> 0
+318	ReplaceConstant	org.dynjs.runtime.DynObject.toString()Ljava/lang/String;:449 - ReplaceConstant - [object Object] -> 
+319	InsertUnaryOp	org.dynjs.runtime.DynObject.reject(Lorg/dynjs/runtime/ExecutionContext;Z)Z:453 - InsertUnaryOp Negation of shouldThrow
+320	InsertUnaryOp	org.dynjs.runtime.DynObject.reject(Lorg/dynjs/runtime/ExecutionContext;Z)Z:453 - InsertUnaryOp IINC 1 shouldThrow
+321	InsertUnaryOp	org.dynjs.runtime.DynObject.reject(Lorg/dynjs/runtime/ExecutionContext;Z)Z:453 - InsertUnaryOp IINC -1 shouldThrow
+322	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.reject(Lorg/dynjs/runtime/ExecutionContext;Z)Z:453 - ReplaceComparisonOperator == -> -2
+323	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.reject(Lorg/dynjs/runtime/ExecutionContext;Z)Z:453 - ReplaceComparisonOperator == -> >=
+324	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.reject(Lorg/dynjs/runtime/ExecutionContext;Z)Z:453 - ReplaceComparisonOperator == -> <=
+325	ReplaceConstant	org.dynjs.runtime.DynObject.reject(Lorg/dynjs/runtime/ExecutionContext;Z)Z:454 - ReplaceConstant - unable to perform operation -> 
+326	ReplaceConstant	org.dynjs.runtime.DynObject.reject(Lorg/dynjs/runtime/ExecutionContext;Z)Z:456 - ReplaceConstant - 0 -> 1
+327	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getOwnPropertyNames()Lorg/dynjs/runtime/NameEnumerator;:462 - ReplaceComparisonOperator == -> -2
+328	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getOwnPropertyNames()Lorg/dynjs/runtime/NameEnumerator;:462 - ReplaceComparisonOperator == -> >=
+329	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getOwnPropertyNames()Lorg/dynjs/runtime/NameEnumerator;:462 - ReplaceComparisonOperator == -> <=
+330	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getOwnEnumerablePropertyNames()Lorg/dynjs/runtime/NameEnumerator;:471 - ReplaceComparisonOperator == -> -2
+331	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getOwnEnumerablePropertyNames()Lorg/dynjs/runtime/NameEnumerator;:471 - ReplaceComparisonOperator == -> >=
+332	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getOwnEnumerablePropertyNames()Lorg/dynjs/runtime/NameEnumerator;:471 - ReplaceComparisonOperator == -> <=
+333	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getOwnEnumerablePropertyNames()Lorg/dynjs/runtime/NameEnumerator;:473 - ReplaceComparisonOperator == -> -2
+334	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getOwnEnumerablePropertyNames()Lorg/dynjs/runtime/NameEnumerator;:473 - ReplaceComparisonOperator == -> >=
+335	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getOwnEnumerablePropertyNames()Lorg/dynjs/runtime/NameEnumerator;:473 - ReplaceComparisonOperator == -> <=
+336	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getAllEnumerablePropertyNames()Lorg/dynjs/runtime/NameEnumerator;:483 - ReplaceComparisonOperator = null -> != null
+337	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getAllEnumerablePropertyNames()Lorg/dynjs/runtime/NameEnumerator;:486 - ReplaceComparisonOperator == -> -2
+338	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getAllEnumerablePropertyNames()Lorg/dynjs/runtime/NameEnumerator;:486 - ReplaceComparisonOperator == -> >=
+339	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getAllEnumerablePropertyNames()Lorg/dynjs/runtime/NameEnumerator;:486 - ReplaceComparisonOperator == -> <=
+340	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getAllEnumerablePropertyNames()Lorg/dynjs/runtime/NameEnumerator;:488 - ReplaceComparisonOperator == -> -2
+341	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getAllEnumerablePropertyNames()Lorg/dynjs/runtime/NameEnumerator;:488 - ReplaceComparisonOperator == -> >=
+342	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.getAllEnumerablePropertyNames()Lorg/dynjs/runtime/NameEnumerator;:488 - ReplaceComparisonOperator == -> <=
+343	ReplaceConstant	org.dynjs.runtime.DynObject.defineNonEnumerableProperty(Lorg/dynjs/runtime/GlobalContext;Ljava/lang/String;Ljava/lang/Object;)V:499 - ReplaceConstant - 1 -> 0
+344	ReplaceConstant	org.dynjs.runtime.DynObject.defineNonEnumerableProperty(Lorg/dynjs/runtime/GlobalContext;Ljava/lang/String;Ljava/lang/Object;)V:499 - ReplaceConstant - 1 -> 0
+345	ReplaceConstant	org.dynjs.runtime.DynObject.defineNonEnumerableProperty(Lorg/dynjs/runtime/GlobalContext;Ljava/lang/String;Ljava/lang/Object;)V:499 - ReplaceConstant - 0 -> 1
+346	ReplaceConstant	org.dynjs.runtime.DynObject.defineNonEnumerableProperty(Lorg/dynjs/runtime/GlobalContext;Ljava/lang/String;Ljava/lang/Object;)V:500 - ReplaceConstant - 0 -> 1
+347	ReplaceConstant	org.dynjs.runtime.DynObject.defineReadOnlyProperty(Lorg/dynjs/runtime/GlobalContext;Ljava/lang/String;Ljava/lang/Object;)V:505 - ReplaceConstant - 0 -> 1
+348	ReplaceConstant	org.dynjs.runtime.DynObject.defineReadOnlyProperty(Lorg/dynjs/runtime/GlobalContext;Ljava/lang/String;Ljava/lang/Object;)V:505 - ReplaceConstant - 0 -> 1
+349	ReplaceConstant	org.dynjs.runtime.DynObject.defineReadOnlyProperty(Lorg/dynjs/runtime/GlobalContext;Ljava/lang/String;Ljava/lang/Object;)V:505 - ReplaceConstant - 0 -> 1
+350	ReplaceConstant	org.dynjs.runtime.DynObject.defineReadOnlyProperty(Lorg/dynjs/runtime/GlobalContext;Ljava/lang/String;Ljava/lang/Object;)V:506 - ReplaceConstant - 0 -> 1
+351	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.hasExternalIndexedData()Z:521 - ReplaceComparisonOperator = null -> != null
+352	ReplaceConstant	org.dynjs.runtime.DynObject.hasExternalIndexedData()Z:521 - ReplaceConstant - 1 -> 0
+353	ReplaceConstant	org.dynjs.runtime.DynObject.hasExternalIndexedData()Z:521 - ReplaceConstant - 0 -> 1
+354	ReplaceConstant	org.dynjs.runtime.DynObject.containsKey(Ljava/lang/Object;)Z:538 - ReplaceConstant - 0 -> 1
+355	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.containsKey(Ljava/lang/Object;)Z:539 - ReplaceComparisonOperator == -> !=
+356	ReplaceConstant	org.dynjs.runtime.DynObject.containsKey(Ljava/lang/Object;)Z:539 - ReplaceConstant - 1 -> 0
+357	ReplaceConstant	org.dynjs.runtime.DynObject.containsKey(Ljava/lang/Object;)Z:539 - ReplaceConstant - 0 -> 1
+358	ReplaceConstant	org.dynjs.runtime.DynObject.containsValue(Ljava/lang/Object;)Z:545 - ReplaceConstant - 0 -> 1
+359	ReplaceComparisonOperator	org.dynjs.runtime.DynObject.get(Ljava/lang/Object;)Ljava/lang/Object;:551 - ReplaceComparisonOperator != -> ==
+360	ReplaceConstant	org.dynjs.runtime.DynObject.put(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;:561 - ReplaceConstant - 0 -> 1
+361	ReplaceConstant	org.dynjs.runtime.DynObject.remove(Ljava/lang/Object;)Ljava/lang/Object;:568 - ReplaceConstant - 0 -> 1

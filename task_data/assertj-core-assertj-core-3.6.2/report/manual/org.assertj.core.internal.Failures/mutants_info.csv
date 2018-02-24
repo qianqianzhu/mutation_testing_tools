@@ -1,0 +1,41 @@
+0	InsertUnaryOp	org.assertj.core.internal.Failures.setRemoveAssertJRelatedElementsFromStackTrace(Z)V:68 - InsertUnaryOp Negation of removeAssertJRelatedElementsFromStackTrace
+1	InsertUnaryOp	org.assertj.core.internal.Failures.setRemoveAssertJRelatedElementsFromStackTrace(Z)V:68 - InsertUnaryOp IINC 1 removeAssertJRelatedElementsFromStackTrace
+2	InsertUnaryOp	org.assertj.core.internal.Failures.setRemoveAssertJRelatedElementsFromStackTrace(Z)V:68 - InsertUnaryOp IINC -1 removeAssertJRelatedElementsFromStackTrace
+3	ReplaceConstant	org.assertj.core.internal.Failures.<init>()V:46 - ReplaceConstant - 0 -> 1
+4	ReplaceConstant	org.assertj.core.internal.Failures.<init>()V:60 - ReplaceConstant - 1 -> 0
+5	ReplaceComparisonOperator	org.assertj.core.internal.Failures.failure(Lorg/assertj/core/api/AssertionInfo;Lorg/assertj/core/error/AssertionErrorFactory;)Ljava/lang/AssertionError;:89 - ReplaceComparisonOperator = null -> != null
+6	ReplaceComparisonOperator	org.assertj.core.internal.Failures.failure(Lorg/assertj/core/api/AssertionInfo;Lorg/assertj/core/error/ErrorMessageFactory;)Ljava/lang/AssertionError;:110 - ReplaceComparisonOperator = null -> != null
+7	ReplaceComparisonOperator	org.assertj.core.internal.Failures.failureIfErrorMessageIsOverridden(Lorg/assertj/core/api/AssertionInfo;)Ljava/lang/AssertionError;:119 - ReplaceComparisonOperator == -> -2
+8	ReplaceComparisonOperator	org.assertj.core.internal.Failures.failureIfErrorMessageIsOverridden(Lorg/assertj/core/api/AssertionInfo;)Ljava/lang/AssertionError;:119 - ReplaceComparisonOperator == -> >=
+9	ReplaceComparisonOperator	org.assertj.core.internal.Failures.failureIfErrorMessageIsOverridden(Lorg/assertj/core/api/AssertionInfo;)Ljava/lang/AssertionError;:119 - ReplaceComparisonOperator == -> <=
+10	ReplaceConstant	org.assertj.core.internal.Failures.failureIfErrorMessageIsOverridden(Lorg/assertj/core/api/AssertionInfo;)Ljava/lang/AssertionError;:120 - ReplaceConstant - 0 -> 1
+11	ReplaceConstant	org.assertj.core.internal.Failures.expectedThrowableNotThrown(Ljava/lang/Class;)Ljava/lang/AssertionError;:147 - ReplaceConstant - %s should have been thrown -> 
+12	ReplaceConstant	org.assertj.core.internal.Failures.expectedThrowableNotThrown(Ljava/lang/Class;)Ljava/lang/AssertionError;:147 - ReplaceConstant - 1 -> 0
+13	ReplaceConstant	org.assertj.core.internal.Failures.expectedThrowableNotThrown(Ljava/lang/Class;)Ljava/lang/AssertionError;:147 - ReplaceConstant - 0 -> 1
+14	InsertUnaryOp	org.assertj.core.internal.Failures.printThreadDumpIfNeeded()V:151 - InsertUnaryOp Negation
+15	ReplaceComparisonOperator	org.assertj.core.internal.Failures.printThreadDumpIfNeeded()V:151 - ReplaceComparisonOperator == -> -2
+16	ReplaceComparisonOperator	org.assertj.core.internal.Failures.printThreadDumpIfNeeded()V:151 - ReplaceComparisonOperator == -> >=
+17	ReplaceComparisonOperator	org.assertj.core.internal.Failures.printThreadDumpIfNeeded()V:151 - ReplaceComparisonOperator == -> <=
+18	InsertUnaryOp	org.assertj.core.internal.Failures.removeAssertJRelatedElementsFromStackTraceIfNeeded(Ljava/lang/AssertionError;)V:186 - InsertUnaryOp Negation
+19	ReplaceComparisonOperator	org.assertj.core.internal.Failures.removeAssertJRelatedElementsFromStackTraceIfNeeded(Ljava/lang/AssertionError;)V:186 - ReplaceComparisonOperator == -> -2
+20	ReplaceComparisonOperator	org.assertj.core.internal.Failures.removeAssertJRelatedElementsFromStackTraceIfNeeded(Ljava/lang/AssertionError;)V:186 - ReplaceComparisonOperator == -> >=
+21	ReplaceComparisonOperator	org.assertj.core.internal.Failures.removeAssertJRelatedElementsFromStackTraceIfNeeded(Ljava/lang/AssertionError;)V:186 - ReplaceComparisonOperator == -> <=
+22	ReplaceConstant	org.assertj.core.internal.Failures.enablePrintThreadDump()V:195 - ReplaceConstant - 1 -> 0
+23	ReplaceConstant	org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:201 - ReplaceConstant - 1 -> 0
+24	ReplaceConstant	org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:201 - ReplaceConstant - 1 -> 0
+25	ReplaceConstant	org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:202 - ReplaceConstant - 0 -> 1
+26	ReplaceComparisonOperator	org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:202 - ReplaceComparisonOperator >= -> -1
+27	ReplaceComparisonOperator	org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:202 - ReplaceComparisonOperator >= -> >
+28	ReplaceComparisonOperator	org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:202 - ReplaceComparisonOperator >= -> ==
+29	ReplaceConstant	"org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:203 - ReplaceConstant - ""%s""%n java.lang.Thread.State: %s -> "
+30	ReplaceConstant	org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:203 - ReplaceConstant - 2 -> 0
+31	ReplaceConstant	org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:203 - ReplaceConstant - 2 -> 1
+32	ReplaceConstant	org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:203 - ReplaceConstant - 2 -> -1
+33	ReplaceConstant	org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:203 - ReplaceConstant - 2 -> 3
+34	ReplaceConstant	org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:203 - ReplaceConstant - 0 -> 1
+35	ReplaceConstant	org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:204 - ReplaceConstant - 1 -> 0
+36	ReplaceConstant	org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:205 - ReplaceConstant - 0 -> 1
+37	ReplaceComparisonOperator	org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:205 - ReplaceComparisonOperator >= -> -1
+38	ReplaceComparisonOperator	org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:205 - ReplaceComparisonOperator >= -> >
+39	ReplaceComparisonOperator	org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:205 - ReplaceComparisonOperator >= -> ==
+40	ReplaceConstant	org.assertj.core.internal.Failures.threadDumpDescription()Ljava/lang/String;:206 - ReplaceConstant - at  -> 

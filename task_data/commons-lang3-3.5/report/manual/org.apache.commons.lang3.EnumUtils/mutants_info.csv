@@ -1,0 +1,208 @@
+0	ReplaceConstant	org.apache.commons.lang3.EnumUtils.getEnumMap(Ljava/lang/Class;)Ljava/util/Map;:59 - ReplaceConstant - 0 -> 1
+1	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.getEnumMap(Ljava/lang/Class;)Ljava/util/Map;:59 - ReplaceComparisonOperator >= -> -1
+2	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.getEnumMap(Ljava/lang/Class;)Ljava/util/Map;:59 - ReplaceComparisonOperator >= -> >
+3	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.getEnumMap(Ljava/lang/Class;)Ljava/util/Map;:59 - ReplaceComparisonOperator >= -> ==
+4	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.isValidEnum(Ljava/lang/Class;Ljava/lang/String;)Z:90 - ReplaceComparisonOperator != null -> = null
+5	ReplaceConstant	org.apache.commons.lang3.EnumUtils.isValidEnum(Ljava/lang/Class;Ljava/lang/String;)Z:91 - ReplaceConstant - 0 -> 1
+6	ReplaceConstant	org.apache.commons.lang3.EnumUtils.isValidEnum(Ljava/lang/Class;Ljava/lang/String;)Z:95 - ReplaceConstant - 1 -> 0
+7	ReplaceConstant	org.apache.commons.lang3.EnumUtils.isValidEnum(Ljava/lang/Class;Ljava/lang/String;)Z:97 - ReplaceConstant - 0 -> 1
+8	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.getEnum(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;:113 - ReplaceComparisonOperator != null -> = null
+9	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:144 - ReplaceConstant - 0 -> 1
+10	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:144 - ReplaceConstant - 0 -> -1
+11	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:145 - ReplaceComparisonOperator == -> -2
+12	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:145 - ReplaceComparisonOperator == -> >=
+13	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:145 - ReplaceComparisonOperator == -> <=
+14	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:146 - ReplaceComparisonOperator = null -> != null
+15	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:146 - ReplaceConstant - 1 -> 0
+16	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:146 - ReplaceConstant - 0 -> 1
+17	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:146 - ReplaceConstant - null elements not permitted -> 
+18	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:146 - ReplaceConstant - 0 -> 1
+19	InsertUnaryOp	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:147 - InsertUnaryOp Negation of total
+20	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:147 - ReplaceConstant - 1 -> 0
+21	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:147 - ReplaceConstant - 1 -> -1
+22	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:147 - ReplaceConstant - 1 -> 2
+23	ReplaceBitwiseOperator	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:147 - ReplaceBitwiseOperator << L -> >> L
+24	ReplaceBitwiseOperator	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:147 - ReplaceBitwiseOperator << L -> >>> L
+25	ReplaceBitwiseOperator	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:147 - ReplaceBitwiseOperator | -> ^
+26	ReplaceBitwiseOperator	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:147 - ReplaceBitwiseOperator | -> &
+27	InsertUnaryOp	org.apache.commons.lang3.EnumUtils.generateBitVector(Ljava/lang/Class;Ljava/lang/Iterable;)J:149 - InsertUnaryOp Negation of total
+28	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:172 - ReplaceComparisonOperator == -> -2
+29	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:172 - ReplaceComparisonOperator == -> >=
+30	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:172 - ReplaceComparisonOperator == -> <=
+31	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:173 - ReplaceComparisonOperator = null -> != null
+32	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:173 - ReplaceConstant - 1 -> 0
+33	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:173 - ReplaceConstant - 0 -> 1
+34	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:173 - ReplaceConstant - null elements not permitted -> 
+35	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:173 - ReplaceConstant - 0 -> 1
+36	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceConstant - 1 -> 0
+37	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceArithmeticOperator - -> +
+38	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceArithmeticOperator - -> %
+39	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceArithmeticOperator - -> *
+40	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceArithmeticOperator - -> /
+41	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceConstant - 64 -> 0
+42	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceConstant - 64 -> 1
+43	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceConstant - 64 -> -1
+44	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceConstant - 64 -> 63
+45	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceConstant - 64 -> 65
+46	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceArithmeticOperator / -> +
+47	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceArithmeticOperator / -> %
+48	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceArithmeticOperator / -> -
+49	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceArithmeticOperator / -> *
+50	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceConstant - 1 -> 0
+51	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceArithmeticOperator + -> %
+52	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceArithmeticOperator + -> -
+53	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceArithmeticOperator + -> *
+54	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:176 - ReplaceArithmeticOperator + -> /
+55	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:177 - ReplaceComparisonOperator == -> -2
+56	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:177 - ReplaceComparisonOperator == -> >=
+57	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:177 - ReplaceComparisonOperator == -> <=
+58	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceConstant - 64 -> 0
+59	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceConstant - 64 -> 1
+60	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceConstant - 64 -> -1
+61	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceConstant - 64 -> 63
+62	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceConstant - 64 -> 65
+63	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceArithmeticOperator / -> +
+64	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceArithmeticOperator / -> %
+65	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceArithmeticOperator / -> -
+66	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceArithmeticOperator / -> *
+67	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceConstant - 1 -> 0
+68	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceConstant - 1 -> -1
+69	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceConstant - 1 -> 2
+70	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceConstant - 64 -> 0
+71	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceConstant - 64 -> 1
+72	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceConstant - 64 -> -1
+73	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceConstant - 64 -> 63
+74	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceConstant - 64 -> 65
+75	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceArithmeticOperator % -> +
+76	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceArithmeticOperator % -> -
+77	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceArithmeticOperator % -> *
+78	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceArithmeticOperator % -> /
+79	ReplaceBitwiseOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceBitwiseOperator << L -> >> L
+80	ReplaceBitwiseOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceBitwiseOperator << L -> >>> L
+81	ReplaceBitwiseOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceBitwiseOperator | -> ^
+82	ReplaceBitwiseOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;Ljava/lang/Iterable;)[J:178 - ReplaceBitwiseOperator | -> &
+83	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceConstant - 1 -> 0
+84	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceArithmeticOperator - -> +
+85	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceArithmeticOperator - -> %
+86	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceArithmeticOperator - -> *
+87	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceArithmeticOperator - -> /
+88	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceConstant - 64 -> 0
+89	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceConstant - 64 -> 1
+90	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceConstant - 64 -> -1
+91	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceConstant - 64 -> 63
+92	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceConstant - 64 -> 65
+93	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceArithmeticOperator / -> +
+94	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceArithmeticOperator / -> %
+95	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceArithmeticOperator / -> -
+96	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceArithmeticOperator / -> *
+97	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceConstant - 1 -> 0
+98	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceArithmeticOperator + -> %
+99	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceArithmeticOperator + -> -
+100	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceArithmeticOperator + -> *
+101	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:227 - ReplaceArithmeticOperator + -> /
+102	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:228 - ReplaceComparisonOperator == -> -2
+103	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:228 - ReplaceComparisonOperator == -> >=
+104	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:228 - ReplaceComparisonOperator == -> <=
+105	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceConstant - 64 -> 0
+106	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceConstant - 64 -> 1
+107	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceConstant - 64 -> -1
+108	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceConstant - 64 -> 63
+109	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceConstant - 64 -> 65
+110	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceArithmeticOperator / -> +
+111	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceArithmeticOperator / -> %
+112	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceArithmeticOperator / -> -
+113	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceArithmeticOperator / -> *
+114	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceConstant - 1 -> 0
+115	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceConstant - 1 -> -1
+116	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceConstant - 1 -> 2
+117	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceConstant - 64 -> 0
+118	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceConstant - 64 -> 1
+119	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceConstant - 64 -> -1
+120	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceConstant - 64 -> 63
+121	ReplaceConstant	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceConstant - 64 -> 65
+122	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceArithmeticOperator % -> +
+123	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceArithmeticOperator % -> -
+124	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceArithmeticOperator % -> *
+125	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceArithmeticOperator % -> /
+126	ReplaceBitwiseOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceBitwiseOperator << L -> >> L
+127	ReplaceBitwiseOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceBitwiseOperator << L -> >>> L
+128	ReplaceBitwiseOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceBitwiseOperator | -> ^
+129	ReplaceBitwiseOperator	org.apache.commons.lang3.EnumUtils.generateBitVectors(Ljava/lang/Class;[Ljava/lang/Enum;)[J:229 - ReplaceBitwiseOperator | -> &
+130	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVector(Ljava/lang/Class;J)Ljava/util/EnumSet;:250 - ReplaceConstant - 1 -> 0
+131	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVector(Ljava/lang/Class;J)Ljava/util/EnumSet;:250 - ReplaceConstant - 0 -> 1
+132	InsertUnaryOp	org.apache.commons.lang3.EnumUtils.processBitVector(Ljava/lang/Class;J)Ljava/util/EnumSet;:250 - InsertUnaryOp Negation of value
+133	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:270 - ReplaceConstant - 0 -> 1
+134	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:270 - ReplaceComparisonOperator >= -> -1
+135	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:270 - ReplaceComparisonOperator >= -> >
+136	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:270 - ReplaceComparisonOperator >= -> ==
+137	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:271 - ReplaceConstant - 64 -> 0
+138	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:271 - ReplaceConstant - 64 -> 1
+139	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:271 - ReplaceConstant - 64 -> -1
+140	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:271 - ReplaceConstant - 64 -> 63
+141	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:271 - ReplaceConstant - 64 -> 65
+142	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:271 - ReplaceArithmeticOperator / -> +
+143	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:271 - ReplaceArithmeticOperator / -> %
+144	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:271 - ReplaceArithmeticOperator / -> -
+145	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:271 - ReplaceArithmeticOperator / -> *
+146	InsertUnaryOp	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - InsertUnaryOp Negation of block
+147	InsertUnaryOp	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - InsertUnaryOp IINC 1 block
+148	InsertUnaryOp	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - InsertUnaryOp IINC -1 block
+149	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceComparisonOperator >= -> -1
+150	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceComparisonOperator >= -> >
+151	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceComparisonOperator >= -> ==
+152	InsertUnaryOp	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - InsertUnaryOp Negation of block
+153	InsertUnaryOp	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - InsertUnaryOp IINC 1 block
+154	InsertUnaryOp	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - InsertUnaryOp IINC -1 block
+155	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceConstant - 1 -> 0
+156	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceConstant - 1 -> -1
+157	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceConstant - 1 -> 2
+158	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceConstant - 64 -> 0
+159	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceConstant - 64 -> 1
+160	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceConstant - 64 -> -1
+161	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceConstant - 64 -> 63
+162	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceConstant - 64 -> 65
+163	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceArithmeticOperator % -> +
+164	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceArithmeticOperator % -> -
+165	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceArithmeticOperator % -> *
+166	ReplaceArithmeticOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceArithmeticOperator % -> /
+167	ReplaceBitwiseOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceBitwiseOperator << L -> >> L
+168	ReplaceBitwiseOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceBitwiseOperator << L -> >>> L
+169	ReplaceBitwiseOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceBitwiseOperator & -> |
+170	ReplaceBitwiseOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceBitwiseOperator & -> ^
+171	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceConstant - 0 -> 1
+172	ReplaceConstant	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceConstant - 0 -> -1
+173	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceComparisonOperator == -> -2
+174	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceComparisonOperator == -> >=
+175	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.processBitVectors(Ljava/lang/Class;[J)Ljava/util/EnumSet;:272 - ReplaceComparisonOperator == -> <=
+176	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:290 - ReplaceConstant - 64 -> 0
+177	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:290 - ReplaceConstant - 64 -> 1
+178	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:290 - ReplaceConstant - 64 -> -1
+179	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:290 - ReplaceConstant - 64 -> 63
+180	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:290 - ReplaceConstant - 64 -> 65
+181	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:290 - ReplaceComparisonOperator > -> !=
+182	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:290 - ReplaceComparisonOperator > -> -2
+183	ReplaceComparisonOperator	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:290 - ReplaceComparisonOperator > -> >=
+184	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:290 - ReplaceConstant - 1 -> 0
+185	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:290 - ReplaceConstant - 0 -> 1
+186	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:290 - ReplaceConstant - Cannot store %s %s values in %s bits -> 
+187	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:290 - ReplaceConstant - 3 -> 0
+188	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:290 - ReplaceConstant - 3 -> 1
+189	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:290 - ReplaceConstant - 3 -> -1
+190	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:290 - ReplaceConstant - 3 -> 2
+191	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:290 - ReplaceConstant - 3 -> 4
+192	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:290 - ReplaceConstant - 0 -> 1
+193	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:291 - ReplaceConstant - 1 -> 0
+194	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:291 - ReplaceConstant - 2 -> 0
+195	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:291 - ReplaceConstant - 2 -> 1
+196	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:291 - ReplaceConstant - 2 -> -1
+197	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:291 - ReplaceConstant - 2 -> 3
+198	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:291 - ReplaceConstant - 64 -> 0
+199	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:291 - ReplaceConstant - 64 -> 1
+200	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:291 - ReplaceConstant - 64 -> -1
+201	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:291 - ReplaceConstant - 64 -> 63
+202	ReplaceConstant	org.apache.commons.lang3.EnumUtils.checkBitVectorable(Ljava/lang/Class;)Ljava/lang/Class;:291 - ReplaceConstant - 64 -> 65
+203	ReplaceConstant	org.apache.commons.lang3.EnumUtils.asEnum(Ljava/lang/Class;)Ljava/lang/Class;:306 - ReplaceConstant - EnumClass must be defined. -> 
+204	ReplaceConstant	org.apache.commons.lang3.EnumUtils.asEnum(Ljava/lang/Class;)Ljava/lang/Class;:306 - ReplaceConstant - 0 -> 1
+205	ReplaceConstant	org.apache.commons.lang3.EnumUtils.asEnum(Ljava/lang/Class;)Ljava/lang/Class;:307 - ReplaceConstant - %s does not seem to be an Enum type -> 
+206	ReplaceConstant	org.apache.commons.lang3.EnumUtils.asEnum(Ljava/lang/Class;)Ljava/lang/Class;:307 - ReplaceConstant - 1 -> 0
+207	ReplaceConstant	org.apache.commons.lang3.EnumUtils.asEnum(Ljava/lang/Class;)Ljava/lang/Class;:307 - ReplaceConstant - 0 -> 1

@@ -1,0 +1,139 @@
+0	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.clkTrans(Lorg/opengis/temporal/ClockTime;)Lorg/opengis/temporal/ClockTime;:80 - ReplaceConstant - Not supported yet. -> 
+1	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.utcTrans(Lorg/opengis/temporal/ClockTime;)Lorg/opengis/temporal/ClockTime;:89 - ReplaceConstant - Not supported yet. -> 
+2	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:110 - ReplaceComparisonOperator != -> ==
+3	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:111 - ReplaceConstant - 1 -> 0
+4	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:113 - ReplaceComparisonOperator == -> -2
+5	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:113 - ReplaceComparisonOperator == -> >=
+6	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:113 - ReplaceComparisonOperator == -> <=
+7	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:115 - ReplaceComparisonOperator == -> -2
+8	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:115 - ReplaceComparisonOperator == -> >=
+9	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:115 - ReplaceComparisonOperator == -> <=
+10	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:118 - ReplaceComparisonOperator == -> -2
+11	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:118 - ReplaceComparisonOperator == -> >=
+12	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:118 - ReplaceComparisonOperator == -> <=
+13	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:119 - ReplaceComparisonOperator == -> -2
+14	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:119 - ReplaceComparisonOperator == -> >=
+15	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:119 - ReplaceComparisonOperator == -> <=
+16	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:120 - ReplaceComparisonOperator == -> -2
+17	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:120 - ReplaceComparisonOperator == -> >=
+18	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:120 - ReplaceComparisonOperator == -> <=
+19	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:121 - ReplaceComparisonOperator == -> -2
+20	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:121 - ReplaceComparisonOperator == -> >=
+21	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:121 - ReplaceComparisonOperator == -> <=
+22	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:121 - ReplaceConstant - 1 -> 0
+23	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:121 - ReplaceConstant - 0 -> 1
+24	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.equals(Ljava/lang/Object;)Z:124 - ReplaceConstant - 0 -> 1
+25	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:129 - ReplaceConstant - 5 -> 0
+26	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:129 - ReplaceConstant - 5 -> 1
+27	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:129 - ReplaceConstant - 5 -> -1
+28	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:129 - ReplaceConstant - 5 -> 4
+29	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:129 - ReplaceConstant - 5 -> 6
+30	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - ReplaceConstant - 37 -> 0
+31	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - ReplaceConstant - 37 -> 1
+32	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - ReplaceConstant - 37 -> -1
+33	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - ReplaceConstant - 37 -> 36
+34	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - ReplaceConstant - 37 -> 38
+35	InsertUnaryOp	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - InsertUnaryOp Negation of hash
+36	InsertUnaryOp	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - InsertUnaryOp IINC 1 hash
+37	InsertUnaryOp	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - InsertUnaryOp IINC -1 hash
+38	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - ReplaceArithmeticOperator * -> +
+39	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - ReplaceArithmeticOperator * -> %
+40	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - ReplaceArithmeticOperator * -> -
+41	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - ReplaceArithmeticOperator * -> /
+42	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - ReplaceComparisonOperator = null -> != null
+43	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - ReplaceConstant - 0 -> 1
+44	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - ReplaceArithmeticOperator + -> %
+45	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - ReplaceArithmeticOperator + -> -
+46	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - ReplaceArithmeticOperator + -> *
+47	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:130 - ReplaceArithmeticOperator + -> /
+48	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - ReplaceConstant - 37 -> 0
+49	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - ReplaceConstant - 37 -> 1
+50	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - ReplaceConstant - 37 -> -1
+51	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - ReplaceConstant - 37 -> 36
+52	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - ReplaceConstant - 37 -> 38
+53	InsertUnaryOp	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - InsertUnaryOp Negation of hash
+54	InsertUnaryOp	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - InsertUnaryOp IINC 1 hash
+55	InsertUnaryOp	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - InsertUnaryOp IINC -1 hash
+56	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - ReplaceArithmeticOperator * -> +
+57	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - ReplaceArithmeticOperator * -> %
+58	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - ReplaceArithmeticOperator * -> -
+59	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - ReplaceArithmeticOperator * -> /
+60	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - ReplaceComparisonOperator = null -> != null
+61	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - ReplaceConstant - 0 -> 1
+62	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - ReplaceArithmeticOperator + -> %
+63	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - ReplaceArithmeticOperator + -> -
+64	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - ReplaceArithmeticOperator + -> *
+65	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:131 - ReplaceArithmeticOperator + -> /
+66	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - ReplaceConstant - 37 -> 0
+67	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - ReplaceConstant - 37 -> 1
+68	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - ReplaceConstant - 37 -> -1
+69	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - ReplaceConstant - 37 -> 36
+70	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - ReplaceConstant - 37 -> 38
+71	InsertUnaryOp	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - InsertUnaryOp Negation of hash
+72	InsertUnaryOp	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - InsertUnaryOp IINC 1 hash
+73	InsertUnaryOp	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - InsertUnaryOp IINC -1 hash
+74	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - ReplaceArithmeticOperator * -> +
+75	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - ReplaceArithmeticOperator * -> %
+76	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - ReplaceArithmeticOperator * -> -
+77	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - ReplaceArithmeticOperator * -> /
+78	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - ReplaceComparisonOperator = null -> != null
+79	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - ReplaceConstant - 0 -> 1
+80	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - ReplaceArithmeticOperator + -> %
+81	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - ReplaceArithmeticOperator + -> -
+82	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - ReplaceArithmeticOperator + -> *
+83	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:132 - ReplaceArithmeticOperator + -> /
+84	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - ReplaceConstant - 37 -> 0
+85	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - ReplaceConstant - 37 -> 1
+86	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - ReplaceConstant - 37 -> -1
+87	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - ReplaceConstant - 37 -> 36
+88	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - ReplaceConstant - 37 -> 38
+89	InsertUnaryOp	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - InsertUnaryOp Negation of hash
+90	InsertUnaryOp	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - InsertUnaryOp IINC 1 hash
+91	InsertUnaryOp	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - InsertUnaryOp IINC -1 hash
+92	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - ReplaceArithmeticOperator * -> +
+93	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - ReplaceArithmeticOperator * -> %
+94	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - ReplaceArithmeticOperator * -> -
+95	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - ReplaceArithmeticOperator * -> /
+96	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - ReplaceComparisonOperator = null -> != null
+97	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - ReplaceConstant - 0 -> 1
+98	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - ReplaceArithmeticOperator + -> %
+99	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - ReplaceArithmeticOperator + -> -
+100	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - ReplaceArithmeticOperator + -> *
+101	ReplaceArithmeticOperator	org.geotools.temporal.reference.DefaultClock.hashCode()I:133 - ReplaceArithmeticOperator + -> /
+102	InsertUnaryOp	org.geotools.temporal.reference.DefaultClock.hashCode()I:134 - InsertUnaryOp Negation of hash
+103	InsertUnaryOp	org.geotools.temporal.reference.DefaultClock.hashCode()I:134 - InsertUnaryOp IINC 1 hash
+104	InsertUnaryOp	org.geotools.temporal.reference.DefaultClock.hashCode()I:134 - InsertUnaryOp IINC -1 hash
+105	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:139 - ReplaceConstant - Clock: -> 
+106	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:139 - ReplaceConstant - 10 -> 0
+107	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:139 - ReplaceConstant - 10 -> 1
+108	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:139 - ReplaceConstant - 10 -> -1
+109	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:139 - ReplaceConstant - 10 -> 9
+110	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:139 - ReplaceConstant - 10 -> 11
+111	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:140 - ReplaceComparisonOperator = null -> != null
+112	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:141 - ReplaceConstant - referenceEvent: -> 
+113	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:141 - ReplaceConstant - 10 -> 0
+114	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:141 - ReplaceConstant - 10 -> 1
+115	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:141 - ReplaceConstant - 10 -> -1
+116	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:141 - ReplaceConstant - 10 -> 9
+117	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:141 - ReplaceConstant - 10 -> 11
+118	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:143 - ReplaceComparisonOperator = null -> != null
+119	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:144 - ReplaceConstant - referenceTime: -> 
+120	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:144 - ReplaceConstant - 10 -> 0
+121	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:144 - ReplaceConstant - 10 -> 1
+122	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:144 - ReplaceConstant - 10 -> -1
+123	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:144 - ReplaceConstant - 10 -> 9
+124	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:144 - ReplaceConstant - 10 -> 11
+125	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:146 - ReplaceComparisonOperator = null -> != null
+126	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:147 - ReplaceConstant - utcReference: -> 
+127	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:147 - ReplaceConstant - 10 -> 0
+128	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:147 - ReplaceConstant - 10 -> 1
+129	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:147 - ReplaceConstant - 10 -> -1
+130	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:147 - ReplaceConstant - 10 -> 9
+131	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:147 - ReplaceConstant - 10 -> 11
+132	ReplaceComparisonOperator	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:149 - ReplaceComparisonOperator = null -> != null
+133	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:150 - ReplaceConstant - dateBasis: -> 
+134	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:150 - ReplaceConstant - 10 -> 0
+135	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:150 - ReplaceConstant - 10 -> 1
+136	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:150 - ReplaceConstant - 10 -> -1
+137	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:150 - ReplaceConstant - 10 -> 9
+138	ReplaceConstant	org.geotools.temporal.reference.DefaultClock.toString()Ljava/lang/String;:150 - ReplaceConstant - 10 -> 11

@@ -1,0 +1,116 @@
+0	ReplaceConstant	org.geotools.filter.IsEqualsToImpl.<init>(Lorg/opengis/filter/expression/Expression;Lorg/opengis/filter/expression/Expression;)V:41 - ReplaceConstant - 1 -> 0
+1	ReplaceConstant	org.geotools.filter.IsEqualsToImpl.<init>(Lorg/opengis/filter/expression/Expression;Lorg/opengis/filter/expression/Expression;Lorg/opengis/filter/MultiValuedFilter$MatchAction;)V:45 - ReplaceConstant - 1 -> 0
+2	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.<init>(Lorg/opengis/filter/expression/Expression;Lorg/opengis/filter/expression/Expression;Z)V:50 - InsertUnaryOp Negation of matchCase
+3	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.<init>(Lorg/opengis/filter/expression/Expression;Lorg/opengis/filter/expression/Expression;Z)V:50 - InsertUnaryOp IINC 1 matchCase
+4	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.<init>(Lorg/opengis/filter/expression/Expression;Lorg/opengis/filter/expression/Expression;Z)V:50 - InsertUnaryOp IINC -1 matchCase
+5	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.<init>(Lorg/opengis/filter/expression/Expression;Lorg/opengis/filter/expression/Expression;ZLorg/opengis/filter/MultiValuedFilter$MatchAction;)V:55 - InsertUnaryOp Negation of matchCase
+6	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.<init>(Lorg/opengis/filter/expression/Expression;Lorg/opengis/filter/expression/Expression;ZLorg/opengis/filter/MultiValuedFilter$MatchAction;)V:55 - InsertUnaryOp IINC 1 matchCase
+7	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.<init>(Lorg/opengis/filter/expression/Expression;Lorg/opengis/filter/expression/Expression;ZLorg/opengis/filter/MultiValuedFilter$MatchAction;)V:55 - InsertUnaryOp IINC -1 matchCase
+8	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:60 - ReplaceComparisonOperator != -> ==
+9	ReplaceConstant	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:62 - ReplaceConstant - 1 -> 0
+10	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:64 - ReplaceComparisonOperator = null -> != null
+11	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:64 - ReplaceComparisonOperator != null -> = null
+12	ReplaceConstant	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:67 - ReplaceConstant - 0 -> 1
+13	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:84 - ReplaceComparisonOperator == -> -2
+14	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:84 - ReplaceComparisonOperator == -> >=
+15	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:84 - ReplaceComparisonOperator == -> <=
+16	ReplaceConstant	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:85 - ReplaceConstant - 1 -> 0
+17	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:89 - ReplaceComparisonOperator == -> -2
+18	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:89 - ReplaceComparisonOperator == -> >=
+19	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:89 - ReplaceComparisonOperator == -> <=
+20	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:89 - ReplaceComparisonOperator != -> -1
+21	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:89 - ReplaceComparisonOperator != -> <
+22	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:89 - ReplaceComparisonOperator != -> >
+23	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:91 - ReplaceComparisonOperator = null -> != null
+24	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:91 - ReplaceComparisonOperator == -> -2
+25	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:91 - ReplaceComparisonOperator == -> >=
+26	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:91 - ReplaceComparisonOperator == -> <=
+27	ReplaceConstant	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:92 - ReplaceConstant - 1 -> 0
+28	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:93 - ReplaceComparisonOperator == -> -2
+29	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:93 - ReplaceComparisonOperator == -> >=
+30	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:93 - ReplaceComparisonOperator == -> <=
+31	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:93 - ReplaceComparisonOperator != -> -1
+32	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:93 - ReplaceComparisonOperator != -> <
+33	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:93 - ReplaceComparisonOperator != -> >
+34	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:95 - ReplaceComparisonOperator = null -> != null
+35	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:95 - ReplaceComparisonOperator == -> -2
+36	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:95 - ReplaceComparisonOperator == -> >=
+37	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:95 - ReplaceComparisonOperator == -> <=
+38	ReplaceConstant	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:96 - ReplaceConstant - 1 -> 0
+39	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - InsertUnaryOp Negation of isNumeric1
+40	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - InsertUnaryOp IINC 1 isNumeric1
+41	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - InsertUnaryOp IINC -1 isNumeric1
+42	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator == -> -2
+43	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator == -> >=
+44	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator == -> <=
+45	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - InsertUnaryOp Negation of isNumeric2
+46	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - InsertUnaryOp IINC 1 isNumeric2
+47	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - InsertUnaryOp IINC -1 isNumeric2
+48	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator != -> -1
+49	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator != -> <
+50	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator != -> >
+51	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - InsertUnaryOp Negation of isNumeric1
+52	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - InsertUnaryOp IINC 1 isNumeric1
+53	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - InsertUnaryOp IINC -1 isNumeric1
+54	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator == -> -2
+55	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator == -> >=
+56	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator == -> <=
+57	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator != -> -1
+58	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator != -> <
+59	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator != -> >
+60	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - InsertUnaryOp Negation of isNumeric2
+61	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - InsertUnaryOp IINC 1 isNumeric2
+62	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - InsertUnaryOp IINC -1 isNumeric2
+63	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator == -> -2
+64	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator == -> >=
+65	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator == -> <=
+66	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator == -> -2
+67	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator == -> >=
+68	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:102 - ReplaceComparisonOperator == -> <=
+69	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:109 - InsertUnaryOp Negation of isNumeric1
+70	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:109 - InsertUnaryOp IINC 1 isNumeric1
+71	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:109 - InsertUnaryOp IINC -1 isNumeric1
+72	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:109 - ReplaceComparisonOperator == -> -2
+73	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:109 - ReplaceComparisonOperator == -> >=
+74	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:109 - ReplaceComparisonOperator == -> <=
+75	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:110 - InsertUnaryOp Negation of isNumeric2
+76	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:110 - InsertUnaryOp IINC 1 isNumeric2
+77	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:110 - InsertUnaryOp IINC -1 isNumeric2
+78	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:110 - ReplaceComparisonOperator == -> -2
+79	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:110 - ReplaceComparisonOperator == -> >=
+80	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:110 - ReplaceComparisonOperator == -> <=
+81	ReplaceConstant	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:113 - ReplaceConstant - 0 -> 1
+82	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:118 - InsertUnaryOp Negation of fp1
+83	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:118 - ReplaceComparisonOperator != -> -1
+84	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:118 - ReplaceComparisonOperator != -> <
+85	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:118 - ReplaceComparisonOperator != -> >
+86	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:118 - InsertUnaryOp Negation of fp2
+87	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:118 - ReplaceComparisonOperator != -> -1
+88	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:118 - ReplaceComparisonOperator != -> <
+89	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:118 - ReplaceComparisonOperator != -> >
+90	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:121 - InsertUnaryOp Negation of lg1
+91	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:121 - InsertUnaryOp Negation of lg2
+92	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:121 - ReplaceComparisonOperator != -> -1
+93	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:121 - ReplaceComparisonOperator != -> <
+94	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:121 - ReplaceComparisonOperator != -> >
+95	ReplaceConstant	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:121 - ReplaceConstant - 1 -> 0
+96	ReplaceConstant	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:121 - ReplaceConstant - 0 -> 1
+97	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:126 - InsertUnaryOp Negation of fp1
+98	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:126 - InsertUnaryOp Negation of fp2
+99	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:126 - ReplaceComparisonOperator == -> -2
+100	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:126 - ReplaceComparisonOperator == -> >=
+101	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:126 - ReplaceComparisonOperator == -> <=
+102	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:126 - InsertUnaryOp Negation of fp1
+103	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:126 - ReplaceComparisonOperator == -> -2
+104	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:126 - ReplaceComparisonOperator == -> >=
+105	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:126 - ReplaceComparisonOperator == -> <=
+106	InsertUnaryOp	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:126 - InsertUnaryOp Negation of fp2
+107	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:126 - ReplaceComparisonOperator == -> -2
+108	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:126 - ReplaceComparisonOperator == -> >=
+109	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:126 - ReplaceComparisonOperator == -> <=
+110	ReplaceConstant	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:126 - ReplaceConstant - 1 -> 0
+111	ReplaceConstant	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:126 - ReplaceConstant - 0 -> 1
+112	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:128 - ReplaceComparisonOperator != -> -1
+113	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:128 - ReplaceComparisonOperator != -> <
+114	ReplaceComparisonOperator	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:128 - ReplaceComparisonOperator != -> >
+115	ReplaceConstant	org.geotools.filter.IsEqualsToImpl.evaluateInternal(Ljava/lang/Object;Ljava/lang/Object;)Z:136 - ReplaceConstant - 0 -> 1

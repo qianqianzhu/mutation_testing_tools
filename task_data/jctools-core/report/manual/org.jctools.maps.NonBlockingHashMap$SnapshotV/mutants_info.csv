@@ -1,0 +1,33 @@
+0	ReplaceComparisonOperator	org.jctools.maps.NonBlockingHashMap$SnapshotV.<init>(Lorg/jctools/maps/NonBlockingHashMap;)V:1178 - ReplaceComparisonOperator != null -> = null
+1	ReplaceConstant	org.jctools.maps.NonBlockingHashMap$SnapshotV.<init>(Lorg/jctools/maps/NonBlockingHashMap;)V:1187 - ReplaceConstant - 1 -> 0
+2	InsertUnaryOp	org.jctools.maps.NonBlockingHashMap$SnapshotV.key(I)Ljava/lang/Object;:1193 - InsertUnaryOp Negation of idx
+3	InsertUnaryOp	org.jctools.maps.NonBlockingHashMap$SnapshotV.key(I)Ljava/lang/Object;:1193 - InsertUnaryOp IINC 1 idx
+4	InsertUnaryOp	org.jctools.maps.NonBlockingHashMap$SnapshotV.key(I)Ljava/lang/Object;:1193 - InsertUnaryOp IINC -1 idx
+5	ReplaceComparisonOperator	org.jctools.maps.NonBlockingHashMap$SnapshotV.hasNext()Z:1197 - ReplaceComparisonOperator = null -> != null
+6	ReplaceConstant	org.jctools.maps.NonBlockingHashMap$SnapshotV.hasNext()Z:1197 - ReplaceConstant - 1 -> 0
+7	ReplaceConstant	org.jctools.maps.NonBlockingHashMap$SnapshotV.hasNext()Z:1197 - ReplaceConstant - 0 -> 1
+8	InsertUnaryOp	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1204 - InsertUnaryOp Negation
+9	InsertUnaryOp	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1204 - InsertUnaryOp +1
+10	InsertUnaryOp	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1204 - InsertUnaryOp -1
+11	ReplaceComparisonOperator	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1204 - ReplaceComparisonOperator == -> -2
+12	ReplaceComparisonOperator	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1204 - ReplaceComparisonOperator == -> >=
+13	ReplaceComparisonOperator	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1204 - ReplaceComparisonOperator == -> <=
+14	ReplaceComparisonOperator	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1204 - ReplaceComparisonOperator != null -> = null
+15	InsertUnaryOp	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1210 - InsertUnaryOp Negation
+16	InsertUnaryOp	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1210 - InsertUnaryOp +1
+17	InsertUnaryOp	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1210 - InsertUnaryOp -1
+18	ReplaceComparisonOperator	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1210 - ReplaceComparisonOperator >= -> -1
+19	ReplaceComparisonOperator	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1210 - ReplaceComparisonOperator >= -> >
+20	ReplaceComparisonOperator	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1210 - ReplaceComparisonOperator >= -> ==
+21	InsertUnaryOp	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1211 - InsertUnaryOp Negation
+22	InsertUnaryOp	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1211 - InsertUnaryOp +1
+23	InsertUnaryOp	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1211 - InsertUnaryOp -1
+24	ReplaceConstant	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1211 - ReplaceConstant - 1 -> 0
+25	ReplaceArithmeticOperator	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1211 - ReplaceArithmeticOperator + -> %
+26	ReplaceArithmeticOperator	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1211 - ReplaceArithmeticOperator + -> -
+27	ReplaceArithmeticOperator	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1211 - ReplaceArithmeticOperator + -> *
+28	ReplaceArithmeticOperator	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1211 - ReplaceArithmeticOperator + -> /
+29	ReplaceComparisonOperator	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1212 - ReplaceComparisonOperator = null -> != null
+30	ReplaceComparisonOperator	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1212 - ReplaceComparisonOperator == -> !=
+31	ReplaceComparisonOperator	org.jctools.maps.NonBlockingHashMap$SnapshotV.next()Ljava/lang/Object;:1214 - ReplaceComparisonOperator = null -> != null
+32	ReplaceComparisonOperator	org.jctools.maps.NonBlockingHashMap$SnapshotV.remove()V:1220 - ReplaceComparisonOperator != null -> = null

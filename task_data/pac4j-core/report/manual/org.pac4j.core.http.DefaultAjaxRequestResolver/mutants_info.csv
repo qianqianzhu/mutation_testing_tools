@@ -1,0 +1,24 @@
+0	ReplaceConstant	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:17 - ReplaceConstant - XMLHttpRequest -> 
+1	ReplaceConstant	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:17 - ReplaceConstant - X-Requested-With -> 
+2	ReplaceConstant	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:18 - ReplaceConstant - is_ajax_request -> 
+3	ReplaceConstant	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:19 - ReplaceConstant - is_ajax_request -> 
+4	InsertUnaryOp	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - InsertUnaryOp Negation of xmlHttpRequest
+5	InsertUnaryOp	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - InsertUnaryOp IINC 1 xmlHttpRequest
+6	InsertUnaryOp	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - InsertUnaryOp IINC -1 xmlHttpRequest
+7	ReplaceComparisonOperator	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - ReplaceComparisonOperator != -> -1
+8	ReplaceComparisonOperator	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - ReplaceComparisonOperator != -> <
+9	ReplaceComparisonOperator	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - ReplaceComparisonOperator != -> >
+10	InsertUnaryOp	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - InsertUnaryOp Negation of hasDynamicAjaxParameter
+11	InsertUnaryOp	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - InsertUnaryOp IINC 1 hasDynamicAjaxParameter
+12	InsertUnaryOp	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - InsertUnaryOp IINC -1 hasDynamicAjaxParameter
+13	ReplaceComparisonOperator	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - ReplaceComparisonOperator != -> -1
+14	ReplaceComparisonOperator	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - ReplaceComparisonOperator != -> <
+15	ReplaceComparisonOperator	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - ReplaceComparisonOperator != -> >
+16	InsertUnaryOp	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - InsertUnaryOp Negation of hasDynamicAjaxHeader
+17	InsertUnaryOp	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - InsertUnaryOp IINC 1 hasDynamicAjaxHeader
+18	InsertUnaryOp	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - InsertUnaryOp IINC -1 hasDynamicAjaxHeader
+19	ReplaceComparisonOperator	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - ReplaceComparisonOperator == -> -2
+20	ReplaceComparisonOperator	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - ReplaceComparisonOperator == -> >=
+21	ReplaceComparisonOperator	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - ReplaceComparisonOperator == -> <=
+22	ReplaceConstant	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - ReplaceConstant - 1 -> 0
+23	ReplaceConstant	org.pac4j.core.http.DefaultAjaxRequestResolver.isAjax(Lorg/pac4j/core/context/WebContext;)Z:20 - ReplaceConstant - 0 -> 1

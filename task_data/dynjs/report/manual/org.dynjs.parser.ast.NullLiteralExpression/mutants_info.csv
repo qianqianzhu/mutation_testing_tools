@@ -1,0 +1,5 @@
+0	ReplaceConstant	org.dynjs.parser.ast.NullLiteralExpression.toString()Ljava/lang/String;:30 - ReplaceConstant - null -> 
+1	ReplaceConstant	org.dynjs.parser.ast.NullLiteralExpression.getSizeMetric()I:34 - ReplaceConstant - 1 -> 0
+2	InsertUnaryOp	org.dynjs.parser.ast.NullLiteralExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:39 - InsertUnaryOp Negation of strict
+3	InsertUnaryOp	org.dynjs.parser.ast.NullLiteralExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:39 - InsertUnaryOp IINC 1 strict
+4	InsertUnaryOp	org.dynjs.parser.ast.NullLiteralExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:39 - InsertUnaryOp IINC -1 strict

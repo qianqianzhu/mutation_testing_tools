@@ -1,0 +1,39 @@
+0	ReplaceConstant	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.<init>()V:20 - ReplaceConstant - pac4jCsrfToken -> 
+1	ReplaceConstant	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.<init>()V:22 - ReplaceConstant - pac4jCsrfToken -> 
+2	ReplaceConstant	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.<init>()V:24 - ReplaceConstant - 1 -> 0
+3	ReplaceConstant	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.<init>(Ljava/lang/String;Ljava/lang/String;)V:20 - ReplaceConstant - pac4jCsrfToken -> 
+4	ReplaceConstant	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.<init>(Ljava/lang/String;Ljava/lang/String;)V:22 - ReplaceConstant - pac4jCsrfToken -> 
+5	ReplaceConstant	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.<init>(Ljava/lang/String;Ljava/lang/String;)V:24 - ReplaceConstant - 1 -> 0
+6	InsertUnaryOp	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.<init>(Ljava/lang/String;Ljava/lang/String;Z)V:36 - InsertUnaryOp Negation of onlyCheckPostRequest
+7	InsertUnaryOp	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.<init>(Ljava/lang/String;Ljava/lang/String;Z)V:36 - InsertUnaryOp IINC 1 onlyCheckPostRequest
+8	InsertUnaryOp	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.<init>(Ljava/lang/String;Ljava/lang/String;Z)V:36 - InsertUnaryOp IINC -1 onlyCheckPostRequest
+9	InsertUnaryOp	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:41 - InsertUnaryOp Negation
+10	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:41 - ReplaceComparisonOperator == -> -2
+11	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:41 - ReplaceComparisonOperator == -> >=
+12	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:41 - ReplaceComparisonOperator == -> <=
+13	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:41 - ReplaceComparisonOperator == -> -2
+14	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:41 - ReplaceComparisonOperator == -> >=
+15	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:41 - ReplaceComparisonOperator == -> <=
+16	ReplaceConstant	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:41 - ReplaceConstant - 1 -> 0
+17	ReplaceConstant	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:41 - ReplaceConstant - 0 -> 1
+18	InsertUnaryOp	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:42 - InsertUnaryOp Negation of checkRequest
+19	InsertUnaryOp	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:42 - InsertUnaryOp IINC 1 checkRequest
+20	InsertUnaryOp	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:42 - InsertUnaryOp IINC -1 checkRequest
+21	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:42 - ReplaceComparisonOperator == -> -2
+22	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:42 - ReplaceComparisonOperator == -> >=
+23	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:42 - ReplaceComparisonOperator == -> <=
+24	ReplaceConstant	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:45 - ReplaceConstant - pac4jCsrfToken -> 
+25	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:46 - ReplaceComparisonOperator = null -> != null
+26	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:46 - ReplaceComparisonOperator != -> -1
+27	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:46 - ReplaceComparisonOperator != -> <
+28	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:46 - ReplaceComparisonOperator != -> >
+29	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:46 - ReplaceComparisonOperator == -> -2
+30	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:46 - ReplaceComparisonOperator == -> >=
+31	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:46 - ReplaceComparisonOperator == -> <=
+32	ReplaceConstant	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:46 - ReplaceConstant - 1 -> 0
+33	ReplaceConstant	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:46 - ReplaceConstant - 0 -> 1
+34	ReplaceConstant	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:48 - ReplaceConstant - 1 -> 0
+35	InsertUnaryOp	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.isOnlyCheckPostRequest()Z:69 - InsertUnaryOp Negation
+36	InsertUnaryOp	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.setOnlyCheckPostRequest(Z)V:73 - InsertUnaryOp Negation of onlyCheckPostRequest
+37	InsertUnaryOp	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.setOnlyCheckPostRequest(Z)V:73 - InsertUnaryOp IINC 1 onlyCheckPostRequest
+38	InsertUnaryOp	org.pac4j.core.authorization.authorizer.csrf.CsrfAuthorizer.setOnlyCheckPostRequest(Z)V:73 - InsertUnaryOp IINC -1 onlyCheckPostRequest

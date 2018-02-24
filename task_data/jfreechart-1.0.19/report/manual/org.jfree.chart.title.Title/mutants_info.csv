@@ -1,0 +1,136 @@
+0	ReplaceConstant	org.jfree.chart.title.Title.<init>(Lorg/jfree/ui/RectangleEdge;Lorg/jfree/ui/HorizontalAlignment;Lorg/jfree/ui/VerticalAlignment;Lorg/jfree/ui/RectangleInsets;)V:182 - ReplaceConstant - position -> 
+1	ReplaceConstant	org.jfree.chart.title.Title.<init>(Lorg/jfree/ui/RectangleEdge;Lorg/jfree/ui/HorizontalAlignment;Lorg/jfree/ui/VerticalAlignment;Lorg/jfree/ui/RectangleInsets;)V:183 - ReplaceConstant - horizontalAlignment -> 
+2	ReplaceConstant	org.jfree.chart.title.Title.<init>(Lorg/jfree/ui/RectangleEdge;Lorg/jfree/ui/HorizontalAlignment;Lorg/jfree/ui/VerticalAlignment;Lorg/jfree/ui/RectangleInsets;)V:184 - ReplaceConstant - verticalAlignment -> 
+3	ReplaceConstant	org.jfree.chart.title.Title.<init>(Lorg/jfree/ui/RectangleEdge;Lorg/jfree/ui/HorizontalAlignment;Lorg/jfree/ui/VerticalAlignment;Lorg/jfree/ui/RectangleInsets;)V:185 - ReplaceConstant - padding -> 
+4	ReplaceConstant	org.jfree.chart.title.Title.<init>(Lorg/jfree/ui/RectangleEdge;Lorg/jfree/ui/HorizontalAlignment;Lorg/jfree/ui/VerticalAlignment;Lorg/jfree/ui/RectangleInsets;)V:187 - ReplaceConstant - 1 -> 0
+5	ReplaceConstant	org.jfree.chart.title.Title.<init>(Lorg/jfree/ui/RectangleEdge;Lorg/jfree/ui/HorizontalAlignment;Lorg/jfree/ui/VerticalAlignment;Lorg/jfree/ui/RectangleInsets;)V:193 - ReplaceConstant - 1 -> 0
+6	InsertUnaryOp	org.jfree.chart.title.Title.isVisible()Z:207 - InsertUnaryOp Negation
+7	InsertUnaryOp	org.jfree.chart.title.Title.setVisible(Z)V:221 - InsertUnaryOp Negation of visible
+8	InsertUnaryOp	org.jfree.chart.title.Title.setVisible(Z)V:221 - InsertUnaryOp IINC 1 visible
+9	InsertUnaryOp	org.jfree.chart.title.Title.setVisible(Z)V:221 - InsertUnaryOp IINC -1 visible
+10	ReplaceConstant	org.jfree.chart.title.Title.setPosition(Lorg/jfree/ui/RectangleEdge;)V:241 - ReplaceConstant - position -> 
+11	ReplaceComparisonOperator	org.jfree.chart.title.Title.setPosition(Lorg/jfree/ui/RectangleEdge;)V:242 - ReplaceComparisonOperator == -> !=
+12	ReplaceConstant	org.jfree.chart.title.Title.setHorizontalAlignment(Lorg/jfree/ui/HorizontalAlignment;)V:265 - ReplaceConstant - alignment -> 
+13	ReplaceComparisonOperator	org.jfree.chart.title.Title.setHorizontalAlignment(Lorg/jfree/ui/HorizontalAlignment;)V:266 - ReplaceComparisonOperator == -> !=
+14	ReplaceConstant	org.jfree.chart.title.Title.setVerticalAlignment(Lorg/jfree/ui/VerticalAlignment;)V:289 - ReplaceConstant - alignment -> 
+15	ReplaceComparisonOperator	org.jfree.chart.title.Title.setVerticalAlignment(Lorg/jfree/ui/VerticalAlignment;)V:290 - ReplaceComparisonOperator == -> !=
+16	InsertUnaryOp	org.jfree.chart.title.Title.getNotify()Z:303 - InsertUnaryOp Negation
+17	InsertUnaryOp	org.jfree.chart.title.Title.setNotify(Z)V:314 - InsertUnaryOp Negation of flag
+18	InsertUnaryOp	org.jfree.chart.title.Title.setNotify(Z)V:314 - InsertUnaryOp IINC 1 flag
+19	InsertUnaryOp	org.jfree.chart.title.Title.setNotify(Z)V:314 - InsertUnaryOp IINC -1 flag
+20	InsertUnaryOp	org.jfree.chart.title.Title.setNotify(Z)V:315 - InsertUnaryOp Negation of flag
+21	InsertUnaryOp	org.jfree.chart.title.Title.setNotify(Z)V:315 - InsertUnaryOp IINC 1 flag
+22	InsertUnaryOp	org.jfree.chart.title.Title.setNotify(Z)V:315 - InsertUnaryOp IINC -1 flag
+23	ReplaceComparisonOperator	org.jfree.chart.title.Title.setNotify(Z)V:315 - ReplaceComparisonOperator == -> -2
+24	ReplaceComparisonOperator	org.jfree.chart.title.Title.setNotify(Z)V:315 - ReplaceComparisonOperator == -> >=
+25	ReplaceComparisonOperator	org.jfree.chart.title.Title.setNotify(Z)V:315 - ReplaceComparisonOperator == -> <=
+26	InsertUnaryOp	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:377 - InsertUnaryOp Negation
+27	ReplaceComparisonOperator	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:377 - ReplaceComparisonOperator == -> -2
+28	ReplaceComparisonOperator	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:377 - ReplaceComparisonOperator == -> >=
+29	ReplaceComparisonOperator	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:377 - ReplaceComparisonOperator == -> <=
+30	ReplaceConstant	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:379 - ReplaceConstant - 2 -> 0
+31	ReplaceConstant	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:379 - ReplaceConstant - 2 -> 1
+32	ReplaceConstant	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:379 - ReplaceConstant - 2 -> -1
+33	ReplaceConstant	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:379 - ReplaceConstant - 2 -> 3
+34	ReplaceArithmeticOperator	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:379 - ReplaceArithmeticOperator - -> +
+35	ReplaceArithmeticOperator	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:379 - ReplaceArithmeticOperator - -> %
+36	ReplaceArithmeticOperator	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:379 - ReplaceArithmeticOperator - -> *
+37	ReplaceArithmeticOperator	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:379 - ReplaceArithmeticOperator - -> /
+38	InsertUnaryOp	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:379 - InsertUnaryOp Negation of i
+39	InsertUnaryOp	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:379 - InsertUnaryOp IINC 1 i
+40	InsertUnaryOp	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:379 - InsertUnaryOp IINC -1 i
+41	ReplaceComparisonOperator	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:379 - ReplaceComparisonOperator < -> -2
+42	ReplaceComparisonOperator	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:379 - ReplaceComparisonOperator < -> !=
+43	ReplaceComparisonOperator	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:379 - ReplaceComparisonOperator < -> <=
+44	InsertUnaryOp	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:380 - InsertUnaryOp Negation of i
+45	InsertUnaryOp	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:380 - InsertUnaryOp IINC 1 i
+46	InsertUnaryOp	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:380 - InsertUnaryOp IINC -1 i
+47	ReplaceComparisonOperator	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:380 - ReplaceComparisonOperator != -> ==
+48	InsertUnaryOp	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:381 - InsertUnaryOp Negation of i
+49	InsertUnaryOp	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:381 - InsertUnaryOp IINC 1 i
+50	InsertUnaryOp	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:381 - InsertUnaryOp IINC -1 i
+51	ReplaceConstant	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:381 - ReplaceConstant - 1 -> 0
+52	ReplaceArithmeticOperator	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:381 - ReplaceArithmeticOperator + -> %
+53	ReplaceArithmeticOperator	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:381 - ReplaceArithmeticOperator + -> -
+54	ReplaceArithmeticOperator	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:381 - ReplaceArithmeticOperator + -> *
+55	ReplaceArithmeticOperator	org.jfree.chart.title.Title.notifyListeners(Lorg/jfree/chart/event/TitleChangeEvent;)V:381 - ReplaceArithmeticOperator + -> /
+56	ReplaceComparisonOperator	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:397 - ReplaceComparisonOperator != -> ==
+57	ReplaceConstant	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:398 - ReplaceConstant - 1 -> 0
+58	ReplaceComparisonOperator	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:400 - ReplaceComparisonOperator != -> -1
+59	ReplaceComparisonOperator	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:400 - ReplaceComparisonOperator != -> <
+60	ReplaceComparisonOperator	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:400 - ReplaceComparisonOperator != -> >
+61	ReplaceConstant	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:401 - ReplaceConstant - 0 -> 1
+62	InsertUnaryOp	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:404 - InsertUnaryOp Negation
+63	InsertUnaryOp	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:404 - InsertUnaryOp Negation
+64	ReplaceComparisonOperator	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:404 - ReplaceComparisonOperator == -> -2
+65	ReplaceComparisonOperator	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:404 - ReplaceComparisonOperator == -> >=
+66	ReplaceComparisonOperator	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:404 - ReplaceComparisonOperator == -> <=
+67	ReplaceConstant	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:405 - ReplaceConstant - 0 -> 1
+68	ReplaceComparisonOperator	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:407 - ReplaceComparisonOperator == -> !=
+69	ReplaceConstant	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:408 - ReplaceConstant - 0 -> 1
+70	ReplaceComparisonOperator	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:410 - ReplaceComparisonOperator == -> !=
+71	ReplaceConstant	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:411 - ReplaceConstant - 0 -> 1
+72	ReplaceComparisonOperator	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:413 - ReplaceComparisonOperator == -> !=
+73	ReplaceConstant	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:414 - ReplaceConstant - 0 -> 1
+74	InsertUnaryOp	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:416 - InsertUnaryOp Negation
+75	InsertUnaryOp	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:416 - InsertUnaryOp Negation
+76	ReplaceComparisonOperator	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:416 - ReplaceComparisonOperator == -> -2
+77	ReplaceComparisonOperator	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:416 - ReplaceComparisonOperator == -> >=
+78	ReplaceComparisonOperator	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:416 - ReplaceComparisonOperator == -> <=
+79	ReplaceConstant	org.jfree.chart.title.Title.equals(Ljava/lang/Object;)Z:417 - ReplaceConstant - 0 -> 1
+80	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:429 - ReplaceConstant - 193 -> 0
+81	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:429 - ReplaceConstant - 193 -> 1
+82	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:429 - ReplaceConstant - 193 -> -1
+83	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:429 - ReplaceConstant - 193 -> 192
+84	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:429 - ReplaceConstant - 193 -> 194
+85	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:430 - ReplaceConstant - 37 -> 0
+86	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:430 - ReplaceConstant - 37 -> 1
+87	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:430 - ReplaceConstant - 37 -> -1
+88	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:430 - ReplaceConstant - 37 -> 36
+89	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:430 - ReplaceConstant - 37 -> 38
+90	InsertUnaryOp	org.jfree.chart.title.Title.hashCode()I:430 - InsertUnaryOp Negation of result
+91	InsertUnaryOp	org.jfree.chart.title.Title.hashCode()I:430 - InsertUnaryOp IINC 1 result
+92	InsertUnaryOp	org.jfree.chart.title.Title.hashCode()I:430 - InsertUnaryOp IINC -1 result
+93	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:430 - ReplaceArithmeticOperator * -> +
+94	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:430 - ReplaceArithmeticOperator * -> %
+95	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:430 - ReplaceArithmeticOperator * -> -
+96	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:430 - ReplaceArithmeticOperator * -> /
+97	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:430 - ReplaceArithmeticOperator + -> %
+98	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:430 - ReplaceArithmeticOperator + -> -
+99	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:430 - ReplaceArithmeticOperator + -> *
+100	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:430 - ReplaceArithmeticOperator + -> /
+101	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:431 - ReplaceConstant - 37 -> 0
+102	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:431 - ReplaceConstant - 37 -> 1
+103	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:431 - ReplaceConstant - 37 -> -1
+104	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:431 - ReplaceConstant - 37 -> 36
+105	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:431 - ReplaceConstant - 37 -> 38
+106	InsertUnaryOp	org.jfree.chart.title.Title.hashCode()I:431 - InsertUnaryOp Negation of result
+107	InsertUnaryOp	org.jfree.chart.title.Title.hashCode()I:431 - InsertUnaryOp IINC 1 result
+108	InsertUnaryOp	org.jfree.chart.title.Title.hashCode()I:431 - InsertUnaryOp IINC -1 result
+109	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:431 - ReplaceArithmeticOperator * -> +
+110	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:431 - ReplaceArithmeticOperator * -> %
+111	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:431 - ReplaceArithmeticOperator * -> -
+112	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:431 - ReplaceArithmeticOperator * -> /
+113	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:432 - ReplaceArithmeticOperator + -> %
+114	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:432 - ReplaceArithmeticOperator + -> -
+115	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:432 - ReplaceArithmeticOperator + -> *
+116	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:432 - ReplaceArithmeticOperator + -> /
+117	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:433 - ReplaceConstant - 37 -> 0
+118	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:433 - ReplaceConstant - 37 -> 1
+119	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:433 - ReplaceConstant - 37 -> -1
+120	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:433 - ReplaceConstant - 37 -> 36
+121	ReplaceConstant	org.jfree.chart.title.Title.hashCode()I:433 - ReplaceConstant - 37 -> 38
+122	InsertUnaryOp	org.jfree.chart.title.Title.hashCode()I:433 - InsertUnaryOp Negation of result
+123	InsertUnaryOp	org.jfree.chart.title.Title.hashCode()I:433 - InsertUnaryOp IINC 1 result
+124	InsertUnaryOp	org.jfree.chart.title.Title.hashCode()I:433 - InsertUnaryOp IINC -1 result
+125	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:433 - ReplaceArithmeticOperator * -> +
+126	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:433 - ReplaceArithmeticOperator * -> %
+127	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:433 - ReplaceArithmeticOperator * -> -
+128	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:433 - ReplaceArithmeticOperator * -> /
+129	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:433 - ReplaceArithmeticOperator + -> %
+130	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:433 - ReplaceArithmeticOperator + -> -
+131	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:433 - ReplaceArithmeticOperator + -> *
+132	ReplaceArithmeticOperator	org.jfree.chart.title.Title.hashCode()I:433 - ReplaceArithmeticOperator + -> /
+133	InsertUnaryOp	org.jfree.chart.title.Title.hashCode()I:434 - InsertUnaryOp Negation of result
+134	InsertUnaryOp	org.jfree.chart.title.Title.hashCode()I:434 - InsertUnaryOp IINC 1 result
+135	InsertUnaryOp	org.jfree.chart.title.Title.hashCode()I:434 - InsertUnaryOp IINC -1 result

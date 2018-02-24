@@ -1,0 +1,69 @@
+0	ReplaceConstant	org.jfree.chart.util.LogFormat.<init>()V:89 - ReplaceConstant - 10.0 -> 0.0
+1	ReplaceConstant	org.jfree.chart.util.LogFormat.<init>()V:89 - ReplaceConstant - 10.0 -> 1.0
+2	ReplaceConstant	org.jfree.chart.util.LogFormat.<init>()V:89 - ReplaceConstant - 10.0 -> -1.0
+3	ReplaceConstant	org.jfree.chart.util.LogFormat.<init>()V:89 - ReplaceConstant - 10.0 -> 9.0
+4	ReplaceConstant	org.jfree.chart.util.LogFormat.<init>()V:89 - ReplaceConstant - 10.0 -> 11.0
+5	ReplaceConstant	org.jfree.chart.util.LogFormat.<init>()V:89 - ReplaceConstant - 10 -> 
+6	ReplaceConstant	org.jfree.chart.util.LogFormat.<init>()V:89 - ReplaceConstant - 1 -> 0
+7	InsertUnaryOp	org.jfree.chart.util.LogFormat.<init>(DLjava/lang/String;Z)V:101 - InsertUnaryOp Negation of base
+8	ReplaceConstant	org.jfree.chart.util.LogFormat.<init>(DLjava/lang/String;Z)V:101 - ReplaceConstant - ^ -> 
+9	InsertUnaryOp	org.jfree.chart.util.LogFormat.<init>(DLjava/lang/String;Z)V:101 - InsertUnaryOp Negation of showBase
+10	InsertUnaryOp	org.jfree.chart.util.LogFormat.<init>(DLjava/lang/String;Z)V:101 - InsertUnaryOp IINC 1 showBase
+11	InsertUnaryOp	org.jfree.chart.util.LogFormat.<init>(DLjava/lang/String;Z)V:101 - InsertUnaryOp IINC -1 showBase
+12	ReplaceConstant	org.jfree.chart.util.LogFormat.<init>(DLjava/lang/String;Ljava/lang/String;Z)V:81 - ReplaceConstant - 0.0# -> 
+13	ReplaceConstant	org.jfree.chart.util.LogFormat.<init>(DLjava/lang/String;Ljava/lang/String;Z)V:117 - ReplaceConstant - baseLabel -> 
+14	ReplaceConstant	org.jfree.chart.util.LogFormat.<init>(DLjava/lang/String;Ljava/lang/String;Z)V:118 - ReplaceConstant - powerLabel -> 
+15	InsertUnaryOp	org.jfree.chart.util.LogFormat.<init>(DLjava/lang/String;Ljava/lang/String;Z)V:119 - InsertUnaryOp Negation of base
+16	InsertUnaryOp	org.jfree.chart.util.LogFormat.<init>(DLjava/lang/String;Ljava/lang/String;Z)V:120 - InsertUnaryOp Negation
+17	InsertUnaryOp	org.jfree.chart.util.LogFormat.<init>(DLjava/lang/String;Ljava/lang/String;Z)V:122 - InsertUnaryOp Negation of showBase
+18	InsertUnaryOp	org.jfree.chart.util.LogFormat.<init>(DLjava/lang/String;Ljava/lang/String;Z)V:122 - InsertUnaryOp IINC 1 showBase
+19	InsertUnaryOp	org.jfree.chart.util.LogFormat.<init>(DLjava/lang/String;Ljava/lang/String;Z)V:122 - InsertUnaryOp IINC -1 showBase
+20	ReplaceConstant	org.jfree.chart.util.LogFormat.setExponentFormat(Ljava/text/NumberFormat;)V:145 - ReplaceConstant - format -> 
+21	InsertUnaryOp	org.jfree.chart.util.LogFormat.calculateLog(D)D:157 - InsertUnaryOp Negation of value
+22	InsertUnaryOp	org.jfree.chart.util.LogFormat.calculateLog(D)D:157 - InsertUnaryOp Negation
+23	ReplaceArithmeticOperator	org.jfree.chart.util.LogFormat.calculateLog(D)D:157 - ReplaceArithmeticOperator / -> +
+24	ReplaceArithmeticOperator	org.jfree.chart.util.LogFormat.calculateLog(D)D:157 - ReplaceArithmeticOperator / -> %
+25	ReplaceArithmeticOperator	org.jfree.chart.util.LogFormat.calculateLog(D)D:157 - ReplaceArithmeticOperator / -> -
+26	ReplaceArithmeticOperator	org.jfree.chart.util.LogFormat.calculateLog(D)D:157 - ReplaceArithmeticOperator / -> *
+27	InsertUnaryOp	org.jfree.chart.util.LogFormat.format(DLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:173 - InsertUnaryOp Negation
+28	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.format(DLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:173 - ReplaceComparisonOperator == -> -2
+29	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.format(DLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:173 - ReplaceComparisonOperator == -> >=
+30	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.format(DLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:173 - ReplaceComparisonOperator == -> <=
+31	InsertUnaryOp	org.jfree.chart.util.LogFormat.format(DLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:177 - InsertUnaryOp Negation of number
+32	InsertUnaryOp	org.jfree.chart.util.LogFormat.format(JLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:195 - InsertUnaryOp Negation
+33	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.format(JLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:195 - ReplaceComparisonOperator == -> -2
+34	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.format(JLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:195 - ReplaceComparisonOperator == -> >=
+35	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.format(JLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:195 - ReplaceComparisonOperator == -> <=
+36	InsertUnaryOp	org.jfree.chart.util.LogFormat.format(JLjava/lang/StringBuffer;Ljava/text/FieldPosition;)Ljava/lang/StringBuffer;:199 - InsertUnaryOp Negation of number
+37	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:226 - ReplaceComparisonOperator != -> ==
+38	ReplaceConstant	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:227 - ReplaceConstant - 1 -> 0
+39	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:229 - ReplaceComparisonOperator != -> -1
+40	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:229 - ReplaceComparisonOperator != -> <
+41	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:229 - ReplaceComparisonOperator != -> >
+42	ReplaceConstant	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:230 - ReplaceConstant - 0 -> 1
+43	InsertUnaryOp	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:233 - InsertUnaryOp Negation
+44	InsertUnaryOp	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:233 - InsertUnaryOp Negation
+45	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:233 - ReplaceComparisonOperator == -> -2
+46	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:233 - ReplaceComparisonOperator == -> >=
+47	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:233 - ReplaceComparisonOperator == -> <=
+48	ReplaceConstant	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:234 - ReplaceConstant - 0 -> 1
+49	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:236 - ReplaceComparisonOperator != -> -1
+50	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:236 - ReplaceComparisonOperator != -> <
+51	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:236 - ReplaceComparisonOperator != -> >
+52	ReplaceConstant	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:237 - ReplaceConstant - 0 -> 1
+53	InsertUnaryOp	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:239 - InsertUnaryOp Negation
+54	InsertUnaryOp	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:239 - InsertUnaryOp Negation
+55	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:239 - ReplaceComparisonOperator == -> -2
+56	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:239 - ReplaceComparisonOperator == -> >=
+57	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:239 - ReplaceComparisonOperator == -> <=
+58	ReplaceConstant	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:240 - ReplaceConstant - 0 -> 1
+59	InsertUnaryOp	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:242 - InsertUnaryOp Negation
+60	InsertUnaryOp	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:242 - InsertUnaryOp Negation
+61	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:242 - ReplaceComparisonOperator == -> -2
+62	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:242 - ReplaceComparisonOperator == -> >=
+63	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:242 - ReplaceComparisonOperator == -> <=
+64	ReplaceConstant	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:243 - ReplaceConstant - 0 -> 1
+65	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:245 - ReplaceComparisonOperator != -> -1
+66	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:245 - ReplaceComparisonOperator != -> <
+67	ReplaceComparisonOperator	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:245 - ReplaceComparisonOperator != -> >
+68	ReplaceConstant	org.jfree.chart.util.LogFormat.equals(Ljava/lang/Object;)Z:246 - ReplaceConstant - 0 -> 1

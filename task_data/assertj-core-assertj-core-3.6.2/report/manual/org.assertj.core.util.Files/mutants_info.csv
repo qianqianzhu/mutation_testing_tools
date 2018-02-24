@@ -1,0 +1,162 @@
+0	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/lang/String;Z)Ljava/util/List;:53 - ReplaceComparisonOperator != -> -1
+1	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/lang/String;Z)Ljava/util/List;:53 - ReplaceComparisonOperator != -> <
+2	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/lang/String;Z)Ljava/util/List;:53 - ReplaceComparisonOperator != -> >
+3	ReplaceConstant	org.assertj.core.util.Files.fileNamesIn(Ljava/lang/String;Z)Ljava/util/List;:54 - ReplaceConstant - %s is not a directory -> 
+4	ReplaceConstant	org.assertj.core.util.Files.fileNamesIn(Ljava/lang/String;Z)Ljava/util/List;:54 - ReplaceConstant - 1 -> 0
+5	ReplaceConstant	org.assertj.core.util.Files.fileNamesIn(Ljava/lang/String;Z)Ljava/util/List;:54 - ReplaceConstant - 0 -> 1
+6	InsertUnaryOp	org.assertj.core.util.Files.fileNamesIn(Ljava/lang/String;Z)Ljava/util/List;:56 - InsertUnaryOp Negation of recurse
+7	InsertUnaryOp	org.assertj.core.util.Files.fileNamesIn(Ljava/lang/String;Z)Ljava/util/List;:56 - InsertUnaryOp IINC 1 recurse
+8	InsertUnaryOp	org.assertj.core.util.Files.fileNamesIn(Ljava/lang/String;Z)Ljava/util/List;:56 - InsertUnaryOp IINC -1 recurse
+9	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:69 - ReplaceComparisonOperator == -> -2
+10	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:69 - ReplaceComparisonOperator == -> >=
+11	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:69 - ReplaceComparisonOperator == -> <=
+12	ReplaceConstant	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:72 - ReplaceConstant - 0 -> 1
+13	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:72 - ReplaceComparisonOperator >= -> -1
+14	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:72 - ReplaceComparisonOperator >= -> >
+15	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:72 - ReplaceComparisonOperator >= -> ==
+16	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:73 - ReplaceComparisonOperator == -> -2
+17	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:73 - ReplaceComparisonOperator == -> >=
+18	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:73 - ReplaceComparisonOperator == -> <=
+19	InsertUnaryOp	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:74 - InsertUnaryOp Negation of recurse
+20	InsertUnaryOp	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:74 - InsertUnaryOp IINC 1 recurse
+21	InsertUnaryOp	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:74 - InsertUnaryOp IINC -1 recurse
+22	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:74 - ReplaceComparisonOperator == -> -2
+23	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:74 - ReplaceComparisonOperator == -> >=
+24	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:74 - ReplaceComparisonOperator == -> <=
+25	InsertUnaryOp	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:75 - InsertUnaryOp Negation of recurse
+26	InsertUnaryOp	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:75 - InsertUnaryOp IINC 1 recurse
+27	InsertUnaryOp	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:75 - InsertUnaryOp IINC -1 recurse
+28	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:80 - ReplaceComparisonOperator != -> -1
+29	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:80 - ReplaceComparisonOperator != -> <
+30	ReplaceComparisonOperator	org.assertj.core.util.Files.fileNamesIn(Ljava/io/File;Z)Ljava/util/List;:80 - ReplaceComparisonOperator != -> >
+31	ReplaceComparisonOperator	org.assertj.core.util.Files.temporaryFolder()Ljava/io/File;:95 - ReplaceComparisonOperator != -> -1
+32	ReplaceComparisonOperator	org.assertj.core.util.Files.temporaryFolder()Ljava/io/File;:95 - ReplaceComparisonOperator != -> <
+33	ReplaceComparisonOperator	org.assertj.core.util.Files.temporaryFolder()Ljava/io/File;:95 - ReplaceComparisonOperator != -> >
+34	ReplaceConstant	org.assertj.core.util.Files.temporaryFolder()Ljava/io/File;:96 - ReplaceConstant - Unable to find temporary directory -> 
+35	ReplaceConstant	org.assertj.core.util.Files.temporaryFolderPath()Ljava/lang/String;:108 - ReplaceConstant - java.io.tmpdir -> 
+36	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFile()Ljava/io/File;:118 - ReplaceConstant - 2 -> 0
+37	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFile()Ljava/io/File;:118 - ReplaceConstant - 2 -> 1
+38	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFile()Ljava/io/File;:118 - ReplaceConstant - 2 -> -1
+39	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFile()Ljava/io/File;:118 - ReplaceConstant - 2 -> 3
+40	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFile()Ljava/io/File;:118 - ReplaceConstant - 0 -> 1
+41	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFile()Ljava/io/File;:118 - ReplaceConstant - 1 -> 0
+42	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFile()Ljava/io/File;:118 - ReplaceConstant - .txt -> 
+43	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFile()Ljava/io/File;:119 - ReplaceConstant - 2 -> 0
+44	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFile()Ljava/io/File;:119 - ReplaceConstant - 2 -> 1
+45	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFile()Ljava/io/File;:119 - ReplaceConstant - 2 -> -1
+46	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFile()Ljava/io/File;:119 - ReplaceConstant - 2 -> 3
+47	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFile()Ljava/io/File;:119 - ReplaceConstant - 0 -> 1
+48	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFile()Ljava/io/File;:119 - ReplaceConstant - 1 -> 0
+49	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFolder()Ljava/io/File;:130 - ReplaceConstant - 2 -> 0
+50	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFolder()Ljava/io/File;:130 - ReplaceConstant - 2 -> 1
+51	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFolder()Ljava/io/File;:130 - ReplaceConstant - 2 -> -1
+52	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFolder()Ljava/io/File;:130 - ReplaceConstant - 2 -> 3
+53	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFolder()Ljava/io/File;:130 - ReplaceConstant - 0 -> 1
+54	ReplaceConstant	org.assertj.core.util.Files.newTemporaryFolder()Ljava/io/File;:130 - ReplaceConstant - 1 -> 0
+55	ReplaceComparisonOperator	org.assertj.core.util.Files.newFile(Ljava/lang/String;)Ljava/io/File;:145 - ReplaceComparisonOperator != -> -1
+56	ReplaceComparisonOperator	org.assertj.core.util.Files.newFile(Ljava/lang/String;)Ljava/io/File;:145 - ReplaceComparisonOperator != -> <
+57	ReplaceComparisonOperator	org.assertj.core.util.Files.newFile(Ljava/lang/String;)Ljava/io/File;:145 - ReplaceComparisonOperator != -> >
+58	ReplaceConstant	org.assertj.core.util.Files.newFile(Ljava/lang/String;)Ljava/io/File;:146 - ReplaceConstant - a file was found with the same path -> 
+59	ReplaceComparisonOperator	org.assertj.core.util.Files.newFolder(Ljava/lang/String;)Ljava/io/File;:166 - ReplaceComparisonOperator != -> -1
+60	ReplaceComparisonOperator	org.assertj.core.util.Files.newFolder(Ljava/lang/String;)Ljava/io/File;:166 - ReplaceComparisonOperator != -> <
+61	ReplaceComparisonOperator	org.assertj.core.util.Files.newFolder(Ljava/lang/String;)Ljava/io/File;:166 - ReplaceComparisonOperator != -> >
+62	ReplaceConstant	org.assertj.core.util.Files.newFolder(Ljava/lang/String;)Ljava/io/File;:167 - ReplaceConstant - a file was found with the same path -> 
+63	ReplaceComparisonOperator	org.assertj.core.util.Files.createFileIfPathIsNotANonEmptyDirectory(Ljava/lang/String;)Ljava/io/File;:177 - ReplaceComparisonOperator == -> -2
+64	ReplaceComparisonOperator	org.assertj.core.util.Files.createFileIfPathIsNotANonEmptyDirectory(Ljava/lang/String;)Ljava/io/File;:177 - ReplaceComparisonOperator == -> >=
+65	ReplaceComparisonOperator	org.assertj.core.util.Files.createFileIfPathIsNotANonEmptyDirectory(Ljava/lang/String;)Ljava/io/File;:177 - ReplaceComparisonOperator == -> <=
+66	ReplaceComparisonOperator	org.assertj.core.util.Files.createFileIfPathIsNotANonEmptyDirectory(Ljava/lang/String;)Ljava/io/File;:177 - ReplaceComparisonOperator != -> -1
+67	ReplaceComparisonOperator	org.assertj.core.util.Files.createFileIfPathIsNotANonEmptyDirectory(Ljava/lang/String;)Ljava/io/File;:177 - ReplaceComparisonOperator != -> <
+68	ReplaceComparisonOperator	org.assertj.core.util.Files.createFileIfPathIsNotANonEmptyDirectory(Ljava/lang/String;)Ljava/io/File;:177 - ReplaceComparisonOperator != -> >
+69	ReplaceConstant	org.assertj.core.util.Files.createFileIfPathIsNotANonEmptyDirectory(Ljava/lang/String;)Ljava/io/File;:178 - ReplaceConstant - a non-empty directory was found with the same path -> 
+70	ReplaceConstant	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:192 - ReplaceConstant - Unable to create the new file %s -> 
+71	ReplaceConstant	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:192 - ReplaceConstant - 1 -> 0
+72	ReplaceConstant	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:192 - ReplaceConstant - 0 -> 1
+73	ReplaceComparisonOperator	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:193 - ReplaceComparisonOperator != -> -1
+74	ReplaceComparisonOperator	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:193 - ReplaceComparisonOperator != -> <
+75	ReplaceComparisonOperator	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:193 - ReplaceComparisonOperator != -> >
+76	ReplaceConstant	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:194 - ReplaceConstant - 3 -> 0
+77	ReplaceConstant	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:194 - ReplaceConstant - 3 -> 1
+78	ReplaceConstant	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:194 - ReplaceConstant - 3 -> -1
+79	ReplaceConstant	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:194 - ReplaceConstant - 3 -> 2
+80	ReplaceConstant	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:194 - ReplaceConstant - 3 -> 4
+81	ReplaceConstant	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:194 - ReplaceConstant - 0 -> 1
+82	ReplaceConstant	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:194 - ReplaceConstant - 1 -> 0
+83	ReplaceConstant	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:194 - ReplaceConstant - :  -> 
+84	ReplaceConstant	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:194 - ReplaceConstant - 2 -> 0
+85	ReplaceConstant	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:194 - ReplaceConstant - 2 -> 1
+86	ReplaceConstant	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:194 - ReplaceConstant - 2 -> -1
+87	ReplaceConstant	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:194 - ReplaceConstant - 2 -> 3
+88	ReplaceComparisonOperator	org.assertj.core.util.Files.cannotCreateNewFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)Lorg/assertj/core/api/exception/RuntimeIOException;:196 - ReplaceComparisonOperator = null -> != null
+89	ReplaceConstant	org.assertj.core.util.Files.currentFolder()Ljava/io/File;:210 - ReplaceConstant - . -> 
+90	ReplaceConstant	org.assertj.core.util.Files.currentFolder()Ljava/io/File;:212 - ReplaceConstant - Unable to get current directory -> 
+91	ReplaceComparisonOperator	org.assertj.core.util.Files.delete(Ljava/io/File;)V:222 - ReplaceComparisonOperator == -> -2
+92	ReplaceComparisonOperator	org.assertj.core.util.Files.delete(Ljava/io/File;)V:222 - ReplaceComparisonOperator == -> >=
+93	ReplaceComparisonOperator	org.assertj.core.util.Files.delete(Ljava/io/File;)V:222 - ReplaceComparisonOperator == -> <=
+94	ReplaceComparisonOperator	org.assertj.core.util.Files.delete(Ljava/io/File;)V:226 - ReplaceComparisonOperator != -> -1
+95	ReplaceComparisonOperator	org.assertj.core.util.Files.delete(Ljava/io/File;)V:226 - ReplaceComparisonOperator != -> <
+96	ReplaceComparisonOperator	org.assertj.core.util.Files.delete(Ljava/io/File;)V:226 - ReplaceComparisonOperator != -> >
+97	ReplaceComparisonOperator	org.assertj.core.util.Files.delete(Ljava/io/File;)V:230 - ReplaceComparisonOperator != -> -1
+98	ReplaceComparisonOperator	org.assertj.core.util.Files.delete(Ljava/io/File;)V:230 - ReplaceComparisonOperator != -> <
+99	ReplaceComparisonOperator	org.assertj.core.util.Files.delete(Ljava/io/File;)V:230 - ReplaceComparisonOperator != -> >
+100	ReplaceConstant	org.assertj.core.util.Files.delete(Ljava/io/File;)V:231 - ReplaceConstant - 0 -> 1
+101	ReplaceComparisonOperator	org.assertj.core.util.Files.delete(Ljava/io/File;)V:231 - ReplaceComparisonOperator >= -> -1
+102	ReplaceComparisonOperator	org.assertj.core.util.Files.delete(Ljava/io/File;)V:231 - ReplaceComparisonOperator >= -> >
+103	ReplaceComparisonOperator	org.assertj.core.util.Files.delete(Ljava/io/File;)V:231 - ReplaceComparisonOperator >= -> ==
+104	ReplaceComparisonOperator	org.assertj.core.util.Files.contentOf(Ljava/io/File;Ljava/lang/String;)Ljava/lang/String;:248 - ReplaceComparisonOperator != -> -1
+105	ReplaceComparisonOperator	org.assertj.core.util.Files.contentOf(Ljava/io/File;Ljava/lang/String;)Ljava/lang/String;:248 - ReplaceComparisonOperator != -> <
+106	ReplaceComparisonOperator	org.assertj.core.util.Files.contentOf(Ljava/io/File;Ljava/lang/String;)Ljava/lang/String;:248 - ReplaceComparisonOperator != -> >
+107	ReplaceConstant	org.assertj.core.util.Files.contentOf(Ljava/io/File;Ljava/lang/String;)Ljava/lang/String;:249 - ReplaceConstant - Charset:<'%s'> is not supported on this system -> 
+108	ReplaceConstant	org.assertj.core.util.Files.contentOf(Ljava/io/File;Ljava/lang/String;)Ljava/lang/String;:249 - ReplaceConstant - 1 -> 0
+109	ReplaceConstant	org.assertj.core.util.Files.contentOf(Ljava/io/File;Ljava/lang/String;)Ljava/lang/String;:249 - ReplaceConstant - 0 -> 1
+110	ReplaceConstant	org.assertj.core.util.Files.contentOf(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:264 - ReplaceConstant - The charset should not be null -> 
+111	ReplaceConstant	org.assertj.core.util.Files.contentOf(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:268 - ReplaceConstant - Unable to read  -> 
+112	ReplaceConstant	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:274 - ReplaceConstant - 1 -> 0
+113	ReplaceConstant	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:279 - ReplaceConstant - -1 -> 0
+114	ReplaceConstant	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:279 - ReplaceConstant - -1 -> 1
+115	ReplaceConstant	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:279 - ReplaceConstant - -1 -> -2
+116	ReplaceComparisonOperator	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:279 - ReplaceComparisonOperator == -> -2
+117	ReplaceComparisonOperator	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:279 - ReplaceComparisonOperator == -> >=
+118	ReplaceComparisonOperator	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:279 - ReplaceComparisonOperator == -> <=
+119	InsertUnaryOp	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:280 - InsertUnaryOp Negation of c
+120	InsertUnaryOp	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:280 - InsertUnaryOp IINC 1 c
+121	InsertUnaryOp	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:280 - InsertUnaryOp IINC -1 c
+122	ReplaceConstant	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:282 - ReplaceConstant - 0 -> 1
+123	ReplaceComparisonOperator	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:285 - ReplaceComparisonOperator = null -> != null
+124	InsertUnaryOp	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:289 - InsertUnaryOp Negation of threw
+125	InsertUnaryOp	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:289 - InsertUnaryOp IINC 1 threw
+126	InsertUnaryOp	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:289 - InsertUnaryOp IINC -1 threw
+127	ReplaceComparisonOperator	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:289 - ReplaceComparisonOperator != -> -1
+128	ReplaceComparisonOperator	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:289 - ReplaceComparisonOperator != -> <
+129	ReplaceComparisonOperator	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:289 - ReplaceComparisonOperator != -> >
+130	ReplaceComparisonOperator	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:285 - ReplaceComparisonOperator = null -> != null
+131	InsertUnaryOp	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:289 - InsertUnaryOp Negation of threw
+132	InsertUnaryOp	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:289 - InsertUnaryOp IINC 1 threw
+133	InsertUnaryOp	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:289 - InsertUnaryOp IINC -1 threw
+134	ReplaceComparisonOperator	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:289 - ReplaceComparisonOperator != -> -1
+135	ReplaceComparisonOperator	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:289 - ReplaceComparisonOperator != -> <
+136	ReplaceComparisonOperator	org.assertj.core.util.Files.loadContents(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/lang/String;:289 - ReplaceComparisonOperator != -> >
+137	ReplaceConstant	org.assertj.core.util.Files.linesOf(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:308 - ReplaceConstant - The charset should not be null -> 
+138	ReplaceConstant	org.assertj.core.util.Files.linesOf(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:312 - ReplaceConstant - Unable to read  -> 
+139	ReplaceComparisonOperator	org.assertj.core.util.Files.linesOf(Ljava/io/File;Ljava/lang/String;)Ljava/util/List;:327 - ReplaceComparisonOperator != -> -1
+140	ReplaceComparisonOperator	org.assertj.core.util.Files.linesOf(Ljava/io/File;Ljava/lang/String;)Ljava/util/List;:327 - ReplaceComparisonOperator != -> <
+141	ReplaceComparisonOperator	org.assertj.core.util.Files.linesOf(Ljava/io/File;Ljava/lang/String;)Ljava/util/List;:327 - ReplaceComparisonOperator != -> >
+142	ReplaceConstant	org.assertj.core.util.Files.linesOf(Ljava/io/File;Ljava/lang/String;)Ljava/util/List;:328 - ReplaceConstant - Charset:<'%s'> is not supported on this system -> 
+143	ReplaceConstant	org.assertj.core.util.Files.linesOf(Ljava/io/File;Ljava/lang/String;)Ljava/util/List;:328 - ReplaceConstant - 1 -> 0
+144	ReplaceConstant	org.assertj.core.util.Files.linesOf(Ljava/io/File;Ljava/lang/String;)Ljava/util/List;:328 - ReplaceConstant - 0 -> 1
+145	ReplaceConstant	org.assertj.core.util.Files.loadLines(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:335 - ReplaceConstant - 1 -> 0
+146	ReplaceComparisonOperator	org.assertj.core.util.Files.loadLines(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:342 - ReplaceComparisonOperator = null -> != null
+147	ReplaceConstant	org.assertj.core.util.Files.loadLines(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:347 - ReplaceConstant - 0 -> 1
+148	ReplaceComparisonOperator	org.assertj.core.util.Files.loadLines(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:350 - ReplaceComparisonOperator = null -> != null
+149	InsertUnaryOp	org.assertj.core.util.Files.loadLines(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:354 - InsertUnaryOp Negation of threw
+150	InsertUnaryOp	org.assertj.core.util.Files.loadLines(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:354 - InsertUnaryOp IINC 1 threw
+151	InsertUnaryOp	org.assertj.core.util.Files.loadLines(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:354 - InsertUnaryOp IINC -1 threw
+152	ReplaceComparisonOperator	org.assertj.core.util.Files.loadLines(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:354 - ReplaceComparisonOperator != -> -1
+153	ReplaceComparisonOperator	org.assertj.core.util.Files.loadLines(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:354 - ReplaceComparisonOperator != -> <
+154	ReplaceComparisonOperator	org.assertj.core.util.Files.loadLines(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:354 - ReplaceComparisonOperator != -> >
+155	ReplaceComparisonOperator	org.assertj.core.util.Files.loadLines(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:350 - ReplaceComparisonOperator = null -> != null
+156	InsertUnaryOp	org.assertj.core.util.Files.loadLines(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:354 - InsertUnaryOp Negation of threw
+157	InsertUnaryOp	org.assertj.core.util.Files.loadLines(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:354 - InsertUnaryOp IINC 1 threw
+158	InsertUnaryOp	org.assertj.core.util.Files.loadLines(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:354 - InsertUnaryOp IINC -1 threw
+159	ReplaceComparisonOperator	org.assertj.core.util.Files.loadLines(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:354 - ReplaceComparisonOperator != -> -1
+160	ReplaceComparisonOperator	org.assertj.core.util.Files.loadLines(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:354 - ReplaceComparisonOperator != -> <
+161	ReplaceComparisonOperator	org.assertj.core.util.Files.loadLines(Ljava/io/File;Ljava/nio/charset/Charset;)Ljava/util/List;:354 - ReplaceComparisonOperator != -> >

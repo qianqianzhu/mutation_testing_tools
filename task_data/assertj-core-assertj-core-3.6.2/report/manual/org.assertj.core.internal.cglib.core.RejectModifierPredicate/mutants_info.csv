@@ -1,0 +1,13 @@
+0	InsertUnaryOp	org.assertj.core.internal.cglib.core.RejectModifierPredicate.<init>(I)V:24 - InsertUnaryOp Negation of rejectMask
+1	InsertUnaryOp	org.assertj.core.internal.cglib.core.RejectModifierPredicate.<init>(I)V:24 - InsertUnaryOp IINC 1 rejectMask
+2	InsertUnaryOp	org.assertj.core.internal.cglib.core.RejectModifierPredicate.<init>(I)V:24 - InsertUnaryOp IINC -1 rejectMask
+3	InsertUnaryOp	org.assertj.core.internal.cglib.core.RejectModifierPredicate.evaluate(Ljava/lang/Object;)Z:28 - InsertUnaryOp Negation
+4	InsertUnaryOp	org.assertj.core.internal.cglib.core.RejectModifierPredicate.evaluate(Ljava/lang/Object;)Z:28 - InsertUnaryOp +1
+5	InsertUnaryOp	org.assertj.core.internal.cglib.core.RejectModifierPredicate.evaluate(Ljava/lang/Object;)Z:28 - InsertUnaryOp -1
+6	ReplaceBitwiseOperator	org.assertj.core.internal.cglib.core.RejectModifierPredicate.evaluate(Ljava/lang/Object;)Z:28 - ReplaceBitwiseOperator & -> |
+7	ReplaceBitwiseOperator	org.assertj.core.internal.cglib.core.RejectModifierPredicate.evaluate(Ljava/lang/Object;)Z:28 - ReplaceBitwiseOperator & -> ^
+8	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.RejectModifierPredicate.evaluate(Ljava/lang/Object;)Z:28 - ReplaceComparisonOperator != -> -1
+9	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.RejectModifierPredicate.evaluate(Ljava/lang/Object;)Z:28 - ReplaceComparisonOperator != -> <
+10	ReplaceComparisonOperator	org.assertj.core.internal.cglib.core.RejectModifierPredicate.evaluate(Ljava/lang/Object;)Z:28 - ReplaceComparisonOperator != -> >
+11	ReplaceConstant	org.assertj.core.internal.cglib.core.RejectModifierPredicate.evaluate(Ljava/lang/Object;)Z:28 - ReplaceConstant - 1 -> 0
+12	ReplaceConstant	org.assertj.core.internal.cglib.core.RejectModifierPredicate.evaluate(Ljava/lang/Object;)Z:28 - ReplaceConstant - 0 -> 1

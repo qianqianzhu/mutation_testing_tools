@@ -1,0 +1,232 @@
+0	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.<init>(Ljava/awt/Image;IILorg/jfree/ui/RectangleEdge;Lorg/jfree/ui/HorizontalAlignment;Lorg/jfree/ui/VerticalAlignment;Lorg/jfree/ui/RectangleInsets;)V:142 - ReplaceComparisonOperator != null -> = null
+1	ReplaceConstant	org.jfree.chart.title.ImageTitle.<init>(Ljava/awt/Image;IILorg/jfree/ui/RectangleEdge;Lorg/jfree/ui/HorizontalAlignment;Lorg/jfree/ui/VerticalAlignment;Lorg/jfree/ui/RectangleInsets;)V:143 - ReplaceConstant - Null 'image' argument. -> 
+2	InsertUnaryOp	org.jfree.chart.title.ImageTitle.<init>(Ljava/awt/Image;IILorg/jfree/ui/RectangleEdge;Lorg/jfree/ui/HorizontalAlignment;Lorg/jfree/ui/VerticalAlignment;Lorg/jfree/ui/RectangleInsets;)V:146 - InsertUnaryOp Negation of height
+3	InsertUnaryOp	org.jfree.chart.title.ImageTitle.<init>(Ljava/awt/Image;IILorg/jfree/ui/RectangleEdge;Lorg/jfree/ui/HorizontalAlignment;Lorg/jfree/ui/VerticalAlignment;Lorg/jfree/ui/RectangleInsets;)V:146 - InsertUnaryOp IINC 1 height
+4	InsertUnaryOp	org.jfree.chart.title.ImageTitle.<init>(Ljava/awt/Image;IILorg/jfree/ui/RectangleEdge;Lorg/jfree/ui/HorizontalAlignment;Lorg/jfree/ui/VerticalAlignment;Lorg/jfree/ui/RectangleInsets;)V:146 - InsertUnaryOp IINC -1 height
+5	InsertUnaryOp	org.jfree.chart.title.ImageTitle.<init>(Ljava/awt/Image;IILorg/jfree/ui/RectangleEdge;Lorg/jfree/ui/HorizontalAlignment;Lorg/jfree/ui/VerticalAlignment;Lorg/jfree/ui/RectangleInsets;)V:147 - InsertUnaryOp Negation of width
+6	InsertUnaryOp	org.jfree.chart.title.ImageTitle.<init>(Ljava/awt/Image;IILorg/jfree/ui/RectangleEdge;Lorg/jfree/ui/HorizontalAlignment;Lorg/jfree/ui/VerticalAlignment;Lorg/jfree/ui/RectangleInsets;)V:147 - InsertUnaryOp IINC 1 width
+7	InsertUnaryOp	org.jfree.chart.title.ImageTitle.<init>(Ljava/awt/Image;IILorg/jfree/ui/RectangleEdge;Lorg/jfree/ui/HorizontalAlignment;Lorg/jfree/ui/VerticalAlignment;Lorg/jfree/ui/RectangleInsets;)V:147 - InsertUnaryOp IINC -1 width
+8	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.setImage(Ljava/awt/Image;)V:167 - ReplaceComparisonOperator != null -> = null
+9	ReplaceConstant	org.jfree.chart.title.ImageTitle.setImage(Ljava/awt/Image;)V:168 - ReplaceConstant - Null 'image' argument. -> 
+10	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V:201 - ReplaceComparisonOperator == -> !=
+11	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V:201 - ReplaceComparisonOperator != -> ==
+12	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V:204 - ReplaceComparisonOperator == -> !=
+13	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V:204 - ReplaceComparisonOperator != -> ==
+14	ReplaceConstant	org.jfree.chart.title.ImageTitle.draw(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)V:209 - ReplaceConstant - Invalid title position. -> 
+15	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:233 - InsertUnaryOp Negation of h
+16	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:234 - InsertUnaryOp Negation of h
+17	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:235 - InsertUnaryOp Negation of w
+18	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:236 - InsertUnaryOp Negation of w
+19	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:238 - ReplaceComparisonOperator != -> ==
+20	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:239 - InsertUnaryOp Negation of topSpace
+21	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:239 - ReplaceArithmeticOperator + -> %
+22	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:239 - ReplaceArithmeticOperator + -> -
+23	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:239 - ReplaceArithmeticOperator + -> *
+24	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:239 - ReplaceArithmeticOperator + -> /
+25	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:242 - ReplaceArithmeticOperator + -> %
+26	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:242 - ReplaceArithmeticOperator + -> -
+27	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:242 - ReplaceArithmeticOperator + -> *
+28	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:242 - ReplaceArithmeticOperator + -> /
+29	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:242 - InsertUnaryOp Negation of bottomSpace
+30	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:242 - ReplaceArithmeticOperator - -> +
+31	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:242 - ReplaceArithmeticOperator - -> %
+32	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:242 - ReplaceArithmeticOperator - -> *
+33	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:242 - ReplaceArithmeticOperator - -> /
+34	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:242 - InsertUnaryOp Negation of h
+35	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:242 - ReplaceArithmeticOperator - -> +
+36	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:242 - ReplaceArithmeticOperator - -> %
+37	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:242 - ReplaceArithmeticOperator - -> *
+38	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:242 - ReplaceArithmeticOperator - -> /
+39	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:247 - ReplaceConstant - 0.0 -> 1.0
+40	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:247 - ReplaceConstant - 0.0 -> -1.0
+41	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:248 - ReplaceComparisonOperator != -> ==
+42	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - InsertUnaryOp Negation of leftSpace
+43	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator + -> %
+44	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator + -> -
+45	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator + -> *
+46	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator + -> /
+47	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceConstant - 2.0 -> 0.0
+48	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceConstant - 2.0 -> 1.0
+49	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceConstant - 2.0 -> -1.0
+50	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceConstant - 2.0 -> 3.0
+51	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator / -> +
+52	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator / -> %
+53	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator / -> -
+54	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator / -> *
+55	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator + -> %
+56	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator + -> -
+57	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator + -> *
+58	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator + -> /
+59	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - InsertUnaryOp Negation of w
+60	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceConstant - 2.0 -> 0.0
+61	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceConstant - 2.0 -> 1.0
+62	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceConstant - 2.0 -> -1.0
+63	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceConstant - 2.0 -> 3.0
+64	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator / -> +
+65	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator / -> %
+66	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator / -> -
+67	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator / -> *
+68	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator - -> +
+69	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator - -> %
+70	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator - -> *
+71	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:249 - ReplaceArithmeticOperator - -> /
+72	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:252 - ReplaceComparisonOperator != -> ==
+73	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:253 - InsertUnaryOp Negation of leftSpace
+74	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:253 - ReplaceArithmeticOperator + -> %
+75	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:253 - ReplaceArithmeticOperator + -> -
+76	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:253 - ReplaceArithmeticOperator + -> *
+77	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:253 - ReplaceArithmeticOperator + -> /
+78	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:255 - ReplaceComparisonOperator != -> ==
+79	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:256 - ReplaceArithmeticOperator + -> %
+80	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:256 - ReplaceArithmeticOperator + -> -
+81	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:256 - ReplaceArithmeticOperator + -> *
+82	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:256 - ReplaceArithmeticOperator + -> /
+83	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:256 - InsertUnaryOp Negation of rightSpace
+84	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:256 - ReplaceArithmeticOperator - -> +
+85	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:256 - ReplaceArithmeticOperator - -> %
+86	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:256 - ReplaceArithmeticOperator - -> *
+87	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:256 - ReplaceArithmeticOperator - -> /
+88	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:256 - InsertUnaryOp Negation of w
+89	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:256 - ReplaceArithmeticOperator - -> +
+90	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:256 - ReplaceArithmeticOperator - -> %
+91	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:256 - ReplaceArithmeticOperator - -> *
+92	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:256 - ReplaceArithmeticOperator - -> /
+93	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:258 - InsertUnaryOp Negation of startX
+94	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:258 - InsertUnaryOp Negation of startY
+95	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:258 - InsertUnaryOp Negation of w
+96	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:258 - InsertUnaryOp Negation of h
+97	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - InsertUnaryOp Negation of leftSpace
+98	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - ReplaceArithmeticOperator + -> %
+99	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - ReplaceArithmeticOperator + -> -
+100	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - ReplaceArithmeticOperator + -> *
+101	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - ReplaceArithmeticOperator + -> /
+102	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - InsertUnaryOp Negation of rightSpace
+103	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - ReplaceArithmeticOperator + -> %
+104	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - ReplaceArithmeticOperator + -> -
+105	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - ReplaceArithmeticOperator + -> *
+106	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - ReplaceArithmeticOperator + -> /
+107	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - InsertUnaryOp Negation of h
+108	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - InsertUnaryOp Negation of topSpace
+109	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - ReplaceArithmeticOperator + -> %
+110	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - ReplaceArithmeticOperator + -> -
+111	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - ReplaceArithmeticOperator + -> *
+112	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - ReplaceArithmeticOperator + -> /
+113	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - InsertUnaryOp Negation of bottomSpace
+114	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - ReplaceArithmeticOperator + -> %
+115	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - ReplaceArithmeticOperator + -> -
+116	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - ReplaceArithmeticOperator + -> *
+117	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawHorizontal(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:261 - ReplaceArithmeticOperator + -> /
+118	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:279 - ReplaceConstant - 0.0 -> 1.0
+119	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:279 - ReplaceConstant - 0.0 -> -1.0
+120	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:280 - ReplaceConstant - 0.0 -> 1.0
+121	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:280 - ReplaceConstant - 0.0 -> -1.0
+122	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:281 - ReplaceConstant - 0.0 -> 1.0
+123	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:281 - ReplaceConstant - 0.0 -> -1.0
+124	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:282 - ReplaceConstant - 0.0 -> 1.0
+125	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:282 - ReplaceConstant - 0.0 -> -1.0
+126	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:288 - ReplaceComparisonOperator = null -> != null
+127	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:289 - InsertUnaryOp Negation of h
+128	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:290 - InsertUnaryOp Negation of h
+129	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:291 - InsertUnaryOp Negation of w
+130	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:292 - InsertUnaryOp Negation of w
+131	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:295 - ReplaceComparisonOperator != -> ==
+132	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:296 - InsertUnaryOp Negation of leftSpace
+133	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:296 - ReplaceArithmeticOperator + -> %
+134	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:296 - ReplaceArithmeticOperator + -> -
+135	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:296 - ReplaceArithmeticOperator + -> *
+136	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:296 - ReplaceArithmeticOperator + -> /
+137	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:299 - InsertUnaryOp Negation of rightSpace
+138	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:299 - ReplaceArithmeticOperator - -> +
+139	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:299 - ReplaceArithmeticOperator - -> %
+140	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:299 - ReplaceArithmeticOperator - -> *
+141	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:299 - ReplaceArithmeticOperator - -> /
+142	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:299 - InsertUnaryOp Negation of w
+143	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:299 - ReplaceArithmeticOperator - -> +
+144	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:299 - ReplaceArithmeticOperator - -> %
+145	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:299 - ReplaceArithmeticOperator - -> *
+146	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:299 - ReplaceArithmeticOperator - -> /
+147	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:304 - ReplaceConstant - 0.0 -> 1.0
+148	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:304 - ReplaceConstant - 0.0 -> -1.0
+149	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:305 - ReplaceComparisonOperator != -> ==
+150	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:306 - InsertUnaryOp Negation of topSpace
+151	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:306 - ReplaceArithmeticOperator + -> %
+152	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:306 - ReplaceArithmeticOperator + -> -
+153	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:306 - ReplaceArithmeticOperator + -> *
+154	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:306 - ReplaceArithmeticOperator + -> /
+155	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceConstant - 2.0 -> 0.0
+156	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceConstant - 2.0 -> 1.0
+157	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceConstant - 2.0 -> -1.0
+158	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceConstant - 2.0 -> 3.0
+159	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceArithmeticOperator / -> +
+160	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceArithmeticOperator / -> %
+161	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceArithmeticOperator / -> -
+162	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceArithmeticOperator / -> *
+163	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceArithmeticOperator + -> %
+164	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceArithmeticOperator + -> -
+165	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceArithmeticOperator + -> *
+166	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceArithmeticOperator + -> /
+167	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - InsertUnaryOp Negation of h
+168	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceConstant - 2.0 -> 0.0
+169	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceConstant - 2.0 -> 1.0
+170	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceConstant - 2.0 -> -1.0
+171	ReplaceConstant	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceConstant - 2.0 -> 3.0
+172	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceArithmeticOperator / -> +
+173	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceArithmeticOperator / -> %
+174	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceArithmeticOperator / -> -
+175	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceArithmeticOperator / -> *
+176	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceArithmeticOperator - -> +
+177	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceArithmeticOperator - -> %
+178	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceArithmeticOperator - -> *
+179	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:307 - ReplaceArithmeticOperator - -> /
+180	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:309 - ReplaceComparisonOperator != -> ==
+181	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:310 - InsertUnaryOp Negation of topSpace
+182	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:310 - ReplaceArithmeticOperator + -> %
+183	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:310 - ReplaceArithmeticOperator + -> -
+184	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:310 - ReplaceArithmeticOperator + -> *
+185	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:310 - ReplaceArithmeticOperator + -> /
+186	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:312 - ReplaceComparisonOperator != -> ==
+187	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:313 - InsertUnaryOp Negation of bottomSpace
+188	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:313 - ReplaceArithmeticOperator - -> +
+189	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:313 - ReplaceArithmeticOperator - -> %
+190	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:313 - ReplaceArithmeticOperator - -> *
+191	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:313 - ReplaceArithmeticOperator - -> /
+192	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:313 - InsertUnaryOp Negation of h
+193	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:313 - ReplaceArithmeticOperator - -> +
+194	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:313 - ReplaceArithmeticOperator - -> %
+195	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:313 - ReplaceArithmeticOperator - -> *
+196	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:313 - ReplaceArithmeticOperator - -> /
+197	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:316 - InsertUnaryOp Negation of startX
+198	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:316 - InsertUnaryOp Negation of startY
+199	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:316 - InsertUnaryOp Negation of w
+200	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:316 - InsertUnaryOp Negation of h
+201	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - InsertUnaryOp Negation of leftSpace
+202	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - ReplaceArithmeticOperator + -> %
+203	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - ReplaceArithmeticOperator + -> -
+204	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - ReplaceArithmeticOperator + -> *
+205	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - ReplaceArithmeticOperator + -> /
+206	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - InsertUnaryOp Negation of rightSpace
+207	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - ReplaceArithmeticOperator + -> %
+208	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - ReplaceArithmeticOperator + -> -
+209	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - ReplaceArithmeticOperator + -> *
+210	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - ReplaceArithmeticOperator + -> /
+211	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - InsertUnaryOp Negation of h
+212	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - InsertUnaryOp Negation of topSpace
+213	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - ReplaceArithmeticOperator + -> %
+214	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - ReplaceArithmeticOperator + -> -
+215	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - ReplaceArithmeticOperator + -> *
+216	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - ReplaceArithmeticOperator + -> /
+217	InsertUnaryOp	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - InsertUnaryOp Negation of bottomSpace
+218	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - ReplaceArithmeticOperator + -> %
+219	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - ReplaceArithmeticOperator + -> -
+220	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - ReplaceArithmeticOperator + -> *
+221	ReplaceArithmeticOperator	org.jfree.chart.title.ImageTitle.drawVertical(Ljava/awt/Graphics2D;Ljava/awt/geom/Rectangle2D;)Lorg/jfree/ui/Size2D;:319 - ReplaceArithmeticOperator + -> /
+222	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.equals(Ljava/lang/Object;)Z:355 - ReplaceComparisonOperator != -> ==
+223	ReplaceConstant	org.jfree.chart.title.ImageTitle.equals(Ljava/lang/Object;)Z:356 - ReplaceConstant - 1 -> 0
+224	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.equals(Ljava/lang/Object;)Z:358 - ReplaceComparisonOperator != -> -1
+225	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.equals(Ljava/lang/Object;)Z:358 - ReplaceComparisonOperator != -> <
+226	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.equals(Ljava/lang/Object;)Z:358 - ReplaceComparisonOperator != -> >
+227	ReplaceConstant	org.jfree.chart.title.ImageTitle.equals(Ljava/lang/Object;)Z:359 - ReplaceConstant - 0 -> 1
+228	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.equals(Ljava/lang/Object;)Z:362 - ReplaceComparisonOperator != -> -1
+229	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.equals(Ljava/lang/Object;)Z:362 - ReplaceComparisonOperator != -> <
+230	ReplaceComparisonOperator	org.jfree.chart.title.ImageTitle.equals(Ljava/lang/Object;)Z:362 - ReplaceComparisonOperator != -> >
+231	ReplaceConstant	org.jfree.chart.title.ImageTitle.equals(Ljava/lang/Object;)Z:363 - ReplaceConstant - 0 -> 1

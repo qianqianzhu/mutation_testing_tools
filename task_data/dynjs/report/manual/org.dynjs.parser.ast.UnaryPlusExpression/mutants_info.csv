@@ -1,0 +1,8 @@
+0	ReplaceConstant	org.dynjs.parser.ast.UnaryPlusExpression.<init>(Lorg/dynjs/parser/ast/Expression;)V:15 - ReplaceConstant - + -> 
+1	ReplaceConstant	org.dynjs.parser.ast.UnaryPlusExpression.toString()Ljava/lang/String;:20 - ReplaceConstant - + -> 
+2	InsertUnaryOp	org.dynjs.parser.ast.UnaryPlusExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:25 - InsertUnaryOp Negation of strict
+3	InsertUnaryOp	org.dynjs.parser.ast.UnaryPlusExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:25 - InsertUnaryOp IINC 1 strict
+4	InsertUnaryOp	org.dynjs.parser.ast.UnaryPlusExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:25 - InsertUnaryOp IINC -1 strict
+5	InsertUnaryOp	org.dynjs.parser.ast.UnaryPlusExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:30 - InsertUnaryOp Negation of debug
+6	InsertUnaryOp	org.dynjs.parser.ast.UnaryPlusExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:30 - InsertUnaryOp IINC 1 debug
+7	InsertUnaryOp	org.dynjs.parser.ast.UnaryPlusExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:30 - InsertUnaryOp IINC -1 debug

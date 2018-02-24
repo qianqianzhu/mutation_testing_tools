@@ -1,0 +1,79 @@
+0	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:19 - InsertUnaryOp Negation of strict
+1	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:19 - InsertUnaryOp IINC 1 strict
+2	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:19 - InsertUnaryOp IINC -1 strict
+3	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - InsertUnaryOp Negation of debug
+4	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - InsertUnaryOp IINC 1 debug
+5	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - InsertUnaryOp IINC -1 debug
+6	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:28 - ReplaceConstant - >>> -> 
+7	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:28 - ReplaceComparisonOperator == -> -2
+8	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:28 - ReplaceComparisonOperator == -> >=
+9	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:28 - ReplaceComparisonOperator == -> <=
+10	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:34 - InsertUnaryOp Negation of debug
+11	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:34 - InsertUnaryOp IINC 1 debug
+12	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:34 - InsertUnaryOp IINC -1 debug
+13	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:36 - ReplaceConstant - << -> 
+14	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:36 - ReplaceComparisonOperator == -> -2
+15	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:36 - ReplaceComparisonOperator == -> >=
+16	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:36 - ReplaceComparisonOperator == -> <=
+17	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:39 - ReplaceConstant - 31 -> 0
+18	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:39 - ReplaceConstant - 31 -> 1
+19	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:39 - ReplaceConstant - 31 -> -1
+20	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:39 - ReplaceConstant - 31 -> 30
+21	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:39 - ReplaceConstant - 31 -> 32
+22	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:39 - ReplaceBitwiseOperator & -> |
+23	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:39 - ReplaceBitwiseOperator & -> ^
+24	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:40 - InsertUnaryOp Negation of shiftCount
+25	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:40 - InsertUnaryOp IINC 1 shiftCount
+26	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:40 - InsertUnaryOp IINC -1 shiftCount
+27	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:40 - ReplaceBitwiseOperator << L -> >> L
+28	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:40 - ReplaceBitwiseOperator << L -> >>> L
+29	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:41 - ReplaceConstant - >> -> 
+30	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:41 - ReplaceComparisonOperator == -> -2
+31	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:41 - ReplaceComparisonOperator == -> >=
+32	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:41 - ReplaceComparisonOperator == -> <=
+33	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:44 - ReplaceConstant - 31 -> 0
+34	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:44 - ReplaceConstant - 31 -> 1
+35	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:44 - ReplaceConstant - 31 -> -1
+36	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:44 - ReplaceConstant - 31 -> 30
+37	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:44 - ReplaceConstant - 31 -> 32
+38	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:44 - ReplaceBitwiseOperator & -> |
+39	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:44 - ReplaceBitwiseOperator & -> ^
+40	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:45 - InsertUnaryOp Negation of shiftCount
+41	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:45 - InsertUnaryOp IINC 1 shiftCount
+42	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:45 - InsertUnaryOp IINC -1 shiftCount
+43	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:45 - ReplaceBitwiseOperator >> L -> << L
+44	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:45 - ReplaceBitwiseOperator >> L -> >>> L
+45	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:46 - ReplaceConstant - >>> -> 
+46	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:46 - ReplaceComparisonOperator == -> -2
+47	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:46 - ReplaceComparisonOperator == -> >=
+48	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:46 - ReplaceComparisonOperator == -> <=
+49	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:49 - ReplaceConstant - 31 -> 0
+50	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:49 - ReplaceConstant - 31 -> 1
+51	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:49 - ReplaceConstant - 31 -> -1
+52	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:49 - ReplaceConstant - 31 -> 30
+53	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:49 - ReplaceConstant - 31 -> 32
+54	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:49 - ReplaceBitwiseOperator & -> |
+55	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:49 - ReplaceBitwiseOperator & -> ^
+56	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:50 - InsertUnaryOp Negation of shiftCount
+57	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:50 - InsertUnaryOp IINC 1 shiftCount
+58	InsertUnaryOp	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:50 - InsertUnaryOp IINC -1 shiftCount
+59	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:50 - ReplaceBitwiseOperator >>> L -> << L
+60	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:50 - ReplaceBitwiseOperator >>> L -> >> L
+61	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:51 - ReplaceConstant - & -> 
+62	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:51 - ReplaceComparisonOperator == -> -2
+63	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:51 - ReplaceComparisonOperator == -> >=
+64	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:51 - ReplaceComparisonOperator == -> <=
+65	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:53 - ReplaceBitwiseOperator & -> |
+66	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:53 - ReplaceBitwiseOperator & -> ^
+67	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:54 - ReplaceConstant - | -> 
+68	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:54 - ReplaceComparisonOperator == -> -2
+69	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:54 - ReplaceComparisonOperator == -> >=
+70	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:54 - ReplaceComparisonOperator == -> <=
+71	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:56 - ReplaceBitwiseOperator | -> ^
+72	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:56 - ReplaceBitwiseOperator | -> &
+73	ReplaceConstant	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:57 - ReplaceConstant - ^ -> 
+74	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:57 - ReplaceComparisonOperator == -> -2
+75	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:57 - ReplaceComparisonOperator == -> >=
+76	ReplaceComparisonOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:57 - ReplaceComparisonOperator == -> <=
+77	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:59 - ReplaceBitwiseOperator ^ -> |
+78	ReplaceBitwiseOperator	org.dynjs.parser.ast.BitwiseExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:59 - ReplaceBitwiseOperator ^ -> &

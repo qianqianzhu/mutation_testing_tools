@@ -1,0 +1,72 @@
+0	InsertUnaryOp	org.jfree.chart.axis.TickUnit.<init>(D)V:84 - InsertUnaryOp Negation of size
+1	InsertUnaryOp	org.jfree.chart.axis.TickUnit.<init>(DI)V:96 - InsertUnaryOp Negation of size
+2	InsertUnaryOp	org.jfree.chart.axis.TickUnit.<init>(DI)V:97 - InsertUnaryOp Negation of minorTickCount
+3	InsertUnaryOp	org.jfree.chart.axis.TickUnit.<init>(DI)V:97 - InsertUnaryOp IINC 1 minorTickCount
+4	InsertUnaryOp	org.jfree.chart.axis.TickUnit.<init>(DI)V:97 - InsertUnaryOp IINC -1 minorTickCount
+5	InsertUnaryOp	org.jfree.chart.axis.TickUnit.getSize()D:106 - InsertUnaryOp Negation
+6	InsertUnaryOp	org.jfree.chart.axis.TickUnit.getMinorTickCount()I:117 - InsertUnaryOp Negation
+7	InsertUnaryOp	org.jfree.chart.axis.TickUnit.getMinorTickCount()I:117 - InsertUnaryOp +1
+8	InsertUnaryOp	org.jfree.chart.axis.TickUnit.getMinorTickCount()I:117 - InsertUnaryOp -1
+9	InsertUnaryOp	org.jfree.chart.axis.TickUnit.valueToString(D)Ljava/lang/String;:130 - InsertUnaryOp Negation of value
+10	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:145 - ReplaceComparisonOperator == -> -2
+11	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:145 - ReplaceComparisonOperator == -> >=
+12	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:145 - ReplaceComparisonOperator == -> <=
+13	InsertUnaryOp	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:147 - InsertUnaryOp Negation
+14	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:147 - ReplaceComparisonOperator <= -> -1
+15	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:147 - ReplaceComparisonOperator <= -> ==
+16	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:147 - ReplaceComparisonOperator <= -> <
+17	ReplaceConstant	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:148 - ReplaceConstant - 1 -> 0
+18	InsertUnaryOp	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:150 - InsertUnaryOp Negation
+19	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:150 - ReplaceComparisonOperator >= -> -1
+20	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:150 - ReplaceComparisonOperator >= -> ==
+21	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:150 - ReplaceComparisonOperator >= -> >
+22	ReplaceConstant	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:151 - ReplaceConstant - -1 -> 0
+23	ReplaceConstant	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:151 - ReplaceConstant - -1 -> 1
+24	ReplaceConstant	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:151 - ReplaceConstant - -1 -> -2
+25	ReplaceConstant	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:154 - ReplaceConstant - 0 -> 1
+26	ReplaceConstant	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:158 - ReplaceConstant - -1 -> 0
+27	ReplaceConstant	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:158 - ReplaceConstant - -1 -> 1
+28	ReplaceConstant	org.jfree.chart.axis.TickUnit.compareTo(Ljava/lang/Object;)I:158 - ReplaceConstant - -1 -> -2
+29	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:172 - ReplaceComparisonOperator != -> ==
+30	ReplaceConstant	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:173 - ReplaceConstant - 1 -> 0
+31	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:175 - ReplaceComparisonOperator != -> -1
+32	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:175 - ReplaceComparisonOperator != -> <
+33	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:175 - ReplaceComparisonOperator != -> >
+34	ReplaceConstant	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:176 - ReplaceConstant - 0 -> 1
+35	InsertUnaryOp	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:179 - InsertUnaryOp Negation
+36	InsertUnaryOp	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:179 - InsertUnaryOp Negation
+37	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:179 - ReplaceComparisonOperator == -> -2
+38	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:179 - ReplaceComparisonOperator == -> >=
+39	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:179 - ReplaceComparisonOperator == -> <=
+40	ReplaceConstant	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:180 - ReplaceConstant - 0 -> 1
+41	InsertUnaryOp	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:182 - InsertUnaryOp Negation
+42	InsertUnaryOp	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:182 - InsertUnaryOp +1
+43	InsertUnaryOp	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:182 - InsertUnaryOp -1
+44	InsertUnaryOp	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:182 - InsertUnaryOp Negation
+45	InsertUnaryOp	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:182 - InsertUnaryOp +1
+46	InsertUnaryOp	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:182 - InsertUnaryOp -1
+47	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:182 - ReplaceComparisonOperator == -> -2
+48	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:182 - ReplaceComparisonOperator == -> >=
+49	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:182 - ReplaceComparisonOperator == -> <=
+50	ReplaceConstant	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:183 - ReplaceConstant - 0 -> 1
+51	ReplaceConstant	org.jfree.chart.axis.TickUnit.equals(Ljava/lang/Object;)Z:185 - ReplaceConstant - 1 -> 0
+52	InsertUnaryOp	org.jfree.chart.axis.TickUnit.hashCode()I:195 - InsertUnaryOp Negation
+53	ReplaceConstant	org.jfree.chart.axis.TickUnit.hashCode()I:195 - ReplaceConstant - 0.0 -> 1.0
+54	ReplaceConstant	org.jfree.chart.axis.TickUnit.hashCode()I:195 - ReplaceConstant - 0.0 -> -1.0
+55	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.hashCode()I:195 - ReplaceComparisonOperator == -> -2
+56	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.hashCode()I:195 - ReplaceComparisonOperator == -> >=
+57	ReplaceComparisonOperator	org.jfree.chart.axis.TickUnit.hashCode()I:195 - ReplaceComparisonOperator == -> <=
+58	InsertUnaryOp	org.jfree.chart.axis.TickUnit.hashCode()I:195 - InsertUnaryOp Negation
+59	ReplaceConstant	org.jfree.chart.axis.TickUnit.hashCode()I:195 - ReplaceConstant - 0 -> 1
+60	ReplaceConstant	org.jfree.chart.axis.TickUnit.hashCode()I:195 - ReplaceConstant - 0 -> -1
+61	InsertUnaryOp	org.jfree.chart.axis.TickUnit.hashCode()I:197 - InsertUnaryOp Negation of temp
+62	InsertUnaryOp	org.jfree.chart.axis.TickUnit.hashCode()I:197 - InsertUnaryOp Negation of temp
+63	ReplaceConstant	org.jfree.chart.axis.TickUnit.hashCode()I:197 - ReplaceConstant - 32 -> 0
+64	ReplaceConstant	org.jfree.chart.axis.TickUnit.hashCode()I:197 - ReplaceConstant - 32 -> 1
+65	ReplaceConstant	org.jfree.chart.axis.TickUnit.hashCode()I:197 - ReplaceConstant - 32 -> -1
+66	ReplaceConstant	org.jfree.chart.axis.TickUnit.hashCode()I:197 - ReplaceConstant - 32 -> 31
+67	ReplaceConstant	org.jfree.chart.axis.TickUnit.hashCode()I:197 - ReplaceConstant - 32 -> 33
+68	ReplaceBitwiseOperator	org.jfree.chart.axis.TickUnit.hashCode()I:197 - ReplaceBitwiseOperator >>> L -> << L
+69	ReplaceBitwiseOperator	org.jfree.chart.axis.TickUnit.hashCode()I:197 - ReplaceBitwiseOperator >>> L -> >> L
+70	ReplaceBitwiseOperator	org.jfree.chart.axis.TickUnit.hashCode()I:197 - ReplaceBitwiseOperator ^ -> |
+71	ReplaceBitwiseOperator	org.jfree.chart.axis.TickUnit.hashCode()I:197 - ReplaceBitwiseOperator ^ -> &

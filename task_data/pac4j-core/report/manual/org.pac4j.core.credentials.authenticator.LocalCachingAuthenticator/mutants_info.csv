@@ -1,0 +1,53 @@
+0	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.<init>(Lorg/pac4j/core/credentials/authenticator/Authenticator;IILjava/util/concurrent/TimeUnit;)V:47 - InsertUnaryOp Negation of cacheSize
+1	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.<init>(Lorg/pac4j/core/credentials/authenticator/Authenticator;IILjava/util/concurrent/TimeUnit;)V:47 - InsertUnaryOp IINC 1 cacheSize
+2	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.<init>(Lorg/pac4j/core/credentials/authenticator/Authenticator;IILjava/util/concurrent/TimeUnit;)V:47 - InsertUnaryOp IINC -1 cacheSize
+3	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.<init>(Lorg/pac4j/core/credentials/authenticator/Authenticator;IILjava/util/concurrent/TimeUnit;)V:48 - InsertUnaryOp Negation of timeout
+4	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.<init>(Lorg/pac4j/core/credentials/authenticator/Authenticator;IILjava/util/concurrent/TimeUnit;)V:48 - InsertUnaryOp IINC 1 timeout
+5	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.<init>(Lorg/pac4j/core/credentials/authenticator/Authenticator;IILjava/util/concurrent/TimeUnit;)V:48 - InsertUnaryOp IINC -1 timeout
+6	ReplaceComparisonOperator	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.validate(Lorg/pac4j/core/credentials/Credentials;Lorg/pac4j/core/context/WebContext;)V:57 - ReplaceComparisonOperator != null -> = null
+7	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.validate(Lorg/pac4j/core/credentials/Credentials;Lorg/pac4j/core/context/WebContext;)V:58 - ReplaceConstant - No cached credentials found. Delegating authentication to {}... -> 
+8	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.validate(Lorg/pac4j/core/credentials/Credentials;Lorg/pac4j/core/context/WebContext;)V:61 - ReplaceConstant - Caching credential. Using profile {}... -> 
+9	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.validate(Lorg/pac4j/core/credentials/Credentials;Lorg/pac4j/core/context/WebContext;)V:65 - ReplaceConstant - Found cached credential. Using cached profile {}... -> 
+10	ReplaceComparisonOperator	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.internalInit(Lorg/pac4j/core/context/WebContext;)V:71 - ReplaceComparisonOperator != null -> = null
+11	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.internalInit(Lorg/pac4j/core/context/WebContext;)V:72 - InsertUnaryOp Negation
+12	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.internalInit(Lorg/pac4j/core/context/WebContext;)V:72 - InsertUnaryOp +1
+13	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.internalInit(Lorg/pac4j/core/context/WebContext;)V:72 - InsertUnaryOp -1
+14	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.internalInit(Lorg/pac4j/core/context/WebContext;)V:72 - InsertUnaryOp Negation
+15	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.internalInit(Lorg/pac4j/core/context/WebContext;)V:72 - InsertUnaryOp +1
+16	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.internalInit(Lorg/pac4j/core/context/WebContext;)V:72 - InsertUnaryOp -1
+17	ReplaceComparisonOperator	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.internalInit(Lorg/pac4j/core/context/WebContext;)V:75 - ReplaceComparisonOperator == -> -2
+18	ReplaceComparisonOperator	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.internalInit(Lorg/pac4j/core/context/WebContext;)V:75 - ReplaceComparisonOperator == -> >=
+19	ReplaceComparisonOperator	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.internalInit(Lorg/pac4j/core/context/WebContext;)V:75 - ReplaceComparisonOperator == -> <=
+20	ReplaceComparisonOperator	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.isCached(Lorg/pac4j/core/credentials/Credentials;)Z:86 - ReplaceComparisonOperator = null -> != null
+21	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.isCached(Lorg/pac4j/core/credentials/Credentials;)Z:86 - ReplaceConstant - 1 -> 0
+22	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.isCached(Lorg/pac4j/core/credentials/Credentials;)Z:86 - ReplaceConstant - 0 -> 1
+23	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.getCacheSize()I:98 - InsertUnaryOp Negation
+24	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.getCacheSize()I:98 - InsertUnaryOp +1
+25	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.getCacheSize()I:98 - InsertUnaryOp -1
+26	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.setCacheSize(I)V:102 - InsertUnaryOp Negation of cacheSize
+27	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.setCacheSize(I)V:102 - InsertUnaryOp IINC 1 cacheSize
+28	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.setCacheSize(I)V:102 - InsertUnaryOp IINC -1 cacheSize
+29	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.getTimeout()I:106 - InsertUnaryOp Negation
+30	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.getTimeout()I:106 - InsertUnaryOp +1
+31	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.getTimeout()I:106 - InsertUnaryOp -1
+32	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.setTimeout(I)V:110 - InsertUnaryOp Negation of timeout
+33	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.setTimeout(I)V:110 - InsertUnaryOp IINC 1 timeout
+34	InsertUnaryOp	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.setTimeout(I)V:110 - InsertUnaryOp IINC -1 timeout
+35	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - 4 -> 0
+36	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - 4 -> 1
+37	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - 4 -> -1
+38	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - 4 -> 3
+39	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - 4 -> 5
+40	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - 0 -> 1
+41	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - delegate -> 
+42	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - 1 -> 0
+43	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - 2 -> 0
+44	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - 2 -> 1
+45	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - 2 -> -1
+46	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - 2 -> 3
+47	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - store -> 
+48	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - 3 -> 0
+49	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - 3 -> 1
+50	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - 3 -> -1
+51	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - 3 -> 2
+52	ReplaceConstant	org.pac4j.core.credentials.authenticator.LocalCachingAuthenticator.toString()Ljava/lang/String;:131 - ReplaceConstant - 3 -> 4

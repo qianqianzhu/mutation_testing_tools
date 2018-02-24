@@ -1,0 +1,11 @@
+0	ReplaceConstant	org.assertj.core.internal.InputStreams.assertSameContentAs(Lorg/assertj/core/api/AssertionInfo;Ljava/io/InputStream;Ljava/io/InputStream;)V:65 - ReplaceConstant - The InputStream to compare to should not be null -> 
+1	ReplaceComparisonOperator	org.assertj.core.internal.InputStreams.assertSameContentAs(Lorg/assertj/core/api/AssertionInfo;Ljava/io/InputStream;Ljava/io/InputStream;)V:69 - ReplaceComparisonOperator == -> -2
+2	ReplaceComparisonOperator	org.assertj.core.internal.InputStreams.assertSameContentAs(Lorg/assertj/core/api/AssertionInfo;Ljava/io/InputStream;Ljava/io/InputStream;)V:69 - ReplaceComparisonOperator == -> >=
+3	ReplaceComparisonOperator	org.assertj.core.internal.InputStreams.assertSameContentAs(Lorg/assertj/core/api/AssertionInfo;Ljava/io/InputStream;Ljava/io/InputStream;)V:69 - ReplaceComparisonOperator == -> <=
+4	ReplaceConstant	org.assertj.core.internal.InputStreams.assertSameContentAs(Lorg/assertj/core/api/AssertionInfo;Ljava/io/InputStream;Ljava/io/InputStream;)V:72 - ReplaceConstant - Unable to compare contents of InputStreams:%n  <%s>%nand:%n  <%s> -> 
+5	ReplaceConstant	org.assertj.core.internal.InputStreams.assertSameContentAs(Lorg/assertj/core/api/AssertionInfo;Ljava/io/InputStream;Ljava/io/InputStream;)V:72 - ReplaceConstant - 2 -> 0
+6	ReplaceConstant	org.assertj.core.internal.InputStreams.assertSameContentAs(Lorg/assertj/core/api/AssertionInfo;Ljava/io/InputStream;Ljava/io/InputStream;)V:72 - ReplaceConstant - 2 -> 1
+7	ReplaceConstant	org.assertj.core.internal.InputStreams.assertSameContentAs(Lorg/assertj/core/api/AssertionInfo;Ljava/io/InputStream;Ljava/io/InputStream;)V:72 - ReplaceConstant - 2 -> -1
+8	ReplaceConstant	org.assertj.core.internal.InputStreams.assertSameContentAs(Lorg/assertj/core/api/AssertionInfo;Ljava/io/InputStream;Ljava/io/InputStream;)V:72 - ReplaceConstant - 2 -> 3
+9	ReplaceConstant	org.assertj.core.internal.InputStreams.assertSameContentAs(Lorg/assertj/core/api/AssertionInfo;Ljava/io/InputStream;Ljava/io/InputStream;)V:72 - ReplaceConstant - 0 -> 1
+10	ReplaceConstant	org.assertj.core.internal.InputStreams.assertSameContentAs(Lorg/assertj/core/api/AssertionInfo;Ljava/io/InputStream;Ljava/io/InputStream;)V:72 - ReplaceConstant - 1 -> 0

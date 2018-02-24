@@ -1,0 +1,91 @@
+0	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isBefore(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:71 - ReplaceComparisonOperator != -> -1
+1	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isBefore(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:71 - ReplaceComparisonOperator != -> <
+2	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isBefore(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:71 - ReplaceComparisonOperator != -> >
+3	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isBeforeOrEqualTo(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:121 - ReplaceComparisonOperator == -> -2
+4	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isBeforeOrEqualTo(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:121 - ReplaceComparisonOperator == -> >=
+5	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isBeforeOrEqualTo(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:121 - ReplaceComparisonOperator == -> <=
+6	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isAfterOrEqualTo(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:171 - ReplaceComparisonOperator == -> -2
+7	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isAfterOrEqualTo(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:171 - ReplaceComparisonOperator == -> >=
+8	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isAfterOrEqualTo(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:171 - ReplaceComparisonOperator == -> <=
+9	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isAfter(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:221 - ReplaceComparisonOperator != -> -1
+10	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isAfter(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:221 - ReplaceComparisonOperator != -> <
+11	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isAfter(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:221 - ReplaceComparisonOperator != -> >
+12	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.convertToOffsetTimeArray([Ljava/lang/String;)[Ljava/lang/Object;:354 - ReplaceConstant - 0 -> 1
+13	InsertUnaryOp	org.assertj.core.api.AbstractOffsetTimeAssert.convertToOffsetTimeArray([Ljava/lang/String;)[Ljava/lang/Object;:354 - InsertUnaryOp Negation of i
+14	InsertUnaryOp	org.assertj.core.api.AbstractOffsetTimeAssert.convertToOffsetTimeArray([Ljava/lang/String;)[Ljava/lang/Object;:354 - InsertUnaryOp IINC 1 i
+15	InsertUnaryOp	org.assertj.core.api.AbstractOffsetTimeAssert.convertToOffsetTimeArray([Ljava/lang/String;)[Ljava/lang/Object;:354 - InsertUnaryOp IINC -1 i
+16	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.convertToOffsetTimeArray([Ljava/lang/String;)[Ljava/lang/Object;:354 - ReplaceComparisonOperator >= -> -1
+17	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.convertToOffsetTimeArray([Ljava/lang/String;)[Ljava/lang/Object;:354 - ReplaceComparisonOperator >= -> >
+18	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.convertToOffsetTimeArray([Ljava/lang/String;)[Ljava/lang/Object;:354 - ReplaceComparisonOperator >= -> ==
+19	InsertUnaryOp	org.assertj.core.api.AbstractOffsetTimeAssert.convertToOffsetTimeArray([Ljava/lang/String;)[Ljava/lang/Object;:355 - InsertUnaryOp Negation of i
+20	InsertUnaryOp	org.assertj.core.api.AbstractOffsetTimeAssert.convertToOffsetTimeArray([Ljava/lang/String;)[Ljava/lang/Object;:355 - InsertUnaryOp IINC 1 i
+21	InsertUnaryOp	org.assertj.core.api.AbstractOffsetTimeAssert.convertToOffsetTimeArray([Ljava/lang/String;)[Ljava/lang/Object;:355 - InsertUnaryOp IINC -1 i
+22	InsertUnaryOp	org.assertj.core.api.AbstractOffsetTimeAssert.convertToOffsetTimeArray([Ljava/lang/String;)[Ljava/lang/Object;:355 - InsertUnaryOp Negation of i
+23	InsertUnaryOp	org.assertj.core.api.AbstractOffsetTimeAssert.convertToOffsetTimeArray([Ljava/lang/String;)[Ljava/lang/Object;:355 - InsertUnaryOp IINC 1 i
+24	InsertUnaryOp	org.assertj.core.api.AbstractOffsetTimeAssert.convertToOffsetTimeArray([Ljava/lang/String;)[Ljava/lang/Object;:355 - InsertUnaryOp IINC -1 i
+25	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.checkIsNotNullAndNotEmpty([Ljava/lang/Object;)V:361 - ReplaceComparisonOperator != null -> = null
+26	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.checkIsNotNullAndNotEmpty([Ljava/lang/Object;)V:361 - ReplaceConstant - The given OffsetTime array should not be null -> 
+27	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.checkIsNotNullAndNotEmpty([Ljava/lang/Object;)V:362 - ReplaceComparisonOperator != -> -1
+28	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.checkIsNotNullAndNotEmpty([Ljava/lang/Object;)V:362 - ReplaceComparisonOperator != -> <
+29	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.checkIsNotNullAndNotEmpty([Ljava/lang/Object;)V:362 - ReplaceComparisonOperator != -> >
+30	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.checkIsNotNullAndNotEmpty([Ljava/lang/Object;)V:362 - ReplaceConstant - The given OffsetTime array should not be empty -> 
+31	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.assertOffsetTimeAsStringParameterIsNotNull(Ljava/lang/String;)V:375 - ReplaceComparisonOperator != null -> = null
+32	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.assertOffsetTimeAsStringParameterIsNotNull(Ljava/lang/String;)V:375 - ReplaceConstant - The String representing the OffsetTime to compare actual with should not be null -> 
+33	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.assertOffsetTimeParameterIsNotNull(Ljava/time/OffsetTime;)V:387 - ReplaceComparisonOperator != null -> = null
+34	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.assertOffsetTimeParameterIsNotNull(Ljava/time/OffsetTime;)V:388 - ReplaceConstant - The OffsetTime to compare actual with should not be null -> 
+35	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isEqualToIgnoringNanos(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:423 - ReplaceComparisonOperator != -> -1
+36	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isEqualToIgnoringNanos(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:423 - ReplaceComparisonOperator != -> <
+37	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isEqualToIgnoringNanos(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:423 - ReplaceComparisonOperator != -> >
+38	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isEqualToIgnoringSeconds(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:463 - ReplaceComparisonOperator != -> -1
+39	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isEqualToIgnoringSeconds(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:463 - ReplaceComparisonOperator != -> <
+40	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isEqualToIgnoringSeconds(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:463 - ReplaceComparisonOperator != -> >
+41	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isEqualToIgnoringTimezone(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:494 - ReplaceComparisonOperator != -> -1
+42	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isEqualToIgnoringTimezone(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:494 - ReplaceComparisonOperator != -> <
+43	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.isEqualToIgnoringTimezone(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:494 - ReplaceComparisonOperator != -> >
+44	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.hasSameHourAs(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:533 - ReplaceComparisonOperator != -> -1
+45	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.hasSameHourAs(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:533 - ReplaceComparisonOperator != -> <
+46	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.hasSameHourAs(Ljava/time/OffsetTime;)Lorg/assertj/core/api/AbstractOffsetTimeAssert;:533 - ReplaceComparisonOperator != -> >
+47	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringNanos(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:549 - ReplaceComparisonOperator == -> -2
+48	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringNanos(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:549 - ReplaceComparisonOperator == -> >=
+49	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringNanos(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:549 - ReplaceComparisonOperator == -> <=
+50	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringNanos(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:549 - ReplaceComparisonOperator == -> -2
+51	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringNanos(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:549 - ReplaceComparisonOperator == -> >=
+52	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringNanos(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:549 - ReplaceComparisonOperator == -> <=
+53	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringNanos(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:549 - ReplaceConstant - 1 -> 0
+54	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringNanos(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:549 - ReplaceConstant - 0 -> 1
+55	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringSeconds(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:560 - ReplaceComparisonOperator == -> -2
+56	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringSeconds(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:560 - ReplaceComparisonOperator == -> >=
+57	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringSeconds(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:560 - ReplaceComparisonOperator == -> <=
+58	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringSeconds(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:560 - ReplaceComparisonOperator == -> -2
+59	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringSeconds(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:560 - ReplaceComparisonOperator == -> >=
+60	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringSeconds(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:560 - ReplaceComparisonOperator == -> <=
+61	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringSeconds(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:560 - ReplaceConstant - 1 -> 0
+62	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringSeconds(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:560 - ReplaceConstant - 0 -> 1
+63	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringTimezone(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:571 - ReplaceComparisonOperator == -> -2
+64	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringTimezone(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:571 - ReplaceComparisonOperator == -> >=
+65	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringTimezone(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:571 - ReplaceComparisonOperator == -> <=
+66	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringTimezone(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:571 - ReplaceComparisonOperator == -> -2
+67	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringTimezone(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:571 - ReplaceComparisonOperator == -> >=
+68	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringTimezone(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:571 - ReplaceComparisonOperator == -> <=
+69	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringTimezone(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:571 - ReplaceConstant - 1 -> 0
+70	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.areEqualIgnoringTimezone(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:571 - ReplaceConstant - 0 -> 1
+71	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameNano(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:575 - ReplaceComparisonOperator != -> -1
+72	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameNano(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:575 - ReplaceComparisonOperator != -> <
+73	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameNano(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:575 - ReplaceComparisonOperator != -> >
+74	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameNano(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:575 - ReplaceConstant - 1 -> 0
+75	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameNano(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:575 - ReplaceConstant - 0 -> 1
+76	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameSecond(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:579 - ReplaceComparisonOperator != -> -1
+77	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameSecond(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:579 - ReplaceComparisonOperator != -> <
+78	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameSecond(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:579 - ReplaceComparisonOperator != -> >
+79	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameSecond(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:579 - ReplaceConstant - 1 -> 0
+80	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameSecond(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:579 - ReplaceConstant - 0 -> 1
+81	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameMinute(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:583 - ReplaceComparisonOperator != -> -1
+82	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameMinute(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:583 - ReplaceComparisonOperator != -> <
+83	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameMinute(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:583 - ReplaceComparisonOperator != -> >
+84	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameMinute(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:583 - ReplaceConstant - 1 -> 0
+85	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameMinute(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:583 - ReplaceConstant - 0 -> 1
+86	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameHourField(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:587 - ReplaceComparisonOperator != -> -1
+87	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameHourField(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:587 - ReplaceComparisonOperator != -> <
+88	ReplaceComparisonOperator	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameHourField(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:587 - ReplaceComparisonOperator != -> >
+89	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameHourField(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:587 - ReplaceConstant - 1 -> 0
+90	ReplaceConstant	org.assertj.core.api.AbstractOffsetTimeAssert.haveSameHourField(Ljava/time/OffsetTime;Ljava/time/OffsetTime;)Z:587 - ReplaceConstant - 0 -> 1

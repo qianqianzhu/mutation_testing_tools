@@ -1,0 +1,41 @@
+0	ReplaceConstant	com.graphhopper.routing.subnetwork.SubnetworkStorage.<init>(Lcom/graphhopper/storage/Directory;Ljava/lang/String;)V:36 - ReplaceConstant - subnetwork_ -> 
+1	ReplaceComparisonOperator	com.graphhopper.routing.subnetwork.SubnetworkStorage.<init>(Lcom/graphhopper/storage/Directory;Ljava/lang/String;)V:36 - ReplaceComparisonOperator == -> -2
+2	ReplaceComparisonOperator	com.graphhopper.routing.subnetwork.SubnetworkStorage.<init>(Lcom/graphhopper/storage/Directory;Ljava/lang/String;)V:36 - ReplaceComparisonOperator == -> >=
+3	ReplaceComparisonOperator	com.graphhopper.routing.subnetwork.SubnetworkStorage.<init>(Lcom/graphhopper/storage/Directory;Ljava/lang/String;)V:36 - ReplaceComparisonOperator == -> <=
+4	ReplaceComparisonOperator	com.graphhopper.routing.subnetwork.SubnetworkStorage.<init>(Lcom/graphhopper/storage/Directory;Ljava/lang/String;)V:36 - ReplaceComparisonOperator == -> -2
+5	ReplaceComparisonOperator	com.graphhopper.routing.subnetwork.SubnetworkStorage.<init>(Lcom/graphhopper/storage/Directory;Ljava/lang/String;)V:36 - ReplaceComparisonOperator == -> >=
+6	ReplaceComparisonOperator	com.graphhopper.routing.subnetwork.SubnetworkStorage.<init>(Lcom/graphhopper/storage/Directory;Ljava/lang/String;)V:36 - ReplaceComparisonOperator == -> <=
+7	ReplaceConstant	com.graphhopper.routing.subnetwork.SubnetworkStorage.getSubnetwork(I)I:44 - ReplaceConstant - 1 -> 0
+8	InsertUnaryOp	com.graphhopper.routing.subnetwork.SubnetworkStorage.getSubnetwork(I)I:45 - InsertUnaryOp Negation of nodeId
+9	InsertUnaryOp	com.graphhopper.routing.subnetwork.SubnetworkStorage.getSubnetwork(I)I:45 - InsertUnaryOp IINC 1 nodeId
+10	InsertUnaryOp	com.graphhopper.routing.subnetwork.SubnetworkStorage.getSubnetwork(I)I:45 - InsertUnaryOp IINC -1 nodeId
+11	ReplaceConstant	com.graphhopper.routing.subnetwork.SubnetworkStorage.getSubnetwork(I)I:47 - ReplaceConstant - 0 -> 1
+12	InsertUnaryOp	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:55 - InsertUnaryOp Negation of subnetwork
+13	InsertUnaryOp	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:55 - InsertUnaryOp IINC 1 subnetwork
+14	InsertUnaryOp	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:55 - InsertUnaryOp IINC -1 subnetwork
+15	ReplaceConstant	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:55 - ReplaceConstant - 127 -> 0
+16	ReplaceConstant	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:55 - ReplaceConstant - 127 -> 1
+17	ReplaceConstant	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:55 - ReplaceConstant - 127 -> -1
+18	ReplaceConstant	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:55 - ReplaceConstant - 127 -> 126
+19	ReplaceConstant	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:55 - ReplaceConstant - 127 -> 128
+20	ReplaceComparisonOperator	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:55 - ReplaceComparisonOperator <= -> -1
+21	ReplaceComparisonOperator	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:55 - ReplaceComparisonOperator <= -> <
+22	ReplaceComparisonOperator	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:55 - ReplaceComparisonOperator <= -> ==
+23	ReplaceConstant	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:56 - ReplaceConstant - Number of subnetworks is currently limited to 127 but requested  -> 
+24	InsertUnaryOp	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:56 - InsertUnaryOp Negation of subnetwork
+25	InsertUnaryOp	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:56 - InsertUnaryOp IINC 1 subnetwork
+26	InsertUnaryOp	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:56 - InsertUnaryOp IINC -1 subnetwork
+27	ReplaceConstant	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:58 - ReplaceConstant - 1 -> 0
+28	ReplaceConstant	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:59 - ReplaceConstant - 0 -> 1
+29	InsertUnaryOp	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:59 - InsertUnaryOp Negation of subnetwork
+30	InsertUnaryOp	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:59 - InsertUnaryOp IINC 1 subnetwork
+31	InsertUnaryOp	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:59 - InsertUnaryOp IINC -1 subnetwork
+32	InsertUnaryOp	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:60 - InsertUnaryOp Negation of nodeId
+33	InsertUnaryOp	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:60 - InsertUnaryOp IINC 1 nodeId
+34	InsertUnaryOp	com.graphhopper.routing.subnetwork.SubnetworkStorage.setSubnetwork(II)V:60 - InsertUnaryOp IINC -1 nodeId
+35	ReplaceConstant	com.graphhopper.routing.subnetwork.SubnetworkStorage.create(J)Lcom/graphhopper/routing/subnetwork/SubnetworkStorage;:71 - ReplaceConstant - 2000 -> 0
+36	ReplaceConstant	com.graphhopper.routing.subnetwork.SubnetworkStorage.create(J)Lcom/graphhopper/routing/subnetwork/SubnetworkStorage;:71 - ReplaceConstant - 2000 -> 1
+37	ReplaceConstant	com.graphhopper.routing.subnetwork.SubnetworkStorage.create(J)Lcom/graphhopper/routing/subnetwork/SubnetworkStorage;:71 - ReplaceConstant - 2000 -> -1
+38	ReplaceConstant	com.graphhopper.routing.subnetwork.SubnetworkStorage.create(J)Lcom/graphhopper/routing/subnetwork/SubnetworkStorage;:71 - ReplaceConstant - 2000 -> 1999
+39	ReplaceConstant	com.graphhopper.routing.subnetwork.SubnetworkStorage.create(J)Lcom/graphhopper/routing/subnetwork/SubnetworkStorage;:71 - ReplaceConstant - 2000 -> 2001
+40	InsertUnaryOp	com.graphhopper.routing.subnetwork.SubnetworkStorage.create(J)Lcom/graphhopper/routing/subnetwork/SubnetworkStorage;:72 - InsertUnaryOp Negation of byteCount

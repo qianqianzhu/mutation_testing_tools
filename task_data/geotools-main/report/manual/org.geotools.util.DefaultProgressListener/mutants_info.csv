@@ -1,0 +1,19 @@
+0	ReplaceConstant	org.geotools.util.DefaultProgressListener.toString()Ljava/lang/String;:29 - ReplaceConstant - DefaultProgressListener [completed= -> 
+1	InsertUnaryOp	org.geotools.util.DefaultProgressListener.toString()Ljava/lang/String;:29 - InsertUnaryOp Negation
+2	ReplaceConstant	org.geotools.util.DefaultProgressListener.toString()Ljava/lang/String;:29 - ReplaceConstant - , progress= -> 
+3	InsertUnaryOp	org.geotools.util.DefaultProgressListener.toString()Ljava/lang/String;:29 - InsertUnaryOp Negation
+4	ReplaceConstant	org.geotools.util.DefaultProgressListener.toString()Ljava/lang/String;:29 - ReplaceConstant - , started= -> 
+5	InsertUnaryOp	org.geotools.util.DefaultProgressListener.toString()Ljava/lang/String;:29 - InsertUnaryOp Negation
+6	ReplaceConstant	org.geotools.util.DefaultProgressListener.toString()Ljava/lang/String;:29 - ReplaceConstant - , task= -> 
+7	ReplaceConstant	org.geotools.util.DefaultProgressListener.toString()Ljava/lang/String;:29 - ReplaceConstant - ] -> 
+8	ReplaceConstant	org.geotools.util.DefaultProgressListener.complete()V:91 - ReplaceConstant - 1 -> 0
+9	InsertUnaryOp	org.geotools.util.DefaultProgressListener.progress(F)V:117 - InsertUnaryOp Negation of percent
+10	ReplaceConstant	org.geotools.util.DefaultProgressListener.started()V:126 - ReplaceConstant - 1 -> 0
+11	InsertUnaryOp	org.geotools.util.DefaultProgressListener.getProgress()F:145 - InsertUnaryOp Negation
+12	InsertUnaryOp	org.geotools.util.DefaultProgressListener.isCompleted()Z:169 - InsertUnaryOp Negation
+13	ReplaceComparisonOperator	org.geotools.util.DefaultProgressListener.hasExceptions()Z:187 - ReplaceComparisonOperator <= -> -1
+14	ReplaceComparisonOperator	org.geotools.util.DefaultProgressListener.hasExceptions()Z:187 - ReplaceComparisonOperator <= -> ==
+15	ReplaceComparisonOperator	org.geotools.util.DefaultProgressListener.hasExceptions()Z:187 - ReplaceComparisonOperator <= -> <
+16	ReplaceConstant	org.geotools.util.DefaultProgressListener.hasExceptions()Z:187 - ReplaceConstant - 1 -> 0
+17	ReplaceConstant	org.geotools.util.DefaultProgressListener.hasExceptions()Z:187 - ReplaceConstant - 0 -> 1
+18	InsertUnaryOp	org.geotools.util.DefaultProgressListener.isStarted()Z:197 - InsertUnaryOp Negation

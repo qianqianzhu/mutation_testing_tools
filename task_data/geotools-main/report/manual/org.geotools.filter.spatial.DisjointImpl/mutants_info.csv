@@ -1,0 +1,5 @@
+0	InsertUnaryOp	org.geotools.filter.spatial.DisjointImpl.evaluateInternal(Lcom/vividsolutions/jts/geom/Geometry;Lcom/vividsolutions/jts/geom/Geometry;)Z:46 - InsertUnaryOp Negation
+1	ReplaceComparisonOperator	org.geotools.filter.spatial.DisjointImpl.basicEvaluate(Lcom/vividsolutions/jts/geom/Geometry;Lcom/vividsolutions/jts/geom/Geometry;)Z:65 - ReplaceComparisonOperator == -> -2
+2	ReplaceComparisonOperator	org.geotools.filter.spatial.DisjointImpl.basicEvaluate(Lcom/vividsolutions/jts/geom/Geometry;Lcom/vividsolutions/jts/geom/Geometry;)Z:65 - ReplaceComparisonOperator == -> >=
+3	ReplaceComparisonOperator	org.geotools.filter.spatial.DisjointImpl.basicEvaluate(Lcom/vividsolutions/jts/geom/Geometry;Lcom/vividsolutions/jts/geom/Geometry;)Z:65 - ReplaceComparisonOperator == -> <=
+4	ReplaceConstant	org.geotools.filter.spatial.DisjointImpl.basicEvaluate(Lcom/vividsolutions/jts/geom/Geometry;Lcom/vividsolutions/jts/geom/Geometry;)Z:68 - ReplaceConstant - 1 -> 0

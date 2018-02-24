@@ -1,0 +1,162 @@
+0	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.<init>(Lorg/opengis/feature/type/Name;Lorg/opengis/filter/expression/Literal;)V:96 - ReplaceConstant - 0 -> 1
+1	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.getFunctionName()Lorg/opengis/filter/capability/FunctionName;:113 - ReplaceComparisonOperator != null -> = null
+2	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:137 - ReplaceComparisonOperator != null -> = null
+3	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:138 - ReplaceConstant - Function parameters required -> 
+4	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:142 - InsertUnaryOp Negation of argCount
+5	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:142 - InsertUnaryOp IINC 1 argCount
+6	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:142 - InsertUnaryOp IINC -1 argCount
+7	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:142 - ReplaceComparisonOperator <= -> -1
+8	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:142 - ReplaceComparisonOperator <= -> ==
+9	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:142 - ReplaceComparisonOperator <= -> <
+10	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:142 - InsertUnaryOp Negation of argCount
+11	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:142 - InsertUnaryOp IINC 1 argCount
+12	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:142 - InsertUnaryOp IINC -1 argCount
+13	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:142 - InsertUnaryOp Negation of paramsSize
+14	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:142 - InsertUnaryOp IINC 1 paramsSize
+15	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:142 - InsertUnaryOp IINC -1 paramsSize
+16	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:142 - ReplaceComparisonOperator == -> -2
+17	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:142 - ReplaceComparisonOperator == -> >=
+18	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:142 - ReplaceComparisonOperator == -> <=
+19	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:143 - ReplaceConstant - Function  -> 
+20	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:143 - ReplaceConstant -  expected  -> 
+21	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:143 - InsertUnaryOp Negation of argCount
+22	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:143 - InsertUnaryOp IINC 1 argCount
+23	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:143 - InsertUnaryOp IINC -1 argCount
+24	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:143 - ReplaceConstant -  arguments, got  -> 
+25	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:143 - InsertUnaryOp Negation of paramsSize
+26	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:143 - InsertUnaryOp IINC 1 paramsSize
+27	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.setParameters(Ljava/util/List;)V:143 - InsertUnaryOp IINC -1 paramsSize
+28	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.toString()Ljava/lang/String;:179 - ReplaceConstant - ( -> 
+29	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.toString()Ljava/lang/String;:181 - ReplaceComparisonOperator = null -> != null
+30	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.toString()Ljava/lang/String;:183 - ReplaceComparisonOperator == -> -2
+31	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.toString()Ljava/lang/String;:183 - ReplaceComparisonOperator == -> >=
+32	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.toString()Ljava/lang/String;:183 - ReplaceComparisonOperator == -> <=
+33	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.toString()Ljava/lang/String;:185 - ReplaceConstant - [ -> 
+34	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.toString()Ljava/lang/String;:187 - ReplaceConstant - ] -> 
+35	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.toString()Ljava/lang/String;:188 - ReplaceComparisonOperator == -> -2
+36	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.toString()Ljava/lang/String;:188 - ReplaceComparisonOperator == -> >=
+37	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.toString()Ljava/lang/String;:188 - ReplaceComparisonOperator == -> <=
+38	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.toString()Ljava/lang/String;:189 - ReplaceConstant - ,  -> 
+39	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.toString()Ljava/lang/String;:193 - ReplaceConstant - ) -> 
+40	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.getExpression(I)Lorg/opengis/filter/expression/Expression;:205 - InsertUnaryOp Negation of index
+41	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.getExpression(I)Lorg/opengis/filter/expression/Expression;:205 - InsertUnaryOp IINC 1 index
+42	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.getExpression(I)Lorg/opengis/filter/expression/Expression;:205 - InsertUnaryOp IINC -1 index
+43	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:211 - ReplaceComparisonOperator = null -> != null
+44	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:214 - ReplaceConstant - Function  -> 
+45	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:214 - ReplaceConstant -  not implemented -> 
+46	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:219 - ReplaceConstant - 31 -> 0
+47	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:219 - ReplaceConstant - 31 -> 1
+48	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:219 - ReplaceConstant - 31 -> -1
+49	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:219 - ReplaceConstant - 31 -> 30
+50	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:219 - ReplaceConstant - 31 -> 32
+51	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:220 - ReplaceConstant - 1 -> 0
+52	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - ReplaceConstant - 31 -> 0
+53	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - ReplaceConstant - 31 -> 1
+54	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - ReplaceConstant - 31 -> -1
+55	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - ReplaceConstant - 31 -> 30
+56	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - ReplaceConstant - 31 -> 32
+57	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - InsertUnaryOp Negation of result
+58	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - InsertUnaryOp IINC 1 result
+59	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - InsertUnaryOp IINC -1 result
+60	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - ReplaceArithmeticOperator * -> +
+61	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - ReplaceArithmeticOperator * -> %
+62	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - ReplaceArithmeticOperator * -> -
+63	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - ReplaceArithmeticOperator * -> /
+64	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - ReplaceComparisonOperator != null -> = null
+65	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - ReplaceConstant - 0 -> 1
+66	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - ReplaceArithmeticOperator + -> %
+67	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - ReplaceArithmeticOperator + -> -
+68	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - ReplaceArithmeticOperator + -> *
+69	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:221 - ReplaceArithmeticOperator + -> /
+70	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - ReplaceConstant - 31 -> 0
+71	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - ReplaceConstant - 31 -> 1
+72	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - ReplaceConstant - 31 -> -1
+73	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - ReplaceConstant - 31 -> 30
+74	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - ReplaceConstant - 31 -> 32
+75	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - InsertUnaryOp Negation of result
+76	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - InsertUnaryOp IINC 1 result
+77	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - InsertUnaryOp IINC -1 result
+78	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - ReplaceArithmeticOperator * -> +
+79	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - ReplaceArithmeticOperator * -> %
+80	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - ReplaceArithmeticOperator * -> -
+81	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - ReplaceArithmeticOperator * -> /
+82	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - ReplaceComparisonOperator != null -> = null
+83	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - ReplaceConstant - 0 -> 1
+84	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - ReplaceArithmeticOperator + -> %
+85	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - ReplaceArithmeticOperator + -> -
+86	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - ReplaceArithmeticOperator + -> *
+87	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:222 - ReplaceArithmeticOperator + -> /
+88	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - ReplaceConstant - 31 -> 0
+89	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - ReplaceConstant - 31 -> 1
+90	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - ReplaceConstant - 31 -> -1
+91	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - ReplaceConstant - 31 -> 30
+92	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - ReplaceConstant - 31 -> 32
+93	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - InsertUnaryOp Negation of result
+94	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - InsertUnaryOp IINC 1 result
+95	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - InsertUnaryOp IINC -1 result
+96	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - ReplaceArithmeticOperator * -> +
+97	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - ReplaceArithmeticOperator * -> %
+98	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - ReplaceArithmeticOperator * -> -
+99	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - ReplaceArithmeticOperator * -> /
+100	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - ReplaceComparisonOperator != null -> = null
+101	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - ReplaceConstant - 0 -> 1
+102	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - ReplaceArithmeticOperator + -> %
+103	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - ReplaceArithmeticOperator + -> -
+104	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - ReplaceArithmeticOperator + -> *
+105	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:223 - ReplaceArithmeticOperator + -> /
+106	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - ReplaceConstant - 31 -> 0
+107	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - ReplaceConstant - 31 -> 1
+108	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - ReplaceConstant - 31 -> -1
+109	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - ReplaceConstant - 31 -> 30
+110	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - ReplaceConstant - 31 -> 32
+111	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - InsertUnaryOp Negation of result
+112	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - InsertUnaryOp IINC 1 result
+113	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - InsertUnaryOp IINC -1 result
+114	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - ReplaceArithmeticOperator * -> +
+115	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - ReplaceArithmeticOperator * -> %
+116	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - ReplaceArithmeticOperator * -> -
+117	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - ReplaceArithmeticOperator * -> /
+118	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - ReplaceComparisonOperator != null -> = null
+119	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - ReplaceConstant - 0 -> 1
+120	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - ReplaceArithmeticOperator + -> %
+121	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - ReplaceArithmeticOperator + -> -
+122	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - ReplaceArithmeticOperator + -> *
+123	ReplaceArithmeticOperator	org.geotools.filter.FunctionExpressionImpl.hashCode()I:224 - ReplaceArithmeticOperator + -> /
+124	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.hashCode()I:225 - InsertUnaryOp Negation of result
+125	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.hashCode()I:225 - InsertUnaryOp IINC 1 result
+126	InsertUnaryOp	org.geotools.filter.FunctionExpressionImpl.hashCode()I:225 - InsertUnaryOp IINC -1 result
+127	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:230 - ReplaceComparisonOperator != -> ==
+128	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:231 - ReplaceConstant - 1 -> 0
+129	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:232 - ReplaceComparisonOperator != null -> = null
+130	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:233 - ReplaceConstant - 0 -> 1
+131	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:234 - ReplaceComparisonOperator == -> !=
+132	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:235 - ReplaceConstant - 0 -> 1
+133	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:237 - ReplaceComparisonOperator != null -> = null
+134	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:238 - ReplaceComparisonOperator = null -> != null
+135	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:239 - ReplaceConstant - 0 -> 1
+136	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:240 - ReplaceComparisonOperator != -> -1
+137	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:240 - ReplaceComparisonOperator != -> <
+138	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:240 - ReplaceComparisonOperator != -> >
+139	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:241 - ReplaceConstant - 0 -> 1
+140	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:242 - ReplaceComparisonOperator != null -> = null
+141	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:243 - ReplaceComparisonOperator = null -> != null
+142	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:244 - ReplaceConstant - 0 -> 1
+143	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:245 - ReplaceComparisonOperator != -> -1
+144	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:245 - ReplaceComparisonOperator != -> <
+145	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:245 - ReplaceComparisonOperator != -> >
+146	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:246 - ReplaceConstant - 0 -> 1
+147	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:247 - ReplaceComparisonOperator != null -> = null
+148	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:248 - ReplaceComparisonOperator = null -> != null
+149	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:249 - ReplaceConstant - 0 -> 1
+150	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:250 - ReplaceComparisonOperator != -> -1
+151	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:250 - ReplaceComparisonOperator != -> <
+152	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:250 - ReplaceComparisonOperator != -> >
+153	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:251 - ReplaceConstant - 0 -> 1
+154	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:252 - ReplaceComparisonOperator != null -> = null
+155	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:253 - ReplaceComparisonOperator = null -> != null
+156	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:254 - ReplaceConstant - 0 -> 1
+157	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:255 - ReplaceComparisonOperator != -> -1
+158	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:255 - ReplaceComparisonOperator != -> <
+159	ReplaceComparisonOperator	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:255 - ReplaceComparisonOperator != -> >
+160	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:256 - ReplaceConstant - 0 -> 1
+161	ReplaceConstant	org.geotools.filter.FunctionExpressionImpl.equals(Ljava/lang/Object;)Z:257 - ReplaceConstant - 1 -> 0

@@ -1,0 +1,63 @@
+0|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.<init>(Ljava/lang/String;Lbr/com/caelum/vraptor/controller/ControllerMethod;Ljava/util/Set;Lbr/com/caelum/vraptor/http/route/ParametersControl;I[Lbr/com/caelum/vraptor/http/Parameter;)V:52 - ReplaceComparisonOperator == -> -2
+1|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.<init>(Ljava/lang/String;Lbr/com/caelum/vraptor/controller/ControllerMethod;Ljava/util/Set;Lbr/com/caelum/vraptor/http/route/ParametersControl;I[Lbr/com/caelum/vraptor/http/Parameter;)V:52 - ReplaceComparisonOperator == -> >=
+2|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.<init>(Ljava/lang/String;Lbr/com/caelum/vraptor/controller/ControllerMethod;Ljava/util/Set;Lbr/com/caelum/vraptor/http/route/ParametersControl;I[Lbr/com/caelum/vraptor/http/Parameter;)V:52 - ReplaceComparisonOperator == -> <=
+3|InsertUnaryOp|br.com.caelum.vraptor.http.route.FixedMethodStrategy.<init>(Ljava/lang/String;Lbr/com/caelum/vraptor/controller/ControllerMethod;Ljava/util/Set;Lbr/com/caelum/vraptor/http/route/ParametersControl;I[Lbr/com/caelum/vraptor/http/Parameter;)V:55 - InsertUnaryOp Negation of priority
+4|InsertUnaryOp|br.com.caelum.vraptor.http.route.FixedMethodStrategy.<init>(Ljava/lang/String;Lbr/com/caelum/vraptor/controller/ControllerMethod;Ljava/util/Set;Lbr/com/caelum/vraptor/http/route/ParametersControl;I[Lbr/com/caelum/vraptor/http/Parameter;)V:55 - InsertUnaryOp IINC 1 priority
+5|InsertUnaryOp|br.com.caelum.vraptor.http.route.FixedMethodStrategy.<init>(Ljava/lang/String;Lbr/com/caelum/vraptor/controller/ControllerMethod;Ljava/util/Set;Lbr/com/caelum/vraptor/http/route/ParametersControl;I[Lbr/com/caelum/vraptor/http/Parameter;)V:55 - InsertUnaryOp IINC -1 priority
+6|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.canHandle(Ljava/lang/Class;Ljava/lang/reflect/Method;)Z:61 - ReplaceComparisonOperator == -> -2
+7|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.canHandle(Ljava/lang/Class;Ljava/lang/reflect/Method;)Z:61 - ReplaceComparisonOperator == -> >=
+8|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.canHandle(Ljava/lang/Class;Ljava/lang/reflect/Method;)Z:61 - ReplaceComparisonOperator == -> <=
+9|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.canHandle(Ljava/lang/Class;Ljava/lang/reflect/Method;)Z:62 - ReplaceComparisonOperator == -> -2
+10|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.canHandle(Ljava/lang/Class;Ljava/lang/reflect/Method;)Z:62 - ReplaceComparisonOperator == -> >=
+11|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.canHandle(Ljava/lang/Class;Ljava/lang/reflect/Method;)Z:62 - ReplaceComparisonOperator == -> <=
+12|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.canHandle(Ljava/lang/Class;Ljava/lang/reflect/Method;)Z:63 - ReplaceComparisonOperator == -> -2
+13|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.canHandle(Ljava/lang/Class;Ljava/lang/reflect/Method;)Z:63 - ReplaceComparisonOperator == -> >=
+14|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.canHandle(Ljava/lang/Class;Ljava/lang/reflect/Method;)Z:63 - ReplaceComparisonOperator == -> <=
+15|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.canHandle(Ljava/lang/Class;Ljava/lang/reflect/Method;)Z:61 - ReplaceConstant - 1 -> 0
+16|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.canHandle(Ljava/lang/Class;Ljava/lang/reflect/Method;)Z:61 - ReplaceConstant - 0 -> 1
+17|InsertUnaryOp|br.com.caelum.vraptor.http.route.FixedMethodStrategy.getPriority()I:89 - InsertUnaryOp Negation
+18|InsertUnaryOp|br.com.caelum.vraptor.http.route.FixedMethodStrategy.getPriority()I:89 - InsertUnaryOp +1
+19|InsertUnaryOp|br.com.caelum.vraptor.http.route.FixedMethodStrategy.getPriority()I:89 - InsertUnaryOp -1
+20|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.toString()Ljava/lang/String;:104 - ReplaceConstant - [FixedMethodStrategy: %-65s %-70s %s] -> 
+21|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.toString()Ljava/lang/String;:104 - ReplaceConstant - 3 -> 0
+22|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.toString()Ljava/lang/String;:104 - ReplaceConstant - 3 -> 1
+23|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.toString()Ljava/lang/String;:104 - ReplaceConstant - 3 -> -1
+24|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.toString()Ljava/lang/String;:104 - ReplaceConstant - 3 -> 2
+25|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.toString()Ljava/lang/String;:104 - ReplaceConstant - 3 -> 4
+26|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.toString()Ljava/lang/String;:104 - ReplaceConstant - 0 -> 1
+27|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.toString()Ljava/lang/String;:104 - ReplaceConstant - 1 -> 0
+28|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.toString()Ljava/lang/String;:105 - ReplaceConstant - 2 -> 0
+29|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.toString()Ljava/lang/String;:105 - ReplaceConstant - 2 -> 1
+30|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.toString()Ljava/lang/String;:105 - ReplaceConstant - 2 -> -1
+31|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.toString()Ljava/lang/String;:105 - ReplaceConstant - 2 -> 3
+32|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.toString()Ljava/lang/String;:105 - ReplaceComparisonOperator != -> -1
+33|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.toString()Ljava/lang/String;:105 - ReplaceComparisonOperator != -> <
+34|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.toString()Ljava/lang/String;:105 - ReplaceComparisonOperator != -> >
+35|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.toString()Ljava/lang/String;:105 - ReplaceConstant - ALL -> 
+36|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.hashCode()I:110 - ReplaceConstant - 3 -> 0
+37|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.hashCode()I:110 - ReplaceConstant - 3 -> 1
+38|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.hashCode()I:110 - ReplaceConstant - 3 -> -1
+39|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.hashCode()I:110 - ReplaceConstant - 3 -> 2
+40|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.hashCode()I:110 - ReplaceConstant - 3 -> 4
+41|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.hashCode()I:110 - ReplaceConstant - 0 -> 1
+42|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.hashCode()I:110 - ReplaceConstant - 1 -> 0
+43|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.hashCode()I:110 - ReplaceConstant - 2 -> 0
+44|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.hashCode()I:110 - ReplaceConstant - 2 -> 1
+45|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.hashCode()I:110 - ReplaceConstant - 2 -> -1
+46|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.hashCode()I:110 - ReplaceConstant - 2 -> 3
+47|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.equals(Ljava/lang/Object;)Z:115 - ReplaceComparisonOperator != -> ==
+48|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.equals(Ljava/lang/Object;)Z:116 - ReplaceConstant - 1 -> 0
+49|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.equals(Ljava/lang/Object;)Z:117 - ReplaceComparisonOperator = null -> != null
+50|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.equals(Ljava/lang/Object;)Z:117 - ReplaceComparisonOperator == -> !=
+51|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.equals(Ljava/lang/Object;)Z:118 - ReplaceConstant - 0 -> 1
+52|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.equals(Ljava/lang/Object;)Z:121 - ReplaceComparisonOperator == -> -2
+53|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.equals(Ljava/lang/Object;)Z:121 - ReplaceComparisonOperator == -> >=
+54|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.equals(Ljava/lang/Object;)Z:121 - ReplaceComparisonOperator == -> <=
+55|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.equals(Ljava/lang/Object;)Z:122 - ReplaceComparisonOperator == -> -2
+56|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.equals(Ljava/lang/Object;)Z:122 - ReplaceComparisonOperator == -> >=
+57|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.equals(Ljava/lang/Object;)Z:122 - ReplaceComparisonOperator == -> <=
+58|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.equals(Ljava/lang/Object;)Z:123 - ReplaceComparisonOperator == -> -2
+59|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.equals(Ljava/lang/Object;)Z:123 - ReplaceComparisonOperator == -> >=
+60|ReplaceComparisonOperator|br.com.caelum.vraptor.http.route.FixedMethodStrategy.equals(Ljava/lang/Object;)Z:123 - ReplaceComparisonOperator == -> <=
+61|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.equals(Ljava/lang/Object;)Z:121 - ReplaceConstant - 1 -> 0
+62|ReplaceConstant|br.com.caelum.vraptor.http.route.FixedMethodStrategy.equals(Ljava/lang/Object;)Z:121 - ReplaceConstant - 0 -> 1

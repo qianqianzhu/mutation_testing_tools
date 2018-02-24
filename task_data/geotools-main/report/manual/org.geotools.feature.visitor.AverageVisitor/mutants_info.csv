@@ -1,0 +1,24 @@
+0	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:48 - ReplaceConstant - 0 -> 1
+1	InsertUnaryOp	org.geotools.feature.visitor.AverageVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:62 - InsertUnaryOp Negation of attributeTypeIndex
+2	InsertUnaryOp	org.geotools.feature.visitor.AverageVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:62 - InsertUnaryOp IINC 1 attributeTypeIndex
+3	InsertUnaryOp	org.geotools.feature.visitor.AverageVisitor.<init>(ILorg/opengis/feature/simple/SimpleFeatureType;)V:62 - InsertUnaryOp IINC -1 attributeTypeIndex
+4	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor.<init>(Ljava/lang/String;Lorg/opengis/feature/simple/SimpleFeatureType;)V:48 - ReplaceConstant - 0 -> 1
+5	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor.<init>(Lorg/opengis/filter/expression/Expression;)V:48 - ReplaceConstant - 0 -> 1
+6	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor.getExpressions()Ljava/util/List;:100 - ReplaceConstant - 1 -> 0
+7	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor.getExpressions()Ljava/util/List;:100 - ReplaceConstant - 0 -> 1
+8	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor.createStrategy(Ljava/lang/Class;)Lorg/geotools/feature/visitor/AverageVisitor$AverageStrategy;:114 - ReplaceComparisonOperator != -> ==
+9	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor.createStrategy(Ljava/lang/Class;)Lorg/geotools/feature/visitor/AverageVisitor$AverageStrategy;:116 - ReplaceComparisonOperator != -> ==
+10	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor.createStrategy(Ljava/lang/Class;)Lorg/geotools/feature/visitor/AverageVisitor$AverageStrategy;:118 - ReplaceComparisonOperator != -> ==
+11	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor.createStrategy(Ljava/lang/Class;)Lorg/geotools/feature/visitor/AverageVisitor$AverageStrategy;:120 - ReplaceComparisonOperator == -> -2
+12	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor.createStrategy(Ljava/lang/Class;)Lorg/geotools/feature/visitor/AverageVisitor$AverageStrategy;:120 - ReplaceComparisonOperator == -> >=
+13	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor.createStrategy(Ljava/lang/Class;)Lorg/geotools/feature/visitor/AverageVisitor$AverageStrategy;:120 - ReplaceComparisonOperator == -> <=
+14	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor.visit(Lorg/opengis/feature/Feature;)V:133 - ReplaceComparisonOperator = null -> != null
+15	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor.visit(Lorg/opengis/feature/Feature;)V:134 - ReplaceComparisonOperator != null -> = null
+16	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor.reset()V:161 - ReplaceConstant - 0 -> 1
+17	ReplaceComparisonOperator	org.geotools.feature.visitor.AverageVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:169 - ReplaceComparisonOperator != null -> = null
+18	InsertUnaryOp	org.geotools.feature.visitor.AverageVisitor.getResult()Lorg/geotools/feature/visitor/CalcResult;:172 - InsertUnaryOp Negation
+19	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor.setValue(Ljava/lang/Object;)V:181 - ReplaceConstant - 1 -> 0
+20	InsertUnaryOp	org.geotools.feature.visitor.AverageVisitor.setValue(ILjava/lang/Object;)V:187 - InsertUnaryOp Negation of newCount
+21	InsertUnaryOp	org.geotools.feature.visitor.AverageVisitor.setValue(ILjava/lang/Object;)V:187 - InsertUnaryOp IINC 1 newCount
+22	InsertUnaryOp	org.geotools.feature.visitor.AverageVisitor.setValue(ILjava/lang/Object;)V:187 - InsertUnaryOp IINC -1 newCount
+23	ReplaceConstant	org.geotools.feature.visitor.AverageVisitor.setValue(ILjava/lang/Object;)V:188 - ReplaceConstant - 0 -> 1

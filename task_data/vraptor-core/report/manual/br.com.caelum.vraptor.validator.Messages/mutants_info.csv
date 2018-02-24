@@ -1,0 +1,17 @@
+0|ReplaceComparisonOperator|br.com.caelum.vraptor.validator.Messages.add(Lbr/com/caelum/vraptor/validator/Message;)Lbr/com/caelum/vraptor/validator/Messages;:55 - ReplaceComparisonOperator == -> -2
+1|ReplaceComparisonOperator|br.com.caelum.vraptor.validator.Messages.add(Lbr/com/caelum/vraptor/validator/Message;)Lbr/com/caelum/vraptor/validator/Messages;:55 - ReplaceComparisonOperator == -> >=
+2|ReplaceComparisonOperator|br.com.caelum.vraptor.validator.Messages.add(Lbr/com/caelum/vraptor/validator/Message;)Lbr/com/caelum/vraptor/validator/Messages;:55 - ReplaceComparisonOperator == -> <=
+3|ReplaceConstant|br.com.caelum.vraptor.validator.Messages.add(Lbr/com/caelum/vraptor/validator/Message;)Lbr/com/caelum/vraptor/validator/Messages;:56 - ReplaceConstant - 1 -> 0
+4|ReplaceComparisonOperator|br.com.caelum.vraptor.validator.Messages.get(Lbr/com/caelum/vraptor/validator/Severity;)Ljava/util/List;:62 - ReplaceComparisonOperator != -> -1
+5|ReplaceComparisonOperator|br.com.caelum.vraptor.validator.Messages.get(Lbr/com/caelum/vraptor/validator/Severity;)Ljava/util/List;:62 - ReplaceComparisonOperator != -> <
+6|ReplaceComparisonOperator|br.com.caelum.vraptor.validator.Messages.get(Lbr/com/caelum/vraptor/validator/Severity;)Ljava/util/List;:62 - ReplaceComparisonOperator != -> >
+7|ReplaceConstant|br.com.caelum.vraptor.validator.Messages.handleErrors()Ljava/util/List;:99 - ReplaceConstant - 0 -> 1
+8|InsertUnaryOp|br.com.caelum.vraptor.validator.Messages.hasUnhandledErrors()Z:104 - InsertUnaryOp Negation
+9|ReplaceComparisonOperator|br.com.caelum.vraptor.validator.Messages.assertAbsenceOfErrors()V:108 - ReplaceComparisonOperator == -> -2
+10|ReplaceComparisonOperator|br.com.caelum.vraptor.validator.Messages.assertAbsenceOfErrors()V:108 - ReplaceComparisonOperator == -> >=
+11|ReplaceComparisonOperator|br.com.caelum.vraptor.validator.Messages.assertAbsenceOfErrors()V:108 - ReplaceComparisonOperator == -> <=
+12|ReplaceConstant|br.com.caelum.vraptor.validator.Messages.assertAbsenceOfErrors()V:109 - ReplaceConstant - Some validation errors occured: {} -> 
+13|ReplaceConstant|br.com.caelum.vraptor.validator.Messages.assertAbsenceOfErrors()V:112 - ReplaceConstant - There are validation errors and you forgot to specify where to go. Please add in your method something like:
+validator.onErrorUse(page()).of(AnyController.class).anyMethod();
+or any view that you like.
+If you didn't add any validation error, it is possible that a conversion error had happened. -> 

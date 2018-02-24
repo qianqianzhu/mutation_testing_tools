@@ -1,0 +1,286 @@
+0	InsertUnaryOp	com.graphhopper.util.Instruction.<init>(ILjava/lang/String;Lcom/graphhopper/util/InstructionAnnotation;Lcom/graphhopper/util/PointList;)V:53 - InsertUnaryOp Negation of sign
+1	InsertUnaryOp	com.graphhopper.util.Instruction.<init>(ILjava/lang/String;Lcom/graphhopper/util/InstructionAnnotation;Lcom/graphhopper/util/PointList;)V:53 - InsertUnaryOp IINC 1 sign
+2	InsertUnaryOp	com.graphhopper.util.Instruction.<init>(ILjava/lang/String;Lcom/graphhopper/util/InstructionAnnotation;Lcom/graphhopper/util/PointList;)V:53 - InsertUnaryOp IINC -1 sign
+3	ReplaceConstant	com.graphhopper.util.Instruction.setUseRawName()V:64 - ReplaceConstant - 1 -> 0
+4	InsertUnaryOp	com.graphhopper.util.Instruction.getSign()I:75 - InsertUnaryOp Negation
+5	InsertUnaryOp	com.graphhopper.util.Instruction.getSign()I:75 - InsertUnaryOp +1
+6	InsertUnaryOp	com.graphhopper.util.Instruction.getSign()I:75 - InsertUnaryOp -1
+7	ReplaceConstant	com.graphhopper.util.Instruction.setExtraInfo(Ljava/lang/String;Ljava/lang/Object;)V:91 - ReplaceConstant - Key -> 
+8	ReplaceConstant	com.graphhopper.util.Instruction.setExtraInfo(Ljava/lang/String;Ljava/lang/Object;)V:91 - ReplaceConstant -  is not a valid option -> 
+9	InsertUnaryOp	com.graphhopper.util.Instruction.getDistance()D:98 - InsertUnaryOp Negation
+10	InsertUnaryOp	com.graphhopper.util.Instruction.setDistance(D)Lcom/graphhopper/util/Instruction;:102 - InsertUnaryOp Negation of distance
+11	InsertUnaryOp	com.graphhopper.util.Instruction.getTime()J:110 - InsertUnaryOp Negation
+12	InsertUnaryOp	com.graphhopper.util.Instruction.setTime(J)Lcom/graphhopper/util/Instruction;:114 - InsertUnaryOp Negation of time
+13	ReplaceConstant	com.graphhopper.util.Instruction.getFirstLat()D:122 - ReplaceConstant - 0 -> 1
+14	ReplaceConstant	com.graphhopper.util.Instruction.getFirstLon()D:129 - ReplaceConstant - 0 -> 1
+15	ReplaceConstant	com.graphhopper.util.Instruction.getFirstEle()D:133 - ReplaceConstant - 0 -> 1
+16	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:151 - InsertUnaryOp Negation of time
+17	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:152 - ReplaceConstant - 0 -> 1
+18	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:153 - ReplaceConstant - 0 -> 1
+19	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:154 - ReplaceConstant - NaN -> 0.0
+20	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:154 - ReplaceConstant - NaN -> 1.0
+21	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:154 - ReplaceConstant - NaN -> -1.0
+22	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:154 - ReplaceConstant - NaN -> NaN
+23	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:156 - InsertUnaryOp Negation of is3D
+24	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:156 - InsertUnaryOp IINC 1 is3D
+25	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:156 - InsertUnaryOp IINC -1 is3D
+26	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:156 - ReplaceComparisonOperator == -> -2
+27	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:156 - ReplaceComparisonOperator == -> >=
+28	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:156 - ReplaceComparisonOperator == -> <=
+29	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:157 - ReplaceConstant - 0 -> 1
+30	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:159 - ReplaceConstant - 0 -> 1
+31	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:159 - InsertUnaryOp Negation of i
+32	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:159 - InsertUnaryOp IINC 1 i
+33	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:159 - InsertUnaryOp IINC -1 i
+34	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:159 - InsertUnaryOp Negation of len
+35	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:159 - InsertUnaryOp IINC 1 len
+36	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:159 - InsertUnaryOp IINC -1 len
+37	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:159 - ReplaceComparisonOperator >= -> -1
+38	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:159 - ReplaceComparisonOperator >= -> >
+39	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:159 - ReplaceComparisonOperator >= -> ==
+40	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:160 - InsertUnaryOp Negation of lat
+41	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:160 - InsertUnaryOp Negation of lon
+42	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:160 - InsertUnaryOp Negation of ele
+43	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:160 - InsertUnaryOp Negation of prevTime
+44	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:162 - InsertUnaryOp Negation of i
+45	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:162 - InsertUnaryOp IINC 1 i
+46	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:162 - InsertUnaryOp IINC -1 i
+47	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:162 - ReplaceConstant - 1 -> 0
+48	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:162 - ReplaceArithmeticOperator + -> %
+49	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:162 - ReplaceArithmeticOperator + -> -
+50	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:162 - ReplaceArithmeticOperator + -> *
+51	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:162 - ReplaceArithmeticOperator + -> /
+52	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:162 - InsertUnaryOp Negation of len
+53	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:162 - InsertUnaryOp IINC 1 len
+54	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:162 - InsertUnaryOp IINC -1 len
+55	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:162 - ReplaceComparisonOperator != -> -1
+56	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:162 - ReplaceComparisonOperator != -> <
+57	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:162 - ReplaceComparisonOperator != -> >
+58	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:162 - ReplaceConstant - 1 -> 0
+59	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:162 - ReplaceConstant - 0 -> 1
+60	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:163 - InsertUnaryOp Negation of last
+61	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:163 - InsertUnaryOp IINC 1 last
+62	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:163 - InsertUnaryOp IINC -1 last
+63	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:163 - ReplaceComparisonOperator == -> -2
+64	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:163 - ReplaceComparisonOperator == -> >=
+65	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:163 - ReplaceComparisonOperator == -> <=
+66	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:163 - InsertUnaryOp Negation of i
+67	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:163 - InsertUnaryOp IINC 1 i
+68	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:163 - InsertUnaryOp IINC -1 i
+69	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:163 - ReplaceConstant - 1 -> 0
+70	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:163 - ReplaceArithmeticOperator + -> %
+71	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:163 - ReplaceArithmeticOperator + -> -
+72	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:163 - ReplaceArithmeticOperator + -> *
+73	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:163 - ReplaceArithmeticOperator + -> /
+74	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:164 - InsertUnaryOp Negation of last
+75	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:164 - InsertUnaryOp IINC 1 last
+76	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:164 - InsertUnaryOp IINC -1 last
+77	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:164 - ReplaceComparisonOperator == -> -2
+78	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:164 - ReplaceComparisonOperator == -> >=
+79	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:164 - ReplaceComparisonOperator == -> <=
+80	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:164 - InsertUnaryOp Negation of i
+81	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:164 - InsertUnaryOp IINC 1 i
+82	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:164 - InsertUnaryOp IINC -1 i
+83	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:164 - ReplaceConstant - 1 -> 0
+84	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:164 - ReplaceArithmeticOperator + -> %
+85	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:164 - ReplaceArithmeticOperator + -> -
+86	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:164 - ReplaceArithmeticOperator + -> *
+87	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:164 - ReplaceArithmeticOperator + -> /
+88	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - InsertUnaryOp Negation of is3D
+89	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - InsertUnaryOp IINC 1 is3D
+90	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - InsertUnaryOp IINC -1 is3D
+91	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - ReplaceComparisonOperator == -> -2
+92	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - ReplaceComparisonOperator == -> >=
+93	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - ReplaceComparisonOperator == -> <=
+94	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - InsertUnaryOp Negation of last
+95	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - InsertUnaryOp IINC 1 last
+96	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - InsertUnaryOp IINC -1 last
+97	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - ReplaceComparisonOperator == -> -2
+98	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - ReplaceComparisonOperator == -> >=
+99	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - ReplaceComparisonOperator == -> <=
+100	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - InsertUnaryOp Negation of i
+101	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - InsertUnaryOp IINC 1 i
+102	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - InsertUnaryOp IINC -1 i
+103	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - ReplaceConstant - 1 -> 0
+104	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - ReplaceArithmeticOperator + -> %
+105	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - ReplaceArithmeticOperator + -> -
+106	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - ReplaceArithmeticOperator + -> *
+107	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - ReplaceArithmeticOperator + -> /
+108	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - ReplaceConstant - NaN -> 0.0
+109	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - ReplaceConstant - NaN -> 1.0
+110	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - ReplaceConstant - NaN -> -1.0
+111	ReplaceConstant	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:165 - ReplaceConstant - NaN -> NaN
+112	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:166 - InsertUnaryOp Negation of is3D
+113	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:166 - InsertUnaryOp IINC 1 is3D
+114	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:166 - InsertUnaryOp IINC -1 is3D
+115	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:166 - ReplaceComparisonOperator == -> -2
+116	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:166 - ReplaceComparisonOperator == -> >=
+117	ReplaceComparisonOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:166 - ReplaceComparisonOperator == -> <=
+118	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - InsertUnaryOp Negation of prevTime
+119	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - InsertUnaryOp Negation
+120	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - InsertUnaryOp Negation of nextLat
+121	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - InsertUnaryOp Negation of nextLon
+122	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - InsertUnaryOp Negation of nextEle
+123	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - InsertUnaryOp Negation of lat
+124	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - InsertUnaryOp Negation of lon
+125	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - InsertUnaryOp Negation of ele
+126	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - ReplaceArithmeticOperator * -> +
+127	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - ReplaceArithmeticOperator * -> %
+128	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - ReplaceArithmeticOperator * -> -
+129	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - ReplaceArithmeticOperator * -> /
+130	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - InsertUnaryOp Negation
+131	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - ReplaceArithmeticOperator / -> +
+132	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - ReplaceArithmeticOperator / -> %
+133	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - ReplaceArithmeticOperator / -> -
+134	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - ReplaceArithmeticOperator / -> *
+135	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - ReplaceArithmeticOperator + -> %
+136	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - ReplaceArithmeticOperator + -> -
+137	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - ReplaceArithmeticOperator + -> *
+138	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:167 - ReplaceArithmeticOperator + -> /
+139	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - InsertUnaryOp Negation of prevTime
+140	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - InsertUnaryOp Negation
+141	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - InsertUnaryOp Negation of nextLat
+142	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - InsertUnaryOp Negation of nextLon
+143	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - InsertUnaryOp Negation of lat
+144	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - InsertUnaryOp Negation of lon
+145	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - ReplaceArithmeticOperator * -> +
+146	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - ReplaceArithmeticOperator * -> %
+147	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - ReplaceArithmeticOperator * -> -
+148	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - ReplaceArithmeticOperator * -> /
+149	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - InsertUnaryOp Negation
+150	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - ReplaceArithmeticOperator / -> +
+151	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - ReplaceArithmeticOperator / -> %
+152	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - ReplaceArithmeticOperator / -> -
+153	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - ReplaceArithmeticOperator / -> *
+154	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - ReplaceArithmeticOperator + -> %
+155	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - ReplaceArithmeticOperator + -> -
+156	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - ReplaceArithmeticOperator + -> *
+157	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:169 - ReplaceArithmeticOperator + -> /
+158	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:171 - InsertUnaryOp Negation of nextLat
+159	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:172 - InsertUnaryOp Negation of nextLon
+160	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:173 - InsertUnaryOp Negation of nextEle
+161	ReplaceVariable	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:159 - ReplaceVariable i -> len
+162	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:175 - InsertUnaryOp Negation of time
+163	InsertUnaryOp	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:175 - InsertUnaryOp Negation
+164	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:175 - ReplaceArithmeticOperator + -> %
+165	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:175 - ReplaceArithmeticOperator + -> -
+166	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:175 - ReplaceArithmeticOperator + -> *
+167	ReplaceArithmeticOperator	com.graphhopper.util.Instruction.fillGPXList(Ljava/util/List;JLcom/graphhopper/util/Instruction;Lcom/graphhopper/util/Instruction;Z)J:175 - ReplaceArithmeticOperator + -> /
+168	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:181 - ReplaceConstant - 40 -> 0
+169	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:181 - ReplaceConstant - 40 -> 1
+170	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:181 - ReplaceConstant - 40 -> -1
+171	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:181 - ReplaceConstant - 40 -> 39
+172	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:181 - ReplaceConstant - 40 -> 41
+173	InsertUnaryOp	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:182 - InsertUnaryOp Negation
+174	InsertUnaryOp	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:182 - InsertUnaryOp +1
+175	InsertUnaryOp	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:182 - InsertUnaryOp -1
+176	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:182 - ReplaceConstant - 44 -> 0
+177	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:182 - ReplaceConstant - 44 -> 1
+178	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:182 - ReplaceConstant - 44 -> -1
+179	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:182 - ReplaceConstant - 44 -> 43
+180	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:182 - ReplaceConstant - 44 -> 45
+181	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:183 - ReplaceConstant - 44 -> 0
+182	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:183 - ReplaceConstant - 44 -> 1
+183	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:183 - ReplaceConstant - 44 -> -1
+184	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:183 - ReplaceConstant - 44 -> 43
+185	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:183 - ReplaceConstant - 44 -> 45
+186	InsertUnaryOp	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:184 - InsertUnaryOp Negation
+187	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:184 - ReplaceConstant - 44 -> 0
+188	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:184 - ReplaceConstant - 44 -> 1
+189	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:184 - ReplaceConstant - 44 -> -1
+190	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:184 - ReplaceConstant - 44 -> 43
+191	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:184 - ReplaceConstant - 44 -> 45
+192	InsertUnaryOp	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:185 - InsertUnaryOp Negation
+193	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:186 - ReplaceConstant - 41 -> 0
+194	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:186 - ReplaceConstant - 41 -> 1
+195	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:186 - ReplaceConstant - 41 -> -1
+196	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:186 - ReplaceConstant - 41 -> 40
+197	ReplaceConstant	com.graphhopper.util.Instruction.toString()Ljava/lang/String;:186 - ReplaceConstant - 41 -> 42
+198	InsertUnaryOp	com.graphhopper.util.Instruction.calcDirection(Lcom/graphhopper/util/Instruction;)Ljava/lang/String;:196 - InsertUnaryOp Negation of azimuth
+199	ReplaceComparisonOperator	com.graphhopper.util.Instruction.calcDirection(Lcom/graphhopper/util/Instruction;)Ljava/lang/String;:196 - ReplaceComparisonOperator == -> -2
+200	ReplaceComparisonOperator	com.graphhopper.util.Instruction.calcDirection(Lcom/graphhopper/util/Instruction;)Ljava/lang/String;:196 - ReplaceComparisonOperator == -> >=
+201	ReplaceComparisonOperator	com.graphhopper.util.Instruction.calcDirection(Lcom/graphhopper/util/Instruction;)Ljava/lang/String;:196 - ReplaceComparisonOperator == -> <=
+202	InsertUnaryOp	com.graphhopper.util.Instruction.calcDirection(Lcom/graphhopper/util/Instruction;)Ljava/lang/String;:199 - InsertUnaryOp Negation of azimuth
+203	ReplaceConstant	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:211 - ReplaceConstant - 2 -> 0
+204	ReplaceConstant	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:211 - ReplaceConstant - 2 -> 1
+205	ReplaceConstant	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:211 - ReplaceConstant - 2 -> -1
+206	ReplaceConstant	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:211 - ReplaceConstant - 2 -> 3
+207	ReplaceComparisonOperator	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:211 - ReplaceComparisonOperator < -> !=
+208	ReplaceComparisonOperator	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:211 - ReplaceComparisonOperator < -> -2
+209	ReplaceComparisonOperator	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:211 - ReplaceComparisonOperator < -> <=
+210	ReplaceConstant	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:212 - ReplaceConstant - 1 -> 0
+211	ReplaceConstant	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:213 - ReplaceConstant - 1 -> 0
+212	ReplaceComparisonOperator	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:214 - ReplaceComparisonOperator = null -> != null
+213	ReplaceConstant	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:214 - ReplaceConstant - 1 -> 0
+214	ReplaceComparisonOperator	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:214 - ReplaceComparisonOperator != -> -1
+215	ReplaceComparisonOperator	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:214 - ReplaceComparisonOperator != -> <
+216	ReplaceComparisonOperator	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:214 - ReplaceComparisonOperator != -> >
+217	ReplaceConstant	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:215 - ReplaceConstant - 0 -> 1
+218	ReplaceConstant	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:216 - ReplaceConstant - 0 -> 1
+219	ReplaceConstant	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:218 - ReplaceConstant - NaN -> 0.0
+220	ReplaceConstant	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:218 - ReplaceConstant - NaN -> 1.0
+221	ReplaceConstant	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:218 - ReplaceConstant - NaN -> -1.0
+222	ReplaceConstant	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:218 - ReplaceConstant - NaN -> NaN
+223	ReplaceConstant	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:221 - ReplaceConstant - 0 -> 1
+224	ReplaceConstant	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:222 - ReplaceConstant - 0 -> 1
+225	InsertUnaryOp	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:223 - InsertUnaryOp Negation of lat
+226	InsertUnaryOp	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:223 - InsertUnaryOp Negation of lon
+227	InsertUnaryOp	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:223 - InsertUnaryOp Negation of nextLat
+228	InsertUnaryOp	com.graphhopper.util.Instruction.calcAzimuth(Lcom/graphhopper/util/Instruction;)D:223 - InsertUnaryOp Negation of nextLon
+229	ReplaceConstant	com.graphhopper.util.Instruction.checkOne()V:227 - ReplaceConstant - 1 -> 0
+230	ReplaceComparisonOperator	com.graphhopper.util.Instruction.checkOne()V:227 - ReplaceComparisonOperator >= -> -1
+231	ReplaceComparisonOperator	com.graphhopper.util.Instruction.checkOne()V:227 - ReplaceComparisonOperator >= -> >
+232	ReplaceComparisonOperator	com.graphhopper.util.Instruction.checkOne()V:227 - ReplaceComparisonOperator >= -> ==
+233	ReplaceConstant	com.graphhopper.util.Instruction.checkOne()V:228 - ReplaceConstant - Instruction must contain at least one point  -> 
+234	InsertUnaryOp	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:232 - InsertUnaryOp Negation
+235	ReplaceComparisonOperator	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:232 - ReplaceComparisonOperator == -> -2
+236	ReplaceComparisonOperator	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:232 - ReplaceComparisonOperator == -> >=
+237	ReplaceComparisonOperator	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:232 - ReplaceComparisonOperator == -> <=
+238	InsertUnaryOp	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:238 - InsertUnaryOp Negation of indi
+239	InsertUnaryOp	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:238 - InsertUnaryOp IINC 1 indi
+240	InsertUnaryOp	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:238 - InsertUnaryOp IINC -1 indi
+241	ReplaceComparisonOperator	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:238 - ReplaceComparisonOperator != -> -1
+242	ReplaceComparisonOperator	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:238 - ReplaceComparisonOperator != -> <
+243	ReplaceComparisonOperator	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:238 - ReplaceComparisonOperator != -> >
+244	ReplaceComparisonOperator	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:239 - ReplaceComparisonOperator == -> -2
+245	ReplaceComparisonOperator	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:239 - ReplaceComparisonOperator == -> >=
+246	ReplaceComparisonOperator	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:239 - ReplaceComparisonOperator == -> <=
+247	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:239 - ReplaceConstant - continue -> 
+248	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:239 - ReplaceConstant - 0 -> 1
+249	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:239 - ReplaceConstant - continue_onto -> 
+250	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:239 - ReplaceConstant - 1 -> 0
+251	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:239 - ReplaceConstant - 0 -> 1
+252	InsertUnaryOp	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:242 - InsertUnaryOp Negation of indi
+253	InsertUnaryOp	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:242 - InsertUnaryOp IINC 1 indi
+254	InsertUnaryOp	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:242 - InsertUnaryOp IINC -1 indi
+255	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:244 - ReplaceConstant - keep_left -> 
+256	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:244 - ReplaceConstant - 0 -> 1
+257	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:247 - ReplaceConstant - turn_sharp_left -> 
+258	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:247 - ReplaceConstant - 0 -> 1
+259	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:250 - ReplaceConstant - turn_left -> 
+260	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:250 - ReplaceConstant - 0 -> 1
+261	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:253 - ReplaceConstant - turn_slight_left -> 
+262	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:253 - ReplaceConstant - 0 -> 1
+263	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:256 - ReplaceConstant - turn_slight_right -> 
+264	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:256 - ReplaceConstant - 0 -> 1
+265	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:259 - ReplaceConstant - turn_right -> 
+266	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:259 - ReplaceConstant - 0 -> 1
+267	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:262 - ReplaceConstant - turn_sharp_right -> 
+268	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:262 - ReplaceConstant - 0 -> 1
+269	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:265 - ReplaceConstant - keep_right -> 
+270	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:265 - ReplaceConstant - 0 -> 1
+271	ReplaceComparisonOperator	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:268 - ReplaceComparisonOperator != null -> = null
+272	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:269 - ReplaceConstant - Turn indication not found  -> 
+273	InsertUnaryOp	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:269 - InsertUnaryOp Negation of indi
+274	InsertUnaryOp	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:269 - InsertUnaryOp IINC 1 indi
+275	InsertUnaryOp	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:269 - InsertUnaryOp IINC -1 indi
+276	ReplaceComparisonOperator	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:271 - ReplaceComparisonOperator == -> -2
+277	ReplaceComparisonOperator	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:271 - ReplaceComparisonOperator == -> >=
+278	ReplaceComparisonOperator	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:271 - ReplaceComparisonOperator == -> <=
+279	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:271 - ReplaceConstant - turn_onto -> 
+280	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:271 - ReplaceConstant - 2 -> 0
+281	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:271 - ReplaceConstant - 2 -> 1
+282	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:271 - ReplaceConstant - 2 -> -1
+283	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:271 - ReplaceConstant - 2 -> 3
+284	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:271 - ReplaceConstant - 0 -> 1
+285	ReplaceConstant	com.graphhopper.util.Instruction.getTurnDescription(Lcom/graphhopper/util/Translation;)Ljava/lang/String;:271 - ReplaceConstant - 1 -> 0

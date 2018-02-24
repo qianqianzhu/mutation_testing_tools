@@ -1,0 +1,282 @@
+0	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.<init>(Ljava/lang/String;DD)V:175 - ReplaceConstant - text -> 
+1	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.<init>(Ljava/lang/String;DD)V:179 - InsertUnaryOp Negation of x
+2	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.<init>(Ljava/lang/String;DD)V:180 - InsertUnaryOp Negation of y
+3	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.<init>(Ljava/lang/String;DD)V:183 - ReplaceConstant - 0.0 -> 1.0
+4	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.<init>(Ljava/lang/String;DD)V:183 - ReplaceConstant - 0.0 -> -1.0
+5	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.<init>(Ljava/lang/String;DD)V:187 - ReplaceConstant - 0 -> 1
+6	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.<init>(Ljava/lang/String;DD)V:189 - ReplaceConstant - 0.5 -> 0.0
+7	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.<init>(Ljava/lang/String;DD)V:189 - ReplaceConstant - 0.5 -> 1.0
+8	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.<init>(Ljava/lang/String;DD)V:189 - ReplaceConstant - 0.5 -> -1.0
+9	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.<init>(Ljava/lang/String;DD)V:189 - ReplaceConstant - 0.5 -> -0.5
+10	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.<init>(Ljava/lang/String;DD)V:189 - ReplaceConstant - 0.5 -> 1.5
+11	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.setText(Ljava/lang/String;)V:211 - ReplaceConstant - text -> 
+12	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.setFont(Ljava/awt/Font;)V:236 - ReplaceConstant - font -> 
+13	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.setPaint(Ljava/awt/Paint;)V:261 - ReplaceConstant - paint -> 
+14	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.setTextAnchor(Lorg/jfree/ui/TextAnchor;)V:287 - ReplaceConstant - anchor -> 
+15	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.setRotationAnchor(Lorg/jfree/ui/TextAnchor;)V:312 - ReplaceConstant - anchor -> 
+16	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.getRotationAngle()D:325 - InsertUnaryOp Negation
+17	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.setRotationAngle(D)V:337 - InsertUnaryOp Negation of angle
+18	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.getX()D:350 - InsertUnaryOp Negation
+19	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.setX(D)V:363 - InsertUnaryOp Negation of x
+20	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.getY()D:376 - InsertUnaryOp Negation
+21	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.setY(D)V:389 - InsertUnaryOp Negation of y
+22	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.setOutlinePaint(Ljava/awt/Paint;)V:445 - ReplaceConstant - paint -> 
+23	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.setOutlineStroke(Ljava/awt/Stroke;)V:474 - ReplaceConstant - stroke -> 
+24	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.isOutlineVisible()Z:487 - InsertUnaryOp Negation
+25	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.setOutlineVisible(Z)V:499 - InsertUnaryOp Negation of visible
+26	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.setOutlineVisible(Z)V:499 - InsertUnaryOp IINC 1 visible
+27	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.setOutlineVisible(Z)V:499 - InsertUnaryOp IINC -1 visible
+28	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:526 - InsertUnaryOp Negation
+29	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:528 - InsertUnaryOp Negation
+30	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:531 - ReplaceComparisonOperator != -> ==
+31	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:532 - InsertUnaryOp Negation of anchorX
+32	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:533 - InsertUnaryOp Negation of anchorY
+33	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:534 - InsertUnaryOp Negation of tempAnchor
+34	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:539 - InsertUnaryOp Negation of anchorX
+35	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:539 - InsertUnaryOp Negation of anchorY
+36	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:541 - ReplaceComparisonOperator = null -> != null
+37	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:546 - InsertUnaryOp Negation of anchorX
+38	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:546 - InsertUnaryOp Negation of anchorY
+39	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:548 - InsertUnaryOp Negation
+40	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:548 - ReplaceComparisonOperator == -> -2
+41	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:548 - ReplaceComparisonOperator == -> >=
+42	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:548 - ReplaceComparisonOperator == -> <=
+43	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:556 - ReplaceComparisonOperator != null -> = null
+44	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:556 - ReplaceComparisonOperator = null -> != null
+45	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:557 - InsertUnaryOp Negation of rendererIndex
+46	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:557 - InsertUnaryOp IINC 1 rendererIndex
+47	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.draw(Ljava/awt/Graphics2D;Lorg/jfree/chart/plot/XYPlot;Ljava/awt/geom/Rectangle2D;Lorg/jfree/chart/axis/ValueAxis;Lorg/jfree/chart/axis/ValueAxis;ILorg/jfree/chart/plot/PlotRenderingInfo;)V:557 - InsertUnaryOp IINC -1 rendererIndex
+48	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:571 - ReplaceComparisonOperator != -> ==
+49	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:572 - ReplaceConstant - 1 -> 0
+50	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:574 - ReplaceComparisonOperator != -> -1
+51	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:574 - ReplaceComparisonOperator != -> <
+52	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:574 - ReplaceComparisonOperator != -> >
+53	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:575 - ReplaceConstant - 0 -> 1
+54	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:578 - ReplaceComparisonOperator != -> -1
+55	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:578 - ReplaceComparisonOperator != -> <
+56	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:578 - ReplaceComparisonOperator != -> >
+57	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:579 - ReplaceConstant - 0 -> 1
+58	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:581 - InsertUnaryOp Negation
+59	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:581 - InsertUnaryOp Negation
+60	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:581 - ReplaceComparisonOperator == -> -2
+61	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:581 - ReplaceComparisonOperator == -> >=
+62	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:581 - ReplaceComparisonOperator == -> <=
+63	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:582 - ReplaceConstant - 0 -> 1
+64	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:584 - InsertUnaryOp Negation
+65	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:584 - InsertUnaryOp Negation
+66	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:584 - ReplaceComparisonOperator == -> -2
+67	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:584 - ReplaceComparisonOperator == -> >=
+68	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:584 - ReplaceComparisonOperator == -> <=
+69	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:585 - ReplaceConstant - 0 -> 1
+70	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:587 - ReplaceComparisonOperator != -> -1
+71	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:587 - ReplaceComparisonOperator != -> <
+72	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:587 - ReplaceComparisonOperator != -> >
+73	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:588 - ReplaceConstant - 0 -> 1
+74	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:590 - ReplaceComparisonOperator != -> -1
+75	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:590 - ReplaceComparisonOperator != -> <
+76	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:590 - ReplaceComparisonOperator != -> >
+77	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:591 - ReplaceConstant - 0 -> 1
+78	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:593 - ReplaceComparisonOperator != -> -1
+79	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:593 - ReplaceComparisonOperator != -> <
+80	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:593 - ReplaceComparisonOperator != -> >
+81	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:594 - ReplaceConstant - 0 -> 1
+82	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:596 - InsertUnaryOp Negation
+83	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:596 - InsertUnaryOp Negation
+84	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:596 - ReplaceComparisonOperator == -> -2
+85	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:596 - ReplaceComparisonOperator == -> >=
+86	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:596 - ReplaceComparisonOperator == -> <=
+87	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:597 - ReplaceConstant - 0 -> 1
+88	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:599 - ReplaceComparisonOperator != -> -1
+89	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:599 - ReplaceComparisonOperator != -> <
+90	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:599 - ReplaceComparisonOperator != -> >
+91	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:600 - ReplaceConstant - 0 -> 1
+92	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:602 - InsertUnaryOp Negation
+93	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:602 - InsertUnaryOp Negation
+94	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:602 - ReplaceComparisonOperator == -> -2
+95	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:602 - ReplaceComparisonOperator == -> >=
+96	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:602 - ReplaceComparisonOperator == -> <=
+97	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:603 - ReplaceConstant - 0 -> 1
+98	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:605 - ReplaceComparisonOperator != -> -1
+99	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:605 - ReplaceComparisonOperator != -> <
+100	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:605 - ReplaceComparisonOperator != -> >
+101	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:606 - ReplaceConstant - 0 -> 1
+102	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:608 - ReplaceComparisonOperator != -> -1
+103	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:608 - ReplaceComparisonOperator != -> <
+104	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:608 - ReplaceComparisonOperator != -> >
+105	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:609 - ReplaceConstant - 0 -> 1
+106	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:611 - ReplaceComparisonOperator != -> -1
+107	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:611 - ReplaceComparisonOperator != -> <
+108	ReplaceComparisonOperator	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:611 - ReplaceComparisonOperator != -> >
+109	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.equals(Ljava/lang/Object;)Z:612 - ReplaceConstant - 0 -> 1
+110	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:624 - ReplaceConstant - 193 -> 0
+111	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:624 - ReplaceConstant - 193 -> 1
+112	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:624 - ReplaceConstant - 193 -> -1
+113	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:624 - ReplaceConstant - 193 -> 192
+114	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:624 - ReplaceConstant - 193 -> 194
+115	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:625 - ReplaceConstant - 37 -> 0
+116	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:625 - ReplaceConstant - 37 -> 1
+117	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:625 - ReplaceConstant - 37 -> -1
+118	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:625 - ReplaceConstant - 37 -> 36
+119	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:625 - ReplaceConstant - 37 -> 38
+120	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:625 - InsertUnaryOp Negation of result
+121	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:625 - InsertUnaryOp IINC 1 result
+122	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:625 - InsertUnaryOp IINC -1 result
+123	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:625 - ReplaceArithmeticOperator * -> +
+124	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:625 - ReplaceArithmeticOperator * -> %
+125	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:625 - ReplaceArithmeticOperator * -> -
+126	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:625 - ReplaceArithmeticOperator * -> /
+127	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:625 - ReplaceArithmeticOperator + -> %
+128	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:625 - ReplaceArithmeticOperator + -> -
+129	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:625 - ReplaceArithmeticOperator + -> *
+130	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:625 - ReplaceArithmeticOperator + -> /
+131	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:626 - ReplaceConstant - 37 -> 0
+132	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:626 - ReplaceConstant - 37 -> 1
+133	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:626 - ReplaceConstant - 37 -> -1
+134	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:626 - ReplaceConstant - 37 -> 36
+135	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:626 - ReplaceConstant - 37 -> 38
+136	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:626 - InsertUnaryOp Negation of result
+137	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:626 - InsertUnaryOp IINC 1 result
+138	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:626 - InsertUnaryOp IINC -1 result
+139	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:626 - ReplaceArithmeticOperator * -> +
+140	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:626 - ReplaceArithmeticOperator * -> %
+141	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:626 - ReplaceArithmeticOperator * -> -
+142	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:626 - ReplaceArithmeticOperator * -> /
+143	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:626 - ReplaceArithmeticOperator + -> %
+144	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:626 - ReplaceArithmeticOperator + -> -
+145	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:626 - ReplaceArithmeticOperator + -> *
+146	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:626 - ReplaceArithmeticOperator + -> /
+147	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:627 - ReplaceConstant - 37 -> 0
+148	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:627 - ReplaceConstant - 37 -> 1
+149	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:627 - ReplaceConstant - 37 -> -1
+150	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:627 - ReplaceConstant - 37 -> 36
+151	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:627 - ReplaceConstant - 37 -> 38
+152	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:627 - InsertUnaryOp Negation of result
+153	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:627 - InsertUnaryOp IINC 1 result
+154	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:627 - InsertUnaryOp IINC -1 result
+155	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:627 - ReplaceArithmeticOperator * -> +
+156	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:627 - ReplaceArithmeticOperator * -> %
+157	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:627 - ReplaceArithmeticOperator * -> -
+158	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:627 - ReplaceArithmeticOperator * -> /
+159	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:627 - ReplaceArithmeticOperator + -> %
+160	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:627 - ReplaceArithmeticOperator + -> -
+161	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:627 - ReplaceArithmeticOperator + -> *
+162	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:627 - ReplaceArithmeticOperator + -> /
+163	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:628 - InsertUnaryOp Negation
+164	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceConstant - 37 -> 0
+165	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceConstant - 37 -> 1
+166	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceConstant - 37 -> -1
+167	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceConstant - 37 -> 36
+168	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceConstant - 37 -> 38
+169	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - InsertUnaryOp Negation of result
+170	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - InsertUnaryOp IINC 1 result
+171	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - InsertUnaryOp IINC -1 result
+172	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceArithmeticOperator * -> +
+173	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceArithmeticOperator * -> %
+174	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceArithmeticOperator * -> -
+175	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceArithmeticOperator * -> /
+176	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - InsertUnaryOp Negation of temp
+177	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - InsertUnaryOp Negation of temp
+178	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceConstant - 32 -> 0
+179	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceConstant - 32 -> 1
+180	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceConstant - 32 -> -1
+181	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceConstant - 32 -> 31
+182	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceConstant - 32 -> 33
+183	ReplaceBitwiseOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceBitwiseOperator >>> L -> << L
+184	ReplaceBitwiseOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceBitwiseOperator >>> L -> >> L
+185	ReplaceBitwiseOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceBitwiseOperator ^ -> |
+186	ReplaceBitwiseOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceBitwiseOperator ^ -> &
+187	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceArithmeticOperator + -> %
+188	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceArithmeticOperator + -> -
+189	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceArithmeticOperator + -> *
+190	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:629 - ReplaceArithmeticOperator + -> /
+191	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:630 - InsertUnaryOp Negation
+192	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceConstant - 37 -> 0
+193	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceConstant - 37 -> 1
+194	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceConstant - 37 -> -1
+195	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceConstant - 37 -> 36
+196	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceConstant - 37 -> 38
+197	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - InsertUnaryOp Negation of result
+198	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - InsertUnaryOp IINC 1 result
+199	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - InsertUnaryOp IINC -1 result
+200	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceArithmeticOperator * -> +
+201	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceArithmeticOperator * -> %
+202	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceArithmeticOperator * -> -
+203	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceArithmeticOperator * -> /
+204	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - InsertUnaryOp Negation of temp
+205	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - InsertUnaryOp Negation of temp
+206	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceConstant - 32 -> 0
+207	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceConstant - 32 -> 1
+208	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceConstant - 32 -> -1
+209	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceConstant - 32 -> 31
+210	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceConstant - 32 -> 33
+211	ReplaceBitwiseOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceBitwiseOperator >>> L -> << L
+212	ReplaceBitwiseOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceBitwiseOperator >>> L -> >> L
+213	ReplaceBitwiseOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceBitwiseOperator ^ -> |
+214	ReplaceBitwiseOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceBitwiseOperator ^ -> &
+215	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceArithmeticOperator + -> %
+216	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceArithmeticOperator + -> -
+217	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceArithmeticOperator + -> *
+218	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:631 - ReplaceArithmeticOperator + -> /
+219	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:632 - ReplaceConstant - 37 -> 0
+220	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:632 - ReplaceConstant - 37 -> 1
+221	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:632 - ReplaceConstant - 37 -> -1
+222	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:632 - ReplaceConstant - 37 -> 36
+223	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:632 - ReplaceConstant - 37 -> 38
+224	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:632 - InsertUnaryOp Negation of result
+225	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:632 - InsertUnaryOp IINC 1 result
+226	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:632 - InsertUnaryOp IINC -1 result
+227	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:632 - ReplaceArithmeticOperator * -> +
+228	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:632 - ReplaceArithmeticOperator * -> %
+229	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:632 - ReplaceArithmeticOperator * -> -
+230	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:632 - ReplaceArithmeticOperator * -> /
+231	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:632 - ReplaceArithmeticOperator + -> %
+232	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:632 - ReplaceArithmeticOperator + -> -
+233	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:632 - ReplaceArithmeticOperator + -> *
+234	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:632 - ReplaceArithmeticOperator + -> /
+235	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:633 - ReplaceConstant - 37 -> 0
+236	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:633 - ReplaceConstant - 37 -> 1
+237	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:633 - ReplaceConstant - 37 -> -1
+238	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:633 - ReplaceConstant - 37 -> 36
+239	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:633 - ReplaceConstant - 37 -> 38
+240	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:633 - InsertUnaryOp Negation of result
+241	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:633 - InsertUnaryOp IINC 1 result
+242	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:633 - InsertUnaryOp IINC -1 result
+243	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:633 - ReplaceArithmeticOperator * -> +
+244	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:633 - ReplaceArithmeticOperator * -> %
+245	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:633 - ReplaceArithmeticOperator * -> -
+246	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:633 - ReplaceArithmeticOperator * -> /
+247	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:633 - ReplaceArithmeticOperator + -> %
+248	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:633 - ReplaceArithmeticOperator + -> -
+249	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:633 - ReplaceArithmeticOperator + -> *
+250	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:633 - ReplaceArithmeticOperator + -> /
+251	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:634 - InsertUnaryOp Negation
+252	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceConstant - 37 -> 0
+253	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceConstant - 37 -> 1
+254	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceConstant - 37 -> -1
+255	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceConstant - 37 -> 36
+256	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceConstant - 37 -> 38
+257	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - InsertUnaryOp Negation of result
+258	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - InsertUnaryOp IINC 1 result
+259	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - InsertUnaryOp IINC -1 result
+260	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceArithmeticOperator * -> +
+261	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceArithmeticOperator * -> %
+262	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceArithmeticOperator * -> -
+263	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceArithmeticOperator * -> /
+264	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - InsertUnaryOp Negation of temp
+265	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - InsertUnaryOp Negation of temp
+266	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceConstant - 32 -> 0
+267	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceConstant - 32 -> 1
+268	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceConstant - 32 -> -1
+269	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceConstant - 32 -> 31
+270	ReplaceConstant	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceConstant - 32 -> 33
+271	ReplaceBitwiseOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceBitwiseOperator >>> L -> << L
+272	ReplaceBitwiseOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceBitwiseOperator >>> L -> >> L
+273	ReplaceBitwiseOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceBitwiseOperator ^ -> |
+274	ReplaceBitwiseOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceBitwiseOperator ^ -> &
+275	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceArithmeticOperator + -> %
+276	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceArithmeticOperator + -> -
+277	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceArithmeticOperator + -> *
+278	ReplaceArithmeticOperator	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:635 - ReplaceArithmeticOperator + -> /
+279	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:636 - InsertUnaryOp Negation of result
+280	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:636 - InsertUnaryOp IINC 1 result
+281	InsertUnaryOp	org.jfree.chart.annotations.XYTextAnnotation.hashCode()I:636 - InsertUnaryOp IINC -1 result

@@ -1,0 +1,195 @@
+0	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.<init>(Lorg/opengis/feature/type/FeatureTypeFactory;)V:161 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.<init>(Lorg/opengis/feature/type/FeatureTypeFactory;)V:170 - ReplaceConstant - 0 -> 1
+2	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.init(Lorg/opengis/feature/simple/SimpleFeatureType;)V:223 - ReplaceComparisonOperator != null -> = null
+3	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.init(Lorg/opengis/feature/simple/SimpleFeatureType;)V:232 - ReplaceConstant - 1 -> 0
+4	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.reset()V:252 - ReplaceConstant - http://www.opengis.net/gml -> 
+5	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.reset()V:257 - ReplaceConstant - 0 -> 1
+6	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.reset()V:259 - ReplaceConstant - 0 -> 1
+7	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.setNamespaceURI(Ljava/net/URI;)V:270 - ReplaceComparisonOperator = null -> != null
+8	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.setCRS(Lorg/opengis/referencing/crs/CoordinateReferenceSystem;)V:349 - ReplaceConstant - 1 -> 0
+9	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.setAbstract(Z)V:375 - InsertUnaryOp Negation of isAbstract
+10	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.setAbstract(Z)V:375 - InsertUnaryOp IINC 1 isAbstract
+11	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.setAbstract(Z)V:375 - InsertUnaryOp IINC -1 isAbstract
+12	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.isAbstract()Z:382 - InsertUnaryOp Negation
+13	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.addBindings(Lorg/opengis/feature/type/Schema;)V:422 - ReplaceComparisonOperator == -> -2
+14	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.addBindings(Lorg/opengis/feature/type/Schema;)V:422 - ReplaceComparisonOperator == -> >=
+15	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.addBindings(Lorg/opengis/feature/type/Schema;)V:422 - ReplaceComparisonOperator == -> <=
+16	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.minOccurs(I)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:461 - InsertUnaryOp Negation of minOccurs
+17	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.minOccurs(I)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:461 - InsertUnaryOp IINC 1 minOccurs
+18	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.minOccurs(I)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:461 - InsertUnaryOp IINC -1 minOccurs
+19	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.maxOccurs(I)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:471 - InsertUnaryOp Negation of maxOccurs
+20	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.maxOccurs(I)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:471 - InsertUnaryOp IINC 1 maxOccurs
+21	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.maxOccurs(I)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:471 - InsertUnaryOp IINC -1 maxOccurs
+22	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.nillable(Z)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:481 - InsertUnaryOp Negation of isNillable
+23	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.nillable(Z)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:481 - InsertUnaryOp IINC 1 isNillable
+24	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.nillable(Z)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:481 - InsertUnaryOp IINC -1 isNillable
+25	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.length(I)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:494 - InsertUnaryOp Negation of length
+26	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.length(I)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:494 - InsertUnaryOp IINC 1 length
+27	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.length(I)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:494 - InsertUnaryOp IINC -1 length
+28	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.restrictions(Ljava/util/List;)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:515 - ReplaceComparisonOperator == -> -2
+29	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.restrictions(Ljava/util/List;)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:515 - ReplaceComparisonOperator == -> >=
+30	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.restrictions(Ljava/util/List;)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:515 - ReplaceComparisonOperator == -> <=
+31	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.srs(Ljava/lang/String;)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:573 - ReplaceComparisonOperator != null -> = null
+32	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.srid(Ljava/lang/Integer;)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:596 - ReplaceComparisonOperator != null -> = null
+33	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.srid(Ljava/lang/Integer;)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:600 - ReplaceConstant - EPSG: -> 
+34	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.descriptor(Lorg/opengis/feature/type/AttributeDescriptor;)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:633 - ReplaceComparisonOperator == -> -2
+35	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.descriptor(Lorg/opengis/feature/type/AttributeDescriptor;)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:633 - ReplaceComparisonOperator == -> >=
+36	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.descriptor(Lorg/opengis/feature/type/AttributeDescriptor;)Lorg/geotools/feature/simple/SimpleFeatureTypeBuilder;:633 - ReplaceComparisonOperator == -> <=
+37	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;)V:671 - ReplaceComparisonOperator = null -> != null
+38	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;)V:671 - ReplaceComparisonOperator != -> -1
+39	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;)V:671 - ReplaceComparisonOperator != -> <
+40	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;)V:671 - ReplaceComparisonOperator != -> >
+41	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;)V:672 - ReplaceComparisonOperator == -> -2
+42	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;)V:672 - ReplaceComparisonOperator == -> >=
+43	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;)V:672 - ReplaceComparisonOperator == -> <=
+44	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;)V:675 - ReplaceComparisonOperator != -> -1
+45	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;)V:675 - ReplaceComparisonOperator != -> <
+46	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;)V:675 - ReplaceComparisonOperator != -> >
+47	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;)V:676 - ReplaceComparisonOperator != null -> = null
+48	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;)V:676 - InsertUnaryOp Negation
+49	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;)V:676 - ReplaceComparisonOperator != -> -1
+50	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;)V:676 - ReplaceComparisonOperator != -> <
+51	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;)V:676 - ReplaceComparisonOperator != -> >
+52	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;)V:677 - ReplaceConstant - Creating  -> 
+53	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;)V:677 - ReplaceConstant -  with null CoordinateReferenceSystem - did you mean to setCRS? -> 
+54	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.remove(Ljava/lang/String;)Lorg/opengis/feature/type/AttributeDescriptor;:711 - ReplaceComparisonOperator == -> -2
+55	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.remove(Ljava/lang/String;)Lorg/opengis/feature/type/AttributeDescriptor;:711 - ReplaceComparisonOperator == -> >=
+56	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.remove(Ljava/lang/String;)Lorg/opengis/feature/type/AttributeDescriptor;:711 - ReplaceComparisonOperator == -> <=
+57	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.remove(Ljava/lang/String;)Lorg/opengis/feature/type/AttributeDescriptor;:713 - ReplaceComparisonOperator == -> -2
+58	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.remove(Ljava/lang/String;)Lorg/opengis/feature/type/AttributeDescriptor;:713 - ReplaceComparisonOperator == -> >=
+59	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.remove(Ljava/lang/String;)Lorg/opengis/feature/type/AttributeDescriptor;:713 - ReplaceComparisonOperator == -> <=
+60	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.remove(Ljava/lang/String;)Lorg/opengis/feature/type/AttributeDescriptor;:718 - ReplaceConstant -  is not an existing attribute descriptor in this builder -> 
+61	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(ILorg/opengis/feature/type/AttributeDescriptor;)V:728 - InsertUnaryOp Negation of index
+62	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(ILorg/opengis/feature/type/AttributeDescriptor;)V:728 - InsertUnaryOp IINC 1 index
+63	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(ILorg/opengis/feature/type/AttributeDescriptor;)V:728 - InsertUnaryOp IINC -1 index
+64	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.addAll(Ljava/util/List;)V:740 - ReplaceComparisonOperator = null -> != null
+65	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.addAll(Ljava/util/List;)V:741 - ReplaceComparisonOperator == -> -2
+66	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.addAll(Ljava/util/List;)V:741 - ReplaceComparisonOperator == -> >=
+67	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.addAll(Ljava/util/List;)V:741 - ReplaceComparisonOperator == -> <=
+68	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.addAll([Lorg/opengis/feature/type/AttributeDescriptor;)V:752 - ReplaceComparisonOperator = null -> != null
+69	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.addAll([Lorg/opengis/feature/type/AttributeDescriptor;)V:753 - ReplaceConstant - 0 -> 1
+70	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.addAll([Lorg/opengis/feature/type/AttributeDescriptor;)V:753 - ReplaceComparisonOperator >= -> -1
+71	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.addAll([Lorg/opengis/feature/type/AttributeDescriptor;)V:753 - ReplaceComparisonOperator >= -> >
+72	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.addAll([Lorg/opengis/feature/type/AttributeDescriptor;)V:753 - ReplaceComparisonOperator >= -> ==
+73	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;)V:790 - ReplaceComparisonOperator != null -> = null
+74	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Integer;)V:809 - ReplaceComparisonOperator != null -> = null
+75	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.add(Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Integer;)V:814 - ReplaceConstant - EPSG: -> 
+76	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.get(I)Lorg/opengis/feature/type/AttributeDescriptor;:824 - InsertUnaryOp Negation of index
+77	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.get(I)Lorg/opengis/feature/type/AttributeDescriptor;:824 - InsertUnaryOp IINC 1 index
+78	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.get(I)Lorg/opengis/feature/type/AttributeDescriptor;:824 - InsertUnaryOp IINC -1 index
+79	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.get(Ljava/lang/String;)Lorg/opengis/feature/type/AttributeDescriptor;:827 - ReplaceComparisonOperator == -> -2
+80	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.get(Ljava/lang/String;)Lorg/opengis/feature/type/AttributeDescriptor;:827 - ReplaceComparisonOperator == -> >=
+81	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.get(Ljava/lang/String;)Lorg/opengis/feature/type/AttributeDescriptor;:827 - ReplaceComparisonOperator == -> <=
+82	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.get(Ljava/lang/String;)Lorg/opengis/feature/type/AttributeDescriptor;:829 - ReplaceComparisonOperator == -> -2
+83	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.get(Ljava/lang/String;)Lorg/opengis/feature/type/AttributeDescriptor;:829 - ReplaceComparisonOperator == -> >=
+84	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.get(Ljava/lang/String;)Lorg/opengis/feature/type/AttributeDescriptor;:829 - ReplaceComparisonOperator == -> <=
+85	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(ILorg/opengis/feature/type/AttributeDescriptor;)V:842 - InsertUnaryOp Negation of index
+86	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(ILorg/opengis/feature/type/AttributeDescriptor;)V:842 - InsertUnaryOp IINC 1 index
+87	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(ILorg/opengis/feature/type/AttributeDescriptor;)V:842 - InsertUnaryOp IINC -1 index
+88	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Lorg/opengis/feature/type/AttributeDescriptor;)V:851 - InsertUnaryOp Negation of index
+89	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Lorg/opengis/feature/type/AttributeDescriptor;)V:851 - InsertUnaryOp IINC 1 index
+90	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Lorg/opengis/feature/type/AttributeDescriptor;)V:851 - InsertUnaryOp IINC -1 index
+91	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Lorg/opengis/feature/type/AttributeDescriptor;)V:851 - ReplaceConstant - -1 -> 0
+92	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Lorg/opengis/feature/type/AttributeDescriptor;)V:851 - ReplaceConstant - -1 -> 1
+93	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Lorg/opengis/feature/type/AttributeDescriptor;)V:851 - ReplaceConstant - -1 -> -2
+94	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Lorg/opengis/feature/type/AttributeDescriptor;)V:851 - ReplaceComparisonOperator != -> -1
+95	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Lorg/opengis/feature/type/AttributeDescriptor;)V:851 - ReplaceComparisonOperator != -> <
+96	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Lorg/opengis/feature/type/AttributeDescriptor;)V:851 - ReplaceComparisonOperator != -> >
+97	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Lorg/opengis/feature/type/AttributeDescriptor;)V:852 - ReplaceConstant -  is not an existing attribute descriptor in this builder -> 
+98	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Lorg/opengis/feature/type/AttributeDescriptor;)V:854 - InsertUnaryOp Negation of index
+99	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Lorg/opengis/feature/type/AttributeDescriptor;)V:854 - InsertUnaryOp IINC 1 index
+100	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Lorg/opengis/feature/type/AttributeDescriptor;)V:854 - InsertUnaryOp IINC -1 index
+101	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Ljava/lang/String;Lorg/opengis/feature/type/AttributeDescriptor;)V:863 - InsertUnaryOp Negation of index
+102	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Ljava/lang/String;Lorg/opengis/feature/type/AttributeDescriptor;)V:863 - InsertUnaryOp IINC 1 index
+103	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Ljava/lang/String;Lorg/opengis/feature/type/AttributeDescriptor;)V:863 - InsertUnaryOp IINC -1 index
+104	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Ljava/lang/String;Lorg/opengis/feature/type/AttributeDescriptor;)V:863 - ReplaceConstant - -1 -> 0
+105	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Ljava/lang/String;Lorg/opengis/feature/type/AttributeDescriptor;)V:863 - ReplaceConstant - -1 -> 1
+106	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Ljava/lang/String;Lorg/opengis/feature/type/AttributeDescriptor;)V:863 - ReplaceConstant - -1 -> -2
+107	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Ljava/lang/String;Lorg/opengis/feature/type/AttributeDescriptor;)V:863 - ReplaceComparisonOperator != -> -1
+108	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Ljava/lang/String;Lorg/opengis/feature/type/AttributeDescriptor;)V:863 - ReplaceComparisonOperator != -> <
+109	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Ljava/lang/String;Lorg/opengis/feature/type/AttributeDescriptor;)V:863 - ReplaceComparisonOperator != -> >
+110	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Ljava/lang/String;Lorg/opengis/feature/type/AttributeDescriptor;)V:864 - ReplaceConstant -  is not an existing attribute descriptor in this builder -> 
+111	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Ljava/lang/String;Lorg/opengis/feature/type/AttributeDescriptor;)V:866 - InsertUnaryOp Negation of index
+112	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Ljava/lang/String;Lorg/opengis/feature/type/AttributeDescriptor;)V:866 - InsertUnaryOp IINC 1 index
+113	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.set(Ljava/lang/String;Lorg/opengis/feature/type/AttributeDescriptor;)V:866 - InsertUnaryOp IINC -1 index
+114	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.indexOf(Ljava/lang/String;)I:871 - ReplaceConstant - 0 -> 1
+115	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.indexOf(Ljava/lang/String;)I:872 - ReplaceComparisonOperator == -> -2
+116	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.indexOf(Ljava/lang/String;)I:872 - ReplaceComparisonOperator == -> >=
+117	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.indexOf(Ljava/lang/String;)I:872 - ReplaceComparisonOperator == -> <=
+118	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.indexOf(Ljava/lang/String;)I:874 - ReplaceComparisonOperator == -> -2
+119	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.indexOf(Ljava/lang/String;)I:874 - ReplaceComparisonOperator == -> >=
+120	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.indexOf(Ljava/lang/String;)I:874 - ReplaceComparisonOperator == -> <=
+121	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.indexOf(Ljava/lang/String;)I:875 - InsertUnaryOp Negation of i
+122	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.indexOf(Ljava/lang/String;)I:875 - InsertUnaryOp IINC 1 i
+123	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.indexOf(Ljava/lang/String;)I:875 - InsertUnaryOp IINC -1 i
+124	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.indexOf(Ljava/lang/String;)I:879 - ReplaceConstant - -1 -> 0
+125	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.indexOf(Ljava/lang/String;)I:879 - ReplaceConstant - -1 -> 1
+126	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.indexOf(Ljava/lang/String;)I:879 - ReplaceConstant - -1 -> -2
+127	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.setAttributes(Ljava/util/List;)V:898 - ReplaceComparisonOperator = null -> != null
+128	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.setAttributes([Lorg/opengis/feature/type/AttributeDescriptor;)V:909 - ReplaceComparisonOperator = null -> != null
+129	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:925 - ReplaceComparisonOperator = null -> != null
+130	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:927 - ReplaceConstant - 0 -> 1
+131	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:927 - InsertUnaryOp Negation of i
+132	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:927 - InsertUnaryOp IINC 1 i
+133	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:927 - InsertUnaryOp IINC -1 i
+134	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:927 - ReplaceComparisonOperator >= -> -1
+135	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:927 - ReplaceComparisonOperator >= -> >
+136	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:927 - ReplaceComparisonOperator >= -> ==
+137	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:928 - InsertUnaryOp Negation of i
+138	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:928 - InsertUnaryOp IINC 1 i
+139	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:928 - InsertUnaryOp IINC -1 i
+140	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:929 - ReplaceComparisonOperator == -> -2
+141	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:929 - ReplaceComparisonOperator == -> >=
+142	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:929 - ReplaceComparisonOperator == -> <=
+143	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:932 - ReplaceComparisonOperator != -> -1
+144	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:932 - ReplaceComparisonOperator != -> <
+145	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:932 - ReplaceComparisonOperator != -> >
+146	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:933 - ReplaceConstant - Default Geometry  -> 
+147	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:933 - ReplaceConstant -  was added as a geoemtry -> 
+148	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:939 - InsertUnaryOp Negation of i
+149	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:939 - InsertUnaryOp IINC 1 i
+150	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:939 - InsertUnaryOp IINC -1 i
+151	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:946 - ReplaceComparisonOperator != null -> = null
+152	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:947 - ReplaceConstant - ' -> 
+153	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:947 - ReplaceConstant -  specified as default but could find no such attribute. -> 
+154	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:953 - ReplaceComparisonOperator != null -> = null
+155	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:955 - ReplaceComparisonOperator == -> -2
+156	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:955 - ReplaceComparisonOperator == -> >=
+157	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:955 - ReplaceComparisonOperator == -> <=
+158	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:956 - ReplaceComparisonOperator == -> -2
+159	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:956 - ReplaceComparisonOperator == -> >=
+160	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:956 - ReplaceComparisonOperator == -> <=
+161	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.buildFeatureType()Lorg/opengis/feature/simple/SimpleFeatureType;:964 - InsertUnaryOp Negation
+162	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.newList(Ljava/util/List;)Ljava/util/List;:1005 - ReplaceComparisonOperator != null -> = null
+163	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.newList(Ljava/util/List;)Ljava/util/List;:1008 - ReplaceComparisonOperator != -> ==
+164	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.name()Lorg/opengis/feature/type/Name;:1032 - ReplaceComparisonOperator != null -> = null
+165	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.attributes()Ljava/util/List;:1043 - ReplaceComparisonOperator != null -> = null
+166	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.restrictions()Ljava/util/List;:1054 - ReplaceComparisonOperator != null -> = null
+167	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.bindings()Ljava/util/Map;:1065 - ReplaceComparisonOperator != null -> = null
+168	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.decode(Ljava/lang/String;)Lorg/opengis/referencing/crs/CoordinateReferenceSystem;:1078 - ReplaceConstant - SRS ' -> 
+169	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.decode(Ljava/lang/String;)Lorg/opengis/referencing/crs/CoordinateReferenceSystem;:1078 - ReplaceConstant - ' unknown: -> 
+170	ReplaceConstant	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Ljava/util/List;)Lorg/opengis/feature/simple/SimpleFeatureType;:1104 - ReplaceConstant - 0 -> 1
+171	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Ljava/util/List;)Lorg/opengis/feature/simple/SimpleFeatureType;:1104 - InsertUnaryOp Negation of i
+172	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Ljava/util/List;)Lorg/opengis/feature/simple/SimpleFeatureType;:1104 - InsertUnaryOp IINC 1 i
+173	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Ljava/util/List;)Lorg/opengis/feature/simple/SimpleFeatureType;:1104 - InsertUnaryOp IINC -1 i
+174	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Ljava/util/List;)Lorg/opengis/feature/simple/SimpleFeatureType;:1104 - ReplaceComparisonOperator >= -> -1
+175	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Ljava/util/List;)Lorg/opengis/feature/simple/SimpleFeatureType;:1104 - ReplaceComparisonOperator >= -> >
+176	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Ljava/util/List;)Lorg/opengis/feature/simple/SimpleFeatureType;:1104 - ReplaceComparisonOperator >= -> ==
+177	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Ljava/util/List;)Lorg/opengis/feature/simple/SimpleFeatureType;:1105 - InsertUnaryOp Negation of i
+178	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Ljava/util/List;)Lorg/opengis/feature/simple/SimpleFeatureType;:1105 - InsertUnaryOp IINC 1 i
+179	InsertUnaryOp	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Ljava/util/List;)Lorg/opengis/feature/simple/SimpleFeatureType;:1105 - InsertUnaryOp IINC -1 i
+180	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Ljava/util/List;)Lorg/opengis/feature/simple/SimpleFeatureType;:1110 - ReplaceComparisonOperator = null -> != null
+181	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Ljava/util/List;)Lorg/opengis/feature/simple/SimpleFeatureType;:1110 - ReplaceComparisonOperator == -> -2
+182	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Ljava/util/List;)Lorg/opengis/feature/simple/SimpleFeatureType;:1110 - ReplaceComparisonOperator == -> >=
+183	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Ljava/util/List;)Lorg/opengis/feature/simple/SimpleFeatureType;:1110 - ReplaceComparisonOperator == -> <=
+184	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/referencing/crs/CoordinateReferenceSystem;)Lorg/opengis/feature/simple/SimpleFeatureType;:1135 - ReplaceComparisonOperator == -> -2
+185	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/referencing/crs/CoordinateReferenceSystem;)Lorg/opengis/feature/simple/SimpleFeatureType;:1135 - ReplaceComparisonOperator == -> >=
+186	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/referencing/crs/CoordinateReferenceSystem;)Lorg/opengis/feature/simple/SimpleFeatureType;:1135 - ReplaceComparisonOperator == -> <=
+187	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/referencing/crs/CoordinateReferenceSystem;)Lorg/opengis/feature/simple/SimpleFeatureType;:1136 - ReplaceComparisonOperator == -> -2
+188	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/referencing/crs/CoordinateReferenceSystem;)Lorg/opengis/feature/simple/SimpleFeatureType;:1136 - ReplaceComparisonOperator == -> >=
+189	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/opengis/referencing/crs/CoordinateReferenceSystem;)Lorg/opengis/feature/simple/SimpleFeatureType;:1136 - ReplaceComparisonOperator == -> <=
+190	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/geotools/data/Query;)Lorg/opengis/feature/simple/SimpleFeatureType;:1157 - ReplaceComparisonOperator = null -> != null
+191	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.retype(Lorg/opengis/feature/simple/SimpleFeatureType;Lorg/geotools/data/Query;)Lorg/opengis/feature/simple/SimpleFeatureType;:1160 - ReplaceComparisonOperator = null -> != null
+192	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.copy(Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/opengis/feature/simple/SimpleFeatureType;:1188 - ReplaceComparisonOperator == -> -2
+193	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.copy(Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/opengis/feature/simple/SimpleFeatureType;:1188 - ReplaceComparisonOperator == -> >=
+194	ReplaceComparisonOperator	org.geotools.feature.simple.SimpleFeatureTypeBuilder.copy(Lorg/opengis/feature/simple/SimpleFeatureType;)Lorg/opengis/feature/simple/SimpleFeatureType;:1188 - ReplaceComparisonOperator == -> <=

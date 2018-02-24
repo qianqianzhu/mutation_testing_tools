@@ -1,0 +1,34 @@
+0|ReplaceConstant|br.com.caelum.vraptor.VRaptor.init(Ljavax/servlet/FilterConfig;)V:96 - ReplaceConstant - VRaptor {} successfuly initialized -> 
+1|ReplaceConstant|br.com.caelum.vraptor.VRaptor.init(Ljavax/servlet/FilterConfig;)V:96 - ReplaceConstant - 4.2.0-RC5-SNAPSHOT -> 
+2|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V:108 - ReplaceComparisonOperator == -> -2
+3|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V:108 - ReplaceComparisonOperator == -> >=
+4|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V:108 - ReplaceComparisonOperator == -> <=
+5|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V:113 - ReplaceComparisonOperator == -> -2
+6|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V:113 - ReplaceComparisonOperator == -> >=
+7|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V:113 - ReplaceComparisonOperator == -> <=
+8|ReplaceConstant|br.com.caelum.vraptor.VRaptor.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V:116 - ReplaceConstant - VRaptor received a new request {} -> 
+9|ReplaceConstant|br.com.caelum.vraptor.VRaptor.doFilter(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V:130 - ReplaceConstant - VRaptor ended the request -> 
+10|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.validateServletEnvironment(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V:140 - ReplaceComparisonOperator == -> -2
+11|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.validateServletEnvironment(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V:140 - ReplaceComparisonOperator == -> >=
+12|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.validateServletEnvironment(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V:140 - ReplaceComparisonOperator == -> <=
+13|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.validateServletEnvironment(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V:140 - ReplaceComparisonOperator != -> -1
+14|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.validateServletEnvironment(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V:140 - ReplaceComparisonOperator != -> <
+15|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.validateServletEnvironment(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V:140 - ReplaceComparisonOperator != -> >
+16|ReplaceConstant|br.com.caelum.vraptor.VRaptor.validateServletEnvironment(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;)V:141 - ReplaceConstant - VRaptor must be run inside a Servlet environment. Portlets and others aren't supported. -> 
+17|ReplaceConstant|br.com.caelum.vraptor.VRaptor.warnIfBeansXmlIsNotFound()V:147 - ReplaceConstant - /WEB-INF/beans.xml -> 
+18|ReplaceConstant|br.com.caelum.vraptor.VRaptor.warnIfBeansXmlIsNotFound()V:148 - ReplaceConstant - /WEB-INF/classes/META-INF/beans.xml -> 
+19|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.warnIfBeansXmlIsNotFound()V:150 - ReplaceComparisonOperator != null -> = null
+20|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.warnIfBeansXmlIsNotFound()V:150 - ReplaceComparisonOperator != null -> = null
+21|ReplaceConstant|br.com.caelum.vraptor.VRaptor.warnIfBeansXmlIsNotFound()V:151 - ReplaceConstant - A beans.xml isn't found. Check if is properly located at /WEB-INF/beans.xml or /WEB-INF/classes/META-INF/beans.xml -> 
+22|ReplaceConstant|br.com.caelum.vraptor.VRaptor.getResource(Ljava/lang/String;)Ljava/net/URL;:160 - ReplaceConstant - Something went wrong when trying to locate a beans.xml file -> 
+23|ReplaceConstant|br.com.caelum.vraptor.VRaptor.validateJavaEE7Environment()V:170 - ReplaceConstant - VRaptor only runs under Java EE 7 environment or Servlet Containers that supports Servlets 3 with CDI 1.1 jars. -> 
+24|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.validateIfCdiIsFound()V:176 - ReplaceComparisonOperator != null -> = null
+25|ReplaceConstant|br.com.caelum.vraptor.VRaptor.validateIfCdiIsFound()V:177 - ReplaceConstant - Dependencies were not set. Do you have a Weld/CDI listener setup in your web.xml? -> 
+26|ReplaceConstant|br.com.caelum.vraptor.VRaptor.isWebsocketRequest(Ljavax/servlet/http/HttpServletRequest;)Z:186 - ReplaceConstant - Upgrade -> 
+27|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.isWebsocketRequest(Ljavax/servlet/http/HttpServletRequest;)Z:187 - ReplaceComparisonOperator = null -> != null
+28|ReplaceConstant|br.com.caelum.vraptor.VRaptor.isWebsocketRequest(Ljavax/servlet/http/HttpServletRequest;)Z:187 - ReplaceConstant - websocket -> 
+29|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.isWebsocketRequest(Ljavax/servlet/http/HttpServletRequest;)Z:187 - ReplaceComparisonOperator == -> -2
+30|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.isWebsocketRequest(Ljavax/servlet/http/HttpServletRequest;)Z:187 - ReplaceComparisonOperator == -> >=
+31|ReplaceComparisonOperator|br.com.caelum.vraptor.VRaptor.isWebsocketRequest(Ljavax/servlet/http/HttpServletRequest;)Z:187 - ReplaceComparisonOperator == -> <=
+32|ReplaceConstant|br.com.caelum.vraptor.VRaptor.isWebsocketRequest(Ljavax/servlet/http/HttpServletRequest;)Z:187 - ReplaceConstant - 1 -> 0
+33|ReplaceConstant|br.com.caelum.vraptor.VRaptor.isWebsocketRequest(Ljavax/servlet/http/HttpServletRequest;)Z:187 - ReplaceConstant - 0 -> 1

@@ -1,0 +1,54 @@
+0	ReplaceComparisonOperator	org.assertj.core.util.URLs.contentOf(Ljava/net/URL;Ljava/lang/String;)Ljava/lang/String;:45 - ReplaceComparisonOperator != -> -1
+1	ReplaceComparisonOperator	org.assertj.core.util.URLs.contentOf(Ljava/net/URL;Ljava/lang/String;)Ljava/lang/String;:45 - ReplaceComparisonOperator != -> <
+2	ReplaceComparisonOperator	org.assertj.core.util.URLs.contentOf(Ljava/net/URL;Ljava/lang/String;)Ljava/lang/String;:45 - ReplaceComparisonOperator != -> >
+3	ReplaceConstant	org.assertj.core.util.URLs.contentOf(Ljava/net/URL;Ljava/lang/String;)Ljava/lang/String;:46 - ReplaceConstant - Charset:<'%s'> is not supported on this system -> 
+4	ReplaceConstant	org.assertj.core.util.URLs.contentOf(Ljava/net/URL;Ljava/lang/String;)Ljava/lang/String;:46 - ReplaceConstant - 1 -> 0
+5	ReplaceConstant	org.assertj.core.util.URLs.contentOf(Ljava/net/URL;Ljava/lang/String;)Ljava/lang/String;:46 - ReplaceConstant - 0 -> 1
+6	ReplaceConstant	org.assertj.core.util.URLs.contentOf(Ljava/net/URL;Ljava/nio/charset/Charset;)Ljava/lang/String;:61 - ReplaceConstant - The charset should not be null -> 
+7	ReplaceConstant	org.assertj.core.util.URLs.contentOf(Ljava/net/URL;Ljava/nio/charset/Charset;)Ljava/lang/String;:65 - ReplaceConstant - Unable to read  -> 
+8	ReplaceConstant	org.assertj.core.util.URLs.linesOf(Ljava/net/URL;Ljava/nio/charset/Charset;)Ljava/util/List;:80 - ReplaceConstant - The charset should not be null -> 
+9	ReplaceConstant	org.assertj.core.util.URLs.linesOf(Ljava/net/URL;Ljava/nio/charset/Charset;)Ljava/util/List;:84 - ReplaceConstant - Unable to read  -> 
+10	ReplaceComparisonOperator	org.assertj.core.util.URLs.linesOf(Ljava/net/URL;Ljava/lang/String;)Ljava/util/List;:99 - ReplaceComparisonOperator != -> -1
+11	ReplaceComparisonOperator	org.assertj.core.util.URLs.linesOf(Ljava/net/URL;Ljava/lang/String;)Ljava/util/List;:99 - ReplaceComparisonOperator != -> <
+12	ReplaceComparisonOperator	org.assertj.core.util.URLs.linesOf(Ljava/net/URL;Ljava/lang/String;)Ljava/util/List;:99 - ReplaceComparisonOperator != -> >
+13	ReplaceConstant	org.assertj.core.util.URLs.linesOf(Ljava/net/URL;Ljava/lang/String;)Ljava/util/List;:100 - ReplaceConstant - Charset:<'%s'> is not supported on this system -> 
+14	ReplaceConstant	org.assertj.core.util.URLs.linesOf(Ljava/net/URL;Ljava/lang/String;)Ljava/util/List;:100 - ReplaceConstant - 1 -> 0
+15	ReplaceConstant	org.assertj.core.util.URLs.linesOf(Ljava/net/URL;Ljava/lang/String;)Ljava/util/List;:100 - ReplaceConstant - 0 -> 1
+16	ReplaceConstant	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:107 - ReplaceConstant - 1 -> 0
+17	ReplaceConstant	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:111 - ReplaceConstant - -1 -> 0
+18	ReplaceConstant	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:111 - ReplaceConstant - -1 -> 1
+19	ReplaceConstant	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:111 - ReplaceConstant - -1 -> -2
+20	ReplaceComparisonOperator	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:111 - ReplaceComparisonOperator == -> -2
+21	ReplaceComparisonOperator	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:111 - ReplaceComparisonOperator == -> >=
+22	ReplaceComparisonOperator	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:111 - ReplaceComparisonOperator == -> <=
+23	InsertUnaryOp	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:112 - InsertUnaryOp Negation of c
+24	InsertUnaryOp	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:112 - InsertUnaryOp IINC 1 c
+25	InsertUnaryOp	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:112 - InsertUnaryOp IINC -1 c
+26	ReplaceConstant	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:114 - ReplaceConstant - 0 -> 1
+27	InsertUnaryOp	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:120 - InsertUnaryOp Negation of threw
+28	InsertUnaryOp	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:120 - InsertUnaryOp IINC 1 threw
+29	InsertUnaryOp	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:120 - InsertUnaryOp IINC -1 threw
+30	ReplaceComparisonOperator	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:120 - ReplaceComparisonOperator != -> -1
+31	ReplaceComparisonOperator	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:120 - ReplaceComparisonOperator != -> <
+32	ReplaceComparisonOperator	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:120 - ReplaceComparisonOperator != -> >
+33	InsertUnaryOp	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:120 - InsertUnaryOp Negation of threw
+34	InsertUnaryOp	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:120 - InsertUnaryOp IINC 1 threw
+35	InsertUnaryOp	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:120 - InsertUnaryOp IINC -1 threw
+36	ReplaceComparisonOperator	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:120 - ReplaceComparisonOperator != -> -1
+37	ReplaceComparisonOperator	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:120 - ReplaceComparisonOperator != -> <
+38	ReplaceComparisonOperator	org.assertj.core.util.URLs.loadContents(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/lang/String;:120 - ReplaceComparisonOperator != -> >
+39	ReplaceConstant	org.assertj.core.util.URLs.loadLines(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/util/List;:130 - ReplaceConstant - 1 -> 0
+40	ReplaceComparisonOperator	org.assertj.core.util.URLs.loadLines(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/util/List;:135 - ReplaceComparisonOperator = null -> != null
+41	ReplaceConstant	org.assertj.core.util.URLs.loadLines(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/util/List;:140 - ReplaceConstant - 0 -> 1
+42	InsertUnaryOp	org.assertj.core.util.URLs.loadLines(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/util/List;:147 - InsertUnaryOp Negation of threw
+43	InsertUnaryOp	org.assertj.core.util.URLs.loadLines(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/util/List;:147 - InsertUnaryOp IINC 1 threw
+44	InsertUnaryOp	org.assertj.core.util.URLs.loadLines(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/util/List;:147 - InsertUnaryOp IINC -1 threw
+45	ReplaceComparisonOperator	org.assertj.core.util.URLs.loadLines(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/util/List;:147 - ReplaceComparisonOperator != -> -1
+46	ReplaceComparisonOperator	org.assertj.core.util.URLs.loadLines(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/util/List;:147 - ReplaceComparisonOperator != -> <
+47	ReplaceComparisonOperator	org.assertj.core.util.URLs.loadLines(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/util/List;:147 - ReplaceComparisonOperator != -> >
+48	InsertUnaryOp	org.assertj.core.util.URLs.loadLines(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/util/List;:147 - InsertUnaryOp Negation of threw
+49	InsertUnaryOp	org.assertj.core.util.URLs.loadLines(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/util/List;:147 - InsertUnaryOp IINC 1 threw
+50	InsertUnaryOp	org.assertj.core.util.URLs.loadLines(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/util/List;:147 - InsertUnaryOp IINC -1 threw
+51	ReplaceComparisonOperator	org.assertj.core.util.URLs.loadLines(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/util/List;:147 - ReplaceComparisonOperator != -> -1
+52	ReplaceComparisonOperator	org.assertj.core.util.URLs.loadLines(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/util/List;:147 - ReplaceComparisonOperator != -> <
+53	ReplaceComparisonOperator	org.assertj.core.util.URLs.loadLines(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Ljava/util/List;:147 - ReplaceComparisonOperator != -> >

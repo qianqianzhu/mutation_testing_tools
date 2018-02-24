@@ -1,0 +1,55 @@
+0	InsertUnaryOp	org.dynjs.parser.ast.RelationalExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:15 - InsertUnaryOp Negation of strict
+1	InsertUnaryOp	org.dynjs.parser.ast.RelationalExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:15 - InsertUnaryOp IINC 1 strict
+2	InsertUnaryOp	org.dynjs.parser.ast.RelationalExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:15 - InsertUnaryOp IINC -1 strict
+3	InsertUnaryOp	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:20 - InsertUnaryOp Negation of debug
+4	InsertUnaryOp	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:20 - InsertUnaryOp IINC 1 debug
+5	InsertUnaryOp	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:20 - InsertUnaryOp IINC -1 debug
+6	InsertUnaryOp	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:21 - InsertUnaryOp Negation of debug
+7	InsertUnaryOp	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:21 - InsertUnaryOp IINC 1 debug
+8	InsertUnaryOp	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:21 - InsertUnaryOp IINC -1 debug
+9	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - -1 -> 0
+10	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - -1 -> 1
+11	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - -1 -> -2
+12	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - < -> 
+13	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceComparisonOperator == -> -2
+14	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceComparisonOperator == -> >=
+15	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceComparisonOperator == -> <=
+16	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - 0 -> 1
+17	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - > -> 
+18	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceComparisonOperator == -> -2
+19	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceComparisonOperator == -> >=
+20	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceComparisonOperator == -> <=
+21	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - 1 -> 0
+22	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - <= -> 
+23	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceComparisonOperator == -> -2
+24	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceComparisonOperator == -> >=
+25	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceComparisonOperator == -> <=
+26	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - 2 -> 0
+27	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - 2 -> 1
+28	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - 2 -> -1
+29	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - 2 -> 3
+30	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - >= -> 
+31	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceComparisonOperator == -> -2
+32	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceComparisonOperator == -> >=
+33	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceComparisonOperator == -> <=
+34	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - 3 -> 0
+35	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - 3 -> 1
+36	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - 3 -> -1
+37	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - 3 -> 2
+38	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:24 - ReplaceConstant - 3 -> 4
+39	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:26 - ReplaceConstant - 1 -> 0
+40	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:27 - ReplaceComparisonOperator != -> ==
+41	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:28 - ReplaceConstant - 0 -> 1
+42	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:34 - ReplaceConstant - 0 -> 1
+43	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:35 - ReplaceComparisonOperator != -> ==
+44	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:36 - ReplaceConstant - 0 -> 1
+45	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:42 - ReplaceConstant - 0 -> 1
+46	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:43 - ReplaceComparisonOperator == -> !=
+47	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:43 - ReplaceComparisonOperator != -> ==
+48	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:44 - ReplaceConstant - 0 -> 1
+49	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:46 - ReplaceConstant - 1 -> 0
+50	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:50 - ReplaceConstant - 1 -> 0
+51	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:51 - ReplaceComparisonOperator == -> !=
+52	ReplaceComparisonOperator	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:51 - ReplaceComparisonOperator != -> ==
+53	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:52 - ReplaceConstant - 0 -> 1
+54	ReplaceConstant	org.dynjs.parser.ast.RelationalExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:54 - ReplaceConstant - 1 -> 0

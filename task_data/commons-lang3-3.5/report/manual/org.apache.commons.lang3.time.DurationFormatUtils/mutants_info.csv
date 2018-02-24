@@ -1,0 +1,919 @@
+0	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationHMS(J)Ljava/lang/String;:82 - InsertUnaryOp Negation of durationMillis
+1	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationHMS(J)Ljava/lang/String;:82 - ReplaceConstant - HH:mm:ss.SSS -> 
+2	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationISO(J)Ljava/lang/String;:98 - InsertUnaryOp Negation of durationMillis
+3	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationISO(J)Ljava/lang/String;:98 - ReplaceConstant - 'P'yyyy'Y'M'M'd'DT'H'H'm'M's.SSS'S' -> 
+4	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationISO(J)Ljava/lang/String;:98 - ReplaceConstant - 0 -> 1
+5	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;)Ljava/lang/String;:113 - InsertUnaryOp Negation of durationMillis
+6	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;)Ljava/lang/String;:113 - ReplaceConstant - 1 -> 0
+7	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:130 - ReplaceConstant - 0 -> 1
+8	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:130 - ReplaceConstant - 0 -> -1
+9	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:130 - ReplaceConstant - 9223372036854775807 -> 0
+10	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:130 - ReplaceConstant - 9223372036854775807 -> 1
+11	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:130 - ReplaceConstant - 9223372036854775807 -> -1
+12	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:130 - ReplaceConstant - 9223372036854775807 -> 9223372036854775806
+13	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:130 - ReplaceConstant - 9223372036854775807 -> -9223372036854775808
+14	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:130 - InsertUnaryOp Negation of durationMillis
+15	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:130 - ReplaceConstant - durationMillis must not be negative -> 
+16	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:134 - ReplaceConstant - 0 -> 1
+17	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:134 - ReplaceConstant - 0 -> -1
+18	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:135 - ReplaceConstant - 0 -> 1
+19	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:135 - ReplaceConstant - 0 -> -1
+20	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:136 - ReplaceConstant - 0 -> 1
+21	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:136 - ReplaceConstant - 0 -> -1
+22	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:137 - ReplaceConstant - 0 -> 1
+23	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:137 - ReplaceConstant - 0 -> -1
+24	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:138 - InsertUnaryOp Negation of durationMillis
+25	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:140 - ReplaceComparisonOperator == -> -2
+26	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:140 - ReplaceComparisonOperator == -> >=
+27	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:140 - ReplaceComparisonOperator == -> <=
+28	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:141 - InsertUnaryOp Negation of milliseconds
+29	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:141 - ReplaceConstant - 86400000 -> 0
+30	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:141 - ReplaceConstant - 86400000 -> 1
+31	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:141 - ReplaceConstant - 86400000 -> -1
+32	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:141 - ReplaceConstant - 86400000 -> 86399999
+33	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:141 - ReplaceConstant - 86400000 -> 86400001
+34	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:141 - ReplaceArithmeticOperator / -> +
+35	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:141 - ReplaceArithmeticOperator / -> %
+36	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:141 - ReplaceArithmeticOperator / -> -
+37	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:141 - ReplaceArithmeticOperator / -> *
+38	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:142 - InsertUnaryOp Negation of milliseconds
+39	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:142 - InsertUnaryOp Negation of days
+40	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:142 - ReplaceConstant - 86400000 -> 0
+41	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:142 - ReplaceConstant - 86400000 -> 1
+42	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:142 - ReplaceConstant - 86400000 -> -1
+43	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:142 - ReplaceConstant - 86400000 -> 86399999
+44	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:142 - ReplaceConstant - 86400000 -> 86400001
+45	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:142 - ReplaceArithmeticOperator * -> +
+46	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:142 - ReplaceArithmeticOperator * -> %
+47	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:142 - ReplaceArithmeticOperator * -> -
+48	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:142 - ReplaceArithmeticOperator * -> /
+49	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:142 - ReplaceArithmeticOperator - -> +
+50	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:142 - ReplaceArithmeticOperator - -> %
+51	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:142 - ReplaceArithmeticOperator - -> *
+52	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:142 - ReplaceArithmeticOperator - -> /
+53	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:144 - ReplaceComparisonOperator == -> -2
+54	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:144 - ReplaceComparisonOperator == -> >=
+55	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:144 - ReplaceComparisonOperator == -> <=
+56	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:145 - InsertUnaryOp Negation of milliseconds
+57	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:145 - ReplaceConstant - 3600000 -> 0
+58	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:145 - ReplaceConstant - 3600000 -> 1
+59	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:145 - ReplaceConstant - 3600000 -> -1
+60	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:145 - ReplaceConstant - 3600000 -> 3599999
+61	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:145 - ReplaceConstant - 3600000 -> 3600001
+62	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:145 - ReplaceArithmeticOperator / -> +
+63	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:145 - ReplaceArithmeticOperator / -> %
+64	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:145 - ReplaceArithmeticOperator / -> -
+65	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:145 - ReplaceArithmeticOperator / -> *
+66	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:146 - InsertUnaryOp Negation of milliseconds
+67	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:146 - InsertUnaryOp Negation of hours
+68	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:146 - ReplaceConstant - 3600000 -> 0
+69	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:146 - ReplaceConstant - 3600000 -> 1
+70	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:146 - ReplaceConstant - 3600000 -> -1
+71	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:146 - ReplaceConstant - 3600000 -> 3599999
+72	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:146 - ReplaceConstant - 3600000 -> 3600001
+73	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:146 - ReplaceArithmeticOperator * -> +
+74	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:146 - ReplaceArithmeticOperator * -> %
+75	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:146 - ReplaceArithmeticOperator * -> -
+76	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:146 - ReplaceArithmeticOperator * -> /
+77	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:146 - ReplaceArithmeticOperator - -> +
+78	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:146 - ReplaceArithmeticOperator - -> %
+79	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:146 - ReplaceArithmeticOperator - -> *
+80	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:146 - ReplaceArithmeticOperator - -> /
+81	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:148 - ReplaceComparisonOperator == -> -2
+82	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:148 - ReplaceComparisonOperator == -> >=
+83	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:148 - ReplaceComparisonOperator == -> <=
+84	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:149 - InsertUnaryOp Negation of milliseconds
+85	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:149 - ReplaceConstant - 60000 -> 0
+86	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:149 - ReplaceConstant - 60000 -> 1
+87	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:149 - ReplaceConstant - 60000 -> -1
+88	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:149 - ReplaceConstant - 60000 -> 59999
+89	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:149 - ReplaceConstant - 60000 -> 60001
+90	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:149 - ReplaceArithmeticOperator / -> +
+91	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:149 - ReplaceArithmeticOperator / -> %
+92	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:149 - ReplaceArithmeticOperator / -> -
+93	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:149 - ReplaceArithmeticOperator / -> *
+94	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:150 - InsertUnaryOp Negation of milliseconds
+95	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:150 - InsertUnaryOp Negation of minutes
+96	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:150 - ReplaceConstant - 60000 -> 0
+97	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:150 - ReplaceConstant - 60000 -> 1
+98	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:150 - ReplaceConstant - 60000 -> -1
+99	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:150 - ReplaceConstant - 60000 -> 59999
+100	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:150 - ReplaceConstant - 60000 -> 60001
+101	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:150 - ReplaceArithmeticOperator * -> +
+102	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:150 - ReplaceArithmeticOperator * -> %
+103	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:150 - ReplaceArithmeticOperator * -> -
+104	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:150 - ReplaceArithmeticOperator * -> /
+105	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:150 - ReplaceArithmeticOperator - -> +
+106	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:150 - ReplaceArithmeticOperator - -> %
+107	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:150 - ReplaceArithmeticOperator - -> *
+108	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:150 - ReplaceArithmeticOperator - -> /
+109	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:152 - ReplaceComparisonOperator == -> -2
+110	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:152 - ReplaceComparisonOperator == -> >=
+111	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:152 - ReplaceComparisonOperator == -> <=
+112	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:153 - InsertUnaryOp Negation of milliseconds
+113	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:153 - ReplaceConstant - 1000 -> 0
+114	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:153 - ReplaceConstant - 1000 -> 1
+115	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:153 - ReplaceConstant - 1000 -> -1
+116	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:153 - ReplaceConstant - 1000 -> 999
+117	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:153 - ReplaceConstant - 1000 -> 1001
+118	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:153 - ReplaceArithmeticOperator / -> +
+119	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:153 - ReplaceArithmeticOperator / -> %
+120	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:153 - ReplaceArithmeticOperator / -> -
+121	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:153 - ReplaceArithmeticOperator / -> *
+122	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:154 - InsertUnaryOp Negation of milliseconds
+123	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:154 - InsertUnaryOp Negation of seconds
+124	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:154 - ReplaceConstant - 1000 -> 0
+125	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:154 - ReplaceConstant - 1000 -> 1
+126	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:154 - ReplaceConstant - 1000 -> -1
+127	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:154 - ReplaceConstant - 1000 -> 999
+128	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:154 - ReplaceConstant - 1000 -> 1001
+129	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:154 - ReplaceArithmeticOperator * -> +
+130	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:154 - ReplaceArithmeticOperator * -> %
+131	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:154 - ReplaceArithmeticOperator * -> -
+132	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:154 - ReplaceArithmeticOperator * -> /
+133	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:154 - ReplaceArithmeticOperator - -> +
+134	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:154 - ReplaceArithmeticOperator - -> %
+135	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:154 - ReplaceArithmeticOperator - -> *
+136	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:154 - ReplaceArithmeticOperator - -> /
+137	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:157 - ReplaceConstant - 0 -> 1
+138	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:157 - ReplaceConstant - 0 -> -1
+139	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:157 - ReplaceConstant - 0 -> 1
+140	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:157 - ReplaceConstant - 0 -> -1
+141	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:157 - InsertUnaryOp Negation of days
+142	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:157 - InsertUnaryOp Negation of hours
+143	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:157 - InsertUnaryOp Negation of minutes
+144	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:157 - InsertUnaryOp Negation of seconds
+145	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:157 - InsertUnaryOp Negation of milliseconds
+146	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:157 - InsertUnaryOp Negation of padWithZeros
+147	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:157 - InsertUnaryOp IINC 1 padWithZeros
+148	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDuration(JLjava/lang/String;Z)Ljava/lang/String;:157 - InsertUnaryOp IINC -1 padWithZeros
+149	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:180 - InsertUnaryOp Negation of durationMillis
+150	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:180 - ReplaceConstant - d' days 'H' hours 'm' minutes 's' seconds' -> 
+151	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:181 - InsertUnaryOp Negation of suppressLeadingZeroElements
+152	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:181 - InsertUnaryOp IINC 1 suppressLeadingZeroElements
+153	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:181 - InsertUnaryOp IINC -1 suppressLeadingZeroElements
+154	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:181 - ReplaceComparisonOperator == -> -2
+155	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:181 - ReplaceComparisonOperator == -> >=
+156	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:181 - ReplaceComparisonOperator == -> <=
+157	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:183 - ReplaceConstant -   -> 
+158	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:184 - ReplaceConstant -  0 days -> 
+159	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:185 - ReplaceComparisonOperator == -> -2
+160	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:185 - ReplaceComparisonOperator == -> >=
+161	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:185 - ReplaceComparisonOperator == -> <=
+162	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:187 - ReplaceConstant -  0 hours -> 
+163	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:188 - ReplaceComparisonOperator == -> -2
+164	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:188 - ReplaceComparisonOperator == -> >=
+165	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:188 - ReplaceComparisonOperator == -> <=
+166	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:190 - ReplaceConstant -  0 minutes -> 
+167	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:192 - ReplaceComparisonOperator == -> -2
+168	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:192 - ReplaceComparisonOperator == -> >=
+169	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:192 - ReplaceComparisonOperator == -> <=
+170	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:193 - ReplaceConstant -  0 seconds -> 
+171	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:197 - ReplaceComparisonOperator == -> -2
+172	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:197 - ReplaceComparisonOperator == -> >=
+173	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:197 - ReplaceComparisonOperator == -> <=
+174	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:199 - ReplaceConstant - 1 -> 0
+175	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:202 - InsertUnaryOp Negation of suppressTrailingZeroElements
+176	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:202 - InsertUnaryOp IINC 1 suppressTrailingZeroElements
+177	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:202 - InsertUnaryOp IINC -1 suppressTrailingZeroElements
+178	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:202 - ReplaceComparisonOperator == -> -2
+179	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:202 - ReplaceComparisonOperator == -> >=
+180	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:202 - ReplaceComparisonOperator == -> <=
+181	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:203 - ReplaceConstant -  0 seconds -> 
+182	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:204 - ReplaceComparisonOperator == -> -2
+183	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:204 - ReplaceComparisonOperator == -> >=
+184	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:204 - ReplaceComparisonOperator == -> <=
+185	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:206 - ReplaceConstant -  0 minutes -> 
+186	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:207 - ReplaceComparisonOperator == -> -2
+187	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:207 - ReplaceComparisonOperator == -> >=
+188	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:207 - ReplaceComparisonOperator == -> <=
+189	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:209 - ReplaceConstant -  0 hours -> 
+190	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:210 - ReplaceComparisonOperator == -> -2
+191	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:210 - ReplaceComparisonOperator == -> >=
+192	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:210 - ReplaceComparisonOperator == -> <=
+193	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:211 - ReplaceConstant -  0 days -> 
+194	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:217 - ReplaceConstant -   -> 
+195	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:218 - ReplaceConstant -  1 seconds -> 
+196	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:218 - ReplaceConstant -  1 second -> 
+197	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:219 - ReplaceConstant -  1 minutes -> 
+198	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:219 - ReplaceConstant -  1 minute -> 
+199	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:220 - ReplaceConstant -  1 hours -> 
+200	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:220 - ReplaceConstant -  1 hour -> 
+201	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:221 - ReplaceConstant -  1 days -> 
+202	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatDurationWords(JZZ)Ljava/lang/String;:221 - ReplaceConstant -  1 day -> 
+203	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriodISO(JJ)Ljava/lang/String;:237 - InsertUnaryOp Negation of startMillis
+204	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriodISO(JJ)Ljava/lang/String;:237 - InsertUnaryOp Negation of endMillis
+205	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriodISO(JJ)Ljava/lang/String;:237 - ReplaceConstant - 'P'yyyy'Y'M'M'd'DT'H'H'm'M's.SSS'S' -> 
+206	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriodISO(JJ)Ljava/lang/String;:237 - ReplaceConstant - 0 -> 1
+207	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;)Ljava/lang/String;:251 - InsertUnaryOp Negation of startMillis
+208	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;)Ljava/lang/String;:251 - InsertUnaryOp Negation of endMillis
+209	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;)Ljava/lang/String;:251 - ReplaceConstant - 1 -> 0
+210	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:280 - InsertUnaryOp Negation of startMillis
+211	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:280 - InsertUnaryOp Negation of endMillis
+212	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:280 - ReplaceComparisonOperator > -> -2
+213	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:280 - ReplaceComparisonOperator > -> !=
+214	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:280 - ReplaceComparisonOperator > -> >=
+215	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:280 - ReplaceConstant - 1 -> 0
+216	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:280 - ReplaceConstant - 0 -> 1
+217	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:280 - ReplaceConstant - startMillis must not be greater than endMillis -> 
+218	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:280 - ReplaceConstant - 0 -> 1
+219	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:294 - InsertUnaryOp Negation of startMillis
+220	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:296 - InsertUnaryOp Negation of endMillis
+221	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:299 - ReplaceConstant - 14 -> 0
+222	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:299 - ReplaceConstant - 14 -> 1
+223	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:299 - ReplaceConstant - 14 -> -1
+224	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:299 - ReplaceConstant - 14 -> 13
+225	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:299 - ReplaceConstant - 14 -> 15
+226	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:299 - ReplaceConstant - 14 -> 0
+227	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:299 - ReplaceConstant - 14 -> 1
+228	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:299 - ReplaceConstant - 14 -> -1
+229	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:299 - ReplaceConstant - 14 -> 13
+230	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:299 - ReplaceConstant - 14 -> 15
+231	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:299 - ReplaceArithmeticOperator - -> +
+232	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:299 - ReplaceArithmeticOperator - -> %
+233	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:299 - ReplaceArithmeticOperator - -> *
+234	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:299 - ReplaceArithmeticOperator - -> /
+235	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:300 - ReplaceConstant - 13 -> 0
+236	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:300 - ReplaceConstant - 13 -> 1
+237	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:300 - ReplaceConstant - 13 -> -1
+238	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:300 - ReplaceConstant - 13 -> 12
+239	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:300 - ReplaceConstant - 13 -> 14
+240	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:300 - ReplaceConstant - 13 -> 0
+241	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:300 - ReplaceConstant - 13 -> 1
+242	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:300 - ReplaceConstant - 13 -> -1
+243	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:300 - ReplaceConstant - 13 -> 12
+244	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:300 - ReplaceConstant - 13 -> 14
+245	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:300 - ReplaceArithmeticOperator - -> +
+246	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:300 - ReplaceArithmeticOperator - -> %
+247	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:300 - ReplaceArithmeticOperator - -> *
+248	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:300 - ReplaceArithmeticOperator - -> /
+249	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:301 - ReplaceConstant - 12 -> 0
+250	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:301 - ReplaceConstant - 12 -> 1
+251	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:301 - ReplaceConstant - 12 -> -1
+252	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:301 - ReplaceConstant - 12 -> 11
+253	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:301 - ReplaceConstant - 12 -> 13
+254	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:301 - ReplaceConstant - 12 -> 0
+255	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:301 - ReplaceConstant - 12 -> 1
+256	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:301 - ReplaceConstant - 12 -> -1
+257	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:301 - ReplaceConstant - 12 -> 11
+258	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:301 - ReplaceConstant - 12 -> 13
+259	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:301 - ReplaceArithmeticOperator - -> +
+260	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:301 - ReplaceArithmeticOperator - -> %
+261	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:301 - ReplaceArithmeticOperator - -> *
+262	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:301 - ReplaceArithmeticOperator - -> /
+263	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:302 - ReplaceConstant - 11 -> 0
+264	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:302 - ReplaceConstant - 11 -> 1
+265	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:302 - ReplaceConstant - 11 -> -1
+266	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:302 - ReplaceConstant - 11 -> 10
+267	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:302 - ReplaceConstant - 11 -> 12
+268	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:302 - ReplaceConstant - 11 -> 0
+269	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:302 - ReplaceConstant - 11 -> 1
+270	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:302 - ReplaceConstant - 11 -> -1
+271	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:302 - ReplaceConstant - 11 -> 10
+272	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:302 - ReplaceConstant - 11 -> 12
+273	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:302 - ReplaceArithmeticOperator - -> +
+274	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:302 - ReplaceArithmeticOperator - -> %
+275	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:302 - ReplaceArithmeticOperator - -> *
+276	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:302 - ReplaceArithmeticOperator - -> /
+277	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:303 - ReplaceConstant - 5 -> 0
+278	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:303 - ReplaceConstant - 5 -> 1
+279	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:303 - ReplaceConstant - 5 -> -1
+280	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:303 - ReplaceConstant - 5 -> 4
+281	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:303 - ReplaceConstant - 5 -> 6
+282	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:303 - ReplaceConstant - 5 -> 0
+283	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:303 - ReplaceConstant - 5 -> 1
+284	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:303 - ReplaceConstant - 5 -> -1
+285	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:303 - ReplaceConstant - 5 -> 4
+286	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:303 - ReplaceConstant - 5 -> 6
+287	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:303 - ReplaceArithmeticOperator - -> +
+288	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:303 - ReplaceArithmeticOperator - -> %
+289	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:303 - ReplaceArithmeticOperator - -> *
+290	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:303 - ReplaceArithmeticOperator - -> /
+291	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:304 - ReplaceConstant - 2 -> 0
+292	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:304 - ReplaceConstant - 2 -> 1
+293	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:304 - ReplaceConstant - 2 -> -1
+294	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:304 - ReplaceConstant - 2 -> 3
+295	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:304 - ReplaceConstant - 2 -> 0
+296	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:304 - ReplaceConstant - 2 -> 1
+297	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:304 - ReplaceConstant - 2 -> -1
+298	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:304 - ReplaceConstant - 2 -> 3
+299	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:304 - ReplaceArithmeticOperator - -> +
+300	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:304 - ReplaceArithmeticOperator - -> %
+301	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:304 - ReplaceArithmeticOperator - -> *
+302	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:304 - ReplaceArithmeticOperator - -> /
+303	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:305 - ReplaceConstant - 1 -> 0
+304	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:305 - ReplaceConstant - 1 -> 0
+305	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:305 - ReplaceArithmeticOperator - -> +
+306	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:305 - ReplaceArithmeticOperator - -> %
+307	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:305 - ReplaceArithmeticOperator - -> *
+308	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:305 - ReplaceArithmeticOperator - -> /
+309	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:308 - InsertUnaryOp Negation of milliseconds
+310	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:308 - InsertUnaryOp IINC 1 milliseconds
+311	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:308 - InsertUnaryOp IINC -1 milliseconds
+312	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:308 - ReplaceComparisonOperator >= -> -1
+313	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:308 - ReplaceComparisonOperator >= -> ==
+314	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:308 - ReplaceComparisonOperator >= -> >
+315	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:309 - ReplaceVariable milliseconds -> seconds
+316	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:309 - ReplaceVariable milliseconds -> hours
+317	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:309 - ReplaceVariable milliseconds -> months
+318	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:309 - ReplaceVariable milliseconds -> minutes
+319	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:309 - ReplaceVariable milliseconds -> days
+320	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:309 - ReplaceVariable milliseconds -> years
+321	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:310 - ReplaceVariable seconds -> milliseconds
+322	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:310 - ReplaceVariable seconds -> hours
+323	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:310 - ReplaceVariable seconds -> months
+324	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:310 - ReplaceVariable seconds -> minutes
+325	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:310 - ReplaceVariable seconds -> days
+326	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:310 - ReplaceVariable seconds -> years
+327	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:312 - InsertUnaryOp Negation of seconds
+328	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:312 - InsertUnaryOp IINC 1 seconds
+329	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:312 - InsertUnaryOp IINC -1 seconds
+330	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:312 - ReplaceComparisonOperator >= -> -1
+331	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:312 - ReplaceComparisonOperator >= -> ==
+332	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:312 - ReplaceComparisonOperator >= -> >
+333	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:313 - ReplaceVariable seconds -> milliseconds
+334	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:313 - ReplaceVariable seconds -> hours
+335	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:313 - ReplaceVariable seconds -> months
+336	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:313 - ReplaceVariable seconds -> minutes
+337	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:313 - ReplaceVariable seconds -> days
+338	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:313 - ReplaceVariable seconds -> years
+339	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:314 - ReplaceVariable minutes -> milliseconds
+340	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:314 - ReplaceVariable minutes -> seconds
+341	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:314 - ReplaceVariable minutes -> hours
+342	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:314 - ReplaceVariable minutes -> months
+343	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:314 - ReplaceVariable minutes -> days
+344	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:314 - ReplaceVariable minutes -> years
+345	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:316 - InsertUnaryOp Negation of minutes
+346	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:316 - InsertUnaryOp IINC 1 minutes
+347	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:316 - InsertUnaryOp IINC -1 minutes
+348	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:316 - ReplaceComparisonOperator >= -> -1
+349	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:316 - ReplaceComparisonOperator >= -> ==
+350	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:316 - ReplaceComparisonOperator >= -> >
+351	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:317 - ReplaceVariable minutes -> milliseconds
+352	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:317 - ReplaceVariable minutes -> seconds
+353	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:317 - ReplaceVariable minutes -> hours
+354	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:317 - ReplaceVariable minutes -> months
+355	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:317 - ReplaceVariable minutes -> days
+356	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:317 - ReplaceVariable minutes -> years
+357	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:318 - ReplaceVariable hours -> milliseconds
+358	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:318 - ReplaceVariable hours -> seconds
+359	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:318 - ReplaceVariable hours -> months
+360	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:318 - ReplaceVariable hours -> minutes
+361	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:318 - ReplaceVariable hours -> days
+362	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:318 - ReplaceVariable hours -> years
+363	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:320 - InsertUnaryOp Negation of hours
+364	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:320 - InsertUnaryOp IINC 1 hours
+365	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:320 - InsertUnaryOp IINC -1 hours
+366	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:320 - ReplaceComparisonOperator >= -> -1
+367	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:320 - ReplaceComparisonOperator >= -> ==
+368	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:320 - ReplaceComparisonOperator >= -> >
+369	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:321 - ReplaceVariable hours -> milliseconds
+370	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:321 - ReplaceVariable hours -> seconds
+371	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:321 - ReplaceVariable hours -> months
+372	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:321 - ReplaceVariable hours -> minutes
+373	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:321 - ReplaceVariable hours -> days
+374	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:321 - ReplaceVariable hours -> years
+375	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:322 - ReplaceVariable days -> milliseconds
+376	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:322 - ReplaceVariable days -> seconds
+377	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:322 - ReplaceVariable days -> hours
+378	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:322 - ReplaceVariable days -> months
+379	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:322 - ReplaceVariable days -> minutes
+380	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:322 - ReplaceVariable days -> years
+381	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:325 - ReplaceComparisonOperator == -> -2
+382	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:325 - ReplaceComparisonOperator == -> >=
+383	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:325 - ReplaceComparisonOperator == -> <=
+384	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:326 - InsertUnaryOp Negation of days
+385	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:326 - InsertUnaryOp IINC 1 days
+386	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:326 - InsertUnaryOp IINC -1 days
+387	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:326 - ReplaceComparisonOperator >= -> -1
+388	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:326 - ReplaceComparisonOperator >= -> ==
+389	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:326 - ReplaceComparisonOperator >= -> >
+390	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:327 - InsertUnaryOp Negation of days
+391	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:327 - InsertUnaryOp IINC 1 days
+392	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:327 - InsertUnaryOp IINC -1 days
+393	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:327 - ReplaceConstant - 5 -> 0
+394	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:327 - ReplaceConstant - 5 -> 1
+395	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:327 - ReplaceConstant - 5 -> -1
+396	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:327 - ReplaceConstant - 5 -> 4
+397	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:327 - ReplaceConstant - 5 -> 6
+398	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:327 - ReplaceArithmeticOperator + -> %
+399	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:327 - ReplaceArithmeticOperator + -> -
+400	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:327 - ReplaceArithmeticOperator + -> *
+401	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:327 - ReplaceArithmeticOperator + -> /
+402	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:328 - ReplaceVariable months -> milliseconds
+403	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:328 - ReplaceVariable months -> seconds
+404	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:328 - ReplaceVariable months -> hours
+405	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:328 - ReplaceVariable months -> minutes
+406	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:328 - ReplaceVariable months -> days
+407	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:328 - ReplaceVariable months -> years
+408	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:329 - ReplaceConstant - 2 -> 0
+409	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:329 - ReplaceConstant - 2 -> 1
+410	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:329 - ReplaceConstant - 2 -> -1
+411	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:329 - ReplaceConstant - 2 -> 3
+412	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:329 - ReplaceConstant - 1 -> 0
+413	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:332 - InsertUnaryOp Negation of months
+414	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:332 - InsertUnaryOp IINC 1 months
+415	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:332 - InsertUnaryOp IINC -1 months
+416	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:332 - ReplaceComparisonOperator >= -> -1
+417	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:332 - ReplaceComparisonOperator >= -> ==
+418	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:332 - ReplaceComparisonOperator >= -> >
+419	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:333 - ReplaceVariable months -> milliseconds
+420	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:333 - ReplaceVariable months -> seconds
+421	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:333 - ReplaceVariable months -> hours
+422	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:333 - ReplaceVariable months -> minutes
+423	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:333 - ReplaceVariable months -> days
+424	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:333 - ReplaceVariable months -> years
+425	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:334 - ReplaceVariable years -> milliseconds
+426	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:334 - ReplaceVariable years -> seconds
+427	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:334 - ReplaceVariable years -> hours
+428	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:334 - ReplaceVariable years -> months
+429	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:334 - ReplaceVariable years -> minutes
+430	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:334 - ReplaceVariable years -> days
+431	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:337 - ReplaceComparisonOperator != -> -1
+432	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:337 - ReplaceComparisonOperator != -> <
+433	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:337 - ReplaceComparisonOperator != -> >
+434	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:337 - InsertUnaryOp Negation of years
+435	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:337 - InsertUnaryOp IINC 1 years
+436	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:337 - InsertUnaryOp IINC -1 years
+437	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:337 - ReplaceComparisonOperator == -> -2
+438	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:337 - ReplaceComparisonOperator == -> >=
+439	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:337 - ReplaceComparisonOperator == -> <=
+440	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:338 - InsertUnaryOp Negation of years
+441	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:338 - InsertUnaryOp IINC 1 years
+442	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:338 - InsertUnaryOp IINC -1 years
+443	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:338 - ReplaceComparisonOperator == -> -2
+444	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:338 - ReplaceComparisonOperator == -> >=
+445	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:338 - ReplaceComparisonOperator == -> <=
+446	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - InsertUnaryOp Negation of months
+447	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - InsertUnaryOp IINC 1 months
+448	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - InsertUnaryOp IINC -1 months
+449	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - ReplaceConstant - 12 -> 0
+450	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - ReplaceConstant - 12 -> 1
+451	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - ReplaceConstant - 12 -> -1
+452	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - ReplaceConstant - 12 -> 11
+453	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - ReplaceConstant - 12 -> 13
+454	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - InsertUnaryOp Negation of years
+455	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - InsertUnaryOp IINC 1 years
+456	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - InsertUnaryOp IINC -1 years
+457	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - ReplaceArithmeticOperator * -> +
+458	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - ReplaceArithmeticOperator * -> %
+459	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - ReplaceArithmeticOperator * -> -
+460	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - ReplaceArithmeticOperator * -> /
+461	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - ReplaceArithmeticOperator + -> %
+462	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - ReplaceArithmeticOperator + -> -
+463	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - ReplaceArithmeticOperator + -> *
+464	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:339 - ReplaceArithmeticOperator + -> /
+465	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:340 - ReplaceConstant - 0 -> 1
+466	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:346 - ReplaceComparisonOperator != -> -1
+467	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:346 - ReplaceComparisonOperator != -> <
+468	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:346 - ReplaceComparisonOperator != -> >
+469	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:347 - ReplaceConstant - 1 -> 0
+470	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:348 - InsertUnaryOp Negation of months
+471	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:348 - InsertUnaryOp IINC 1 months
+472	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:348 - InsertUnaryOp IINC -1 months
+473	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:348 - ReplaceComparisonOperator >= -> -1
+474	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:348 - ReplaceComparisonOperator >= -> ==
+475	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:348 - ReplaceComparisonOperator >= -> >
+476	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:350 - ReplaceVariable target -> milliseconds
+477	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:350 - ReplaceVariable target -> seconds
+478	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:350 - ReplaceVariable target -> hours
+479	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:350 - ReplaceVariable target -> months
+480	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:350 - ReplaceVariable target -> minutes
+481	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:350 - ReplaceVariable target -> days
+482	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:350 - ReplaceVariable target -> years
+483	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:353 - ReplaceConstant - 1 -> 0
+484	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:353 - InsertUnaryOp Negation of target
+485	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:353 - InsertUnaryOp IINC 1 target
+486	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:353 - InsertUnaryOp IINC -1 target
+487	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:353 - ReplaceComparisonOperator == -> -2
+488	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:353 - ReplaceComparisonOperator == -> >=
+489	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:353 - ReplaceComparisonOperator == -> <=
+490	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - InsertUnaryOp Negation of days
+491	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - InsertUnaryOp IINC 1 days
+492	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - InsertUnaryOp IINC -1 days
+493	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceConstant - 6 -> 0
+494	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceConstant - 6 -> 1
+495	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceConstant - 6 -> -1
+496	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceConstant - 6 -> 5
+497	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceConstant - 6 -> 7
+498	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceConstant - 6 -> 0
+499	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceConstant - 6 -> 1
+500	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceConstant - 6 -> -1
+501	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceConstant - 6 -> 5
+502	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceConstant - 6 -> 7
+503	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceArithmeticOperator - -> +
+504	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceArithmeticOperator - -> %
+505	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceArithmeticOperator - -> *
+506	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceArithmeticOperator - -> /
+507	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceArithmeticOperator + -> %
+508	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceArithmeticOperator + -> -
+509	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceArithmeticOperator + -> *
+510	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:354 - ReplaceArithmeticOperator + -> /
+511	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:357 - ReplaceComparisonOperator == -> -2
+512	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:357 - ReplaceComparisonOperator == -> >=
+513	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:357 - ReplaceComparisonOperator == -> <=
+514	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:357 - ReplaceConstant - 2 -> 0
+515	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:357 - ReplaceConstant - 2 -> 1
+516	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:357 - ReplaceConstant - 2 -> -1
+517	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:357 - ReplaceConstant - 2 -> 3
+518	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:358 - ReplaceConstant - 1 -> 0
+519	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:358 - ReplaceComparisonOperator != -> -1
+520	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:358 - ReplaceComparisonOperator != -> <
+521	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:358 - ReplaceComparisonOperator != -> >
+522	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:358 - ReplaceConstant - 5 -> 0
+523	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:358 - ReplaceConstant - 5 -> 1
+524	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:358 - ReplaceConstant - 5 -> -1
+525	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:358 - ReplaceConstant - 5 -> 4
+526	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:358 - ReplaceConstant - 5 -> 6
+527	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:359 - ReplaceConstant - 29 -> 0
+528	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:359 - ReplaceConstant - 29 -> 1
+529	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:359 - ReplaceConstant - 29 -> -1
+530	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:359 - ReplaceConstant - 29 -> 28
+531	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:359 - ReplaceConstant - 29 -> 30
+532	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:359 - ReplaceComparisonOperator != -> -1
+533	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:359 - ReplaceComparisonOperator != -> <
+534	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:359 - ReplaceComparisonOperator != -> >
+535	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:360 - ReplaceVariable days -> milliseconds
+536	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:360 - ReplaceVariable days -> seconds
+537	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:360 - ReplaceVariable days -> hours
+538	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:360 - ReplaceVariable days -> months
+539	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:360 - ReplaceVariable days -> minutes
+540	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:360 - ReplaceVariable days -> years
+541	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:360 - ReplaceVariable days -> target
+542	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:363 - ReplaceConstant - 1 -> 0
+543	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:363 - ReplaceConstant - 1 -> 0
+544	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:365 - InsertUnaryOp Negation of days
+545	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:365 - InsertUnaryOp IINC 1 days
+546	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:365 - InsertUnaryOp IINC -1 days
+547	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:365 - ReplaceConstant - 6 -> 0
+548	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:365 - ReplaceConstant - 6 -> 1
+549	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:365 - ReplaceConstant - 6 -> -1
+550	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:365 - ReplaceConstant - 6 -> 5
+551	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:365 - ReplaceConstant - 6 -> 7
+552	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:365 - ReplaceArithmeticOperator + -> %
+553	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:365 - ReplaceArithmeticOperator + -> -
+554	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:365 - ReplaceArithmeticOperator + -> *
+555	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:365 - ReplaceArithmeticOperator + -> /
+556	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:368 - ReplaceConstant - 0 -> 1
+557	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:371 - ReplaceConstant - 2 -> 0
+558	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:371 - ReplaceConstant - 2 -> 1
+559	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:371 - ReplaceConstant - 2 -> -1
+560	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:371 - ReplaceConstant - 2 -> 3
+561	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:371 - ReplaceConstant - 2 -> 0
+562	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:371 - ReplaceConstant - 2 -> 1
+563	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:371 - ReplaceConstant - 2 -> -1
+564	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:371 - ReplaceConstant - 2 -> 3
+565	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:371 - ReplaceComparisonOperator == -> -2
+566	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:371 - ReplaceComparisonOperator == -> >=
+567	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:371 - ReplaceComparisonOperator == -> <=
+568	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:372 - InsertUnaryOp Negation of days
+569	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:372 - InsertUnaryOp IINC 1 days
+570	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:372 - InsertUnaryOp IINC -1 days
+571	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:372 - ReplaceConstant - 5 -> 0
+572	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:372 - ReplaceConstant - 5 -> 1
+573	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:372 - ReplaceConstant - 5 -> -1
+574	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:372 - ReplaceConstant - 5 -> 4
+575	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:372 - ReplaceConstant - 5 -> 6
+576	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:372 - ReplaceArithmeticOperator + -> %
+577	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:372 - ReplaceArithmeticOperator + -> -
+578	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:372 - ReplaceArithmeticOperator + -> *
+579	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:372 - ReplaceArithmeticOperator + -> /
+580	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:373 - ReplaceConstant - 2 -> 0
+581	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:373 - ReplaceConstant - 2 -> 1
+582	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:373 - ReplaceConstant - 2 -> -1
+583	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:373 - ReplaceConstant - 2 -> 3
+584	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:373 - ReplaceConstant - 1 -> 0
+585	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:376 - ReplaceConstant - 0 -> 1
+586	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:378 - InsertUnaryOp Negation of days
+587	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:378 - InsertUnaryOp IINC 1 days
+588	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:378 - InsertUnaryOp IINC -1 days
+589	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:378 - ReplaceComparisonOperator >= -> -1
+590	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:378 - ReplaceComparisonOperator >= -> ==
+591	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:378 - ReplaceComparisonOperator >= -> >
+592	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:379 - InsertUnaryOp Negation of days
+593	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:379 - InsertUnaryOp IINC 1 days
+594	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:379 - InsertUnaryOp IINC -1 days
+595	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:379 - ReplaceConstant - 5 -> 0
+596	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:379 - ReplaceConstant - 5 -> 1
+597	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:379 - ReplaceConstant - 5 -> -1
+598	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:379 - ReplaceConstant - 5 -> 4
+599	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:379 - ReplaceConstant - 5 -> 6
+600	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:379 - ReplaceArithmeticOperator + -> %
+601	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:379 - ReplaceArithmeticOperator + -> -
+602	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:379 - ReplaceArithmeticOperator + -> *
+603	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:379 - ReplaceArithmeticOperator + -> /
+604	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:380 - ReplaceVariable months -> milliseconds
+605	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:380 - ReplaceVariable months -> seconds
+606	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:380 - ReplaceVariable months -> hours
+607	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:380 - ReplaceVariable months -> minutes
+608	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:380 - ReplaceVariable months -> days
+609	ReplaceVariable	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:380 - ReplaceVariable months -> years
+610	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:381 - ReplaceConstant - 2 -> 0
+611	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:381 - ReplaceConstant - 2 -> 1
+612	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:381 - ReplaceConstant - 2 -> -1
+613	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:381 - ReplaceConstant - 2 -> 3
+614	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:381 - ReplaceConstant - 1 -> 0
+615	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:390 - ReplaceComparisonOperator != -> -1
+616	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:390 - ReplaceComparisonOperator != -> <
+617	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:390 - ReplaceComparisonOperator != -> >
+618	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - InsertUnaryOp Negation of hours
+619	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - InsertUnaryOp IINC 1 hours
+620	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - InsertUnaryOp IINC -1 hours
+621	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - ReplaceConstant - 24 -> 0
+622	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - ReplaceConstant - 24 -> 1
+623	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - ReplaceConstant - 24 -> -1
+624	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - ReplaceConstant - 24 -> 23
+625	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - ReplaceConstant - 24 -> 25
+626	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - InsertUnaryOp Negation of days
+627	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - InsertUnaryOp IINC 1 days
+628	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - InsertUnaryOp IINC -1 days
+629	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - ReplaceArithmeticOperator * -> +
+630	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - ReplaceArithmeticOperator * -> %
+631	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - ReplaceArithmeticOperator * -> -
+632	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - ReplaceArithmeticOperator * -> /
+633	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - ReplaceArithmeticOperator + -> %
+634	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - ReplaceArithmeticOperator + -> -
+635	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - ReplaceArithmeticOperator + -> *
+636	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:391 - ReplaceArithmeticOperator + -> /
+637	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:392 - ReplaceConstant - 0 -> 1
+638	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:394 - ReplaceComparisonOperator != -> -1
+639	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:394 - ReplaceComparisonOperator != -> <
+640	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:394 - ReplaceComparisonOperator != -> >
+641	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - InsertUnaryOp Negation of minutes
+642	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - InsertUnaryOp IINC 1 minutes
+643	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - InsertUnaryOp IINC -1 minutes
+644	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - ReplaceConstant - 60 -> 0
+645	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - ReplaceConstant - 60 -> 1
+646	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - ReplaceConstant - 60 -> -1
+647	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - ReplaceConstant - 60 -> 59
+648	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - ReplaceConstant - 60 -> 61
+649	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - InsertUnaryOp Negation of hours
+650	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - InsertUnaryOp IINC 1 hours
+651	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - InsertUnaryOp IINC -1 hours
+652	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - ReplaceArithmeticOperator * -> +
+653	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - ReplaceArithmeticOperator * -> %
+654	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - ReplaceArithmeticOperator * -> -
+655	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - ReplaceArithmeticOperator * -> /
+656	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - ReplaceArithmeticOperator + -> %
+657	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - ReplaceArithmeticOperator + -> -
+658	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - ReplaceArithmeticOperator + -> *
+659	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:395 - ReplaceArithmeticOperator + -> /
+660	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:396 - ReplaceConstant - 0 -> 1
+661	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:398 - ReplaceComparisonOperator != -> -1
+662	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:398 - ReplaceComparisonOperator != -> <
+663	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:398 - ReplaceComparisonOperator != -> >
+664	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - InsertUnaryOp Negation of seconds
+665	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - InsertUnaryOp IINC 1 seconds
+666	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - InsertUnaryOp IINC -1 seconds
+667	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - ReplaceConstant - 60 -> 0
+668	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - ReplaceConstant - 60 -> 1
+669	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - ReplaceConstant - 60 -> -1
+670	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - ReplaceConstant - 60 -> 59
+671	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - ReplaceConstant - 60 -> 61
+672	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - InsertUnaryOp Negation of minutes
+673	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - InsertUnaryOp IINC 1 minutes
+674	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - InsertUnaryOp IINC -1 minutes
+675	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - ReplaceArithmeticOperator * -> +
+676	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - ReplaceArithmeticOperator * -> %
+677	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - ReplaceArithmeticOperator * -> -
+678	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - ReplaceArithmeticOperator * -> /
+679	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - ReplaceArithmeticOperator + -> %
+680	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - ReplaceArithmeticOperator + -> -
+681	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - ReplaceArithmeticOperator + -> *
+682	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:399 - ReplaceArithmeticOperator + -> /
+683	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:400 - ReplaceConstant - 0 -> 1
+684	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:402 - ReplaceComparisonOperator != -> -1
+685	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:402 - ReplaceComparisonOperator != -> <
+686	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:402 - ReplaceComparisonOperator != -> >
+687	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - InsertUnaryOp Negation of milliseconds
+688	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - InsertUnaryOp IINC 1 milliseconds
+689	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - InsertUnaryOp IINC -1 milliseconds
+690	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - ReplaceConstant - 1000 -> 0
+691	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - ReplaceConstant - 1000 -> 1
+692	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - ReplaceConstant - 1000 -> -1
+693	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - ReplaceConstant - 1000 -> 999
+694	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - ReplaceConstant - 1000 -> 1001
+695	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - InsertUnaryOp Negation of seconds
+696	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - InsertUnaryOp IINC 1 seconds
+697	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - InsertUnaryOp IINC -1 seconds
+698	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - ReplaceArithmeticOperator * -> +
+699	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - ReplaceArithmeticOperator * -> %
+700	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - ReplaceArithmeticOperator * -> -
+701	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - ReplaceArithmeticOperator * -> /
+702	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - ReplaceArithmeticOperator + -> %
+703	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - ReplaceArithmeticOperator + -> -
+704	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - ReplaceArithmeticOperator + -> *
+705	ReplaceArithmeticOperator	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:403 - ReplaceArithmeticOperator + -> /
+706	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:404 - ReplaceConstant - 0 -> 1
+707	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp Negation of years
+708	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp IINC 1 years
+709	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp IINC -1 years
+710	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp Negation of months
+711	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp IINC 1 months
+712	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp IINC -1 months
+713	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp Negation of days
+714	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp IINC 1 days
+715	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp IINC -1 days
+716	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp Negation of hours
+717	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp IINC 1 hours
+718	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp IINC -1 hours
+719	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp Negation of minutes
+720	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp IINC 1 minutes
+721	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp IINC -1 minutes
+722	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp Negation of seconds
+723	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp IINC 1 seconds
+724	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp IINC -1 seconds
+725	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp Negation of milliseconds
+726	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp IINC 1 milliseconds
+727	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp IINC -1 milliseconds
+728	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp Negation of padWithZeros
+729	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp IINC 1 padWithZeros
+730	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.formatPeriod(JJLjava/lang/String;ZLjava/util/TimeZone;)Ljava/lang/String;:407 - InsertUnaryOp IINC -1 padWithZeros
+731	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:428 - ReplaceConstant - 0 -> 1
+732	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:429 - ReplaceConstant - 0 -> 1
+733	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:429 - ReplaceComparisonOperator >= -> -1
+734	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:429 - ReplaceComparisonOperator >= -> >
+735	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:429 - ReplaceComparisonOperator >= -> ==
+736	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:432 - ReplaceComparisonOperator == -> -2
+737	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:432 - ReplaceComparisonOperator == -> >=
+738	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:432 - ReplaceComparisonOperator == -> <=
+739	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:435 - ReplaceComparisonOperator == -> -2
+740	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:435 - ReplaceComparisonOperator == -> >=
+741	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:435 - ReplaceComparisonOperator == -> <=
+742	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:436 - InsertUnaryOp Negation of years
+743	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:436 - InsertUnaryOp Negation of padWithZeros
+744	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:436 - InsertUnaryOp IINC 1 padWithZeros
+745	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:436 - InsertUnaryOp IINC -1 padWithZeros
+746	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:436 - InsertUnaryOp Negation of count
+747	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:436 - InsertUnaryOp IINC 1 count
+748	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:436 - InsertUnaryOp IINC -1 count
+749	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:437 - ReplaceConstant - 0 -> 1
+750	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:438 - ReplaceComparisonOperator == -> -2
+751	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:438 - ReplaceComparisonOperator == -> >=
+752	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:438 - ReplaceComparisonOperator == -> <=
+753	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:439 - InsertUnaryOp Negation of months
+754	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:439 - InsertUnaryOp Negation of padWithZeros
+755	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:439 - InsertUnaryOp IINC 1 padWithZeros
+756	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:439 - InsertUnaryOp IINC -1 padWithZeros
+757	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:439 - InsertUnaryOp Negation of count
+758	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:439 - InsertUnaryOp IINC 1 count
+759	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:439 - InsertUnaryOp IINC -1 count
+760	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:440 - ReplaceConstant - 0 -> 1
+761	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:441 - ReplaceComparisonOperator == -> -2
+762	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:441 - ReplaceComparisonOperator == -> >=
+763	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:441 - ReplaceComparisonOperator == -> <=
+764	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:442 - InsertUnaryOp Negation of days
+765	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:442 - InsertUnaryOp Negation of padWithZeros
+766	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:442 - InsertUnaryOp IINC 1 padWithZeros
+767	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:442 - InsertUnaryOp IINC -1 padWithZeros
+768	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:442 - InsertUnaryOp Negation of count
+769	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:442 - InsertUnaryOp IINC 1 count
+770	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:442 - InsertUnaryOp IINC -1 count
+771	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:443 - ReplaceConstant - 0 -> 1
+772	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:444 - ReplaceComparisonOperator == -> -2
+773	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:444 - ReplaceComparisonOperator == -> >=
+774	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:444 - ReplaceComparisonOperator == -> <=
+775	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:445 - InsertUnaryOp Negation of hours
+776	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:445 - InsertUnaryOp Negation of padWithZeros
+777	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:445 - InsertUnaryOp IINC 1 padWithZeros
+778	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:445 - InsertUnaryOp IINC -1 padWithZeros
+779	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:445 - InsertUnaryOp Negation of count
+780	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:445 - InsertUnaryOp IINC 1 count
+781	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:445 - InsertUnaryOp IINC -1 count
+782	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:446 - ReplaceConstant - 0 -> 1
+783	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:447 - ReplaceComparisonOperator == -> -2
+784	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:447 - ReplaceComparisonOperator == -> >=
+785	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:447 - ReplaceComparisonOperator == -> <=
+786	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:448 - InsertUnaryOp Negation of minutes
+787	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:448 - InsertUnaryOp Negation of padWithZeros
+788	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:448 - InsertUnaryOp IINC 1 padWithZeros
+789	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:448 - InsertUnaryOp IINC -1 padWithZeros
+790	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:448 - InsertUnaryOp Negation of count
+791	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:448 - InsertUnaryOp IINC 1 count
+792	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:448 - InsertUnaryOp IINC -1 count
+793	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:449 - ReplaceConstant - 0 -> 1
+794	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:450 - ReplaceComparisonOperator == -> -2
+795	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:450 - ReplaceComparisonOperator == -> >=
+796	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:450 - ReplaceComparisonOperator == -> <=
+797	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:451 - InsertUnaryOp Negation of seconds
+798	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:451 - InsertUnaryOp Negation of padWithZeros
+799	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:451 - InsertUnaryOp IINC 1 padWithZeros
+800	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:451 - InsertUnaryOp IINC -1 padWithZeros
+801	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:451 - InsertUnaryOp Negation of count
+802	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:451 - InsertUnaryOp IINC 1 count
+803	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:451 - InsertUnaryOp IINC -1 count
+804	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:452 - ReplaceConstant - 1 -> 0
+805	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:453 - ReplaceComparisonOperator == -> -2
+806	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:453 - ReplaceComparisonOperator == -> >=
+807	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:453 - ReplaceComparisonOperator == -> <=
+808	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:454 - InsertUnaryOp Negation of lastOutputSeconds
+809	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:454 - InsertUnaryOp IINC 1 lastOutputSeconds
+810	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:454 - InsertUnaryOp IINC -1 lastOutputSeconds
+811	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:454 - ReplaceComparisonOperator == -> -2
+812	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:454 - ReplaceComparisonOperator == -> >=
+813	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:454 - ReplaceComparisonOperator == -> <=
+814	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - InsertUnaryOp Negation of padWithZeros
+815	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - InsertUnaryOp IINC 1 padWithZeros
+816	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - InsertUnaryOp IINC -1 padWithZeros
+817	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - ReplaceComparisonOperator == -> -2
+818	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - ReplaceComparisonOperator == -> >=
+819	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - ReplaceComparisonOperator == -> <=
+820	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - ReplaceConstant - 3 -> 0
+821	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - ReplaceConstant - 3 -> 1
+822	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - ReplaceConstant - 3 -> -1
+823	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - ReplaceConstant - 3 -> 2
+824	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - ReplaceConstant - 3 -> 4
+825	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - InsertUnaryOp Negation of count
+826	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - InsertUnaryOp IINC 1 count
+827	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - InsertUnaryOp IINC -1 count
+828	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - ReplaceConstant - 3 -> 0
+829	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - ReplaceConstant - 3 -> 1
+830	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - ReplaceConstant - 3 -> -1
+831	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - ReplaceConstant - 3 -> 2
+832	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:456 - ReplaceConstant - 3 -> 4
+833	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:457 - InsertUnaryOp Negation of milliseconds
+834	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:457 - ReplaceConstant - 1 -> 0
+835	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:457 - InsertUnaryOp Negation of width
+836	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:457 - InsertUnaryOp IINC 1 width
+837	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:457 - InsertUnaryOp IINC -1 width
+838	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:459 - InsertUnaryOp Negation of milliseconds
+839	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:459 - InsertUnaryOp Negation of padWithZeros
+840	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:459 - InsertUnaryOp IINC 1 padWithZeros
+841	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:459 - InsertUnaryOp IINC -1 padWithZeros
+842	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:459 - InsertUnaryOp Negation of count
+843	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:459 - InsertUnaryOp IINC 1 count
+844	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:459 - InsertUnaryOp IINC -1 count
+845	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.format([Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;JJJJJJJZ)Ljava/lang/String;:461 - ReplaceConstant - 0 -> 1
+846	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.paddedValue(JZI)Ljava/lang/String;:478 - InsertUnaryOp Negation of value
+847	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.paddedValue(JZI)Ljava/lang/String;:479 - InsertUnaryOp Negation of padWithZeros
+848	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.paddedValue(JZI)Ljava/lang/String;:479 - InsertUnaryOp IINC 1 padWithZeros
+849	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.paddedValue(JZI)Ljava/lang/String;:479 - InsertUnaryOp IINC -1 padWithZeros
+850	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.paddedValue(JZI)Ljava/lang/String;:479 - ReplaceComparisonOperator == -> -2
+851	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.paddedValue(JZI)Ljava/lang/String;:479 - ReplaceComparisonOperator == -> >=
+852	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.paddedValue(JZI)Ljava/lang/String;:479 - ReplaceComparisonOperator == -> <=
+853	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.paddedValue(JZI)Ljava/lang/String;:479 - InsertUnaryOp Negation of count
+854	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.paddedValue(JZI)Ljava/lang/String;:479 - InsertUnaryOp IINC 1 count
+855	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.paddedValue(JZI)Ljava/lang/String;:479 - InsertUnaryOp IINC -1 count
+856	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.paddedValue(JZI)Ljava/lang/String;:479 - ReplaceConstant - 48 -> 0
+857	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.paddedValue(JZI)Ljava/lang/String;:479 - ReplaceConstant - 48 -> 1
+858	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.paddedValue(JZI)Ljava/lang/String;:479 - ReplaceConstant - 48 -> -1
+859	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.paddedValue(JZI)Ljava/lang/String;:479 - ReplaceConstant - 48 -> 47
+860	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.paddedValue(JZI)Ljava/lang/String;:479 - ReplaceConstant - 48 -> 49
+861	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:499 - ReplaceConstant - 0 -> 1
+862	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:504 - ReplaceConstant - 0 -> 1
+863	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:504 - InsertUnaryOp Negation of i
+864	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:504 - InsertUnaryOp IINC 1 i
+865	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:504 - InsertUnaryOp IINC -1 i
+866	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:504 - ReplaceComparisonOperator >= -> -1
+867	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:504 - ReplaceComparisonOperator >= -> >
+868	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:504 - ReplaceComparisonOperator >= -> ==
+869	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:505 - InsertUnaryOp Negation of i
+870	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:505 - InsertUnaryOp IINC 1 i
+871	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:505 - InsertUnaryOp IINC -1 i
+872	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:506 - InsertUnaryOp Negation of inLiteral
+873	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:506 - InsertUnaryOp IINC 1 inLiteral
+874	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:506 - InsertUnaryOp IINC -1 inLiteral
+875	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:506 - ReplaceComparisonOperator == -> -2
+876	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:506 - ReplaceComparisonOperator == -> >=
+877	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:506 - ReplaceComparisonOperator == -> <=
+878	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:506 - InsertUnaryOp Negation of ch
+879	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:506 - InsertUnaryOp IINC 1 ch
+880	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:506 - InsertUnaryOp IINC -1 ch
+881	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:506 - ReplaceConstant - 39 -> 0
+882	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:506 - ReplaceConstant - 39 -> 1
+883	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:506 - ReplaceConstant - 39 -> -1
+884	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:506 - ReplaceConstant - 39 -> 38
+885	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:506 - ReplaceConstant - 39 -> 40
+886	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:506 - ReplaceComparisonOperator == -> -2
+887	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:506 - ReplaceComparisonOperator == -> >=
+888	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:506 - ReplaceComparisonOperator == -> <=
+889	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:507 - InsertUnaryOp Negation of ch
+890	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:507 - InsertUnaryOp IINC 1 ch
+891	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:507 - InsertUnaryOp IINC -1 ch
+892	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:511 - InsertUnaryOp Negation of ch
+893	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:511 - InsertUnaryOp IINC 1 ch
+894	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:511 - InsertUnaryOp IINC -1 ch
+895	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:514 - InsertUnaryOp Negation of inLiteral
+896	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:514 - InsertUnaryOp IINC 1 inLiteral
+897	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:514 - InsertUnaryOp IINC -1 inLiteral
+898	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:514 - ReplaceComparisonOperator == -> -2
+899	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:514 - ReplaceComparisonOperator == -> >=
+900	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:514 - ReplaceComparisonOperator == -> <=
+901	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:516 - ReplaceConstant - 0 -> 1
+902	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:520 - ReplaceConstant - 1 -> 0
+903	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:545 - ReplaceComparisonOperator != null -> = null
+904	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:549 - InsertUnaryOp Negation of ch
+905	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:549 - InsertUnaryOp IINC 1 ch
+906	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:549 - InsertUnaryOp IINC -1 ch
+907	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:552 - ReplaceComparisonOperator = null -> != null
+908	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:553 - ReplaceComparisonOperator = null -> != null
+909	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:553 - ReplaceComparisonOperator == -> -2
+910	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:553 - ReplaceComparisonOperator == -> >=
+911	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:553 - ReplaceComparisonOperator == -> <=
+912	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:563 - InsertUnaryOp Negation of inLiteral
+913	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:563 - InsertUnaryOp IINC 1 inLiteral
+914	InsertUnaryOp	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:563 - InsertUnaryOp IINC -1 inLiteral
+915	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:563 - ReplaceComparisonOperator == -> -2
+916	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:563 - ReplaceComparisonOperator == -> >=
+917	ReplaceComparisonOperator	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:563 - ReplaceComparisonOperator == -> <=
+918	ReplaceConstant	org.apache.commons.lang3.time.DurationFormatUtils.lexx(Ljava/lang/String;)[Lorg/apache/commons/lang3/time/DurationFormatUtils$Token;:564 - ReplaceConstant - Unmatched quote in format:  -> 

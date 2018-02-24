@@ -1,0 +1,43 @@
+0	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.getBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:167 - ReplaceComparisonOperator != null -> = null
+1	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.calculateBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:178 - ReplaceComparisonOperator == -> -2
+2	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.calculateBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:178 - ReplaceComparisonOperator == -> >=
+3	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.calculateBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:178 - ReplaceComparisonOperator == -> <=
+4	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.calculateBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:179 - ReplaceComparisonOperator != null -> = null
+5	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.calculateBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:183 - ReplaceComparisonOperator = null -> != null
+6	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.calculateBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:183 - ReplaceComparisonOperator != -> -1
+7	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.calculateBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:183 - ReplaceComparisonOperator != -> <
+8	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.calculateBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:183 - ReplaceComparisonOperator != -> >
+9	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.calculateBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:183 - ReplaceComparisonOperator == -> -2
+10	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.calculateBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:183 - ReplaceComparisonOperator == -> >=
+11	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.calculateBounds()Lorg/geotools/geometry/jts/ReferencedEnvelope;:183 - ReplaceComparisonOperator == -> <=
+12	ReplaceConstant	org.geotools.data.collection.ListFeatureCollection.sort(Lorg/opengis/filter/sort/SortBy;)Lorg/geotools/data/simple/SimpleFeatureCollection;:231 - ReplaceConstant - 1 -> 0
+13	ReplaceConstant	org.geotools.data.collection.ListFeatureCollection.sort(Lorg/opengis/filter/sort/SortBy;)Lorg/geotools/data/simple/SimpleFeatureCollection;:231 - ReplaceConstant - 0 -> 1
+14	InsertUnaryOp	org.geotools.data.collection.ListFeatureCollection.remove(Ljava/lang/Object;)Z:239 - InsertUnaryOp Negation of removed
+15	InsertUnaryOp	org.geotools.data.collection.ListFeatureCollection.remove(Ljava/lang/Object;)Z:239 - InsertUnaryOp IINC 1 removed
+16	InsertUnaryOp	org.geotools.data.collection.ListFeatureCollection.remove(Ljava/lang/Object;)Z:239 - InsertUnaryOp IINC -1 removed
+17	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.remove(Ljava/lang/Object;)Z:239 - ReplaceComparisonOperator == -> -2
+18	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.remove(Ljava/lang/Object;)Z:239 - ReplaceComparisonOperator == -> >=
+19	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.remove(Ljava/lang/Object;)Z:239 - ReplaceComparisonOperator == -> <=
+20	InsertUnaryOp	org.geotools.data.collection.ListFeatureCollection.remove(Ljava/lang/Object;)Z:242 - InsertUnaryOp Negation of removed
+21	InsertUnaryOp	org.geotools.data.collection.ListFeatureCollection.remove(Ljava/lang/Object;)Z:242 - InsertUnaryOp IINC 1 removed
+22	InsertUnaryOp	org.geotools.data.collection.ListFeatureCollection.remove(Ljava/lang/Object;)Z:242 - InsertUnaryOp IINC -1 removed
+23	ReplaceConstant	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:246 - ReplaceConstant - 0 -> 1
+24	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:247 - ReplaceComparisonOperator == -> -2
+25	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:247 - ReplaceComparisonOperator == -> >=
+26	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:247 - ReplaceComparisonOperator == -> <=
+27	InsertUnaryOp	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:249 - InsertUnaryOp Negation of changed
+28	InsertUnaryOp	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:249 - InsertUnaryOp IINC 1 changed
+29	InsertUnaryOp	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:249 - InsertUnaryOp IINC -1 changed
+30	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:249 - ReplaceComparisonOperator != -> -1
+31	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:249 - ReplaceComparisonOperator != -> <
+32	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:249 - ReplaceComparisonOperator != -> >
+33	InsertUnaryOp	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:249 - InsertUnaryOp Negation of added
+34	InsertUnaryOp	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:249 - InsertUnaryOp IINC 1 added
+35	InsertUnaryOp	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:249 - InsertUnaryOp IINC -1 added
+36	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:249 - ReplaceComparisonOperator == -> -2
+37	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:249 - ReplaceComparisonOperator == -> >=
+38	ReplaceComparisonOperator	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:249 - ReplaceComparisonOperator == -> <=
+39	ReplaceConstant	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:250 - ReplaceConstant - 1 -> 0
+40	InsertUnaryOp	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:253 - InsertUnaryOp Negation of changed
+41	InsertUnaryOp	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:253 - InsertUnaryOp IINC 1 changed
+42	InsertUnaryOp	org.geotools.data.collection.ListFeatureCollection.addAll(Ljava/util/Collection;)Z:253 - InsertUnaryOp IINC -1 changed

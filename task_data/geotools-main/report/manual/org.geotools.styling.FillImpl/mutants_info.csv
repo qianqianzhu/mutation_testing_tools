@@ -1,0 +1,112 @@
+0	ReplaceComparisonOperator	org.geotools.styling.FillImpl.setColor(Lorg/opengis/filter/expression/Expression;)V:92 - ReplaceComparisonOperator != -> ==
+1	ReplaceComparisonOperator	org.geotools.styling.FillImpl.setColor(Ljava/lang/String;)V:97 - ReplaceComparisonOperator != -> ==
+2	ReplaceComparisonOperator	org.geotools.styling.FillImpl.setBackgroundColor(Lorg/opengis/filter/expression/Expression;)V:133 - ReplaceComparisonOperator != -> ==
+3	ReplaceConstant	org.geotools.styling.FillImpl.setBackgroundColor(Ljava/lang/String;)V:138 - ReplaceConstant - setting bg color with  -> 
+4	ReplaceConstant	org.geotools.styling.FillImpl.setBackgroundColor(Ljava/lang/String;)V:138 - ReplaceConstant -  as a string -> 
+5	ReplaceComparisonOperator	org.geotools.styling.FillImpl.setBackgroundColor(Ljava/lang/String;)V:139 - ReplaceComparisonOperator != -> ==
+6	ReplaceComparisonOperator	org.geotools.styling.FillImpl.setOpacity(Lorg/opengis/filter/expression/Expression;)V:165 - ReplaceComparisonOperator != -> ==
+7	ReplaceComparisonOperator	org.geotools.styling.FillImpl.setOpacity(Ljava/lang/String;)V:171 - ReplaceComparisonOperator != -> ==
+8	ReplaceComparisonOperator	org.geotools.styling.FillImpl.setGraphicFill(Lorg/opengis/style/Graphic;)V:192 - ReplaceComparisonOperator != -> ==
+9	ReplaceComparisonOperator	org.geotools.styling.FillImpl.clone()Ljava/lang/Object;:212 - ReplaceComparisonOperator = null -> != null
+10	ReplaceConstant	org.geotools.styling.FillImpl.clone()Ljava/lang/Object;:218 - ReplaceConstant - Failed to clone FillImpl -> 
+11	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:228 - ReplaceConstant - 1000003 -> 0
+12	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:228 - ReplaceConstant - 1000003 -> 1
+13	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:228 - ReplaceConstant - 1000003 -> -1
+14	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:228 - ReplaceConstant - 1000003 -> 1000002
+15	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:228 - ReplaceConstant - 1000003 -> 1000004
+16	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:229 - ReplaceConstant - 0 -> 1
+17	ReplaceComparisonOperator	org.geotools.styling.FillImpl.hashCode()I:230 - ReplaceComparisonOperator = null -> != null
+18	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:231 - ReplaceConstant - 1000003 -> 0
+19	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:231 - ReplaceConstant - 1000003 -> 1
+20	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:231 - ReplaceConstant - 1000003 -> -1
+21	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:231 - ReplaceConstant - 1000003 -> 1000002
+22	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:231 - ReplaceConstant - 1000003 -> 1000004
+23	InsertUnaryOp	org.geotools.styling.FillImpl.hashCode()I:231 - InsertUnaryOp Negation of result
+24	InsertUnaryOp	org.geotools.styling.FillImpl.hashCode()I:231 - InsertUnaryOp IINC 1 result
+25	InsertUnaryOp	org.geotools.styling.FillImpl.hashCode()I:231 - InsertUnaryOp IINC -1 result
+26	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:231 - ReplaceArithmeticOperator * -> +
+27	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:231 - ReplaceArithmeticOperator * -> %
+28	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:231 - ReplaceArithmeticOperator * -> -
+29	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:231 - ReplaceArithmeticOperator * -> /
+30	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:231 - ReplaceArithmeticOperator + -> %
+31	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:231 - ReplaceArithmeticOperator + -> -
+32	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:231 - ReplaceArithmeticOperator + -> *
+33	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:231 - ReplaceArithmeticOperator + -> /
+34	ReplaceComparisonOperator	org.geotools.styling.FillImpl.hashCode()I:233 - ReplaceComparisonOperator = null -> != null
+35	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:234 - ReplaceConstant - 1000003 -> 0
+36	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:234 - ReplaceConstant - 1000003 -> 1
+37	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:234 - ReplaceConstant - 1000003 -> -1
+38	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:234 - ReplaceConstant - 1000003 -> 1000002
+39	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:234 - ReplaceConstant - 1000003 -> 1000004
+40	InsertUnaryOp	org.geotools.styling.FillImpl.hashCode()I:234 - InsertUnaryOp Negation of result
+41	InsertUnaryOp	org.geotools.styling.FillImpl.hashCode()I:234 - InsertUnaryOp IINC 1 result
+42	InsertUnaryOp	org.geotools.styling.FillImpl.hashCode()I:234 - InsertUnaryOp IINC -1 result
+43	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:234 - ReplaceArithmeticOperator * -> +
+44	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:234 - ReplaceArithmeticOperator * -> %
+45	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:234 - ReplaceArithmeticOperator * -> -
+46	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:234 - ReplaceArithmeticOperator * -> /
+47	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:234 - ReplaceArithmeticOperator + -> %
+48	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:234 - ReplaceArithmeticOperator + -> -
+49	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:234 - ReplaceArithmeticOperator + -> *
+50	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:234 - ReplaceArithmeticOperator + -> /
+51	ReplaceComparisonOperator	org.geotools.styling.FillImpl.hashCode()I:236 - ReplaceComparisonOperator = null -> != null
+52	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:237 - ReplaceConstant - 1000003 -> 0
+53	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:237 - ReplaceConstant - 1000003 -> 1
+54	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:237 - ReplaceConstant - 1000003 -> -1
+55	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:237 - ReplaceConstant - 1000003 -> 1000002
+56	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:237 - ReplaceConstant - 1000003 -> 1000004
+57	InsertUnaryOp	org.geotools.styling.FillImpl.hashCode()I:237 - InsertUnaryOp Negation of result
+58	InsertUnaryOp	org.geotools.styling.FillImpl.hashCode()I:237 - InsertUnaryOp IINC 1 result
+59	InsertUnaryOp	org.geotools.styling.FillImpl.hashCode()I:237 - InsertUnaryOp IINC -1 result
+60	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:237 - ReplaceArithmeticOperator * -> +
+61	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:237 - ReplaceArithmeticOperator * -> %
+62	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:237 - ReplaceArithmeticOperator * -> -
+63	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:237 - ReplaceArithmeticOperator * -> /
+64	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:237 - ReplaceArithmeticOperator + -> %
+65	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:237 - ReplaceArithmeticOperator + -> -
+66	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:237 - ReplaceArithmeticOperator + -> *
+67	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:237 - ReplaceArithmeticOperator + -> /
+68	ReplaceComparisonOperator	org.geotools.styling.FillImpl.hashCode()I:239 - ReplaceComparisonOperator = null -> != null
+69	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:240 - ReplaceConstant - 1000003 -> 0
+70	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:240 - ReplaceConstant - 1000003 -> 1
+71	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:240 - ReplaceConstant - 1000003 -> -1
+72	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:240 - ReplaceConstant - 1000003 -> 1000002
+73	ReplaceConstant	org.geotools.styling.FillImpl.hashCode()I:240 - ReplaceConstant - 1000003 -> 1000004
+74	InsertUnaryOp	org.geotools.styling.FillImpl.hashCode()I:240 - InsertUnaryOp Negation of result
+75	InsertUnaryOp	org.geotools.styling.FillImpl.hashCode()I:240 - InsertUnaryOp IINC 1 result
+76	InsertUnaryOp	org.geotools.styling.FillImpl.hashCode()I:240 - InsertUnaryOp IINC -1 result
+77	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:240 - ReplaceArithmeticOperator * -> +
+78	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:240 - ReplaceArithmeticOperator * -> %
+79	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:240 - ReplaceArithmeticOperator * -> -
+80	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:240 - ReplaceArithmeticOperator * -> /
+81	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:240 - ReplaceArithmeticOperator + -> %
+82	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:240 - ReplaceArithmeticOperator + -> -
+83	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:240 - ReplaceArithmeticOperator + -> *
+84	ReplaceArithmeticOperator	org.geotools.styling.FillImpl.hashCode()I:240 - ReplaceArithmeticOperator + -> /
+85	InsertUnaryOp	org.geotools.styling.FillImpl.hashCode()I:243 - InsertUnaryOp Negation of result
+86	InsertUnaryOp	org.geotools.styling.FillImpl.hashCode()I:243 - InsertUnaryOp IINC 1 result
+87	InsertUnaryOp	org.geotools.styling.FillImpl.hashCode()I:243 - InsertUnaryOp IINC -1 result
+88	ReplaceComparisonOperator	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:255 - ReplaceComparisonOperator != -> ==
+89	ReplaceConstant	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:256 - ReplaceConstant - 1 -> 0
+90	ReplaceComparisonOperator	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:259 - ReplaceComparisonOperator == -> -2
+91	ReplaceComparisonOperator	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:259 - ReplaceComparisonOperator == -> >=
+92	ReplaceComparisonOperator	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:259 - ReplaceComparisonOperator == -> <=
+93	ReplaceComparisonOperator	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:261 - ReplaceComparisonOperator == -> -2
+94	ReplaceComparisonOperator	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:261 - ReplaceComparisonOperator == -> >=
+95	ReplaceComparisonOperator	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:261 - ReplaceComparisonOperator == -> <=
+96	ReplaceComparisonOperator	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:262 - ReplaceComparisonOperator == -> -2
+97	ReplaceComparisonOperator	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:262 - ReplaceComparisonOperator == -> >=
+98	ReplaceComparisonOperator	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:262 - ReplaceComparisonOperator == -> <=
+99	ReplaceComparisonOperator	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:263 - ReplaceComparisonOperator == -> -2
+100	ReplaceComparisonOperator	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:263 - ReplaceComparisonOperator == -> >=
+101	ReplaceComparisonOperator	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:263 - ReplaceComparisonOperator == -> <=
+102	ReplaceComparisonOperator	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:264 - ReplaceComparisonOperator == -> -2
+103	ReplaceComparisonOperator	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:264 - ReplaceComparisonOperator == -> >=
+104	ReplaceComparisonOperator	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:264 - ReplaceComparisonOperator == -> <=
+105	ReplaceConstant	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:264 - ReplaceConstant - 1 -> 0
+106	ReplaceConstant	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:264 - ReplaceConstant - 0 -> 1
+107	ReplaceConstant	org.geotools.styling.FillImpl.equals(Ljava/lang/Object;)Z:267 - ReplaceConstant - 0 -> 1
+108	ReplaceComparisonOperator	org.geotools.styling.FillImpl.cast(Lorg/opengis/style/Fill;)Lorg/geotools/styling/FillImpl;:271 - ReplaceComparisonOperator != null -> = null
+109	ReplaceComparisonOperator	org.geotools.styling.FillImpl.cast(Lorg/opengis/style/Fill;)Lorg/geotools/styling/FillImpl;:273 - ReplaceComparisonOperator == -> -2
+110	ReplaceComparisonOperator	org.geotools.styling.FillImpl.cast(Lorg/opengis/style/Fill;)Lorg/geotools/styling/FillImpl;:273 - ReplaceComparisonOperator == -> >=
+111	ReplaceComparisonOperator	org.geotools.styling.FillImpl.cast(Lorg/opengis/style/Fill;)Lorg/geotools/styling/FillImpl;:273 - ReplaceComparisonOperator == -> <=

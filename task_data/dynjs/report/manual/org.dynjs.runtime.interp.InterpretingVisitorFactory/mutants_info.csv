@@ -1,0 +1,7 @@
+0	InsertUnaryOp	org.dynjs.runtime.interp.InterpretingVisitorFactory.<init>(Z)V:11 - InsertUnaryOp Negation of invokeDynamicEnabled
+1	InsertUnaryOp	org.dynjs.runtime.interp.InterpretingVisitorFactory.<init>(Z)V:11 - InsertUnaryOp IINC 1 invokeDynamicEnabled
+2	InsertUnaryOp	org.dynjs.runtime.interp.InterpretingVisitorFactory.<init>(Z)V:11 - InsertUnaryOp IINC -1 invokeDynamicEnabled
+3	InsertUnaryOp	org.dynjs.runtime.interp.InterpretingVisitorFactory.createVisitor(Lorg/dynjs/runtime/BlockManager;)Lorg/dynjs/parser/CodeVisitor;:15 - InsertUnaryOp Negation
+4	ReplaceComparisonOperator	org.dynjs.runtime.interp.InterpretingVisitorFactory.createVisitor(Lorg/dynjs/runtime/BlockManager;)Lorg/dynjs/parser/CodeVisitor;:15 - ReplaceComparisonOperator == -> -2
+5	ReplaceComparisonOperator	org.dynjs.runtime.interp.InterpretingVisitorFactory.createVisitor(Lorg/dynjs/runtime/BlockManager;)Lorg/dynjs/parser/CodeVisitor;:15 - ReplaceComparisonOperator == -> >=
+6	ReplaceComparisonOperator	org.dynjs.runtime.interp.InterpretingVisitorFactory.createVisitor(Lorg/dynjs/runtime/BlockManager;)Lorg/dynjs/parser/CodeVisitor;:15 - ReplaceComparisonOperator == -> <=

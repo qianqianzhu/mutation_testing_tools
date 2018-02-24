@@ -1,0 +1,120 @@
+0	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.<init>()V:43 - ReplaceConstant - 7 -> 0
+1	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.<init>()V:43 - ReplaceConstant - 7 -> 1
+2	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.<init>()V:43 - ReplaceConstant - 7 -> -1
+3	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.<init>()V:43 - ReplaceConstant - 7 -> 6
+4	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.<init>()V:43 - ReplaceConstant - 7 -> 8
+5	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.<init>(I)V:47 - InsertUnaryOp Negation of capacity
+6	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.<init>(I)V:47 - InsertUnaryOp IINC 1 capacity
+7	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.<init>(I)V:47 - InsertUnaryOp IINC -1 capacity
+8	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.<init>(ILjava/util/Random;)V:51 - InsertUnaryOp Negation of capacity
+9	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.<init>(ILjava/util/Random;)V:51 - InsertUnaryOp IINC 1 capacity
+10	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.<init>(ILjava/util/Random;)V:51 - InsertUnaryOp IINC -1 capacity
+11	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.peek()Ljava/lang/Object;:56 - ReplaceComparisonOperator = null -> != null
+12	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.peek(I)Ljava/util/List;:60 - InsertUnaryOp Negation of k
+13	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.peek(I)Ljava/util/List;:60 - InsertUnaryOp IINC 1 k
+14	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.peek(I)Ljava/util/List;:60 - InsertUnaryOp IINC -1 k
+15	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.peek(I)Ljava/util/List;:61 - ReplaceComparisonOperator = null -> != null
+16	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.peek(I)Ljava/util/List;:61 - InsertUnaryOp Negation of k
+17	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.peek(I)Ljava/util/List;:61 - InsertUnaryOp IINC 1 k
+18	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.peek(I)Ljava/util/List;:61 - InsertUnaryOp IINC -1 k
+19	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.peek(I)Ljava/util/List;:61 - ReplaceComparisonOperator >= -> -1
+20	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.peek(I)Ljava/util/List;:61 - ReplaceComparisonOperator >= -> >
+21	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.peek(I)Ljava/util/List;:61 - ReplaceComparisonOperator >= -> ==
+22	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;)J:68 - ReplaceConstant - 1 -> 0
+23	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:73 - ReplaceComparisonOperator = null -> != null
+24	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:74 - InsertUnaryOp Negation of incrementCount
+25	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:74 - InsertUnaryOp IINC 1 incrementCount
+26	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:74 - InsertUnaryOp IINC -1 incrementCount
+27	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:74 - ReplaceArithmeticOperator + -> %
+28	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:74 - ReplaceArithmeticOperator + -> -
+29	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:74 - ReplaceArithmeticOperator + -> *
+30	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:74 - ReplaceArithmeticOperator + -> /
+31	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:79 - InsertUnaryOp Negation of incrementCount
+32	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:79 - InsertUnaryOp IINC 1 incrementCount
+33	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:79 - InsertUnaryOp IINC -1 incrementCount
+34	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:81 - ReplaceComparisonOperator = null -> != null
+35	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:85 - ReplaceComparisonOperator != null -> = null
+36	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:89 - InsertUnaryOp Negation
+37	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:89 - InsertUnaryOp +1
+38	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:89 - InsertUnaryOp -1
+39	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:89 - ReplaceConstant - 1 -> 0
+40	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:89 - ReplaceArithmeticOperator + -> %
+41	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:89 - ReplaceArithmeticOperator + -> -
+42	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:89 - ReplaceArithmeticOperator + -> *
+43	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:89 - ReplaceArithmeticOperator + -> /
+44	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:91 - InsertUnaryOp Negation
+45	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:91 - ReplaceConstant - 1 -> 0
+46	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:91 - ReplaceConstant - 1 -> -1
+47	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:91 - ReplaceConstant - 1 -> 2
+48	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:91 - ReplaceArithmeticOperator + -> %
+49	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:91 - ReplaceArithmeticOperator + -> -
+50	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:91 - ReplaceArithmeticOperator + -> *
+51	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.put(Ljava/lang/Object;I)J:91 - ReplaceArithmeticOperator + -> /
+52	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:97 - ReplaceConstant - 0 -> 1
+53	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:97 - ReplaceConstant - 0 -> -1
+54	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:98 - ReplaceComparisonOperator = null -> != null
+55	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:99 - InsertUnaryOp Negation of weight
+56	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:99 - ReplaceArithmeticOperator + -> %
+57	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:99 - ReplaceArithmeticOperator + -> -
+58	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:99 - ReplaceArithmeticOperator + -> *
+59	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:99 - ReplaceArithmeticOperator + -> /
+60	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:100 - InsertUnaryOp Negation of p
+61	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:100 - InsertUnaryOp Negation of weight
+62	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:100 - InsertUnaryOp Negation
+63	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:100 - ReplaceArithmeticOperator / -> +
+64	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:100 - ReplaceArithmeticOperator / -> %
+65	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:100 - ReplaceArithmeticOperator / -> -
+66	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:100 - ReplaceArithmeticOperator / -> *
+67	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:100 - ReplaceComparisonOperator >= -> -1
+68	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:100 - ReplaceComparisonOperator >= -> ==
+69	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:100 - ReplaceComparisonOperator >= -> >
+70	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:102 - InsertUnaryOp Negation
+71	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:102 - ReplaceConstant - 1 -> 0
+72	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:102 - ReplaceConstant - 1 -> -1
+73	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:102 - ReplaceConstant - 1 -> 2
+74	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:102 - ReplaceArithmeticOperator - -> +
+75	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:102 - ReplaceArithmeticOperator - -> %
+76	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:102 - ReplaceArithmeticOperator - -> *
+77	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:102 - ReplaceArithmeticOperator - -> /
+78	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:104 - ReplaceConstant - 0 -> 1
+79	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:104 - ReplaceConstant - 0 -> -1
+80	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:104 - ReplaceComparisonOperator != -> -1
+81	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:104 - ReplaceComparisonOperator != -> <
+82	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.removeRandom()Ljava/lang/Object;:104 - ReplaceComparisonOperator != -> >
+83	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.removeMin()Ljava/lang/Object;:114 - ReplaceComparisonOperator != null -> = null
+84	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.removeMin()Ljava/lang/Object;:117 - InsertUnaryOp Negation
+85	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.removeMin()Ljava/lang/Object;:117 - InsertUnaryOp +1
+86	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.removeMin()Ljava/lang/Object;:117 - InsertUnaryOp -1
+87	ReplaceConstant	com.clearspring.analytics.stream.SampleSet.removeMin()Ljava/lang/Object;:117 - ReplaceConstant - 1 -> 0
+88	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeMin()Ljava/lang/Object;:117 - ReplaceArithmeticOperator - -> +
+89	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeMin()Ljava/lang/Object;:117 - ReplaceArithmeticOperator - -> %
+90	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeMin()Ljava/lang/Object;:117 - ReplaceArithmeticOperator - -> *
+91	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeMin()Ljava/lang/Object;:117 - ReplaceArithmeticOperator - -> /
+92	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.removeMin()Ljava/lang/Object;:118 - InsertUnaryOp Negation
+93	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeMin()Ljava/lang/Object;:118 - ReplaceArithmeticOperator - -> +
+94	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeMin()Ljava/lang/Object;:118 - ReplaceArithmeticOperator - -> %
+95	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeMin()Ljava/lang/Object;:118 - ReplaceArithmeticOperator - -> *
+96	ReplaceArithmeticOperator	com.clearspring.analytics.stream.SampleSet.removeMin()Ljava/lang/Object;:118 - ReplaceArithmeticOperator - -> /
+97	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.removeMin()Ljava/lang/Object;:121 - ReplaceComparisonOperator = null -> != null
+98	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.size()I:129 - InsertUnaryOp Negation
+99	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.size()I:129 - InsertUnaryOp +1
+100	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.size()I:129 - InsertUnaryOp -1
+101	InsertUnaryOp	com.clearspring.analytics.stream.SampleSet.count()J:133 - InsertUnaryOp Negation
+102	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.promote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:142 - ReplaceComparisonOperator = null -> != null
+103	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.promote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:142 - ReplaceComparisonOperator <= -> -1
+104	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.promote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:142 - ReplaceComparisonOperator <= -> ==
+105	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.promote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:142 - ReplaceComparisonOperator <= -> <
+106	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.promote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:145 - ReplaceComparisonOperator != null -> = null
+107	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.promote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:148 - ReplaceComparisonOperator = null -> != null
+108	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.promote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:157 - ReplaceComparisonOperator = null -> != null
+109	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.promote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:162 - ReplaceComparisonOperator != -> ==
+110	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.promote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:165 - ReplaceComparisonOperator != -> ==
+111	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.demote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:173 - ReplaceComparisonOperator = null -> != null
+112	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.demote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:173 - ReplaceComparisonOperator >= -> -1
+113	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.demote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:173 - ReplaceComparisonOperator >= -> ==
+114	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.demote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:173 - ReplaceComparisonOperator >= -> >
+115	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.demote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:176 - ReplaceComparisonOperator != null -> = null
+116	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.demote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:179 - ReplaceComparisonOperator = null -> != null
+117	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.demote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:187 - ReplaceComparisonOperator = null -> != null
+118	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.demote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:193 - ReplaceComparisonOperator != -> ==
+119	ReplaceComparisonOperator	com.clearspring.analytics.stream.SampleSet.demote(Lcom/clearspring/analytics/stream/SampleSet$Node;)V:196 - ReplaceComparisonOperator != -> ==

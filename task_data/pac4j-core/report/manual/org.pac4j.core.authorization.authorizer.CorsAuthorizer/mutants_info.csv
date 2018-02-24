@@ -1,0 +1,103 @@
+0	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.<init>()V:25 - ReplaceConstant - -1 -> 0
+1	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.<init>()V:25 - ReplaceConstant - -1 -> 1
+2	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.<init>()V:25 - ReplaceConstant - -1 -> -2
+3	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:35 - ReplaceConstant - allowOrigin -> 
+4	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:37 - ReplaceConstant - Access-Control-Allow-Origin -> 
+5	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:39 - ReplaceComparisonOperator == -> -2
+6	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:39 - ReplaceComparisonOperator == -> >=
+7	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:39 - ReplaceComparisonOperator == -> <=
+8	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:40 - ReplaceConstant - Access-Control-Expose-Header -> 
+9	InsertUnaryOp	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:43 - InsertUnaryOp Negation
+10	InsertUnaryOp	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:43 - InsertUnaryOp +1
+11	InsertUnaryOp	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:43 - InsertUnaryOp -1
+12	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:43 - ReplaceConstant - -1 -> 0
+13	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:43 - ReplaceConstant - -1 -> 1
+14	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:43 - ReplaceConstant - -1 -> -2
+15	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:43 - ReplaceComparisonOperator == -> -2
+16	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:43 - ReplaceComparisonOperator == -> >=
+17	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:43 - ReplaceComparisonOperator == -> <=
+18	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:44 - ReplaceConstant - Access-Control-Max-Age -> 
+19	InsertUnaryOp	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:44 - InsertUnaryOp Negation
+20	InsertUnaryOp	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:44 - InsertUnaryOp +1
+21	InsertUnaryOp	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:44 - InsertUnaryOp -1
+22	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:47 - ReplaceComparisonOperator = null -> != null
+23	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:48 - ReplaceConstant - Access-Control-Allow-Credentials -> 
+24	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:51 - ReplaceComparisonOperator = null -> != null
+25	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:52 - ReplaceConstant - ,  -> 
+26	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:53 - ReplaceConstant - Access-Control-Allow-Methods -> 
+27	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:56 - ReplaceComparisonOperator == -> -2
+28	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:56 - ReplaceComparisonOperator == -> >=
+29	ReplaceComparisonOperator	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:56 - ReplaceComparisonOperator == -> <=
+30	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:57 - ReplaceConstant - Access-Control-Allow-Headers -> 
+31	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.isAuthorized(Lorg/pac4j/core/context/WebContext;Ljava/util/List;)Z:60 - ReplaceConstant - 1 -> 0
+32	InsertUnaryOp	org.pac4j.core.authorization.authorizer.CorsAuthorizer.getMaxAge()I:80 - InsertUnaryOp Negation
+33	InsertUnaryOp	org.pac4j.core.authorization.authorizer.CorsAuthorizer.getMaxAge()I:80 - InsertUnaryOp +1
+34	InsertUnaryOp	org.pac4j.core.authorization.authorizer.CorsAuthorizer.getMaxAge()I:80 - InsertUnaryOp -1
+35	InsertUnaryOp	org.pac4j.core.authorization.authorizer.CorsAuthorizer.setMaxAge(I)V:84 - InsertUnaryOp Negation of maxAge
+36	InsertUnaryOp	org.pac4j.core.authorization.authorizer.CorsAuthorizer.setMaxAge(I)V:84 - InsertUnaryOp IINC 1 maxAge
+37	InsertUnaryOp	org.pac4j.core.authorization.authorizer.CorsAuthorizer.setMaxAge(I)V:84 - InsertUnaryOp IINC -1 maxAge
+38	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 12 -> 0
+39	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 12 -> 1
+40	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 12 -> -1
+41	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 12 -> 11
+42	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 12 -> 13
+43	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 0 -> 1
+44	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - allowOrigin -> 
+45	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 1 -> 0
+46	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 2 -> 0
+47	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 2 -> 1
+48	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 2 -> -1
+49	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 2 -> 3
+50	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - exposeHeaders -> 
+51	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 3 -> 0
+52	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 3 -> 1
+53	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 3 -> -1
+54	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 3 -> 2
+55	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 3 -> 4
+56	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 4 -> 0
+57	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 4 -> 1
+58	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 4 -> -1
+59	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 4 -> 3
+60	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 4 -> 5
+61	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - maxAge -> 
+62	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 5 -> 0
+63	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 5 -> 1
+64	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 5 -> -1
+65	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 5 -> 4
+66	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 5 -> 6
+67	InsertUnaryOp	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - InsertUnaryOp Negation
+68	InsertUnaryOp	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - InsertUnaryOp +1
+69	InsertUnaryOp	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - InsertUnaryOp -1
+70	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 6 -> 0
+71	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 6 -> 1
+72	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 6 -> -1
+73	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 6 -> 5
+74	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 6 -> 7
+75	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - allowCredentials -> 
+76	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 7 -> 0
+77	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 7 -> 1
+78	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 7 -> -1
+79	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 7 -> 6
+80	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 7 -> 8
+81	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 8 -> 0
+82	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 8 -> 1
+83	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 8 -> -1
+84	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 8 -> 7
+85	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 8 -> 9
+86	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - allowMethods -> 
+87	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 9 -> 0
+88	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 9 -> 1
+89	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 9 -> -1
+90	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 9 -> 8
+91	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 9 -> 10
+92	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 10 -> 0
+93	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 10 -> 1
+94	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 10 -> -1
+95	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 10 -> 9
+96	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 10 -> 11
+97	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - allowHeaders -> 
+98	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 11 -> 0
+99	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 11 -> 1
+100	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 11 -> -1
+101	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 11 -> 10
+102	ReplaceConstant	org.pac4j.core.authorization.authorizer.CorsAuthorizer.toString()Ljava/lang/String;:113 - ReplaceConstant - 11 -> 12

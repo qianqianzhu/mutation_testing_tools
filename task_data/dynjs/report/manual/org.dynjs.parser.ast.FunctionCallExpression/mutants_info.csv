@@ -1,0 +1,84 @@
+0	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.<init>(Lorg/dynjs/parser/ast/Expression;Ljava/util/List;)V:46 - ReplaceComparisonOperator == -> -2
+1	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.<init>(Lorg/dynjs/parser/ast/Expression;Ljava/util/List;)V:46 - ReplaceComparisonOperator == -> >=
+2	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.<init>(Lorg/dynjs/parser/ast/Expression;Ljava/util/List;)V:46 - ReplaceComparisonOperator == -> <=
+3	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:67 - ReplaceComparisonOperator == -> -2
+4	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:67 - ReplaceComparisonOperator == -> >=
+5	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:67 - ReplaceComparisonOperator == -> <=
+6	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:68 - InsertUnaryOp Negation of size
+7	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:68 - InsertUnaryOp IINC 1 size
+8	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:68 - InsertUnaryOp IINC -1 size
+9	ReplaceArithmeticOperator	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:68 - ReplaceArithmeticOperator + -> %
+10	ReplaceArithmeticOperator	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:68 - ReplaceArithmeticOperator + -> -
+11	ReplaceArithmeticOperator	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:68 - ReplaceArithmeticOperator + -> *
+12	ReplaceArithmeticOperator	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:68 - ReplaceArithmeticOperator + -> /
+13	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:71 - InsertUnaryOp Negation of size
+14	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:71 - InsertUnaryOp IINC 1 size
+15	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:71 - InsertUnaryOp IINC -1 size
+16	ReplaceConstant	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:71 - ReplaceConstant - 5 -> 0
+17	ReplaceConstant	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:71 - ReplaceConstant - 5 -> 1
+18	ReplaceConstant	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:71 - ReplaceConstant - 5 -> -1
+19	ReplaceConstant	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:71 - ReplaceConstant - 5 -> 4
+20	ReplaceConstant	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:71 - ReplaceConstant - 5 -> 6
+21	ReplaceArithmeticOperator	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:71 - ReplaceArithmeticOperator + -> %
+22	ReplaceArithmeticOperator	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:71 - ReplaceArithmeticOperator + -> -
+23	ReplaceArithmeticOperator	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:71 - ReplaceArithmeticOperator + -> *
+24	ReplaceArithmeticOperator	org.dynjs.parser.ast.FunctionCallExpression.getSizeMetric()I:71 - ReplaceArithmeticOperator + -> /
+25	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:76 - InsertUnaryOp Negation of debug
+26	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:76 - InsertUnaryOp IINC 1 debug
+27	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:76 - InsertUnaryOp IINC -1 debug
+28	ReplaceConstant	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:84 - ReplaceConstant - 0 -> 1
+29	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:84 - InsertUnaryOp Negation of i
+30	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:84 - InsertUnaryOp IINC 1 i
+31	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:84 - InsertUnaryOp IINC -1 i
+32	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:84 - InsertUnaryOp Negation of numArgs
+33	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:84 - InsertUnaryOp IINC 1 numArgs
+34	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:84 - InsertUnaryOp IINC -1 numArgs
+35	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:84 - ReplaceComparisonOperator >= -> -1
+36	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:84 - ReplaceComparisonOperator >= -> >
+37	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:84 - ReplaceComparisonOperator >= -> ==
+38	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:85 - InsertUnaryOp Negation of i
+39	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:85 - InsertUnaryOp IINC 1 i
+40	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:85 - InsertUnaryOp IINC -1 i
+41	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:86 - InsertUnaryOp Negation of i
+42	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:86 - InsertUnaryOp IINC 1 i
+43	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:86 - InsertUnaryOp IINC -1 i
+44	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:87 - InsertUnaryOp Negation of debug
+45	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:87 - InsertUnaryOp IINC 1 debug
+46	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:87 - InsertUnaryOp IINC -1 debug
+47	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:89 - InsertUnaryOp Negation of i
+48	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:89 - InsertUnaryOp IINC 1 i
+49	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:89 - InsertUnaryOp IINC -1 i
+50	ReplaceVariable	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:84 - ReplaceVariable i -> numArgs
+51	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:94 - ReplaceComparisonOperator == -> -2
+52	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:94 - ReplaceComparisonOperator == -> >=
+53	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:94 - ReplaceComparisonOperator == -> <=
+54	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:95 - ReplaceComparisonOperator == -> -2
+55	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:95 - ReplaceComparisonOperator == -> >=
+56	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:95 - ReplaceComparisonOperator == -> <=
+57	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:102 - ReplaceComparisonOperator != null -> = null
+58	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:106 - ReplaceComparisonOperator == -> -2
+59	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:106 - ReplaceComparisonOperator == -> >=
+60	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:106 - ReplaceComparisonOperator == -> <=
+61	ReplaceConstant	org.dynjs.parser.ast.FunctionCallExpression.interpret(Lorg/dynjs/runtime/ExecutionContext;Z)Ljava/lang/Object;:116 - ReplaceConstant - not callable:  -> 
+62	ReplaceConstant	org.dynjs.parser.ast.FunctionCallExpression.toString()Ljava/lang/String;:124 - ReplaceConstant - ( -> 
+63	ReplaceConstant	org.dynjs.parser.ast.FunctionCallExpression.toString()Ljava/lang/String;:125 - ReplaceConstant - 1 -> 0
+64	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.toString()Ljava/lang/String;:126 - ReplaceComparisonOperator == -> -2
+65	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.toString()Ljava/lang/String;:126 - ReplaceComparisonOperator == -> >=
+66	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.toString()Ljava/lang/String;:126 - ReplaceComparisonOperator == -> <=
+67	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.toString()Ljava/lang/String;:127 - InsertUnaryOp Negation of first
+68	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.toString()Ljava/lang/String;:127 - InsertUnaryOp IINC 1 first
+69	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.toString()Ljava/lang/String;:127 - InsertUnaryOp IINC -1 first
+70	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.toString()Ljava/lang/String;:127 - ReplaceComparisonOperator != -> -1
+71	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.toString()Ljava/lang/String;:127 - ReplaceComparisonOperator != -> <
+72	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.toString()Ljava/lang/String;:127 - ReplaceComparisonOperator != -> >
+73	ReplaceConstant	org.dynjs.parser.ast.FunctionCallExpression.toString()Ljava/lang/String;:128 - ReplaceConstant - ,  -> 
+74	ReplaceConstant	org.dynjs.parser.ast.FunctionCallExpression.toString()Ljava/lang/String;:131 - ReplaceConstant - 0 -> 1
+75	ReplaceConstant	org.dynjs.parser.ast.FunctionCallExpression.toString()Ljava/lang/String;:134 - ReplaceConstant - ) -> 
+76	ReplaceConstant	org.dynjs.parser.ast.FunctionCallExpression.dump(Ljava/lang/String;)Ljava/lang/String;:141 - ReplaceConstant -    -> 
+77	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.dump(Ljava/lang/String;)Ljava/lang/String;:142 - ReplaceComparisonOperator == -> -2
+78	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.dump(Ljava/lang/String;)Ljava/lang/String;:142 - ReplaceComparisonOperator == -> >=
+79	ReplaceComparisonOperator	org.dynjs.parser.ast.FunctionCallExpression.dump(Ljava/lang/String;)Ljava/lang/String;:142 - ReplaceComparisonOperator == -> <=
+80	ReplaceConstant	org.dynjs.parser.ast.FunctionCallExpression.dump(Ljava/lang/String;)Ljava/lang/String;:143 - ReplaceConstant -    -> 
+81	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:150 - InsertUnaryOp Negation of strict
+82	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:150 - InsertUnaryOp IINC 1 strict
+83	InsertUnaryOp	org.dynjs.parser.ast.FunctionCallExpression.accept(Ljava/lang/Object;Lorg/dynjs/parser/CodeVisitor;Z)Ljava/lang/Object;:150 - InsertUnaryOp IINC -1 strict

@@ -1,0 +1,10 @@
+0	ReplaceConstant	org.assertj.core.internal.cglib.reflect.FastClassEmitter$GetIndexCallback.<init>(Lorg/assertj/core/internal/cglib/core/CodeEmitter;Ljava/util/List;)V:202 - ReplaceConstant - 0 -> 1
+1	ReplaceComparisonOperator	org.assertj.core.internal.cglib.reflect.FastClassEmitter$GetIndexCallback.<init>(Lorg/assertj/core/internal/cglib/core/CodeEmitter;Ljava/util/List;)V:203 - ReplaceComparisonOperator == -> -2
+2	ReplaceComparisonOperator	org.assertj.core.internal.cglib.reflect.FastClassEmitter$GetIndexCallback.<init>(Lorg/assertj/core/internal/cglib/core/CodeEmitter;Ljava/util/List;)V:203 - ReplaceComparisonOperator == -> >=
+3	ReplaceComparisonOperator	org.assertj.core.internal.cglib.reflect.FastClassEmitter$GetIndexCallback.<init>(Lorg/assertj/core/internal/cglib/core/CodeEmitter;Ljava/util/List;)V:203 - ReplaceComparisonOperator == -> <=
+4	InsertUnaryOp	org.assertj.core.internal.cglib.reflect.FastClassEmitter$GetIndexCallback.<init>(Lorg/assertj/core/internal/cglib/core/CodeEmitter;Ljava/util/List;)V:204 - InsertUnaryOp Negation of index
+5	InsertUnaryOp	org.assertj.core.internal.cglib.reflect.FastClassEmitter$GetIndexCallback.<init>(Lorg/assertj/core/internal/cglib/core/CodeEmitter;Ljava/util/List;)V:204 - InsertUnaryOp IINC 1 index
+6	InsertUnaryOp	org.assertj.core.internal.cglib.reflect.FastClassEmitter$GetIndexCallback.<init>(Lorg/assertj/core/internal/cglib/core/CodeEmitter;Ljava/util/List;)V:204 - InsertUnaryOp IINC -1 index
+7	ReplaceConstant	org.assertj.core.internal.cglib.reflect.FastClassEmitter$GetIndexCallback.processDefault()V:214 - ReplaceConstant - -1 -> 0
+8	ReplaceConstant	org.assertj.core.internal.cglib.reflect.FastClassEmitter$GetIndexCallback.processDefault()V:214 - ReplaceConstant - -1 -> 1
+9	ReplaceConstant	org.assertj.core.internal.cglib.reflect.FastClassEmitter$GetIndexCallback.processDefault()V:214 - ReplaceConstant - -1 -> -2

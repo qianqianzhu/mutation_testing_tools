@@ -1,0 +1,118 @@
+0	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.closeQuietly(Ljava/io/Closeable;)V:202 - ReplaceComparisonOperator = null -> != null
+1	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I:275 - InsertUnaryOp Negation of count
+2	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I:275 - ReplaceConstant - 2147483647 -> 0
+3	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I:275 - ReplaceConstant - 2147483647 -> 1
+4	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I:275 - ReplaceConstant - 2147483647 -> -1
+5	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I:275 - ReplaceConstant - 2147483647 -> 2147483646
+6	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I:275 - ReplaceConstant - 2147483647 -> 2147483648
+7	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I:275 - ReplaceComparisonOperator <= -> -1
+8	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I:275 - ReplaceComparisonOperator <= -> ==
+9	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I:275 - ReplaceComparisonOperator <= -> <
+10	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I:276 - ReplaceConstant - -1 -> 0
+11	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I:276 - ReplaceConstant - -1 -> 1
+12	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I:276 - ReplaceConstant - -1 -> -2
+13	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/InputStream;Ljava/io/OutputStream;)I:278 - InsertUnaryOp Negation of count
+14	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;)J:299 - ReplaceConstant - 4096 -> 0
+15	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;)J:299 - ReplaceConstant - 4096 -> 1
+16	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;)J:299 - ReplaceConstant - 4096 -> -1
+17	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;)J:299 - ReplaceConstant - 4096 -> 4095
+18	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;)J:299 - ReplaceConstant - 4096 -> 4097
+19	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:320 - ReplaceConstant - 0 -> 1
+20	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:320 - ReplaceConstant - 0 -> -1
+21	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:321 - ReplaceConstant - 0 -> 1
+22	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:322 - ReplaceConstant - -1 -> 0
+23	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:322 - ReplaceConstant - -1 -> 1
+24	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:322 - ReplaceConstant - -1 -> -2
+25	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:322 - ReplaceComparisonOperator == -> -2
+26	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:322 - ReplaceComparisonOperator == -> >=
+27	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:322 - ReplaceComparisonOperator == -> <=
+28	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:323 - ReplaceConstant - 0 -> 1
+29	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:323 - InsertUnaryOp Negation of n
+30	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:323 - InsertUnaryOp IINC 1 n
+31	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:323 - InsertUnaryOp IINC -1 n
+32	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:324 - InsertUnaryOp Negation of count
+33	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:324 - InsertUnaryOp Negation of n
+34	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:324 - InsertUnaryOp IINC 1 n
+35	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:324 - InsertUnaryOp IINC -1 n
+36	ReplaceArithmeticOperator	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:324 - ReplaceArithmeticOperator + -> %
+37	ReplaceArithmeticOperator	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:324 - ReplaceArithmeticOperator + -> -
+38	ReplaceArithmeticOperator	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:324 - ReplaceArithmeticOperator + -> *
+39	ReplaceArithmeticOperator	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:324 - ReplaceArithmeticOperator + -> /
+40	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/InputStream;Ljava/io/OutputStream;[B)J:326 - InsertUnaryOp Negation of count
+41	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/InputStream;Ljava/io/Writer;Ljava/lang/String;)V:371 - ReplaceComparisonOperator != null -> = null
+42	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/Reader;Ljava/io/Writer;)I:401 - InsertUnaryOp Negation of count
+43	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/Reader;Ljava/io/Writer;)I:401 - ReplaceConstant - 2147483647 -> 0
+44	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/Reader;Ljava/io/Writer;)I:401 - ReplaceConstant - 2147483647 -> 1
+45	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/Reader;Ljava/io/Writer;)I:401 - ReplaceConstant - 2147483647 -> -1
+46	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/Reader;Ljava/io/Writer;)I:401 - ReplaceConstant - 2147483647 -> 2147483646
+47	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/Reader;Ljava/io/Writer;)I:401 - ReplaceConstant - 2147483647 -> 2147483648
+48	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/Reader;Ljava/io/Writer;)I:401 - ReplaceComparisonOperator <= -> -1
+49	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/Reader;Ljava/io/Writer;)I:401 - ReplaceComparisonOperator <= -> ==
+50	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/Reader;Ljava/io/Writer;)I:401 - ReplaceComparisonOperator <= -> <
+51	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/Reader;Ljava/io/Writer;)I:402 - ReplaceConstant - -1 -> 0
+52	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/Reader;Ljava/io/Writer;)I:402 - ReplaceConstant - -1 -> 1
+53	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/Reader;Ljava/io/Writer;)I:402 - ReplaceConstant - -1 -> -2
+54	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copy(Ljava/io/Reader;Ljava/io/Writer;)I:404 - InsertUnaryOp Negation of count
+55	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;)J:423 - ReplaceConstant - 4096 -> 0
+56	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;)J:423 - ReplaceConstant - 4096 -> 1
+57	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;)J:423 - ReplaceConstant - 4096 -> -1
+58	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;)J:423 - ReplaceConstant - 4096 -> 4095
+59	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;)J:423 - ReplaceConstant - 4096 -> 4097
+60	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:442 - ReplaceConstant - 0 -> 1
+61	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:442 - ReplaceConstant - 0 -> -1
+62	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:443 - ReplaceConstant - 0 -> 1
+63	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:444 - ReplaceConstant - -1 -> 0
+64	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:444 - ReplaceConstant - -1 -> 1
+65	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:444 - ReplaceConstant - -1 -> -2
+66	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:444 - ReplaceComparisonOperator == -> -2
+67	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:444 - ReplaceComparisonOperator == -> >=
+68	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:444 - ReplaceComparisonOperator == -> <=
+69	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:445 - ReplaceConstant - 0 -> 1
+70	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:445 - InsertUnaryOp Negation of n
+71	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:445 - InsertUnaryOp IINC 1 n
+72	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:445 - InsertUnaryOp IINC -1 n
+73	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:446 - InsertUnaryOp Negation of count
+74	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:446 - InsertUnaryOp Negation of n
+75	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:446 - InsertUnaryOp IINC 1 n
+76	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:446 - InsertUnaryOp IINC -1 n
+77	ReplaceArithmeticOperator	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:446 - ReplaceArithmeticOperator + -> %
+78	ReplaceArithmeticOperator	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:446 - ReplaceArithmeticOperator + -> -
+79	ReplaceArithmeticOperator	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:446 - ReplaceArithmeticOperator + -> *
+80	ReplaceArithmeticOperator	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:446 - ReplaceArithmeticOperator + -> /
+81	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.copyLarge(Ljava/io/Reader;Ljava/io/Writer;[C)J:448 - InsertUnaryOp Negation of count
+82	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:469 - ReplaceComparisonOperator != -> -1
+83	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:469 - ReplaceComparisonOperator != -> <
+84	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:469 - ReplaceComparisonOperator != -> >
+85	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:472 - ReplaceComparisonOperator != -> -1
+86	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:472 - ReplaceComparisonOperator != -> <
+87	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:472 - ReplaceComparisonOperator != -> >
+88	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:477 - ReplaceConstant - -1 -> 0
+89	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:477 - ReplaceConstant - -1 -> 1
+90	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:477 - ReplaceConstant - -1 -> -2
+91	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:477 - InsertUnaryOp Negation of ch
+92	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:477 - InsertUnaryOp IINC 1 ch
+93	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:477 - InsertUnaryOp IINC -1 ch
+94	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:477 - ReplaceComparisonOperator == -> -2
+95	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:477 - ReplaceComparisonOperator == -> >=
+96	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:477 - ReplaceComparisonOperator == -> <=
+97	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:479 - InsertUnaryOp Negation of ch
+98	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:479 - InsertUnaryOp IINC 1 ch
+99	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:479 - InsertUnaryOp IINC -1 ch
+100	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:479 - InsertUnaryOp Negation of ch2
+101	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:479 - InsertUnaryOp IINC 1 ch2
+102	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:479 - InsertUnaryOp IINC -1 ch2
+103	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:479 - ReplaceComparisonOperator == -> -2
+104	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:479 - ReplaceComparisonOperator == -> >=
+105	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:479 - ReplaceComparisonOperator == -> <=
+106	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:480 - ReplaceConstant - 0 -> 1
+107	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:486 - InsertUnaryOp Negation of ch2
+108	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:486 - InsertUnaryOp IINC 1 ch2
+109	InsertUnaryOp	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:486 - InsertUnaryOp IINC -1 ch2
+110	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:486 - ReplaceConstant - -1 -> 0
+111	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:486 - ReplaceConstant - -1 -> 1
+112	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:486 - ReplaceConstant - -1 -> -2
+113	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:486 - ReplaceComparisonOperator != -> -1
+114	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:486 - ReplaceComparisonOperator != -> <
+115	ReplaceComparisonOperator	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:486 - ReplaceComparisonOperator != -> >
+116	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:486 - ReplaceConstant - 1 -> 0
+117	ReplaceConstant	org.zeroturnaround.zip.commons.IOUtils.contentEquals(Ljava/io/InputStream;Ljava/io/InputStream;)Z:486 - ReplaceConstant - 0 -> 1

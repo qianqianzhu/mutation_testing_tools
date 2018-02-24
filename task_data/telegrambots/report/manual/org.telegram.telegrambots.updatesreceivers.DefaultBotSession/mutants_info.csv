@@ -1,0 +1,27 @@
+0	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.<init>()V:49 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.<init>()V:58 - ReplaceConstant - 0 -> 1
+2	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.start()V:67 - InsertUnaryOp Negation
+3	ReplaceComparisonOperator	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.start()V:67 - ReplaceComparisonOperator == -> -2
+4	ReplaceComparisonOperator	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.start()V:67 - ReplaceComparisonOperator == -> >=
+5	ReplaceComparisonOperator	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.start()V:67 - ReplaceComparisonOperator == -> <=
+6	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.start()V:68 - ReplaceConstant - Session already running -> 
+7	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.start()V:71 - ReplaceConstant - 1 -> 0
+8	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.start()V:73 - ReplaceConstant - 0 -> 1
+9	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.start()V:76 - ReplaceConstant -  Telegram Connection -> 
+10	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.start()V:80 - ReplaceConstant -  Telegram Executor -> 
+11	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.stop()V:86 - InsertUnaryOp Negation
+12	ReplaceComparisonOperator	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.stop()V:86 - ReplaceComparisonOperator != -> -1
+13	ReplaceComparisonOperator	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.stop()V:86 - ReplaceComparisonOperator != -> <
+14	ReplaceComparisonOperator	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.stop()V:86 - ReplaceComparisonOperator != -> >
+15	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.stop()V:87 - ReplaceConstant - Session already stopped -> 
+16	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.stop()V:90 - ReplaceConstant - 0 -> 1
+17	ReplaceComparisonOperator	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.stop()V:92 - ReplaceComparisonOperator = null -> != null
+18	ReplaceComparisonOperator	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.stop()V:96 - ReplaceComparisonOperator = null -> != null
+19	ReplaceComparisonOperator	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.stop()V:100 - ReplaceComparisonOperator = null -> != null
+20	ReplaceComparisonOperator	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.setOptions(Lorg/telegram/telegrambots/generics/BotOptions;)V:107 - ReplaceComparisonOperator = null -> != null
+21	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.setOptions(Lorg/telegram/telegrambots/generics/BotOptions;)V:108 - ReplaceConstant - BotOptions has already been set -> 
+22	ReplaceComparisonOperator	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.setToken(Ljava/lang/String;)V:115 - ReplaceComparisonOperator = null -> != null
+23	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.setToken(Ljava/lang/String;)V:116 - ReplaceConstant - Token has already been set -> 
+24	ReplaceComparisonOperator	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.setCallback(Lorg/telegram/telegrambots/generics/LongPollingBot;)V:123 - ReplaceComparisonOperator = null -> != null
+25	ReplaceConstant	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.setCallback(Lorg/telegram/telegrambots/generics/LongPollingBot;)V:124 - ReplaceConstant - Callback has already been set -> 
+26	InsertUnaryOp	org.telegram.telegrambots.updatesreceivers.DefaultBotSession.isRunning()Z:131 - InsertUnaryOp Negation

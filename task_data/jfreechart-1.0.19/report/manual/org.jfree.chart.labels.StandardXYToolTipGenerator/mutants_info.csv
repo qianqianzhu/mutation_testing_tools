@@ -1,0 +1,14 @@
+0	ReplaceConstant	org.jfree.chart.labels.StandardXYToolTipGenerator.getTimeSeriesInstance()Lorg/jfree/chart/labels/StandardXYToolTipGenerator;:73 - ReplaceConstant - {0}: ({1}, {2}) -> 
+1	ReplaceConstant	org.jfree.chart.labels.StandardXYToolTipGenerator.<init>()V:81 - ReplaceConstant - {0}: ({1}, {2}) -> 
+2	InsertUnaryOp	org.jfree.chart.labels.StandardXYToolTipGenerator.generateToolTip(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:166 - InsertUnaryOp Negation of series
+3	InsertUnaryOp	org.jfree.chart.labels.StandardXYToolTipGenerator.generateToolTip(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:166 - InsertUnaryOp IINC 1 series
+4	InsertUnaryOp	org.jfree.chart.labels.StandardXYToolTipGenerator.generateToolTip(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:166 - InsertUnaryOp IINC -1 series
+5	InsertUnaryOp	org.jfree.chart.labels.StandardXYToolTipGenerator.generateToolTip(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:166 - InsertUnaryOp Negation of item
+6	InsertUnaryOp	org.jfree.chart.labels.StandardXYToolTipGenerator.generateToolTip(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:166 - InsertUnaryOp IINC 1 item
+7	InsertUnaryOp	org.jfree.chart.labels.StandardXYToolTipGenerator.generateToolTip(Lorg/jfree/data/xy/XYDataset;II)Ljava/lang/String;:166 - InsertUnaryOp IINC -1 item
+8	ReplaceComparisonOperator	org.jfree.chart.labels.StandardXYToolTipGenerator.equals(Ljava/lang/Object;)Z:178 - ReplaceComparisonOperator != -> ==
+9	ReplaceConstant	org.jfree.chart.labels.StandardXYToolTipGenerator.equals(Ljava/lang/Object;)Z:179 - ReplaceConstant - 1 -> 0
+10	ReplaceComparisonOperator	org.jfree.chart.labels.StandardXYToolTipGenerator.equals(Ljava/lang/Object;)Z:181 - ReplaceComparisonOperator != -> -1
+11	ReplaceComparisonOperator	org.jfree.chart.labels.StandardXYToolTipGenerator.equals(Ljava/lang/Object;)Z:181 - ReplaceComparisonOperator != -> <
+12	ReplaceComparisonOperator	org.jfree.chart.labels.StandardXYToolTipGenerator.equals(Ljava/lang/Object;)Z:181 - ReplaceComparisonOperator != -> >
+13	ReplaceConstant	org.jfree.chart.labels.StandardXYToolTipGenerator.equals(Ljava/lang/Object;)Z:182 - ReplaceConstant - 0 -> 1

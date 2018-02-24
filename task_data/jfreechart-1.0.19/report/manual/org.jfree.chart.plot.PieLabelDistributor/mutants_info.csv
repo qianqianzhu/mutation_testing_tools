@@ -1,0 +1,333 @@
+0	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.<init>(I)V:55 - ReplaceConstant - 4.0 -> 0.0
+1	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.<init>(I)V:55 - ReplaceConstant - 4.0 -> 1.0
+2	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.<init>(I)V:55 - ReplaceConstant - 4.0 -> -1.0
+3	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.<init>(I)V:55 - ReplaceConstant - 4.0 -> 3.0
+4	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.<init>(I)V:55 - ReplaceConstant - 4.0 -> 5.0
+5	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.distributeLabels(DD)V:79 - ReplaceComparisonOperator == -> -2
+6	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.distributeLabels(DD)V:79 - ReplaceComparisonOperator == -> >=
+7	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.distributeLabels(DD)V:79 - ReplaceComparisonOperator == -> <=
+8	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.distributeLabels(DD)V:80 - InsertUnaryOp Negation of minY
+9	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.distributeLabels(DD)V:80 - InsertUnaryOp Negation of height
+10	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.distributeLabels(DD)V:83 - ReplaceComparisonOperator == -> -2
+11	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.distributeLabels(DD)V:83 - ReplaceComparisonOperator == -> >=
+12	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.distributeLabels(DD)V:83 - ReplaceComparisonOperator == -> <=
+13	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.distributeLabels(DD)V:84 - InsertUnaryOp Negation of minY
+14	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.distributeLabels(DD)V:84 - InsertUnaryOp Negation of height
+15	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.distributeLabels(DD)V:87 - ReplaceComparisonOperator == -> -2
+16	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.distributeLabels(DD)V:87 - ReplaceComparisonOperator == -> >=
+17	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.distributeLabels(DD)V:87 - ReplaceComparisonOperator == -> <=
+18	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.distributeLabels(DD)V:88 - InsertUnaryOp Negation of minY
+19	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.distributeLabels(DD)V:88 - InsertUnaryOp Negation of height
+20	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:99 - ReplaceConstant - 0.0 -> 1.0
+21	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:99 - ReplaceConstant - 0.0 -> -1.0
+22	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:100 - ReplaceConstant - 0 -> 1
+23	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:100 - InsertUnaryOp Negation of i
+24	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:100 - InsertUnaryOp IINC 1 i
+25	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:100 - InsertUnaryOp IINC -1 i
+26	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:100 - ReplaceComparisonOperator >= -> -1
+27	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:100 - ReplaceComparisonOperator >= -> >
+28	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:100 - ReplaceComparisonOperator >= -> ==
+29	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:101 - InsertUnaryOp Negation of i
+30	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:101 - InsertUnaryOp IINC 1 i
+31	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:101 - InsertUnaryOp IINC -1 i
+32	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:102 - InsertUnaryOp Negation of y
+33	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:102 - ReplaceComparisonOperator <= -> -1
+34	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:102 - ReplaceComparisonOperator <= -> ==
+35	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:102 - ReplaceComparisonOperator <= -> <
+36	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:103 - ReplaceConstant - 1 -> 0
+37	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.isOverlap()Z:107 - ReplaceConstant - 0 -> 1
+38	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:115 - ReplaceConstant - 0 -> 1
+39	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:116 - ReplaceConstant - 1 -> 0
+40	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:116 - ReplaceArithmeticOperator - -> +
+41	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:116 - ReplaceArithmeticOperator - -> %
+42	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:116 - ReplaceArithmeticOperator - -> *
+43	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:116 - ReplaceArithmeticOperator - -> /
+44	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:117 - InsertUnaryOp Negation of upper
+45	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:117 - InsertUnaryOp IINC 1 upper
+46	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:117 - InsertUnaryOp IINC -1 upper
+47	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:117 - InsertUnaryOp Negation of lower
+48	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:117 - InsertUnaryOp IINC 1 lower
+49	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:117 - InsertUnaryOp IINC -1 lower
+50	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:117 - ReplaceComparisonOperator <= -> -1
+51	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:117 - ReplaceComparisonOperator <= -> <
+52	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:117 - ReplaceComparisonOperator <= -> ==
+53	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:118 - InsertUnaryOp Negation of lower
+54	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:118 - InsertUnaryOp IINC 1 lower
+55	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:118 - InsertUnaryOp IINC -1 lower
+56	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:118 - InsertUnaryOp Negation of upper
+57	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:118 - InsertUnaryOp IINC 1 upper
+58	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:118 - InsertUnaryOp IINC -1 upper
+59	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:118 - ReplaceConstant - 1 -> 0
+60	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:118 - ReplaceArithmeticOperator - -> +
+61	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:118 - ReplaceArithmeticOperator - -> %
+62	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:118 - ReplaceArithmeticOperator - -> *
+63	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:118 - ReplaceArithmeticOperator - -> /
+64	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:118 - ReplaceComparisonOperator >= -> -1
+65	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:118 - ReplaceComparisonOperator >= -> >
+66	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:118 - ReplaceComparisonOperator >= -> ==
+67	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:119 - InsertUnaryOp Negation of lower
+68	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:119 - InsertUnaryOp IINC 1 lower
+69	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:119 - InsertUnaryOp IINC -1 lower
+70	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:120 - InsertUnaryOp Negation of lower
+71	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:120 - InsertUnaryOp IINC 1 lower
+72	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:120 - InsertUnaryOp IINC -1 lower
+73	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:120 - ReplaceConstant - 1 -> 0
+74	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:120 - ReplaceArithmeticOperator + -> %
+75	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:120 - ReplaceArithmeticOperator + -> -
+76	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:120 - ReplaceArithmeticOperator + -> *
+77	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:120 - ReplaceArithmeticOperator + -> /
+78	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:121 - ReplaceComparisonOperator >= -> -1
+79	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:121 - ReplaceComparisonOperator >= -> ==
+80	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:121 - ReplaceComparisonOperator >= -> >
+81	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:122 - ReplaceArithmeticOperator - -> +
+82	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:122 - ReplaceArithmeticOperator - -> %
+83	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:122 - ReplaceArithmeticOperator - -> *
+84	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:122 - ReplaceArithmeticOperator - -> /
+85	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:122 - InsertUnaryOp Negation
+86	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:122 - ReplaceArithmeticOperator + -> %
+87	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:122 - ReplaceArithmeticOperator + -> -
+88	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:122 - ReplaceArithmeticOperator + -> *
+89	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:122 - ReplaceArithmeticOperator + -> /
+90	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:124 - InsertUnaryOp Negation of adjust
+91	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:124 - ReplaceArithmeticOperator + -> %
+92	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:124 - ReplaceArithmeticOperator + -> -
+93	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:124 - ReplaceArithmeticOperator + -> *
+94	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:124 - ReplaceArithmeticOperator + -> /
+95	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:127 - InsertUnaryOp Negation of upper
+96	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:127 - InsertUnaryOp IINC 1 upper
+97	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:127 - InsertUnaryOp IINC -1 upper
+98	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:127 - ReplaceConstant - 1 -> 0
+99	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:127 - ReplaceArithmeticOperator - -> +
+100	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:127 - ReplaceArithmeticOperator - -> %
+101	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:127 - ReplaceArithmeticOperator - -> *
+102	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:127 - ReplaceArithmeticOperator - -> /
+103	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:128 - InsertUnaryOp Negation of upper
+104	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:128 - InsertUnaryOp IINC 1 upper
+105	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:128 - InsertUnaryOp IINC -1 upper
+106	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:129 - ReplaceComparisonOperator <= -> -1
+107	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:129 - ReplaceComparisonOperator <= -> ==
+108	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:129 - ReplaceComparisonOperator <= -> <
+109	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:130 - ReplaceArithmeticOperator - -> +
+110	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:130 - ReplaceArithmeticOperator - -> %
+111	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:130 - ReplaceArithmeticOperator - -> *
+112	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:130 - ReplaceArithmeticOperator - -> /
+113	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:130 - InsertUnaryOp Negation
+114	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:130 - ReplaceArithmeticOperator + -> %
+115	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:130 - ReplaceArithmeticOperator + -> -
+116	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:130 - ReplaceArithmeticOperator + -> *
+117	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:130 - ReplaceArithmeticOperator + -> /
+118	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:131 - InsertUnaryOp Negation of adjust
+119	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:131 - ReplaceArithmeticOperator + -> %
+120	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:131 - ReplaceArithmeticOperator + -> -
+121	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:131 - ReplaceArithmeticOperator + -> *
+122	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:131 - ReplaceArithmeticOperator + -> /
+123	ReplaceVariable	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:133 - ReplaceVariable lower -> upper
+124	ReplaceVariable	org.jfree.chart.plot.PieLabelDistributor.adjustInwards()V:134 - ReplaceVariable upper -> lower
+125	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:146 - ReplaceConstant - 0 -> 1
+126	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:146 - InsertUnaryOp Negation of i
+127	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:146 - InsertUnaryOp IINC 1 i
+128	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:146 - InsertUnaryOp IINC -1 i
+129	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:146 - ReplaceConstant - 1 -> 0
+130	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:146 - ReplaceArithmeticOperator - -> +
+131	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:146 - ReplaceArithmeticOperator - -> %
+132	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:146 - ReplaceArithmeticOperator - -> *
+133	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:146 - ReplaceArithmeticOperator - -> /
+134	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:146 - ReplaceComparisonOperator >= -> -1
+135	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:146 - ReplaceComparisonOperator >= -> >
+136	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:146 - ReplaceComparisonOperator >= -> ==
+137	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:147 - InsertUnaryOp Negation of i
+138	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:147 - InsertUnaryOp IINC 1 i
+139	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:147 - InsertUnaryOp IINC -1 i
+140	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:148 - InsertUnaryOp Negation of i
+141	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:148 - InsertUnaryOp IINC 1 i
+142	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:148 - InsertUnaryOp IINC -1 i
+143	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:148 - ReplaceConstant - 1 -> 0
+144	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:148 - ReplaceArithmeticOperator + -> %
+145	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:148 - ReplaceArithmeticOperator + -> -
+146	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:148 - ReplaceArithmeticOperator + -> *
+147	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:148 - ReplaceArithmeticOperator + -> /
+148	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:149 - ReplaceComparisonOperator >= -> -1
+149	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:149 - ReplaceComparisonOperator >= -> ==
+150	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:149 - ReplaceComparisonOperator >= -> >
+151	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:150 - InsertUnaryOp Negation of minY
+152	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:150 - InsertUnaryOp Negation of height
+153	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:150 - ReplaceArithmeticOperator + -> %
+154	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:150 - ReplaceArithmeticOperator + -> -
+155	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:150 - ReplaceArithmeticOperator + -> *
+156	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:150 - ReplaceArithmeticOperator + -> /
+157	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:151 - ReplaceConstant - 2.0 -> 0.0
+158	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:151 - ReplaceConstant - 2.0 -> 1.0
+159	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:151 - ReplaceConstant - 2.0 -> -1.0
+160	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:151 - ReplaceConstant - 2.0 -> 3.0
+161	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:151 - ReplaceArithmeticOperator / -> +
+162	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:151 - ReplaceArithmeticOperator / -> %
+163	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:151 - ReplaceArithmeticOperator / -> -
+164	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:151 - ReplaceArithmeticOperator / -> *
+165	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:151 - ReplaceArithmeticOperator - -> +
+166	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:151 - ReplaceArithmeticOperator - -> %
+167	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:151 - ReplaceArithmeticOperator - -> *
+168	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:151 - ReplaceArithmeticOperator - -> /
+169	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:152 - InsertUnaryOp Negation
+170	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:152 - ReplaceArithmeticOperator + -> %
+171	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:152 - ReplaceArithmeticOperator + -> -
+172	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:152 - ReplaceArithmeticOperator + -> *
+173	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:152 - ReplaceArithmeticOperator + -> /
+174	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:153 - ReplaceConstant - 2.0 -> 0.0
+175	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:153 - ReplaceConstant - 2.0 -> 1.0
+176	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:153 - ReplaceConstant - 2.0 -> -1.0
+177	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:153 - ReplaceConstant - 2.0 -> 3.0
+178	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:153 - ReplaceArithmeticOperator / -> +
+179	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:153 - ReplaceArithmeticOperator / -> %
+180	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:153 - ReplaceArithmeticOperator / -> -
+181	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:153 - ReplaceArithmeticOperator / -> *
+182	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:153 - ReplaceArithmeticOperator + -> %
+183	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:153 - ReplaceArithmeticOperator + -> -
+184	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:153 - ReplaceArithmeticOperator + -> *
+185	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustDownwards(DD)V:153 - ReplaceArithmeticOperator + -> /
+186	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:166 - ReplaceConstant - 1 -> 0
+187	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:166 - ReplaceArithmeticOperator - -> +
+188	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:166 - ReplaceArithmeticOperator - -> %
+189	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:166 - ReplaceArithmeticOperator - -> *
+190	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:166 - ReplaceArithmeticOperator - -> /
+191	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:166 - InsertUnaryOp Negation of i
+192	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:166 - InsertUnaryOp IINC 1 i
+193	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:166 - InsertUnaryOp IINC -1 i
+194	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:166 - ReplaceComparisonOperator <= -> -1
+195	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:166 - ReplaceComparisonOperator <= -> ==
+196	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:166 - ReplaceComparisonOperator <= -> <
+197	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:167 - InsertUnaryOp Negation of i
+198	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:167 - InsertUnaryOp IINC 1 i
+199	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:167 - InsertUnaryOp IINC -1 i
+200	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:168 - InsertUnaryOp Negation of i
+201	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:168 - InsertUnaryOp IINC 1 i
+202	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:168 - InsertUnaryOp IINC -1 i
+203	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:168 - ReplaceConstant - 1 -> 0
+204	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:168 - ReplaceArithmeticOperator - -> +
+205	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:168 - ReplaceArithmeticOperator - -> %
+206	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:168 - ReplaceArithmeticOperator - -> *
+207	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:168 - ReplaceArithmeticOperator - -> /
+208	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:169 - ReplaceComparisonOperator <= -> -1
+209	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:169 - ReplaceComparisonOperator <= -> ==
+210	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:169 - ReplaceComparisonOperator <= -> <
+211	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:170 - InsertUnaryOp Negation of minY
+212	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:171 - ReplaceConstant - 2.0 -> 0.0
+213	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:171 - ReplaceConstant - 2.0 -> 1.0
+214	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:171 - ReplaceConstant - 2.0 -> -1.0
+215	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:171 - ReplaceConstant - 2.0 -> 3.0
+216	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:171 - ReplaceArithmeticOperator / -> +
+217	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:171 - ReplaceArithmeticOperator / -> %
+218	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:171 - ReplaceArithmeticOperator / -> -
+219	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:171 - ReplaceArithmeticOperator / -> *
+220	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:171 - ReplaceArithmeticOperator + -> %
+221	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:171 - ReplaceArithmeticOperator + -> -
+222	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:171 - ReplaceArithmeticOperator + -> *
+223	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:171 - ReplaceArithmeticOperator + -> /
+224	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:171 - InsertUnaryOp Negation
+225	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:171 - ReplaceArithmeticOperator - -> +
+226	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:171 - ReplaceArithmeticOperator - -> %
+227	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:171 - ReplaceArithmeticOperator - -> *
+228	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:171 - ReplaceArithmeticOperator - -> /
+229	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:172 - ReplaceConstant - 2.0 -> 0.0
+230	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:172 - ReplaceConstant - 2.0 -> 1.0
+231	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:172 - ReplaceConstant - 2.0 -> -1.0
+232	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:172 - ReplaceConstant - 2.0 -> 3.0
+233	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:172 - ReplaceArithmeticOperator / -> +
+234	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:172 - ReplaceArithmeticOperator / -> %
+235	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:172 - ReplaceArithmeticOperator / -> -
+236	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:172 - ReplaceArithmeticOperator / -> *
+237	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:172 - ReplaceArithmeticOperator - -> +
+238	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:172 - ReplaceArithmeticOperator - -> %
+239	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:172 - ReplaceArithmeticOperator - -> *
+240	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.adjustUpwards(DD)V:172 - ReplaceArithmeticOperator - -> /
+241	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:185 - InsertUnaryOp Negation of minY
+242	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:186 - ReplaceConstant - 0.0 -> 1.0
+243	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:186 - ReplaceConstant - 0.0 -> -1.0
+244	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:187 - ReplaceConstant - 0 -> 1
+245	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:187 - InsertUnaryOp Negation of i
+246	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:187 - InsertUnaryOp IINC 1 i
+247	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:187 - InsertUnaryOp IINC -1 i
+248	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:187 - ReplaceComparisonOperator >= -> -1
+249	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:187 - ReplaceComparisonOperator >= -> >
+250	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:187 - ReplaceComparisonOperator >= -> ==
+251	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:188 - InsertUnaryOp Negation of sumOfLabelHeights
+252	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:188 - InsertUnaryOp Negation of i
+253	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:188 - InsertUnaryOp IINC 1 i
+254	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:188 - InsertUnaryOp IINC -1 i
+255	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:188 - ReplaceArithmeticOperator + -> %
+256	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:188 - ReplaceArithmeticOperator + -> -
+257	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:188 - ReplaceArithmeticOperator + -> *
+258	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:188 - ReplaceArithmeticOperator + -> /
+259	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:190 - InsertUnaryOp Negation of height
+260	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:190 - InsertUnaryOp Negation of sumOfLabelHeights
+261	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:190 - ReplaceArithmeticOperator - -> +
+262	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:190 - ReplaceArithmeticOperator - -> %
+263	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:190 - ReplaceArithmeticOperator - -> *
+264	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:190 - ReplaceArithmeticOperator - -> /
+265	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:191 - ReplaceConstant - 1 -> 0
+266	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:191 - ReplaceComparisonOperator <= -> -1
+267	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:191 - ReplaceComparisonOperator <= -> <
+268	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:191 - ReplaceComparisonOperator <= -> ==
+269	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:192 - InsertUnaryOp Negation of gap
+270	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:192 - ReplaceConstant - 1 -> 0
+271	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:192 - ReplaceArithmeticOperator - -> +
+272	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:192 - ReplaceArithmeticOperator - -> %
+273	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:192 - ReplaceArithmeticOperator - -> *
+274	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:192 - ReplaceArithmeticOperator - -> /
+275	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:192 - ReplaceArithmeticOperator / -> +
+276	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:192 - ReplaceArithmeticOperator / -> %
+277	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:192 - ReplaceArithmeticOperator / -> -
+278	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:192 - ReplaceArithmeticOperator / -> *
+279	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:194 - ReplaceConstant - 0 -> 1
+280	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:194 - InsertUnaryOp Negation of i
+281	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:194 - InsertUnaryOp IINC 1 i
+282	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:194 - InsertUnaryOp IINC -1 i
+283	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:194 - ReplaceComparisonOperator >= -> -1
+284	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:194 - ReplaceComparisonOperator >= -> >
+285	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:194 - ReplaceComparisonOperator >= -> ==
+286	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:195 - InsertUnaryOp Negation of i
+287	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:195 - InsertUnaryOp IINC 1 i
+288	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:195 - InsertUnaryOp IINC -1 i
+289	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:196 - InsertUnaryOp Negation of y
+290	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:196 - ReplaceConstant - 2.0 -> 0.0
+291	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:196 - ReplaceConstant - 2.0 -> 1.0
+292	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:196 - ReplaceConstant - 2.0 -> -1.0
+293	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:196 - ReplaceConstant - 2.0 -> 3.0
+294	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:196 - ReplaceArithmeticOperator / -> +
+295	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:196 - ReplaceArithmeticOperator / -> %
+296	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:196 - ReplaceArithmeticOperator / -> -
+297	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:196 - ReplaceArithmeticOperator / -> *
+298	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:196 - ReplaceArithmeticOperator + -> %
+299	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:196 - ReplaceArithmeticOperator + -> -
+300	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:196 - ReplaceArithmeticOperator + -> *
+301	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:196 - ReplaceArithmeticOperator + -> /
+302	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:197 - InsertUnaryOp Negation of y
+303	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - InsertUnaryOp Negation of y
+304	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - ReplaceConstant - 2.0 -> 0.0
+305	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - ReplaceConstant - 2.0 -> 1.0
+306	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - ReplaceConstant - 2.0 -> -1.0
+307	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - ReplaceConstant - 2.0 -> 3.0
+308	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - ReplaceArithmeticOperator / -> +
+309	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - ReplaceArithmeticOperator / -> %
+310	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - ReplaceArithmeticOperator / -> -
+311	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - ReplaceArithmeticOperator / -> *
+312	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - ReplaceArithmeticOperator + -> %
+313	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - ReplaceArithmeticOperator + -> -
+314	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - ReplaceArithmeticOperator + -> *
+315	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - ReplaceArithmeticOperator + -> /
+316	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - InsertUnaryOp Negation of gap
+317	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - ReplaceArithmeticOperator + -> %
+318	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - ReplaceArithmeticOperator + -> -
+319	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - ReplaceArithmeticOperator + -> *
+320	ReplaceArithmeticOperator	org.jfree.chart.plot.PieLabelDistributor.spreadEvenly(DD)V:198 - ReplaceArithmeticOperator + -> /
+321	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.toString()Ljava/lang/String;:218 - ReplaceConstant - 0 -> 1
+322	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.toString()Ljava/lang/String;:218 - InsertUnaryOp Negation of i
+323	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.toString()Ljava/lang/String;:218 - InsertUnaryOp IINC 1 i
+324	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.toString()Ljava/lang/String;:218 - InsertUnaryOp IINC -1 i
+325	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.toString()Ljava/lang/String;:218 - ReplaceComparisonOperator >= -> -1
+326	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.toString()Ljava/lang/String;:218 - ReplaceComparisonOperator >= -> >
+327	ReplaceComparisonOperator	org.jfree.chart.plot.PieLabelDistributor.toString()Ljava/lang/String;:218 - ReplaceComparisonOperator >= -> ==
+328	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.toString()Ljava/lang/String;:219 - InsertUnaryOp Negation of i
+329	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.toString()Ljava/lang/String;:219 - InsertUnaryOp IINC 1 i
+330	InsertUnaryOp	org.jfree.chart.plot.PieLabelDistributor.toString()Ljava/lang/String;:219 - InsertUnaryOp IINC -1 i
+331	ReplaceConstant	org.jfree.chart.plot.PieLabelDistributor.toString()Ljava/lang/String;:219 - ReplaceConstant - 
+ -> 

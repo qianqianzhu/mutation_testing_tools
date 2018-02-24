@@ -1,0 +1,54 @@
+0	ReplaceArithmeticOperator	org.dynjs.runtime.BoundFunction.figureBoundParameters(Lorg/dynjs/runtime/JSFunction;[Ljava/lang/Object;)[Ljava/lang/String;:13 - ReplaceArithmeticOperator - -> +
+1	ReplaceArithmeticOperator	org.dynjs.runtime.BoundFunction.figureBoundParameters(Lorg/dynjs/runtime/JSFunction;[Ljava/lang/Object;)[Ljava/lang/String;:13 - ReplaceArithmeticOperator - -> %
+2	ReplaceArithmeticOperator	org.dynjs.runtime.BoundFunction.figureBoundParameters(Lorg/dynjs/runtime/JSFunction;[Ljava/lang/Object;)[Ljava/lang/String;:13 - ReplaceArithmeticOperator - -> *
+3	ReplaceArithmeticOperator	org.dynjs.runtime.BoundFunction.figureBoundParameters(Lorg/dynjs/runtime/JSFunction;[Ljava/lang/Object;)[Ljava/lang/String;:13 - ReplaceArithmeticOperator - -> /
+4	InsertUnaryOp	org.dynjs.runtime.BoundFunction.figureBoundParameters(Lorg/dynjs/runtime/JSFunction;[Ljava/lang/Object;)[Ljava/lang/String;:15 - InsertUnaryOp Negation of numRemainingArgs
+5	InsertUnaryOp	org.dynjs.runtime.BoundFunction.figureBoundParameters(Lorg/dynjs/runtime/JSFunction;[Ljava/lang/Object;)[Ljava/lang/String;:15 - InsertUnaryOp IINC 1 numRemainingArgs
+6	InsertUnaryOp	org.dynjs.runtime.BoundFunction.figureBoundParameters(Lorg/dynjs/runtime/JSFunction;[Ljava/lang/Object;)[Ljava/lang/String;:15 - InsertUnaryOp IINC -1 numRemainingArgs
+7	ReplaceComparisonOperator	org.dynjs.runtime.BoundFunction.figureBoundParameters(Lorg/dynjs/runtime/JSFunction;[Ljava/lang/Object;)[Ljava/lang/String;:15 - ReplaceComparisonOperator > -> -2
+8	ReplaceComparisonOperator	org.dynjs.runtime.BoundFunction.figureBoundParameters(Lorg/dynjs/runtime/JSFunction;[Ljava/lang/Object;)[Ljava/lang/String;:15 - ReplaceComparisonOperator > -> !=
+9	ReplaceComparisonOperator	org.dynjs.runtime.BoundFunction.figureBoundParameters(Lorg/dynjs/runtime/JSFunction;[Ljava/lang/Object;)[Ljava/lang/String;:15 - ReplaceComparisonOperator > -> >=
+10	InsertUnaryOp	org.dynjs.runtime.BoundFunction.figureBoundParameters(Lorg/dynjs/runtime/JSFunction;[Ljava/lang/Object;)[Ljava/lang/String;:19 - InsertUnaryOp Negation of numRemainingArgs
+11	InsertUnaryOp	org.dynjs.runtime.BoundFunction.figureBoundParameters(Lorg/dynjs/runtime/JSFunction;[Ljava/lang/Object;)[Ljava/lang/String;:19 - InsertUnaryOp IINC 1 numRemainingArgs
+12	InsertUnaryOp	org.dynjs.runtime.BoundFunction.figureBoundParameters(Lorg/dynjs/runtime/JSFunction;[Ljava/lang/Object;)[Ljava/lang/String;:19 - InsertUnaryOp IINC -1 numRemainingArgs
+13	ReplaceConstant	org.dynjs.runtime.BoundFunction.figureBoundParameters(Lorg/dynjs/runtime/JSFunction;[Ljava/lang/Object;)[Ljava/lang/String;:20 - ReplaceConstant - 0 -> 1
+14	InsertUnaryOp	org.dynjs.runtime.BoundFunction.figureBoundParameters(Lorg/dynjs/runtime/JSFunction;[Ljava/lang/Object;)[Ljava/lang/String;:20 - InsertUnaryOp Negation of numRemainingArgs
+15	InsertUnaryOp	org.dynjs.runtime.BoundFunction.figureBoundParameters(Lorg/dynjs/runtime/JSFunction;[Ljava/lang/Object;)[Ljava/lang/String;:20 - InsertUnaryOp IINC 1 numRemainingArgs
+16	InsertUnaryOp	org.dynjs.runtime.BoundFunction.figureBoundParameters(Lorg/dynjs/runtime/JSFunction;[Ljava/lang/Object;)[Ljava/lang/String;:20 - InsertUnaryOp IINC -1 numRemainingArgs
+17	ReplaceConstant	org.dynjs.runtime.BoundFunction.<init>(Lorg/dynjs/runtime/GlobalContext;Lorg/dynjs/runtime/LexicalEnvironment;Lorg/dynjs/runtime/JSFunction;Ljava/lang/Object;[Ljava/lang/Object;)V:29 - ReplaceConstant - 1 -> 0
+18	ReplaceConstant	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:38 - ReplaceConstant - arguments -> 
+19	ReplaceConstant	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:39 - ReplaceConstant - length -> 
+20	InsertUnaryOp	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:40 - InsertUnaryOp Negation of numExtraArgs
+21	InsertUnaryOp	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:40 - InsertUnaryOp IINC 1 numExtraArgs
+22	InsertUnaryOp	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:40 - InsertUnaryOp IINC -1 numExtraArgs
+23	ReplaceArithmeticOperator	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:40 - ReplaceArithmeticOperator + -> %
+24	ReplaceArithmeticOperator	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:40 - ReplaceArithmeticOperator + -> -
+25	ReplaceArithmeticOperator	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:40 - ReplaceArithmeticOperator + -> *
+26	ReplaceArithmeticOperator	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:40 - ReplaceArithmeticOperator + -> /
+27	ReplaceConstant	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:42 - ReplaceConstant - 0 -> 1
+28	ReplaceConstant	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:42 - ReplaceConstant - 0 -> 1
+29	ReplaceConstant	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:44 - ReplaceConstant - 0 -> 1
+30	InsertUnaryOp	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:44 - InsertUnaryOp Negation of i
+31	InsertUnaryOp	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:44 - InsertUnaryOp IINC 1 i
+32	InsertUnaryOp	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:44 - InsertUnaryOp IINC -1 i
+33	InsertUnaryOp	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:44 - InsertUnaryOp Negation of numExtraArgs
+34	InsertUnaryOp	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:44 - InsertUnaryOp IINC 1 numExtraArgs
+35	InsertUnaryOp	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:44 - InsertUnaryOp IINC -1 numExtraArgs
+36	ReplaceComparisonOperator	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:44 - ReplaceComparisonOperator >= -> -1
+37	ReplaceComparisonOperator	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:44 - ReplaceComparisonOperator >= -> >
+38	ReplaceComparisonOperator	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:44 - ReplaceComparisonOperator >= -> ==
+39	InsertUnaryOp	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:45 - InsertUnaryOp Negation of i
+40	InsertUnaryOp	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:45 - InsertUnaryOp IINC 1 i
+41	InsertUnaryOp	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:45 - InsertUnaryOp IINC -1 i
+42	ReplaceComparisonOperator	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:46 - ReplaceComparisonOperator == -> -2
+43	ReplaceComparisonOperator	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:46 - ReplaceComparisonOperator == -> >=
+44	ReplaceComparisonOperator	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:46 - ReplaceComparisonOperator == -> <=
+45	InsertUnaryOp	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:49 - InsertUnaryOp Negation of i
+46	InsertUnaryOp	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:49 - InsertUnaryOp IINC 1 i
+47	InsertUnaryOp	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:49 - InsertUnaryOp IINC -1 i
+48	ReplaceArithmeticOperator	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:49 - ReplaceArithmeticOperator + -> %
+49	ReplaceArithmeticOperator	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:49 - ReplaceArithmeticOperator + -> -
+50	ReplaceArithmeticOperator	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:49 - ReplaceArithmeticOperator + -> *
+51	ReplaceArithmeticOperator	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:49 - ReplaceArithmeticOperator + -> /
+52	ReplaceVariable	org.dynjs.runtime.BoundFunction.call(Lorg/dynjs/runtime/ExecutionContext;)Ljava/lang/Object;:44 - ReplaceVariable i -> numExtraArgs
+53	ReplaceConstant	org.dynjs.runtime.BoundFunction.getDebugContext()Ljava/lang/String;:97 - ReplaceConstant - bound-function: -> 

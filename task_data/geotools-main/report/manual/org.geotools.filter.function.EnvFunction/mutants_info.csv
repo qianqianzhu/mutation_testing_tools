@@ -1,0 +1,84 @@
+0	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.setLocalValues(Ljava/util/Map;)V:177 - ReplaceComparisonOperator = null -> != null
+1	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.setLocalValues(Ljava/util/Map;)V:178 - ReplaceComparisonOperator == -> -2
+2	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.setLocalValues(Ljava/util/Map;)V:178 - ReplaceComparisonOperator == -> >=
+3	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.setLocalValues(Ljava/util/Map;)V:178 - ReplaceComparisonOperator == -> <=
+4	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.setGlobalValues(Ljava/util/Map;)V:202 - ReplaceComparisonOperator = null -> != null
+5	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.setGlobalValues(Ljava/util/Map;)V:203 - ReplaceComparisonOperator == -> -2
+6	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.setGlobalValues(Ljava/util/Map;)V:203 - ReplaceComparisonOperator == -> >=
+7	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.setGlobalValues(Ljava/util/Map;)V:203 - ReplaceComparisonOperator == -> <=
+8	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.removeLocalValue(Ljava/lang/String;)V:232 - ReplaceComparisonOperator = null -> != null
+9	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.removeGlobalValue(Ljava/lang/String;)V:255 - ReplaceComparisonOperator = null -> != null
+10	ReplaceConstant	org.geotools.filter.function.EnvFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:270 - ReplaceConstant - 0 -> 1
+11	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:274 - ReplaceComparisonOperator != null -> = null
+12	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:279 - ReplaceComparisonOperator != null -> = null
+13	InsertUnaryOp	org.geotools.filter.function.EnvFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:281 - InsertUnaryOp Negation of paramSize
+14	InsertUnaryOp	org.geotools.filter.function.EnvFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:281 - InsertUnaryOp IINC 1 paramSize
+15	InsertUnaryOp	org.geotools.filter.function.EnvFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:281 - InsertUnaryOp IINC -1 paramSize
+16	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:281 - ReplaceComparisonOperator <= -> -1
+17	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:281 - ReplaceComparisonOperator <= -> <
+18	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:281 - ReplaceComparisonOperator <= -> ==
+19	InsertUnaryOp	org.geotools.filter.function.EnvFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:282 - InsertUnaryOp Negation of paramSize
+20	InsertUnaryOp	org.geotools.filter.function.EnvFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:282 - InsertUnaryOp IINC 1 paramSize
+21	InsertUnaryOp	org.geotools.filter.function.EnvFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:282 - InsertUnaryOp IINC -1 paramSize
+22	ReplaceConstant	org.geotools.filter.function.EnvFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:282 - ReplaceConstant - 1 -> 0
+23	ReplaceArithmeticOperator	org.geotools.filter.function.EnvFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:282 - ReplaceArithmeticOperator - -> +
+24	ReplaceArithmeticOperator	org.geotools.filter.function.EnvFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:282 - ReplaceArithmeticOperator - -> %
+25	ReplaceArithmeticOperator	org.geotools.filter.function.EnvFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:282 - ReplaceArithmeticOperator - -> *
+26	ReplaceArithmeticOperator	org.geotools.filter.function.EnvFunction.evaluate(Ljava/lang/Object;)Ljava/lang/Object;:282 - ReplaceArithmeticOperator - -> /
+27	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:296 - ReplaceComparisonOperator != null -> = null
+28	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:297 - ReplaceConstant - params can't be null -> 
+29	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - InsertUnaryOp Negation of paramsSize
+30	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - InsertUnaryOp IINC 1 paramsSize
+31	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - InsertUnaryOp IINC -1 paramsSize
+32	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - InsertUnaryOp Negation of argCount
+33	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - InsertUnaryOp IINC 1 argCount
+34	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - InsertUnaryOp IINC -1 argCount
+35	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - ReplaceComparisonOperator < -> !=
+36	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - ReplaceComparisonOperator < -> -2
+37	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - ReplaceComparisonOperator < -> <=
+38	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - InsertUnaryOp Negation of paramsSize
+39	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - InsertUnaryOp IINC 1 paramsSize
+40	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - InsertUnaryOp IINC -1 paramsSize
+41	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - InsertUnaryOp Negation of argCount
+42	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - InsertUnaryOp IINC 1 argCount
+43	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - InsertUnaryOp IINC -1 argCount
+44	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - ReplaceConstant - 1 -> 0
+45	ReplaceArithmeticOperator	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - ReplaceArithmeticOperator + -> %
+46	ReplaceArithmeticOperator	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - ReplaceArithmeticOperator + -> -
+47	ReplaceArithmeticOperator	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - ReplaceArithmeticOperator + -> *
+48	ReplaceArithmeticOperator	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - ReplaceArithmeticOperator + -> /
+49	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - ReplaceComparisonOperator <= -> -1
+50	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - ReplaceComparisonOperator <= -> <
+51	ReplaceComparisonOperator	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:302 - ReplaceComparisonOperator <= -> ==
+52	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:303 - ReplaceConstant - Function %s expected %d or %d arguments but got %d -> 
+53	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:303 - ReplaceConstant - 4 -> 0
+54	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:303 - ReplaceConstant - 4 -> 1
+55	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:303 - ReplaceConstant - 4 -> -1
+56	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:303 - ReplaceConstant - 4 -> 3
+57	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:303 - ReplaceConstant - 4 -> 5
+58	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:303 - ReplaceConstant - 0 -> 1
+59	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:303 - ReplaceConstant - 1 -> 0
+60	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:303 - InsertUnaryOp Negation of argCount
+61	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:303 - InsertUnaryOp IINC 1 argCount
+62	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:303 - InsertUnaryOp IINC -1 argCount
+63	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - ReplaceConstant - 2 -> 0
+64	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - ReplaceConstant - 2 -> 1
+65	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - ReplaceConstant - 2 -> -1
+66	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - ReplaceConstant - 2 -> 3
+67	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - InsertUnaryOp Negation of argCount
+68	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - InsertUnaryOp IINC 1 argCount
+69	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - InsertUnaryOp IINC -1 argCount
+70	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - ReplaceConstant - 1 -> 0
+71	ReplaceArithmeticOperator	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - ReplaceArithmeticOperator + -> %
+72	ReplaceArithmeticOperator	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - ReplaceArithmeticOperator + -> -
+73	ReplaceArithmeticOperator	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - ReplaceArithmeticOperator + -> *
+74	ReplaceArithmeticOperator	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - ReplaceArithmeticOperator + -> /
+75	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - ReplaceConstant - 3 -> 0
+76	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - ReplaceConstant - 3 -> 1
+77	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - ReplaceConstant - 3 -> -1
+78	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - ReplaceConstant - 3 -> 2
+79	ReplaceConstant	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - ReplaceConstant - 3 -> 4
+80	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - InsertUnaryOp Negation of paramsSize
+81	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - InsertUnaryOp IINC 1 paramsSize
+82	InsertUnaryOp	org.geotools.filter.function.EnvFunction.setParameters(Ljava/util/List;)V:305 - InsertUnaryOp IINC -1 paramsSize
+83	ReplaceConstant	org.geotools.filter.function.EnvFunction.setFallbackValue(Lorg/opengis/filter/expression/Literal;)V:320 - ReplaceConstant - The setFallbackValue is not supported by this function.Use a second argument when calling the function to provide a default value. -> 

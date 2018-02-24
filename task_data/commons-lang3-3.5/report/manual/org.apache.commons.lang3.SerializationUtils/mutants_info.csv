@@ -1,0 +1,22 @@
+0	ReplaceComparisonOperator	org.apache.commons.lang3.SerializationUtils.clone(Ljava/io/Serializable;)Ljava/io/Serializable;:78 - ReplaceComparisonOperator != null -> = null
+1	ReplaceComparisonOperator	org.apache.commons.lang3.SerializationUtils.clone(Ljava/io/Serializable;)Ljava/io/Serializable;:103 - ReplaceComparisonOperator = null -> != null
+2	ReplaceConstant	org.apache.commons.lang3.SerializationUtils.clone(Ljava/io/Serializable;)Ljava/io/Serializable;:107 - ReplaceConstant - IOException on closing cloned object data InputStream. -> 
+3	ReplaceConstant	org.apache.commons.lang3.SerializationUtils.clone(Ljava/io/Serializable;)Ljava/io/Serializable;:98 - ReplaceConstant - ClassNotFoundException while reading cloned object data -> 
+4	ReplaceConstant	org.apache.commons.lang3.SerializationUtils.clone(Ljava/io/Serializable;)Ljava/io/Serializable;:100 - ReplaceConstant - IOException while reading cloned object data -> 
+5	ReplaceComparisonOperator	org.apache.commons.lang3.SerializationUtils.clone(Ljava/io/Serializable;)Ljava/io/Serializable;:103 - ReplaceComparisonOperator = null -> != null
+6	ReplaceConstant	org.apache.commons.lang3.SerializationUtils.clone(Ljava/io/Serializable;)Ljava/io/Serializable;:107 - ReplaceConstant - IOException on closing cloned object data InputStream. -> 
+7	ReplaceComparisonOperator	org.apache.commons.lang3.SerializationUtils.serialize(Ljava/io/Serializable;Ljava/io/OutputStream;)V:146 - ReplaceComparisonOperator != null -> = null
+8	ReplaceConstant	org.apache.commons.lang3.SerializationUtils.serialize(Ljava/io/Serializable;Ljava/io/OutputStream;)V:147 - ReplaceConstant - The OutputStream must not be null -> 
+9	ReplaceComparisonOperator	org.apache.commons.lang3.SerializationUtils.serialize(Ljava/io/Serializable;Ljava/io/OutputStream;)V:159 - ReplaceComparisonOperator = null -> != null
+10	ReplaceComparisonOperator	org.apache.commons.lang3.SerializationUtils.serialize(Ljava/io/Serializable;Ljava/io/OutputStream;)V:159 - ReplaceComparisonOperator = null -> != null
+11	ReplaceConstant	org.apache.commons.lang3.SerializationUtils.serialize(Ljava/io/Serializable;)[B:177 - ReplaceConstant - 512 -> 0
+12	ReplaceConstant	org.apache.commons.lang3.SerializationUtils.serialize(Ljava/io/Serializable;)[B:177 - ReplaceConstant - 512 -> 1
+13	ReplaceConstant	org.apache.commons.lang3.SerializationUtils.serialize(Ljava/io/Serializable;)[B:177 - ReplaceConstant - 512 -> -1
+14	ReplaceConstant	org.apache.commons.lang3.SerializationUtils.serialize(Ljava/io/Serializable;)[B:177 - ReplaceConstant - 512 -> 511
+15	ReplaceConstant	org.apache.commons.lang3.SerializationUtils.serialize(Ljava/io/Serializable;)[B:177 - ReplaceConstant - 512 -> 513
+16	ReplaceComparisonOperator	org.apache.commons.lang3.SerializationUtils.deserialize(Ljava/io/InputStream;)Ljava/lang/Object;:215 - ReplaceComparisonOperator != null -> = null
+17	ReplaceConstant	org.apache.commons.lang3.SerializationUtils.deserialize(Ljava/io/InputStream;)Ljava/lang/Object;:216 - ReplaceConstant - The InputStream must not be null -> 
+18	ReplaceComparisonOperator	org.apache.commons.lang3.SerializationUtils.deserialize(Ljava/io/InputStream;)Ljava/lang/Object;:232 - ReplaceComparisonOperator = null -> != null
+19	ReplaceComparisonOperator	org.apache.commons.lang3.SerializationUtils.deserialize(Ljava/io/InputStream;)Ljava/lang/Object;:232 - ReplaceComparisonOperator = null -> != null
+20	ReplaceComparisonOperator	org.apache.commons.lang3.SerializationUtils.deserialize([B)Ljava/lang/Object;:262 - ReplaceComparisonOperator != null -> = null
+21	ReplaceConstant	org.apache.commons.lang3.SerializationUtils.deserialize([B)Ljava/lang/Object;:263 - ReplaceConstant - The byte[] must not be null -> 

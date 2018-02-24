@@ -1,0 +1,246 @@
+0	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/ExcludeFilter;Ljava/lang/Object;)Ljava/lang/Object;:114 - ReplaceConstant - 0 -> 1
+1	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/IncludeFilter;Ljava/lang/Object;)Ljava/lang/Object;:118 - ReplaceConstant - 0 -> 1
+2	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:122 - ReplaceComparisonOperator = null -> != null
+3	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:123 - ReplaceComparisonOperator == -> -2
+4	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:123 - ReplaceComparisonOperator == -> >=
+5	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:123 - ReplaceComparisonOperator == -> <=
+6	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:123 - ReplaceConstant - 1 -> 0
+7	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/And;Ljava/lang/Object;)Ljava/lang/Object;:123 - ReplaceConstant - 0 -> 1
+8	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:127 - ReplaceComparisonOperator = null -> != null
+9	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:128 - ReplaceComparisonOperator != -> -1
+10	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:128 - ReplaceComparisonOperator != -> <
+11	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:128 - ReplaceComparisonOperator != -> >
+12	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:129 - ReplaceComparisonOperator == -> -2
+13	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:129 - ReplaceComparisonOperator == -> >=
+14	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:129 - ReplaceComparisonOperator == -> <=
+15	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:129 - ReplaceConstant - 1 -> 0
+16	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Id;Ljava/lang/Object;)Ljava/lang/Object;:129 - ReplaceConstant - 0 -> 1
+17	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:133 - ReplaceComparisonOperator = null -> != null
+18	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:134 - ReplaceComparisonOperator == -> -2
+19	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:134 - ReplaceComparisonOperator == -> >=
+20	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:134 - ReplaceComparisonOperator == -> <=
+21	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:134 - ReplaceConstant - 1 -> 0
+22	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Not;Ljava/lang/Object;)Ljava/lang/Object;:134 - ReplaceConstant - 0 -> 1
+23	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:138 - ReplaceComparisonOperator = null -> != null
+24	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:139 - ReplaceComparisonOperator == -> -2
+25	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:139 - ReplaceComparisonOperator == -> >=
+26	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:139 - ReplaceComparisonOperator == -> <=
+27	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:139 - ReplaceConstant - 1 -> 0
+28	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/Or;Ljava/lang/Object;)Ljava/lang/Object;:139 - ReplaceConstant - 0 -> 1
+29	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsBetween;Ljava/lang/Object;)Ljava/lang/Object;:144 - ReplaceComparisonOperator != null -> = null
+30	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsBetween;Ljava/lang/Object;)Ljava/lang/Object;:144 - ReplaceConstant - 0 -> 1
+31	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsBetween;Ljava/lang/Object;)Ljava/lang/Object;:147 - ReplaceComparisonOperator != null -> = null
+32	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsBetween;Ljava/lang/Object;)Ljava/lang/Object;:147 - ReplaceConstant - 0 -> 1
+33	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsBetween;Ljava/lang/Object;)Ljava/lang/Object;:149 - ReplaceConstant - Between -> 
+34	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsBetween;Ljava/lang/Object;)Ljava/lang/Object;:149 - ReplaceComparisonOperator = null -> != null
+35	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsBetween;Ljava/lang/Object;)Ljava/lang/Object;:149 - ReplaceConstant - 1 -> 0
+36	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsBetween;Ljava/lang/Object;)Ljava/lang/Object;:149 - ReplaceConstant - 0 -> 1
+37	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:154 - ReplaceComparisonOperator != null -> = null
+38	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:154 - ReplaceConstant - 0 -> 1
+39	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:157 - ReplaceComparisonOperator != null -> = null
+40	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:157 - ReplaceConstant - 0 -> 1
+41	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:159 - ReplaceConstant - EqualTo -> 
+42	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:159 - ReplaceComparisonOperator = null -> != null
+43	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:159 - ReplaceConstant - 1 -> 0
+44	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:159 - ReplaceConstant - 0 -> 1
+45	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNotEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:164 - ReplaceComparisonOperator != null -> = null
+46	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNotEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:164 - ReplaceConstant - 0 -> 1
+47	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNotEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:167 - ReplaceComparisonOperator != null -> = null
+48	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNotEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:167 - ReplaceConstant - 0 -> 1
+49	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNotEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:169 - ReplaceConstant - NotEqualTo -> 
+50	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNotEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:169 - ReplaceComparisonOperator = null -> != null
+51	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNotEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:169 - ReplaceConstant - 1 -> 0
+52	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNotEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:169 - ReplaceConstant - 0 -> 1
+53	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsGreaterThan;Ljava/lang/Object;)Ljava/lang/Object;:174 - ReplaceComparisonOperator != null -> = null
+54	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsGreaterThan;Ljava/lang/Object;)Ljava/lang/Object;:174 - ReplaceConstant - 0 -> 1
+55	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsGreaterThan;Ljava/lang/Object;)Ljava/lang/Object;:177 - ReplaceComparisonOperator != null -> = null
+56	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsGreaterThan;Ljava/lang/Object;)Ljava/lang/Object;:177 - ReplaceConstant - 0 -> 1
+57	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsGreaterThan;Ljava/lang/Object;)Ljava/lang/Object;:179 - ReplaceConstant - GreaterThan -> 
+58	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsGreaterThan;Ljava/lang/Object;)Ljava/lang/Object;:179 - ReplaceComparisonOperator = null -> != null
+59	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsGreaterThan;Ljava/lang/Object;)Ljava/lang/Object;:179 - ReplaceConstant - 1 -> 0
+60	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsGreaterThan;Ljava/lang/Object;)Ljava/lang/Object;:179 - ReplaceConstant - 0 -> 1
+61	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsGreaterThanOrEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:184 - ReplaceComparisonOperator != null -> = null
+62	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsGreaterThanOrEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:184 - ReplaceConstant - 0 -> 1
+63	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsGreaterThanOrEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:187 - ReplaceComparisonOperator != null -> = null
+64	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsGreaterThanOrEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:187 - ReplaceConstant - 0 -> 1
+65	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsGreaterThanOrEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:189 - ReplaceConstant - GreaterThanOrEqualTo -> 
+66	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsGreaterThanOrEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:189 - ReplaceComparisonOperator = null -> != null
+67	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsGreaterThanOrEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:189 - ReplaceConstant - 1 -> 0
+68	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsGreaterThanOrEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:189 - ReplaceConstant - 0 -> 1
+69	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLessThan;Ljava/lang/Object;)Ljava/lang/Object;:194 - ReplaceComparisonOperator != null -> = null
+70	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLessThan;Ljava/lang/Object;)Ljava/lang/Object;:194 - ReplaceConstant - 0 -> 1
+71	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLessThan;Ljava/lang/Object;)Ljava/lang/Object;:197 - ReplaceComparisonOperator != null -> = null
+72	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLessThan;Ljava/lang/Object;)Ljava/lang/Object;:197 - ReplaceConstant - 0 -> 1
+73	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLessThan;Ljava/lang/Object;)Ljava/lang/Object;:199 - ReplaceConstant - LessThan -> 
+74	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLessThan;Ljava/lang/Object;)Ljava/lang/Object;:199 - ReplaceComparisonOperator = null -> != null
+75	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLessThan;Ljava/lang/Object;)Ljava/lang/Object;:199 - ReplaceConstant - 1 -> 0
+76	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLessThan;Ljava/lang/Object;)Ljava/lang/Object;:199 - ReplaceConstant - 0 -> 1
+77	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLessThanOrEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:204 - ReplaceComparisonOperator != null -> = null
+78	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLessThanOrEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:204 - ReplaceConstant - 0 -> 1
+79	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLessThanOrEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:207 - ReplaceComparisonOperator != null -> = null
+80	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLessThanOrEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:207 - ReplaceConstant - 0 -> 1
+81	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLessThanOrEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:209 - ReplaceConstant - LessThanOrEqualTo -> 
+82	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLessThanOrEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:209 - ReplaceComparisonOperator = null -> != null
+83	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLessThanOrEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:209 - ReplaceConstant - 1 -> 0
+84	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLessThanOrEqualTo;Ljava/lang/Object;)Ljava/lang/Object;:209 - ReplaceConstant - 0 -> 1
+85	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLike;Ljava/lang/Object;)Ljava/lang/Object;:214 - ReplaceComparisonOperator != null -> = null
+86	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLike;Ljava/lang/Object;)Ljava/lang/Object;:214 - ReplaceConstant - 0 -> 1
+87	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLike;Ljava/lang/Object;)Ljava/lang/Object;:217 - ReplaceComparisonOperator != null -> = null
+88	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLike;Ljava/lang/Object;)Ljava/lang/Object;:217 - ReplaceConstant - 0 -> 1
+89	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLike;Ljava/lang/Object;)Ljava/lang/Object;:219 - ReplaceConstant - Like -> 
+90	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLike;Ljava/lang/Object;)Ljava/lang/Object;:219 - ReplaceComparisonOperator = null -> != null
+91	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLike;Ljava/lang/Object;)Ljava/lang/Object;:219 - ReplaceConstant - 1 -> 0
+92	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsLike;Ljava/lang/Object;)Ljava/lang/Object;:219 - ReplaceConstant - 0 -> 1
+93	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNull;Ljava/lang/Object;)Ljava/lang/Object;:224 - ReplaceComparisonOperator != null -> = null
+94	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNull;Ljava/lang/Object;)Ljava/lang/Object;:224 - ReplaceConstant - 0 -> 1
+95	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNull;Ljava/lang/Object;)Ljava/lang/Object;:227 - ReplaceComparisonOperator != null -> = null
+96	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNull;Ljava/lang/Object;)Ljava/lang/Object;:227 - ReplaceConstant - 0 -> 1
+97	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNull;Ljava/lang/Object;)Ljava/lang/Object;:229 - ReplaceConstant - NullCheck -> 
+98	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNull;Ljava/lang/Object;)Ljava/lang/Object;:229 - ReplaceComparisonOperator = null -> != null
+99	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNull;Ljava/lang/Object;)Ljava/lang/Object;:229 - ReplaceConstant - 1 -> 0
+100	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNull;Ljava/lang/Object;)Ljava/lang/Object;:229 - ReplaceConstant - 0 -> 1
+101	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNil;Ljava/lang/Object;)Ljava/lang/Object;:234 - ReplaceComparisonOperator != null -> = null
+102	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNil;Ljava/lang/Object;)Ljava/lang/Object;:234 - ReplaceConstant - 0 -> 1
+103	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNil;Ljava/lang/Object;)Ljava/lang/Object;:237 - ReplaceComparisonOperator != null -> = null
+104	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNil;Ljava/lang/Object;)Ljava/lang/Object;:237 - ReplaceConstant - 0 -> 1
+105	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNil;Ljava/lang/Object;)Ljava/lang/Object;:239 - ReplaceConstant - Nil -> 
+106	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNil;Ljava/lang/Object;)Ljava/lang/Object;:239 - ReplaceComparisonOperator = null -> != null
+107	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNil;Ljava/lang/Object;)Ljava/lang/Object;:239 - ReplaceConstant - 1 -> 0
+108	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/PropertyIsNil;Ljava/lang/Object;)Ljava/lang/Object;:239 - ReplaceConstant - 0 -> 1
+109	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/BBOX;Ljava/lang/Object;)Ljava/lang/Object;:244 - ReplaceComparisonOperator != null -> = null
+110	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/BBOX;Ljava/lang/Object;)Ljava/lang/Object;:244 - ReplaceConstant - 0 -> 1
+111	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/BBOX;Ljava/lang/Object;)Ljava/lang/Object;:247 - ReplaceComparisonOperator != null -> = null
+112	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/BBOX;Ljava/lang/Object;)Ljava/lang/Object;:247 - ReplaceConstant - 0 -> 1
+113	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/BBOX;Ljava/lang/Object;)Ljava/lang/Object;:249 - ReplaceConstant - BBOX -> 
+114	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/BBOX;Ljava/lang/Object;)Ljava/lang/Object;:249 - ReplaceComparisonOperator = null -> != null
+115	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/BBOX;Ljava/lang/Object;)Ljava/lang/Object;:249 - ReplaceConstant - 1 -> 0
+116	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/BBOX;Ljava/lang/Object;)Ljava/lang/Object;:249 - ReplaceConstant - 0 -> 1
+117	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Beyond;Ljava/lang/Object;)Ljava/lang/Object;:254 - ReplaceComparisonOperator != null -> = null
+118	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Beyond;Ljava/lang/Object;)Ljava/lang/Object;:254 - ReplaceConstant - 0 -> 1
+119	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Beyond;Ljava/lang/Object;)Ljava/lang/Object;:257 - ReplaceComparisonOperator != null -> = null
+120	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Beyond;Ljava/lang/Object;)Ljava/lang/Object;:257 - ReplaceConstant - 0 -> 1
+121	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Beyond;Ljava/lang/Object;)Ljava/lang/Object;:259 - ReplaceConstant - Beyond -> 
+122	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Beyond;Ljava/lang/Object;)Ljava/lang/Object;:259 - ReplaceComparisonOperator = null -> != null
+123	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Beyond;Ljava/lang/Object;)Ljava/lang/Object;:259 - ReplaceConstant - 1 -> 0
+124	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Beyond;Ljava/lang/Object;)Ljava/lang/Object;:259 - ReplaceConstant - 0 -> 1
+125	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Contains;Ljava/lang/Object;)Ljava/lang/Object;:264 - ReplaceComparisonOperator != null -> = null
+126	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Contains;Ljava/lang/Object;)Ljava/lang/Object;:264 - ReplaceConstant - 0 -> 1
+127	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Contains;Ljava/lang/Object;)Ljava/lang/Object;:267 - ReplaceComparisonOperator != null -> = null
+128	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Contains;Ljava/lang/Object;)Ljava/lang/Object;:267 - ReplaceConstant - 0 -> 1
+129	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Contains;Ljava/lang/Object;)Ljava/lang/Object;:269 - ReplaceConstant - Contains -> 
+130	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Contains;Ljava/lang/Object;)Ljava/lang/Object;:269 - ReplaceComparisonOperator = null -> != null
+131	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Contains;Ljava/lang/Object;)Ljava/lang/Object;:269 - ReplaceConstant - 1 -> 0
+132	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Contains;Ljava/lang/Object;)Ljava/lang/Object;:269 - ReplaceConstant - 0 -> 1
+133	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Crosses;Ljava/lang/Object;)Ljava/lang/Object;:274 - ReplaceComparisonOperator != null -> = null
+134	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Crosses;Ljava/lang/Object;)Ljava/lang/Object;:274 - ReplaceConstant - 0 -> 1
+135	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Crosses;Ljava/lang/Object;)Ljava/lang/Object;:277 - ReplaceComparisonOperator != null -> = null
+136	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Crosses;Ljava/lang/Object;)Ljava/lang/Object;:277 - ReplaceConstant - 0 -> 1
+137	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Crosses;Ljava/lang/Object;)Ljava/lang/Object;:279 - ReplaceConstant - Crosses -> 
+138	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Crosses;Ljava/lang/Object;)Ljava/lang/Object;:279 - ReplaceComparisonOperator = null -> != null
+139	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Crosses;Ljava/lang/Object;)Ljava/lang/Object;:279 - ReplaceConstant - 1 -> 0
+140	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Crosses;Ljava/lang/Object;)Ljava/lang/Object;:279 - ReplaceConstant - 0 -> 1
+141	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Disjoint;Ljava/lang/Object;)Ljava/lang/Object;:284 - ReplaceComparisonOperator != null -> = null
+142	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Disjoint;Ljava/lang/Object;)Ljava/lang/Object;:284 - ReplaceConstant - 0 -> 1
+143	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Disjoint;Ljava/lang/Object;)Ljava/lang/Object;:287 - ReplaceComparisonOperator != null -> = null
+144	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Disjoint;Ljava/lang/Object;)Ljava/lang/Object;:287 - ReplaceConstant - 0 -> 1
+145	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Disjoint;Ljava/lang/Object;)Ljava/lang/Object;:289 - ReplaceConstant - Disjoint -> 
+146	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Disjoint;Ljava/lang/Object;)Ljava/lang/Object;:289 - ReplaceComparisonOperator = null -> != null
+147	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Disjoint;Ljava/lang/Object;)Ljava/lang/Object;:289 - ReplaceConstant - 1 -> 0
+148	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Disjoint;Ljava/lang/Object;)Ljava/lang/Object;:289 - ReplaceConstant - 0 -> 1
+149	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/DWithin;Ljava/lang/Object;)Ljava/lang/Object;:294 - ReplaceComparisonOperator != null -> = null
+150	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/DWithin;Ljava/lang/Object;)Ljava/lang/Object;:294 - ReplaceConstant - 0 -> 1
+151	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/DWithin;Ljava/lang/Object;)Ljava/lang/Object;:297 - ReplaceComparisonOperator != null -> = null
+152	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/DWithin;Ljava/lang/Object;)Ljava/lang/Object;:297 - ReplaceConstant - 0 -> 1
+153	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/DWithin;Ljava/lang/Object;)Ljava/lang/Object;:299 - ReplaceConstant - DWithin -> 
+154	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/DWithin;Ljava/lang/Object;)Ljava/lang/Object;:299 - ReplaceComparisonOperator = null -> != null
+155	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/DWithin;Ljava/lang/Object;)Ljava/lang/Object;:299 - ReplaceConstant - 1 -> 0
+156	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/DWithin;Ljava/lang/Object;)Ljava/lang/Object;:299 - ReplaceConstant - 0 -> 1
+157	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Equals;Ljava/lang/Object;)Ljava/lang/Object;:304 - ReplaceComparisonOperator != null -> = null
+158	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Equals;Ljava/lang/Object;)Ljava/lang/Object;:304 - ReplaceConstant - 0 -> 1
+159	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Equals;Ljava/lang/Object;)Ljava/lang/Object;:307 - ReplaceComparisonOperator != null -> = null
+160	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Equals;Ljava/lang/Object;)Ljava/lang/Object;:307 - ReplaceConstant - 0 -> 1
+161	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Equals;Ljava/lang/Object;)Ljava/lang/Object;:309 - ReplaceConstant - Equals -> 
+162	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Equals;Ljava/lang/Object;)Ljava/lang/Object;:309 - ReplaceComparisonOperator = null -> != null
+163	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Equals;Ljava/lang/Object;)Ljava/lang/Object;:309 - ReplaceConstant - 1 -> 0
+164	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Equals;Ljava/lang/Object;)Ljava/lang/Object;:309 - ReplaceConstant - 0 -> 1
+165	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Intersects;Ljava/lang/Object;)Ljava/lang/Object;:314 - ReplaceComparisonOperator != null -> = null
+166	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Intersects;Ljava/lang/Object;)Ljava/lang/Object;:314 - ReplaceConstant - 0 -> 1
+167	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Intersects;Ljava/lang/Object;)Ljava/lang/Object;:317 - ReplaceComparisonOperator != null -> = null
+168	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Intersects;Ljava/lang/Object;)Ljava/lang/Object;:317 - ReplaceConstant - 0 -> 1
+169	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Intersects;Ljava/lang/Object;)Ljava/lang/Object;:319 - ReplaceConstant - Intersects -> 
+170	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Intersects;Ljava/lang/Object;)Ljava/lang/Object;:319 - ReplaceComparisonOperator = null -> != null
+171	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Intersects;Ljava/lang/Object;)Ljava/lang/Object;:319 - ReplaceConstant - 1 -> 0
+172	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Intersects;Ljava/lang/Object;)Ljava/lang/Object;:319 - ReplaceConstant - 0 -> 1
+173	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Overlaps;Ljava/lang/Object;)Ljava/lang/Object;:324 - ReplaceComparisonOperator != null -> = null
+174	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Overlaps;Ljava/lang/Object;)Ljava/lang/Object;:324 - ReplaceConstant - 0 -> 1
+175	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Overlaps;Ljava/lang/Object;)Ljava/lang/Object;:327 - ReplaceComparisonOperator != null -> = null
+176	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Overlaps;Ljava/lang/Object;)Ljava/lang/Object;:327 - ReplaceConstant - 0 -> 1
+177	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Overlaps;Ljava/lang/Object;)Ljava/lang/Object;:329 - ReplaceConstant - Overlaps -> 
+178	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Overlaps;Ljava/lang/Object;)Ljava/lang/Object;:329 - ReplaceComparisonOperator = null -> != null
+179	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Overlaps;Ljava/lang/Object;)Ljava/lang/Object;:329 - ReplaceConstant - 1 -> 0
+180	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Overlaps;Ljava/lang/Object;)Ljava/lang/Object;:329 - ReplaceConstant - 0 -> 1
+181	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Touches;Ljava/lang/Object;)Ljava/lang/Object;:334 - ReplaceComparisonOperator != null -> = null
+182	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Touches;Ljava/lang/Object;)Ljava/lang/Object;:334 - ReplaceConstant - 0 -> 1
+183	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Touches;Ljava/lang/Object;)Ljava/lang/Object;:337 - ReplaceComparisonOperator != null -> = null
+184	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Touches;Ljava/lang/Object;)Ljava/lang/Object;:337 - ReplaceConstant - 0 -> 1
+185	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Touches;Ljava/lang/Object;)Ljava/lang/Object;:339 - ReplaceConstant - Touches -> 
+186	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Touches;Ljava/lang/Object;)Ljava/lang/Object;:339 - ReplaceComparisonOperator = null -> != null
+187	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Touches;Ljava/lang/Object;)Ljava/lang/Object;:339 - ReplaceConstant - 1 -> 0
+188	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Touches;Ljava/lang/Object;)Ljava/lang/Object;:339 - ReplaceConstant - 0 -> 1
+189	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Within;Ljava/lang/Object;)Ljava/lang/Object;:344 - ReplaceComparisonOperator != null -> = null
+190	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Within;Ljava/lang/Object;)Ljava/lang/Object;:344 - ReplaceConstant - 0 -> 1
+191	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Within;Ljava/lang/Object;)Ljava/lang/Object;:347 - ReplaceComparisonOperator != null -> = null
+192	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Within;Ljava/lang/Object;)Ljava/lang/Object;:347 - ReplaceConstant - 0 -> 1
+193	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Within;Ljava/lang/Object;)Ljava/lang/Object;:349 - ReplaceConstant - Within -> 
+194	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Within;Ljava/lang/Object;)Ljava/lang/Object;:349 - ReplaceComparisonOperator = null -> != null
+195	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Within;Ljava/lang/Object;)Ljava/lang/Object;:349 - ReplaceConstant - 1 -> 0
+196	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/spatial/Within;Ljava/lang/Object;)Ljava/lang/Object;:349 - ReplaceConstant - 0 -> 1
+197	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visitNullFilter(Ljava/lang/Object;)Ljava/lang/Object;:353 - ReplaceConstant - 0 -> 1
+198	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/NilExpression;Ljava/lang/Object;)Ljava/lang/Object;:361 - ReplaceConstant - 0 -> 1
+199	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Add;Ljava/lang/Object;)Ljava/lang/Object;:366 - ReplaceComparisonOperator != null -> = null
+200	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Add;Ljava/lang/Object;)Ljava/lang/Object;:366 - ReplaceConstant - 0 -> 1
+201	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Add;Ljava/lang/Object;)Ljava/lang/Object;:369 - ReplaceComparisonOperator != null -> = null
+202	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Add;Ljava/lang/Object;)Ljava/lang/Object;:369 - ReplaceConstant - 0 -> 1
+203	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Divide;Ljava/lang/Object;)Ljava/lang/Object;:376 - ReplaceComparisonOperator != null -> = null
+204	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Divide;Ljava/lang/Object;)Ljava/lang/Object;:376 - ReplaceConstant - 0 -> 1
+205	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Divide;Ljava/lang/Object;)Ljava/lang/Object;:379 - ReplaceComparisonOperator != null -> = null
+206	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Divide;Ljava/lang/Object;)Ljava/lang/Object;:379 - ReplaceConstant - 0 -> 1
+207	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:386 - ReplaceComparisonOperator != null -> = null
+208	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:386 - ReplaceConstant - 0 -> 1
+209	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:389 - ReplaceComparisonOperator != null -> = null
+210	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:389 - ReplaceConstant - 0 -> 1
+211	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:392 - ReplaceComparisonOperator != null -> = null
+212	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:392 - ReplaceConstant - 0 -> 1
+213	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:397 - ReplaceComparisonOperator = null -> != null
+214	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:397 - ReplaceConstant - 1 -> 0
+215	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Function;Ljava/lang/Object;)Ljava/lang/Object;:397 - ReplaceConstant - 0 -> 1
+216	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Literal;Ljava/lang/Object;)Ljava/lang/Object;:401 - ReplaceConstant - 1 -> 0
+217	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Multiply;Ljava/lang/Object;)Ljava/lang/Object;:406 - ReplaceComparisonOperator != null -> = null
+218	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Multiply;Ljava/lang/Object;)Ljava/lang/Object;:406 - ReplaceConstant - 0 -> 1
+219	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Multiply;Ljava/lang/Object;)Ljava/lang/Object;:409 - ReplaceComparisonOperator != null -> = null
+220	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Multiply;Ljava/lang/Object;)Ljava/lang/Object;:409 - ReplaceConstant - 0 -> 1
+221	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/PropertyName;Ljava/lang/Object;)Ljava/lang/Object;:419 - ReplaceConstant - 1 -> 0
+222	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Subtract;Ljava/lang/Object;)Ljava/lang/Object;:424 - ReplaceComparisonOperator != null -> = null
+223	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Subtract;Ljava/lang/Object;)Ljava/lang/Object;:424 - ReplaceConstant - 0 -> 1
+224	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Subtract;Ljava/lang/Object;)Ljava/lang/Object;:427 - ReplaceComparisonOperator != null -> = null
+225	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/expression/Subtract;Ljava/lang/Object;)Ljava/lang/Object;:427 - ReplaceConstant - 0 -> 1
+226	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/After;Ljava/lang/Object;)Ljava/lang/Object;:433 - ReplaceConstant - After -> 
+227	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/AnyInteracts;Ljava/lang/Object;)Ljava/lang/Object;:437 - ReplaceConstant - AnyInteracts -> 
+228	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/Before;Ljava/lang/Object;)Ljava/lang/Object;:441 - ReplaceConstant - Before -> 
+229	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/Begins;Ljava/lang/Object;)Ljava/lang/Object;:445 - ReplaceConstant - Begins -> 
+230	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/During;Ljava/lang/Object;)Ljava/lang/Object;:453 - ReplaceConstant - During -> 
+231	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/EndedBy;Ljava/lang/Object;)Ljava/lang/Object;:457 - ReplaceConstant - EndedBy -> 
+232	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/Ends;Ljava/lang/Object;)Ljava/lang/Object;:461 - ReplaceConstant - Ends -> 
+233	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/Meets;Ljava/lang/Object;)Ljava/lang/Object;:465 - ReplaceConstant - Meets -> 
+234	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/MetBy;Ljava/lang/Object;)Ljava/lang/Object;:469 - ReplaceConstant - MetBy -> 
+235	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/OverlappedBy;Ljava/lang/Object;)Ljava/lang/Object;:473 - ReplaceConstant - OverlappedBy -> 
+236	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/TContains;Ljava/lang/Object;)Ljava/lang/Object;:477 - ReplaceConstant - TContains -> 
+237	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/TEquals;Ljava/lang/Object;)Ljava/lang/Object;:481 - ReplaceConstant - TEquals -> 
+238	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/TOverlaps;Ljava/lang/Object;)Ljava/lang/Object;:485 - ReplaceConstant - TOverlaps -> 
+239	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/BinaryTemporalOperator;Ljava/lang/Object;)Ljava/lang/Object;:490 - ReplaceComparisonOperator != null -> = null
+240	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/BinaryTemporalOperator;Ljava/lang/Object;)Ljava/lang/Object;:490 - ReplaceConstant - 0 -> 1
+241	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/BinaryTemporalOperator;Ljava/lang/Object;)Ljava/lang/Object;:493 - ReplaceComparisonOperator != null -> = null
+242	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/BinaryTemporalOperator;Ljava/lang/Object;)Ljava/lang/Object;:493 - ReplaceConstant - 0 -> 1
+243	ReplaceComparisonOperator	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/BinaryTemporalOperator;Ljava/lang/Object;)Ljava/lang/Object;:495 - ReplaceComparisonOperator = null -> != null
+244	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/BinaryTemporalOperator;Ljava/lang/Object;)Ljava/lang/Object;:495 - ReplaceConstant - 1 -> 0
+245	ReplaceConstant	org.geotools.filter.visitor.IsSupportedFilterVisitor.visit(Lorg/opengis/filter/temporal/BinaryTemporalOperator;Ljava/lang/Object;)Ljava/lang/Object;:495 - ReplaceConstant - 0 -> 1

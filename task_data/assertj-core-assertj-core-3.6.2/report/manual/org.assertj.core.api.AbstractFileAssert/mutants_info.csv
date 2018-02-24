@@ -1,0 +1,8 @@
+0	ReplaceComparisonOperator	org.assertj.core.api.AbstractFileAssert.usingCharset(Ljava/lang/String;)Lorg/assertj/core/api/AbstractFileAssert;:342 - ReplaceComparisonOperator != -> -1
+1	ReplaceComparisonOperator	org.assertj.core.api.AbstractFileAssert.usingCharset(Ljava/lang/String;)Lorg/assertj/core/api/AbstractFileAssert;:342 - ReplaceComparisonOperator != -> <
+2	ReplaceComparisonOperator	org.assertj.core.api.AbstractFileAssert.usingCharset(Ljava/lang/String;)Lorg/assertj/core/api/AbstractFileAssert;:342 - ReplaceComparisonOperator != -> >
+3	ReplaceConstant	org.assertj.core.api.AbstractFileAssert.usingCharset(Ljava/lang/String;)Lorg/assertj/core/api/AbstractFileAssert;:343 - ReplaceConstant - Charset:<'%s'> is not supported on this system -> 
+4	ReplaceConstant	org.assertj.core.api.AbstractFileAssert.usingCharset(Ljava/lang/String;)Lorg/assertj/core/api/AbstractFileAssert;:343 - ReplaceConstant - 1 -> 0
+5	ReplaceConstant	org.assertj.core.api.AbstractFileAssert.usingCharset(Ljava/lang/String;)Lorg/assertj/core/api/AbstractFileAssert;:343 - ReplaceConstant - 0 -> 1
+6	ReplaceConstant	org.assertj.core.api.AbstractFileAssert.usingCharset(Ljava/nio/charset/Charset;)Lorg/assertj/core/api/AbstractFileAssert;:355 - ReplaceConstant - The charset should not be null -> 
+7	ReplaceComparisonOperator	org.assertj.core.api.AbstractFileAssert.hasParent(Ljava/lang/String;)Lorg/assertj/core/api/AbstractFileAssert;:498 - ReplaceComparisonOperator = null -> != null
