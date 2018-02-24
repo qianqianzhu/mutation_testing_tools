@@ -1,4 +1,6 @@
 # mutation testing tools
+[![DOI](https://zenodo.org/badge/122769075.svg)](https://zenodo.org/badge/latestdoi/122769075)
+
 Sharing self-developed tools in mutation testing research
 
 Qianqian Zhu, Annibale Panichella, Andy Zaidman. Speeding-up mutation testing via data compression and state infection
